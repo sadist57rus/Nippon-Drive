@@ -348,6 +348,10 @@ function AppContent() {
               <h2 id="more-screen-title" className="text-xl font-black text-slate-900 dark:text-white">Дополнительные разделы</h2>
               <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">Справочные разделы и настройки</p>
             </div>
+            <button type="button" onClick={() => setIsApkGuideOpen(true)} className="flex min-h-14 w-full items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-left font-semibold text-slate-900 transition hover:border-red-400 dark:border-slate-800 dark:bg-slate-900 dark:text-white">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-slate-100 text-red-600 dark:bg-slate-800 dark:text-red-400"><Smartphone aria-hidden="true" size={24} /></span>
+              <span>Сборка APK на GitHub</span>
+            </button>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4" data-testid="more-screen-grid">
               {Object.entries(tabTitles).filter(([id]) => !primaryNavigation.includes(id as TabId) && id !== 'more').map(([id, item]) => {
                 const sectionId = id as TabId;

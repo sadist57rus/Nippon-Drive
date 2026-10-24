@@ -182,6 +182,11 @@ for (const viewport of viewports) {
       await expect(page.getByTestId('header-section-title')).toHaveText('Главная');
       await expect(page.getByRole('button', { name: /Изменить автомобиль|Выбрать автомобиль/i })).toBeVisible();
 
+      const moreTriggerForApk = await phoneNav.isVisible().catch(() => false)
+        ? page.getByTestId('phone-more-trigger')
+        : page.getByTestId('wide-more-trigger');
+      await moreTriggerForApk.focus();
+      await moreTriggerForApk.press('Enter');
       const apkTrigger = page.getByRole('button', { name: /Сборка APK на GitHub/i });
       await apkTrigger.click();
       const apkDialog = page.getByRole('dialog');

@@ -34,7 +34,7 @@ export default function OverviewDashboard({ onNavigate }: Props) {
 
   return (
     <div className="mx-auto w-full max-w-6xl space-y-4 md:space-y-6">
-      <h1 className="sr-only">Главная</h1>
+      <h1 className="text-xl font-black text-slate-900 dark:text-white">Главная</h1>
       <section className="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:p-4 md:p-5">
         <div className="flex items-center gap-3">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-2 dark:border-slate-700 dark:bg-slate-950 sm:h-14 sm:w-14 md:h-16 md:w-16">

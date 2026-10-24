@@ -194,6 +194,8 @@ for (const viewport of viewports) {
       await page.keyboard.press('Escape');
       await expect(apkDialog).toBeHidden();
       await expect(apkTrigger).toBeFocused();
+      await openNavItem(page, 'overview');
+      await expect(page.getByTestId('header-section-title')).toHaveText('Главная');
 
       for (const brand of [{ id: 'nissan', value: 'nissan' }, { id: 'honda', value: 'honda' }]) {
         await page.getByRole('button', { name: /Изменить автомобиль/i }).click();

@@ -23,6 +23,7 @@ interface Props {
   color?: string;
   bodyType?: string;
   modelName?: string;
+  modelId?: string;
   className?: string;
 }
 
@@ -42,10 +43,12 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
 export default function VehicleIllustration({
   bodyType = '',
   modelName = '',
+  modelId = '',
   className = '',
 }: Props) {
-  const normalizedName = `${bodyType} ${modelName}`.toLocaleLowerCase('ru-RU');
-  const image = /outlander/i.test(normalizedName) ? VERIFIED_MODEL_IMAGES['outlander-1'] : undefined;
+  // Image selection is by stable catalog ID, never by a fuzzy model-name match.
+  // This prevents an Outlander I photo from appearing on later generations.
+  const image = modelId === 'outlander-1' ? VERIFIED_MODEL_IMAGES['outlander-1'] : undefined;
 
   if (image) {
     return (

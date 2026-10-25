@@ -39,6 +39,12 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: Milkmandan, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_outlander_side.jpg',
   },
+  'toyota-land-cruiser-100': {
+    src: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Landcruiser100.JPG',
+    alt: 'Toyota Land Cruiser 100 (J100), фотография автомобиля',
+    credit: 'Фото: 100yen, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Landcruiser100.JPG',
+  },
 };
 
 export default function VehicleIllustration({
@@ -49,7 +55,7 @@ export default function VehicleIllustration({
 }: Props) {
   // Image selection is by stable catalog ID, never by a fuzzy model-name match.
   // This prevents an Outlander I photo from appearing on later generations.
-  const image = modelId === 'outlander-1' ? VERIFIED_MODEL_IMAGES['outlander-1'] : undefined;
+  const image = VERIFIED_MODEL_IMAGES[modelId];
 
   if (image) {
     return (

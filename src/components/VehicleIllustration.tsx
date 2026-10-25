@@ -94,7 +94,7 @@ export default function VehicleIllustration({
             event.currentTarget.style.display = 'none';
           }}
         />
-        <figcaption className="mt-1 text-center text-xs opacity-60"><a href={image.sourceUrl} target="_blank" rel="noreferrer" className="underline">{image.credit}</a></figcaption>
+        <figcaption className="mt-1 text-center text-xs opacity-60"><a href={image.sourceUrl} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center justify-center px-2 py-1 text-center underline">{image.credit}</a></figcaption>
       </figure>
     );
   }

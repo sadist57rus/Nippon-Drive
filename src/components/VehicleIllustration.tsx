@@ -39,6 +39,18 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: Milkmandan, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_outlander_side.jpg',
   },
+  'outlander-xl': {
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/2nd_Mitsubishi_Outlander.jpg',
+    alt: 'Mitsubishi Outlander второго поколения (2007–2008), фотография автомобиля',
+    credit: 'Фото: IFCAR, Wikimedia Commons, общественное достояние',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2nd_Mitsubishi_Outlander.jpg',
+  },
+  'toyota-rav4-3': {
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Rav4.jpg',
+    alt: 'Toyota RAV4 третьего поколения (XA30), фотография автомобиля',
+    credit: 'Фото: Ymaup, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Rav4.jpg',
+  },
   'toyota-land-cruiser-100': {
     src: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Landcruiser100.JPG',
     alt: 'Toyota Land Cruiser 100 (J100), фотография автомобиля',

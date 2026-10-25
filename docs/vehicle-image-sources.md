@@ -8,8 +8,9 @@
 | `mitsubishi-outlander-2.jpg` | Mitsubishi Outlander II | https://commons.wikimedia.org/wiki/File:2nd_Mitsubishi_Outlander.jpg | IFCAR, общественное достояние |
 | `mitsubishi-pajero-4.jpg` | Mitsubishi Pajero IV LWB facelift | https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_IV_LWB_facelift_China_2015-04-23.jpg | Navigator84, CC BY-SA 4.0 |
 | `toyota-camry-xv40.jpg` | Toyota Camry XV40 | https://commons.wikimedia.org/wiki/File:Toyota_Camry_(XV40)_profile,_Jakarta.jpg | Sabung.hamster, CC BY-SA 4.0 |
-| `toyota-rav4-xa30.jpg` | Toyota RAV4 III / XA30 | https://commons.wikimedia.org/wiki/File:Toyota_Rav4.jpg | Ymaup, CC BY-SA 3.0 / GFDL |
+| `toyota-rav4-xa30.jpg` | Toyota RAV4 III / XA30, синий | https://commons.wikimedia.org/wiki/File:Toyota_Rav4.jpg | Ymaup, CC BY-SA 3.0 / GFDL |
 | `toyota-rav4-xa30-blue.jpg` | Toyota RAV4 III / XA30, синий | https://commons.wikimedia.org/wiki/File:Toyota_RAV4_XA30_MN.jpg | X4nMan20Oo, CC BY-SA 4.0 |
+| `toyota-rav4-xa30-silver.jpg` | Toyota RAV4 III facelift / XA30, серебристый, вид сбоку | https://commons.wikimedia.org/wiki/File:Toyota_RAV4_(III,_Facelift)_–_Seitenansicht,_13._Februar_2011,_Mettmann.jpg | M 93, разрешение на повторное использование с указанием авторства |
 | `toyota-rav4-xa30-black.jpg` | Toyota RAV4 III / XA30 facelift, чёрный | https://commons.wikimedia.org/wiki/File:Toyota_RAV4_2.5_4WD_Limited_XA30_FL_Black_(1).jpg | Damian B Oh, CC BY-SA 4.0 |
 | `toyota-land-cruiser-100.jpg` | Toyota Land Cruiser 100 / J100 | https://commons.wikimedia.org/wiki/File:Landcruiser100.JPG | 100yen, CC BY-SA 3.0 / GFDL |
 

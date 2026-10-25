@@ -45,6 +45,18 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: IFCAR, Wikimedia Commons, общественное достояние',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:2nd_Mitsubishi_Outlander.jpg',
   },
+  'pajero-4': {
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Pajero_IV_LWB_facelift_China_2015-04-23.jpg',
+    alt: 'Mitsubishi Pajero IV, длиннобазная версия после рестайлинга, 2015 год',
+    credit: 'Фото: Navigator84, Wikimedia Commons, CC BY-SA 4.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_IV_LWB_facelift_China_2015-04-23.jpg',
+  },
+  'toyota-camry-40': {
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Camry_%28XV40%29_profile%2C_Jakarta.jpg',
+    alt: 'Toyota Camry XV40, вид строго сбоку',
+    credit: 'Фото: Sabung.hamster, Wikimedia Commons, CC BY-SA 4.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Camry_(XV40)_profile,_Jakarta.jpg',
+  },
   'toyota-rav4-3': {
     src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Rav4.jpg',
     alt: 'Toyota RAV4 третьего поколения (XA30), фотография автомобиля',

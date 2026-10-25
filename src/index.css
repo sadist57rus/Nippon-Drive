@@ -399,12 +399,12 @@ html.dark[data-palette] .dark\:bg-red-950\/50 { background-color:color-mix(in sr
 
 /* Fallbacks for Android WebView versions without color-mix(). */
 @supports not (color: color-mix(in srgb, red, blue)) {
-  html[data-palette] .ring-red-500\\/20 {
+  html[data-palette] .ring-red-500\/20 {
     --tw-ring-color: var(--palette-accent-soft, #fee2e2) !important;
   }
 
-  html.dark[data-palette] .dark\\:bg-red-950\\/40,
-  html.dark[data-palette] .dark\\:bg-red-950\\/50 {
+  html.dark[data-palette] .dark\:bg-red-950\/40,
+  html.dark[data-palette] .dark\:bg-red-950\/50 {
     background-color: var(--palette-accent-soft, #1e293b) !important;
   }
 }

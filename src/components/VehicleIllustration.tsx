@@ -1,3 +1,24 @@
+export const VEHICLE_COLORS = [
+  { id: 'black', label: 'Чёрный', hex: '#202124' },
+  { id: 'white', label: 'Белый', hex: '#f5f5f2' },
+  { id: 'silver', label: 'Серебристый', hex: '#aeb6bf' },
+  { id: 'gray', label: 'Серый', hex: '#68717c' },
+  { id: 'red', label: 'Красный', hex: '#c62828' },
+  { id: 'blue', label: 'Синий', hex: '#1769aa' },
+  { id: 'navy', label: 'Тёмно-синий', hex: '#172c54' },
+  { id: 'green', label: 'Зелёный', hex: '#2e6b45' },
+  { id: 'brown', label: 'Коричневый', hex: '#76513b' },
+  { id: 'beige', label: 'Бежевый', hex: '#c9b99a' },
+  { id: 'gold', label: 'Золотистый', hex: '#b99a45' },
+  { id: 'yellow', label: 'Жёлтый', hex: '#f2c230' },
+  { id: 'orange', label: 'Оранжевый', hex: '#e87524' },
+  { id: 'purple', label: 'Фиолетовый', hex: '#7042a0' },
+  { id: 'burgundy', label: 'Бордовый', hex: '#722f3e' },
+] as const;
+
+export type VehicleColorId = typeof VEHICLE_COLORS[number]['id'];
+export const DEFAULT_VEHICLE_COLOR: VehicleColorId = 'silver';
+
 interface Props {
   color?: string;
   bodyType?: string;

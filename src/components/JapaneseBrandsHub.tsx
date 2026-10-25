@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   JAPANESE_BRANDS,
   JapaneseBrand,
@@ -48,6 +48,12 @@ export default function JapaneseBrandsHub({
 }: Props) {
   const [activeBrandId, setActiveBrandId] = useState<string>(initialBrandId);
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
+
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => setDebouncedSearchQuery(searchQuery), 200);
+    return () => window.clearTimeout(timeoutId);
+  }, [searchQuery]);
   const [showOtherBrands, setShowOtherBrands] = useState(false);
   const [filterBodyType, setFilterBodyType] = useState<string>('ALL');
   const [activeTabSubSection, setActiveTabSubSection] = useState<
@@ -95,11 +101,22 @@ export default function JapaneseBrandsHub({
     if (onSelectModel) onSelectModel(modelId);
   };
 
+  // Build the searchable model index once; only filter the indexed list as queries change.
+  const allModelsFlat = useMemo(() => {
+    const list: { brand: JapaneseBrand; model: JapaneseCarModel }[] = [];
+    JAPANESE_BRANDS.forEach(brand => {
+      brand.models.forEach(model => {
+        list.push({ brand, model });
+      });
+    });
+    return list;
+  }, []);
+
   // Search globally when a query is entered; otherwise show the selected brand.
   const filteredModels = useMemo(() => {
-    const query = searchQuery.toLowerCase().trim();
+    const query = debouncedSearchQuery.toLocaleLowerCase('ru-RU').trim();
     const source = query
-      ? JAPANESE_BRANDS.flatMap(brand => brand.models)
+      ? allModelsFlat.map(item => item.model)
       : currentBrand.models;
     return source.filter(model => {
       const matchQuery =
@@ -117,18 +134,7 @@ export default function JapaneseBrandsHub({
       const matchBody = filterBodyType === 'ALL' || model.bodyType === filterBodyType;
       return matchQuery && matchBody;
     });
-  }, [currentBrand, searchQuery, filterBodyType]);
-
-  // All models flat list for global search and comparison
-  const allModelsFlat = useMemo(() => {
-    const list: { brand: JapaneseBrand; model: JapaneseCarModel }[] = [];
-    JAPANESE_BRANDS.forEach(brand => {
-      brand.models.forEach(model => {
-        list.push({ brand, model });
-      });
-    });
-    return list;
-  }, []);
+  }, [allModelsFlat, currentBrand, debouncedSearchQuery, filterBodyType]);
 
   const compareTargetModel = useMemo(() => {
     return allModelsFlat.find(item => item.model.id === compareModelId)?.model || allModelsFlat[0].model;

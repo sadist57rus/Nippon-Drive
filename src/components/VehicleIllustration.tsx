@@ -32,11 +32,12 @@ interface Props {
  * as a real car. Only models with a verified image are shown as photographs;
  * all other models get a neutral placeholder until a matching image is added.
  */
-const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: string }> = {
+const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: string; sourceUrl: string }> = {
   'outlander-1': {
     src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_outlander_side.jpg',
     alt: 'Mitsubishi Outlander первого поколения, вид сбоку',
     credit: 'Фото: Milkmandan, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_outlander_side.jpg',
   },
 };
 
@@ -63,7 +64,7 @@ export default function VehicleIllustration({
             event.currentTarget.style.display = 'none';
           }}
         />
-        <figcaption className="mt-1 text-center text-xs opacity-60">{image.credit}</figcaption>
+        <figcaption className="mt-1 text-center text-xs opacity-60"><a href={image.sourceUrl} target="_blank" rel="noreferrer" className="underline">{image.credit}</a></figcaption>
       </figure>
     );
   }

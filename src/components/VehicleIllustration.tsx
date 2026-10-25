@@ -34,39 +34,39 @@ interface Props {
  */
 const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: string; sourceUrl: string }> = {
   'outlander-1': {
-    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_outlander_side.jpg',
+    src: '/assets/vehicles/mitsubishi-outlander-1.jpg',
     alt: 'Mitsubishi Outlander первого поколения, вид сбоку',
-    credit: 'Фото: Milkmandan, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
+    credit: 'Фото: Milkmandan, Wikimedia Commons, CC BY-SA 3.0 / GFDL; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_outlander_side.jpg',
   },
   'outlander-xl': {
-    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/2nd_Mitsubishi_Outlander.jpg',
+    src: '/assets/vehicles/mitsubishi-outlander-2.jpg',
     alt: 'Mitsubishi Outlander второго поколения (2007–2008), фотография автомобиля',
-    credit: 'Фото: IFCAR, Wikimedia Commons, общественное достояние',
+    credit: 'Фото: IFCAR, Wikimedia Commons, общественное достояние; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:2nd_Mitsubishi_Outlander.jpg',
   },
   'pajero-4': {
-    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Pajero_IV_LWB_facelift_China_2015-04-23.jpg',
+    src: '/assets/vehicles/mitsubishi-pajero-4.jpg',
     alt: 'Mitsubishi Pajero IV, длиннобазная версия после рестайлинга, 2015 год',
-    credit: 'Фото: Navigator84, Wikimedia Commons, CC BY-SA 4.0',
+    credit: 'Фото: Navigator84, Wikimedia Commons, CC BY-SA 4.0; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_IV_LWB_facelift_China_2015-04-23.jpg',
   },
   'toyota-camry-40': {
-    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Camry_%28XV40%29_profile%2C_Jakarta.jpg',
+    src: '/assets/vehicles/toyota-camry-xv40.jpg',
     alt: 'Toyota Camry XV40, вид строго сбоку',
-    credit: 'Фото: Sabung.hamster, Wikimedia Commons, CC BY-SA 4.0',
+    credit: 'Фото: Sabung.hamster, Wikimedia Commons, CC BY-SA 4.0; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Camry_(XV40)_profile,_Jakarta.jpg',
   },
   'toyota-rav4-3': {
-    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Rav4.jpg',
+    src: '/assets/vehicles/toyota-rav4-xa30.jpg',
     alt: 'Toyota RAV4 третьего поколения (XA30), фотография автомобиля',
-    credit: 'Фото: Ymaup, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
+    credit: 'Фото: Ymaup, Wikimedia Commons, CC BY-SA 3.0 / GFDL; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Rav4.jpg',
   },
   'toyota-land-cruiser-100': {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Landcruiser100.JPG',
+    src: '/assets/vehicles/toyota-land-cruiser-100.jpg',
     alt: 'Toyota Land Cruiser 100 (J100), фотография автомобиля',
-    credit: 'Фото: 100yen, Wikimedia Commons, CC BY-SA 3.0 / GFDL',
+    credit: 'Фото: 100yen, Wikimedia Commons, CC BY-SA 3.0 / GFDL; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Landcruiser100.JPG',
   },
 };

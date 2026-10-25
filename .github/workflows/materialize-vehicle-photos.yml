@@ -1,0 +1,105 @@
+name: Materialize verified vehicle photos
+
+on:
+  push:
+    branches:
+      - fix/vehicle-model-images
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  statuses: write
+
+concurrency:
+  group: materialize-vehicle-photos
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - name: Download source photos from Wikimedia Commons
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p public/assets/vehicles
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_outlander_side.jpg' -o /tmp/outlander-1
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/2nd_Mitsubishi_Outlander.jpg' -o /tmp/outlander-2
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Pajero_IV_LWB_facelift_China_2015-04-23.jpg' -o /tmp/pajero-4
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Camry_%28XV40%29_profile%2C_Jakarta.jpg' -o /tmp/camry-xv40
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Rav4.jpg' -o /tmp/rav4-xa30
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Landcruiser100.JPG' -o /tmp/land-cruiser-100
+          python -m pip install --disable-pip-version-check Pillow
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          items = {
+              "/tmp/outlander-1": "mitsubishi-outlander-1.jpg",
+              "/tmp/outlander-2": "mitsubishi-outlander-2.jpg",
+              "/tmp/pajero-4": "mitsubishi-pajero-4.jpg",
+              "/tmp/camry-xv40": "toyota-camry-xv40.jpg",
+              "/tmp/rav4-xa30": "toyota-rav4-xa30.jpg",
+              "/tmp/land-cruiser-100": "toyota-land-cruiser-100.jpg",
+          }
+          out = Path("public/assets/vehicles")
+          for source, filename in items.items():
+              with Image.open(source) as image:
+                  image = image.convert("RGB")
+                  image.thumbnail((1200, 900), Image.Resampling.LANCZOS)
+                  target = out / filename
+                  image.save(target, "JPEG", quality=84, optimize=True, progressive=True)
+                  with Image.open(target) as check:
+                      check.verify()
+                  print(f"{target}: {image.width}x{image.height}, {target.stat().st_size} bytes")
+          PY
+      - name: Commit local photos to the PR branch
+        id: commit-assets
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/assets/vehicles/*.jpg
+          if git diff --cached --quiet; then
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            echo "No image changes to commit."
+          else
+            git commit -m "Add local Mitsubishi and Toyota vehicle photos"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Verify TypeScript and catalog
+        run: |
+          npm ci --no-audit --no-fund
+          npm run check
+      - name: Verify browser smoke tests
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:smoke
+      - name: Record verification status on the image commit
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ASSET_SHA: ${{ steps.commit-assets.outputs.sha }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/statuses/${ASSET_SHA}" \
+            -f state=success \
+            -f context='Vehicle image assets verification' \
+            -f description='Photo files committed; typecheck and smoke tests passed'
+      - name: Record failed verification status on the image commit
+        if: failure() && steps.commit-assets.outputs.sha != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ASSET_SHA: ${{ steps.commit-assets.outputs.sha }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/statuses/${ASSET_SHA}" \
+            -f state=failure \
+            -f context='Vehicle image assets verification' \
+            -f description='Vehicle image asset verification failed; inspect workflow logs'

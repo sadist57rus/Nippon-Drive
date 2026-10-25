@@ -34,6 +34,7 @@ jobs:
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Camry_%28XV40%29_profile%2C_Jakarta.jpg' -o /tmp/camry-xv40
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_Rav4.jpg' -o /tmp/rav4-xa30
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_RAV4_XA30_MN.jpg' -o /tmp/rav4-xa30-blue
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_RAV4_%28III%2C_Facelift%29_%E2%80%93_Seitenansicht%2C_13._Februar_2011%2C_Mettmann.jpg' -o /tmp/rav4-xa30-silver
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_RAV4_2.5_4WD_Limited_XA30_FL_Black_%281%29.jpg' -o /tmp/rav4-xa30-black
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Landcruiser100.JPG' -o /tmp/land-cruiser-100
           python -m pip install --disable-pip-version-check Pillow
@@ -47,6 +48,7 @@ jobs:
               "/tmp/camry-xv40": "toyota-camry-xv40.jpg",
               "/tmp/rav4-xa30": "toyota-rav4-xa30.jpg",
               "/tmp/rav4-xa30-blue": "toyota-rav4-xa30-blue.jpg",
+              "/tmp/rav4-xa30-silver": "toyota-rav4-xa30-silver.jpg",
               "/tmp/rav4-xa30-black": "toyota-rav4-xa30-black.jpg",
               "/tmp/land-cruiser-100": "toyota-land-cruiser-100.jpg",
           }

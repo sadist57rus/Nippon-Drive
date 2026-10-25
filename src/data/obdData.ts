@@ -4,7 +4,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   // 1. ВЫХЛОПНАЯ СИСТЕМА, КАТАЛИЗАТОРЫ И ЛЯМБДА-ЗОНДЫ
   {
     code: 'P0421',
-    title: 'Warm Up Catalyst Efficiency Below Threshold (Bank 1)',
+    title: 'Эффективность прогрева катализатора ниже порога (Bank 1; Warm Up Catalyst Efficiency Below Threshold)',
     system: 'Выхлопная система и катализатор',
     severity: 'warning',
     symptoms: [
@@ -26,7 +26,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0431',
-    title: 'Warm Up Catalyst Efficiency Below Threshold (Bank 2)',
+    title: 'Эффективность прогрева катализатора ниже порога (Bank 2; Warm Up Catalyst Efficiency Below Threshold)',
     system: 'Выхлопная система и катализатор',
     severity: 'warning',
     symptoms: [
@@ -46,7 +46,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0420',
-    title: 'Catalyst System Efficiency Below Threshold (Bank 1 General)',
+    title: 'Эффективность системы катализатора ниже порога (Bank 1; Catalyst System Efficiency Below Threshold)',
     system: 'Выхлопная система и катализатор',
     severity: 'warning',
     symptoms: ['Индикатор Check Engine', 'Запах сероводорода из выхлопной трубы при резком разгоне'],
@@ -57,7 +57,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0130',
-    title: 'Oxygen Sensor Circuit Malfunction (Bank 1 Sensor 1)',
+    title: 'Неисправность электрической цепи датчика кислорода (Bank 1 Sensor 1; Oxygen Sensor Circuit Malfunction)',
     system: 'Топливоподача и лямбда-зонды',
     severity: 'error',
     symptoms: ['Повышенный расход бензина на 2–3 л', 'Черный нагар на свечах зажигания', 'Тупизна при разгоне'],
@@ -68,7 +68,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0135',
-    title: 'Oxygen Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)',
+    title: 'Неисправность цепи подогрева датчика кислорода (Bank 1 Sensor 1; Oxygen Sensor Heater Circuit Malfunction)',
     system: 'Топливоподача и лямбда-зонды',
     severity: 'warning',
     symptoms: ['Долгий прогрев датчика, мотор долго работает по аварийным картам без обратной связи'],
@@ -79,7 +79,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0136',
-    title: 'Oxygen Sensor Circuit Malfunction (Bank 1 Sensor 2)',
+    title: 'Неисправность электрической цепи датчика кислорода (Bank 1 Sensor 2; Oxygen Sensor Circuit Malfunction)',
     system: 'Топливоподача и лямбда-зонды',
     severity: 'warning',
     symptoms: ['Горит Check Engine, машина едет нормально'],
@@ -90,7 +90,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0141',
-    title: 'Oxygen Sensor Heater Circuit Malfunction (Bank 1 Sensor 2)',
+    title: 'Неисправность цепи подогрева датчика кислорода (Bank 1 Sensor 2; Oxygen Sensor Heater Circuit Malfunction)',
     system: 'Топливоподача и лямбда-зонды',
     severity: 'warning',
     symptoms: ['Горит Check Engine сразу после холодного запуска'],
@@ -103,7 +103,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   // 2. СИСТЕМА ПИТАНИЯ, СМЕСЕОБРАЗОВАНИЕ И ФОРСУНКИ
   {
     code: 'P0171',
-    title: 'System Too Lean (Bank 1) — Слишком бедная смесь',
+    title: 'Слишком бедная топливовоздушная смесь (Bank 1; System Too Lean)',
     system: 'Топливоподача и смесеобразование',
     severity: 'error',
     symptoms: [
@@ -128,7 +128,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0172',
-    title: 'System Too Rich (Bank 1) — Слишком богатая смесь',
+    title: 'Слишком богатая топливовоздушная смесь (Bank 1; System Too Rich)',
     system: 'Топливоподача и смесеобразование',
     severity: 'error',
     symptoms: [
@@ -153,7 +153,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0170',
-    title: 'Fuel Trim Malfunction (Bank 1)',
+    title: 'Неисправность коррекции топливоподачи (Bank 1; Fuel Trim Malfunction)',
     system: 'Топливоподача и смесеобразование',
     severity: 'warning',
     symptoms: ['Нестабильный холостой ход', 'Периодический Check Engine при смене погодных условий'],
@@ -164,7 +164,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0201',
-    title: 'Injector Circuit Malfunction — Cylinder 1',
+    title: 'Неисправность электрической цепи форсунки — цилиндр 1 (Injector Circuit Malfunction)',
     system: 'Система впрыска топлива',
     severity: 'critical',
     symptoms: ['Троение двигателя', 'Потеря тяги', 'Сильная вибрация на кузов'],
@@ -175,7 +175,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0202',
-    title: 'Injector Circuit Malfunction — Cylinder 2',
+    title: 'Неисправность электрической цепи форсунки — цилиндр 2 (Injector Circuit Malfunction)',
     system: 'Система впрыска топлива',
     severity: 'critical',
     symptoms: ['Троение, мигающий Check Engine'],
@@ -186,7 +186,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0203',
-    title: 'Injector Circuit Malfunction — Cylinder 3',
+    title: 'Неисправность электрической цепи форсунки — цилиндр 3 (Injector Circuit Malfunction)',
     system: 'Система впрыска топлива',
     severity: 'critical',
     symptoms: ['Мотор двоит/троит, вонь бензина'],
@@ -197,7 +197,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   },
   {
     code: 'P0204',
-    title: 'Injector Circuit Malfunction — Cylinder 4',
+    title: 'Неисправность электрической цепи форсунки — цилиндр 4 (Injector Circuit Malfunction)',
     system: 'Система впрыска топлива',
     severity: 'critical',
     symptoms: ['Пропуски по 4 цилиндру, троение'],
@@ -210,7 +210,7 @@ export const OBD_CODES_DATA: ObdDtc[] = [
   // 3. ДАТЧИКИ ВОЗДУХА, ТЕМПЕРАТУРЫ И ДРОССЕЛЯ
   {
     code: 'P0100',
-    title: 'Mass Air Flow (MAF) Circuit Malfunction',
+    title: 'Неисправность электрической цепи датчика массового расхода воздуха (MAF Circuit Malfunction)',
     system: 'Датчики впуска и расхода воздуха',
     severity: 'critical',
     symptoms: ['Двигатель глохнет сразу после запуска', 'Ограничение оборотов до 2500 об/мин (аварийный режим)', 'Черный дым'],

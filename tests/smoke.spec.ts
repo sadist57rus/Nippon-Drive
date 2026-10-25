@@ -1,5 +1,6 @@
 import { expect, test, type Page } from '@playwright/test';
 import { parseDecimalInput } from '../src/lib/storage';
+import { ENGINE_TECHNICAL_RECORDS, TECHNICAL_DATA_SOURCES } from '../src/data/technicalSpecRecords';
 
 type Viewport = { width: number; height: number };
 type Theme = 'light' | 'dark';
@@ -550,4 +551,31 @@ test('нижняя навигация сохраняет контраст во �
     };
     return JSON.stringify(toSrgb(actual)) === JSON.stringify(toSrgb(expected));
   })).toBe(true);
+});
+
+
+test('подписи характеристик двигателя и сведения об источнике на русском', () => {
+  const record = ENGINE_TECHNICAL_RECORDS.find(item => item.id === 'mitsubishi-outlander-cu5w-4g69-2006-engine-mechanical');
+  expect(record).toBeDefined();
+  expect(record?.values.map(item => item.label)).toEqual([
+    'Рабочий объём двигателя',
+    'Диаметр цилиндра × ход поршня',
+    'Степень сжатия',
+    'Конфигурация цилиндров и головки блока',
+    'Топливная система',
+    'Зазор клапанов — впуск',
+    'Зазор клапанов — выпуск',
+    'Начальный угол опережения зажигания',
+    'Частота холостого хода — механическая коробка передач',
+    'Частота холостого хода — автоматическая коробка передач',
+    'Компрессия — нормативное значение',
+    'Компрессия — предельно допустимое значение',
+    'Максимальная разница компрессии между цилиндрами',
+    'Прогиб ремня балансирных валов',
+    'Выступание штока натяжителя ремня ГРМ',
+  ]);
+  expect(record?.summary).toContain('В руководстве');
+  expect(record?.limitations.join(' ')).toContain('Не заменяйте');
+  expect(TECHNICAL_DATA_SOURCES[0].title).toContain('руководство по ремонту');
+  expect(record?.engineCode).toBe('4G69');
 });

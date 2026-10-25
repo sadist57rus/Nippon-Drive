@@ -37,6 +37,15 @@ jobs:
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_RAV4_%28III%2C_Facelift%29_%E2%80%93_Seitenansicht%2C_13._Februar_2011%2C_Mettmann.jpg' -o /tmp/rav4-xa30-silver
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_RAV4_2.5_4WD_Limited_XA30_FL_Black_%281%29.jpg' -o /tmp/rav4-xa30-black
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Landcruiser100.JPG' -o /tmp/land-cruiser-100
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Outlander_%2847957951373%29.jpg' -o /tmp/outlander-1-blue
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/2005_Mitsubishi_Outlander_%28ZF_MY06%29_LS_wagon_%282015-06-03%29_01.jpg' -o /tmp/outlander-1-red
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_Mitsubishi_Outlander_in_Krak%C3%B3w_%281%29.jpg' -o /tmp/outlander-2-black
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/2007_Mitsubishi_Outlander_in_Cool_Silver_Metallic%2C_front_left%2C_10-11-2025.jpg' -o /tmp/outlander-2-silver
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/2006-2008_Mitsubishi_Lancer_%28CH_MY07%29_ES_station_wagon_01.jpg' -o /tmp/lancer-9-wagon-silver
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Lancer_estate_1584cc_Registered_February_2005.JPG' -o /tmp/lancer-9-wagon-blue
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/04-05_Mitsubishi_Lancer_sedan.jpg' -o /tmp/lancer-9-sedan-silver
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/2006-2007_Mitsubishi_Lancer_%28CH_MY07%29_ES_sedan_01.jpg' -o /tmp/lancer-9-sedan-yellow
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Lancer_%282008%29_%E2%80%93_left_side_view.jpg' -o /tmp/lancer-x-silver
           python -m pip install --disable-pip-version-check Pillow
           python - <<'PY'
           from PIL import Image
@@ -51,6 +60,15 @@ jobs:
               "/tmp/rav4-xa30-silver": "toyota-rav4-xa30-silver.jpg",
               "/tmp/rav4-xa30-black": "toyota-rav4-xa30-black.jpg",
               "/tmp/land-cruiser-100": "toyota-land-cruiser-100.jpg",
+              "/tmp/outlander-1-blue": "mitsubishi-outlander-1-blue.jpg",
+              "/tmp/outlander-1-red": "mitsubishi-outlander-1-red.jpg",
+              "/tmp/outlander-2-black": "mitsubishi-outlander-2-black.jpg",
+              "/tmp/outlander-2-silver": "mitsubishi-outlander-2-silver.jpg",
+              "/tmp/lancer-9-wagon-silver": "mitsubishi-lancer-9-wagon-silver.jpg",
+              "/tmp/lancer-9-wagon-blue": "mitsubishi-lancer-9-wagon-blue.jpg",
+              "/tmp/lancer-9-sedan-silver": "mitsubishi-lancer-9-sedan-silver.jpg",
+              "/tmp/lancer-9-sedan-yellow": "mitsubishi-lancer-9-sedan-yellow.jpg",
+              "/tmp/lancer-x-silver": "mitsubishi-lancer-x-silver.jpg",
           }
           out = Path("public/assets/vehicles")
           for source, filename in items.items():

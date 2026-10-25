@@ -8,7 +8,7 @@
 | `mitsubishi-outlander-2.jpg` | Mitsubishi Outlander II | https://commons.wikimedia.org/wiki/File:2nd_Mitsubishi_Outlander.jpg | IFCAR, общественное достояние |
 | `mitsubishi-outlander-1-blue.jpg` | Mitsubishi Outlander I / CU, синий | https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_(47957951373).jpg | Guillaume Vachey, CC0 1.0 |
 | `mitsubishi-outlander-1-red.jpg` | Mitsubishi Outlander I / CU, красный | https://commons.wikimedia.org/wiki/File:2005_Mitsubishi_Outlander_(ZF_MY06)_LS_wagon_(2015-06-03)_01.jpg | OSX, общественное достояние |
-| `mitsubishi-outlander-1-silver.jpg` | Mitsubishi Outlander I / CU, серебристый, передний ракурс | https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_I_(2003-2006)_front.jpg | автор страницы Wikimedia Commons, CC BY-SA 3.0 / GFDL |
+| `mitsubishi-outlander-1-silver.jpg` | Mitsubishi Outlander I / CU, серебристый, передний ракурс | https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_I_(2003-2006)_front.jpg | M 93, CC BY-SA 3.0 / GFDL |
 | `mitsubishi-outlander-2-black.jpg` | Mitsubishi Outlander II / CW, чёрный | https://commons.wikimedia.org/wiki/File:Black_Mitsubishi_Outlander_in_Kraków_(1).jpg | Lukas 3z, CC0 1.0 |
 | `mitsubishi-outlander-2-silver.jpg` | Mitsubishi Outlander II / CW, серебристый | https://commons.wikimedia.org/wiki/File:2007_Mitsubishi_Outlander_in_Cool_Silver_Metallic,_front_left,_10-11-2025.jpg | Cutlass, CC0 1.0 |
 | `mitsubishi-lancer-9-wagon-blue.jpg` | Mitsubishi Lancer IX универсал, синий (2005) | https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_estate_1584cc_Registered_February_2005.JPG | Charles01, CC BY-SA 4.0 |

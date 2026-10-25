@@ -38,6 +38,7 @@ jobs:
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Toyota_RAV4_2.5_4WD_Limited_XA30_FL_Black_%281%29.jpg' -o /tmp/rav4-xa30-black
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Landcruiser100.JPG' -o /tmp/land-cruiser-100
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Outlander_%2847957951373%29.jpg' -o /tmp/outlander-1-blue
+          curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi_Outlander_I_%282003-2006%29_front.jpg' -o /tmp/outlander-1-silver
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/2005_Mitsubishi_Outlander_%28ZF_MY06%29_LS_wagon_%282015-06-03%29_01.jpg' -o /tmp/outlander-1-red
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_Mitsubishi_Outlander_in_Krak%C3%B3w_%281%29.jpg' -o /tmp/outlander-2-black
           curl -fL --retry 3 -A 'Nippon-drive/1.0 (vehicle photo assets)' 'https://commons.wikimedia.org/wiki/Special:FilePath/2007_Mitsubishi_Outlander_in_Cool_Silver_Metallic%2C_front_left%2C_10-11-2025.jpg' -o /tmp/outlander-2-silver
@@ -61,6 +62,7 @@ jobs:
               "/tmp/rav4-xa30-black": "toyota-rav4-xa30-black.jpg",
               "/tmp/land-cruiser-100": "toyota-land-cruiser-100.jpg",
               "/tmp/outlander-1-blue": "mitsubishi-outlander-1-blue.jpg",
+              "/tmp/outlander-1-silver": "mitsubishi-outlander-1-silver.jpg",
               "/tmp/outlander-1-red": "mitsubishi-outlander-1-red.jpg",
               "/tmp/outlander-2-black": "mitsubishi-outlander-2-black.jpg",
               "/tmp/outlander-2-silver": "mitsubishi-outlander-2-silver.jpg",

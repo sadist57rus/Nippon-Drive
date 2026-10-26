@@ -89,7 +89,7 @@ export default function VehicleIllustration({
           alt={image.alt}
           loading="lazy"
           referrerPolicy="no-referrer"
-          className="block h-auto max-h-56 w-full object-contain"
+          className="block h-20 max-h-20 w-full object-contain"
           onError={(event) => {
             event.currentTarget.style.display = 'none';
           }}

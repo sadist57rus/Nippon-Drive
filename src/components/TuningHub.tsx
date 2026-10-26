@@ -6,7 +6,7 @@ export default function TuningHub() {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [expandedId, setExpandedId] = useState<string>(TUNING_DATABASE[0].id);
+  const [expandedId, setExpandedId] = useState<string>('');
   const [copiedText, setCopiedText] = useState<string | null>(null);
   const [favoriteIds, setFavoriteIds] = useState<Record<string, boolean>>({});
 

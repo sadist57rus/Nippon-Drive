@@ -528,6 +528,7 @@ export default function ObdDiagnostics() {
           )}
         </div>
       </div>
+        </div>
       </details>
     </div>
   );

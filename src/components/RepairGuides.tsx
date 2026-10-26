@@ -74,7 +74,13 @@ export default function RepairGuides({ selectedEngine }: Props) {
         </div>
       </div>
 
-      {/* Active Guide Content */}
+      {/* Keep the selected article closed until the user asks to read it. */}
+      <details className="overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+        <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between gap-3 p-4 text-sm font-semibold text-white">
+          <span>Открыть инструкцию: {activeGuide.title}</span>
+          <span className="shrink-0 text-xs text-slate-400">{activeGuide.timeEstimate} · {activeGuide.difficulty}</span>
+        </summary>
+        <div className="border-t border-slate-800 p-3 sm:p-4">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left Column: Summary, Tools, Parts Needed */}
         <div className="space-y-5 lg:col-span-1">
@@ -273,6 +279,8 @@ export default function RepairGuides({ selectedEngine }: Props) {
           )}
         </div>
       </div>
+        </div>
+      </details>
     </div>
   );
 }

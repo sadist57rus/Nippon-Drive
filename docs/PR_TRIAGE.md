@@ -12,8 +12,8 @@ Checks: ✓ success; ✗ failure; C cancelled; — skipped; ∅ no check-runs re
 
 | PR | title | baseRefName | headRefName | isDraft | mergeable / mergeStateStatus | checks (name: conclusion) | changed_files | additions/deletions | ahead/behind main | updatedAt | decision |
 |---:|---|---|---|---|---|---|---:|---:|---:|---|---|
-| #168 | Не переносить параметры старой модели при смене автомобиля | main | fix/clear-stale-engine-on-model-change | false | true / clean | verify ✓; prepare ✓; Build debug APK (artifact only) ✓; Build signed APK — | 1 | 3/3 | 3/0 | 2026-10-27 09:00Z | rebase |
-| #167 | Не подставлять параметры Outlander при миграции гаража | main | fix/legacy-garage-migration-no-fake-outlander-defaults | false | true / clean | verify ✓; prepare ✓; debug APK ✓; signed APK — | 2 | 24/1 | 3/0 | 2026-10-27 09:00Z | merge-now after wave ordering |
+| #168 | Не переносить параметры старой модели при смене автомобиля | main | fix/clear-stale-engine-on-model-change | false | true / clean | verify ✓; prepare ✓; Build debug APK (artifact only) ✓; Build signed APK — | 1 | 3/3 | 3/0 | 2026-10-27 09:00Z | fix-ci |
+| #167 | Не подставлять параметры Outlander при миграции гаража | main | fix/legacy-garage-migration-no-fake-outlander-defaults | false | true / clean | verify ✓; prepare ✓; debug APK ✓; signed APK — | 2 | 24/1 | 3/0 | 2026-10-27 09:00Z | fix-ci |
 | #166 | Убрать VIN из URL каталога запчастей | main | fix/remove-vin-from-source-url | false | true / clean | verify ✓; prepare ✓; debug APK ✓; signed APK — | 1 | 1/1 | 1/0 | 2026-10-27 08:58Z | merge-now |
 | #165 | Восстанавливать вкладку и убрать мёртвый выбор ориентации | main | fix/restore-tab-history-remove-dead-orientation | false | true / clean | verify ✓; prepare ✓; debug APK ✓; signed APK — | 1 | 8/30 | 1/0 | 2026-10-27 08:58Z | merge-now |
 | #164 | Не удалять пользовательские данные при ошибке раздела | main | fix/error-boundary-preserve-user-data | false | true / clean | verify ✓; prepare ✓; debug APK ✓; signed APK — | 1 | 1/1 | 1/0 | 2026-10-27 08:58Z | merge-now |
@@ -45,12 +45,12 @@ Checks: ✓ success; ✗ failure; C cancelled; — skipped; ∅ no check-runs re
 6. #158 — свернуть длинные OBD/ремонтные тексты.
 7. #155 — исправление изображений, базовый PR для #157.
 8. #165 — восстановление вкладки и удаление неработающего выбора ориентации.
-9. #167 — миграция гаража без придуманных параметров.
+9. #167 — после проверки валидности старых engine/transmission относительно выбранной модели.
 
 Gate per PR: fresh verify and Build debug APK (artifact only) green on the current head and review diff against current main. Build signed APK is skipped on PR and is not a required PR gate.
 
 ### Волна 2 — после обновления базы/решений
-- #168 after #167: rebase/update; add test for changing brand/model and verify engine/transmission/drivetrain cannot be inherited from previous vehicle.
+- #168 after #167: fix behavior first. Current diff sets engine and transmission to “не указан(а)” for every model change instead of selecting/representing confirmed catalog options; that contradicts the PR description. Define whether one catalog option is preselected or the user must explicitly choose one. Add tests for both a model with catalog options and a model without them; drivetrain must never be guessed.
 - #159 after #165/#164: same src/App.tsx area; verify dashboard lazy-load does not restore the removed orientation screen or break error boundary.
 - #149 after #165: rebase; keep both scroll-to-save test and active-tab/navigation restore tests.
 - #148 after #162 or as a separate tiny PR: check if the remaining metadata removal is still needed, then rerun verify.
@@ -75,7 +75,8 @@ Gate per PR: fresh verify and Build debug APK (artifact only) green on the curre
 - **#145:** verify conclusion is cancelled, not failed. CI is not proven green.
 - **#130/#131:** base refs point to old data branches, not main. Compare to current main shows both 29 commits behind. Rebuild the unique rows on fresh main and audit; do not merge the historical branch chain.
 - **#125:** old base and dirty state; workflow runs @capacitor/assets generation twice. Select one canonical icon/splash source and generate once. Preserve icon/manifest/service-worker changes and keyboard navigation test; do not restore the orientation screen removed in #165.
-- **#168:** CI is green but no test was added proving engine, transmission and drivetrain are reset/reselected on model change. Update after #167 and add regression coverage.
+- **#167:** migration preserves any non-empty legacy engine/transmission strings without validating that they belong to the resolved model. Validate them against the selected model catalog; otherwise use the same unknown fallback. Add migration tests for valid, invalid and absent legacy values.
+- **#168:** CI is green but current diff sets engine and transmission to “не указан(а)” on every model change, even when catalog options exist. This conflicts with its description (“выбираются из каталога”). Decide whether a catalog option should be preselected or the user must choose explicitly, then add tests for models with and without options.
 
 ## Product decisions
 
@@ -83,7 +84,7 @@ Gate per PR: fresh verify and Build debug APK (artifact only) green on the curre
 2. #162 — confirm whether MIT is the intended license for the repository.
 3. #162 — confirm Android 7 / minSdk 24 wording versus the previously stated Android 8+ target.
 4. #146 — default language should remain Russian unless owner explicitly approves English UI.
-5. #167/#168 — unified fallback policy: use confirmed catalog data for the selected model; if absent, display “не указан” / “не указана”; do not guess drivetrain, use neutral ALL; during migration preserve only valid old values and otherwise use the same safe fallback. Never reuse previous vehicle values or inject Outlander defaults.
+5. #167/#168 — unified policy: never reuse previous vehicle values or inject Outlander defaults. During legacy migration preserve engine/transmission only if valid for the resolved model; otherwise show “не указан” / “не указана”. On model change, either explicitly require the user to select an engine/gearbox from the new model's catalog, or document a deterministic default-selection rule; do not silently mark a model with known catalog options as having no data. Never guess drivetrain; reset it to neutral ALL unless a verified mapping exists.
 6. #125 — pick one source of truth for launcher icon and splash; run Android asset generation once.
 
 ## Ruleset 666 — read-only result and proposed diff

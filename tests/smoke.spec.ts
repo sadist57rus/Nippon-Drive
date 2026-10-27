@@ -1,6 +1,7 @@
 import { expect, test, type Page } from '@playwright/test';
 import { parseDecimalInput } from '../src/lib/storage';
 import { ENGINE_TECHNICAL_RECORDS, TECHNICAL_DATA_SOURCES } from '../src/data/technicalSpecRecords';
+import { JAPANESE_BRANDS } from '../src/data/vehicleCatalog';
 
 type Viewport = { width: number; height: number };
 type Theme = 'light' | 'dark';
@@ -578,4 +579,26 @@ test('подписи характеристик двигателя и сведе
   expect(record?.limitations.join(' ')).toContain('Не заменяйте');
   expect(TECHNICAL_DATA_SOURCES[0].title).toContain('руководство по ремонту');
   expect(record?.engineCode).toBe('4G69');
+});
+
+
+test('legacy garage migration does not invent engine or transmission values', async ({ page }) => {
+  const modelId = JAPANESE_BRANDS.find(brand => brand.id === 'toyota')?.models[0]?.id;
+  expect(modelId).toBeTruthy();
+
+  await page.addInitScript(({ legacyModelId }) => {
+    localStorage.clear();
+    localStorage.setItem('car-brother-vehicle', JSON.stringify({
+      brandId: 'toyota',
+      modelId: legacyModelId,
+    }));
+  }, { legacyModelId: modelId });
+
+  await page.goto('/');
+  await expect.poll(() => page.evaluate(() => {
+    const raw = localStorage.getItem('car-brother-garage');
+    if (!raw) return null;
+    const vehicle = JSON.parse(raw).vehicles?.[0];
+    return vehicle ? [vehicle.engine, vehicle.transmission, vehicle.drivetrain] : null;
+  })).toEqual(['не указан', 'не указана', 'ALL']);
 });

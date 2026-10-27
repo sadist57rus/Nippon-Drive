@@ -46,7 +46,7 @@ function initialGarage(): GarageState {
   if (!Object.keys(legacy).length) return {vehicles:[],activeVehicleId:''};
   const brand=JAPANESE_BRANDS.find(b=>b.id===legacy.brandId)||JAPANESE_BRANDS.find(b=>b.id===DEFAULT_VEHICLE.brandId)!;
   const model=brand.models.find(m=>m.id===legacy.modelId)||brand.models[0];
-  const first:GarageVehicle={...DEFAULT_VEHICLE,id:'vehicle-'+Date.now(),brandId:brand.id,modelId:model.id,engine:typeof legacy.engine==='string'?legacy.engine:DEFAULT_VEHICLE.engine,transmission:typeof legacy.transmission==='string'?legacy.transmission:'не указана',drivetrain:legacy.drivetrain==='FWD'||legacy.drivetrain==='ALL'?legacy.drivetrain:'4WD'};
+  const first:GarageVehicle={...DEFAULT_VEHICLE,id:'vehicle-'+Date.now(),brandId:brand.id,modelId:model.id,engine:typeof legacy.engine==='string'&&legacy.engine.trim()?legacy.engine:model.engines[0]?.code||'не указан',transmission:typeof legacy.transmission==='string'&&legacy.transmission.trim()?legacy.transmission:model.transmissions[0]||'не указана',drivetrain:legacy.drivetrain==='FWD'||legacy.drivetrain==='4WD'||legacy.drivetrain==='ALL'?legacy.drivetrain:'ALL'};
   return {vehicles:[first],activeVehicleId:first.id};
 }
 export function VehicleProvider({children}:{children:ReactNode}) {

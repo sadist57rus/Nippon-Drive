@@ -78,7 +78,7 @@ export const PARTS_CATALOG_SOURCES: CatalogSource[] = [
   {
     id: 'partsouq-europe-cu5w',
     title: 'PartSouq — Mitsubishi Outlander Europe CU5W genuine parts catalog',
-    url: 'https://partsouq.com/ru/catalog/genuine/parts?c=Mitsubishi&gid=19&q=JMBXRCU5W6U006740&ssd=%24%2AKwEzBxY5VnhjUlduc0w_A2t_X1hGNzg1NCYgL2lAfCRoIj0nEhsIWVJEUzRXMVBoZnw2NDckLSJkJ2J0CDcwMVQ0MDBEenpobCI9JEJVMlJ6emhibCU8I1hVTQEMBjciegAAAAB93OL6%24&vid=0',
+    url: 'https://partsouq.com/ru/catalog/genuine/parts?c=Mitsubishi&gid=19&vid=0',
     sourceType: 'specialist-catalog',
     accessedAt: '2026-10-16',
     scope: 'European-market CU5W catalog organized by frame/model and VIN query; use as a navigation source and confirm the exact vehicle frame before taking part numbers.'

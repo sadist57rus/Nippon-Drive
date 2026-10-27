@@ -65,9 +65,9 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
   const formatConsumption = (value: string | number) => { const n = Number(value); if (!Number.isFinite(n) || n <= 0) return '—'; return preferences.fuelUnit === 'mpg' ? (235.214583 / n).toFixed(1) : n.toFixed(2); };
   const consumptionUnit = preferences.fuelUnit === 'mpg' ? 'mpg (US)' : 'л/100 км';
   // Calculator inputs
-  const [distance, setDistance] = useState<string>('420');
-  const [liters, setLiters] = useState<string>('48');
-  const [fuelPrice, setFuelPrice] = useState<string>('62.50');
+  const [distance, setDistance] = useState<string>('');
+  const [liters, setLiters] = useState<string>('');
+  const [fuelPrice, setFuelPrice] = useState<string>('');
   const [fuelType, setFuelType] = useState<string>('АИ-95');
 
   // Chart options
@@ -78,11 +78,11 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
   const [logs, setLogs] = useState<FuelLog[]>(() => readStored(activeStorageKey, (value: unknown): value is FuelLog[] => Array.isArray(value) && value.every((item): item is FuelLog => typeof item === 'object' && item !== null && typeof item.id === 'string' && (item.vehicleId === undefined || typeof item.vehicleId === 'string') && (item.currency === undefined || typeof item.currency === 'string') && typeof item.date === 'string' && typeof item.odometer === 'number' && typeof item.distance === 'number' && typeof item.liters === 'number' && typeof item.pricePerLiter === 'number' && typeof item.totalCost === 'number' && typeof item.consumption === 'number' && typeof item.fuelType === 'string' && typeof item.station === 'string'), []).map(item => ({ ...item, vehicleId: item.vehicleId || vehicleId, currency: item.currency || 'RUB' })));
 
   const [isAddingLog, setIsAddingLog] = useState(false);
-  const [newOdometer, setNewOdometer] = useState<string>('246100');
-  const [newDistance, setNewDistance] = useState<string>('440');
-  const [newLiters, setNewLiters] = useState<string>('49.5');
-  const [newPrice, setNewPrice] = useState<string>('63.00');
-  const [newStation, setNewStation] = useState<string>('Лукойл');
+  const [newOdometer, setNewOdometer] = useState<string>('');
+  const [newDistance, setNewDistance] = useState<string>('');
+  const [newLiters, setNewLiters] = useState<string>('');
+  const [newPrice, setNewPrice] = useState<string>('');
+  const [newStation, setNewStation] = useState<string>('');
   const [newFuelType, setNewFuelType] = useState<string>('АИ-95');
 
   useEffect(() => { writeStored(activeStorageKey, logs, (value: unknown): value is FuelLog[] => Array.isArray(value) && value.every((item): item is FuelLog => typeof item === 'object' && item !== null && typeof item.id === 'string' && typeof item.date === 'string' && typeof item.odometer === 'number' && typeof item.distance === 'number' && typeof item.liters === 'number' && typeof item.pricePerLiter === 'number' && typeof item.totalCost === 'number' && typeof item.consumption === 'number' && typeof item.fuelType === 'string' && typeof item.station === 'string')); }, [logs, activeStorageKey]);

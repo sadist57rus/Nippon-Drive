@@ -32,8 +32,8 @@ export default function MaintenanceHub() {
       ? (tankCapacity / consumptionPer100Km) * 100
       : null;
 
-    const verdict = {
-      status: 'normal' as const,
+    const verdict: { status: 'excellent' | 'normal' | 'high' | 'critical'; label: string; comment: string } = {
+      status: 'normal',
       label: 'Расход рассчитан по введённым данным',
       comment: 'Это вычисление не является заводским нормативом. Сравнивайте результат с руководством для конкретной модификации.'
     };

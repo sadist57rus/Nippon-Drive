@@ -10,9 +10,10 @@ export default function MaintenanceHub() {
   const [completedItems, setCompletedItems] = useState<Record<string, boolean>>({});
 
   // Fuel consumption calculator state
-  const [distanceKm, setDistanceKm] = useState<string>('420');
-  const [fuelLiters, setFuelLiters] = useState<string>('48');
-  const [fuelPricePerLiter, setFuelPricePerLiter] = useState<string>('58.5');
+  const [distanceKm, setDistanceKm] = useState<string>('');
+  const [fuelLiters, setFuelLiters] = useState<string>('');
+  const [fuelPricePerLiter, setFuelPricePerLiter] = useState<string>('');
+  const [tankCapacityLiters, setTankCapacityLiters] = useState<string>('');
 
   const fuelCalc = useMemo(() => {
     const dist = parseDecimalInput(distanceKm);
@@ -26,51 +27,25 @@ export default function MaintenanceHub() {
     const consumptionPer100Km = (liters / dist) * 100;
     const costTotal = price !== null && price > 0 ? liters * price : null;
     const costPerKm = costTotal !== null ? costTotal / dist : null;
-    // Outlander 1 fuel tank capacity is 60 liters
-    const estimatedFullTankRangeKm = (60 / consumptionPer100Km) * 100;
+    const tankCapacity = parseDecimalInput(tankCapacityLiters);
+    const estimatedFullTankRangeKm = tankCapacity !== null && tankCapacity > 0
+      ? (tankCapacity / consumptionPer100Km) * 100
+      : null;
 
-    let verdict: { status: 'excellent' | 'normal' | 'high' | 'critical'; label: string; comment: string };
-
-    if (consumptionPer100Km < 8.8) {
-      verdict = {
-        status: 'excellent',
-        label: 'Отличный экономичный расход (трасса)',
-        comment: 'Показатели идеальны для загородного режима и исправной топливной системы.'
-      };
-    } else if (consumptionPer100Km <= 11.5) {
-      verdict = {
-        status: 'excellent',
-        label: 'Оптимальный смешанный цикл',
-        comment: 'Штатный норматив завода для Outlander 1 2.0 / 2.4 4WD в смешанном цикле.'
-      };
-    } else if (consumptionPer100Km <= 14.5) {
-      verdict = {
-        status: 'normal',
-        label: 'Нормальный городской режим',
-        comment: 'Обычный расход для плотного городского трафика, прогревов и кондиционера.'
-      };
-    } else if (consumptionPer100Km <= 17.5) {
-      verdict = {
-        status: 'high',
-        label: 'Умеренно повышенный расход',
-        comment: 'Типично для зимних прогревов, коротких поездок или активной езды на Turbo-версиях.'
-      };
-    } else {
-      verdict = {
-        status: 'critical',
-        label: 'Аномально высокий расход!',
-        comment: 'Рекомендуется проверить: 1) Верхний лямбда-зонд (ошибка P0135/P0171); 2) Зазоры и свечи зажигания; 3) Давление в шинах (норма 2.1-2.2 bar); 4) Подсос воздуха в дросселе; 5) Закисание направляющих задних суппортов.'
-      };
-    }
+    const verdict = {
+      status: 'normal' as const,
+      label: 'Расход рассчитан по введённым данным',
+      comment: 'Это вычисление не является заводским нормативом. Сравнивайте результат с руководством для конкретной модификации.'
+    };
 
     return {
       consumption: +consumptionPer100Km.toFixed(2),
       costTotal: costTotal !== null ? +costTotal.toFixed(0) : null,
       costPerKm: costPerKm !== null ? +costPerKm.toFixed(2) : null,
-      rangeOn60L: +estimatedFullTankRangeKm.toFixed(0),
+      rangeOnTank: estimatedFullTankRangeKm === null ? null : +estimatedFullTankRangeKm.toFixed(0),
       verdict
     };
-  }, [distanceKm, fuelLiters, fuelPricePerLiter]);
+  }, [distanceKm, fuelLiters, fuelPricePerLiter, tankCapacityLiters]);
 
   const toggleComplete = (id: string) => {
     setCompletedItems(prev => ({ ...prev, [id]: !prev[id] }));
@@ -174,7 +149,7 @@ export default function MaintenanceHub() {
           <div>
             <h3 className="text-lg font-bold text-white flex items-center gap-2">
               <Fuel className="w-5 h-5 text-red-500" />
-              Калькулятор расхода топлива Outlander I
+              Калькулятор расхода топлива
             </h3>
             <p className="text-xs text-slate-400 mt-0.5">
               Расчет фактического среднего расхода (л/100 км), стоимости километра и оценка по заводским нормативам
@@ -288,6 +263,20 @@ export default function MaintenanceHub() {
                 </span>
               </div>
             </div>
+
+            <div>
+              <label className="text-xs font-medium text-slate-300 block mb-1">
+                Объём бака, л (необязательно; введите значение из документации):
+              </label>
+              <input
+                type="text"
+                inputMode="decimal"
+                value={tankCapacityLiters}
+                onChange={(e) => setTankCapacityLiters(e.target.value)}
+                placeholder="Не указан"
+                className="w-full bg-slate-950 border border-slate-700 text-white font-mono font-bold text-sm rounded-lg px-3 py-2 focus:border-red-500 outline-none"
+              />
+            </div>
           </div>
 
           {/* Results Column (7 cols) */}
@@ -326,11 +315,11 @@ export default function MaintenanceHub() {
 
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 col-span-2 sm:col-span-1 flex flex-col justify-between">
                     <span className="text-xs uppercase font-bold text-slate-400 tracking-wider">
-                      Запас на баке 60 л
+                      Запас хода по объёму бака
                     </span>
                     <div className="my-1.5">
                       <span className="text-2xl font-black font-mono text-amber-400">
-                        ~{fuelCalc.rangeOn60L}
+                        {fuelCalc.rangeOnTank !== null ? `~${fuelCalc.rangeOnTank}` : '—'}
                       </span>
                     </div>
                     <span className="text-xs text-slate-500">
@@ -371,30 +360,7 @@ export default function MaintenanceHub() {
               </div>
             )}
 
-            {/* Passport Consumption Reference Table */}
-            <div className="bg-slate-950/70 p-3 rounded-lg border border-slate-800 text-xs">
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-1.5">
-                Заводские нормы расхода Outlander 1 (паспортные данные):
-              </span>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 font-mono text-xs">
-                <div className="bg-slate-900/80 p-2 rounded border border-slate-800/80">
-                  <span className="text-xs font-sans text-slate-500 block">2.0 4G63 (МКПП)</span>
-                  <span className="text-slate-200 font-semibold">7.4 – 11.2 л</span>
-                </div>
-                <div className="bg-slate-900/80 p-2 rounded border border-slate-800/80">
-                  <span className="text-xs font-sans text-slate-500 block">2.4 4G64/69 (АКПП)</span>
-                  <span className="text-slate-200 font-semibold">8.4 – 13.8 л</span>
-                </div>
-                <div className="bg-slate-900/80 p-2 rounded border border-slate-800/80">
-                  <span className="text-xs font-sans text-slate-500 block">Зима / Пробки</span>
-                  <span className="text-amber-400 font-semibold">13.5 – 16.0 л</span>
-                </div>
-                <div className="bg-slate-900/80 p-2 rounded border border-slate-800/80">
-                  <span className="text-xs font-sans text-slate-500 block">2.0 Turbo (4G63T)</span>
-                  <span className="text-red-400 font-semibold">10.5 – 17.5 л</span>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -407,7 +373,7 @@ export default function MaintenanceHub() {
             Заправочные объемы и спецификации технических жидкостей
           </h3>
           <p className="text-xs text-slate-400">
-            Точные требования завода к маслам, антифризу и смазкам для Outlander I (CU)
+            Сведения о технических жидкостях доступны только для указанных в каталоге модификаций и источников.
           </p>
         </div>
 

@@ -14,7 +14,7 @@ import FavoriteSectionsPanel, { type FavoriteSection } from './components/Favori
 import Header, { TabId } from './components/Header';
 const Garage = lazy(() => import('./components/Garage'));
 const Settings = lazy(() => import('./components/Settings'));
-const OverviewDashboard = lazy(async () => { await import('./data/specsData'); return import('./components/OverviewDashboard'); });
+const OverviewDashboard = lazy(() => import('./components/OverviewDashboard'));
 const TechSpecs = lazy(async () => { await import('./data/specsData'); return import('./components/TechSpecs'); });
 const PartsCatalog = lazy(async () => { await import('./data/partsData'); return import('./components/PartsCatalog'); });
 const PartsAccessoriesHub = lazy(async () => { await import('./data/partsData'); return import('./components/PartsAccessoriesHub'); });

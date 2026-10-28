@@ -93,17 +93,17 @@ export default function BrandSelectorModal({
             </div>
             <div>
               <h2 id="brand-selector-title" className="text-base sm:text-lg font-bold text-slate-900 dark:text-white">
-                Select vehicle brand
+                Выбор японского производителя
               </h2>
               <p className="text-xs text-slate-500 dark:text-slate-400">
-                Toyota, Mitsubishi, Nissan, Mazda, Honda and more
+                Toyota, Mitsubishi, Nissan, Mazda, Honda и другие марки
               </p>
             </div>
           </div>
 
           <button
             onClick={onClose}
-            aria-label="Close brand selector"
+            aria-label="Закрыть выбор марки"
             className="min-h-11 min-w-11 p-2 rounded-xl text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white hover:bg-slate-200 dark:hover:bg-slate-800 transition"
           >
             <X className="w-5 h-5" />
@@ -118,8 +118,8 @@ export default function BrandSelectorModal({
               type="text"
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
-              placeholder="Search brands (Mitsubishi, Toyota, Nissan, Suzuki...) or models..."
-              aria-label="Search brands or models"
+              placeholder="Поиск по марке (Mitsubishi, Toyota, Nissan, Suzuki...) или модели..."
+              aria-label="Поиск марки или модели"
               className="w-full min-h-11 pl-9 pr-4 py-2 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white focus:outline-hidden focus:ring-2 focus:ring-red-500"
             />
           </div>
@@ -135,7 +135,7 @@ export default function BrandSelectorModal({
                   type="button"
                   key={brand.id}
                   onClick={() => handleChooseBrand(brand)}
-                  aria-label={`Select ${brand.name}`}
+                  aria-label={`Выбрать ${brand.russianName || brand.name}`}
                   className={`group flex min-w-0 min-h-11 flex-col items-center gap-2 p-2 sm:p-3 rounded-xl border transition cursor-pointer text-center ${
                     isSelected
                       ? 'bg-red-50 dark:bg-red-950/40 border-red-500 ring-2 ring-red-500/20'
@@ -171,13 +171,13 @@ export default function BrandSelectorModal({
                     </div>
 
                     <div className="flex flex-wrap items-center justify-center gap-1 text-xs sm:text-xs text-slate-500 dark:text-slate-400 font-mono">
-                      <span>{brand.country}</span>
+                      <span>{brand.russianName}</span>
                       <span>·</span>
-                      <span>Est. {brand.founded}</span>
+                      <span>с {brand.founded} г.</span>
                     </div>
 
                     <p className="hidden sm:block text-xs text-slate-600 dark:text-slate-400 mt-1 break-words">
-                      Models: {brand.models.map(m => m.name.split(' ')[0]).join(', ')}
+                      Модели: {brand.models.map(m => m.name.split(' ')[0]).join(', ')}
                     </p>
                   </div>
                 </button>
@@ -191,20 +191,20 @@ export default function BrandSelectorModal({
               onClick={() => setShowOtherBrands(value => !value)}
               className="mt-3 min-h-11 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-4 py-2 text-sm font-semibold text-slate-700 dark:text-slate-200 hover:border-red-400 hover:text-red-600 dark:hover:text-red-400 transition"
             >
-              {showOtherBrands ? 'Show less' : 'Other brands'}
+              {showOtherBrands ? 'Скрыть' : 'Другие'}
             </button>
           )}
         </div>
 
         {/* Modal Footer */}
         <div className="p-3.5 bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
-          <span className="min-w-0 flex-1">Select a brand to view its vehicle specifications</span>
+          <span className="min-w-0 flex-1">Нажмите на любую марку, чтобы открыть её спецификации</span>
           <button
             type="button"
             onClick={onClose}
             className="min-h-11 px-3.5 py-1.5 rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium transition"
           >
-            Close
+            Закрыть
           </button>
         </div>
       </div>

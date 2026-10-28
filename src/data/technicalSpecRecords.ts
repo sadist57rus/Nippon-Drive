@@ -32,11 +32,11 @@ export interface EngineTechnicalRecord {
 export const TECHNICAL_DATA_SOURCES: TechnicalDataSource[] = [
   {
     id: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual',
-    title: 'Mitsubishi Outlander 2006 Service Manual — engine mechanical 4G69',
+    title: 'Mitsubishi Outlander 2006 — руководство по ремонту, механическая часть двигателя 4G69',
     url: 'https://www.jdmfsm.info/Auto/Japan/Mitsubishi/Outlander/Manuals/2006/Service%20Manual%20PDF/WM/GR00000600-11E.pdf',
     sourceType: 'service-manual-mirror',
     accessedAt: '2026-10-16',
-    scope: 'Service manual pages for Outlander CU5W / engine 4G69. Use the page/group identifiers printed in the manual and verify that the manual matches the vehicle market and model year.'
+    scope: 'Разделы руководства по ремонту для Outlander CU5W с двигателем 4G69. Сверяйте обозначения страниц и групп в руководстве, а также соответствие рынку и модельному году автомобиля.'
   }
 ];
 
@@ -46,33 +46,33 @@ export const ENGINE_TECHNICAL_RECORDS: EngineTechnicalRecord[] = [
     modelId: 'outlander-1',
     chassisCode: 'CU5W',
     engineCode: '4G69',
-    marketScope: 'CU5W configuration covered by the referenced 2006 service manual; market must be confirmed by chassis/VIN',
-    modelYears: 'Manual edition 2006; applicable production range must be confirmed from VIN',
+    marketScope: 'Конфигурация CU5W по руководству 2006 года; рынок необходимо подтвердить по коду кузова/VIN',
+    modelYears: 'Издание руководства — 2006 год; применимость к периоду выпуска необходимо проверить по VIN',
     verificationStatus: 'partially-verified',
-    summary: 'The service manual identifies the Outlander CU5W engine as 4G69-2, 2,378 cm³, SOHC 16-valve. The values below are service-manual specifications, not universal settings for every Mitsubishi vehicle using the 4G69 family.',
+    summary: 'В руководстве для Outlander CU5W указан двигатель 4G69-2 объёмом 2 378 см³, SOHC, 16 клапанов. Приведённые ниже значения относятся к этому руководству и не являются универсальными для всех автомобилей Mitsubishi с двигателями семейства 4G69.',
     sourceIds: ['mitsubishi-outlander-2006-cu5w-4g69-service-manual'],
     values: [
-      { label: 'Engine displacement', value: '2,378 cm³', conditions: 'CU5W / 4G69-2', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Bore × stroke', value: '87 × 100 mm', conditions: 'Engine overhaul specification', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Compression ratio', value: '9.5:1', conditions: 'Engine overhaul specification', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Cylinder/head arrangement', value: 'Inline 4-cylinder, SOHC, 16 valves', conditions: 'Service-manual engine model table', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Fuel system', value: 'Electronically controlled multipoint fuel injection', conditions: 'Service-manual engine data', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Valve clearance — intake', value: '0.20 mm', conditions: 'Engine hot; check/adjust using the manual procedure', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Valve clearance — exhaust', value: '0.30 mm', conditions: 'Engine hot; check/adjust using the manual procedure', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Basic ignition timing', value: '5° BTDC ± 3°', conditions: 'Use specified diagnostic mode and manual procedure', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Idle speed — manual transmission', value: '680 ± 100 rpm', conditions: 'Service-manual standard value; required test conditions apply', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Idle speed — automatic transmission', value: '750 ± 100 rpm', conditions: 'Service-manual standard value; required test conditions apply', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Compression pressure — standard', value: '1,560 kPa at 200 rpm', conditions: 'Engine test procedure and battery/cranking conditions matter', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Compression pressure — limit', value: '1,130 kPa at 200 rpm', conditions: 'Service-manual limit; do not interpret without cylinder-to-cylinder comparison', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Maximum cylinder pressure difference', value: '98 kPa', conditions: 'Service-manual limit across cylinders', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Balancer belt deflection', value: '5–7 mm after adjustment/replacement; 5–10 mm when checked', conditions: 'Measure using the exact manual procedure and tools', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
-      { label: 'Timing belt tensioner rod protrusion', value: '3.8–4.5 mm', conditions: 'Service-manual specification', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' }
+      { label: 'Рабочий объём двигателя', value: '2,378 cm³', conditions: 'CU5W / 4G69-2', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Диаметр цилиндра × ход поршня', value: '87 × 100 mm', conditions: 'Спецификация при ремонте двигателя', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Степень сжатия', value: '9.5:1', conditions: 'Спецификация при ремонте двигателя', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Конфигурация цилиндров и головки блока', value: 'Рядный 4-цилиндровый, SOHC, 16 клапанов', conditions: 'Таблица моделей двигателя в руководстве по ремонту', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Топливная система', value: 'Электронно-управляемый распределённый впрыск топлива', conditions: 'Данные двигателя из руководства по ремонту', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Зазор клапанов — впуск', value: '0.20 mm', conditions: 'Двигатель прогрет; проверять и регулировать по процедуре из руководства', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Зазор клапанов — выпуск', value: '0.30 mm', conditions: 'Двигатель прогрет; проверять и регулировать по процедуре из руководства', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Начальный угол опережения зажигания', value: '5° до ВМТ ± 3°', conditions: 'Использовать предусмотренный диагностический режим и процедуру из руководства', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Частота холостого хода — механическая коробка передач', value: '680 ± 100 rpm', conditions: 'Нормативное значение из руководства; необходимо соблюдать условия проверки', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Частота холостого хода — автоматическая коробка передач', value: '750 ± 100 rpm', conditions: 'Нормативное значение из руководства; необходимо соблюдать условия проверки', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Компрессия — нормативное значение', value: '1,560 kPa at 200 rpm', conditions: 'Результат зависит от процедуры проверки, состояния аккумулятора и частоты прокрутки', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Компрессия — предельно допустимое значение', value: '1,130 kPa at 200 rpm', conditions: 'Предельное значение по руководству; оценивать вместе со сравнением цилиндров', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Максимальная разница компрессии между цилиндрами', value: '98 kPa', conditions: 'Предельно допустимая разница между цилиндрами по руководству', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Прогиб ремня балансирных валов', value: '5–7 мм после регулировки/замены; 5–10 мм при проверке', conditions: 'Измерять строго по процедуре и инструментом, указанным в руководстве', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' },
+      { label: 'Выступание штока натяжителя ремня ГРМ', value: '3.8–4.5 mm', conditions: 'Значение по руководству по ремонту', sourceId: 'mitsubishi-outlander-2006-cu5w-4g69-service-manual' }
     ],
     limitations: [
-      'This record covers CU5W/4G69 service specifications only; it does not establish compatibility for CU2W/4G63, other engines, other chassis, or other model years.',
-      'The referenced document is a hosted mirror of a service manual, not a currently verified official manufacturer portal.',
-      'Do not use these values as a substitute for the complete procedure, safety warnings, special-tool requirements, torque tables, or VIN-specific service information.',
-      'Engine power/torque, fuel economy, fluid capacities, transmission service fluid and part numbers are deliberately not inferred from this engine-mechanical excerpt.'
+      'Запись содержит только сервисные спецификации для CU5W/4G69 и не подтверждает применимость к CU2W/4G63, другим двигателям, кузовам или модельным годам.',
+      'Документ размещён на стороннем зеркале руководства по ремонту; это не подтверждённый официальный портал производителя.',
+      'Не заменяйте этими значениями полную процедуру, предупреждения по безопасности, требования к специнструменту, таблицы моментов затяжки или сервисные данные для конкретного VIN.',
+      'Мощность и крутящий момент, расход топлива, объёмы жидкостей, сервисная жидкость коробки передач и номера деталей намеренно не определяются по этому фрагменту механической части двигателя.'
     ]
   }
 ];

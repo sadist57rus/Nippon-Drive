@@ -3,6 +3,7 @@ import type { TabId } from './Header';
 import { BrandLogo } from './BrandLogos';
 import { JAPANESE_BRANDS } from '../data/japaneseBrandsData';
 import { useVehicle } from '../context/VehicleContext';
+import VehicleIllustration from './VehicleIllustration';
 
 interface Props {
   onNavigate: (tab: TabId) => void;
@@ -33,6 +34,7 @@ export default function OverviewDashboard({ onNavigate }: Props) {
 
   return (
     <div className="mx-auto w-full max-w-6xl space-y-4 md:space-y-6">
+      <h1 className="text-xl font-black text-slate-900 dark:text-white">Главная</h1>
       <section className="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:p-4 md:p-5">
         <div className="flex items-center gap-3">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 p-2 dark:border-slate-700 dark:bg-slate-950 sm:h-14 sm:w-14 md:h-16 md:w-16">
@@ -40,7 +42,7 @@ export default function OverviewDashboard({ onNavigate }: Props) {
           </div>
           <div className="min-w-0 flex-1">
             <p className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">Мой автомобиль</p>
-            <h1 className="mt-0.5 text-lg font-black leading-tight text-slate-900 dark:text-white sm:text-xl md:text-2xl">{title}</h1>
+            <h2 className="mt-0.5 text-lg font-black leading-tight text-slate-900 dark:text-white sm:text-xl md:text-2xl">{title}</h2>
             {hasVehicle && <p className="mt-1 text-sm font-semibold text-slate-700 dark:text-slate-200">Пробег: {valueOrUnknown(vehicle.activeVehicle.mileage, ' км')}</p>}
           </div>
           {hasVehicle && (

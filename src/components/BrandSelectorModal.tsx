@@ -161,7 +161,7 @@ export default function BrandSelectorModal({
                         </span>
                         {brand.id === 'mitsubishi' && (
                           <span className="text-xs px-1.5 py-0.2 rounded bg-amber-500 text-black font-bold">
-                            Core
+                            База
                           </span>
                         )}
                       </div>

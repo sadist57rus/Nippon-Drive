@@ -123,19 +123,22 @@ function makeKeiIndexModel(entry: KeiIndexEntry): JapaneseCarModel {
     },
     ...(entry.wiper ? { wiperBladeSize: [entry.wiper] } : {}),
     ...(entry.tireOptions ? {
-      tires: entry.tireOptions.map((tire) => {
+      // Some Japanese commercial tires use legacy notation such as 145R12-6PR LT,
+      // which does not specify a profile ratio. Keep those notes below instead of
+      // inventing dimensions or crashing the entire catalog during module import.
+      tires: entry.tireOptions.flatMap((tire) => {
         const match = tire.size.match(/^(\d{3})\/(\d{2})R(\d{2})/);
-        if (!match) throw new Error('Invalid tire size: ' + tire.size);
+        if (!match) return [];
         const width = Number(match[1]);
         const aspectRatio = Number(match[2]);
         const rimDiameter = Number(match[3]) * 25.4;
-        return {
+        return [{
           size: tire.size, width, aspectRatio, rimDiameter,
           diameter: rimDiameter + 2 * width * aspectRatio / 100,
           loadIndex: tire.size.match(/R\d{2}\s+(\d{2,3})[A-Z]$/)?.[1] ?? 'Нет данных',
           speedRating: tire.size.match(/R\d{2}\s+\d{2,3}([A-Z])$/)?.[1] ?? 'Нет данных',
           notes: tire.notes,
-        };
+        }];
       }),
     } : {}),
     engines: (entry.engineOptions ?? []).map((engine) => ({
@@ -173,7 +176,14 @@ function makeKeiIndexModel(entry: KeiIndexEntry): JapaneseCarModel {
       tailStop: entry.bulbsVerified?.tailStop ?? NO_DATA,
       interior: entry.bulbsVerified?.interior ?? NO_DATA,
     },
-    ...(entry.maintenanceTips ? { maintenanceTips: entry.maintenanceTips } : {}),
+    ...((entry.maintenanceTips?.length || entry.tireOptions?.some((tire) => !/^\d{3}\/\d{2}R\d{2}/.test(tire.size)))
+      ? { maintenanceTips: [
+          ...(entry.maintenanceTips ?? []),
+          ...(entry.tireOptions ?? [])
+            .filter((tire) => !/^\d{3}\/\d{2}R\d{2}/.test(tire.size))
+            .map((tire) => `Маркировка шины ${tire.size} сохранена без расчёта диаметра: в записи не указан профиль. ${tire.notes}`),
+        ] }
+      : {}),
     obdDiagnostics: {
       portLocation: NO_DATA,
       commonCodes: [],

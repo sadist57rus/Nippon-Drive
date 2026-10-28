@@ -30,9 +30,9 @@ import {
   Flame,
   Award
 } from 'lucide-react';
-function formatKnownDimension(value: number | null | undefined): string {
+function formatKnownDimension(value: number | null | undefined, unit = ''): string {
   return typeof value === 'number' && Number.isFinite(value) && value > 0
-    ? value.toLocaleString('ru-RU')
+    ? `${value.toLocaleString('ru-RU')}${unit}`
     : 'Нет подтверждённых данных';
 }
 
@@ -500,19 +500,19 @@ export default function JapaneseBrandsHub({
               <div>
                 <span className="text-xs text-slate-600 dark:text-slate-300 block">Габариты (Д×Ш×В)</span>
                 <span className="font-mono font-bold text-slate-900 dark:text-white">
-                  {formatKnownDimension(currentModel.dimensions.lengthMm)} × {formatKnownDimension(currentModel.dimensions.widthMm)} × {formatKnownDimension(currentModel.dimensions.heightMm)} мм
+                  {formatKnownDimension(currentModel.dimensions.lengthMm, ' мм')} × {formatKnownDimension(currentModel.dimensions.widthMm, ' мм')} × {formatKnownDimension(currentModel.dimensions.heightMm, ' мм')}
                 </span>
               </div>
               <div>
                 <span className="text-xs text-slate-600 dark:text-slate-300 block">Клиренс (просвет)</span>
                 <span className="font-mono font-bold text-red-600 dark:text-red-400">
-                  {formatKnownDimension(currentModel.dimensions.groundClearanceMm)} мм
+                  {formatKnownDimension(currentModel.dimensions.groundClearanceMm, ' мм')}
                 </span>
               </div>
               <div>
                 <span className="text-xs text-slate-600 dark:text-slate-300 block">Колесная база</span>
                 <span className="font-mono font-bold text-slate-900 dark:text-white">
-                  {formatKnownDimension(currentModel.dimensions.wheelbaseMm)} мм
+                  {formatKnownDimension(currentModel.dimensions.wheelbaseMm, ' мм')}
                 </span>
               </div>
               <div>
@@ -524,7 +524,7 @@ export default function JapaneseBrandsHub({
               <div>
                 <span className="text-xs text-slate-600 dark:text-slate-300 block">Топливный бак</span>
                 <span className="font-mono font-bold text-slate-900 dark:text-white">
-                  {formatKnownDimension(currentModel.dimensions.fuelTankLiters)} л ({currentModel.fuelEconomy.fuelGrade})
+                  {formatKnownDimension(currentModel.dimensions.fuelTankLiters, ' л')} ({currentModel.fuelEconomy.fuelGrade})
                 </span>
               </div>
               <div>
@@ -997,25 +997,25 @@ export default function JapaneseBrandsHub({
                 <tr>
                   <td className="py-2 px-3 font-medium text-slate-500">Длина × Ширина × Высота</td>
                   <td className="py-2 px-3 font-mono">
-                    {formatKnownDimension(currentModel.dimensions.lengthMm)} × {formatKnownDimension(currentModel.dimensions.widthMm)} × {formatKnownDimension(currentModel.dimensions.heightMm)} мм
+                    {formatKnownDimension(currentModel.dimensions.lengthMm, ' мм')} × {formatKnownDimension(currentModel.dimensions.widthMm, ' мм')} × {formatKnownDimension(currentModel.dimensions.heightMm, ' мм')}
                   </td>
                   <td className="py-2 px-3 font-mono">
-                    {formatKnownDimension(compareTargetModel.dimensions.lengthMm)} × {formatKnownDimension(compareTargetModel.dimensions.widthMm)} × {formatKnownDimension(compareTargetModel.dimensions.heightMm)} мм
+                    {formatKnownDimension(compareTargetModel.dimensions.lengthMm, ' мм')} × {formatKnownDimension(compareTargetModel.dimensions.widthMm, ' мм')} × {formatKnownDimension(compareTargetModel.dimensions.heightMm, ' мм')}
                   </td>
                 </tr>
                 <tr>
                   <td className="py-2 px-3 font-medium text-slate-500">Дорожный просвет (клиренс)</td>
                   <td className="py-2 px-3 font-mono font-bold text-red-600 dark:text-red-400">
-                    {formatKnownDimension(currentModel.dimensions.groundClearanceMm)} мм
+                    {formatKnownDimension(currentModel.dimensions.groundClearanceMm, ' мм')}
                   </td>
                   <td className="py-2 px-3 font-mono font-bold">
-                    {formatKnownDimension(compareTargetModel.dimensions.groundClearanceMm)} мм
+                    {formatKnownDimension(compareTargetModel.dimensions.groundClearanceMm, ' мм')}
                   </td>
                 </tr>
                 <tr>
                   <td className="py-2 px-3 font-medium text-slate-500">Колесная база</td>
-                  <td className="py-2 px-3 font-mono">{formatKnownDimension(currentModel.dimensions.wheelbaseMm)} мм</td>
-                  <td className="py-2 px-3 font-mono">{formatKnownDimension(compareTargetModel.dimensions.wheelbaseMm)} мм</td>
+                  <td className="py-2 px-3 font-mono">{formatKnownDimension(currentModel.dimensions.wheelbaseMm, ' мм')}</td>
+                  <td className="py-2 px-3 font-mono">{formatKnownDimension(compareTargetModel.dimensions.wheelbaseMm, ' мм')}</td>
                 </tr>
                 <tr>
                   <td className="py-2 px-3 font-medium text-slate-500">Объем багажного отделения</td>
@@ -1030,10 +1030,10 @@ export default function JapaneseBrandsHub({
                 <tr>
                   <td className="py-2 px-3 font-medium text-slate-500">Бензобак и расход (город)</td>
                   <td className="py-2 px-3 font-mono">
-                    {formatKnownDimension(currentModel.dimensions.fuelTankLiters)} л · {currentModel.fuelEconomy.city}
+                    {formatKnownDimension(currentModel.dimensions.fuelTankLiters, ' л')} · {currentModel.fuelEconomy.city}
                   </td>
                   <td className="py-2 px-3 font-mono">
-                    {formatKnownDimension(compareTargetModel.dimensions.fuelTankLiters)} л · {compareTargetModel.fuelEconomy.city}
+                    {formatKnownDimension(compareTargetModel.dimensions.fuelTankLiters, ' л')} · {compareTargetModel.fuelEconomy.city}
                   </td>
                 </tr>
               </tbody>

@@ -579,3 +579,29 @@ test('подписи характеристик двигателя и сведе
   expect(TECHNICAL_DATA_SOURCES[0].title).toContain('руководство по ремонту');
   expect(record?.engineCode).toBe('4G69');
 });
+
+test('экран первого выбора автомобиля прокручивается до кнопки сохранения', async ({ page }) => {
+  await page.setViewportSize({ width: 360, height: 640 });
+  await page.addInitScript(() => {
+    localStorage.clear();
+    sessionStorage.clear();
+  });
+  await page.goto('/');
+  const orientationHeading = page.getByRole('heading', { name: /Выберите ориентацию экрана/i });
+  if (await orientationHeading.isVisible().catch(() => false)) {
+    await page.getByRole('button', { name: /Телефон/i }).click();
+  }
+  const setup = page.locator('main.car-vehicle-setup');
+  await expect(setup).toBeVisible();
+  await expect(page.getByRole('button', { name: /Сохранить автомобиль и открыть приложение/i })).toBeVisible();
+  const metrics = await setup.evaluate(element => ({
+    clientHeight: element.clientHeight,
+    scrollHeight: element.scrollHeight,
+    overflowY: getComputedStyle(element).overflowY,
+  }));
+  expect(metrics.overflowY).toBe('auto');
+  expect(metrics.scrollHeight).toBeGreaterThan(metrics.clientHeight);
+  await setup.evaluate(element => { element.scrollTop = element.scrollHeight; });
+  await expect.poll(() => setup.evaluate(element => element.scrollTop)).toBeGreaterThan(0);
+  await expect(page.getByRole('button', { name: /Сохранить автомобиль и открыть приложение/i })).toBeInViewport();
+});

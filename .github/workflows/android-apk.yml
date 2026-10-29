@@ -15,7 +15,7 @@ on:
         default: false
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   prepare:
@@ -26,16 +26,12 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v5
         with:
-          persist-credentials: true
+          persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
           node-version: 24
-
-            # Keep the committed npm lockfile synchronized when package.json changes.
-      - name: Refresh npm lockfile
-        run: npm install --package-lock-only --ignore-scripts --no-audit --no-fund
 
       - name: Cache npm
         uses: actions/cache@v4
@@ -95,20 +91,6 @@ jobs:
               raise SystemExit("Could not locate Android versionName in android/app/build.gradle")
           path.write_text(text)
           PY
-
-      # The first main-branch run commits package-lock.json and android/.
-      - name: Commit bootstrapped project
-        if: ${{ github.ref == 'refs/heads/main' }}
-        run: |
-          git add package-lock.json android
-          if git diff --cached --quiet; then
-            echo "Lockfile and Android project are already committed."
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore(android): commit native project and npm lockfile"
-            git push origin HEAD:main
-          fi
 
       - name: Upload prepared native project
         uses: actions/upload-artifact@v5
@@ -183,31 +165,39 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
-      - name: Create draft unsigned test release with APK
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+
+
+
+
+  publish-test-build:
+    name: Publish test APK to GitHub Releases
+    needs: debug-apk
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - name: Download debug APK
+        uses: actions/download-artifact@v5
+        with:
+          name: Nippon-Drive-APK-debug
+          path: dist
+
+      - name: Publish test build release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: test-build-${{ github.run_number }}
-          name: Nippon-Drive test build ${{ github.run_number }}
-          generate_release_notes: true
-          draft: true
+          name: Nippon-Drive test build #${{ github.run_number }}
+          body: Automated test build from main. This is an unsigned debug APK.
           prerelease: true
-          files: android/app/build/outputs/apk/debug/app-debug.apk
-
-      # Immutable-release repositories reject asset uploads after publication.
-      # Upload the APK to a draft first, then publish only after the asset exists.
-      - name: Publish test release after APK upload
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh release view "test-build-${{ github.run_number }}" --json assets --jq '.assets[] | select(.name == "app-debug.apk") | .name' | grep -Fx 'app-debug.apk'
-          gh release edit "test-build-${{ github.run_number }}" --draft=false
-
+          draft: false
+          files: dist/app-debug.apk
 
   release-apk:
     name: Build signed APK
     needs: prepare
+    permissions:
+      contents: write
     if: ${{ startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'workflow_dispatch' && inputs.build_signed_test) }}
     runs-on: ubuntu-24.04
     timeout-minutes: 35

@@ -11,39 +11,6 @@ import { BookOpen, Plus, Trash2, Download, Upload, DollarSign, Wrench, Calendar,
 
 const STORAGE_KEY = 'outlander1_garage_logbook_v1';
 
-const INITIAL_RECORDS: LogEntry[] = [
-  {
-    id: 'log-1',
-    date: '2026-08-10',
-    mileage: 182400,
-    category: 'Двигатель и ГРМ',
-    title: 'Замена комплекта ГРМ и ремня балансира со всеми роликами',
-    partsUsed: 'Ремень Gates 5535XS, балансир Gates 5257XS, ролики Koyo LAT1018C/PU276033, натяжитель NTN',
-    costTotal: 18500,
-    notes: 'Выставили балансировочный вал по метке через технологическую заглушку блока (отвертка зашла на 65 мм). Вибраций нет, мотор шепчет.'
-  },
-  {
-    id: 'log-2',
-    date: '2026-06-22',
-    mileage: 178500,
-    category: 'Охлаждение',
-    title: 'Замена блока управления вентиляторами и крышки радиатора',
-    partsUsed: 'Блок 1355A124, термопаста Arctic MX-4, крышка радиатора Denso 0.9 bar (022510-1530)',
-    costTotal: 4600,
-    notes: 'Старый блок MR560127 выл на 100%. На новый нанес свежую термопасту. Крышка 0.9 bar защитит бачок от разрыва.'
-  },
-  {
-    id: 'log-3',
-    date: '2026-04-15',
-    mileage: 175200,
-    category: 'Шины и диски',
-    title: 'Установка комплекта резины 215/65 R16 A/T',
-    partsUsed: 'Шины Yokohama Geolandar A/T G015 215/65 R16 98H на штатных дисках R16',
-    costTotal: 34000,
-    notes: 'Машина поднялась на +11 мм. По ямам и гравийке идет значительно мягче. До чашки стойки огромный запас, нигде не задевает.'
-  }
-];
-
 export default function GarageLogbook() {
   const { vehicleId, vehicles, activeVehicle } = useVehicle();
   const activeStorageKey = vehicleId === vehicles[0]?.id ? STORAGE_KEY : 'car-brother-logbook-' + vehicleId;
@@ -56,7 +23,7 @@ export default function GarageLogbook() {
   const [importMode, setImportMode] = useState<'add' | 'replace'>('add');
   const [dialogMessage, setDialogMessage] = useState<string | null>(null);
   const [pendingDeleteId, setPendingDeleteId] = useState<string | null>(null);
-  const [entries, setEntries] = useState<LogEntry[]>(() => readStored(activeStorageKey, (value: unknown): value is LogEntry[] => Array.isArray(value) && value.every((item): item is LogEntry => typeof item === 'object' && item !== null && typeof item.id === 'string' && (item.vehicleId === undefined || typeof item.vehicleId === 'string') && (item.currency === undefined || typeof item.currency === 'string') && typeof item.date === 'string' && typeof item.mileage === 'number' && typeof item.category === 'string' && typeof item.title === 'string' && typeof item.costTotal === 'number' && (item.partsUsed === undefined || typeof item.partsUsed === 'string') && (item.notes === undefined || typeof item.notes === 'string')), vehicleId === vehicles[0]?.id ? INITIAL_RECORDS : []).map(item => ({ ...item, vehicleId: item.vehicleId || vehicleId, currency: item.currency || 'RUB' })));
+  const [entries, setEntries] = useState<LogEntry[]>(() => readStored(activeStorageKey, (value: unknown): value is LogEntry[] => Array.isArray(value) && value.every((item): item is LogEntry => typeof item === 'object' && item !== null && typeof item.id === 'string' && (item.vehicleId === undefined || typeof item.vehicleId === 'string') && (item.currency === undefined || typeof item.currency === 'string') && typeof item.date === 'string' && typeof item.mileage === 'number' && typeof item.category === 'string' && typeof item.title === 'string' && typeof item.costTotal === 'number' && (item.partsUsed === undefined || typeof item.partsUsed === 'string') && (item.notes === undefined || typeof item.notes === 'string')), []).map(item => ({ ...item, vehicleId: item.vehicleId || vehicleId, currency: item.currency || 'RUB' })));
 
   const [isAdding, setIsAdding] = useState(false);
   const [newDate, setNewDate] = useState(new Date().toISOString().split('T')[0]);

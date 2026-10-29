@@ -12,8 +12,7 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
-  Tooltip,
-  ReferenceLine
+  Tooltip
 } from 'recharts';
 import {
   Fuel,
@@ -65,9 +64,9 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
   const formatConsumption = (value: string | number) => { const n = Number(value); if (!Number.isFinite(n) || n <= 0) return '—'; return preferences.fuelUnit === 'mpg' ? (235.214583 / n).toFixed(1) : n.toFixed(2); };
   const consumptionUnit = preferences.fuelUnit === 'mpg' ? 'mpg (US)' : 'л/100 км';
   // Calculator inputs
-  const [distance, setDistance] = useState<string>('420');
-  const [liters, setLiters] = useState<string>('48');
-  const [fuelPrice, setFuelPrice] = useState<string>('62.50');
+  const [distance, setDistance] = useState<string>('');
+  const [liters, setLiters] = useState<string>('');
+  const [fuelPrice, setFuelPrice] = useState<string>('');
   const [fuelType, setFuelType] = useState<string>('АИ-95');
 
   // Chart options
@@ -78,11 +77,11 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
   const [logs, setLogs] = useState<FuelLog[]>(() => readStored(activeStorageKey, (value: unknown): value is FuelLog[] => Array.isArray(value) && value.every((item): item is FuelLog => typeof item === 'object' && item !== null && typeof item.id === 'string' && (item.vehicleId === undefined || typeof item.vehicleId === 'string') && (item.currency === undefined || typeof item.currency === 'string') && typeof item.date === 'string' && typeof item.odometer === 'number' && typeof item.distance === 'number' && typeof item.liters === 'number' && typeof item.pricePerLiter === 'number' && typeof item.totalCost === 'number' && typeof item.consumption === 'number' && typeof item.fuelType === 'string' && typeof item.station === 'string'), []).map(item => ({ ...item, vehicleId: item.vehicleId || vehicleId, currency: item.currency || 'RUB' })));
 
   const [isAddingLog, setIsAddingLog] = useState(false);
-  const [newOdometer, setNewOdometer] = useState<string>('246100');
-  const [newDistance, setNewDistance] = useState<string>('440');
-  const [newLiters, setNewLiters] = useState<string>('49.5');
-  const [newPrice, setNewPrice] = useState<string>('63.00');
-  const [newStation, setNewStation] = useState<string>('Лукойл');
+  const [newOdometer, setNewOdometer] = useState<string>('');
+  const [newDistance, setNewDistance] = useState<string>('');
+  const [newLiters, setNewLiters] = useState<string>('');
+  const [newPrice, setNewPrice] = useState<string>('');
+  const [newStation, setNewStation] = useState<string>('');
   const [newFuelType, setNewFuelType] = useState<string>('АИ-95');
 
   useEffect(() => { writeStored(activeStorageKey, logs, (value: unknown): value is FuelLog[] => Array.isArray(value) && value.every((item): item is FuelLog => typeof item === 'object' && item !== null && typeof item.id === 'string' && typeof item.date === 'string' && typeof item.odometer === 'number' && typeof item.distance === 'number' && typeof item.liters === 'number' && typeof item.pricePerLiter === 'number' && typeof item.totalCost === 'number' && typeof item.consumption === 'number' && typeof item.fuelType === 'string' && typeof item.station === 'string')); }, [logs, activeStorageKey]);
@@ -99,25 +98,8 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
       const costPer100Km = costPerKm * 100;
       const tankRange = tankCapacity && tankCapacity > 0 ? (tankCapacity / consumption) * 100 : 0;
 
-      // Assessment
-      let verdict = '';
-      let verdictColor = '';
-      if (consumption < 9.5) {
-        verdict = 'Отличный трассовый расход (ниже паспорта)';
-        verdictColor = 'text-emerald-500';
-      } else if (consumption <= 11.5) {
-        verdict = 'Оптимальный смешанный цикл для 4WD';
-        verdictColor = 'text-emerald-400';
-      } else if (consumption <= 14.5) {
-        verdict = 'Стандартный городской режим';
-        verdictColor = 'text-amber-500';
-      } else if (consumption <= 17.0) {
-        verdict = 'Повышенный городской расход (пробки / зима)';
-        verdictColor = 'text-orange-500';
-      } else {
-        verdict = 'Аномально высокий расход! Рекомендуется диагностика';
-        verdictColor = 'text-red-500';
-      }
+      const verdict = 'Расход вычислен. Сравните его с документацией конкретной модификации.';
+      const verdictColor = 'text-slate-500';
 
       return {
         consumption: consumption.toFixed(2),
@@ -399,24 +381,10 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
           </div>
         </div>
 
-        {/* Legend / Benchmarks Bar */}
-        <div className="flex flex-wrap items-center gap-4 text-xs font-mono pt-1 text-slate-600 dark:text-slate-400">
-          <div className="flex items-center gap-1.5">
-            <span className="w-3 h-3 rounded-full bg-red-600 inline-block" />
-            <span>Расход авто ({consumptionUnit})</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <span className="w-3 h-0.5 bg-emerald-500 inline-block border-b-2 border-dashed border-emerald-500" />
-            <span className="text-emerald-600 dark:text-emerald-400">7.6 л (Паспорт Трасса)</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <span className="w-3 h-0.5 bg-amber-500 inline-block border-b-2 border-dashed border-amber-500" />
-            <span className="text-amber-600 dark:text-amber-400">12.5 л (Паспорт Город 4WD)</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <span className="w-3 h-0.5 bg-red-500 inline-block border-b-2 border-dashed border-red-500" />
-            <span className="text-red-500">15.0 л (Порог перерасхода)</span>
-          </div>
+        {/* Chart legend */}
+        <div className="flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400 pt-1">
+          <span className="w-3 h-3 rounded-full bg-red-600 inline-block" />
+          <span>Фактический расход ({consumptionUnit}); нормативы не показаны без подтверждённого источника.</span>
         </div>
 
         {/* Recharts Container */}
@@ -448,26 +416,6 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
                   unit={preferences.fuelUnit === 'mpg' ? " mpg" : " л"}
                 />
                 <Tooltip content={<CustomChartTooltip />} />
-
-                {/* Benchmark Lines */}
-                <ReferenceLine
-                  y={preferences.fuelUnit === 'mpg' ? 235.214583 / 7.6 : 7.6}
-                  stroke="#10b981"
-                  strokeDasharray="4 4"
-                  label={{ value: preferences.fuelUnit === 'mpg' ? '31 mpg трасса' : '7.6 л трасса', fill: '#10b981', fontSize: 10, position: 'insideBottomRight' }}
-                />
-                <ReferenceLine
-                  y={preferences.fuelUnit === 'mpg' ? 235.214583 / 12.5 : 12.5}
-                  stroke="#f59e0b"
-                  strokeDasharray="4 4"
-                  label={{ value: preferences.fuelUnit === 'mpg' ? '18.8 mpg город' : '12.5 л город', fill: '#f59e0b', fontSize: 10, position: 'insideBottomRight' }}
-                />
-                <ReferenceLine
-                  y={preferences.fuelUnit === 'mpg' ? 235.214583 / 15.0 : 15.0}
-                  stroke="#ef4444"
-                  strokeDasharray="3 3"
-                  label={{ value: preferences.fuelUnit === 'mpg' ? '15.7 mpg лимит' : '15 л лимит', fill: '#ef4444', fontSize: 10, position: 'insideBottomRight' }}
-                />
 
                 <Area
                   type="monotone"
@@ -623,42 +571,6 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
                     {stats.verdict}
                   </div>
 
-                  {/* VISUAL GAUGE SPECTRUM BAR */}
-                  <div className="space-y-1.5 pt-2">
-                    <div className="flex justify-between text-xs text-slate-400 font-mono">
-                      <span>7.0 л (Трасса)</span>
-                      <span>12.5 л (Норма 4WD)</span>
-                      <span>18.0+ л (Ошибки)</span>
-                    </div>
-
-                    <div className="relative h-3 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden shadow-inner flex">
-                      <div className="w-[25%] bg-emerald-500 h-full" title="Трасса" />
-                      <div className="w-[20%] bg-lime-500 h-full" title="Смешанный" />
-                      <div className="w-[25%] bg-amber-500 h-full" title="Город 4WD" />
-                      <div className="w-[15%] bg-orange-500 h-full" title="Пробки/Зима" />
-                      <div className="w-[15%] bg-red-600 h-full" title="Неисправность" />
-                    </div>
-
-                    {/* Pointer Marker */}
-                    <div className="relative h-4 w-full">
-                      {(() => {
-                        const val = parseFloat(stats.consumption);
-                        const pct = Math.min(100, Math.max(0, ((val - 6.0) / 14.0) * 100));
-                        return (
-                          <div
-                            className="absolute -top-1 -translate-x-1/2 flex flex-col items-center transition-all duration-300"
-                            style={{ left: `${pct}%` }}
-                          >
-                            <div className="w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-b-[6px] border-b-slate-900 dark:border-b-white" />
-                            <span className="text-xs font-mono font-bold text-slate-900 dark:text-white bg-white dark:bg-slate-800 px-1 rounded shadow-xs border border-slate-300 dark:border-slate-700">
-                              {stats.consumption}
-                            </span>
-                          </div>
-                        );
-                      })()}
-                    </div>
-                  </div>
-
                   {/* VISUAL TANK GRAPHIC */}
                   <div className="p-3 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 space-y-2">
                     <div className="flex justify-between items-center text-xs">
@@ -706,43 +618,7 @@ export default function FuelMonitor({ selectedEngine = 'ALL' }: { selectedEngine
               )}
             </div>
 
-            {/* Keep factory benchmark values scoped to the exact model they describe. */}
-            {activeModel?.id === 'outlander-1' ? <div className="p-3.5 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 text-xs space-y-2">
-              <span className="font-bold text-slate-900 dark:text-slate-200 block">
-                Ориентиры расхода для {vehicleLabel || 'выбранного автомобиля'}:
-              </span>
-              <div className="space-y-1.5 font-mono text-xs">
-                <div>
-                  <div className="flex justify-between text-slate-500 mb-0.5">
-                    <span>Расход на трассе</span>
-                    <span className="font-bold text-slate-700 dark:text-slate-300">7.6 – 12.5 л</span>
-                  </div>
-                  <div className="h-1.5 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
-                    <div className="h-full bg-blue-500 rounded-full w-[62%]" />
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex justify-between text-slate-500 mb-0.5">
-                    <span>2.4L 4G64 / 4G69 (АКПП)</span>
-                    <span className="font-bold text-slate-700 dark:text-slate-300">8.0 – 13.8 л</span>
-                  </div>
-                  <div className="h-1.5 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
-                    <div className="h-full bg-amber-500 rounded-full w-[69%]" />
-                  </div>
-                </div>
-
-                <div>
-                  <div className="flex justify-between text-slate-500 mb-0.5">
-                    <span>2.0L Turbo 4G63T (Airtrek)</span>
-                    <span className="font-bold text-slate-700 dark:text-slate-300">8.8 – 15.5 л</span>
-                  </div>
-                  <div className="h-1.5 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
-                    <div className="h-full bg-red-500 rounded-full w-[78%]" />
-                  </div>
-                </div>
-              </div>
-            </div> : <p className="rounded-xl border border-slate-200 bg-white p-3 text-sm text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">Заводские ориентиры для этой модификации пока не добавлены. Ведите журнал заправок для расчёта фактического расхода.</p>}
+            <p className="rounded-xl border border-slate-200 bg-white p-3 text-sm text-slate-600 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300">Заводские нормативы не отображаются без подтверждённого источника для точной модификации. Журнал показывает фактический расход по введённым заправкам.</p>
           </div>
         </div>
       </div>

@@ -70,8 +70,13 @@ class AppErrorBoundary extends React.Component<{ children: React.ReactNode }, { 
 
 function AppContent() {
   const { resolvedTheme } = useTheme();
-  const [activeTab, setActiveTabState] = useState<TabId>('overview');
-  const activeTabRef = useRef<TabId>('overview');
+  const [activeTab, setActiveTabState] = useState<TabId>(() => {
+    if (typeof window === 'undefined') return 'overview';
+    const storedTab = window.history.state?.carBrotherTab;
+    const tabs: TabId[] = ['overview', 'garage', 'settings', 'brands', 'fuel', 'specs', 'bulbs', 'parts', 'fuses', 'tuning', 'guides', 'issues', 'wheels', 'maintenance', 'obd', 'logbook', 'more'];
+    return tabs.includes(storedTab) ? storedTab : 'overview';
+  });
+  const activeTabRef = useRef<TabId>(activeTab);
   const handlingPopStateRef = useRef(false);
   const headerBackHandlerRef = useRef<() => boolean>(() => false);
   const lastBackPressRef = useRef(0);
@@ -90,18 +95,10 @@ function AppContent() {
   const [uiMode, setUiMode] = useState<'phone' | 'wide'>(() => {
     try { return localStorage.getItem('car-brother-ui-mode') === 'wide' ? 'wide' : 'phone'; } catch { return 'phone'; }
   });
-  const [orientationChosen, setOrientationChosen] = useState(() => {
-    try { return true; } catch { return true; }
-  });
   const applyUiMode = async (mode: 'phone' | 'wide') => {
     setUiMode(mode);
     try { await ScreenOrientation.lock({ orientation: mode === 'phone' ? 'portrait' : 'landscape' }); } catch (error) { console.warn('Screen orientation lock is unavailable in this runtime:', error); }
     try { localStorage.setItem('car-brother-ui-mode', mode); } catch { /* storage may be unavailable */ }
-  };
-  const chooseOrientation = async (mode: 'phone' | 'wide') => {
-    await applyUiMode(mode);
-    try { localStorage.setItem('car-brother-orientation-chosen-v2', 'yes'); } catch { /* storage may be unavailable */ }
-    setOrientationChosen(true);
   };
   useEffect(() => {
     document.documentElement.dataset.uiMode = uiMode;
@@ -225,26 +222,7 @@ function AppContent() {
   };
   const currentTabInfo = tabTitles[activeTab] || tabTitles.overview;
 
-  if (!orientationChosen) {
-    return (
-      <main className="min-h-screen bg-[#070b12] text-white flex items-center justify-center p-5">
-        <section className="w-full max-w-xl rounded-3xl border border-amber-400/30 bg-gradient-to-br from-slate-950 to-slate-900 p-6 sm:p-8 shadow-2xl">
-          <div className="mx-auto mb-5 flex justify-center">
-            <img src="/nippon-drive-logo.png" alt="Nippon-Drive" className="h-32 w-auto max-w-full object-contain rounded-[1.6rem] border border-amber-300/50 shadow-[0_12px_45px_rgba(245,158,11,0.2)]" />
-          </div>
-          <p className="text-center text-xs font-bold uppercase tracking-[0.3em] text-amber-300">GARAGE COMPANION</p>
-          <h1 className="mt-2 text-center text-2xl sm:text-3xl font-black">Выберите ориентацию экрана</h1>
-          <p className="mx-auto mt-3 max-w-md text-center text-sm leading-relaxed text-slate-300">Этот выбор появится только при первом запуске. Позже ориентацию можно изменить в настройках приложения.</p>
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <button type="button" onClick={() => void chooseOrientation('phone')} className="rounded-2xl border border-amber-400/50 bg-amber-400/10 p-5 text-left transition hover:bg-amber-400/20"><Smartphone className="h-8 w-8 text-amber-300"/><span className="mt-3 block text-lg font-bold">Телефон</span><span className="mt-1 block text-sm text-slate-300">Портретная ориентация</span><span className="mt-3 block text-xs text-amber-300">Вертикально · по умолчанию</span></button>
-            <button type="button" onClick={() => void chooseOrientation('wide')} className="rounded-2xl border border-slate-600 bg-white/5 p-5 text-left transition hover:border-amber-400/50 hover:bg-amber-400/10"><Monitor className="h-8 w-8 text-amber-300"/><span className="mt-3 block text-lg font-bold">Автомагнитола / планшет</span><span className="mt-1 block text-sm text-slate-300">Альбомная ориентация</span><span className="mt-3 block text-xs text-amber-300">Горизонтально</span></button>
-          </div>
-        </section>
-      </main>
-    );
-  }
-
-  if (orientationChosen && (!profileSelected || vehicles.length === 0)) {
+  if (!profileSelected || vehicles.length === 0) {
     const model = setupBrand.models.find(item => item.id === setupModelId) || setupBrand.models[0];
     return (
       <main style={{ WebkitOverflowScrolling: 'touch', scrollBehavior: 'smooth' }} className={"car-vehicle-setup min-h-[100dvh] w-full overflow-y-auto overscroll-y-contain [-webkit-overflow-scrolling:touch] bg-slate-100 dark:bg-[#070b12] text-slate-900 dark:text-white flex items-start justify-start p-0 " + (uiMode === 'wide' ? 'car-vehicle-setup-wide' : '')}>

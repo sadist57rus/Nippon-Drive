@@ -19,6 +19,52 @@ export const VEHICLE_COLORS = [
 export type VehicleColorId = typeof VEHICLE_COLORS[number]['id'];
 export const DEFAULT_VEHICLE_COLOR: VehicleColorId = 'silver';
 
+export interface VehicleColorPhotoOption {
+  id: string;
+  label: string;
+  hex: string;
+  src: string;
+}
+
+/** Color options are restricted to models/colors with a real matching photo. */
+export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): VehicleColorPhotoOption[] {
+  const options: Record<string, Array<{id: string; label: string; src: string}>> = {
+    'toyota-rav4-3': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/toyota-rav4-xa30-silver.jpg' },
+      { id: 'blue', label: 'Синий', src: '/assets/vehicles/toyota-rav4-xa30.jpg' },
+      { id: 'black', label: 'Чёрный', src: '/assets/vehicles/toyota-rav4-xa30-black.jpg' },
+    ],
+    'outlander-1': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-outlander-1-silver.jpg' },
+      { id: 'blue', label: 'Синий', src: '/assets/vehicles/mitsubishi-outlander-1-blue.jpg' },
+      { id: 'red', label: 'Красный', src: '/assets/vehicles/mitsubishi-outlander-1-red.jpg' },
+    ],
+    'outlander-xl': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-outlander-2-silver.jpg' },
+      { id: 'black', label: 'Чёрный', src: '/assets/vehicles/mitsubishi-outlander-2-black.jpg' },
+    ],
+    'lancer-9': bodyType === 'Универсал' ? [
+      { id: 'blue', label: 'Синий', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-blue.jpg' },
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-silver.jpg' },
+    ] : [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-9-sedan-silver.jpg' },
+      { id: 'yellow', label: 'Жёлтый', src: '/assets/vehicles/mitsubishi-lancer-9-sedan-yellow.jpg' },
+    ],
+  };
+  return (options[modelId || ''] || []).map(option => ({
+    ...option,
+    hex: VEHICLE_COLORS.find(color => color.id === option.id)?.hex || '#808080',
+  }));
+}
+
+export function getVehicleColorsForModel(modelId?: string, bodyType = '') {
+  const photoOptions = getVehicleColorPhotoOptions(modelId, bodyType);
+  if (photoOptions.length) {
+    return VEHICLE_COLORS.filter(color => photoOptions.some(option => option.id === color.id));
+  }
+  return VEHICLE_COLORS;
+}
+
 interface Props {
   color?: string;
   bodyType?: string;
@@ -59,7 +105,7 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
   },
   'toyota-rav4-3': {
     src: '/assets/vehicles/toyota-rav4-xa30.jpg',
-    alt: 'Toyota RAV4 третьего поколения (XA30), фотография автомобиля',
+    alt: 'Toyota RAV4 третьего поколения (XA30), синий кузов',
     credit: 'Фото: Ymaup, Wikimedia Commons, CC BY-SA 3.0 / GFDL; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Rav4.jpg',
   },
@@ -72,14 +118,38 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
 };
 
 export default function VehicleIllustration({
+  color = DEFAULT_VEHICLE_COLOR,
   bodyType = '',
   modelName = '',
   modelId = '',
   className = '',
 }: Props) {
-  // Image selection is by stable catalog ID, never by a fuzzy model-name match.
-  // This prevents an Outlander I photo from appearing on later generations.
-  const image = VERIFIED_MODEL_IMAGES[modelId];
+  // Images are selected by exact catalog ID, body style, and a verified color photo.
+  const colorImage = (src: string, alt: string, credit: string, sourceUrl: string) => ({src,alt,credit,sourceUrl});
+  const modelColorImages: Record<string, Record<string, {src:string;alt:string;credit:string;sourceUrl:string}>> = {
+    'toyota-rav4-3': {
+      silver: colorImage('/assets/vehicles/toyota-rav4-xa30-silver.jpg','Серебристая Toyota RAV4 III facelift (XA30), вид сбоку','Фото: M 93; разрешение на повторное использование с указанием авторства','https://commons.wikimedia.org/wiki/File:Toyota_RAV4_(III,_Facelift)_–_Seitenansicht,_13._Februar_2011,_Mettmann.jpg'),
+      blue: VERIFIED_MODEL_IMAGES['toyota-rav4-3'],
+      black: colorImage('/assets/vehicles/toyota-rav4-xa30-black.jpg','Чёрная Toyota RAV4 III facelift (XA30)','Фото: Damian B Oh, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Toyota_RAV4_2.5_4WD_Limited_XA30_FL_Black_(1).jpg'),
+    },
+    'outlander-1': {
+      silver: colorImage('/assets/vehicles/mitsubishi-outlander-1-silver.jpg','Серебристый Mitsubishi Outlander I / CU','Фото: Wikimedia Commons, CC BY-SA 3.0 / GFDL','https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_I_(2003-2006)_front.jpg'),
+      blue: colorImage('/assets/vehicles/mitsubishi-outlander-1-blue.jpg','Синий Mitsubishi Outlander I / CU','Фото: Guillaume Vachey, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_(47957951373).jpg'),
+      red: colorImage('/assets/vehicles/mitsubishi-outlander-1-red.jpg','Красный Mitsubishi Outlander I / CU','Фото: OSX, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:2005_Mitsubishi_Outlander_(ZF_MY06)_LS_wagon_(2015-06-03)_01.jpg'),
+    },
+    'outlander-xl': {
+      silver: colorImage('/assets/vehicles/mitsubishi-outlander-2-silver.jpg','Серебристый Mitsubishi Outlander II / CW','Фото: Cutlass, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:2007_Mitsubishi_Outlander_in_Cool_Silver_Metallic,_front_left,_10-11-2025.jpg'),
+      black: colorImage('/assets/vehicles/mitsubishi-outlander-2-black.jpg','Чёрный Mitsubishi Outlander II / CW','Фото: Lukas 3z, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Black_Mitsubishi_Outlander_in_Kraków_(1).jpg'),
+    },
+    'lancer-9': bodyType === 'Универсал' ? {
+      blue: colorImage('/assets/vehicles/mitsubishi-lancer-9-wagon-blue.jpg','Синий Mitsubishi Lancer IX универсал','Фото: Charles01, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_estate_1584cc_Registered_February_2005.JPG'),
+      silver: colorImage('/assets/vehicles/mitsubishi-lancer-9-wagon-silver.jpg','Серебристый Mitsubishi Lancer универсал CH MY07','Фото: OSX, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:2006-2008_Mitsubishi_Lancer_(CH_MY07)_ES_station_wagon_01.jpg'),
+    } : {
+      silver: colorImage('/assets/vehicles/mitsubishi-lancer-9-sedan-silver.jpg','Серебристый Mitsubishi Lancer IX седан','Фото: IFCAR, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:04-05_Mitsubishi_Lancer_sedan.jpg'),
+      yellow: colorImage('/assets/vehicles/mitsubishi-lancer-9-sedan-yellow.jpg','Жёлтый Mitsubishi Lancer IX седан CH MY07','Фото: OSX, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:2006-2007_Mitsubishi_Lancer_(CH_MY07)_ES_sedan_01.jpg'),
+    },
+  };
+  const image = modelColorImages[modelId]?.[color] || VERIFIED_MODEL_IMAGES[modelId];
 
   if (image) {
     return (
@@ -89,12 +159,12 @@ export default function VehicleIllustration({
           alt={image.alt}
           loading="lazy"
           referrerPolicy="no-referrer"
-          className="block h-20 max-h-20 w-full object-contain"
+          className="block h-auto max-h-56 w-full object-contain"
           onError={(event) => {
             event.currentTarget.style.display = 'none';
           }}
         />
-        <figcaption className="mt-1 text-center text-xs opacity-60"><a href={image.sourceUrl} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center px-2 py-0.5 text-center underline">{image.credit}</a></figcaption>
+        <figcaption className="mt-1 text-center text-xs opacity-60"><a href={image.sourceUrl} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center justify-center px-2 py-1 text-center underline">{image.credit}</a></figcaption>
       </figure>
     );
   }

@@ -75,14 +75,14 @@ export default function BrandSelectorModal({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200" onMouseDown={event => { if (event.target === event.currentTarget) onClose(); }}>
+    <div className="fixed inset-0 z-50 flex items-stretch justify-stretch p-0 bg-black/60 animate-in fade-in duration-200" onMouseDown={event => { if (event.target === event.currentTarget) onClose(); }}>
       <div
         ref={dialogRef}
         role="dialog"
         aria-modal="true"
         aria-labelledby="brand-selector-title"
         tabIndex={-1}
-        className="relative w-full max-w-2xl bg-white dark:bg-slate-900 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 overflow-hidden flex flex-col max-h-[90vh]"
+        className="relative h-[100dvh] min-h-0 w-full max-w-none rounded-none border-0 bg-white dark:bg-slate-900 shadow-none overflow-hidden flex flex-col"
         onClick={e => e.stopPropagation()}
       >
         {/* Modal Header */}
@@ -126,7 +126,7 @@ export default function BrandSelectorModal({
         </div>
 
         {/* Brands Grid */}
-        <div className="p-4 overflow-y-auto space-y-2 flex-1 scrollbar-thin">
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-y-contain touch-pan-y space-y-2 p-4 scrollbar-thin" style={{ WebkitOverflowScrolling: 'touch' }}>
           <div className="grid grid-cols-3 sm:grid-cols-4 gap-2.5">
             {visibleBrands.map(brand => {
               const isSelected = brand.id === selectedBrandId;

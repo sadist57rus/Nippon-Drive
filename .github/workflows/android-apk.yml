@@ -201,7 +201,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          release_id="$(gh api "repos/${GH_REPO}/releases/tags/${TEST_TAG}" --jq .id)"
+          release_id="$(gh api "repos/${GH_REPO}/releases" --paginate --jq '.[] | select(.tag_name == env.TEST_TAG) | .id' | head -n 1)"
+          test -n "$release_id" || { echo "::error::Release for tag $TEST_TAG was not found"; exit 1; }
           gh api --method PATCH "repos/${GH_REPO}/releases/${release_id}" -F draft=false
 
   release-apk:

@@ -187,11 +187,22 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: test-build-${{ github.run_number }}
-          name: Nippon-Drive test build #${{ github.run_number }}
+          name: "Nippon-Drive test build #${{ github.run_number }}"
           body: Automated test build from main. This is an unsigned debug APK.
           prerelease: true
-          draft: false
+          draft: true
           files: dist/app-debug.apk
+
+      - name: Publish test release after uploading APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TEST_TAG: test-build-${{ github.run_number }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_id="$(gh api "repos/${GH_REPO}/releases/tags/${TEST_TAG}" --jq .id)"
+          gh api --method PATCH "repos/${GH_REPO}/releases/${release_id}" -F draft=false
 
   release-apk:
     name: Build signed APK

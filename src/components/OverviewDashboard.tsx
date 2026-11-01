@@ -28,6 +28,9 @@ export default function OverviewDashboard({ onNavigate }: Props) {
   const brand = JAPANESE_BRANDS.find(item => item.id === vehicle.brandId);
   const model = brand?.models.find(item => item.id === vehicle.modelId);
   const hasVehicle = Boolean(vehicle.activeVehicle && vehicle.vehicles.length);
+  const vehicleYear = Number.isInteger(vehicle.activeVehicle.year) && vehicle.activeVehicle.year >= 1900 && vehicle.activeVehicle.year <= new Date().getFullYear() + 1
+    ? vehicle.activeVehicle.year
+    : 'Не указан';
   const title = hasVehicle
     ? [brand?.russianName || brand?.name, model?.name].filter(Boolean).join(' ')
     : 'Автомобиль не выбран';
@@ -56,13 +59,22 @@ export default function OverviewDashboard({ onNavigate }: Props) {
             <Car aria-hidden="true" className="h-5 w-5" />Выбрать автомобиль
           </button>
         )}
+        {hasVehicle && <div className="mt-3 overflow-hidden rounded-xl bg-slate-50 px-2 py-2 dark:bg-slate-950/60">
+          <VehicleIllustration
+            color={vehicle.activeVehicle.color}
+            bodyType={model?.bodyType}
+            modelName={model?.name}
+            modelId={model?.id}
+            className="mx-auto max-w-2xl"
+          />
+        </div>}
         {hasVehicle && <details className="mt-3 border-t border-slate-100 pt-3 text-sm dark:border-slate-800">
           <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 rounded-xl px-2 font-semibold text-slate-600 outline-offset-2 hover:bg-slate-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-red-600 dark:text-slate-300 dark:hover:bg-slate-800 [&::-webkit-details-marker]:hidden">
             <span>Параметры автомобиля</span>
             <span aria-hidden="true" className="text-lg">+</span>
           </summary>
           <dl className="mt-2 grid grid-cols-2 gap-3 px-2 pb-1">
-            <div><dt className="text-xs text-slate-500 dark:text-slate-400">Год</dt><dd className="mt-1 font-semibold text-slate-900 dark:text-white">{vehicle.activeVehicle.year || 'Не указан'}</dd></div>
+            <div><dt className="text-xs text-slate-500 dark:text-slate-400">Год</dt><dd className="mt-1 font-semibold text-slate-900 dark:text-white">{vehicleYear}</dd></div>
             <div><dt className="text-xs text-slate-500 dark:text-slate-400">Пробег</dt><dd className="mt-1 font-semibold text-slate-900 dark:text-white">{valueOrUnknown(vehicle.activeVehicle.mileage, ' км')}</dd></div>
             <div><dt className="text-xs text-slate-500 dark:text-slate-400">Кузов</dt><dd className="mt-1 font-semibold text-slate-900 dark:text-white">{model?.bodyType || 'Нет данных'}</dd></div>
             <div><dt className="text-xs text-slate-500 dark:text-slate-400">Поколение</dt><dd className="mt-1 font-semibold text-slate-900 dark:text-white">{model?.generation || 'Нет данных'}</dd></div>

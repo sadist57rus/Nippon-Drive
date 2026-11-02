@@ -46,7 +46,10 @@ test('подпись фото и действия гаража не перекр
   for (const viewport of viewports) {
     for (const scale of [1, 1.5]) {
       await page.setViewportSize({ width: viewport.width, height: viewport.height });
-      await page.evaluate(({ scale, width }) => {\n        document.documentElement.style.fontSize = scale + '%';\n        document.documentElement.dataset.uiMode = width >= 800 ? 'wide' : 'phone';\n      }, { scale: scale * 100, width: viewport.width });
+      await page.evaluate(({ scale, width }) => {
+        document.documentElement.style.fontSize = scale + '%';
+        document.documentElement.dataset.uiMode = width >= 800 ? 'wide' : 'phone';
+      }, { scale: scale * 100, width: viewport.width });
       await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 
       const geometry = await article.evaluate(element => {

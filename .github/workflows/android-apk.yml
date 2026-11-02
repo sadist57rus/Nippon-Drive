@@ -184,6 +184,7 @@ jobs:
           path: dist
 
       - name: Publish test build release
+        id: create_test_release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: test-build-${{ github.run_number }}
@@ -201,7 +202,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          release_id="$(gh api "repos/${GH_REPO}/releases/tags/${TEST_TAG}" --jq .id)"
+          release_id="${{ steps.create_test_release.outputs.id }}"
+          test -n "$release_id"
           gh api --method PATCH "repos/${GH_REPO}/releases/${release_id}" -F draft=false
 
   release-apk:

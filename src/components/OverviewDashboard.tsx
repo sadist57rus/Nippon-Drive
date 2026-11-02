@@ -28,7 +28,7 @@ export default function OverviewDashboard({ onNavigate }: Props) {
   const brand = JAPANESE_BRANDS.find(item => item.id === vehicle.brandId);
   const model = brand?.models.find(item => item.id === vehicle.modelId);
   const hasVehicle = Boolean(vehicle.activeVehicle && vehicle.vehicles.length);
-  const vehicleYear = Number.isInteger(vehicle.activeVehicle.year) && vehicle.activeVehicle.year >= 1900 && vehicle.activeVehicle.year <= new Date().getFullYear() + 1
+  const vehicleYear = Number.isInteger(vehicle.activeVehicle.year) && vehicle.activeVehicle.year >= 1900 && vehicle.activeVehicle.year <= 2099
     ? vehicle.activeVehicle.year
     : 'Не указан';
   const title = hasVehicle

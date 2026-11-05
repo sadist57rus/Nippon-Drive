@@ -18,6 +18,18 @@ export interface GenerationBodyRecord {
   drivetrainNotes: string;
   verification: CatalogRecordStatus;
   nextDataTasks: string[];
+  dimensions?: {
+    lengthMm?: number;
+    widthMm?: number;
+    heightMm?: number;
+    wheelbaseMm?: number;
+    groundClearanceMm?: number;
+    trackFrontMm?: number;
+    trackRearMm?: number;
+    curbWeightKg?: string;
+    fuelTankLiters?: number;
+    luggageVolumeLiters?: string;
+  };
   source?: 'Drom' | 'Auto.ru';
 }
 const commonTasks = [

@@ -1584,8 +1584,21 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
           fuelTankLiters: null,
           curbWeightKg: 'Зависит от модификации и рынка'
         },
-        engines: [],
-        transmissions: [],
+        engines: [
+          {
+            code: 'K12B',
+            name: '1.2L DOHC VVT',
+            displacement: '1242 см³',
+            powerHp: '91 л.с.',
+            torqueNm: '118 Н·м',
+            valves: '16V DOHC VVT',
+            fuelSystem: 'Бензин; система впрыска требует уточнения по рынку',
+            timingDrive: 'Цепь ГРМ',
+            strengths: ['Компактный атмосферный двигатель'],
+            weaknesses: ['Точные интервалы обслуживания зависят от рынка и руководства']
+          }
+        ],
+        transmissions: ['Вариатор CVT — подтверждён для добавленных модификаций ZC72S; иные коробки требуют отдельной проверки.'],
         fuelEconomy: {
           city: 'Нет подтверждённых данных',
           highway: 'Нет подтверждённых данных',

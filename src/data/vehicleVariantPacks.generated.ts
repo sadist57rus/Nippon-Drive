@@ -60,7 +60,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "trackFrontMm": 1540,
       "trackRearMm": 1540,
       "curbWeightKg": 1470,
-      "fuelTankLiters": 60
+      "fuelTankLiters": 60,
+      "luggageVolumeLiters": 402
     },
     "notes": "Только CU5W 2.4 AT XLS FWD; не переносить на другие исполнения."
   },
@@ -123,7 +124,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "trackFrontMm": 1530,
       "trackRearMm": 1535,
       "curbWeightKg": 1514,
-      "fuelTankLiters": 65
+      "fuelTankLiters": 65,
+      "luggageVolumeLiters": 479
     },
     "notes": "Только T31 2.0 CVT SE 4WD указанного периода."
   },
@@ -132,7 +134,16 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "bodyStyle": "SUV",
     "steeringPosition": "unknown",
     "tires": [],
-    "wheelFitments": [],
+    "wheelFitments": [
+      {
+        "tireSize": "225/65 R17",
+        "rimSize": "7J x 17",
+        "applicability": "Toyota RAV4 ACA31 2.4 AT Sol 4WD, 01.2006–12.2008",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/toyota/rav4/119983/",
+        "notes": "Drom указывает размер диска и шин. PCD, DIA и ET в карточке не указаны."
+      }
+    ],
     "verificationStatus": "partially-verified",
     "sources": [
       {
@@ -186,7 +197,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "trackFrontMm": 1560,
       "trackRearMm": 1560,
       "curbWeightKg": 1590,
-      "fuelTankLiters": 60
+      "fuelTankLiters": 60,
+      "luggageVolumeLiters": 586
     },
     "notes": "Только ACA31 2.4 AT Sol 4WD указанного периода."
   }

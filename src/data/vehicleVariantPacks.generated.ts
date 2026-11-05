@@ -1577,5 +1577,1372 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       }
     ],
     "notes": "XG без DJE — отдельная комплектация; не переносить параметры на XG-DJE."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-mr20de-mt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-mr20de-cvt-le-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D MT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-m9r-mt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D MT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-m9r-at-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT LE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT LE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-m9r-at-le-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT LE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 MT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-mt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 MT SE 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-cvt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT SE 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT SiV 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT SiV 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-cvt-siv-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT SiV 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT LE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT LE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-cvt-le-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT LE 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT XE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-xe-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT XE 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-xe-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE Mid 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE Mid 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-se-mid-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE Mid 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE Base 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE Base 4WD, 2014-01–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-se-base-2014-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-01",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE Base 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT XE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-xe-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT SE 4WD (--B--)",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT SE 4WD (--B--), 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT SE 4WD (--B--)",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE 4WD (-----)",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE 4WD (-----), 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-le-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE 4WD (-----)",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT XE 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-xe-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT SE Mid 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT SE Mid 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-se-mid-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT SE Mid 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE Base 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE Base 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-le-base-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE Base 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE High 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE High 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-le-high-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE High 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D MT SE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-mt-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D MT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT SE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-at-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT LE 4WD (---E-)",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT LE 4WD (---E-), 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-at-le-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT LE 4WD (---E-)",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT SE Mid 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT SE Mid 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-at-se-mid-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT SE Mid 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT SE Base 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT SE Base 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-qr25de-cvt-se-base-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT SE Base 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
   }
 ];

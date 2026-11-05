@@ -68,21 +68,32 @@ export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): Ve
     'mitsubishi-lancer-x-cy-sedan': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-x-silver.jpg' },
       { id: 'red', label: 'Красный', src: '/assets/vehicles/mitsubishi-lancer-x-sport-sedan.jpg' },
+      { id: 'black', label: 'Чёрный', src: '/assets/vehicles/mitsubishi-lancer-x-black.jpg' },
     ],
     'toyota-prado-j120-suv': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/toyota-land-cruiser-prado-j120.jpg' },
+      { id: 'black', label: 'Чёрный', src: '/assets/vehicles/toyota-prado-j120-black.jpg' },
+      { id: 'white', label: 'Белый', src: '/assets/vehicles/toyota-prado-j120-white.jpg' },
     ],
     'nissan-xtrail-t31': [
       { id: 'black', label: 'Чёрный', src: '/assets/vehicles/nissan-x-trail-t31.jpg' },
+      { id: 'white', label: 'Белый', src: '/assets/vehicles/nissan-x-trail-t31-white.jpg' },
+      { id: 'blue', label: 'Синий', src: '/assets/vehicles/nissan-x-trail-t31-blue.jpg' },
     ],
     'mazda3-bk-hatchback': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mazda3-bk-hatchback.jpg' },
     ],
     'nissan-qashqai-j10-crossover': [
       { id: 'white', label: 'Белый', src: '/assets/vehicles/nissan-qashqai-j10.jpg' },
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/nissan-qashqai-j10-silver.jpg' },
     ],
     'honda-fit-gd-hatchback': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/honda-jazz-gd.jpg' },
+      { id: 'blue', label: 'Синий', src: '/assets/vehicles/honda-jazz-gd-blue.jpg' },
+    ],
+    'nissan-note-e11-hatchback': [
+      { id: 'green', label: 'Зелёный', src: '/assets/vehicles/nissan-note-e11.jpg' },
+      { id: 'red', label: 'Красный', src: '/assets/vehicles/nissan-note-e11-red.jpg' },
     ],
     'lancer-9': bodyType === 'Универсал' ? [
       { id: 'blue', label: 'Синий', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-blue.jpg' },
@@ -252,6 +263,18 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: arakaki (uploaded by Hanloh), Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg',
   },
+  'honda-crv-rd7-suv': {
+    src: '/assets/vehicles/honda-crv-rd7-gray.jpg',
+    alt: 'Серый Honda CR-V второго поколения RD7, 2006 год',
+    credit: 'Фото: OSX, Wikimedia Commons, общественное достояние; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2006_Honda_CR-V_(RD7_MY06)_wagon_(2008-11-12).jpg',
+  },
+  'mazda-6-gg-sedan': {
+    src: '/assets/vehicles/mazda6-gg-sedan-silver.jpg',
+    alt: 'Серебристая Mazda6 первого поколения GG, седан 2003–2005 годов',
+    credit: 'Фото: Bull-Doser, Wikimedia Commons, общественное достояние; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:%2703-%2705_Mazda_6_Sedan.JPG',
+  },
 };
 
 export default function VehicleIllustration({
@@ -264,6 +287,28 @@ export default function VehicleIllustration({
   // Images are selected by exact catalog ID, body style, and a verified color photo.
   const colorImage = (src: string, alt: string, credit: string, sourceUrl: string) => ({src,alt,credit,sourceUrl});
   const modelColorImages: Record<string, Record<string, {src:string;alt:string;credit:string;sourceUrl:string}>> = {
+    'mitsubishi-lancer-x-cy-sedan': {
+      black: colorImage('/assets/vehicles/mitsubishi-lancer-x-black.jpg','Чёрный Mitsubishi Lancer X / CY, седан','Фото: JustAnotherCarDesigner, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg'),
+      red: colorImage('/assets/vehicles/mitsubishi-lancer-x-sport-sedan.jpg','Красный Mitsubishi Lancer X / CY0, седан, 2007 год','Фото: Overlaet, Wikimedia Commons, CC BY-SA 3.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg'),
+    },
+    'toyota-prado-j120-suv': {
+      black: colorImage('/assets/vehicles/toyota-prado-j120-black.jpg','Чёрный Toyota Land Cruiser Prado J120 KZJ120 3.0 VX','Фото: Ethan Llamas, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_Raven_Black_01.jpg'),
+      white: colorImage('/assets/vehicles/toyota-prado-j120-white.jpg','Белый Toyota Land Cruiser Prado J120 KZJ120 3.0 VX','Фото: Ethan Llamas, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_White_Pearl_Crystal_Shine_01.jpg'),
+    },
+    'nissan-xtrail-t31': {
+      white: colorImage('/assets/vehicles/nissan-x-trail-t31-white.jpg','Белый Nissan X-Trail T31 2.5L 2WD','Фото: Ethan Llamas, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_White.jpg'),
+      blue: colorImage('/assets/vehicles/nissan-x-trail-t31-blue.jpg','Синий Nissan X-Trail T31 2.5L 2WD Tempest Blue','Фото: Ethan Llamas, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_Tempest_Blue.jpg'),
+    },
+    'nissan-qashqai-j10-crossover': {
+      silver: colorImage('/assets/vehicles/nissan-qashqai-j10-silver.jpg','Серебристый Nissan Qashqai J10','Фото: Trop86, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_130819.jpg'),
+    },
+    'honda-fit-gd-hatchback': {
+      blue: colorImage('/assets/vehicles/honda-jazz-gd-blue.jpg','Синий Honda Jazz / Fit GD, хэтчбек 2002–2004 годов','Фото: OSX, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_02.jpg'),
+    },
+    'nissan-note-e11-hatchback': {
+      green: VERIFIED_MODEL_IMAGES['nissan-note-e11-hatchback'],
+      red: colorImage('/assets/vehicles/nissan-note-e11-red.jpg','Красный Nissan Note E11 facelift, 2009 год','Фото: Cutlass, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:2009_Nissan_Note_in_Emotion_Red,_front_left,_06-08-2025.jpg'),
+    },
     'toyota-rav4-3': {
       silver: colorImage('/assets/vehicles/toyota-rav4-xa30-silver.jpg','Серебристая Toyota RAV4 III facelift (XA30), вид сбоку','Фото: M 93; разрешение на повторное использование с указанием авторства','https://commons.wikimedia.org/wiki/File:Toyota_RAV4_(III,_Facelift)_–_Seitenansicht,_13._Februar_2011,_Mettmann.jpg'),
       blue: VERIFIED_MODEL_IMAGES['toyota-rav4-3'],

@@ -34,76 +34,76 @@ jobs:
           import io, json
 
           photos = [
-  {
-    "filename": "E120 Toyota Corolla.jpg",
-    "target": "toyota-corolla-e120.jpg",
-    "author": "Kuha455405",
-    "license": "CC BY-SA 3.0 / GFDL 1.2+",
-    "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
-  },
-  {
-    "filename": "Mazda 3 BK.jpg",
-    "target": "mazda3-bk-sedan.jpg",
-    "author": "Krzysztof Masloch",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg",
-  },
-  {
-    "filename": "2005 Nissan Note 01.jpg",
-    "target": "nissan-note-e11.jpg",
-    "author": "Mytho88",
-    "license": "CC BY-SA 3.0 / GFDL 1.2+",
-    "source": "https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg",
-  },
-  {
-    "filename": "Toyota camry acv30 2.4g 1 f.jpg",
-    "target": "toyota-camry-xv30.jpg",
-    "author": "Toyotacoronaexsaloon",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
-  },
-  {
-    "filename": "NISSAN SERENA C25.jpg",
-    "target": "nissan-serena-c25.jpg",
-    "author": "TTTNIS",
-    "license": "Public domain (author release)",
-    "source": "https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg",
-  },
-  {
-    "filename": "Nissan Tiida (C11) hatchback.png",
-    "target": "nissan-tiida-c11-hatchback.jpg",
-    "author": "SSJF01",
-    "license": "CC0 1.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png",
-  },
-  {
-    "filename": "TOYOTA PRIUS (XW30) China.jpg",
-    "target": "toyota-prius-xw30.jpg",
-    "author": "Dinkun Chen",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg",
-  },
-  {
-    "filename": "Toyota H-200 HiAce.jpg",
-    "target": "toyota-hiace-h200.jpg",
-    "author": "Bull-Doser",
-    "license": "Public domain (author release)",
-    "source": "https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg",
-  },
-  {
-    "filename": "2012 Mazda CX-5 (KE) Grand Touring wagon (2012-10-26) 01.jpg",
-    "target": "mazda-cx5-ke.jpg",
-    "author": "OSX",
-    "license": "Public domain (author release)",
-    "source": "https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg",
-  },
-  {
-    "filename": "White Toyota Vitz (XP90).jpg",
-    "target": "toyota-vitz-xp90.jpg",
-    "author": "arakaki",
-    "license": "Public domain (author release)",
-    "source": "https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg",
-  },
+          {
+            "filename": "E120 Toyota Corolla.jpg",
+            "target": "toyota-corolla-e120.jpg",
+            "author": "Kuha455405",
+            "license": "CC BY-SA 3.0 / GFDL 1.2+",
+            "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
+          },
+          {
+            "filename": "Mazda 3 BK.jpg",
+            "target": "mazda3-bk-sedan.jpg",
+            "author": "Krzysztof Masloch",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg",
+          },
+          {
+            "filename": "2005 Nissan Note 01.jpg",
+            "target": "nissan-note-e11.jpg",
+            "author": "Mytho88",
+            "license": "CC BY-SA 3.0 / GFDL 1.2+",
+            "source": "https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg",
+          },
+          {
+            "filename": "Toyota camry acv30 2.4g 1 f.jpg",
+            "target": "toyota-camry-xv30.jpg",
+            "author": "Toyotacoronaexsaloon",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
+          },
+          {
+            "filename": "NISSAN SERENA C25.jpg",
+            "target": "nissan-serena-c25.jpg",
+            "author": "TTTNIS",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg",
+          },
+          {
+            "filename": "Nissan Tiida (C11) hatchback.png",
+            "target": "nissan-tiida-c11-hatchback.jpg",
+            "author": "SSJF01",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png",
+          },
+          {
+            "filename": "TOYOTA PRIUS (XW30) China.jpg",
+            "target": "toyota-prius-xw30.jpg",
+            "author": "Dinkun Chen",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg",
+          },
+          {
+            "filename": "Toyota H-200 HiAce.jpg",
+            "target": "toyota-hiace-h200.jpg",
+            "author": "Bull-Doser",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg",
+          },
+          {
+            "filename": "2012 Mazda CX-5 (KE) Grand Touring wagon (2012-10-26) 01.jpg",
+            "target": "mazda-cx5-ke.jpg",
+            "author": "OSX",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg",
+          },
+          {
+            "filename": "White Toyota Vitz (XP90).jpg",
+            "target": "toyota-vitz-xp90.jpg",
+            "author": "arakaki",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg",
+          },
           ]
 
           destination = Path("public/assets/vehicles")
@@ -150,5 +150,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/assets/vehicles/
-          git commit -m "assets: добавить реальные фото автомобилей — пакет 1"
+          git commit -m "assets: добавить реальные фото автомобилей — пакет 2"
           git push origin HEAD:assets/vehicle-photo-fetch

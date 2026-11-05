@@ -147,7 +147,17 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
   wheelFitments:[{tireSize:'225/55 R17',rimSizes:[],notes:'Drom: SH5 2.0 XT 4WD, передняя и задняя ось; ширина обода, ET, PCD и DIA не указаны в карточке комплектации.'}],
   nextDataTasks:commonTasks
  },
- {id:'honda-crv-re',sourceModelId:'honda-cr-v-3',make:'Honda',model:'CR-V',generation:'III / RE',chassisCodes:['RE1','RE2','RE3','RE4','RE5','RE6'],years:'2006–2012',bodyStyles:['5-дверный SUV'],engineFamilies:['R20A 2.0','K24Z 2.4','N22A/N22B diesel — Europe'],transmissionFamilies:['5AT','6MT — market-specific'],drivetrainNotes:'FWD/Real Time AWD; rear differential fluid procedure and specification are model-specific.',verification:'seeded-needs-verification',modelFamilyId:'honda-cr-v-150',nextDataTasks:commonTasks},
+ {
+  id:'honda-crv-re',sourceModelId:'honda-cr-v-3',make:'Honda',model:'CR-V',generation:'III / RE',chassisCodes:['RE1','RE2','RE3','RE4','RE5','RE6'],years:'2006–2012',bodyStyles:['5-дверный SUV'],
+  engineFamilies:['R20A 2.0','K24Z1 2.4 — RE 2.4 AT 4WD (2007–2009): 2 354 см³, 170 л.с., 220 Н·м','K24Z 2.4 — другие рынки/версии','N22A/N22B diesel — Europe'],
+  transmissionFamilies:['5AT — подтверждена для RE 2.4 AT 4WD','6MT — market-specific'],
+  drivetrainNotes:'FWD/Real Time AWD; параметры ниже относятся к указанной комплектации RE 2.4 AT 4WD и не распространяются на все RE/RE5/RE7.',
+  verification:'seeded-needs-verification',modelFamilyId:'honda-cr-v-150',source:'Drom',
+  dimensionVariants:[{label:'RE 2.4 AT, 4WD, 03.2007–08.2009',bodyStyle:'SUV',lengthMm:4520,widthMm:1820,heightMm:1680,wheelbaseMm:2620,groundClearanceMm:185,trackFrontMm:1565,trackRearMm:1565,curbWeightKg:'1550'}],
+  dimensions:{wheelbaseMm:2620,fuelTankLiters:58},
+  wheelFitments:[{tireSize:'225/60 R18',rimSizes:['18x7J'],notes:'Drom: RE 2.4 AT 4WD, передняя и задняя ось; применимость к иным комплектациям требует отдельной проверки.'}],
+  nextDataTasks:commonTasks
+ },
  {id:'mazda-cx5-ke',sourceModelId:'mazda-cx5-ke-kf',make:'Mazda',model:'CX-5',generation:'I / KE',chassisCodes:['KE'],years:'2012–2017',bodyStyles:['5-дверный SUV'],engineFamilies:['PE-VPS 2.0 petrol','PY-VPS 2.5 petrol','SH-VPTS 2.2 diesel'],transmissionFamilies:['6MT — market-specific','SKYACTIV-Drive 6AT'],drivetrainNotes:'FWD/AWD; ATF, transfer and rear differential specs must follow exact engine/market manual.',verification:'separated-needs-verification',modelFamilyId:'mazda-cx-5-208',nextDataTasks:commonTasks},
  {id:'mazda-cx5-kf',sourceModelId:'mazda-cx5-ke-kf',make:'Mazda',model:'CX-5',generation:'II / KF',chassisCodes:['KF'],years:'2017–н.в.',bodyStyles:['5-дверный SUV'],engineFamilies:['PE-VPS 2.0 petrol','PY-VPS 2.5 petrol / turbo by market','SH-VPTS 2.2 diesel'],transmissionFamilies:['6MT — market-specific','SKYACTIV-Drive 6AT'],drivetrainNotes:'Do not transfer KE capacities to KF without exact manual confirmation.',verification:'separated-needs-verification',modelFamilyId:'mazda-cx-5-208',nextDataTasks:commonTasks},
  {id:'lexus-rx-xu30',sourceModelId:'lexus-rx-350',make:'Lexus',model:'RX',generation:'II / XU30',chassisCodes:['MCU30','MCU35','GSU30','GSU35'],years:'2003–2009',bodyStyles:['5-дверный SUV'],engineFamilies:['1MZ-FE 3.0 V6','3MZ-FE 3.3 V6 hybrid — RX 400h','2GR-FE 3.5 — late/market-specific'],transmissionFamilies:['5AT/6AT — by engine/market','Hybrid power-split device — RX 400h'],drivetrainNotes:'RX 300/330/350/400h are distinct powertrain records despite shared model family.',verification:'separated-needs-verification',modelFamilyId:'lexus-rx-370',nextDataTasks:commonTasks},

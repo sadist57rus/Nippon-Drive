@@ -275,6 +275,66 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: Bull-Doser, Wikimedia Commons, общественное достояние; файл оптимизирован для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:%2703-%2705_Mazda_6_Sedan.JPG',
   },
+  'toyota-mark-ii-x90-tourer-v': {
+    src: '/assets/vehicles/toyota-mark-ii-x90-tourer-v.jpg',
+    alt: 'Toyota Mark II X90 Tourer V, седан',
+    credit: 'Фото: Mld61294, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Mark_II_Tourer_V_(JZX90).jpg',
+  },
+  'toyota-mark-ii-x100-tourer-v': {
+    src: '/assets/vehicles/toyota-mark-ii-x100-tourer-v.jpg',
+    alt: 'Toyota Mark II X100 Tourer V, седан',
+    credit: 'Фото: 先従隗始, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_GF-JZX100_Mark_Ⅱ_2.5_TOURER_V_(24033010401).jpg',
+  },
+  'toyota-chaser-x100-tourer-v': {
+    src: '/assets/vehicles/toyota-chaser-x100-tourer-v.jpg',
+    alt: 'Toyota Chaser X100 Tourer V',
+    credit: 'Фото: FotoSleuth (uploaded by OSX), Wikimedia Commons, CC BY 2.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Chaser_Tourer_V.jpg',
+  },
+  'toyota-chaser-x90-tourer-v': {
+    src: '/assets/vehicles/toyota-chaser-x90-tourer-v.jpg',
+    alt: 'Toyota Chaser X90 Tourer V',
+    credit: 'Фото: 先従隗始, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_GF-S15_Silvia_spec._S_-_Toyota_E-JZX90_Chaser_2.5_Tourer_V_(23011710160).jpg',
+  },
+  'toyota-cresta-x100-rulant-g': {
+    src: '/assets/vehicles/toyota-cresta-x100-roulant-g.jpg',
+    alt: 'Toyota Cresta X100 2.5 Roulant G',
+    credit: 'Фото: 先従隗始, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_GF-JZX100_Cresta_2.5_Roulant_G_-_Honda_ABA-CL9_Accord_24TL_(23060415233).jpg',
+  },
+  'toyota-supra-a80-rz': {
+    src: '/assets/vehicles/toyota-supra-a80-rz.jpg',
+    alt: 'Toyota Supra A80 RZ, купе',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Supra_RZ_(E-JZA80).jpg',
+  },
+  'toyota-supra-a70-gt-turbo': {
+    src: '/assets/vehicles/toyota-supra-a70-gt-turbo.jpg',
+    alt: 'Toyota Supra A70 3.0 GT Turbo, купе 1989 года',
+    credit: 'Фото: Sicnag, Wikimedia Commons, CC BY 2.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1989_Toyota_A70_Supra_MkIII_3.0_GT_Turbo.jpg',
+  },
+  'toyota-soarer-jzz30-gt-twin-turbo': {
+    src: '/assets/vehicles/toyota-soarer-jzz30-gt-twin-turbo.jpg',
+    alt: 'Toyota Soarer JZZ30 2.5 GT Twin Turbo',
+    credit: 'Фото: TTTNIS, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1992_Toyota_Soarer_2.5GT_Twin_Turbo.jpg',
+  },
+  'nissan-cefiro-a31-rb20det': {
+    src: '/assets/vehicles/nissan-cefiro-a31-rb20det.jpg',
+    alt: 'Nissan Cefiro A31, седан',
+    credit: 'Фото: OSX, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1988-1990_Nissan_Cefiro_(A31)_sedan_01.jpg',
+  },
+  'nissan-laurel-c33-rb20-medalist': {
+    src: '/assets/vehicles/nissan-laurel-c33-rb20-medalist.jpg',
+    alt: 'Nissan Laurel C33 Medalist',
+    credit: 'Фото: Toyotacoronaexsaloon, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_laurel_hc33_medalist_1_f.jpg',
+  },
 };
 
 export default function VehicleIllustration({

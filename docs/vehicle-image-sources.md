@@ -37,5 +37,9 @@
 | Toyota Land Cruiser Prado J120, 2006 | [Toyota Land-Cruiser Prado.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg) | Dekel Santo | CC BY-SA 3.0 | 2006 Prado 120, 3.0 D-4D; серебристый SUV |
 | Nissan X-Trail T31 | [Nissan X-Trail – right side view.jpg](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_%E2%80%93_right_side_view.jpg) | Acgskup | CC BY 4.0 | Фото 2026 года; чёрный T31, боковой ракурс |
 | Mazda3 BK, hatchback, 2004 | ['04 Mazda3 2.3 Hatchback.JPG](https://commons.wikimedia.org/wiki/File:%2704_Mazda3_2.3_Hatchback.JPG) | Bull-Doser | Общественное достояние (авторская передача в public domain) | Хэтчбек Mazda3 первого поколения; не использовать для карточки седана |
+| Toyota Corolla Axio E140, седан | [Toyota COROLLA Axio 1.8LUXEL (E140) front.JPG](https://commons.wikimedia.org/wiki/File:Toyota_COROLLA_Axio_1.8LUXEL_(E140)_front.JPG) | Tokumeigakarinoaoshima | CC0 1.0 | Японский Axio E140, точный кузов и рынок; передний ракурс |
+| Nissan Qashqai J10 | [Nissan Qashqai (J10) 164122.jpg](https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_164122.jpg) | Trop86 | CC BY 4.0 | Белый Qashqai J10, зимний снимок 2026 года |
+| Nissan Note E11 | [NISSAN NOTE.jpg](https://commons.wikimedia.org/wiki/File:NISSAN_NOTE.jpg) | TTTNIS | Общественное достояние (авторская передача в public domain) | Файл из категории Nissan Note; год съёмки 2008, перед включением проверить кузов по оригиналу |
+| Honda Jazz GD, hatchback | [2002-2004 Honda Jazz (GD) hatchback 01.jpg](https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_01.jpg) | OSX | Общественное достояние (авторская передача в public domain) | Honda Jazz первого поколения; европейское имя Fit, хэтчбек 2002–2004 |
 
 При подготовке локальной копии сохранять автора, исходную страницу, лицензию и факт изменения размера/перекодирования. Не создавать цветовые варианты программной тонировкой.

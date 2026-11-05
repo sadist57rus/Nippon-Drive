@@ -404,6 +404,548 @@
         }
       ],
       "notes": "Только RE 2.4 AT 4WD указанного периода; не переносить характеристики на 2.0, переднеприводные и рестайлинговые версии."
+    },
+    {
+      "id": "mazda-cx5-ke-pevps-20-mt-sport-fwd-2012-2015",
+      "modelId": "mazda-cx5-ke-kf",
+      "generationId": "mazda-cx5-ke",
+      "market": "рынок сбыта не указан; Drom указывает сборку Япония/Малайзия",
+      "modelYearFrom": 2012,
+      "modelYearTo": 2015,
+      "productionMonthFrom": "2012-01",
+      "productionMonthTo": "2015-01",
+      "bodyCode": "KE",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.0 MT Sport FWD",
+      "engineCode": "PE-VPS",
+      "engine": {
+        "code": "PE-VPS",
+        "displacementCc": 1997,
+        "powerHp": 155,
+        "torqueNm": 210,
+        "fuelType": "Бензин АИ-95"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4539,
+        "widthMm": 1840,
+        "heightMm": 1709,
+        "wheelbaseMm": 2700,
+        "groundClearanceMm": 216,
+        "trackFrontMm": 1585,
+        "trackRearMm": 1590,
+        "curbWeightKg": 1449,
+        "fuelTankLiters": 56,
+        "luggageVolumeLiters": 966
+      },
+      "wheelFitments": [],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Mazda CX-5 2.0 MT Sport",
+          "url": "https://www.drom.ru/catalog/mazda/cx-5/250344/",
+          "sourceType": "secondary-reference",
+          "market": "рынок сбыта не указан; сборка Япония/Малайзия",
+          "scope": "KE 2.0 MT Sport FWD, 01.2012–01.2015; двигатель PE-VPS, 155 л.с., 210 Н·м, 6MT, размеры, масса, бак, багажник и шины",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "market",
+          "reason": "Drom сообщает страны сборки, но не фиксирует рынок продаж конкретного экземпляра."
+        },
+        {
+          "field": "tires",
+          "reason": "Размер 225/65 R17 указан без индексов нагрузки и скорости; полная TireOption не создаётся."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "В использованной карточке не подтверждены параметры диска, PCD, DIA и ET."
+        }
+      ],
+      "notes": "Передний привод и 6MT; не смешивать с 2.0 AT и AWD/дизельными версиями KE."
+    },
+    {
+      "id": "mazda-cx5-ke-pevps-20-at-drive-fwd-2014-2015",
+      "modelId": "mazda-cx5-ke-kf",
+      "generationId": "mazda-cx5-ke",
+      "market": "рынок не уточнён; Drom указывает сборку Япония/Россия/Малайзия",
+      "modelYearFrom": 2014,
+      "modelYearTo": 2015,
+      "productionMonthFrom": "2014-01",
+      "productionMonthTo": "2015-01",
+      "bodyCode": "KE",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.0 AT Drive FWD",
+      "engineCode": "PE-VPS",
+      "engine": {
+        "code": "PE-VPS",
+        "displacementCc": 1997,
+        "powerHp": 150,
+        "torqueNm": 210,
+        "fuelType": "Бензин АИ-95"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4555,
+        "widthMm": 1840,
+        "heightMm": 1670,
+        "wheelbaseMm": 2700,
+        "groundClearanceMm": 215,
+        "trackFrontMm": 1585,
+        "trackRearMm": 1590,
+        "curbWeightKg": 1400,
+        "fuelTankLiters": 56,
+        "luggageVolumeLiters": 403
+      },
+      "wheelFitments": [],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Mazda CX-5 2.0 AT Drive",
+          "url": "https://www.drom.ru/catalog/mazda/cx-5/75135/",
+          "sourceType": "secondary-reference",
+          "market": "рынок не уточнён; сборка Япония/Россия/Малайзия",
+          "scope": "KE 2.0 AT Drive FWD, 01.2014–01.2015; PE-VPS 150 л.с., 210 Н·м, 6AT, габариты, масса, бак, багажник и шины",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "market",
+          "reason": "Страны сборки не позволяют однозначно определить рынок продаж."
+        },
+        {
+          "field": "tires",
+          "reason": "225/65 R17 без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "Ширина обода, ET, PCD и DIA не подтверждены карточкой."
+        }
+      ],
+      "notes": "FWD, 6AT; характеристики не переносить на AWD и поздний рестайлинг."
+    },
+    {
+      "id": "mazda-cx5-ke-shy1-22d-mt-sports-line-4wd-2015-2017",
+      "modelId": "mazda-cx5-ke-kf",
+      "generationId": "mazda-cx5-ke",
+      "market": "Япония (страна сборки по Drom)",
+      "modelYearFrom": 2015,
+      "modelYearTo": 2017,
+      "productionMonthFrom": "2015-01",
+      "productionMonthTo": "2017-03",
+      "bodyCode": "KE",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.2D Sports-Line 4WD",
+      "engineCode": "SHY1 / SHY4",
+      "engine": {
+        "code": "SHY1 / SHY4",
+        "displacementCc": 2191,
+        "powerHp": 175,
+        "torqueNm": 420,
+        "fuelType": "Дизельное топливо",
+        "induction": "Турбонаддув"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4555,
+        "widthMm": 1840,
+        "heightMm": 1710,
+        "wheelbaseMm": 2700,
+        "groundClearanceMm": 215,
+        "trackFrontMm": 1585,
+        "trackRearMm": 1590,
+        "curbWeightKg": 1555,
+        "fuelTankLiters": 58,
+        "luggageVolumeLiters": 503
+      },
+      "wheelFitments": [],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Mazda CX-5 2.2D Sports-Line",
+          "url": "https://www.drom.ru/catalog/mazda/cx-5/450096/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "KE 2.2D Sports-Line 4WD, 01.2015–03.2017; SHY1/SHY4, 175 л.с., 420 Н·м, 6MT, размеры, масса, бак, багажник и шины",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "tires",
+          "reason": "225/55 R19 указан без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "Размер диска, PCD, DIA и ET не подтверждены."
+        }
+      ],
+      "notes": "Турбодизель 2.2, полный привод, 6MT; не смешивать с 2.2D AT и бензиновыми версиями."
+    },
+    {
+      "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2010-2011",
+      "modelId": "toyota-rav4-3",
+      "generationId": "toyota-rav4-xa30",
+      "market": "Япония (страна сборки по Drom)",
+      "modelYearFrom": 2010,
+      "modelYearTo": 2011,
+      "productionMonthFrom": "2010-06",
+      "productionMonthTo": "2011-08",
+      "bodyCode": "ZSA30",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.0 CVT Стандарт 4WD",
+      "engineCode": "3ZR-FAE",
+      "engine": {
+        "code": "3ZR-FAE",
+        "displacementCc": 1986,
+        "powerHp": 158,
+        "torqueNm": 198,
+        "fuelType": "Бензин АИ-95"
+      },
+      "transmissionType": "CVT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4445,
+        "widthMm": 1815,
+        "heightMm": 1685,
+        "wheelbaseMm": 2560,
+        "groundClearanceMm": 180,
+        "trackFrontMm": 1560,
+        "trackRearMm": 1560,
+        "curbWeightKg": 1645,
+        "fuelTankLiters": 60,
+        "luggageVolumeLiters": 410
+      },
+      "wheelFitments": [
+        {
+          "tireSize": "225/65R17",
+          "rimSize": "6.5J x 17",
+          "applicability": "Toyota RAV4 ZSA30 2.0 CVT Стандарт 4WD, 06.2010–08.2011",
+          "verificationStatus": "partially-verified",
+          "sourceUrl": "https://www.drom.ru/catalog/toyota/rav4/60899/",
+          "notes": "Drom указывает размер шины и диска; PCD, DIA и ET не указаны."
+        }
+      ],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Toyota RAV4 2.0 CVT Стандарт",
+          "url": "https://www.drom.ru/catalog/toyota/rav4/60899/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "ZSA30 2.0 CVT Стандарт 4WD, 06.2010–08.2011; 3ZR-FAE 158 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "tires",
+          "reason": "Размер 225/65R17 без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET не приведены."
+        }
+      ],
+      "notes": "Ранний период рестайлинга XA30; мощность 158 л.с. не переносить на исполнение 2011–2013."
+    },
+    {
+      "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2011-2013",
+      "modelId": "toyota-rav4-3",
+      "generationId": "toyota-rav4-xa30",
+      "market": "Япония (страна сборки по Drom)",
+      "modelYearFrom": 2011,
+      "modelYearTo": 2013,
+      "productionMonthFrom": "2011-09",
+      "productionMonthTo": "2013-01",
+      "bodyCode": "ZSA30",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.0 CVT Стандарт 4WD",
+      "engineCode": "3ZR-FAE",
+      "engine": {
+        "code": "3ZR-FAE",
+        "displacementCc": 1986,
+        "powerHp": 148,
+        "torqueNm": 198,
+        "fuelType": "Бензин АИ-95"
+      },
+      "transmissionType": "CVT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4445,
+        "widthMm": 1815,
+        "heightMm": 1685,
+        "wheelbaseMm": 2560,
+        "groundClearanceMm": 180,
+        "trackFrontMm": 1560,
+        "trackRearMm": 1560,
+        "curbWeightKg": 1645,
+        "fuelTankLiters": 60,
+        "luggageVolumeLiters": 410
+      },
+      "wheelFitments": [
+        {
+          "tireSize": "225/65R17",
+          "rimSize": "6.5J x 17",
+          "applicability": "Toyota RAV4 ZSA30 2.0 CVT Стандарт 4WD, 09.2011–01.2013",
+          "verificationStatus": "partially-verified",
+          "sourceUrl": "https://www.drom.ru/catalog/toyota/rav4/183254/",
+          "notes": "Drom указывает размер шины и диска; PCD, DIA и ET не указаны."
+        }
+      ],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Toyota RAV4 2.0 CVT Стандарт",
+          "url": "https://www.drom.ru/catalog/toyota/rav4/183254/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "ZSA30 2.0 CVT Стандарт 4WD, 09.2011–01.2013; 3ZR-FAE 148 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "tires",
+          "reason": "Размер 225/65R17 без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET не приведены."
+        }
+      ],
+      "notes": "Поздний период рестайлинга XA30; не объединять с версией 158 л.с. 2010–2011."
+    },
+    {
+      "id": "nissan-xtrail-t31-mr20de-cvt-le-high-4wd-2012-2015",
+      "modelId": "nissan-xtrail-t31",
+      "generationId": "nissan-xtrail-t31",
+      "market": "Россия",
+      "modelYearFrom": 2012,
+      "modelYearTo": 2015,
+      "productionMonthFrom": "2012-12",
+      "productionMonthTo": "2015-01",
+      "bodyCode": "T31",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.0 CVT LE High 4WD",
+      "engineCode": "MR20DE",
+      "engine": {
+        "code": "MR20DE",
+        "displacementCc": 1997,
+        "powerHp": 141,
+        "torqueNm": 196,
+        "fuelType": "Бензин АИ-95"
+      },
+      "transmissionType": "CVT",
+      "drivetrain": "4WD",
+      "steeringPosition": "LHD",
+      "dimensions": {
+        "lengthMm": 4635,
+        "widthMm": 1790,
+        "heightMm": 1785,
+        "wheelbaseMm": 2630,
+        "groundClearanceMm": 210,
+        "trackFrontMm": 1540,
+        "trackRearMm": 1545,
+        "curbWeightKg": 1550,
+        "fuelTankLiters": 65,
+        "luggageVolumeLiters": 479
+      },
+      "wheelFitments": [
+        {
+          "tireSize": "225/55 R18",
+          "rimSize": "18X7JJ",
+          "applicability": "Nissan X-Trail T31 2.0 CVT LE High 4WD, 12.2012–01.2015",
+          "verificationStatus": "partially-verified",
+          "sourceUrl": "https://www.drom.ru/catalog/nissan/x-trail/71634/",
+          "notes": "Drom указывает размер шины и диска; PCD, DIA и ET не указаны."
+        }
+      ],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan X-Trail 2.0 CVT LE High",
+          "url": "https://www.drom.ru/catalog/nissan/x-trail/71634/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "T31 2.0 CVT LE High 4WD, 12.2012–01.2015; MR20DE 141 л.с./196 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "tires",
+          "reason": "225/55 R18 без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET не указаны."
+        }
+      ],
+      "notes": "Российское исполнение T31 после рестайлинга; не переносить размеры кузова на японские RHD исполнения."
+    },
+    {
+      "id": "suzuki-grand-vitara-jt-j24b-24-at-3door-4wd-2008-2012",
+      "modelId": "suzuki-grand-vitara-2",
+      "generationId": "suzuki-grand-vitara-jt",
+      "market": "рынок сбыта не указан; страна сборки Япония",
+      "modelYearFrom": 2008,
+      "modelYearTo": 2012,
+      "productionMonthFrom": "2008-08",
+      "productionMonthTo": "2012-07",
+      "bodyCode": "TAA4V",
+      "bodyStyle": "3-дверный SUV",
+      "trimOrGrade": "2.4 AT Comfort 4WD",
+      "engineCode": "J24B",
+      "engine": {
+        "code": "J24B",
+        "displacementCc": 2393,
+        "powerHp": 166,
+        "torqueNm": 183,
+        "fuelType": "Бензин АИ-95"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4150,
+        "widthMm": 1870,
+        "heightMm": 1685,
+        "wheelbaseMm": 2440,
+        "groundClearanceMm": 205,
+        "trackFrontMm": 1540,
+        "trackRearMm": 1570,
+        "curbWeightKg": 1536,
+        "fuelTankLiters": 55,
+        "luggageVolumeLiters": 184
+      },
+      "wheelFitments": [
+        {
+          "tireSize": "225/65 R17",
+          "rimSize": "17X6.5J",
+          "applicability": "Suzuki Grand Vitara TAA4V 2.4 AT Comfort 4WD, 08.2008–07.2012",
+          "verificationStatus": "partially-verified",
+          "sourceUrl": "https://www.drom.ru/catalog/suzuki/grand_vitara/221896/",
+          "notes": "Drom указывает шины и размер диска; PCD, DIA и ET не указаны."
+        }
+      ],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Grand Vitara 2.4 AT Comfort, 3 двери",
+          "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/221896/",
+          "sourceType": "secondary-reference",
+          "market": "рынок не указан; сборка Япония",
+          "scope": "TAA4V, 3-дверный кузов, 2.4 AT Comfort 4WD, 08.2008–07.2012; J24B, размеры, масса, бак, багажник и колёса",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "market",
+          "reason": "Страна сборки Япония не устанавливает однозначно рынок продаж."
+        },
+        {
+          "field": "tires",
+          "reason": "Индексы нагрузки и скорости не указаны."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET не приведены."
+        }
+      ],
+      "notes": "3-дверный TAA4V; не объединять с 5-дверным TD_4 и его другими габаритами."
+    },
+    {
+      "id": "suzuki-grand-vitara-jt-j24b-24-at-5door-4wd-2008-2012",
+      "modelId": "suzuki-grand-vitara-2",
+      "generationId": "suzuki-grand-vitara-jt",
+      "market": "рынок сбыта не указан; страна сборки Япония",
+      "modelYearFrom": 2008,
+      "modelYearTo": 2012,
+      "productionMonthFrom": "2008-08",
+      "productionMonthTo": "2012-07",
+      "bodyCode": "TD_4",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.4 AT Comfort 4WD",
+      "engineCode": "J24B",
+      "engine": {
+        "code": "J24B",
+        "displacementCc": 2393,
+        "powerHp": 169,
+        "torqueNm": 183,
+        "fuelType": "Бензин АИ-95"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4575,
+        "widthMm": 1880,
+        "heightMm": 1685,
+        "wheelbaseMm": 2640,
+        "groundClearanceMm": 205,
+        "trackFrontMm": 1540,
+        "trackRearMm": 1570,
+        "curbWeightKg": 1642,
+        "fuelTankLiters": 66,
+        "luggageVolumeLiters": 398
+      },
+      "wheelFitments": [
+        {
+          "tireSize": "225/65 R17",
+          "rimSize": "17X6.5J",
+          "applicability": "Suzuki Grand Vitara TD_4 2.4 AT Comfort 4WD, 08.2008–07.2012",
+          "verificationStatus": "partially-verified",
+          "sourceUrl": "https://www.drom.ru/catalog/suzuki/grand_vitara/221889/",
+          "notes": "Drom указывает шины и размер диска; PCD, DIA и ET не указаны."
+        }
+      ],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Grand Vitara 2.4 AT Comfort, 5 дверей",
+          "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/221889/",
+          "sourceType": "secondary-reference",
+          "market": "рынок не указан; сборка Япония",
+          "scope": "TD_4, 5-дверный кузов, 2.4 AT Comfort 4WD, 08.2008–07.2012; J24B, размеры, масса, бак, багажник и колёса",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "market",
+          "reason": "Страна сборки Япония не устанавливает однозначно рынок продаж."
+        },
+        {
+          "field": "tires",
+          "reason": "Индексы нагрузки и скорости не указаны."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET не приведены."
+        }
+      ],
+      "notes": "5-дверный TD_4; не объединять с 3-дверным TAA4V и его другими габаритами."
     }
   ]
 }

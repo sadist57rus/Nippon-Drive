@@ -35,25 +35,74 @@ jobs:
 
           photos = [
           {
-            "filename": "E120 Toyota Corolla.jpg",
-            "target": "toyota-corolla-e120.jpg",
-            "author": "Kuha455405",
-            "license": "CC BY-SA 3.0 / GFDL 1.2+",
-            "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
-          },
-          {
-            "filename": "Toyota camry acv30 2.4g 1 f.jpg",
-            "target": "toyota-camry-xv30.jpg",
-            "author": "Toyotacoronaexsaloon",
-            "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
-          },
-          {
-            "filename": "White Toyota Vitz (XP90).jpg",
-            "target": "toyota-vitz-xp90.jpg",
-            "author": "arakaki",
+            "filename": "2006 Honda CR-V (RD7 MY06) wagon (2008-11-12).jpg",
+            "target": "honda-crv-rd7-gray.jpg",
+            "author": "OSX",
             "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:2006_Honda_CR-V_(RD7_MY06)_wagon_(2008-11-12).jpg",
+          },
+          {
+            "filename": "'03-'05 Mazda 6 Sedan.JPG",
+            "target": "mazda6-gg-sedan-silver.jpg",
+            "author": "Bull-Doser",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:%2703-%2705_Mazda_6_Sedan.JPG",
+          },
+          {
+            "filename": "Mitsubishi Lancer X 001.jpg",
+            "target": "mitsubishi-lancer-x-black.jpg",
+            "author": "JustAnotherCarDesigner",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg",
+          },
+          {
+            "filename": "Toyota Land Cruiser Prado KZJ120 3.0 VX Raven Black 01.jpg",
+            "target": "toyota-prado-j120-black.jpg",
+            "author": "Ethan Llamas",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_Raven_Black_01.jpg",
+          },
+          {
+            "filename": "Toyota Land Cruiser Prado KZJ120 3.0 VX White Pearl Crystal Shine 01.jpg",
+            "target": "toyota-prado-j120-white.jpg",
+            "author": "Ethan Llamas",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_White_Pearl_Crystal_Shine_01.jpg",
+          },
+          {
+            "filename": "Nissan Qashqai (J10) 130819.jpg",
+            "target": "nissan-qashqai-j10-silver.jpg",
+            "author": "Trop86",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_130819.jpg",
+          },
+          {
+            "filename": "Nissan X-Trail T31 2.5L 2WD White.jpg",
+            "target": "nissan-x-trail-t31-white.jpg",
+            "author": "Ethan Llamas",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_White.jpg",
+          },
+          {
+            "filename": "Nissan X-Trail T31 2.5L 2WD Tempest Blue.jpg",
+            "target": "nissan-x-trail-t31-blue.jpg",
+            "author": "Ethan Llamas",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_Tempest_Blue.jpg",
+          },
+          {
+            "filename": "2009 Nissan Note in Emotion Red, front left, 06-08-2025.jpg",
+            "target": "nissan-note-e11-red.jpg",
+            "author": "Cutlass",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2009_Nissan_Note_in_Emotion_Red,_front_left,_06-08-2025.jpg",
+          },
+          {
+            "filename": "2002-2004 Honda Jazz (GD) hatchback 02.jpg",
+            "target": "honda-jazz-gd-blue.jpg",
+            "author": "OSX",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_02.jpg",
           },
           ]
 
@@ -87,7 +136,7 @@ jobs:
               return item["target"], item["width"], item["height"], item["bytes"]
 
           errors = []
-          with ThreadPoolExecutor(max_workers=2) as pool:
+          with ThreadPoolExecutor(max_workers=4) as pool:
               futures = {pool.submit(fetch_one, item): item for item in photos}
               for future in as_completed(futures):
                   item = futures[future]
@@ -100,7 +149,7 @@ jobs:
                       errors.append(str(exc))
                       print("DOWNLOAD_ERROR", item["filename"], repr(exc))
 
-          (destination / "sources-batch-03.json").write_text(
+          (destination / "sources-batch-04.json").write_text(
               json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )
@@ -114,5 +163,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/assets/vehicles/
-          git commit -m "assets: повторить загрузку трёх фото после ограничения Commons"
+          git commit -m "assets: загрузить фотографии моделей и цветовые варианты — пакет 3"
           git push origin HEAD:assets/vehicle-photo-fetch

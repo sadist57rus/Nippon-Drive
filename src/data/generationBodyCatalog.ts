@@ -30,6 +30,18 @@ export interface GenerationBodyRecord {
     fuelTankLiters?: number;
     luggageVolumeLiters?: string;
   };
+  dimensionVariants?: Array<{
+    label: string;
+    bodyStyle?: string;
+    lengthMm: number;
+    widthMm: number;
+    heightMm: number;
+    wheelbaseMm: number;
+    groundClearanceMm?: number;
+    trackFrontMm?: number;
+    trackRearMm?: number;
+    curbWeightKg?: string;
+  }>;
   wheelFitments?: Array<{
     tireSize: string;
     rimSizes: string[];

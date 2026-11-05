@@ -81,7 +81,8 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
     }
   }
   if (variant.interiorDimensions) {
-    for (const [key, value] of Object.entries(variant.interiorDimensions)) {
+    for (const key of ['lengthMm', 'widthMm', 'heightMm', 'luggageVolumeLiters'] as const) {
+      const value = variant.interiorDimensions[key];
       if (value !== undefined && value !== null && (!Number.isFinite(value) || value <= 0)) {
         errors.push(`interiorDimensions.${key} must be null or a positive number`);
       }

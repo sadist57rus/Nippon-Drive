@@ -946,6 +946,269 @@
         }
       ],
       "notes": "5-дверный TD_4; не объединять с 3-дверным TAA4V и его другими габаритами."
+    },
+    {
+      "id": "mazda-cx5-ke-shy1-22d-at-sports-line-4wd-2015-2017",
+      "modelId": "mazda-cx5-ke-kf",
+      "generationId": "mazda-cx5-ke",
+      "market": "Япония",
+      "modelYearFrom": 2015,
+      "modelYearTo": 2017,
+      "productionMonthFrom": "2015-01",
+      "productionMonthTo": "2017-03",
+      "bodyCode": "KE",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.2D AT Sports-Line 4WD",
+      "engineCode": "SHY1 / SHY4",
+      "engine": {
+        "code": "SHY1 / SHY4",
+        "displacementCc": 2191,
+        "powerHp": 175,
+        "torqueNm": 420,
+        "fuelType": "Дизельное топливо",
+        "induction": "Турбонаддув"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 4555,
+        "widthMm": 1840,
+        "heightMm": 1710,
+        "wheelbaseMm": 2700,
+        "groundClearanceMm": 215,
+        "trackFrontMm": 1585,
+        "trackRearMm": 1590,
+        "curbWeightKg": 1570,
+        "fuelTankLiters": 58,
+        "luggageVolumeLiters": 503
+      },
+      "wheelFitments": [],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Mazda CX-5 2.2D AT Sports-Line",
+          "url": "https://www.drom.ru/catalog/mazda/cx-5/450099/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "KE 2.2D AT Sports-Line 4WD, 01.2015–03.2017; SHY1/SHY4 175 л.с./420 Н·м, 6AT, габариты, масса, бак, багажник и шины",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "tires",
+          "reason": "225/55 R19 указан без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "Размер диска, PCD, DIA и ET не подтверждены."
+        }
+      ],
+      "notes": "Турбодизель 2.2, полный привод, 6AT; не смешивать с 2.2D MT и 150-сильными дизельными версиями."
+    },
+    {
+      "id": "subaru-forester-sh5-ej204-20-x-4wd-5mt-2009-2010",
+      "modelId": "subaru-forester-sg-sh",
+      "generationId": "subaru-forester-sh",
+      "market": "Япония",
+      "modelYearFrom": 2009,
+      "modelYearTo": 2010,
+      "productionMonthFrom": "2009-01",
+      "productionMonthTo": "2010-09",
+      "bodyCode": "DBA-SH5",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.0 X 4WD 5MT",
+      "engineCode": "EJ204",
+      "engine": {
+        "code": "EJ204",
+        "displacementCc": 1994,
+        "powerHp": 148,
+        "torqueNm": 191,
+        "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "RHD",
+      "dimensions": {
+        "lengthMm": 4560,
+        "widthMm": 1780,
+        "heightMm": 1675,
+        "wheelbaseMm": 2615,
+        "groundClearanceMm": 215,
+        "trackFrontMm": 1530,
+        "trackRearMm": 1530,
+        "curbWeightKg": 1430,
+        "fuelTankLiters": 60
+      },
+      "interiorDimensions": {
+        "lengthMm": 2000,
+        "widthMm": 1520,
+        "heightMm": 1290
+      },
+      "wheelFitments": [],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Subaru Forester 2.0 X 4WD",
+          "url": "https://www.drom.ru/catalog/subaru/forester/56890/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "DBA-SH5 2.0 X 4WD 5MT RHD, 01.2009–09.2010; EJ204, мощность/момент, внешние и внутренние размеры, масса, бак и шины",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "tires",
+          "reason": "215/65R16 без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "Ширина диска, ET, PCD и DIA не приведены."
+        },
+        {
+          "field": "luggageVolumeLiters",
+          "reason": "Объём багажника не указан в использованной карточке."
+        }
+      ],
+      "notes": "Японская праворульная версия 5MT; не объединять с 4AT и более поздними FB20."
+    },
+    {
+      "id": "subaru-forester-sh5-ej204-20-xs-4wd-4at-2009-2010",
+      "modelId": "subaru-forester-sg-sh",
+      "generationId": "subaru-forester-sh",
+      "market": "Япония",
+      "modelYearFrom": 2009,
+      "modelYearTo": 2010,
+      "productionMonthFrom": "2009-01",
+      "productionMonthTo": "2010-09",
+      "bodyCode": "DBA-SH5",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "2.0 XS 4WD 4AT",
+      "engineCode": "EJ204",
+      "engine": {
+        "code": "EJ204",
+        "displacementCc": 1994,
+        "powerHp": 148,
+        "torqueNm": 191,
+        "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "RHD",
+      "dimensions": {
+        "lengthMm": 4560,
+        "widthMm": 1780,
+        "heightMm": 1675,
+        "wheelbaseMm": 2615,
+        "groundClearanceMm": 215,
+        "trackFrontMm": 1530,
+        "trackRearMm": 1530,
+        "curbWeightKg": 1460,
+        "fuelTankLiters": 60
+      },
+      "interiorDimensions": {
+        "lengthMm": 2000,
+        "widthMm": 1520,
+        "heightMm": 1290
+      },
+      "wheelFitments": [],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Subaru Forester 2.0 XS 4WD",
+          "url": "https://www.drom.ru/catalog/subaru/forester/56891/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "DBA-SH5 2.0 XS 4WD 4AT RHD, 01.2009–09.2010; EJ204, мощность/момент, внешние и внутренние размеры, масса, бак и шины",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "tires",
+          "reason": "215/65R16 без индексов нагрузки и скорости."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "Ширина диска, ET, PCD и DIA не приведены."
+        },
+        {
+          "field": "luggageVolumeLiters",
+          "reason": "Объём багажника не указан в использованной карточке."
+        }
+      ],
+      "notes": "Японская праворульная версия 4AT; не объединять с 5MT и более поздними FB20."
+    },
+    {
+      "id": "lexus-rx-al10-2grfe-35-at-4wd-rhd-2009-2012",
+      "modelId": "lexus-rx-350",
+      "generationId": "lexus-rx-al10",
+      "market": "Япония",
+      "modelYearFrom": 2009,
+      "modelYearTo": 2012,
+      "productionMonthFrom": "2009-01",
+      "productionMonthTo": "2012-03",
+      "bodyCode": "DBA-GGL15W",
+      "bodyStyle": "5-дверный SUV",
+      "trimOrGrade": "RX350 4WD",
+      "engineCode": "2GR-FE",
+      "engine": {
+        "code": "2GR-FE",
+        "displacementCc": 3456,
+        "powerHp": 280,
+        "fuelType": "Бензин Premium (АИ-98)"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "RHD",
+      "dimensions": {
+        "lengthMm": 4770,
+        "widthMm": 1885,
+        "heightMm": 1690,
+        "wheelbaseMm": 2740,
+        "groundClearanceMm": 185,
+        "trackFrontMm": 1630,
+        "trackRearMm": 1625,
+        "curbWeightKg": 1940
+      },
+      "interiorDimensions": {
+        "lengthMm": 2180,
+        "widthMm": 1560,
+        "heightMm": 1220
+      },
+      "wheelFitments": [],
+      "tires": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Lexus RX350 350 4WD",
+          "url": "https://www.drom.ru/catalog/lexus/rx350/57470/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "DBA-GGL15W RX350 4WD RHD, 01.2009–03.2012; 2GR-FE 3.5, 280 л.с., 6AT, размеры кузова и салона, масса и шины",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "engine.torqueNm",
+          "reason": "Крутящий момент не приведён в доступном фрагменте карточки; не заполнен."
+        },
+        {
+          "field": "dimensions.fuelTankLiters",
+          "reason": "Объём топливного бака не подтверждён использованной карточкой."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "235/60R18 указан как размер шин; ширина диска, PCD, DIA и ET не подтверждены."
+        }
+      ],
+      "notes": "Японская праворульная версия GGL15W с полным приводом; не смешивать с переднеприводной GGL10W и GGL16W с пневмоподвеской."
     }
   ]
 }

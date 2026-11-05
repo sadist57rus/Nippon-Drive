@@ -162,10 +162,10 @@ for (const generation of GENERATION_BODY_CATALOG) {
   }
   for (const variant of generation.dimensionVariants ?? []) {
     check(Boolean(variant.label.trim()), `Dimension variant missing label: ${generation.id}`);
-    for (const field of ['lengthMm', 'widthMm', 'heightMm', 'wheelbaseMm'] as const) {
+    for (const field of ['lengthMm', 'widthMm', 'heightMm'] as const) {
       check(Number.isFinite(variant[field]) && variant[field] > 0, `Invalid dimension variant: ${generation.id} ${field}`);
     }
-    for (const field of ['groundClearanceMm', 'trackFrontMm', 'trackRearMm'] as const) {
+    for (const field of ['wheelbaseMm', 'groundClearanceMm', 'trackFrontMm', 'trackRearMm'] as const) {
       const value = variant[field];
       if (value !== undefined) check(Number.isFinite(value) && value > 0, `Invalid dimension variant: ${generation.id} ${field}`);
     }

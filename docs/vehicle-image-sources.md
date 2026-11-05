@@ -58,3 +58,14 @@
 | `toyota-land-cruiser-prado-120-j120-suv` | [Prado KZJ120 3.0 VX White Pearl Crystal Shine](https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_White_Pearl_Crystal_Shine_01.jpg) | White Pearl Crystal Shine, KZJ120 3.0 VX | Ethan Llamas | CC BY-SA 4.0 | лицензия проверена, ожидает локального импорта |
 
 У Prado KZJ120 найдены две отдельные фотографии одного и того же поколения/варианта 3.0 VX в чёрном и белом цветах. У Nissan X-Trail T31 найдена отдельная фотография синего Tempest Blue. Это подтверждённые реальные снимки, не программная перекраска.
+
+
+### Ещё пять подтверждённых моделей
+
+| Целевой ID каталога | Файл Commons | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `toyota-camry-xv30` | [Toyota camry acv30 2.4g 1 f.jpg](https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg) | Camry XV30, японская ACV30 2.4G | Toyotacoronaexsaloon | CC BY-SA 4.0 | лицензия проверена, ожидает локального импорта |
+| `honda-fit-gd-hatchback` | [2002-2004 Honda Jazz (GD) hatchback 02.jpg](https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_02.jpg) | Fit/Jazz GD, хэтчбек, синий | OSX | общественное достояние | лицензия проверена, ожидает локального импорта |
+| `honda-cr-v-rd` | [2006 Honda CR-V (RD7 MY06) wagon](https://commons.wikimedia.org/wiki/File:2006_Honda_CR-V_(RD7_MY06)_wagon_(2008-11-12).jpg) | CR-V RD7 MY06 | OSX | общественное достояние | лицензия проверена, ожидает локального импорта |
+| `nissan-serena-c25` | [NISSAN SERENA C25.jpg](https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg) | Serena C25 | TTTNIS | общественное достояние | лицензия проверена, ожидает локального импорта |
+| `nissan-tiida-c11-hatchback` | [Nissan Tiida (C11) hatchback.png](https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png) | Tiida C11, хэтчбек | SSJF01 | CC0 1.0 | лицензия проверена, ожидает локального импорта |

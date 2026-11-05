@@ -1453,5 +1453,129 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       }
     ],
     "notes": "XG-DJE — отдельная комплектация; не смешивать с XS-DJE или Style."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-style-dje-2014-2016",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2014-06",
+    "productionMonthTo": "2016-11",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 Style-DJE CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1500,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 130,
+      "trackFrontMm": 1480,
+      "trackRearMm": 1485,
+      "curbWeightKg": 1000
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S для указанной комплектации, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 Style-DJE CVT",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/76472/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 Style-DJE CVT, Япония RHD, 06.2014–11.2016; K12B 1242 см³, 91 л.с.; кузов/салон, масса, колея, клиренс, шины 185/55R16.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не подтверждён доступной карточкой модификации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Не подтверждены полный размер диска, PCD, DIA и ET; fitment не добавлен."
+      }
+    ],
+    "notes": "Style-DJE — отдельная комплектация; не объединять с обычным Style."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-xg-2013-2016",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2013-07",
+    "productionMonthTo": "2016-11",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 XG CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "torqueNm": 118,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 140,
+      "trackFrontMm": 1490,
+      "trackRearMm": 1495,
+      "curbWeightKg": 980,
+      "fuelTankLiters": 42
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S для указанной комплектации, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 XG CVT",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/72846/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 XG CVT, Япония RHD, 07.2013–11.2016; K12B 1242 см³, 91 л.с., 118 Н·м; кузов/салон, масса, бак 42 л, колея, клиренс.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "wheelFitments",
+        "reason": "Не подтверждены полный размер диска, PCD, DIA и ET; fitment не добавлен."
+      }
+    ],
+    "notes": "XG без DJE — отдельная комплектация; не переносить параметры на XG-DJE."
   }
 ];

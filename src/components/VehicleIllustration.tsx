@@ -18,6 +18,19 @@ export const VEHICLE_COLORS = [
   { id: 'burgundy', label: 'Бордовый', hex: '#722f3e' },
 ] as const;
 
+const MODEL_IMAGE_ALIASES: Record<string, string> = {
+  'toyota-camry-xv40': 'toyota-camry-40',
+  'toyota-rav4-xa30-crossover': 'toyota-rav4-3',
+};
+
+function resolveVehicleImageModelId(modelId?: string): string {
+  return MODEL_IMAGE_ALIASES[modelId || ''] || modelId || '';
+}
+
+export function hasVerifiedVehicleImage(modelId?: string): boolean {
+  return Boolean(VERIFIED_MODEL_IMAGES[resolveVehicleImageModelId(modelId)]);
+}
+
 export type VehicleColorId = typeof VEHICLE_COLORS[number]['id'];
 export const DEFAULT_VEHICLE_COLOR: VehicleColorId = 'silver';
 
@@ -30,7 +43,7 @@ export interface VehicleColorPhotoOption {
 
 /** Color options are restricted to models/colors with a real matching photo. */
 export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): VehicleColorPhotoOption[] {
-  const options: Record<string, Array<{id: string; label: string; src: string}>> = {
+  const resolvedModelId = resolveVehicleImageModelId(modelId);\n  const options: Record<string, Array<{id: string; label: string; src: string}>> = {
     'toyota-rav4-3': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/toyota-rav4-xa30-silver.jpg' },
       { id: 'blue', label: 'Синий', src: '/assets/vehicles/toyota-rav4-xa30.jpg' },
@@ -53,7 +66,7 @@ export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): Ve
       { id: 'yellow', label: 'Жёлтый', src: '/assets/vehicles/mitsubishi-lancer-9-sedan-yellow.jpg' },
     ],
   };
-  return (options[modelId || ''] || []).map(option => ({
+  return (options[resolvedModelId] || []).map(option => ({
     ...option,
     hex: VEHICLE_COLORS.find(color => color.id === option.id)?.hex || '#808080',
   }));
@@ -151,7 +164,7 @@ export default function VehicleIllustration({
       yellow: colorImage('/assets/vehicles/mitsubishi-lancer-9-sedan-yellow.jpg','Жёлтый Mitsubishi Lancer IX седан CH MY07','Фото: OSX, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:2006-2007_Mitsubishi_Lancer_(CH_MY07)_ES_sedan_01.jpg'),
     },
   };
-  const image = modelColorImages[modelId]?.[color] || VERIFIED_MODEL_IMAGES[modelId];
+  const resolvedModelId = resolveVehicleImageModelId(modelId);\n  const image = modelColorImages[resolvedModelId]?.[color] || VERIFIED_MODEL_IMAGES[resolvedModelId];
 
   if (image) {
     return (

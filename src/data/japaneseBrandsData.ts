@@ -1021,9 +1021,8 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Перепрессовка подшипника муфты без необходимости покупки редуктора в сборе.'
           }
         ],
-        sourceReferences: [{ label: "Drom — Toyota RAV4 XA30 2.0 MT Стандарт, ACA30 (12.2008–04.2010), Россия", url: "https://www.drom.ru/catalog/toyota/rav4/119984/", scope: "Точная комплектация ACA30: 1AZ-FE 1998 см³, 152 л.с.; 5-ступенчатая МКПП, полный привод; кузов 4415×1815×1685 мм, база 2560 мм, клиренс 190 мм, колея 1560/1560 мм, шины 225/65 R17, багажник 410 л. Не переносить эти значения на 2.4 ACA33/ACA31, вариаторные и другие рынки." }],
-        verificationStatus: 'partially-verified',
-        lastReviewed: '2026-11-06'
+        variants: [{"id":"rav4-xa30-aca30-20mt-2008-2010","modelId":"toyota-rav4-3","market":"Россия (сборка: Япония)","modelYearFrom":2008,"modelYearTo":2010,"productionMonthFrom":"2008-12","productionMonthTo":"2010-04","bodyCode":"ACA30","bodyStyle":"5-дверный SUV","trimOrGrade":"2.0 МТ Стандарт","engineCode":"1AZ-FE","transmissionType":"MT","drivetrain":"4WD","dimensions":{"length":4415,"width":1815,"height":1685,"wheelbase":2560,"groundClearance":190},"trackFrontMm":1560,"trackRearMm":1560,"turningRadiusM":5.5,"curbWeightKg":1570,"fuelTankLiters":60,"luggageVolumeLiters":410,"tireSizes":["225/65 R17"],"rimSize":"6.5J×17","fuelEconomy":{"city":"11,0 л/100 км","highway":"7,2 л/100 км","combined":"8,5 л/100 км","fuelGrade":"АИ-95"},"acceleration0To100Sec":10.6,"maxSpeedKmh":185,"notes":"Двигатель 1998 см³, 152 л.с. при 6000 об/мин, 194 Н·м при 4000 об/мин; 5-ступенчатая МКПП. Багажник 410 л (1752 л при сложенных сиденьях)."}],
+        verificationStatus: 'partially-verified'
       },
       {
         id: 'toyota-camry-40',
@@ -1124,9 +1123,8 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Установка модернизированного усиленного упорного подшипника и регулярная замена масла Toyota WS каждые 40-50 тыс. км с фильтром.'
           }
         ],
-        sourceReferences: [{ label: "Drom — Toyota Camry XV40 2.4 G, DBA-ACV40 (01.2009–08.2011), Япония", url: "https://www.drom.ru/catalog/toyota/camry/119149/", scope: "Точная японская комплектация 2.4 G: 2AZ-FE 2362 см³, 167 л.с.; 5-ступенчатая АКПП, передний привод; кузов 4815×1820×1470 мм, салон 2130×1525×1200 мм, база 2775 мм, колея 1575/1565 мм, радиус разворота 5.5 м, клиренс 150 мм, шины 215/60R16. Не смешивать с ранними ACV40 и североамериканскими версиями." }],
-        verificationStatus: 'partially-verified',
-        lastReviewed: '2026-11-06'
+        variants: [{"id":"camry-xv40-acv40-24g-2009-2011","modelId":"toyota-camry-40","market":"Япония","modelYearFrom":2009,"modelYearTo":2011,"productionMonthFrom":"2009-01","productionMonthTo":"2011-08","bodyCode":"DBA-ACV40","bodyStyle":"Седан","trimOrGrade":"2.4 G","engineCode":"2AZ-FE","transmissionType":"AT","drivetrain":"FWD","dimensions":{"length":4815,"width":1820,"height":1470,"wheelbase":2775,"groundClearance":150},"interiorDimensions":{"lengthMm":2130,"widthMm":1525,"heightMm":1200,"notes":"Размеры салона по каталожной спецификации данной комплектации."},"trackFrontMm":1575,"trackRearMm":1565,"turningRadiusM":5.5,"curbWeightKg":1500,"fuelTankLiters":70,"tireSizes":["215/60 R16"],"fuelEconomy":{"combined":"8,8 л/100 км","fuelGrade":"АИ-92 / АИ-95"},"acceleration0To100Sec":9.3,"notes":"Двигатель 2362 см³, 167 л.с. при 6000 об/мин, 224 Н·м при 4000 об/мин; 5-ступенчатая АКПП. Правый руль."}],
+        verificationStatus: 'partially-verified'
       }
     ]
   },
@@ -1262,9 +1260,8 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Замена подрулевого шлейфа (артикул 25567-EB301 / 25567-5X00A) на новый.'
           }
         ],
-        sourceReferences: [{ label: "Drom — Nissan X-Trail T31 2.0 20X 4WD, DBA-NT31 (08.2007–10.2008), Япония", url: "https://www.drom.ru/catalog/nissan/x-trail/91008/", scope: "Точная японская комплектация NT31: MR20DE 1997 см³, 137 л.с.; CVT, полный привод; кузов 4590×1785×1685 мм, салон 2000×1450×1265 мм, база 2630 мм, колея 1530/1535 мм, клиренс 200 мм, масса 1440 кг, бак 65 л, шины 215/60R17. Не переносить на переднеприводный T31, рестайлинг и российскую сборку." }],
-        verificationStatus: 'partially-verified',
-        lastReviewed: '2026-11-06'
+        variants: [{"id":"xtrail-t31-nt31-20-20x-4wd-2007-2008","modelId":"nissan-xtrail-t31","market":"Япония","modelYearFrom":2007,"modelYearTo":2008,"productionMonthFrom":"2007-08","productionMonthTo":"2008-10","bodyCode":"DBA-NT31","bodyStyle":"5-дверный SUV","trimOrGrade":"2.0 20X 4WD","engineCode":"MR20DE","transmissionType":"CVT","drivetrain":"4WD","dimensions":{"length":4590,"width":1785,"height":1685,"wheelbase":2630,"groundClearance":200},"interiorDimensions":{"lengthMm":2000,"widthMm":1450,"heightMm":1265,"notes":"Размеры салона по каталожной спецификации данной комплектации."},"trackFrontMm":1530,"trackRearMm":1535,"turningRadiusM":5.3,"curbWeightKg":1500,"fuelTankLiters":65,"tireSizes":["215/60 R17"],"fuelEconomy":{"combined":"7,4 л/100 км","fuelGrade":"Regular (АИ-92 / АИ-95)"},"notes":"Двигатель 1997 см³, 137 л.с. при 5200 об/мин, 200 Н·м при 4400 об/мин; вариатор. Правый руль, японская спецификация."}],
+        verificationStatus: 'partially-verified'
       },
       {
         id: 'nissan-patrol-y61',
@@ -1481,9 +1478,8 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Вывод удлиненного шланга сапуна редуктора наверх в подкапотное пространство с установкой фильтра.'
           }
         ],
-        sourceReferences: [{ label: "Drom — Suzuki Grand Vitara JT 2.0 AT Base (09.2005–07.2008), Япония", url: "https://www.drom.ru/catalog/suzuki/grand_vitara/94859/", scope: "Точная версия JT 2.0 AT Base: бензиновый 1995 см³, 140 л.с.; 4-ступенчатая АКПП, полный привод; кузов 4470×1810×1695 мм, база 2640 мм, клиренс 200 мм, колея 1540/1570 мм, масса 1595 кг, шины 225/70 R16, багажник 398 л. Эти параметры относятся к ранней 2.0 AT, а не к рестайлинговой 2.4." }],
-        verificationStatus: 'partially-verified',
-        lastReviewed: '2026-11-06'
+        variants: [{"id":"grand-vitara-jt-j20a-20at-base-2005-2008","modelId":"suzuki-grand-vitara-2","market":"Япония (сборка: Япония)","modelYearFrom":2005,"modelYearTo":2008,"productionMonthFrom":"2005-09","productionMonthTo":"2008-07","bodyCode":"JT","bodyStyle":"5-дверный SUV","trimOrGrade":"2.0 AT Base","engineCode":"J20A","transmissionType":"AT","drivetrain":"4WD","dimensions":{"length":4470,"width":1810,"height":1695,"wheelbase":2640,"groundClearance":200},"trackFrontMm":1540,"trackRearMm":1570,"turningRadiusM":5.5,"curbWeightKg":1595,"fuelTankLiters":66,"luggageVolumeLiters":398,"tireSizes":["225/70 R16","225/65 R17 (опция)"],"rimSize":"16 дюймов (для штатной шины 225/70 R16)","fuelEconomy":{"city":"12,1 л/100 км","highway":"7,9 л/100 км","combined":"9,4 л/100 км","fuelGrade":"АИ-95"},"acceleration0To100Sec":13.6,"maxSpeedKmh":170,"notes":"Двигатель 1995 см³, 140 л.с. при 6000 об/мин, 183 Н·м при 4000 об/мин; 4-ступенчатая АКПП. Багажник 398 л (1386 л при сложенных сиденьях)."}],
+        verificationStatus: 'partially-verified'
       },
       {
         id: 'suzuki-jimny-3',
@@ -1689,9 +1685,8 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Замена прокладок на усиленные многослойные стальные прокладки (MLS) от турбомотора EJ257 со шлифовкой плоскостей блока и ГБЦ.'
           }
         ],
-        sourceReferences: [{ label: "Drom — Subaru Forester SH 2.0XS AT IN (05.2008–09.2010), Япония", url: "https://www.drom.ru/catalog/subaru/forester/212585/", scope: "Точная версия SH 2.0XS AT IN: EJ20 1994 см³, 150 л.с.; 4-ступенчатая АКПП, полный привод; кузов 4560×1780×1700 мм, база 2615 мм, клиренс 215 мм, колея 1530/1530 мм, масса 1495 кг, шины 215/65R16, багажник 450 л. Не переносить на дизель 2.0D, турбо 2.5XT и другие годы/рынки." }],
-        verificationStatus: 'partially-verified',
-        lastReviewed: '2026-11-06'
+        variants: [{"id":"forester-sh-ej204-20xs-at-in-2008-2010","modelId":"subaru-forester-sg-sh","market":"Япония","modelYearFrom":2008,"modelYearTo":2010,"productionMonthFrom":"2008-05","productionMonthTo":"2010-09","bodyCode":"SH","bodyStyle":"5-дверный SUV","trimOrGrade":"2.0XS AT IN","engineCode":"EJ204","transmissionType":"AT","drivetrain":"4WD","dimensions":{"length":4560,"width":1780,"height":1700,"wheelbase":2615,"groundClearance":215},"trackFrontMm":1530,"trackRearMm":1530,"turningRadiusM":5.3,"curbWeightKg":1495,"fuelTankLiters":60,"luggageVolumeLiters":450,"tireSizes":["215/65 R16"],"rimSize":"16×6.5J","fuelEconomy":{"city":"10,8 л/100 км","highway":"6,6 л/100 км","combined":"8,2 л/100 км","fuelGrade":"АИ-95"},"acceleration0To100Sec":12.4,"maxSpeedKmh":185,"notes":"Двигатель 1994 см³, 150 л.с. при 6000 об/мин, 196 Н·м при 3200 об/мин; 4-ступенчатая АКПП. Багажник 450 л (1660 л при сложенных сиденьях)."}],
+        verificationStatus: 'partially-verified'
       }
     ]
   },

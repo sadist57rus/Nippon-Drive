@@ -335,6 +335,66 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: Toyotacoronaexsaloon, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_laurel_hc33_medalist_1_f.jpg',
   },
+  'toyota-mr2-sw20-gt-s-1997': {
+    src: '/assets/vehicles/toyota-mr2-sw20-gt-s.jpg',
+    alt: 'Toyota MR2 GT-S SW20, купе',
+    credit: 'Фото: Toyotacoronaexsaloon, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_mr2_sw20_gt-s_1_r.jpg',
+  },
+  'toyota-starlet-ep91-glanza-v': {
+    src: '/assets/vehicles/toyota-starlet-ep91-glanza-v.jpg',
+    alt: 'Toyota Starlet Glanza V EP91, хэтчбек',
+    credit: 'Фото: Toyotacoronaexsaloon, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_starlet_ep91_glanzav_1_f.jpg',
+  },
+  'toyota-caldina-st215w-gt-t': {
+    src: '/assets/vehicles/toyota-caldina-st215w-gt-t.jpg',
+    alt: 'Toyota Caldina GT-T ST215W, универсал',
+    credit: 'Фото: Calreyn88, Wikimedia Commons, CC BY 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2000_Toyota_Caldina_GT-T.jpg',
+  },
+  'toyota-crown-jzs171-athlete-v': {
+    src: '/assets/vehicles/toyota-crown-jzs171-athlete-v.jpg',
+    alt: 'Toyota Crown Athlete V JZS171, седан',
+    credit: 'Фото: Vauxford, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2002_Toyota_Crown_Athlete_V_2.5_Front.jpg',
+  },
+  'toyota-crown-estate-jzs171w-athlete-v': {
+    src: '/assets/vehicles/toyota-crown-estate-jzs171w-athlete-v.jpg',
+    alt: 'Toyota Crown Estate Athlete V JZS171W, универсал',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_CROWN_ESTATE_ATHLETE_V_(GH-JZS171W)_front.jpg',
+  },
+  'toyota-altezza-sxe10-rs200': {
+    src: '/assets/vehicles/toyota-altezza-sxe10-rs200.jpg',
+    alt: 'Toyota Altezza RS200 SXE10, седан',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_ALTEZZA_RS200_(SXE10)_front.JPG',
+  },
+  'toyota-aristo-jzs161-v300': {
+    src: '/assets/vehicles/toyota-aristo-jzs161-v300.jpg',
+    alt: 'Toyota Aristo V300 JZS161 Vertex Edition, седан',
+    credit: 'Фото: 先従隗始, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_GH-JZS161_Aristo_V300_%E2%80%9CVERTEX_EDITION%E2%80%9D_(No.)_(24042811473).jpg',
+  },
+  'toyota-corolla-levin-ae101-gt-apex': {
+    src: '/assets/vehicles/toyota-corolla-levin-ae101-gt-apex.jpg',
+    alt: 'Toyota Corolla Levin AE101 GT Apex, купе',
+    credit: 'Фото: OSX, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1993-1995_Toyota_Corolla_Levin_(AE101)_GT_Apex_coupe_01.jpg',
+  },
+  'nissan-skyline-gt-r-bnr34-v-spec-ii': {
+    src: '/assets/vehicles/nissan-skyline-bnr34-v-spec-ii.jpg',
+    alt: 'Nissan Skyline GT-R BNR34 V-spec II, купе',
+    credit: 'Фото: 先従隗始, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_GF-BNR34_Skyline_GT-R_V%EF%BD%A5spec_%E2%85%A1_(22091110272).jpg',
+  },
+  'nissan-skyline-gt-r-bnr34-m-spec-nur': {
+    src: '/assets/vehicles/nissan-skyline-bnr34-m-spec-nur.jpg',
+    alt: 'Nissan Skyline GT-R BNR34 M-spec Nür, купе',
+    credit: 'Фото: Tennen-Gas, Wikimedia Commons, GFDL 1.2+ / CC BY-SA 3.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_Skyline_R34_GT-R_N%C3%BCr_001.jpg',
+  },
 };
 
 export default function VehicleIllustration({

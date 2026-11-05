@@ -24,3 +24,23 @@
 | `toyota-land-cruiser-100.jpg` | Toyota Land Cruiser 100 / J100 | https://commons.wikimedia.org/wiki/File:Landcruiser100.JPG | 100yen, CC BY-SA 3.0 / GFDL |
 
 Изображения уменьшаются и перекодируются в JPEG для сокращения размера APK. Это производные версии исходников; указание «уменьшен для приложения» в карточках означает, что файл был изменён. Для материалов под CC BY-SA сохраняются исходные ссылки и сведения о лицензии.
+
+## Подтверждённые источники для следующих моделей
+
+Эти изображения проверены как потенциальные исходники для локальных фотографий. Они **ещё не включены в приложение**: перед добавлением требуется получить оригинальный файл, подготовить офлайн-копию и внести её в реестр карточек.
+
+| Модель / вариант | Файл Wikimedia Commons | Автор | Лицензия | Примечание |
+|---|---|---|---|---|
+| Mitsubishi Lancer X / CY0, седан, 2007 | [Mitsubishi Lancer Sport Sedan (front side quarter).jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg) | Overlaet | CC BY-SA 3.0 (также GFDL) | Выставочный автомобиль на IAA Frankfurt 2007; красный кузов |
+| Mitsubishi Lancer X / CY, седан, 2008 | [Mitsubishi Lancer (2008) – left side view.jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_(2008)_–_left_side_view.jpg) | Acgskup | CC BY 4.0 | Серебристый Lancer 2008; источник существующего локального файла `mitsubishi-lancer-x-silver.jpg` |
+| Mitsubishi Lancer X / CJ MY10, седан, 2009–2010 | [2009-2010 Mitsubishi Lancer (CJ MY10) VR-X sedan 01.jpg](https://commons.wikimedia.org/wiki/File:2009-2010_Mitsubishi_Lancer_(CJ_MY10)_VR-X_sedan_01.jpg) | OSX | Общественное достояние (авторская передача в public domain) | Австралийский CJ MY10; отдельный экспортный вариант, не подменять им ранний CY0 без указания версии |
+| Toyota Land Cruiser Prado J120, 2006 | [Toyota Land-Cruiser Prado.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg) | Dekel Santo | CC BY-SA 3.0 | 2006 Prado 120, 3.0 D-4D; серебристый SUV |
+| Nissan X-Trail T31 | [Nissan X-Trail – right side view.jpg](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_%E2%80%93_right_side_view.jpg) | Acgskup | CC BY 4.0 | Фото 2026 года; чёрный T31, боковой ракурс |
+| Mazda3 BK, hatchback, 2004 | ['04 Mazda3 2.3 Hatchback.JPG](https://commons.wikimedia.org/wiki/File:%2704_Mazda3_2.3_Hatchback.JPG) | Bull-Doser | Общественное достояние (авторская передача в public domain) | Хэтчбек Mazda3 первого поколения; не использовать для карточки седана |
+| Toyota Camry XV30, 2002–2004 | [2002-2004 Toyota Camry.JPG](https://commons.wikimedia.org/wiki/File:2002-2004_Toyota_Camry.JPG) | Bull-Doser | Общественное достояние (авторская передача в public domain) | Camry XV30, подтверждена категорией поколения; фотография 2008 года |
+| Toyota Corolla Axio E140, седан | [Toyota COROLLA Axio 1.8LUXEL (E140) front.JPG](https://commons.wikimedia.org/wiki/File:Toyota_COROLLA_Axio_1.8LUXEL_(E140)_front.JPG) | Tokumeigakarinoaoshima | CC0 1.0 | Японский Axio E140, точный кузов и рынок; передний ракурс |
+| Nissan Qashqai J10 | [Nissan Qashqai (J10) 164122.jpg](https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_164122.jpg) | Trop86 | CC BY 4.0 | Белый Qashqai J10, зимний снимок 2026 года |
+| Nissan Note E11 | [NISSAN NOTE.jpg](https://commons.wikimedia.org/wiki/File:NISSAN_NOTE.jpg) | TTTNIS | Общественное достояние (авторская передача в public domain) | Файл из категории Nissan Note; год съёмки 2008, перед включением проверить кузов по оригиналу |
+| Honda Jazz GD, hatchback | [2002-2004 Honda Jazz (GD) hatchback 01.jpg](https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_01.jpg) | OSX | Общественное достояние (авторская передача в public domain) | Honda Jazz первого поколения; европейское имя Fit, хэтчбек 2002–2004 |
+
+При подготовке локальной копии сохранять автора, исходную страницу, лицензию и факт изменения размера/перекодирования. Не создавать цветовые варианты программной тонировкой.

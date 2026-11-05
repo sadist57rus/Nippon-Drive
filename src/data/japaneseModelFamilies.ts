@@ -7396,6 +7396,854 @@ const importedCatalogModels: JapaneseModelFamily[] = [
     "source": "Drom",
     "recordStatus": "model-family-seeded-generation-import-pending",
     "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "lexus-drom-ct200h",
+    "make": "Lexus",
+    "model": "CT200h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es200",
+    "make": "Lexus",
+    "model": "ES200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es250",
+    "make": "Lexus",
+    "model": "ES250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es260",
+    "make": "Lexus",
+    "model": "ES260",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es300",
+    "make": "Lexus",
+    "model": "ES300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es300h",
+    "make": "Lexus",
+    "model": "ES300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es330",
+    "make": "Lexus",
+    "model": "ES330",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es350",
+    "make": "Lexus",
+    "model": "ES350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es350e",
+    "make": "Lexus",
+    "model": "ES350e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es350h",
+    "make": "Lexus",
+    "model": "ES350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es500e",
+    "make": "Lexus",
+    "model": "ES500e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gsf",
+    "make": "Lexus",
+    "model": "GS F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs200t",
+    "make": "Lexus",
+    "model": "GS200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs250",
+    "make": "Lexus",
+    "model": "GS250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs300",
+    "make": "Lexus",
+    "model": "GS300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs300h",
+    "make": "Lexus",
+    "model": "GS300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs350",
+    "make": "Lexus",
+    "model": "GS350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs400",
+    "make": "Lexus",
+    "model": "GS400",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs430",
+    "make": "Lexus",
+    "model": "GS430",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs450h",
+    "make": "Lexus",
+    "model": "GS450h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs460",
+    "make": "Lexus",
+    "model": "GS460",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx460",
+    "make": "Lexus",
+    "model": "GX460",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx470",
+    "make": "Lexus",
+    "model": "GX470",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx550",
+    "make": "Lexus",
+    "model": "GX550",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx550h",
+    "make": "Lexus",
+    "model": "GX550h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-hs250h",
+    "make": "Lexus",
+    "model": "HS250h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-isf",
+    "make": "Lexus",
+    "model": "IS F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is200",
+    "make": "Lexus",
+    "model": "IS200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is200d",
+    "make": "Lexus",
+    "model": "IS200d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is200t",
+    "make": "Lexus",
+    "model": "IS200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is220d",
+    "make": "Lexus",
+    "model": "IS220d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is250",
+    "make": "Lexus",
+    "model": "IS250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is250c",
+    "make": "Lexus",
+    "model": "IS250C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is300",
+    "make": "Lexus",
+    "model": "IS300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is300c",
+    "make": "Lexus",
+    "model": "IS300C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is300h",
+    "make": "Lexus",
+    "model": "IS300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is350",
+    "make": "Lexus",
+    "model": "IS350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is350c",
+    "make": "Lexus",
+    "model": "IS350C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is500",
+    "make": "Lexus",
+    "model": "IS500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lbx",
+    "make": "Lexus",
+    "model": "LBX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lc500",
+    "make": "Lexus",
+    "model": "LC500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lc500h",
+    "make": "Lexus",
+    "model": "LC500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lfa",
+    "make": "Lexus",
+    "model": "LFA",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm300h",
+    "make": "Lexus",
+    "model": "LM300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm350",
+    "make": "Lexus",
+    "model": "LM350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm350h",
+    "make": "Lexus",
+    "model": "LM350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm500h",
+    "make": "Lexus",
+    "model": "LM500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls350",
+    "make": "Lexus",
+    "model": "LS350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls400",
+    "make": "Lexus",
+    "model": "LS400",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls430",
+    "make": "Lexus",
+    "model": "LS430",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls460",
+    "make": "Lexus",
+    "model": "LS460",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls460l",
+    "make": "Lexus",
+    "model": "LS460L",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls500",
+    "make": "Lexus",
+    "model": "LS500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls500h",
+    "make": "Lexus",
+    "model": "LS500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls600h",
+    "make": "Lexus",
+    "model": "LS600h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls600hl",
+    "make": "Lexus",
+    "model": "LS600hL",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx450",
+    "make": "Lexus",
+    "model": "LX450",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx450d",
+    "make": "Lexus",
+    "model": "LX450d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx470",
+    "make": "Lexus",
+    "model": "LX470",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx500d",
+    "make": "Lexus",
+    "model": "LX500d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx570",
+    "make": "Lexus",
+    "model": "LX570",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx600",
+    "make": "Lexus",
+    "model": "LX600",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx700h",
+    "make": "Lexus",
+    "model": "LX700h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx200",
+    "make": "Lexus",
+    "model": "NX200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx200t",
+    "make": "Lexus",
+    "model": "NX200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx250",
+    "make": "Lexus",
+    "model": "NX250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx260",
+    "make": "Lexus",
+    "model": "NX260",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx300",
+    "make": "Lexus",
+    "model": "NX300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx300h",
+    "make": "Lexus",
+    "model": "NX300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx350",
+    "make": "Lexus",
+    "model": "NX350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx350h",
+    "make": "Lexus",
+    "model": "NX350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx400h",
+    "make": "Lexus",
+    "model": "NX400h+",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx450h",
+    "make": "Lexus",
+    "model": "NX450h+",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rcf",
+    "make": "Lexus",
+    "model": "RC F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc200t",
+    "make": "Lexus",
+    "model": "RC200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc300",
+    "make": "Lexus",
+    "model": "RC300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc300h",
+    "make": "Lexus",
+    "model": "RC300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc350",
+    "make": "Lexus",
+    "model": "RC350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx200t",
+    "make": "Lexus",
+    "model": "RX200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx270",
+    "make": "Lexus",
+    "model": "RX270",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx300",
+    "make": "Lexus",
+    "model": "RX300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx330",
+    "make": "Lexus",
+    "model": "RX330",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx350",
+    "make": "Lexus",
+    "model": "RX350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx350h",
+    "make": "Lexus",
+    "model": "RX350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx350l",
+    "make": "Lexus",
+    "model": "RX350L",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx400h",
+    "make": "Lexus",
+    "model": "RX400h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx450h",
+    "make": "Lexus",
+    "model": "RX450h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx450hl",
+    "make": "Lexus",
+    "model": "RX450hL",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx500h",
+    "make": "Lexus",
+    "model": "RX500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz300e",
+    "make": "Lexus",
+    "model": "RZ300e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz350e",
+    "make": "Lexus",
+    "model": "RZ350e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz450e",
+    "make": "Lexus",
+    "model": "RZ450e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz500e",
+    "make": "Lexus",
+    "model": "RZ500e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz550e",
+    "make": "Lexus",
+    "model": "RZ550e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz600e",
+    "make": "Lexus",
+    "model": "RZ600e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-sc300",
+    "make": "Lexus",
+    "model": "SC300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-sc400",
+    "make": "Lexus",
+    "model": "SC400",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-sc430",
+    "make": "Lexus",
+    "model": "SC430",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-tx350",
+    "make": "Lexus",
+    "model": "TX350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-tx500h",
+    "make": "Lexus",
+    "model": "TX500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-tx550h",
+    "make": "Lexus",
+    "model": "TX550h+",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux200",
+    "make": "Lexus",
+    "model": "UX200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux250h",
+    "make": "Lexus",
+    "model": "UX250h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux260h",
+    "make": "Lexus",
+    "model": "UX260h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux300e",
+    "make": "Lexus",
+    "model": "UX300e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux300h",
+    "make": "Lexus",
+    "model": "UX300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
   }
 ];
 const familyKeys = new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make + '|' + item.model.toLocaleLowerCase('en').replace(/[^a-z0-9]/g, '')));

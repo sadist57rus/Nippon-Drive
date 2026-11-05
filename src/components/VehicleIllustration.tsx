@@ -287,10 +287,6 @@ export default function VehicleIllustration({
   // Images are selected by exact catalog ID, body style, and a verified color photo.
   const colorImage = (src: string, alt: string, credit: string, sourceUrl: string) => ({src,alt,credit,sourceUrl});
   const modelColorImages: Record<string, Record<string, {src:string;alt:string;credit:string;sourceUrl:string}>> = {
-    'mitsubishi-lancer-x-cy-sedan': {
-      black: colorImage('/assets/vehicles/mitsubishi-lancer-x-black.jpg','Чёрный Mitsubishi Lancer X / CY, седан','Фото: JustAnotherCarDesigner, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg'),
-      red: colorImage('/assets/vehicles/mitsubishi-lancer-x-sport-sedan.jpg','Красный Mitsubishi Lancer X / CY0, седан, 2007 год','Фото: Overlaet, Wikimedia Commons, CC BY-SA 3.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg'),
-    },
     'toyota-prado-j120-suv': {
       black: colorImage('/assets/vehicles/toyota-prado-j120-black.jpg','Чёрный Toyota Land Cruiser Prado J120 KZJ120 3.0 VX','Фото: Ethan Llamas, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_Raven_Black_01.jpg'),
       white: colorImage('/assets/vehicles/toyota-prado-j120-white.jpg','Белый Toyota Land Cruiser Prado J120 KZJ120 3.0 VX','Фото: Ethan Llamas, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_White_Pearl_Crystal_Shine_01.jpg'),
@@ -324,6 +320,7 @@ export default function VehicleIllustration({
       black: colorImage('/assets/vehicles/mitsubishi-outlander-2-black.jpg','Чёрный Mitsubishi Outlander II / CW','Фото: Lukas 3z, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Black_Mitsubishi_Outlander_in_Kraków_(1).jpg'),
     },
     'mitsubishi-lancer-x-cy-sedan': {
+      black: colorImage('/assets/vehicles/mitsubishi-lancer-x-black.jpg','Чёрный Mitsubishi Lancer X / CY, седан','Фото: JustAnotherCarDesigner, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg'),
       red: colorImage('/assets/vehicles/mitsubishi-lancer-x-sport-sedan.jpg','Красный Mitsubishi Lancer X / CY0, седан, 2007 год','Фото: Overlaet, Wikimedia Commons, CC BY-SA 3.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg'),
     },
     'lancer-9': bodyType === 'Универсал' ? {

@@ -3,7 +3,7 @@
  * Fields are optional to support gradual migration of legacy records.
  * Validation checks only supplied values; it never infers or upgrades verification.
  */
-import type { CarDimensions, TireOption, WiperBladeSize } from './types/carDimensions';
+import type { CarDimensions, InteriorDimensions, TireOption, WheelRimFitment, WiperBladeSize } from './types/carDimensions';
 
 export type VerificationStatus = 'unverified' | 'partially-verified' | 'verified';
 
@@ -34,6 +34,8 @@ export interface VehicleVariant {
   drivetrain?: 'FWD' | 'RWD' | 'AWD' | '4WD' | 'other';
   steeringPosition?: 'LHD' | 'RHD' | 'both' | 'unknown';
   dimensions?: CarDimensions;
+  interiorDimensions?: InteriorDimensions | null;
+  wheelFitments?: WheelRimFitment[];
   tires?: TireOption[];
   wiperBladeSize?: WiperBladeSize[];
   specification?: {

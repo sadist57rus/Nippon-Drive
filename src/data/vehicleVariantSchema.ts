@@ -80,6 +80,24 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
       if (!Number.isFinite(value) || value <= 0) errors.push(`dimensions.${key} must be a positive number`);
     }
   }
+  if (variant.interiorDimensions) {
+    for (const [key, value] of Object.entries(variant.interiorDimensions)) {
+      if (value !== undefined && value !== null && (!Number.isFinite(value) || value <= 0)) {
+        errors.push(`interiorDimensions.${key} must be null or a positive number`);
+      }
+    }
+  }
+  for (const wheel of variant.wheelFitments ?? []) {
+    if (!wheel.tireSize.trim() || !wheel.rimSize.trim() || !wheel.applicability.trim() || !wheel.notes.trim()) {
+      errors.push('wheelFitment is missing tire/rim size, applicability, or notes');
+    }
+    if (wheel.centerBoreMm !== undefined && wheel.centerBoreMm !== null && (!Number.isFinite(wheel.centerBoreMm) || wheel.centerBoreMm <= 0)) {
+      errors.push('wheelFitment.centerBoreMm must be null or positive');
+    }
+    if (wheel.offsetEtMm !== undefined && wheel.offsetEtMm !== null && !Number.isFinite(wheel.offsetEtMm)) {
+      errors.push('wheelFitment.offsetEtMm must be finite when supplied');
+    }
+  }
   for (const tire of variant.tires ?? []) {
     if (!tire.size.trim()) errors.push('tire size must not be empty');
     for (const key of ['diameter', 'width', 'aspectRatio', 'rimDiameter'] as const) {

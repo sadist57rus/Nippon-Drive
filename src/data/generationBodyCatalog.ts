@@ -31,6 +31,11 @@ export interface GenerationBodyRecord {
     fuelTankLiters?: number;
     luggageVolumeLiters?: string;
   };
+  interiorDimensions?: {
+    lengthMm?: number;
+    widthMm?: number;
+    heightMm?: number;
+  };
   dimensionVariants?: Array<{
     label: string;
     bodyStyle?: string;

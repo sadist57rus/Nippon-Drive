@@ -30,7 +30,8 @@ function resolveVehicleImageModelId(modelId?: string): string {
 }
 
 export function hasVerifiedVehicleImage(modelId?: string): boolean {
-  const resolvedModelId = resolveVehicleImageModelId(modelId);\n  return Boolean(VERIFIED_MODEL_IMAGES[resolvedModelId] || resolvedModelId === 'lancer-9');
+  const resolvedModelId = resolveVehicleImageModelId(modelId);
+  return Boolean(VERIFIED_MODEL_IMAGES[resolvedModelId] || resolvedModelId === 'lancer-9');
 }
 
 export type VehicleColorId = typeof VEHICLE_COLORS[number]['id'];
@@ -45,7 +46,8 @@ export interface VehicleColorPhotoOption {
 
 /** Color options are restricted to models/colors with a real matching photo. */
 export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): VehicleColorPhotoOption[] {
-  const resolvedModelId = resolveVehicleImageModelId(modelId);\n  const options: Record<string, Array<{id: string; label: string; src: string}>> = {
+  const resolvedModelId = resolveVehicleImageModelId(modelId);
+  const options: Record<string, Array<{id: string; label: string; src: string}>> = {
     'toyota-rav4-3': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/toyota-rav4-xa30-silver.jpg' },
       { id: 'blue', label: 'Синий', src: '/assets/vehicles/toyota-rav4-xa30.jpg' },
@@ -166,7 +168,8 @@ export default function VehicleIllustration({
       yellow: colorImage('/assets/vehicles/mitsubishi-lancer-9-sedan-yellow.jpg','Жёлтый Mitsubishi Lancer IX седан CH MY07','Фото: OSX, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:2006-2007_Mitsubishi_Lancer_(CH_MY07)_ES_sedan_01.jpg'),
     },
   };
-  const resolvedModelId = resolveVehicleImageModelId(modelId);\n  const image = modelColorImages[resolvedModelId]?.[color] || VERIFIED_MODEL_IMAGES[resolvedModelId];
+  const resolvedModelId = resolveVehicleImageModelId(modelId);
+  const image = modelColorImages[resolvedModelId]?.[color] || VERIFIED_MODEL_IMAGES[resolvedModelId];
 
   if (image) {
     return (

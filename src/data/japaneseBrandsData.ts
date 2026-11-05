@@ -1020,6 +1020,67 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
         ]
       },
       {
+        id: 'toyota-rav4-63',
+        brandId: 'toyota',
+        name: 'RAV4 (XA40)',
+        generation: 'IV поколение (2012–2019)',
+        years: '2012–2019',
+        bodyType: 'Кроссовер',
+        drivetrain: 'Передний или подключаемый полный привод; конкретная схема зависит от кузовного кода и комплектации.',
+        awdSystemName: 'Dynamic Torque Control AWD — для соответствующих 4WD исполнений',
+        overview: 'Отдельная карточка четвертого поколения RAV4. Двигатели, кузовные коды, КПП и привод ведутся раздельно по точным комплектациям и рынкам.',
+        dimensions: {
+          lengthMm: null,
+          widthMm: null,
+          heightMm: null,
+          wheelbaseMm: null,
+          groundClearanceMm: null,
+          trunkVolumeLiters: 'Зависит от рынка и версии; требуется подтверждение',
+          fuelTankLiters: null,
+          curbWeightKg: 'Зависит от двигателя, привода и комплектации'
+        },
+        engines: [],
+        transmissions: [],
+        fuelEconomy: {
+          city: 'Нет подтверждённых единых данных',
+          highway: 'Нет подтверждённых единых данных',
+          combined: 'Нет подтверждённых единых данных',
+          fuelGrade: 'Зависит от двигателя и рынка'
+        },
+        fluidsAndCapacities: {
+          engineOil: 'Требуется точное руководство по двигателю и рынку',
+          engineOilVolume: 'Нет подтверждённых единых данных',
+          transmissionFluid: 'Зависит от типа трансмиссии; не унифицировать',
+          transferCaseAndDiff: 'Требуется подтверждение по конкретному исполнению AWD',
+          coolant: 'Нет подтверждённых единых данных',
+          brakeFluid: 'Требуется сверка с руководством'
+        },
+        bulbsSummary: {
+          lowBeam: 'Зависит от рынка и комплектации',
+          highBeam: 'Зависит от рынка и комплектации',
+          fogLights: 'Зависит от комплектации',
+          frontTurn: 'Зависит от комплектации',
+          tailStop: 'Зависит от комплектации',
+          interior: 'Зависит от комплектации'
+        },
+        obdDiagnostics: {
+          portLocation: 'Требуется сверка по рынку',
+          commonCodes: [],
+          protocol: 'Требуется сверка по двигателю и рынку'
+        },
+        knownIssues: [],
+        verificationStatus: 'unverified',
+        dataQualityNote: 'Карточка поколения отделена от RAV4 XA30. Точные характеристики добавляются только на уровне подтверждённой комплектации.',
+        sourceReferences: [
+          {
+            label: 'Drom — Toyota RAV4 XA40, комплектации и технические характеристики',
+            url: 'https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/',
+            scope: 'Идентификация поколения XA40 и перечисление российских комплектаций; отдельные параметры подтверждаются на уровне модификаций.'
+          }
+        ],
+        lastReviewed: '2026-11-06'
+      },
+      {
         id: 'toyota-camry-40',
         brandId: 'toyota',
         name: 'Camry (XV40)',

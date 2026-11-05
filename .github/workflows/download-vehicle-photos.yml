@@ -31,7 +31,7 @@ jobs:
           from urllib.parse import quote
           from urllib.request import Request, urlopen
           from PIL import Image
-          import io, json
+          import io, json, time
 
           photos = [
           {
@@ -42,60 +42,11 @@ jobs:
             "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
           },
           {
-            "filename": "Mazda 3 BK.jpg",
-            "target": "mazda3-bk-sedan.jpg",
-            "author": "Krzysztof Masloch",
-            "license": "CC BY-SA 3.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg",
-          },
-          {
-            "filename": "2005 Nissan Note 01.jpg",
-            "target": "nissan-note-e11.jpg",
-            "author": "Mytho88",
-            "license": "CC BY-SA 3.0 / GFDL 1.2+",
-            "source": "https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg",
-          },
-          {
             "filename": "Toyota camry acv30 2.4g 1 f.jpg",
             "target": "toyota-camry-xv30.jpg",
             "author": "Toyotacoronaexsaloon",
             "license": "CC BY-SA 4.0",
             "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
-          },
-          {
-            "filename": "NISSAN SERENA C25.jpg",
-            "target": "nissan-serena-c25.jpg",
-            "author": "TTTNIS",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg",
-          },
-          {
-            "filename": "Nissan Tiida (C11) hatchback.png",
-            "target": "nissan-tiida-c11-hatchback.jpg",
-            "author": "SSJF01",
-            "license": "CC0 1.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png",
-          },
-          {
-            "filename": "TOYOTA PRIUS (XW30) China.jpg",
-            "target": "toyota-prius-xw30.jpg",
-            "author": "Dinkun Chen",
-            "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg",
-          },
-          {
-            "filename": "Toyota H-200 HiAce.jpg",
-            "target": "toyota-hiace-h200.jpg",
-            "author": "Bull-Doser",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg",
-          },
-          {
-            "filename": "2012 Mazda CX-5 (KE) Grand Touring wagon (2012-10-26) 01.jpg",
-            "target": "mazda-cx5-ke.jpg",
-            "author": "OSX",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg",
           },
           {
             "filename": "White Toyota Vitz (XP90).jpg",
@@ -110,10 +61,18 @@ jobs:
           destination.mkdir(parents=True, exist_ok=True)
 
           def fetch_one(item):
-              url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + quote(item["filename"], safe="") + "?width=1600"
-              request = Request(url, headers={"User-Agent": "Nippon-Drive vehicle-photo catalog/1.0 (offline app asset import)"})
-              with urlopen(request, timeout=60) as response:
-                  payload = response.read()
+              url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + quote(item["filename"], safe="") + "?width=1200"
+              payload = None
+              for attempt in range(5):
+                  try:
+                      request = Request(url, headers={"User-Agent": "Nippon-Drive vehicle-photo catalog/1.0 (offline app asset import)"})
+                      with urlopen(request, timeout=60) as response:
+                          payload = response.read()
+                      break
+                  except Exception:
+                      if attempt == 4:
+                          raise
+                      time.sleep(8 * (attempt + 1))
               if len(payload) < 12000:
                   raise RuntimeError(f"{item['filename']}: response too small ({len(payload)} bytes)")
               image = Image.open(io.BytesIO(payload))
@@ -128,7 +87,7 @@ jobs:
               return item["target"], item["width"], item["height"], item["bytes"]
 
           errors = []
-          with ThreadPoolExecutor(max_workers=8) as pool:
+          with ThreadPoolExecutor(max_workers=2) as pool:
               futures = {pool.submit(fetch_one, item): item for item in photos}
               for future in as_completed(futures):
                   item = futures[future]
@@ -141,7 +100,7 @@ jobs:
                       errors.append(str(exc))
                       print("DOWNLOAD_ERROR", item["filename"], repr(exc))
 
-          (destination / "sources-batch-02.json").write_text(
+          (destination / "sources-batch-03.json").write_text(
               json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )
@@ -155,5 +114,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/assets/vehicles/
-          git commit -m "assets: добавить реальные фото автомобилей — пакет 2"
+          git commit -m "assets: повторить загрузку трёх фото после ограничения Commons"
           git push origin HEAD:assets/vehicle-photo-fetch

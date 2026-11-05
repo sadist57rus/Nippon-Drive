@@ -156,6 +156,7 @@ for (const generation of GENERATION_BODY_CATALOG) {
   generationIds.add(generation.id);
   if (!Array.isArray(generation.chassisCodes) || !Array.isArray(generation.bodyStyles)) errors.push(`Invalid generation arrays: ${generation.id}`);
   if (generation.source && generation.source !== 'Drom' && generation.source !== 'Auto.ru') errors.push(`Invalid generation source: ${generation.id}`);
+  if (!familyIds.has(generation.modelFamilyId ?? generation.sourceModelId)) errors.push(`Generation references unknown model family: ${generation.id}`);
   for (const variant of generation.dimensionVariants ?? []) {
     check(Boolean(variant.label.trim()), `Dimension variant missing label: ${generation.id}`);
     for (const field of ['lengthMm', 'widthMm', 'heightMm', 'wheelbaseMm'] as const) {

@@ -1045,7 +1045,8 @@
       "interiorDimensions": {
         "lengthMm": 2000,
         "widthMm": 1520,
-        "heightMm": 1290
+        "heightMm": 1290,
+        "notes": "Размеры салона приведены в карточке Drom для указанной модификации; не переносить на другие кузова и комплектации."
       },
       "wheelFitments": [],
       "tires": [],
@@ -1113,7 +1114,8 @@
       "interiorDimensions": {
         "lengthMm": 2000,
         "widthMm": 1520,
-        "heightMm": 1290
+        "heightMm": 1290,
+        "notes": "Размеры салона приведены в карточке Drom для указанной модификации; не переносить на другие кузова и комплектации."
       },
       "wheelFitments": [],
       "tires": [],
@@ -1179,7 +1181,8 @@
       "interiorDimensions": {
         "lengthMm": 2180,
         "widthMm": 1560,
-        "heightMm": 1220
+        "heightMm": 1220,
+        "notes": "Размеры салона приведены в карточке Drom для указанной модификации; не переносить на другие кузова и комплектации."
       },
       "wheelFitments": [],
       "tires": [],

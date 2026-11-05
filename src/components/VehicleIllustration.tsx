@@ -21,6 +21,8 @@ export const VEHICLE_COLORS = [
 const MODEL_IMAGE_ALIASES: Record<string, string> = {
   'toyota-camry-xv40': 'toyota-camry-40',
   'toyota-rav4-xa30-crossover': 'toyota-rav4-3',
+  'mitsubishi-lancer-cs-sedan': 'lancer-9',
+  'mitsubishi-lancer-cs-wagon': 'lancer-9',
 };
 
 function resolveVehicleImageModelId(modelId?: string): string {
@@ -28,7 +30,7 @@ function resolveVehicleImageModelId(modelId?: string): string {
 }
 
 export function hasVerifiedVehicleImage(modelId?: string): boolean {
-  return Boolean(VERIFIED_MODEL_IMAGES[resolveVehicleImageModelId(modelId)]);
+  const resolvedModelId = resolveVehicleImageModelId(modelId);\n  return Boolean(VERIFIED_MODEL_IMAGES[resolvedModelId] || resolvedModelId === 'lancer-9');
 }
 
 export type VehicleColorId = typeof VEHICLE_COLORS[number]['id'];

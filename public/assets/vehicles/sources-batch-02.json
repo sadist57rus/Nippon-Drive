@@ -1,0 +1,112 @@
+[
+  {
+    "filename": "toyota-corolla-e120.jpg",
+    "target": "toyota-corolla-e120.jpg",
+    "author": "Kuha455405",
+    "license": "CC BY-SA 3.0 / GFDL 1.2+",
+    "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
+    "width": 1280,
+    "height": 719,
+    "bytes": 195587,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "mazda3-bk-sedan.jpg",
+    "target": "mazda3-bk-sedan.jpg",
+    "author": "Krzysztof Masloch",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg",
+    "width": 1920,
+    "height": 1440,
+    "bytes": 715115,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "nissan-note-e11.jpg",
+    "target": "nissan-note-e11-hatchback.jpg",
+    "author": "Mytho88",
+    "license": "CC BY-SA 3.0 / GFDL 1.2+",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg",
+    "width": 1350,
+    "height": 700,
+    "bytes": 197629,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "toyota-camry-xv30.jpg",
+    "target": "toyota-camry-xv30.jpg",
+    "author": "Toyotacoronaexsaloon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 228293,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "nissan-serena-c25.jpg",
+    "target": "nissan-serena-c25.jpg",
+    "author": "TTTNIS",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg",
+    "width": 1920,
+    "height": 974,
+    "bytes": 370746,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "nissan-tiida-c11-hatchback.jpg",
+    "target": "nissan-tiida-c11-hatchback.jpg",
+    "author": "SSJF01",
+    "license": "CC0 1.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png",
+    "width": 1920,
+    "height": 969,
+    "bytes": 313180,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "toyota-prius-xw30.jpg",
+    "target": "toyota-prius-xw30-liftback.jpg",
+    "author": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg",
+    "width": 1920,
+    "height": 1192,
+    "bytes": 435298,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "toyota-hiace-h200.jpg",
+    "target": "toyota-hiace-h200.jpg",
+    "author": "Bull-Doser",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg",
+    "width": 731,
+    "height": 458,
+    "bytes": 66129,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "mazda-cx5-ke.jpg",
+    "target": "mazda-cx5-ke-crossover.jpg",
+    "author": "OSX",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg",
+    "width": 1920,
+    "height": 1440,
+    "bytes": 547258,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "toyota-vitz-xp90.jpg",
+    "target": "toyota-yaris-xp90-hatchback.jpg",
+    "author": "arakaki (uploaded by Hanloh)",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 190889,
+    "downloadStatus": "downloaded"
+  }
+]

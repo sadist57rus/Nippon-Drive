@@ -192,6 +192,66 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: 100yen, Wikimedia Commons, CC BY-SA 3.0 / GFDL; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Landcruiser100.JPG',
   },
+  'toyota-corolla-e120': {
+    src: '/assets/vehicles/toyota-corolla-e120.jpg',
+    alt: 'Белая Toyota Corolla E120/E130, седан',
+    credit: 'Фото: Kuha455405, Wikimedia Commons, CC BY-SA 3.0 / GFDL 1.2+; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg',
+  },
+  'mazda3-bk-sedan': {
+    src: '/assets/vehicles/mazda3-bk-sedan.jpg',
+    alt: 'Mazda3 BK, седан',
+    credit: 'Фото: Krzysztof Masloch, Wikimedia Commons, CC BY-SA 3.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg',
+  },
+  'nissan-note-e11-hatchback': {
+    src: '/assets/vehicles/nissan-note-e11.jpg',
+    alt: 'Nissan Note E11, хэтчбек',
+    credit: 'Фото: Mytho88, Wikimedia Commons, CC BY-SA 3.0 / GFDL 1.2+; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg',
+  },
+  'toyota-camry-xv30': {
+    src: '/assets/vehicles/toyota-camry-xv30.jpg',
+    alt: 'Toyota Camry XV30, японская ACV30 2.4G',
+    credit: 'Фото: Toyotacoronaexsaloon, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg',
+  },
+  'nissan-serena-c25': {
+    src: '/assets/vehicles/nissan-serena-c25.jpg',
+    alt: 'Nissan Serena C25, минивэн',
+    credit: 'Фото: TTTNIS, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg',
+  },
+  'nissan-tiida-c11-hatchback': {
+    src: '/assets/vehicles/nissan-tiida-c11-hatchback.jpg',
+    alt: 'Серая Nissan Tiida C11, хэтчбек',
+    credit: 'Фото: SSJF01, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png',
+  },
+  'toyota-prius-xw30-liftback': {
+    src: '/assets/vehicles/toyota-prius-xw30.jpg',
+    alt: 'Серебристая Toyota Prius XW30, лифтбек',
+    credit: 'Фото: Dinkun Chen, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg',
+  },
+  'toyota-hiace-h200': {
+    src: '/assets/vehicles/toyota-hiace-h200.jpg',
+    alt: 'Белый Toyota HiAce H200',
+    credit: 'Фото: Bull-Doser, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg',
+  },
+  'mazda-cx5-ke-crossover': {
+    src: '/assets/vehicles/mazda-cx5-ke.jpg',
+    alt: 'Синяя Mazda CX-5 KE, Grand Touring',
+    credit: 'Фото: OSX, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg',
+  },
+  'toyota-yaris-xp90-hatchback': {
+    src: '/assets/vehicles/toyota-vitz-xp90.jpg',
+    alt: 'Белая Toyota Vitz / Yaris XP90, хэтчбек',
+    credit: 'Фото: arakaki (uploaded by Hanloh), Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg',
+  },
 };
 
 export default function VehicleIllustration({

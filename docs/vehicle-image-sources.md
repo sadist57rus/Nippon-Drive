@@ -107,3 +107,21 @@
 | `honda-jazz-gd.jpg` | Honda Jazz / Fit GD, хэтчбек, 2002–2004 | OSX | Public domain (author release) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_01.jpg) |
 
 Локальные копии оптимизированы до 1920 px по ширине. Цветовые переключатели включены только для реально существующих снимков; CSS-перекраска не используется. Фотографии Corolla Axio и Lancer CJ MY10 сохранены в каталоге файлов, но не назначены карточкам до точного подтверждения ID/варианта.
+
+
+## Локальные фотографии — пакет 2
+
+| Целевой ID каталога | Файл Commons | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `toyota-corolla-e120` | [toyota-corolla-e120](https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg) | Белая Toyota Corolla E120/E130, седан | Kuha455405 | CC BY-SA 3.0 / GFDL 1.2+ | локальный файл подключён к карточке |
+| `mazda3-bk-sedan` | [mazda3-bk-sedan](https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg) | Mazda3 BK, седан | Krzysztof Masloch | CC BY-SA 3.0 | локальный файл подключён к карточке |
+| `nissan-note-e11-hatchback` | [nissan-note-e11](https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg) | Nissan Note E11, хэтчбек | Mytho88 | CC BY-SA 3.0 / GFDL 1.2+ | локальный файл подключён к карточке |
+| `toyota-camry-xv30` | [toyota-camry-xv30](https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg) | Toyota Camry XV30, японская ACV30 2.4G | Toyotacoronaexsaloon | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `nissan-serena-c25` | [nissan-serena-c25](https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg) | Nissan Serena C25, минивэн | TTTNIS | Public domain (author release) | локальный файл подключён к карточке |
+| `nissan-tiida-c11-hatchback` | [nissan-tiida-c11-hatchback](https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png) | Серая Nissan Tiida C11, хэтчбек | SSJF01 | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-prius-xw30-liftback` | [toyota-prius-xw30](https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg) | Серебристая Toyota Prius XW30, лифтбек | Dinkun Chen | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-hiace-h200` | [toyota-hiace-h200](https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg) | Белый Toyota HiAce H200 | Bull-Doser | Public domain (author release) | локальный файл подключён к карточке |
+| `mazda-cx5-ke-crossover` | [mazda-cx5-ke](https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg) | Синяя Mazda CX-5 KE, Grand Touring | OSX | Public domain (author release) | локальный файл подключён к карточке |
+| `toyota-yaris-xp90-hatchback` | [toyota-vitz-xp90](https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg) | Белая Toyota Vitz / Yaris XP90, хэтчбек | arakaki (uploaded by Hanloh) | Public domain (author release) | локальный файл подключён к карточке |
+
+Все десять изображений скачаны с Wikimedia Commons, проверены как изображения и оптимизированы для офлайн-каталога. Фото добавлены в `public/assets/vehicles/` и подключены к точным ID карточек. Цветовые переключатели не добавлялись там, где для модели есть только один проверенный снимок.

@@ -3,7 +3,7 @@
  * Fields are optional to support gradual migration of legacy records.
  * Validation checks only supplied values; it never infers or upgrades verification.
  */
-import type { CarDimensions, TireOption, WiperBladeSize } from './types/carDimensions';
+import type { CarDimensions, InteriorDimensions, TireOption, WheelRimFitment, WiperBladeSize } from './types/carDimensions';
 
 export type VerificationStatus = 'unverified' | 'partially-verified' | 'verified';
 
@@ -34,6 +34,8 @@ export interface VehicleVariant {
   drivetrain?: 'FWD' | 'RWD' | 'AWD' | '4WD' | 'other';
   steeringPosition?: 'LHD' | 'RHD' | 'both' | 'unknown';
   dimensions?: CarDimensions;
+  interiorDimensions?: InteriorDimensions | null;
+  wheelFitments?: WheelRimFitment[];
   tires?: TireOption[];
   wiperBladeSize?: WiperBladeSize[];
   specification?: {
@@ -76,6 +78,25 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
   if (variant.dimensions) {
     for (const [key, value] of Object.entries(variant.dimensions)) {
       if (!Number.isFinite(value) || value <= 0) errors.push(`dimensions.${key} must be a positive number`);
+    }
+  }
+  if (variant.interiorDimensions) {
+    for (const key of ['lengthMm', 'widthMm', 'heightMm', 'luggageVolumeLiters'] as const) {
+      const value = variant.interiorDimensions[key];
+      if (value !== undefined && value !== null && (!Number.isFinite(value) || value <= 0)) {
+        errors.push(`interiorDimensions.${key} must be null or a positive number`);
+      }
+    }
+  }
+  for (const wheel of variant.wheelFitments ?? []) {
+    if (!wheel.tireSize.trim() || !wheel.rimSize.trim() || !wheel.applicability.trim() || !wheel.notes.trim()) {
+      errors.push('wheelFitment is missing tire/rim size, applicability, or notes');
+    }
+    if (wheel.centerBoreMm !== undefined && wheel.centerBoreMm !== null && (!Number.isFinite(wheel.centerBoreMm) || wheel.centerBoreMm <= 0)) {
+      errors.push('wheelFitment.centerBoreMm must be null or positive');
+    }
+    if (wheel.offsetEtMm !== undefined && wheel.offsetEtMm !== null && !Number.isFinite(wheel.offsetEtMm)) {
+      errors.push('wheelFitment.offsetEtMm must be finite when supplied');
     }
   }
   for (const tire of variant.tires ?? []) {

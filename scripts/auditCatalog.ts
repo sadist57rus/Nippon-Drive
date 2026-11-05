@@ -40,6 +40,27 @@ for (const brand of JAPANESE_BRANDS) {
     }
     if (model.transmissions.some((transmission) => vague.test(transmission))) warnings.push(`Transmission data is placeholder/vague: ${model.id}`);
     if (model.dimensions && [model.dimensions.lengthMm, model.dimensions.widthMm, model.dimensions.heightMm, model.dimensions.wheelbaseMm].some((n) => n === null || !Number.isFinite(n) || n <= 0)) warnings.push(`Missing/non-positive dimensions: ${model.id}`);
+    const numericFields = ['lengthMm', 'widthMm', 'heightMm', 'wheelbaseMm', 'groundClearanceMm', 'fuelTankLiters'] as const;
+    for (const field of numericFields) {
+      if (model.dimensions?.[field] === 0) errors.push(`Zero placeholder is forbidden: ${model.id} dimensions.${field}`);
+    }
+    for (const field of ['lengthMm', 'widthMm', 'heightMm', 'luggageVolumeLiters'] as const) {
+      const value = model.interiorDimensions?.[field];
+      if (value !== undefined && value !== null && (!Number.isFinite(value) || value <= 0)) {
+        errors.push(`Invalid interior dimension: ${model.id} interiorDimensions.${field}`);
+      }
+    }
+    for (const wheel of model.wheelFitments ?? []) {
+      if (!wheel.tireSize.trim() || !wheel.rimSize.trim() || !wheel.applicability.trim() || !wheel.notes.trim()) {
+        errors.push(`Incomplete wheel fitment: ${model.id} ${wheel.tireSize || '(no tire size)'}`);
+      }
+      if (wheel.centerBoreMm !== undefined && wheel.centerBoreMm !== null && (!Number.isFinite(wheel.centerBoreMm) || wheel.centerBoreMm <= 0)) {
+        errors.push(`Invalid center bore: ${model.id} ${wheel.rimSize}`);
+      }
+      if (wheel.offsetEtMm !== undefined && wheel.offsetEtMm !== null && !Number.isFinite(wheel.offsetEtMm)) {
+        errors.push(`Invalid wheel offset: ${model.id} ${wheel.rimSize}`);
+      }
+    }
     const normalizedDimensions = model.dimensions;
     const normalizedDimensionFields = ['length', 'width', 'height', 'wheelbase', 'groundClearance', 'weight'] as const;
     const missingNormalizedDimensions = normalizedDimensionFields.filter((field) => {

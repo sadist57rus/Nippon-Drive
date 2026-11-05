@@ -1,4 +1,4 @@
-import type { CarDimensions, LegacyCarDimensions, TireOption, WiperBladeSize } from './types/carDimensions';
+import type { CarDimensions, InteriorDimensions, LegacyCarDimensions, TireOption, WheelRimFitment, WiperBladeSize } from './types/carDimensions';
 
 export interface JapaneseCarEngine {
   code: string;
@@ -25,6 +25,10 @@ export interface JapaneseCarModel {
   overview: string;
   /** Existing legacy measurements plus optional normalized dimensions during migration. */
   dimensions: LegacyCarDimensions & Partial<CarDimensions>;
+  /** Cabin measurements are kept separate from exterior dimensions; null means not verified. */
+  interiorDimensions?: InteriorDimensions | null;
+  /** Rim dimensions and vehicle mounting geometry; never infer PCD/DIA/ET from tire size. */
+  wheelFitments?: WheelRimFitment[];
   /** Alternative tire fitments; must be tied to market/body/trim before marked official. */
   tires?: TireOption[];
   /** Wiper lengths vary by body and steering/market specification. */

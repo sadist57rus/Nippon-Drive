@@ -14,7 +14,7 @@ export interface JapaneseModelGeneration {
 
 export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
   {
-    "id": "toyota-4runner-n60",
+    "id": "toyota-4runner-n60-1983-1989",
     "make": "Toyota",
     "model": "4Runner",
     "generation": "N60",
@@ -22,7 +22,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-4runner-n120-n130",
+    "id": "toyota-4runner-n120-n130-1989-1995",
     "make": "Toyota",
     "model": "4Runner",
     "generation": "N120, N130",
@@ -30,7 +30,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-4runner-n180",
+    "id": "toyota-4runner-n180-1995-2002",
     "make": "Toyota",
     "model": "4Runner",
     "generation": "N180",
@@ -38,7 +38,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-4runner-n210",
+    "id": "toyota-4runner-n210-2002-2009",
     "make": "Toyota",
     "model": "4Runner",
     "generation": "N210",
@@ -46,7 +46,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-4runner-n280",
+    "id": "toyota-4runner-n280-2009-2024",
     "make": "Toyota",
     "model": "4Runner",
     "generation": "N280",
@@ -54,7 +54,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-4runner-n410",
+    "id": "toyota-4runner-n410-2024-",
     "make": "Toyota",
     "model": "4Runner",
     "generation": "N410",
@@ -62,7 +62,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-allex-e120",
+    "id": "toyota-allex-e120-2001-2006",
     "make": "Toyota",
     "model": "Allex",
     "generation": "E120",
@@ -70,7 +70,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-allion-t240",
+    "id": "toyota-allion-t240-2001-2007",
     "make": "Toyota",
     "model": "Allion",
     "generation": "T240",
@@ -78,7 +78,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-allion-t260",
+    "id": "toyota-allion-t260-2007-2021",
     "make": "Toyota",
     "model": "Allion",
     "generation": "T260",
@@ -86,7 +86,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-alphard-h10",
+    "id": "toyota-alphard-h10-2002-2008",
     "make": "Toyota",
     "model": "Alphard",
     "generation": "H10",
@@ -94,7 +94,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-alphard-h20",
+    "id": "toyota-alphard-h20-2008-2015",
     "make": "Toyota",
     "model": "Alphard",
     "generation": "H20",
@@ -102,7 +102,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-alphard-h30",
+    "id": "toyota-alphard-h30-2015-2023",
     "make": "Toyota",
     "model": "Alphard",
     "generation": "H30",
@@ -110,7 +110,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-alphard-h40",
+    "id": "toyota-alphard-h40-2023-",
     "make": "Toyota",
     "model": "Alphard",
     "generation": "H40",
@@ -118,7 +118,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-altezza-xe10",
+    "id": "toyota-altezza-xe10-1998-2005",
     "make": "Toyota",
     "model": "Altezza",
     "generation": "XE10",
@@ -126,7 +126,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-aqua-p10",
+    "id": "toyota-aqua-p10-2011-2021",
     "make": "Toyota",
     "model": "Aqua",
     "generation": "P10",
@@ -134,7 +134,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-aristo-s140",
+    "id": "toyota-aristo-s140-1991-1997",
     "make": "Toyota",
     "model": "Aristo",
     "generation": "S140",
@@ -142,7 +142,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-aristo-s160",
+    "id": "toyota-aristo-s160-1997-2004",
     "make": "Toyota",
     "model": "Aristo",
     "generation": "S160",
@@ -150,7 +150,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-auris-e150",
+    "id": "toyota-auris-e150-2006-2012",
     "make": "Toyota",
     "model": "Auris",
     "generation": "E150",
@@ -158,7 +158,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-auris-e180",
+    "id": "toyota-auris-e180-2012-2019",
     "make": "Toyota",
     "model": "Auris",
     "generation": "E180",
@@ -166,7 +166,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avalon-xx10",
+    "id": "toyota-avalon-xx10-1994-2000",
     "make": "Toyota",
     "model": "Avalon",
     "generation": "XX10",
@@ -174,7 +174,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avalon-xx20",
+    "id": "toyota-avalon-xx20-1999-2004",
     "make": "Toyota",
     "model": "Avalon",
     "generation": "XX20",
@@ -182,7 +182,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avalon-xx30",
+    "id": "toyota-avalon-xx30-2004-2012",
     "make": "Toyota",
     "model": "Avalon",
     "generation": "XX30",
@@ -190,7 +190,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avalon-xx40",
+    "id": "toyota-avalon-xx40-2012-2018",
     "make": "Toyota",
     "model": "Avalon",
     "generation": "XX40",
@@ -198,7 +198,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avalon-xx50",
+    "id": "toyota-avalon-xx50-2018-",
     "make": "Toyota",
     "model": "Avalon",
     "generation": "XX50",
@@ -206,7 +206,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avensis-t220",
+    "id": "toyota-avensis-t220-1997-2003",
     "make": "Toyota",
     "model": "Avensis",
     "generation": "T220",
@@ -214,7 +214,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avensis-t250",
+    "id": "toyota-avensis-t250-2002-2010",
     "make": "Toyota",
     "model": "Avensis",
     "generation": "T250",
@@ -222,7 +222,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avensis-t270",
+    "id": "toyota-avensis-t270-2008-2018",
     "make": "Toyota",
     "model": "Avensis",
     "generation": "T270",
@@ -230,7 +230,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-avensis-verso-acm20",
+    "id": "toyota-avensis-verso-acm20-2001-2009",
     "make": "Toyota",
     "model": "Avensis Verso",
     "generation": "ACM20",
@@ -238,7 +238,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-aygo-b10",
+    "id": "toyota-aygo-b10-2005-2014",
     "make": "Toyota",
     "model": "Aygo",
     "generation": "B10",
@@ -246,7 +246,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-aygo-b40",
+    "id": "toyota-aygo-b40-2014-2021",
     "make": "Toyota",
     "model": "Aygo",
     "generation": "B40",
@@ -254,7 +254,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-belta-xp90",
+    "id": "toyota-belta-xp90-2005-2012",
     "make": "Toyota",
     "model": "Belta",
     "generation": "XP90",
@@ -262,7 +262,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-blade-e150",
+    "id": "toyota-blade-e150-2006-2012",
     "make": "Toyota",
     "model": "Blade",
     "generation": "E150",
@@ -270,7 +270,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-blizzard-ld20",
+    "id": "toyota-blizzard-ld20-1984-1990",
     "make": "Toyota",
     "model": "Blizzard",
     "generation": "LD20",
@@ -278,7 +278,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-brevis-g10",
+    "id": "toyota-brevis-g10-2001-2007",
     "make": "Toyota",
     "model": "Brevis",
     "generation": "G10",
@@ -286,7 +286,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-c-hr-ngx10-50-zyx10",
+    "id": "toyota-c-hr-ngx10-50-zyx10-2016-2023",
     "make": "Toyota",
     "model": "C-HR",
     "generation": "NGX10/50, ZYX10",
@@ -294,7 +294,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-caldina-t190",
+    "id": "toyota-caldina-t190-1992-1997",
     "make": "Toyota",
     "model": "Caldina",
     "generation": "T190",
@@ -302,7 +302,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-caldina-t210",
+    "id": "toyota-caldina-t210-1997-2002",
     "make": "Toyota",
     "model": "Caldina",
     "generation": "T210",
@@ -310,7 +310,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-caldina-t240",
+    "id": "toyota-caldina-t240-2002-2007",
     "make": "Toyota",
     "model": "Caldina",
     "generation": "T240",
@@ -318,7 +318,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-cami-j100",
+    "id": "toyota-cami-j100-1999-2006",
     "make": "Toyota",
     "model": "Cami",
     "generation": "J100",
@@ -326,7 +326,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-v10-a40-50",
+    "id": "toyota-camry-v10-a40-50-1979-1986",
     "make": "Toyota",
     "model": "Camry",
     "generation": "V10, A40/50",
@@ -334,7 +334,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-v20",
+    "id": "toyota-camry-v20-1986-1991",
     "make": "Toyota",
     "model": "Camry",
     "generation": "V20",
@@ -342,7 +342,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-v40-xv10",
+    "id": "toyota-camry-v40-xv10-1991-1998",
     "make": "Toyota",
     "model": "Camry",
     "generation": "V40, XV10",
@@ -350,7 +350,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-xv20",
+    "id": "toyota-camry-xv20-1996-2002",
     "make": "Toyota",
     "model": "Camry",
     "generation": "XV20",
@@ -358,7 +358,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-xv30",
+    "id": "toyota-camry-xv30-2001-2006",
     "make": "Toyota",
     "model": "Camry",
     "generation": "XV30",
@@ -366,7 +366,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-xv40",
+    "id": "toyota-camry-xv40-2006-2011",
     "make": "Toyota",
     "model": "Camry",
     "generation": "XV40",
@@ -374,7 +374,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-xv50",
+    "id": "toyota-camry-xv50-2011-2018",
     "make": "Toyota",
     "model": "Camry",
     "generation": "XV50",
@@ -382,7 +382,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-xv70",
+    "id": "toyota-camry-xv70-2017-2024",
     "make": "Toyota",
     "model": "Camry",
     "generation": "XV70",
@@ -390,7 +390,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-xv80",
+    "id": "toyota-camry-xv80-2023-",
     "make": "Toyota",
     "model": "Camry",
     "generation": "XV80",
@@ -398,7 +398,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-gracia-xv20",
+    "id": "toyota-camry-gracia-xv20-1996-2001",
     "make": "Toyota",
     "model": "Camry Gracia",
     "generation": "XV20",
@@ -406,7 +406,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-prominent-v20",
+    "id": "toyota-camry-prominent-v20-1987-1990",
     "make": "Toyota",
     "model": "Camry Prominent",
     "generation": "V20",
@@ -414,7 +414,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-camry-prominent-v30",
+    "id": "toyota-camry-prominent-v30-1990-1994",
     "make": "Toyota",
     "model": "Camry Prominent",
     "generation": "V30",
@@ -422,7 +422,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-carina-a40",
+    "id": "toyota-carina-a40-1977-1981",
     "make": "Toyota",
     "model": "Carina",
     "generation": "A40",
@@ -430,7 +430,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-carina-a60",
+    "id": "toyota-carina-a60-1981-1988",
     "make": "Toyota",
     "model": "Carina",
     "generation": "A60",
@@ -438,7 +438,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-carina-e-t190",
+    "id": "toyota-carina-e-t190-1992-1997",
     "make": "Toyota",
     "model": "Carina E",
     "generation": "T190",
@@ -446,7 +446,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-celsior-xf30",
+    "id": "toyota-celsior-xf30-2000-2006",
     "make": "Toyota",
     "model": "Celsior",
     "generation": "XF30",
@@ -454,7 +454,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-century-g50",
+    "id": "toyota-century-g50-1997-2017",
     "make": "Toyota",
     "model": "Century",
     "generation": "G50",
@@ -462,7 +462,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-century-g60-grg75",
+    "id": "toyota-century-g60-grg75-2017-",
     "make": "Toyota",
     "model": "Century",
     "generation": "G60, GRG75",
@@ -470,7 +470,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-chaser-x30-40",
+    "id": "toyota-chaser-x30-40-1977-1980",
     "make": "Toyota",
     "model": "Chaser",
     "generation": "X30/40",
@@ -478,7 +478,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-chaser-x60",
+    "id": "toyota-chaser-x60-1980-1984",
     "make": "Toyota",
     "model": "Chaser",
     "generation": "X60",
@@ -486,7 +486,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-chaser-x70",
+    "id": "toyota-chaser-x70-1984-1988",
     "make": "Toyota",
     "model": "Chaser",
     "generation": "X70",
@@ -494,7 +494,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-chaser-x80",
+    "id": "toyota-chaser-x80-1988-1992",
     "make": "Toyota",
     "model": "Chaser",
     "generation": "X80",
@@ -502,7 +502,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-chaser-x90",
+    "id": "toyota-chaser-x90-1992-1996",
     "make": "Toyota",
     "model": "Chaser",
     "generation": "X90",
@@ -510,7 +510,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-chaser-x100",
+    "id": "toyota-chaser-x100-1996-2001",
     "make": "Toyota",
     "model": "Chaser",
     "generation": "X100",
@@ -518,7 +518,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-comfort-s10",
+    "id": "toyota-comfort-s10-1995-2018",
     "make": "Toyota",
     "model": "Comfort",
     "generation": "S10",
@@ -526,7 +526,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e10",
+    "id": "toyota-corolla-e10-1966-1970",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E10",
@@ -534,7 +534,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e20",
+    "id": "toyota-corolla-e20-1970-1977",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E20",
@@ -542,7 +542,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e70",
+    "id": "toyota-corolla-e70-1979-1987",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E70",
@@ -550,7 +550,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e80",
+    "id": "toyota-corolla-e80-1983-1987",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E80",
@@ -558,7 +558,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e90",
+    "id": "toyota-corolla-e90-1987-1991",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E90",
@@ -566,7 +566,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e100",
+    "id": "toyota-corolla-e100-1991-2000",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E100",
@@ -574,7 +574,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e110",
+    "id": "toyota-corolla-e110-1995-2001",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E110",
@@ -582,7 +582,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e120-e130",
+    "id": "toyota-corolla-e120-e130-2000-2006",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E120, E130",
@@ -590,7 +590,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e140-e150",
+    "id": "toyota-corolla-e140-e150-2006-2013",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E140, E150",
@@ -598,7 +598,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e170-e180",
+    "id": "toyota-corolla-e170-e180-2012-2022",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E170, E180",
@@ -606,7 +606,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-e210",
+    "id": "toyota-corolla-e210-2018-",
     "make": "Toyota",
     "model": "Corolla",
     "generation": "E210",
@@ -614,7 +614,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-axio-e140",
+    "id": "toyota-corolla-axio-e140-2006-2012",
     "make": "Toyota",
     "model": "Corolla Axio",
     "generation": "E140",
@@ -622,7 +622,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-axio-e160",
+    "id": "toyota-corolla-axio-e160-2012-2025",
     "make": "Toyota",
     "model": "Corolla Axio",
     "generation": "E160",
@@ -630,7 +630,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-ceres-e100",
+    "id": "toyota-corolla-ceres-e100-1992-1998",
     "make": "Toyota",
     "model": "Corolla Ceres",
     "generation": "E100",
@@ -638,7 +638,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-cross-xg10",
+    "id": "toyota-corolla-cross-xg10-2020-",
     "make": "Toyota",
     "model": "Corolla Cross",
     "generation": "XG10",
@@ -646,7 +646,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-fielder-e120",
+    "id": "toyota-corolla-fielder-e120-2000-2006",
     "make": "Toyota",
     "model": "Corolla Fielder",
     "generation": "E120",
@@ -654,7 +654,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-fielder-e140",
+    "id": "toyota-corolla-fielder-e140-2006-2012",
     "make": "Toyota",
     "model": "Corolla Fielder",
     "generation": "E140",
@@ -662,7 +662,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-fielder-e160",
+    "id": "toyota-corolla-fielder-e160-2012-2025",
     "make": "Toyota",
     "model": "Corolla Fielder",
     "generation": "E160",
@@ -670,7 +670,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-levin-ae86",
+    "id": "toyota-corolla-levin-ae86-1983-1987",
     "make": "Toyota",
     "model": "Corolla Levin",
     "generation": "AE86",
@@ -678,7 +678,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-levin-ae92",
+    "id": "toyota-corolla-levin-ae92-1987-1991",
     "make": "Toyota",
     "model": "Corolla Levin",
     "generation": "AE92",
@@ -686,7 +686,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-levin-ae101",
+    "id": "toyota-corolla-levin-ae101-1991-1995",
     "make": "Toyota",
     "model": "Corolla Levin",
     "generation": "AE101",
@@ -694,7 +694,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corolla-levin-ae111",
+    "id": "toyota-corolla-levin-ae111-1995-2000",
     "make": "Toyota",
     "model": "Corolla Levin",
     "generation": "AE111",
@@ -702,7 +702,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corona-t150",
+    "id": "toyota-corona-t150-1983-1987",
     "make": "Toyota",
     "model": "Corona",
     "generation": "T150",
@@ -710,7 +710,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corona-t170",
+    "id": "toyota-corona-t170-1987-1992",
     "make": "Toyota",
     "model": "Corona",
     "generation": "T170",
@@ -718,7 +718,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corona-t190",
+    "id": "toyota-corona-t190-1992-1996",
     "make": "Toyota",
     "model": "Corona",
     "generation": "T190",
@@ -726,7 +726,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-corona-t210",
+    "id": "toyota-corona-t210-1996-2001",
     "make": "Toyota",
     "model": "Corona",
     "generation": "T210",
@@ -734,7 +734,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-cresta-x70",
+    "id": "toyota-cresta-x70-1984-1988",
     "make": "Toyota",
     "model": "Cresta",
     "generation": "X70",
@@ -742,7 +742,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-cresta-x80",
+    "id": "toyota-cresta-x80-1988-1992",
     "make": "Toyota",
     "model": "Cresta",
     "generation": "X80",
@@ -750,7 +750,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-cresta-x90",
+    "id": "toyota-cresta-x90-1992-1996",
     "make": "Toyota",
     "model": "Cresta",
     "generation": "X90",
@@ -758,7 +758,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-cresta-x100",
+    "id": "toyota-cresta-x100-1996-2001",
     "make": "Toyota",
     "model": "Cresta",
     "generation": "X100",
@@ -766,7 +766,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-s150",
+    "id": "toyota-crown-s150-1995-1999",
     "make": "Toyota",
     "model": "Crown",
     "generation": "S150",
@@ -774,7 +774,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-s170",
+    "id": "toyota-crown-s170-1999-2003",
     "make": "Toyota",
     "model": "Crown",
     "generation": "S170",
@@ -782,7 +782,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-s180",
+    "id": "toyota-crown-s180-2003-2008",
     "make": "Toyota",
     "model": "Crown",
     "generation": "S180",
@@ -790,7 +790,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-s200",
+    "id": "toyota-crown-s200-2008-2012",
     "make": "Toyota",
     "model": "Crown",
     "generation": "S200",
@@ -798,7 +798,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-s210",
+    "id": "toyota-crown-s210-2012-2018",
     "make": "Toyota",
     "model": "Crown",
     "generation": "S210",
@@ -806,7 +806,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-s220",
+    "id": "toyota-crown-s220-2018-2022",
     "make": "Toyota",
     "model": "Crown",
     "generation": "S220",
@@ -814,7 +814,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-s230",
+    "id": "toyota-crown-s230-2022-",
     "make": "Toyota",
     "model": "Crown",
     "generation": "S230",
@@ -822,7 +822,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-majesta-s140",
+    "id": "toyota-crown-majesta-s140-1991-1995",
     "make": "Toyota",
     "model": "Crown Majesta",
     "generation": "S140",
@@ -830,7 +830,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-majesta-s150",
+    "id": "toyota-crown-majesta-s150-1995-1999",
     "make": "Toyota",
     "model": "Crown Majesta",
     "generation": "S150",
@@ -838,7 +838,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-majesta-s170",
+    "id": "toyota-crown-majesta-s170-1999-2004",
     "make": "Toyota",
     "model": "Crown Majesta",
     "generation": "S170",
@@ -846,7 +846,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-majesta-s180",
+    "id": "toyota-crown-majesta-s180-2004-2009",
     "make": "Toyota",
     "model": "Crown Majesta",
     "generation": "S180",
@@ -854,7 +854,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-majesta-s200",
+    "id": "toyota-crown-majesta-s200-2009-2013",
     "make": "Toyota",
     "model": "Crown Majesta",
     "generation": "S200",
@@ -862,7 +862,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-crown-majesta-s210",
+    "id": "toyota-crown-majesta-s210-2013-2018",
     "make": "Toyota",
     "model": "Crown Majesta",
     "generation": "S210",
@@ -870,7 +870,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-cynos-l40",
+    "id": "toyota-cynos-l40-1991-1995",
     "make": "Toyota",
     "model": "Cynos",
     "generation": "L40",
@@ -878,7 +878,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-cynos-l50",
+    "id": "toyota-cynos-l50-1995-1999",
     "make": "Toyota",
     "model": "Cynos",
     "generation": "L50",
@@ -886,7 +886,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-estima-xr10-20",
+    "id": "toyota-estima-xr10-20-1990-2000",
     "make": "Toyota",
     "model": "Estima",
     "generation": "XR10/20",
@@ -894,7 +894,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-estima-xr30-40",
+    "id": "toyota-estima-xr30-40-2000-2006",
     "make": "Toyota",
     "model": "Estima",
     "generation": "XR30/40",
@@ -902,7 +902,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-estima-xr50",
+    "id": "toyota-estima-xr50-2006-2019",
     "make": "Toyota",
     "model": "Estima",
     "generation": "XR50",
@@ -910,7 +910,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-fj-cruiser-gsj10",
+    "id": "toyota-fj-cruiser-gsj10-2006-2022",
     "make": "Toyota",
     "model": "FJ Cruiser",
     "generation": "GSJ10",
@@ -918,7 +918,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-fortuner-an50-60",
+    "id": "toyota-fortuner-an50-60-2005-2015",
     "make": "Toyota",
     "model": "Fortuner",
     "generation": "AN50/60",
@@ -926,7 +926,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-fortuner-an150-160",
+    "id": "toyota-fortuner-an150-160-2015-",
     "make": "Toyota",
     "model": "Fortuner",
     "generation": "AN150/160",
@@ -934,7 +934,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-granvia-h10",
+    "id": "toyota-granvia-h10-1995-2002",
     "make": "Toyota",
     "model": "Granvia",
     "generation": "H10",
@@ -942,7 +942,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-harrier-xu10",
+    "id": "toyota-harrier-xu10-1997-2003",
     "make": "Toyota",
     "model": "Harrier",
     "generation": "XU10",
@@ -950,7 +950,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-harrier-xu30",
+    "id": "toyota-harrier-xu30-2003-2013",
     "make": "Toyota",
     "model": "Harrier",
     "generation": "XU30",
@@ -958,7 +958,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-harrier-xu60",
+    "id": "toyota-harrier-xu60-2013-2020",
     "make": "Toyota",
     "model": "Harrier",
     "generation": "XU60",
@@ -966,7 +966,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-harrier-xu80",
+    "id": "toyota-harrier-xu80-2020-",
     "make": "Toyota",
     "model": "Harrier",
     "generation": "XU80",
@@ -974,7 +974,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-hiace-h100",
+    "id": "toyota-hiace-h100-1989-2004",
     "make": "Toyota",
     "model": "Hiace",
     "generation": "H100",
@@ -982,7 +982,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-hiace-h200",
+    "id": "toyota-hiace-h200-2004-",
     "make": "Toyota",
     "model": "Hiace",
     "generation": "H200",
@@ -990,7 +990,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-hilux-n50",
+    "id": "toyota-hilux-n50-1983-1988",
     "make": "Toyota",
     "model": "Hilux",
     "generation": "N50",
@@ -998,7 +998,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-hilux-n80",
+    "id": "toyota-hilux-n80-1988-1997",
     "make": "Toyota",
     "model": "Hilux",
     "generation": "N80",
@@ -1006,7 +1006,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-hilux-n140-150",
+    "id": "toyota-hilux-n140-150-1997-2005",
     "make": "Toyota",
     "model": "Hilux",
     "generation": "N140/150",
@@ -1014,7 +1014,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-hilux-an10-20-30",
+    "id": "toyota-hilux-an10-20-30-2005-2015",
     "make": "Toyota",
     "model": "Hilux",
     "generation": "AN10/20/30",
@@ -1022,7 +1022,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-hilux-an120-130",
+    "id": "toyota-hilux-an120-130-2015-",
     "make": "Toyota",
     "model": "Hilux",
     "generation": "AN120/130",
@@ -1030,7 +1030,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-ipsum-xm10",
+    "id": "toyota-ipsum-xm10-1996-2001",
     "make": "Toyota",
     "model": "Ipsum",
     "generation": "XM10",
@@ -1038,7 +1038,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-ipsum-xm20",
+    "id": "toyota-ipsum-xm20-2001-2009",
     "make": "Toyota",
     "model": "Ipsum",
     "generation": "XM20",
@@ -1046,7 +1046,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-j40",
+    "id": "toyota-land-cruiser-j40-1960-1984",
     "make": "Toyota",
     "model": "Land Cruiser",
     "generation": "J40",
@@ -1054,7 +1054,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-j60",
+    "id": "toyota-land-cruiser-j60-1980-1990",
     "make": "Toyota",
     "model": "Land Cruiser",
     "generation": "J60",
@@ -1062,7 +1062,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-j70",
+    "id": "toyota-land-cruiser-j70-1984-",
     "make": "Toyota",
     "model": "Land Cruiser",
     "generation": "J70",
@@ -1070,7 +1070,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-j80",
+    "id": "toyota-land-cruiser-j80-1989-1997",
     "make": "Toyota",
     "model": "Land Cruiser",
     "generation": "J80",
@@ -1078,7 +1078,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-j100",
+    "id": "toyota-land-cruiser-j100-1998-2007",
     "make": "Toyota",
     "model": "Land Cruiser",
     "generation": "J100",
@@ -1086,7 +1086,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-j200",
+    "id": "toyota-land-cruiser-j200-2007-2021",
     "make": "Toyota",
     "model": "Land Cruiser",
     "generation": "J200",
@@ -1094,7 +1094,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-j300",
+    "id": "toyota-land-cruiser-j300-2021-",
     "make": "Toyota",
     "model": "Land Cruiser",
     "generation": "J300",
@@ -1102,7 +1102,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-prado-j70",
+    "id": "toyota-land-cruiser-prado-j70-1990-1996",
     "make": "Toyota",
     "model": "Land Cruiser Prado",
     "generation": "J70",
@@ -1110,7 +1110,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-prado-j90",
+    "id": "toyota-land-cruiser-prado-j90-1996-2002",
     "make": "Toyota",
     "model": "Land Cruiser Prado",
     "generation": "J90",
@@ -1118,7 +1118,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-prado-j120",
+    "id": "toyota-land-cruiser-prado-j120-2002-2009",
     "make": "Toyota",
     "model": "Land Cruiser Prado",
     "generation": "J120",
@@ -1126,7 +1126,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-prado-j150",
+    "id": "toyota-land-cruiser-prado-j150-2009-2023",
     "make": "Toyota",
     "model": "Land Cruiser Prado",
     "generation": "J150",
@@ -1134,7 +1134,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-land-cruiser-prado-j250",
+    "id": "toyota-land-cruiser-prado-j250-2023-",
     "make": "Toyota",
     "model": "Land Cruiser Prado",
     "generation": "J250",
@@ -1142,7 +1142,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mark-ii-x30-40",
+    "id": "toyota-mark-ii-x30-40-1976-1980",
     "make": "Toyota",
     "model": "Mark II",
     "generation": "X30/40",
@@ -1150,7 +1150,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mark-ii-x60",
+    "id": "toyota-mark-ii-x60-1980-1984",
     "make": "Toyota",
     "model": "Mark II",
     "generation": "X60",
@@ -1158,7 +1158,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mark-ii-x70",
+    "id": "toyota-mark-ii-x70-1984-1988",
     "make": "Toyota",
     "model": "Mark II",
     "generation": "X70",
@@ -1166,7 +1166,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mark-ii-x80",
+    "id": "toyota-mark-ii-x80-1988-1992",
     "make": "Toyota",
     "model": "Mark II",
     "generation": "X80",
@@ -1174,7 +1174,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mark-ii-x90",
+    "id": "toyota-mark-ii-x90-1992-1996",
     "make": "Toyota",
     "model": "Mark II",
     "generation": "X90",
@@ -1182,7 +1182,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mark-ii-x100",
+    "id": "toyota-mark-ii-x100-1996-2000",
     "make": "Toyota",
     "model": "Mark II",
     "generation": "X100",
@@ -1190,7 +1190,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mark-ii-x110",
+    "id": "toyota-mark-ii-x110-2000-2004",
     "make": "Toyota",
     "model": "Mark II",
     "generation": "X110",
@@ -1198,7 +1198,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mr2-w10",
+    "id": "toyota-mr2-w10-1984-1989",
     "make": "Toyota",
     "model": "MR2",
     "generation": "W10",
@@ -1206,7 +1206,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mr2-w20",
+    "id": "toyota-mr2-w20-1989-1999",
     "make": "Toyota",
     "model": "MR2",
     "generation": "W20",
@@ -1214,7 +1214,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-mr-s-w30",
+    "id": "toyota-mr-s-w30-1999-2007",
     "make": "Toyota",
     "model": "MR-S",
     "generation": "W30",
@@ -1222,7 +1222,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-noah-r60",
+    "id": "toyota-noah-r60-2001-2007",
     "make": "Toyota",
     "model": "Noah",
     "generation": "R60",
@@ -1230,7 +1230,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-noah-r70",
+    "id": "toyota-noah-r70-2007-2014",
     "make": "Toyota",
     "model": "Noah",
     "generation": "R70",
@@ -1238,7 +1238,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-noah-r80",
+    "id": "toyota-noah-r80-2014-2021",
     "make": "Toyota",
     "model": "Noah",
     "generation": "R80",
@@ -1246,7 +1246,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-noah-r90",
+    "id": "toyota-noah-r90-2022-",
     "make": "Toyota",
     "model": "Noah",
     "generation": "R90",
@@ -1254,7 +1254,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-prius-xw10",
+    "id": "toyota-prius-xw10-1997-2003",
     "make": "Toyota",
     "model": "Prius",
     "generation": "XW10",
@@ -1262,7 +1262,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-prius-xw20",
+    "id": "toyota-prius-xw20-2003-2009",
     "make": "Toyota",
     "model": "Prius",
     "generation": "XW20",
@@ -1270,7 +1270,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-prius-xw30",
+    "id": "toyota-prius-xw30-2009-2015",
     "make": "Toyota",
     "model": "Prius",
     "generation": "XW30",
@@ -1278,7 +1278,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-prius-xw50",
+    "id": "toyota-prius-xw50-2015-2022",
     "make": "Toyota",
     "model": "Prius",
     "generation": "XW50",
@@ -1286,7 +1286,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-prius-xw60",
+    "id": "toyota-prius-xw60-2022-",
     "make": "Toyota",
     "model": "Prius",
     "generation": "XW60",
@@ -1294,7 +1294,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rav4-xa10",
+    "id": "toyota-rav4-xa10-1994-2000",
     "make": "Toyota",
     "model": "RAV4",
     "generation": "XA10",
@@ -1302,7 +1302,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rav4-xa20",
+    "id": "toyota-rav4-xa20-2000-2005",
     "make": "Toyota",
     "model": "RAV4",
     "generation": "XA20",
@@ -1310,7 +1310,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rav4-xa30",
+    "id": "toyota-rav4-xa30-2005-2013",
     "make": "Toyota",
     "model": "RAV4",
     "generation": "XA30",
@@ -1318,7 +1318,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rav4-xa40",
+    "id": "toyota-rav4-xa40-2012-2019",
     "make": "Toyota",
     "model": "RAV4",
     "generation": "XA40",
@@ -1326,7 +1326,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rav4-xa50",
+    "id": "toyota-rav4-xa50-2018-",
     "make": "Toyota",
     "model": "RAV4",
     "generation": "XA50",
@@ -1334,7 +1334,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rav4-xa60",
+    "id": "toyota-rav4-xa60-2025-",
     "make": "Toyota",
     "model": "RAV4",
     "generation": "XA60",
@@ -1342,7 +1342,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-ractis-p100",
+    "id": "toyota-ractis-p100-2005-2010",
     "make": "Toyota",
     "model": "Ractis",
     "generation": "P100",
@@ -1350,7 +1350,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-ractis-p120",
+    "id": "toyota-ractis-p120-2010-2016",
     "make": "Toyota",
     "model": "Ractis",
     "generation": "P120",
@@ -1358,7 +1358,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-raum-z10",
+    "id": "toyota-raum-z10-1997-2003",
     "make": "Toyota",
     "model": "Raum",
     "generation": "Z10",
@@ -1366,7 +1366,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-raum-z20",
+    "id": "toyota-raum-z20-2003-2011",
     "make": "Toyota",
     "model": "Raum",
     "generation": "Z20",
@@ -1374,7 +1374,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-regius-ace-h100",
+    "id": "toyota-regius-ace-h100-1999-2004",
     "make": "Toyota",
     "model": "Regius Ace",
     "generation": "H100",
@@ -1382,7 +1382,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-regius-ace-h200",
+    "id": "toyota-regius-ace-h200-2004-2020",
     "make": "Toyota",
     "model": "Regius Ace",
     "generation": "H200",
@@ -1390,7 +1390,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rush-j200",
+    "id": "toyota-rush-j200-2006-2016",
     "make": "Toyota",
     "model": "Rush",
     "generation": "J200",
@@ -1398,7 +1398,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-rush-f800-f850",
+    "id": "toyota-rush-f800-f850-2017-",
     "make": "Toyota",
     "model": "Rush",
     "generation": "F800/F850",
@@ -1406,7 +1406,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-sienta-xp80",
+    "id": "toyota-sienta-xp80-2003-2015",
     "make": "Toyota",
     "model": "Sienta",
     "generation": "XP80",
@@ -1414,7 +1414,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-sienta-xp170",
+    "id": "toyota-sienta-xp170-2015-2022",
     "make": "Toyota",
     "model": "Sienta",
     "generation": "XP170",
@@ -1422,7 +1422,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-sienta-xp210",
+    "id": "toyota-sienta-xp210-2022-",
     "make": "Toyota",
     "model": "Sienta",
     "generation": "XP210",
@@ -1430,7 +1430,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-soarer-z20",
+    "id": "toyota-soarer-z20-1986-1991",
     "make": "Toyota",
     "model": "Soarer",
     "generation": "Z20",
@@ -1438,7 +1438,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-soarer-z30",
+    "id": "toyota-soarer-z30-1991-2000",
     "make": "Toyota",
     "model": "Soarer",
     "generation": "Z30",
@@ -1446,7 +1446,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-soarer-z40",
+    "id": "toyota-soarer-z40-2001-2005",
     "make": "Toyota",
     "model": "Soarer",
     "generation": "Z40",
@@ -1454,7 +1454,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-starlet-p70",
+    "id": "toyota-starlet-p70-1984-1989",
     "make": "Toyota",
     "model": "Starlet",
     "generation": "P70",
@@ -1462,7 +1462,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-starlet-p80",
+    "id": "toyota-starlet-p80-1989-1995",
     "make": "Toyota",
     "model": "Starlet",
     "generation": "P80",
@@ -1470,7 +1470,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-starlet-p90",
+    "id": "toyota-starlet-p90-1995-1999",
     "make": "Toyota",
     "model": "Starlet",
     "generation": "P90",
@@ -1478,7 +1478,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-supra-a40-a50",
+    "id": "toyota-supra-a40-a50-1978-1981",
     "make": "Toyota",
     "model": "Supra",
     "generation": "A40/A50",
@@ -1486,7 +1486,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-supra-a60",
+    "id": "toyota-supra-a60-1981-1986",
     "make": "Toyota",
     "model": "Supra",
     "generation": "A60",
@@ -1494,7 +1494,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-supra-a70",
+    "id": "toyota-supra-a70-1986-1993",
     "make": "Toyota",
     "model": "Supra",
     "generation": "A70",
@@ -1502,7 +1502,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-supra-a80",
+    "id": "toyota-supra-a80-1993-2002",
     "make": "Toyota",
     "model": "Supra",
     "generation": "A80",
@@ -1510,7 +1510,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-supra-a90",
+    "id": "toyota-supra-a90-2019-",
     "make": "Toyota",
     "model": "Supra",
     "generation": "A90",
@@ -1518,7 +1518,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-vitz-xp10",
+    "id": "toyota-vitz-xp10-1999-2005",
     "make": "Toyota",
     "model": "Vitz",
     "generation": "XP10",
@@ -1526,7 +1526,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-vitz-xp90",
+    "id": "toyota-vitz-xp90-2005-2010",
     "make": "Toyota",
     "model": "Vitz",
     "generation": "XP90",
@@ -1534,7 +1534,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-vitz-xp130",
+    "id": "toyota-vitz-xp130-2010-2020",
     "make": "Toyota",
     "model": "Vitz",
     "generation": "XP130",
@@ -1542,7 +1542,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-voxy-r60",
+    "id": "toyota-voxy-r60-2001-2007",
     "make": "Toyota",
     "model": "Voxy",
     "generation": "R60",
@@ -1550,7 +1550,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-voxy-r70",
+    "id": "toyota-voxy-r70-2007-2014",
     "make": "Toyota",
     "model": "Voxy",
     "generation": "R70",
@@ -1558,7 +1558,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-voxy-r80",
+    "id": "toyota-voxy-r80-2014-2021",
     "make": "Toyota",
     "model": "Voxy",
     "generation": "R80",
@@ -1566,7 +1566,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "toyota-voxy-r90",
+    "id": "toyota-voxy-r90-2022-",
     "make": "Toyota",
     "model": "Voxy",
     "generation": "R90",
@@ -1574,7 +1574,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-100nx-n14",
+    "id": "nissan-100nx-n14-1990-1996",
     "make": "Nissan",
     "model": "100NX",
     "generation": "N14",
@@ -1582,7 +1582,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-180sx-rps13",
+    "id": "nissan-180sx-rps13-1989-1998",
     "make": "Nissan",
     "model": "180SX",
     "generation": "RPS13",
@@ -1590,7 +1590,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-200sx-s13",
+    "id": "nissan-200sx-s13-1989-1993",
     "make": "Nissan",
     "model": "200SX",
     "generation": "S13",
@@ -1598,7 +1598,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-300zx-z31",
+    "id": "nissan-300zx-z31-1983-1989",
     "make": "Nissan",
     "model": "300ZX",
     "generation": "Z31",
@@ -1606,7 +1606,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-300zx-z32",
+    "id": "nissan-300zx-z32-1989-2000",
     "make": "Nissan",
     "model": "300ZX",
     "generation": "Z32",
@@ -1614,7 +1614,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-350z-z33",
+    "id": "nissan-350z-z33-2002-2009",
     "make": "Nissan",
     "model": "350Z",
     "generation": "Z33",
@@ -1622,7 +1622,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-370z-z34",
+    "id": "nissan-370z-z34-2009-2020",
     "make": "Nissan",
     "model": "370Z",
     "generation": "Z34",
@@ -1630,7 +1630,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-ad-vb11",
+    "id": "nissan-ad-vb11-1982-1990",
     "make": "Nissan",
     "model": "AD",
     "generation": "VB11",
@@ -1638,7 +1638,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-ad-y10",
+    "id": "nissan-ad-y10-1990-1999",
     "make": "Nissan",
     "model": "AD",
     "generation": "Y10",
@@ -1646,7 +1646,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-ad-y11",
+    "id": "nissan-ad-y11-1999-2008",
     "make": "Nissan",
     "model": "AD",
     "generation": "Y11",
@@ -1654,7 +1654,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-ad-y12",
+    "id": "nissan-ad-y12-2006-2025",
     "make": "Nissan",
     "model": "AD",
     "generation": "Y12",
@@ -1662,7 +1662,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-almera-classic-b10",
+    "id": "nissan-almera-classic-b10-2006-2012",
     "make": "Nissan",
     "model": "Almera Classic",
     "generation": "B10",
@@ -1670,7 +1670,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-almera-n15",
+    "id": "nissan-almera-n15-1995-2000",
     "make": "Nissan",
     "model": "Almera",
     "generation": "N15",
@@ -1678,7 +1678,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-almera-n16",
+    "id": "nissan-almera-n16-2000-2006",
     "make": "Nissan",
     "model": "Almera",
     "generation": "N16",
@@ -1686,7 +1686,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-almera-g15-n17",
+    "id": "nissan-almera-g15-n17-2011-2019",
     "make": "Nissan",
     "model": "Almera",
     "generation": "G15, N17",
@@ -1694,7 +1694,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-almera-n18",
+    "id": "nissan-almera-n18-2019-",
     "make": "Nissan",
     "model": "Almera",
     "generation": "N18",
@@ -1702,7 +1702,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-altima-u13",
+    "id": "nissan-altima-u13-1992-1997",
     "make": "Nissan",
     "model": "Altima",
     "generation": "U13",
@@ -1710,7 +1710,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-altima-l30",
+    "id": "nissan-altima-l30-1997-2001",
     "make": "Nissan",
     "model": "Altima",
     "generation": "L30",
@@ -1718,7 +1718,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-altima-l31",
+    "id": "nissan-altima-l31-2001-2006",
     "make": "Nissan",
     "model": "Altima",
     "generation": "L31",
@@ -1726,7 +1726,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-altima-u32-l32",
+    "id": "nissan-altima-u32-l32-2006-2013",
     "make": "Nissan",
     "model": "Altima",
     "generation": "U32, L32",
@@ -1734,7 +1734,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-altima-l33",
+    "id": "nissan-altima-l33-2012-2018",
     "make": "Nissan",
     "model": "Altima",
     "generation": "L33",
@@ -1742,7 +1742,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-altima-l34",
+    "id": "nissan-altima-l34-2018-",
     "make": "Nissan",
     "model": "Altima",
     "generation": "L34",
@@ -1750,7 +1750,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-ariya-fe0",
+    "id": "nissan-ariya-fe0-2020-",
     "make": "Nissan",
     "model": "Ariya",
     "generation": "FE0",
@@ -1758,7 +1758,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-armada-ta60",
+    "id": "nissan-armada-ta60-2003-2016",
     "make": "Nissan",
     "model": "Armada",
     "generation": "TA60",
@@ -1766,7 +1766,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-armada-y62",
+    "id": "nissan-armada-y62-2016-2024",
     "make": "Nissan",
     "model": "Armada",
     "generation": "Y62",
@@ -1774,7 +1774,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-armada-y63",
+    "id": "nissan-armada-y63-2024-",
     "make": "Nissan",
     "model": "Armada",
     "generation": "Y63",
@@ -1782,7 +1782,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-aura-e13",
+    "id": "nissan-aura-e13-2021-",
     "make": "Nissan",
     "model": "Aura",
     "generation": "E13",
@@ -1790,7 +1790,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-auster-t12",
+    "id": "nissan-auster-t12-1985-1990",
     "make": "Nissan",
     "model": "Auster",
     "generation": "T12",
@@ -1798,7 +1798,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-avenir-w10",
+    "id": "nissan-avenir-w10-1990-1995",
     "make": "Nissan",
     "model": "Avenir",
     "generation": "W10",
@@ -1806,7 +1806,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-avenir-w11",
+    "id": "nissan-avenir-w11-1998-2005",
     "make": "Nissan",
     "model": "Avenir",
     "generation": "W11",
@@ -1814,7 +1814,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-avenir-salut-w10",
+    "id": "nissan-avenir-salut-w10-1995-1999",
     "make": "Nissan",
     "model": "Avenir Salut",
     "generation": "W10",
@@ -1822,7 +1822,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bassara-ju30",
+    "id": "nissan-bassara-ju30-1999-2003",
     "make": "Nissan",
     "model": "Bassara",
     "generation": "JU30",
@@ -1830,7 +1830,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bluebird-910",
+    "id": "nissan-bluebird-910-1979-1983",
     "make": "Nissan",
     "model": "Bluebird",
     "generation": "910",
@@ -1838,7 +1838,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bluebird-u11",
+    "id": "nissan-bluebird-u11-1983-1990",
     "make": "Nissan",
     "model": "Bluebird",
     "generation": "U11",
@@ -1846,7 +1846,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bluebird-u12",
+    "id": "nissan-bluebird-u12-1987-1991",
     "make": "Nissan",
     "model": "Bluebird",
     "generation": "U12",
@@ -1854,7 +1854,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bluebird-u13",
+    "id": "nissan-bluebird-u13-1991-1995",
     "make": "Nissan",
     "model": "Bluebird",
     "generation": "U13",
@@ -1862,7 +1862,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bluebird-u14",
+    "id": "nissan-bluebird-u14-1996-2001",
     "make": "Nissan",
     "model": "Bluebird",
     "generation": "U14",
@@ -1870,7 +1870,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bluebird-sylphy-g10",
+    "id": "nissan-bluebird-sylphy-g10-2000-2005",
     "make": "Nissan",
     "model": "Bluebird Sylphy",
     "generation": "G10",
@@ -1878,7 +1878,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-bluebird-sylphy-g11",
+    "id": "nissan-bluebird-sylphy-g11-2005-2012",
     "make": "Nissan",
     "model": "Bluebird Sylphy",
     "generation": "G11",
@@ -1886,7 +1886,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-caravan-e23",
+    "id": "nissan-caravan-e23-1980-1986",
     "make": "Nissan",
     "model": "Caravan",
     "generation": "E23",
@@ -1894,7 +1894,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-caravan-e24",
+    "id": "nissan-caravan-e24-1986-2001",
     "make": "Nissan",
     "model": "Caravan",
     "generation": "E24",
@@ -1902,7 +1902,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-caravan-e25",
+    "id": "nissan-caravan-e25-2001-2012",
     "make": "Nissan",
     "model": "Caravan",
     "generation": "E25",
@@ -1910,7 +1910,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-caravan-e26",
+    "id": "nissan-caravan-e26-2021-",
     "make": "Nissan",
     "model": "Caravan",
     "generation": "E26",
@@ -1918,7 +1918,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cedric-230",
+    "id": "nissan-cedric-230-1971-1975",
     "make": "Nissan",
     "model": "Cedric",
     "generation": "230",
@@ -1926,7 +1926,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cedric-330",
+    "id": "nissan-cedric-330-1975-1979",
     "make": "Nissan",
     "model": "Cedric",
     "generation": "330",
@@ -1934,7 +1934,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cedric-430",
+    "id": "nissan-cedric-430-1979-1983",
     "make": "Nissan",
     "model": "Cedric",
     "generation": "430",
@@ -1942,7 +1942,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cedric-y31",
+    "id": "nissan-cedric-y31-1987-1991",
     "make": "Nissan",
     "model": "Cedric",
     "generation": "Y31",
@@ -1950,7 +1950,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cedric-y32",
+    "id": "nissan-cedric-y32-1991-1995",
     "make": "Nissan",
     "model": "Cedric",
     "generation": "Y32",
@@ -1958,7 +1958,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cedric-y33",
+    "id": "nissan-cedric-y33-1995-1999",
     "make": "Nissan",
     "model": "Cedric",
     "generation": "Y33",
@@ -1966,7 +1966,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cedric-y34",
+    "id": "nissan-cedric-y34-1999-2004",
     "make": "Nissan",
     "model": "Cedric",
     "generation": "Y34",
@@ -1974,7 +1974,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cube-z10",
+    "id": "nissan-cube-z10-1998-2002",
     "make": "Nissan",
     "model": "Cube",
     "generation": "Z10",
@@ -1982,7 +1982,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cube-z11",
+    "id": "nissan-cube-z11-2002-2008",
     "make": "Nissan",
     "model": "Cube",
     "generation": "Z11",
@@ -1990,7 +1990,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cube-z12",
+    "id": "nissan-cube-z12-2008-2019",
     "make": "Nissan",
     "model": "Cube",
     "generation": "Z12",
@@ -1998,7 +1998,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-cube-cubic-z11",
+    "id": "nissan-cube-cubic-z11-2003-2008",
     "make": "Nissan",
     "model": "Cube Cubic",
     "generation": "Z11",
@@ -2006,7 +2006,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-dualis-j10",
+    "id": "nissan-dualis-j10-2007-2014",
     "make": "Nissan",
     "model": "Dualis",
     "generation": "J10",
@@ -2014,7 +2014,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-elgrand-e50",
+    "id": "nissan-elgrand-e50-1997-2002",
     "make": "Nissan",
     "model": "Elgrand",
     "generation": "E50",
@@ -2022,7 +2022,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-elgrand-e51",
+    "id": "nissan-elgrand-e51-2002-2010",
     "make": "Nissan",
     "model": "Elgrand",
     "generation": "E51",
@@ -2030,7 +2030,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-elgrand-e52",
+    "id": "nissan-elgrand-e52-2010-2026",
     "make": "Nissan",
     "model": "Elgrand",
     "generation": "E52",
@@ -2038,7 +2038,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-exa-n12",
+    "id": "nissan-exa-n12-1982-1986",
     "make": "Nissan",
     "model": "Exa",
     "generation": "N12",
@@ -2046,7 +2046,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-exa-n13",
+    "id": "nissan-exa-n13-1986-1990",
     "make": "Nissan",
     "model": "Exa",
     "generation": "N13",
@@ -2054,7 +2054,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-expert-w11",
+    "id": "nissan-expert-w11-1999-2006",
     "make": "Nissan",
     "model": "Expert",
     "generation": "W11",
@@ -2062,7 +2062,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fairlady-z-s30",
+    "id": "nissan-fairlady-z-s30-1969-1978",
     "make": "Nissan",
     "model": "Fairlady Z",
     "generation": "S30",
@@ -2070,7 +2070,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fairlady-z-z31",
+    "id": "nissan-fairlady-z-z31-1983-1989",
     "make": "Nissan",
     "model": "Fairlady Z",
     "generation": "Z31",
@@ -2078,7 +2078,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fairlady-z-z32",
+    "id": "nissan-fairlady-z-z32-1989-2000",
     "make": "Nissan",
     "model": "Fairlady Z",
     "generation": "Z32",
@@ -2086,7 +2086,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fairlady-z-z33",
+    "id": "nissan-fairlady-z-z33-2002-2008",
     "make": "Nissan",
     "model": "Fairlady Z",
     "generation": "Z33",
@@ -2094,7 +2094,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fairlady-z-z34",
+    "id": "nissan-fairlady-z-z34-2008-2021",
     "make": "Nissan",
     "model": "Fairlady Z",
     "generation": "Z34",
@@ -2102,7 +2102,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fairlady-z-rz34",
+    "id": "nissan-fairlady-z-rz34-2022-",
     "make": "Nissan",
     "model": "Fairlady Z",
     "generation": "RZ34",
@@ -2110,7 +2110,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-figaro-fk10",
+    "id": "nissan-figaro-fk10-1991-1992",
     "make": "Nissan",
     "model": "Figaro",
     "generation": "FK10",
@@ -2118,7 +2118,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-frontier-d22",
+    "id": "nissan-frontier-d22-1997-2004",
     "make": "Nissan",
     "model": "Frontier",
     "generation": "D22",
@@ -2126,7 +2126,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-frontier-d40",
+    "id": "nissan-frontier-d40-2004-2021",
     "make": "Nissan",
     "model": "Frontier",
     "generation": "D40",
@@ -2134,7 +2134,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-frontier-d41",
+    "id": "nissan-frontier-d41-2021-",
     "make": "Nissan",
     "model": "Frontier",
     "generation": "D41",
@@ -2142,7 +2142,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fuga-y50",
+    "id": "nissan-fuga-y50-2004-2009",
     "make": "Nissan",
     "model": "Fuga",
     "generation": "Y50",
@@ -2150,7 +2150,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-fuga-y51",
+    "id": "nissan-fuga-y51-2009-2022",
     "make": "Nissan",
     "model": "Fuga",
     "generation": "Y51",
@@ -2158,7 +2158,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-gt-r-r35",
+    "id": "nissan-gt-r-r35-2007-2025",
     "make": "Nissan",
     "model": "GT-R",
     "generation": "R35",
@@ -2166,7 +2166,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-navara-d22",
+    "id": "nissan-navara-d22-2000-2005",
     "make": "Nissan",
     "model": "Navara",
     "generation": "D22",
@@ -2174,7 +2174,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-navara-d40",
+    "id": "nissan-navara-d40-2004-2015",
     "make": "Nissan",
     "model": "Navara",
     "generation": "D40",
@@ -2182,7 +2182,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-navara-d23",
+    "id": "nissan-navara-d23-2014-",
     "make": "Nissan",
     "model": "Navara",
     "generation": "D23",
@@ -2190,7 +2190,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-note-e11",
+    "id": "nissan-note-e11-2005-2013",
     "make": "Nissan",
     "model": "Note",
     "generation": "E11",
@@ -2198,7 +2198,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-note-e12",
+    "id": "nissan-note-e12-2012-2020",
     "make": "Nissan",
     "model": "Note",
     "generation": "E12",
@@ -2206,7 +2206,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-note-e13",
+    "id": "nissan-note-e13-2020-",
     "make": "Nissan",
     "model": "Note",
     "generation": "E13",
@@ -2214,7 +2214,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pathfinder-wd21",
+    "id": "nissan-pathfinder-wd21-1985-1995",
     "make": "Nissan",
     "model": "Pathfinder",
     "generation": "WD21",
@@ -2222,7 +2222,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pathfinder-r50",
+    "id": "nissan-pathfinder-r50-1995-2004",
     "make": "Nissan",
     "model": "Pathfinder",
     "generation": "R50",
@@ -2230,7 +2230,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pathfinder-r51",
+    "id": "nissan-pathfinder-r51-2004-2014",
     "make": "Nissan",
     "model": "Pathfinder",
     "generation": "R51",
@@ -2238,7 +2238,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pathfinder-r52",
+    "id": "nissan-pathfinder-r52-2012-2021",
     "make": "Nissan",
     "model": "Pathfinder",
     "generation": "R52",
@@ -2246,7 +2246,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pathfinder-r53",
+    "id": "nissan-pathfinder-r53-2021-",
     "make": "Nissan",
     "model": "Pathfinder",
     "generation": "R53",
@@ -2254,7 +2254,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-patrol-60",
+    "id": "nissan-patrol-60-1960-1984",
     "make": "Nissan",
     "model": "Patrol",
     "generation": "60",
@@ -2262,7 +2262,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-patrol-k160",
+    "id": "nissan-patrol-k160-1979-1994",
     "make": "Nissan",
     "model": "Patrol",
     "generation": "K160",
@@ -2270,7 +2270,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-patrol-y60",
+    "id": "nissan-patrol-y60-1987-1997",
     "make": "Nissan",
     "model": "Patrol",
     "generation": "Y60",
@@ -2278,7 +2278,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-patrol-y61",
+    "id": "nissan-patrol-y61-1997-2024",
     "make": "Nissan",
     "model": "Patrol",
     "generation": "Y61",
@@ -2286,7 +2286,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-patrol-y62",
+    "id": "nissan-patrol-y62-2010-2024",
     "make": "Nissan",
     "model": "Patrol",
     "generation": "Y62",
@@ -2294,7 +2294,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-patrol-y63",
+    "id": "nissan-patrol-y63-2024-",
     "make": "Nissan",
     "model": "Patrol",
     "generation": "Y63",
@@ -2302,7 +2302,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pino-hc24s",
+    "id": "nissan-pino-hc24s-2007-2010",
     "make": "Nissan",
     "model": "Pino",
     "generation": "HC24S",
@@ -2310,7 +2310,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pixo-ua0",
+    "id": "nissan-pixo-ua0-2009-2013",
     "make": "Nissan",
     "model": "Pixo",
     "generation": "UA0",
@@ -2318,7 +2318,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pulsar-n13",
+    "id": "nissan-pulsar-n13-1986-1990",
     "make": "Nissan",
     "model": "Pulsar",
     "generation": "N13",
@@ -2326,7 +2326,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pulsar-n14",
+    "id": "nissan-pulsar-n14-1990-1995",
     "make": "Nissan",
     "model": "Pulsar",
     "generation": "N14",
@@ -2334,7 +2334,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-pulsar-n15",
+    "id": "nissan-pulsar-n15-1995-2000",
     "make": "Nissan",
     "model": "Pulsar",
     "generation": "N15",
@@ -2342,7 +2342,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-qashqai-j10",
+    "id": "nissan-qashqai-j10-2006-2013",
     "make": "Nissan",
     "model": "Qashqai",
     "generation": "J10",
@@ -2350,7 +2350,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-qashqai-j11",
+    "id": "nissan-qashqai-j11-2013-2021",
     "make": "Nissan",
     "model": "Qashqai",
     "generation": "J11",
@@ -2358,7 +2358,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-qashqai-j12",
+    "id": "nissan-qashqai-j12-2021-",
     "make": "Nissan",
     "model": "Qashqai",
     "generation": "J12",
@@ -2366,7 +2366,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-rogue-t32",
+    "id": "nissan-rogue-t32-2013-2020",
     "make": "Nissan",
     "model": "Rogue",
     "generation": "T32",
@@ -2374,7 +2374,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-rogue-t33",
+    "id": "nissan-rogue-t33-2020-",
     "make": "Nissan",
     "model": "Rogue",
     "generation": "T33",
@@ -2382,7 +2382,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-rogue-sport-j11",
+    "id": "nissan-rogue-sport-j11-2017-2022",
     "make": "Nissan",
     "model": "Rogue Sport",
     "generation": "J11",
@@ -2390,7 +2390,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-safari-y60",
+    "id": "nissan-safari-y60-1987-1997",
     "make": "Nissan",
     "model": "Safari",
     "generation": "Y60",
@@ -2398,7 +2398,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-safari-y61",
+    "id": "nissan-safari-y61-1997-2007",
     "make": "Nissan",
     "model": "Safari",
     "generation": "Y61",
@@ -2406,7 +2406,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-serena-c23",
+    "id": "nissan-serena-c23-1991-1999",
     "make": "Nissan",
     "model": "Serena",
     "generation": "C23",
@@ -2414,7 +2414,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-serena-c24",
+    "id": "nissan-serena-c24-1999-2005",
     "make": "Nissan",
     "model": "Serena",
     "generation": "C24",
@@ -2422,7 +2422,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-serena-c25",
+    "id": "nissan-serena-c25-2005-2010",
     "make": "Nissan",
     "model": "Serena",
     "generation": "C25",
@@ -2430,7 +2430,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-serena-c26",
+    "id": "nissan-serena-c26-2010-2016",
     "make": "Nissan",
     "model": "Serena",
     "generation": "C26",
@@ -2438,7 +2438,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-serena-c27",
+    "id": "nissan-serena-c27-2016-2022",
     "make": "Nissan",
     "model": "Serena",
     "generation": "C27",
@@ -2446,7 +2446,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-serena-c28",
+    "id": "nissan-serena-c28-2022-",
     "make": "Nissan",
     "model": "Serena",
     "generation": "C28",
@@ -2454,7 +2454,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-silvia-s10",
+    "id": "nissan-silvia-s10-1975-1979",
     "make": "Nissan",
     "model": "Silvia",
     "generation": "S10",
@@ -2462,7 +2462,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-silvia-s110",
+    "id": "nissan-silvia-s110-1979-1983",
     "make": "Nissan",
     "model": "Silvia",
     "generation": "S110",
@@ -2470,7 +2470,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-silvia-s12",
+    "id": "nissan-silvia-s12-1983-1988",
     "make": "Nissan",
     "model": "Silvia",
     "generation": "S12",
@@ -2478,7 +2478,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-silvia-s13",
+    "id": "nissan-silvia-s13-1988-1993",
     "make": "Nissan",
     "model": "Silvia",
     "generation": "S13",
@@ -2486,7 +2486,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-silvia-s14",
+    "id": "nissan-silvia-s14-1993-1999",
     "make": "Nissan",
     "model": "Silvia",
     "generation": "S14",
@@ -2494,7 +2494,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-silvia-s15",
+    "id": "nissan-silvia-s15-1999-2002",
     "make": "Nissan",
     "model": "Silvia",
     "generation": "S15",
@@ -2502,7 +2502,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-r30",
+    "id": "nissan-skyline-r30-1981-1985",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "R30",
@@ -2510,7 +2510,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-r31",
+    "id": "nissan-skyline-r31-1985-1989",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "R31",
@@ -2518,7 +2518,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-r32",
+    "id": "nissan-skyline-r32-1989-1993",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "R32",
@@ -2526,7 +2526,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-r33",
+    "id": "nissan-skyline-r33-1993-1998",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "R33",
@@ -2534,7 +2534,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-r34",
+    "id": "nissan-skyline-r34-1998-2002",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "R34",
@@ -2542,7 +2542,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-v35",
+    "id": "nissan-skyline-v35-2001-2006",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "V35",
@@ -2550,7 +2550,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-v36",
+    "id": "nissan-skyline-v36-2006-2014",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "V36",
@@ -2558,7 +2558,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-skyline-v37",
+    "id": "nissan-skyline-v37-2014-",
     "make": "Nissan",
     "model": "Skyline",
     "generation": "V37",
@@ -2566,7 +2566,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-stagea-wc34",
+    "id": "nissan-stagea-wc34-1996-2001",
     "make": "Nissan",
     "model": "Stagea",
     "generation": "WC34",
@@ -2574,7 +2574,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-stagea-m35",
+    "id": "nissan-stagea-m35-2001-2007",
     "make": "Nissan",
     "model": "Stagea",
     "generation": "M35",
@@ -2582,7 +2582,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-sunny-b11",
+    "id": "nissan-sunny-b11-1981-1985",
     "make": "Nissan",
     "model": "Sunny",
     "generation": "B11",
@@ -2590,7 +2590,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-sunny-b12",
+    "id": "nissan-sunny-b12-1985-1990",
     "make": "Nissan",
     "model": "Sunny",
     "generation": "B12",
@@ -2598,7 +2598,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-sunny-b13",
+    "id": "nissan-sunny-b13-1990-1993",
     "make": "Nissan",
     "model": "Sunny",
     "generation": "B13",
@@ -2606,7 +2606,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-sunny-b14",
+    "id": "nissan-sunny-b14-1993-1998",
     "make": "Nissan",
     "model": "Sunny",
     "generation": "B14",
@@ -2614,7 +2614,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-sunny-b15",
+    "id": "nissan-sunny-b15-1998-2004",
     "make": "Nissan",
     "model": "Sunny",
     "generation": "B15",
@@ -2622,7 +2622,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-teana-j31",
+    "id": "nissan-teana-j31-2003-2008",
     "make": "Nissan",
     "model": "Teana",
     "generation": "J31",
@@ -2630,7 +2630,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-teana-j32",
+    "id": "nissan-teana-j32-2008-2013",
     "make": "Nissan",
     "model": "Teana",
     "generation": "J32",
@@ -2638,7 +2638,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-teana-l33",
+    "id": "nissan-teana-l33-2013-2020",
     "make": "Nissan",
     "model": "Teana",
     "generation": "L33",
@@ -2646,7 +2646,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-terrano-wd21",
+    "id": "nissan-terrano-wd21-1985-1995",
     "make": "Nissan",
     "model": "Terrano",
     "generation": "WD21",
@@ -2654,7 +2654,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-terrano-r50",
+    "id": "nissan-terrano-r50-1995-2002",
     "make": "Nissan",
     "model": "Terrano",
     "generation": "R50",
@@ -2662,7 +2662,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-terrano-r20",
+    "id": "nissan-terrano-r20-1993-2006",
     "make": "Nissan",
     "model": "Terrano",
     "generation": "R20",
@@ -2670,7 +2670,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-tiida-c11",
+    "id": "nissan-tiida-c11-2004-2012",
     "make": "Nissan",
     "model": "Tiida",
     "generation": "C11",
@@ -2678,7 +2678,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-tiida-c13",
+    "id": "nissan-tiida-c13-2015-2020",
     "make": "Nissan",
     "model": "Tiida",
     "generation": "C13",
@@ -2686,7 +2686,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-tino-v10",
+    "id": "nissan-tino-v10-1998-2003",
     "make": "Nissan",
     "model": "Tino",
     "generation": "V10",
@@ -2694,7 +2694,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-wingroad-y10",
+    "id": "nissan-wingroad-y10-1996-1999",
     "make": "Nissan",
     "model": "Wingroad",
     "generation": "Y10",
@@ -2702,7 +2702,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-wingroad-y11",
+    "id": "nissan-wingroad-y11-1999-2005",
     "make": "Nissan",
     "model": "Wingroad",
     "generation": "Y11",
@@ -2710,7 +2710,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-wingroad-y12",
+    "id": "nissan-wingroad-y12-2005-2018",
     "make": "Nissan",
     "model": "Wingroad",
     "generation": "Y12",
@@ -2718,7 +2718,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-x-trail-t30",
+    "id": "nissan-x-trail-t30-2000-2007",
     "make": "Nissan",
     "model": "X-Trail",
     "generation": "T30",
@@ -2726,7 +2726,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-x-trail-t31",
+    "id": "nissan-x-trail-t31-2007-2014",
     "make": "Nissan",
     "model": "X-Trail",
     "generation": "T31",
@@ -2734,7 +2734,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-x-trail-t32",
+    "id": "nissan-x-trail-t32-2013-2022",
     "make": "Nissan",
     "model": "X-Trail",
     "generation": "T32",
@@ -2742,7 +2742,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "nissan-x-trail-t33",
+    "id": "nissan-x-trail-t33-2021-",
     "make": "Nissan",
     "model": "X-Trail",
     "generation": "T33",
@@ -2750,7 +2750,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-sj-sm",
+    "id": "honda-accord-sj-sm-1976-1981",
     "make": "Honda",
     "model": "Accord",
     "generation": "SJ, SM",
@@ -2758,7 +2758,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-sy-sz",
+    "id": "honda-accord-sy-sz-1981-1985",
     "make": "Honda",
     "model": "Accord",
     "generation": "SY, SZ",
@@ -2766,7 +2766,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-ca",
+    "id": "honda-accord-ca-1985-1990",
     "make": "Honda",
     "model": "Accord",
     "generation": "CA",
@@ -2774,7 +2774,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-cb",
+    "id": "honda-accord-cb-1989-1994",
     "make": "Honda",
     "model": "Accord",
     "generation": "CB",
@@ -2782,7 +2782,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-cd-ce-cc",
+    "id": "honda-accord-cd-ce-cc-1993-1998",
     "make": "Honda",
     "model": "Accord",
     "generation": "CD, CE, CC",
@@ -2790,7 +2790,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-cg-ch-cf",
+    "id": "honda-accord-cg-ch-cf-1997-2003",
     "make": "Honda",
     "model": "Accord",
     "generation": "CG, CH, CF",
@@ -2798,7 +2798,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-uc-cl-cm",
+    "id": "honda-accord-uc-cl-cm-2002-2008",
     "make": "Honda",
     "model": "Accord",
     "generation": "UC, CL, CM",
@@ -2806,7 +2806,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-cw-cs-cp-cu",
+    "id": "honda-accord-cw-cs-cp-cu-2007-2013",
     "make": "Honda",
     "model": "Accord",
     "generation": "CW, CS, CP, CU",
@@ -2814,7 +2814,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-ct-cr",
+    "id": "honda-accord-ct-cr-2012-2020",
     "make": "Honda",
     "model": "Accord",
     "generation": "CT, CR",
@@ -2822,7 +2822,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-cv",
+    "id": "honda-accord-cv-2017-2023",
     "make": "Honda",
     "model": "Accord",
     "generation": "CV",
@@ -2830,7 +2830,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-accord-cy",
+    "id": "honda-accord-cy-2022-",
     "make": "Honda",
     "model": "Accord",
     "generation": "CY",
@@ -2838,7 +2838,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-acty-hh5-6",
+    "id": "honda-acty-hh5-6-1999-2018",
     "make": "Honda",
     "model": "Acty",
     "generation": "HH5/6",
@@ -2846,7 +2846,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-airwave-gj",
+    "id": "honda-airwave-gj-2005-2010",
     "make": "Honda",
     "model": "Airwave",
     "generation": "GJ",
@@ -2854,7 +2854,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-ascot-cb",
+    "id": "honda-ascot-cb-1989-1993",
     "make": "Honda",
     "model": "Ascot",
     "generation": "CB",
@@ -2862,7 +2862,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-ascot-ce",
+    "id": "honda-ascot-ce-1993-1997",
     "make": "Honda",
     "model": "Ascot",
     "generation": "CE",
@@ -2870,7 +2870,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-ascot-innova-cb-cc",
+    "id": "honda-ascot-innova-cb-cc-1992-1996",
     "make": "Honda",
     "model": "Ascot Innova",
     "generation": "CB/CC",
@@ -2878,7 +2878,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-avancier-ta1-4",
+    "id": "honda-avancier-ta1-4-1999-2003",
     "make": "Honda",
     "model": "Avancier",
     "generation": "TA1-4",
@@ -2886,7 +2886,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-avancier-tg",
+    "id": "honda-avancier-tg-2016-",
     "make": "Honda",
     "model": "Avancier",
     "generation": "TG",
@@ -2894,7 +2894,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-beat-pp1",
+    "id": "honda-beat-pp1-1991-1996",
     "make": "Honda",
     "model": "Beat",
     "generation": "PP1",
@@ -2902,7 +2902,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-capa-ga4-6",
+    "id": "honda-capa-ga4-6-1998-2002",
     "make": "Honda",
     "model": "Capa",
     "generation": "GA4/6",
@@ -2910,7 +2910,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-city-ga1",
+    "id": "honda-city-ga1-1981-1986",
     "make": "Honda",
     "model": "City",
     "generation": "GA1",
@@ -2918,7 +2918,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-city-ga2",
+    "id": "honda-city-ga2-1986-1994",
     "make": "Honda",
     "model": "City",
     "generation": "GA2",
@@ -2926,7 +2926,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-city-gd",
+    "id": "honda-city-gd-2002-2008",
     "make": "Honda",
     "model": "City",
     "generation": "GD",
@@ -2934,7 +2934,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-city-gm2-3",
+    "id": "honda-city-gm2-3-2008-2014",
     "make": "Honda",
     "model": "City",
     "generation": "GM2/3",
@@ -2942,7 +2942,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-city-gm6",
+    "id": "honda-city-gm6-2013-2020",
     "make": "Honda",
     "model": "City",
     "generation": "GM6",
@@ -2950,7 +2950,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-city-sx8",
+    "id": "honda-city-sx8-1996-2002",
     "make": "Honda",
     "model": "City",
     "generation": "SX8",
@@ -2958,7 +2958,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-v-rd",
+    "id": "honda-cr-v-rd-1995-2001",
     "make": "Honda",
     "model": "CR-V",
     "generation": "RD",
@@ -2966,7 +2966,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-v-rd",
+    "id": "honda-cr-v-rd-2001-2006",
     "make": "Honda",
     "model": "CR-V",
     "generation": "RD",
@@ -2974,7 +2974,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-v-re",
+    "id": "honda-cr-v-re-2006-2012",
     "make": "Honda",
     "model": "CR-V",
     "generation": "RE",
@@ -2982,7 +2982,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-v-re-rm",
+    "id": "honda-cr-v-re-rm-2011-2018",
     "make": "Honda",
     "model": "CR-V",
     "generation": "RE/RM",
@@ -2990,7 +2990,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-v-rm-rt-rw",
+    "id": "honda-cr-v-rm-rt-rw-2016-2023",
     "make": "Honda",
     "model": "CR-V",
     "generation": "RM/RT/RW",
@@ -2998,7 +2998,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-v-rs",
+    "id": "honda-cr-v-rs-2022-",
     "make": "Honda",
     "model": "CR-V",
     "generation": "RS",
@@ -3006,7 +3006,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-x-ef",
+    "id": "honda-cr-x-ef-1987-1992",
     "make": "Honda",
     "model": "CR-X",
     "generation": "EF",
@@ -3014,7 +3014,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-x-del-sol-eg",
+    "id": "honda-cr-x-del-sol-eg-1992-1998",
     "make": "Honda",
     "model": "CR-X del Sol",
     "generation": "EG",
@@ -3022,7 +3022,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-cr-z-zf",
+    "id": "honda-cr-z-zf-2010-2017",
     "make": "Honda",
     "model": "CR-Z",
     "generation": "ZF",
@@ -3030,7 +3030,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-sb-sf",
+    "id": "honda-civic-sb-sf-1972-1979",
     "make": "Honda",
     "model": "Civic",
     "generation": "SB/SF",
@@ -3038,7 +3038,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-aj-ak-au-af-as-ag-ah-al-at",
+    "id": "honda-civic-aj-ak-au-af-as-ag-ah-al-at-1983-1987",
     "make": "Honda",
     "model": "Civic",
     "generation": "AJ/AK/AU/AF/AS/AG/AH/AL/AT",
@@ -3046,7 +3046,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-ed-ef-ec",
+    "id": "honda-civic-ed-ef-ec-1987-1991",
     "make": "Honda",
     "model": "Civic",
     "generation": "ED/EF/EC",
@@ -3054,7 +3054,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-ej-eg-eh",
+    "id": "honda-civic-ej-eg-eh-1991-1995",
     "make": "Honda",
     "model": "Civic",
     "generation": "EJ/EG/EH",
@@ -3062,7 +3062,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-mb-mc-ej-ma-ek",
+    "id": "honda-civic-mb-mc-ej-ma-ek-1995-2001",
     "make": "Honda",
     "model": "Civic",
     "generation": "MB/MC/EJ/MA/EK",
@@ -3070,7 +3070,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-em-eu-en-es-ep",
+    "id": "honda-civic-em-eu-en-es-ep-2000-2006",
     "make": "Honda",
     "model": "Civic",
     "generation": "EM/EU/EN/ES/EP",
@@ -3078,7 +3078,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-fn-fk-fd",
+    "id": "honda-civic-fn-fk-fd-2005-2012",
     "make": "Honda",
     "model": "Civic",
     "generation": "FN/FK/FD",
@@ -3086,7 +3086,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-fk-fb",
+    "id": "honda-civic-fk-fb-2011-2017",
     "make": "Honda",
     "model": "Civic",
     "generation": "FK/FB",
@@ -3094,7 +3094,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-fk-fc",
+    "id": "honda-civic-fk-fc-2015-2022",
     "make": "Honda",
     "model": "Civic",
     "generation": "FK/FC",
@@ -3102,7 +3102,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-fe-fl",
+    "id": "honda-civic-fe-fl-2020-",
     "make": "Honda",
     "model": "Civic",
     "generation": "FE/FL",
@@ -3110,7 +3110,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-ferio-eg",
+    "id": "honda-civic-ferio-eg-1991-1995",
     "make": "Honda",
     "model": "Civic Ferio",
     "generation": "EG",
@@ -3118,7 +3118,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-ferio-ek",
+    "id": "honda-civic-ferio-ek-1995-2000",
     "make": "Honda",
     "model": "Civic Ferio",
     "generation": "EK",
@@ -3126,7 +3126,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-ferio-es",
+    "id": "honda-civic-ferio-es-2000-2006",
     "make": "Honda",
     "model": "Civic Ferio",
     "generation": "ES",
@@ -3134,7 +3134,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-type-r-ek9",
+    "id": "honda-civic-type-r-ek9-1997-2001",
     "make": "Honda",
     "model": "Civic Type R",
     "generation": "EK9",
@@ -3142,7 +3142,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-type-r-ep3",
+    "id": "honda-civic-type-r-ep3-2001-2006",
     "make": "Honda",
     "model": "Civic Type R",
     "generation": "EP3",
@@ -3150,7 +3150,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-type-r-fd2-fn",
+    "id": "honda-civic-type-r-fd2-fn-2006-2012",
     "make": "Honda",
     "model": "Civic Type R",
     "generation": "FD2/FN",
@@ -3158,7 +3158,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-type-r-fk8",
+    "id": "honda-civic-type-r-fk8-2017-",
     "make": "Honda",
     "model": "Civic Type R",
     "generation": "FK8",
@@ -3166,7 +3166,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-civic-type-r-fl5",
+    "id": "honda-civic-type-r-fl5-2022-",
     "make": "Honda",
     "model": "Civic Type R",
     "generation": "FL5",
@@ -3174,7 +3174,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-element-yh",
+    "id": "honda-element-yh-2002-2011",
     "make": "Honda",
     "model": "Element",
     "generation": "YH",
@@ -3182,7 +3182,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-elysion-rr",
+    "id": "honda-elysion-rr-2004-2013",
     "make": "Honda",
     "model": "Elysion",
     "generation": "RR",
@@ -3190,7 +3190,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-elysion-rc",
+    "id": "honda-elysion-rc-2015-",
     "make": "Honda",
     "model": "Elysion",
     "generation": "RC",
@@ -3198,7 +3198,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-fit-gd",
+    "id": "honda-fit-gd-2001-2007",
     "make": "Honda",
     "model": "Fit",
     "generation": "GD",
@@ -3206,7 +3206,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-fit-ge",
+    "id": "honda-fit-ge-2007-2013",
     "make": "Honda",
     "model": "Fit",
     "generation": "GE",
@@ -3214,7 +3214,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-fit-gk",
+    "id": "honda-fit-gk-2013-2020",
     "make": "Honda",
     "model": "Fit",
     "generation": "GK",
@@ -3222,7 +3222,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-fit-gr",
+    "id": "honda-fit-gr-2020-",
     "make": "Honda",
     "model": "Fit",
     "generation": "GR",
@@ -3230,7 +3230,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-freed-gb3-4",
+    "id": "honda-freed-gb3-4-2008-2016",
     "make": "Honda",
     "model": "Freed",
     "generation": "GB3/4",
@@ -3238,7 +3238,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-freed-gb5-6-7-8",
+    "id": "honda-freed-gb5-6-7-8-2016-2024",
     "make": "Honda",
     "model": "Freed",
     "generation": "GB5/6/7/8",
@@ -3246,7 +3246,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-freed-gt",
+    "id": "honda-freed-gt-2024-",
     "make": "Honda",
     "model": "Freed",
     "generation": "GT",
@@ -3254,7 +3254,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-hr-v-gh",
+    "id": "honda-hr-v-gh-1998-2006",
     "make": "Honda",
     "model": "HR-V",
     "generation": "GH",
@@ -3262,7 +3262,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-hr-v-ru",
+    "id": "honda-hr-v-ru-2013-2021",
     "make": "Honda",
     "model": "HR-V",
     "generation": "RU",
@@ -3270,7 +3270,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-hr-v-rv",
+    "id": "honda-hr-v-rv-2021-",
     "make": "Honda",
     "model": "HR-V",
     "generation": "RV",
@@ -3278,7 +3278,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-insight-ze1",
+    "id": "honda-insight-ze1-1999-2006",
     "make": "Honda",
     "model": "Insight",
     "generation": "ZE1",
@@ -3286,7 +3286,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-insight-ze2-3",
+    "id": "honda-insight-ze2-3-2009-2014",
     "make": "Honda",
     "model": "Insight",
     "generation": "ZE2/3",
@@ -3294,7 +3294,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-insight-ze4",
+    "id": "honda-insight-ze4-2018-2022",
     "make": "Honda",
     "model": "Insight",
     "generation": "ZE4",
@@ -3302,7 +3302,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-integra-dc1-2",
+    "id": "honda-integra-dc1-2-1993-2001",
     "make": "Honda",
     "model": "Integra",
     "generation": "DC1/2",
@@ -3310,7 +3310,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-integra-dc5",
+    "id": "honda-integra-dc5-2001-2006",
     "make": "Honda",
     "model": "Integra",
     "generation": "DC5",
@@ -3318,7 +3318,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-legend-ka1-6",
+    "id": "honda-legend-ka1-6-1985-1990",
     "make": "Honda",
     "model": "Legend",
     "generation": "KA1-6",
@@ -3326,7 +3326,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-legend-ka7-8",
+    "id": "honda-legend-ka7-8-1990-1996",
     "make": "Honda",
     "model": "Legend",
     "generation": "KA7/8",
@@ -3334,7 +3334,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-legend-ka9",
+    "id": "honda-legend-ka9-1995-2004",
     "make": "Honda",
     "model": "Legend",
     "generation": "KA9",
@@ -3342,7 +3342,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-legend-kb1-2",
+    "id": "honda-legend-kb1-2-2004-2012",
     "make": "Honda",
     "model": "Legend",
     "generation": "KB1/2",
@@ -3350,7 +3350,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-legend-kc2",
+    "id": "honda-legend-kc2-2015-2021",
     "make": "Honda",
     "model": "Legend",
     "generation": "KC2",
@@ -3358,7 +3358,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-life-ja-jb",
+    "id": "honda-life-ja-jb-1997-1998",
     "make": "Honda",
     "model": "Life",
     "generation": "JA/JB",
@@ -3366,7 +3366,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-life-jb1-2",
+    "id": "honda-life-jb1-2-1998-2003",
     "make": "Honda",
     "model": "Life",
     "generation": "JB1/2",
@@ -3374,7 +3374,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-life-jb5-8",
+    "id": "honda-life-jb5-8-2003-2008",
     "make": "Honda",
     "model": "Life",
     "generation": "JB5-8",
@@ -3382,7 +3382,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-life-jc1-2",
+    "id": "honda-life-jc1-2-2008-2014",
     "make": "Honda",
     "model": "Life",
     "generation": "JC1/2",
@@ -3390,7 +3390,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-box-jf1-2",
+    "id": "honda-n-box-jf1-2-2011-2017",
     "make": "Honda",
     "model": "N-BOX",
     "generation": "JF1/2",
@@ -3398,7 +3398,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-box-jf3-4",
+    "id": "honda-n-box-jf3-4-2017-2023",
     "make": "Honda",
     "model": "N-BOX",
     "generation": "JF3/4",
@@ -3406,7 +3406,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-box-jf5-6",
+    "id": "honda-n-box-jf5-6-2023-",
     "make": "Honda",
     "model": "N-BOX",
     "generation": "JF5/6",
@@ -3414,7 +3414,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-box-slash-jf",
+    "id": "honda-n-box-slash-jf-2014-2020",
     "make": "Honda",
     "model": "N-BOX Slash",
     "generation": "JF",
@@ -3422,7 +3422,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-one-jg1-2",
+    "id": "honda-n-one-jg1-2-2012-2020",
     "make": "Honda",
     "model": "N-ONE",
     "generation": "JG1/2",
@@ -3430,7 +3430,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-one-jg3-4",
+    "id": "honda-n-one-jg3-4-2020-",
     "make": "Honda",
     "model": "N-ONE",
     "generation": "JG3/4",
@@ -3438,7 +3438,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-van-jj1-2",
+    "id": "honda-n-van-jj1-2-2018-",
     "make": "Honda",
     "model": "N-VAN",
     "generation": "JJ1/2",
@@ -3446,7 +3446,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-wgn-jh1-2",
+    "id": "honda-n-wgn-jh1-2-2013-2019",
     "make": "Honda",
     "model": "N-WGN",
     "generation": "JH1/2",
@@ -3454,7 +3454,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-n-wgn-jh3-4",
+    "id": "honda-n-wgn-jh3-4-2019-",
     "make": "Honda",
     "model": "N-WGN",
     "generation": "JH3/4",
@@ -3462,7 +3462,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-nsx-na1-2",
+    "id": "honda-nsx-na1-2-1990-2005",
     "make": "Honda",
     "model": "NSX",
     "generation": "NA1/2",
@@ -3470,7 +3470,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-odyssey-ra1-5",
+    "id": "honda-odyssey-ra1-5-1994-1999",
     "make": "Honda",
     "model": "Odyssey",
     "generation": "RA1-5",
@@ -3478,7 +3478,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-odyssey-rb1-2",
+    "id": "honda-odyssey-rb1-2-2003-2008",
     "make": "Honda",
     "model": "Odyssey",
     "generation": "RB1/2",
@@ -3486,7 +3486,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-odyssey-rb3-4",
+    "id": "honda-odyssey-rb3-4-2008-2013",
     "make": "Honda",
     "model": "Odyssey",
     "generation": "RB3/4",
@@ -3494,7 +3494,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-odyssey-rc",
+    "id": "honda-odyssey-rc-2013-",
     "make": "Honda",
     "model": "Odyssey",
     "generation": "RC",
@@ -3502,7 +3502,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-orthia-el1-3",
+    "id": "honda-orthia-el1-3-1996-2002",
     "make": "Honda",
     "model": "Orthia",
     "generation": "EL1-3",
@@ -3510,7 +3510,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-partner-ey6-9",
+    "id": "honda-partner-ey6-9-1996-2010",
     "make": "Honda",
     "model": "Partner",
     "generation": "EY6-9",
@@ -3518,7 +3518,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-pilot-yf1-2",
+    "id": "honda-pilot-yf1-2-2002-2008",
     "make": "Honda",
     "model": "Pilot",
     "generation": "YF1/2",
@@ -3526,7 +3526,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-pilot-yf3-4",
+    "id": "honda-pilot-yf3-4-2008-2015",
     "make": "Honda",
     "model": "Pilot",
     "generation": "YF3/4",
@@ -3534,7 +3534,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-pilot-yf5-6",
+    "id": "honda-pilot-yf5-6-2015-2022",
     "make": "Honda",
     "model": "Pilot",
     "generation": "YF5/6",
@@ -3542,7 +3542,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-pilot-yf7-8",
+    "id": "honda-pilot-yf7-8-2022-",
     "make": "Honda",
     "model": "Pilot",
     "generation": "YF7/8",
@@ -3550,7 +3550,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-prelude-sn",
+    "id": "honda-prelude-sn-1978-1983",
     "make": "Honda",
     "model": "Prelude",
     "generation": "SN",
@@ -3558,7 +3558,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-prelude-bf",
+    "id": "honda-prelude-bf-1982-1987",
     "make": "Honda",
     "model": "Prelude",
     "generation": "BF",
@@ -3566,7 +3566,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-prelude-ba",
+    "id": "honda-prelude-ba-1987-1991",
     "make": "Honda",
     "model": "Prelude",
     "generation": "BA",
@@ -3574,7 +3574,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-prelude-bb",
+    "id": "honda-prelude-bb-1991-2001",
     "make": "Honda",
     "model": "Prelude",
     "generation": "BB",
@@ -3582,7 +3582,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-s-mx-rh1-2",
+    "id": "honda-s-mx-rh1-2-1996-2002",
     "make": "Honda",
     "model": "S-MX",
     "generation": "RH1/2",
@@ -3590,7 +3590,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-s2000-ap1",
+    "id": "honda-s2000-ap1-1999-2009",
     "make": "Honda",
     "model": "S2000",
     "generation": "AP1",
@@ -3598,7 +3598,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-s660-jw5",
+    "id": "honda-s660-jw5-2015-2022",
     "make": "Honda",
     "model": "S660",
     "generation": "JW5",
@@ -3606,7 +3606,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-shuttle-gk",
+    "id": "honda-shuttle-gk-2015-2022",
     "make": "Honda",
     "model": "Shuttle",
     "generation": "GK",
@@ -3614,7 +3614,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-stepwgn-rf",
+    "id": "honda-stepwgn-rf-1996-2005",
     "make": "Honda",
     "model": "Stepwgn",
     "generation": "RF",
@@ -3622,7 +3622,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-stepwgn-rg",
+    "id": "honda-stepwgn-rg-2005-2009",
     "make": "Honda",
     "model": "Stepwgn",
     "generation": "RG",
@@ -3630,7 +3630,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-stepwgn-rk",
+    "id": "honda-stepwgn-rk-2009-2015",
     "make": "Honda",
     "model": "Stepwgn",
     "generation": "RK",
@@ -3638,7 +3638,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-stepwgn-rp",
+    "id": "honda-stepwgn-rp-2015-2022",
     "make": "Honda",
     "model": "Stepwgn",
     "generation": "RP",
@@ -3646,7 +3646,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-stepwgn-rp6-7",
+    "id": "honda-stepwgn-rp6-7-2022-",
     "make": "Honda",
     "model": "Stepwgn",
     "generation": "RP6/7",
@@ -3654,7 +3654,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-stream-rn1-5",
+    "id": "honda-stream-rn1-5-2000-2006",
     "make": "Honda",
     "model": "Stream",
     "generation": "RN1-5",
@@ -3662,7 +3662,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-stream-rn6-9",
+    "id": "honda-stream-rn6-9-2006-2014",
     "make": "Honda",
     "model": "Stream",
     "generation": "RN6-9",
@@ -3670,7 +3670,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-vamos-hm1-2",
+    "id": "honda-vamos-hm1-2-1999-2018",
     "make": "Honda",
     "model": "Vamos",
     "generation": "HM1/2",
@@ -3678,7 +3678,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-vezel-ru",
+    "id": "honda-vezel-ru-2013-2021",
     "make": "Honda",
     "model": "Vezel",
     "generation": "RU",
@@ -3686,7 +3686,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "honda-vezel-rv",
+    "id": "honda-vezel-rv-2021-",
     "make": "Honda",
     "model": "Vezel",
     "generation": "RV",
@@ -3694,7 +3694,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-323-bd",
+    "id": "mazda-323-bd-1980-1985",
     "make": "Mazda",
     "model": "323",
     "generation": "BD",
@@ -3702,7 +3702,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-323-bg",
+    "id": "mazda-323-bg-1989-1994",
     "make": "Mazda",
     "model": "323",
     "generation": "BG",
@@ -3710,7 +3710,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-323-ba",
+    "id": "mazda-323-ba-1994-1998",
     "make": "Mazda",
     "model": "323",
     "generation": "BA",
@@ -3718,7 +3718,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-323-bj",
+    "id": "mazda-323-bj-1998-2003",
     "make": "Mazda",
     "model": "323",
     "generation": "BJ",
@@ -3726,7 +3726,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-323f-bg",
+    "id": "mazda-323f-bg-1989-1994",
     "make": "Mazda",
     "model": "323F",
     "generation": "BG",
@@ -3734,7 +3734,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-323f-ba",
+    "id": "mazda-323f-ba-1993-1998",
     "make": "Mazda",
     "model": "323F",
     "generation": "BA",
@@ -3742,7 +3742,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-323f-bj",
+    "id": "mazda-323f-bj-1998-2003",
     "make": "Mazda",
     "model": "323F",
     "generation": "BJ",
@@ -3750,7 +3750,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-626-gc",
+    "id": "mazda-626-gc-1982-1987",
     "make": "Mazda",
     "model": "626",
     "generation": "GC",
@@ -3758,7 +3758,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-626-gd-gv",
+    "id": "mazda-626-gd-gv-1987-1997",
     "make": "Mazda",
     "model": "626",
     "generation": "GD/GV",
@@ -3766,7 +3766,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-626-ge",
+    "id": "mazda-626-ge-1991-1997",
     "make": "Mazda",
     "model": "626",
     "generation": "GE",
@@ -3774,7 +3774,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-626-gf-gw",
+    "id": "mazda-626-gf-gw-1997-2002",
     "make": "Mazda",
     "model": "626",
     "generation": "GF/GW",
@@ -3782,7 +3782,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-929-la4",
+    "id": "mazda-929-la4-1978-1988",
     "make": "Mazda",
     "model": "929",
     "generation": "LA4",
@@ -3790,7 +3790,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-929-hb",
+    "id": "mazda-929-hb-1981-1987",
     "make": "Mazda",
     "model": "929",
     "generation": "HB",
@@ -3798,7 +3798,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-929-hc",
+    "id": "mazda-929-hc-1987-1992",
     "make": "Mazda",
     "model": "929",
     "generation": "HC",
@@ -3806,7 +3806,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-929-hd",
+    "id": "mazda-929-hd-1991-1996",
     "make": "Mazda",
     "model": "929",
     "generation": "HD",
@@ -3814,7 +3814,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-az-offroad-jm",
+    "id": "mazda-az-offroad-jm-1998-2014",
     "make": "Mazda",
     "model": "AZ-Offroad",
     "generation": "JM",
@@ -3822,7 +3822,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-az-wagon-md",
+    "id": "mazda-az-wagon-md-1998-2003",
     "make": "Mazda",
     "model": "AZ-Wagon",
     "generation": "MD",
@@ -3830,7 +3830,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-az-wagon-mj21",
+    "id": "mazda-az-wagon-mj21-2003-2008",
     "make": "Mazda",
     "model": "AZ-Wagon",
     "generation": "MJ21",
@@ -3838,7 +3838,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-az-wagon-mj23",
+    "id": "mazda-az-wagon-mj23-2008-2012",
     "make": "Mazda",
     "model": "AZ-Wagon",
     "generation": "MJ23",
@@ -3846,7 +3846,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-atenza-gg",
+    "id": "mazda-atenza-gg-2002-2007",
     "make": "Mazda",
     "model": "Atenza",
     "generation": "GG",
@@ -3854,7 +3854,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-atenza-gh",
+    "id": "mazda-atenza-gh-2008-2012",
     "make": "Mazda",
     "model": "Atenza",
     "generation": "GH",
@@ -3862,7 +3862,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-atenza-gj",
+    "id": "mazda-atenza-gj-2012-2019",
     "make": "Mazda",
     "model": "Atenza",
     "generation": "GJ",
@@ -3870,7 +3870,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-autozam-az-1-pg",
+    "id": "mazda-autozam-az-1-pg-1992-1994",
     "make": "Mazda",
     "model": "Autozam AZ-1",
     "generation": "PG",
@@ -3878,7 +3878,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-autozam-az-3-ec",
+    "id": "mazda-autozam-az-3-ec-1991-1998",
     "make": "Mazda",
     "model": "Autozam AZ-3",
     "generation": "EC",
@@ -3886,7 +3886,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-axela-bk",
+    "id": "mazda-axela-bk-2003-2009",
     "make": "Mazda",
     "model": "Axela",
     "generation": "BK",
@@ -3894,7 +3894,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-axela-bl",
+    "id": "mazda-axela-bl-2009-2013",
     "make": "Mazda",
     "model": "Axela",
     "generation": "BL",
@@ -3902,7 +3902,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-axela-bm",
+    "id": "mazda-axela-bm-2013-2019",
     "make": "Mazda",
     "model": "Axela",
     "generation": "BM",
@@ -3910,7 +3910,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-biante-cc",
+    "id": "mazda-biante-cc-2008-2018",
     "make": "Mazda",
     "model": "Biante",
     "generation": "CC",
@@ -3918,7 +3918,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-bongo-ba1",
+    "id": "mazda-bongo-ba1-1977-1983",
     "make": "Mazda",
     "model": "Bongo",
     "generation": "BA1",
@@ -3926,7 +3926,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-bongo-ss",
+    "id": "mazda-bongo-ss-1983-1999",
     "make": "Mazda",
     "model": "Bongo",
     "generation": "SS",
@@ -3934,7 +3934,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-bongo-sk",
+    "id": "mazda-bongo-sk-1999-2020",
     "make": "Mazda",
     "model": "Bongo",
     "generation": "SK",
@@ -3942,7 +3942,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-bongo-brawny-sk",
+    "id": "mazda-bongo-brawny-sk-1999-2010",
     "make": "Mazda",
     "model": "Bongo Brawny",
     "generation": "SK",
@@ -3950,7 +3950,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-bongo-friendee-sg",
+    "id": "mazda-bongo-friendee-sg-1995-2005",
     "make": "Mazda",
     "model": "Bongo Friendee",
     "generation": "SG",
@@ -3958,7 +3958,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-3-dk",
+    "id": "mazda-cx-3-dk-2014-2026",
     "make": "Mazda",
     "model": "CX-3",
     "generation": "DK",
@@ -3966,7 +3966,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-5-ke",
+    "id": "mazda-cx-5-ke-2011-2017",
     "make": "Mazda",
     "model": "CX-5",
     "generation": "KE",
@@ -3974,7 +3974,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-5-kf",
+    "id": "mazda-cx-5-kf-2016-",
     "make": "Mazda",
     "model": "CX-5",
     "generation": "KF",
@@ -3982,7 +3982,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-5-ki-km",
+    "id": "mazda-cx-5-ki-km-2025-",
     "make": "Mazda",
     "model": "CX-5",
     "generation": "KI/KM",
@@ -3990,7 +3990,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-7-er",
+    "id": "mazda-cx-7-er-2006-2012",
     "make": "Mazda",
     "model": "CX-7",
     "generation": "ER",
@@ -3998,7 +3998,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-8-kg",
+    "id": "mazda-cx-8-kg-2017-2023",
     "make": "Mazda",
     "model": "CX-8",
     "generation": "KG",
@@ -4006,7 +4006,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-9-tb",
+    "id": "mazda-cx-9-tb-2007-2015",
     "make": "Mazda",
     "model": "CX-9",
     "generation": "TB",
@@ -4014,7 +4014,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cx-9-tc",
+    "id": "mazda-cx-9-tc-2015-",
     "make": "Mazda",
     "model": "CX-9",
     "generation": "TC",
@@ -4022,7 +4022,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-capella-gc",
+    "id": "mazda-capella-gc-1982-1987",
     "make": "Mazda",
     "model": "Capella",
     "generation": "GC",
@@ -4030,7 +4030,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-capella-gd-gv",
+    "id": "mazda-capella-gd-gv-1987-1997",
     "make": "Mazda",
     "model": "Capella",
     "generation": "GD/GV",
@@ -4038,7 +4038,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-capella-cg",
+    "id": "mazda-capella-cg-1994-1997",
     "make": "Mazda",
     "model": "Capella",
     "generation": "CG",
@@ -4046,7 +4046,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-capella-gf-gw",
+    "id": "mazda-capella-gf-gw-1997-2002",
     "make": "Mazda",
     "model": "Capella",
     "generation": "GF/GW",
@@ -4054,7 +4054,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-carol-aa5pa-aa6pa",
+    "id": "mazda-carol-aa5pa-aa6pa-1989-1995",
     "make": "Mazda",
     "model": "Carol",
     "generation": "AA5PA/AA6PA",
@@ -4062,7 +4062,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-carol-hb12s-22s",
+    "id": "mazda-carol-hb12s-22s-1998-2004",
     "make": "Mazda",
     "model": "Carol",
     "generation": "HB12S/22S",
@@ -4070,7 +4070,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-carol-hb24s",
+    "id": "mazda-carol-hb24s-2004-2009",
     "make": "Mazda",
     "model": "Carol",
     "generation": "HB24S",
@@ -4078,7 +4078,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-carol-hb25s-35s",
+    "id": "mazda-carol-hb25s-35s-2009-2014",
     "make": "Mazda",
     "model": "Carol",
     "generation": "HB25S/35S",
@@ -4086,7 +4086,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-carol-hb36s",
+    "id": "mazda-carol-hb36s-2015-2021",
     "make": "Mazda",
     "model": "Carol",
     "generation": "HB36S",
@@ -4094,7 +4094,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-carol-hb37s-97s",
+    "id": "mazda-carol-hb37s-97s-2021-",
     "make": "Mazda",
     "model": "Carol",
     "generation": "HB37S/97S",
@@ -4102,7 +4102,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cosmo-hb",
+    "id": "mazda-cosmo-hb-1981-1990",
     "make": "Mazda",
     "model": "Cosmo",
     "generation": "HB",
@@ -4110,7 +4110,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-cronos-ge",
+    "id": "mazda-cronos-ge-1991-1995",
     "make": "Mazda",
     "model": "Cronos",
     "generation": "GE",
@@ -4118,7 +4118,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-demio-dw",
+    "id": "mazda-demio-dw-1996-2002",
     "make": "Mazda",
     "model": "Demio",
     "generation": "DW",
@@ -4126,7 +4126,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-demio-dy",
+    "id": "mazda-demio-dy-2002-2007",
     "make": "Mazda",
     "model": "Demio",
     "generation": "DY",
@@ -4134,7 +4134,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-demio-de",
+    "id": "mazda-demio-de-2007-2014",
     "make": "Mazda",
     "model": "Demio",
     "generation": "DE",
@@ -4142,7 +4142,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-demio-dj",
+    "id": "mazda-demio-dj-2014-2019",
     "make": "Mazda",
     "model": "Demio",
     "generation": "DJ",
@@ -4150,7 +4150,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-efini-mpv-lv",
+    "id": "mazda-efini-mpv-lv-1991-1997",
     "make": "Mazda",
     "model": "Efini MPV",
     "generation": "LV",
@@ -4158,7 +4158,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-efini-rx-7-fd",
+    "id": "mazda-efini-rx-7-fd-1991-1997",
     "make": "Mazda",
     "model": "Efini RX-7",
     "generation": "FD",
@@ -4166,7 +4166,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-eunos-100-bg",
+    "id": "mazda-eunos-100-bg-1989-1994",
     "make": "Mazda",
     "model": "Eunos 100",
     "generation": "BG",
@@ -4174,7 +4174,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-eunos-500-ca",
+    "id": "mazda-eunos-500-ca-1992-1995",
     "make": "Mazda",
     "model": "Eunos 500",
     "generation": "CA",
@@ -4182,7 +4182,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-eunos-800-ta",
+    "id": "mazda-eunos-800-ta-1993-1997",
     "make": "Mazda",
     "model": "Eunos 800",
     "generation": "TA",
@@ -4190,7 +4190,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-eunos-presso-ec",
+    "id": "mazda-eunos-presso-ec-1991-1998",
     "make": "Mazda",
     "model": "Eunos Presso",
     "generation": "EC",
@@ -4198,7 +4198,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-eunos-roadster-na",
+    "id": "mazda-eunos-roadster-na-1989-1997",
     "make": "Mazda",
     "model": "Eunos Roadster",
     "generation": "NA",
@@ -4206,7 +4206,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-familia-bd",
+    "id": "mazda-familia-bd-1980-1985",
     "make": "Mazda",
     "model": "Familia",
     "generation": "BD",
@@ -4214,7 +4214,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-familia-bg",
+    "id": "mazda-familia-bg-1985-1994",
     "make": "Mazda",
     "model": "Familia",
     "generation": "BG",
@@ -4222,7 +4222,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-familia-bj",
+    "id": "mazda-familia-bj-1998-2003",
     "make": "Mazda",
     "model": "Familia",
     "generation": "BJ",
@@ -4230,7 +4230,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-mpv-lv",
+    "id": "mazda-mpv-lv-1988-1999",
     "make": "Mazda",
     "model": "MPV",
     "generation": "LV",
@@ -4238,7 +4238,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-mpv-lw",
+    "id": "mazda-mpv-lw-1999-2006",
     "make": "Mazda",
     "model": "MPV",
     "generation": "LW",
@@ -4246,7 +4246,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-mpv-ly",
+    "id": "mazda-mpv-ly-2006-2016",
     "make": "Mazda",
     "model": "MPV",
     "generation": "LY",
@@ -4254,7 +4254,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-premacy-cp",
+    "id": "mazda-premacy-cp-1999-2005",
     "make": "Mazda",
     "model": "Premacy",
     "generation": "CP",
@@ -4262,7 +4262,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-premacy-cr",
+    "id": "mazda-premacy-cr-2005-2010",
     "make": "Mazda",
     "model": "Premacy",
     "generation": "CR",
@@ -4270,7 +4270,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-premacy-cw",
+    "id": "mazda-premacy-cw-2010-2018",
     "make": "Mazda",
     "model": "Premacy",
     "generation": "CW",
@@ -4278,7 +4278,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-proceed-levante-tf",
+    "id": "mazda-proceed-levante-tf-1995-1997",
     "make": "Mazda",
     "model": "Proceed Levante",
     "generation": "TF",
@@ -4286,7 +4286,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-proceed-levante-tj",
+    "id": "mazda-proceed-levante-tj-1997-1999",
     "make": "Mazda",
     "model": "Proceed Levante",
     "generation": "TJ",
@@ -4294,7 +4294,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-proceed-marvie-uv",
+    "id": "mazda-proceed-marvie-uv-1991-1999",
     "make": "Mazda",
     "model": "Proceed Marvie",
     "generation": "UV",
@@ -4302,7 +4302,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-proceed-uf",
+    "id": "mazda-proceed-uf-1990-1999",
     "make": "Mazda",
     "model": "Proceed",
     "generation": "UF",
@@ -4310,7 +4310,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-protege-bh",
+    "id": "mazda-protege-bh-1994-1998",
     "make": "Mazda",
     "model": "Protege",
     "generation": "BH",
@@ -4318,7 +4318,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-protege-bj",
+    "id": "mazda-protege-bj-1998-2003",
     "make": "Mazda",
     "model": "Protege",
     "generation": "BJ",
@@ -4326,7 +4326,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-rx-7-fc",
+    "id": "mazda-rx-7-fc-1985-1991",
     "make": "Mazda",
     "model": "RX-7",
     "generation": "FC",
@@ -4334,7 +4334,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-rx-7-fd",
+    "id": "mazda-rx-7-fd-1991-2002",
     "make": "Mazda",
     "model": "RX-7",
     "generation": "FD",
@@ -4342,7 +4342,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-rx-8-se",
+    "id": "mazda-rx-8-se-2003-2012",
     "make": "Mazda",
     "model": "RX-8",
     "generation": "SE",
@@ -4350,7 +4350,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-roadster-na",
+    "id": "mazda-roadster-na-1989-1997",
     "make": "Mazda",
     "model": "Roadster",
     "generation": "NA",
@@ -4358,7 +4358,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-roadster-nb",
+    "id": "mazda-roadster-nb-1998-2005",
     "make": "Mazda",
     "model": "Roadster",
     "generation": "NB",
@@ -4366,7 +4366,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-roadster-nc",
+    "id": "mazda-roadster-nc-2005-2015",
     "make": "Mazda",
     "model": "Roadster",
     "generation": "NC",
@@ -4374,7 +4374,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-roadster-nd",
+    "id": "mazda-roadster-nd-2015-",
     "make": "Mazda",
     "model": "Roadster",
     "generation": "ND",
@@ -4382,7 +4382,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-scrum-dg52",
+    "id": "mazda-scrum-dg52-1999-2013",
     "make": "Mazda",
     "model": "Scrum",
     "generation": "DG52",
@@ -4390,7 +4390,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-scrum-dg16-dg64",
+    "id": "mazda-scrum-dg16-dg64-2005-",
     "make": "Mazda",
     "model": "Scrum",
     "generation": "DG16/DG64",
@@ -4398,7 +4398,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-scrum-dg17",
+    "id": "mazda-scrum-dg17-2015-",
     "make": "Mazda",
     "model": "Scrum",
     "generation": "DG17",
@@ -4406,7 +4406,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-sentia-hd",
+    "id": "mazda-sentia-hd-1991-1995",
     "make": "Mazda",
     "model": "Sentia",
     "generation": "HD",
@@ -4414,7 +4414,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-sentia-he",
+    "id": "mazda-sentia-he-1995-2000",
     "make": "Mazda",
     "model": "Sentia",
     "generation": "HE",
@@ -4422,7 +4422,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-tribute-ep",
+    "id": "mazda-tribute-ep-2000-2007",
     "make": "Mazda",
     "model": "Tribute",
     "generation": "EP",
@@ -4430,7 +4430,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-verisa-dc",
+    "id": "mazda-verisa-dc-2004-2015",
     "make": "Mazda",
     "model": "Verisa",
     "generation": "DC",
@@ -4438,7 +4438,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-xedos-6-ta",
+    "id": "mazda-xedos-6-ta-1992-1999",
     "make": "Mazda",
     "model": "Xedos 6",
     "generation": "TA",
@@ -4446,7 +4446,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mazda-xedos-9-ta",
+    "id": "mazda-xedos-9-ta-1993-2002",
     "make": "Mazda",
     "model": "Xedos 9",
     "generation": "TA",
@@ -4454,7 +4454,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-i",
+    "id": "mitsubishi-lancer-evolution-i-1992-1994",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "I",
@@ -4462,7 +4462,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-ii",
+    "id": "mitsubishi-lancer-evolution-ii-1994-1995",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "II",
@@ -4470,7 +4470,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-iii",
+    "id": "mitsubishi-lancer-evolution-iii-1995-1996",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "III",
@@ -4478,7 +4478,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-iv",
+    "id": "mitsubishi-lancer-evolution-iv-1996-1998",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "IV",
@@ -4486,7 +4486,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-v",
+    "id": "mitsubishi-lancer-evolution-v-1998-1999",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "V",
@@ -4494,7 +4494,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-vi",
+    "id": "mitsubishi-lancer-evolution-vi-1999-2001",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "VI",
@@ -4502,7 +4502,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-vii",
+    "id": "mitsubishi-lancer-evolution-vii-2001-2003",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "VII",
@@ -4510,7 +4510,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-viii",
+    "id": "mitsubishi-lancer-evolution-viii-2003-2005",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "VIII",
@@ -4518,7 +4518,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-ix",
+    "id": "mitsubishi-lancer-evolution-ix-2005-2007",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "IX",
@@ -4526,7 +4526,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-lancer-evolution-x",
+    "id": "mitsubishi-lancer-evolution-x-2007-2016",
     "make": "Mitsubishi",
     "model": "Lancer Evolution",
     "generation": "X",
@@ -4534,7 +4534,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-legnum-ea-ec",
+    "id": "mitsubishi-legnum-ea-ec-1996-2002",
     "make": "Mitsubishi",
     "model": "Legnum",
     "generation": "EA/EC",
@@ -4542,7 +4542,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-libero-cb-cd",
+    "id": "mitsubishi-libero-cb-cd-1992-2002",
     "make": "Mitsubishi",
     "model": "Libero",
     "generation": "CB/CD",
@@ -4550,7 +4550,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minica-h20",
+    "id": "mitsubishi-minica-h20-1989-1993",
     "make": "Mitsubishi",
     "model": "Minica",
     "generation": "H20",
@@ -4558,7 +4558,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minica-h30",
+    "id": "mitsubishi-minica-h30-1993-1998",
     "make": "Mitsubishi",
     "model": "Minica",
     "generation": "H30",
@@ -4566,7 +4566,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minica-h40",
+    "id": "mitsubishi-minica-h40-1998-2011",
     "make": "Mitsubishi",
     "model": "Minica",
     "generation": "H40",
@@ -4574,7 +4574,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minica-toppo-h20",
+    "id": "mitsubishi-minica-toppo-h20-1990-1993",
     "make": "Mitsubishi",
     "model": "Minica Toppo",
     "generation": "H20",
@@ -4582,7 +4582,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minica-toppo-h30",
+    "id": "mitsubishi-minica-toppo-h30-1993-1998",
     "make": "Mitsubishi",
     "model": "Minica Toppo",
     "generation": "H30",
@@ -4590,7 +4590,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minicab-u10-u11",
+    "id": "mitsubishi-minicab-u10-u11-1976-1984",
     "make": "Mitsubishi",
     "model": "Minicab",
     "generation": "U10/U11",
@@ -4598,7 +4598,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minicab-u14-u15",
+    "id": "mitsubishi-minicab-u14-u15-1984-1990",
     "make": "Mitsubishi",
     "model": "Minicab",
     "generation": "U14/U15",
@@ -4606,7 +4606,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minicab-u40",
+    "id": "mitsubishi-minicab-u40-1991-1999",
     "make": "Mitsubishi",
     "model": "Minicab",
     "generation": "U40",
@@ -4614,7 +4614,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minicab-u60",
+    "id": "mitsubishi-minicab-u60-1999-2014",
     "make": "Mitsubishi",
     "model": "Minicab",
     "generation": "U60",
@@ -4622,7 +4622,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minicab-ds16",
+    "id": "mitsubishi-minicab-ds16-2014-",
     "make": "Mitsubishi",
     "model": "Minicab",
     "generation": "DS16",
@@ -4630,7 +4630,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-minicab-miev-u67v",
+    "id": "mitsubishi-minicab-miev-u67v-2011-",
     "make": "Mitsubishi",
     "model": "Minicab MiEV",
     "generation": "U67V",
@@ -4638,7 +4638,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-mirage-a150",
+    "id": "mitsubishi-mirage-a150-1978-1983",
     "make": "Mitsubishi",
     "model": "Mirage",
     "generation": "A150",
@@ -4646,7 +4646,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-mirage-c10",
+    "id": "mitsubishi-mirage-c10-1983-1987",
     "make": "Mitsubishi",
     "model": "Mirage",
     "generation": "C10",
@@ -4654,7 +4654,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-mirage-c50",
+    "id": "mitsubishi-mirage-c50-1987-1992",
     "make": "Mitsubishi",
     "model": "Mirage",
     "generation": "C50",
@@ -4662,7 +4662,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-mirage-cb-cd",
+    "id": "mitsubishi-mirage-cb-cd-1991-1995",
     "make": "Mitsubishi",
     "model": "Mirage",
     "generation": "CB/CD",
@@ -4670,7 +4670,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-mirage-cj-ck",
+    "id": "mitsubishi-mirage-cj-ck-1995-2002",
     "make": "Mitsubishi",
     "model": "Mirage",
     "generation": "CJ/CK",
@@ -4678,7 +4678,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-mirage-a00",
+    "id": "mitsubishi-mirage-a00-2012-",
     "make": "Mitsubishi",
     "model": "Mirage",
     "generation": "A00",
@@ -4686,7 +4686,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-mirage-dingo-cq",
+    "id": "mitsubishi-mirage-dingo-cq-1998-2002",
     "make": "Mitsubishi",
     "model": "Mirage Dingo",
     "generation": "CQ",
@@ -4694,7 +4694,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-outlander-cu0w",
+    "id": "mitsubishi-outlander-cu0w-2002-2009",
     "make": "Mitsubishi",
     "model": "Outlander",
     "generation": "CU0W",
@@ -4702,7 +4702,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-outlander-cw0w",
+    "id": "mitsubishi-outlander-cw0w-2005-2012",
     "make": "Mitsubishi",
     "model": "Outlander",
     "generation": "CW0W",
@@ -4710,7 +4710,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-outlander-gf0w-gg0w",
+    "id": "mitsubishi-outlander-gf0w-gg0w-2012-2022",
     "make": "Mitsubishi",
     "model": "Outlander",
     "generation": "GF0W/GG0W",
@@ -4718,7 +4718,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-outlander-gn0w",
+    "id": "mitsubishi-outlander-gn0w-2021-",
     "make": "Mitsubishi",
     "model": "Outlander",
     "generation": "GN0W",
@@ -4726,7 +4726,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-outlander-sport-ga",
+    "id": "mitsubishi-outlander-sport-ga-2010-",
     "make": "Mitsubishi",
     "model": "Outlander Sport",
     "generation": "GA",
@@ -4734,7 +4734,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-pajero-l040",
+    "id": "mitsubishi-pajero-l040-1981-1990",
     "make": "Mitsubishi",
     "model": "Pajero",
     "generation": "L040",
@@ -4742,7 +4742,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-pajero-v20",
+    "id": "mitsubishi-pajero-v20-1991-2005",
     "make": "Mitsubishi",
     "model": "Pajero",
     "generation": "V20",
@@ -4750,7 +4750,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-pajero-mini-h51-56",
+    "id": "mitsubishi-pajero-mini-h51-56-1994-1998",
     "make": "Mitsubishi",
     "model": "Pajero Mini",
     "generation": "H51/56",
@@ -4758,7 +4758,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-pajero-mini-h53-58",
+    "id": "mitsubishi-pajero-mini-h53-58-1998-2012",
     "make": "Mitsubishi",
     "model": "Pajero Mini",
     "generation": "H53/58",
@@ -4766,7 +4766,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-pajero-junior-h57",
+    "id": "mitsubishi-pajero-junior-h57-1995-1998",
     "make": "Mitsubishi",
     "model": "Pajero Junior",
     "generation": "H57",
@@ -4774,7 +4774,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-ek-wagon-b30",
+    "id": "mitsubishi-ek-wagon-b30-2019-",
     "make": "Mitsubishi",
     "model": "eK Wagon",
     "generation": "B30",
@@ -4782,7 +4782,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-ek-x-b30",
+    "id": "mitsubishi-ek-x-b30-2019-",
     "make": "Mitsubishi",
     "model": "eK X",
     "generation": "B30",
@@ -4790,7 +4790,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-ek-x-ev-b5",
+    "id": "mitsubishi-ek-x-ev-b5-2022-",
     "make": "Mitsubishi",
     "model": "eK X EV",
     "generation": "B5",
@@ -4798,7 +4798,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-ek-custom-b11",
+    "id": "mitsubishi-ek-custom-b11-2013-2019",
     "make": "Mitsubishi",
     "model": "eK Custom",
     "generation": "B11",
@@ -4806,7 +4806,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-i-ha1",
+    "id": "mitsubishi-i-ha1-2006-2013",
     "make": "Mitsubishi",
     "model": "i",
     "generation": "HA1",
@@ -4814,7 +4814,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "mitsubishi-i-miev-ha",
+    "id": "mitsubishi-i-miev-ha-2009-2021",
     "make": "Mitsubishi",
     "model": "i-MiEV",
     "generation": "HA",
@@ -4822,7 +4822,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-alcyone-ax",
+    "id": "subaru-alcyone-ax-1985-1991",
     "make": "Subaru",
     "model": "Alcyone",
     "generation": "AX",
@@ -4830,7 +4830,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-alcyone-cx",
+    "id": "subaru-alcyone-cx-1991-1997",
     "make": "Subaru",
     "model": "Alcyone",
     "generation": "CX",
@@ -4838,7 +4838,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-ascent-wm",
+    "id": "subaru-ascent-wm-2017-",
     "make": "Subaru",
     "model": "Ascent",
     "generation": "WM",
@@ -4846,7 +4846,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-b9-tribeca-wx-w10",
+    "id": "subaru-b9-tribeca-wx-w10-2004-2008",
     "make": "Subaru",
     "model": "B9 Tribeca",
     "generation": "WX/W10",
@@ -4854,7 +4854,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-brz-zc6",
+    "id": "subaru-brz-zc6-2012-2021",
     "make": "Subaru",
     "model": "BRZ",
     "generation": "ZC6",
@@ -4862,7 +4862,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-brz-zd8",
+    "id": "subaru-brz-zd8-2021-",
     "make": "Subaru",
     "model": "BRZ",
     "generation": "ZD8",
@@ -4870,7 +4870,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-baja-bt-b12",
+    "id": "subaru-baja-bt-b12-2002-2006",
     "make": "Subaru",
     "model": "Baja",
     "generation": "BT/B12",
@@ -4878,7 +4878,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-chiffon-la650-660",
+    "id": "subaru-chiffon-la650-660-2016-2019",
     "make": "Subaru",
     "model": "Chiffon",
     "generation": "LA650/660",
@@ -4886,7 +4886,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-chiffon-la650-660",
+    "id": "subaru-chiffon-la650-660-2019-",
     "make": "Subaru",
     "model": "Chiffon",
     "generation": "LA650/660",
@@ -4894,7 +4894,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-crosstrek-gp",
+    "id": "subaru-crosstrek-gp-2012-2017",
     "make": "Subaru",
     "model": "Crosstrek",
     "generation": "GP",
@@ -4902,7 +4902,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-crosstrek-gt",
+    "id": "subaru-crosstrek-gt-2017-2023",
     "make": "Subaru",
     "model": "Crosstrek",
     "generation": "GT",
@@ -4910,7 +4910,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-crosstrek-gu",
+    "id": "subaru-crosstrek-gu-2022-",
     "make": "Subaru",
     "model": "Crosstrek",
     "generation": "GU",
@@ -4918,7 +4918,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-dex-m401-411",
+    "id": "subaru-dex-m401-411-2008-2012",
     "make": "Subaru",
     "model": "Dex",
     "generation": "M401/411",
@@ -4926,7 +4926,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-dias-wagon-s321-331",
+    "id": "subaru-dias-wagon-s321-331-2009-2020",
     "make": "Subaru",
     "model": "Dias Wagon",
     "generation": "S321/331",
@@ -4934,7 +4934,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-domingo-kj-d10",
+    "id": "subaru-domingo-kj-d10-1983-1994",
     "make": "Subaru",
     "model": "Domingo",
     "generation": "KJ/D10",
@@ -4942,7 +4942,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-domingo-fa-d11",
+    "id": "subaru-domingo-fa-d11-1994-1998",
     "make": "Subaru",
     "model": "Domingo",
     "generation": "FA/D11",
@@ -4950,7 +4950,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-exiga-ya-y10",
+    "id": "subaru-exiga-ya-y10-2008-2015",
     "make": "Subaru",
     "model": "Exiga",
     "generation": "YA/Y10",
@@ -4958,7 +4958,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-exiga-crossover-7-ya-y10",
+    "id": "subaru-exiga-crossover-7-ya-y10-2015-2018",
     "make": "Subaru",
     "model": "Exiga Crossover 7",
     "generation": "YA/Y10",
@@ -4966,7 +4966,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-forester-sf-s10",
+    "id": "subaru-forester-sf-s10-1997-2002",
     "make": "Subaru",
     "model": "Forester",
     "generation": "SF/S10",
@@ -4974,7 +4974,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-forester-sg-s11",
+    "id": "subaru-forester-sg-s11-2002-2008",
     "make": "Subaru",
     "model": "Forester",
     "generation": "SG/S11",
@@ -4982,7 +4982,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-forester-sh-s12",
+    "id": "subaru-forester-sh-s12-2007-2013",
     "make": "Subaru",
     "model": "Forester",
     "generation": "SH/S12",
@@ -4990,7 +4990,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-forester-sj-s13",
+    "id": "subaru-forester-sj-s13-2012-2019",
     "make": "Subaru",
     "model": "Forester",
     "generation": "SJ/S13",
@@ -4998,7 +4998,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-forester-sk-s14",
+    "id": "subaru-forester-sk-s14-2018-",
     "make": "Subaru",
     "model": "Forester",
     "generation": "SK/S14",
@@ -5006,7 +5006,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-forester-sl",
+    "id": "subaru-forester-sl-2023-",
     "make": "Subaru",
     "model": "Forester",
     "generation": "SL",
@@ -5014,7 +5014,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-gc-gf-g10",
+    "id": "subaru-impreza-gc-gf-g10-1992-2000",
     "make": "Subaru",
     "model": "Impreza",
     "generation": "GC/GF/G10",
@@ -5022,7 +5022,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-gd-gg-g11",
+    "id": "subaru-impreza-gd-gg-g11-2000-2007",
     "make": "Subaru",
     "model": "Impreza",
     "generation": "GD/GG/G11",
@@ -5030,7 +5030,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-ge-gh-gr-gv-g12-g22",
+    "id": "subaru-impreza-ge-gh-gr-gv-g12-g22-2007-2011",
     "make": "Subaru",
     "model": "Impreza",
     "generation": "GE/GH/GR/GV/G12/G22",
@@ -5038,7 +5038,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-gp-gj-g13-g23",
+    "id": "subaru-impreza-gp-gj-g13-g23-2011-2017",
     "make": "Subaru",
     "model": "Impreza",
     "generation": "GP/GJ/G13/G23",
@@ -5046,7 +5046,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-gk-gt-g14",
+    "id": "subaru-impreza-gk-gt-g14-2016-",
     "make": "Subaru",
     "model": "Impreza",
     "generation": "GK/GT/G14",
@@ -5054,7 +5054,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-gu",
+    "id": "subaru-impreza-gu-2022-",
     "make": "Subaru",
     "model": "Impreza",
     "generation": "GU",
@@ -5062,7 +5062,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-gc-gf",
+    "id": "subaru-impreza-wrx-gc-gf-1992-2000",
     "make": "Subaru",
     "model": "Impreza WRX",
     "generation": "GC/GF",
@@ -5070,7 +5070,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-gd-gg",
+    "id": "subaru-impreza-wrx-gd-gg-2000-2007",
     "make": "Subaru",
     "model": "Impreza WRX",
     "generation": "GD/GG",
@@ -5078,7 +5078,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-ge-gh-gr-gv",
+    "id": "subaru-impreza-wrx-ge-gh-gr-gv-2007-2014",
     "make": "Subaru",
     "model": "Impreza WRX",
     "generation": "GE/GH/GR/GV",
@@ -5086,7 +5086,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-va",
+    "id": "subaru-impreza-wrx-va-2014-2021",
     "make": "Subaru",
     "model": "Impreza WRX",
     "generation": "VA",
@@ -5094,7 +5094,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-vb",
+    "id": "subaru-impreza-wrx-vb-2021-",
     "make": "Subaru",
     "model": "Impreza WRX",
     "generation": "VB",
@@ -5102,7 +5102,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-sti-gc-gf",
+    "id": "subaru-impreza-wrx-sti-gc-gf-1994-2000",
     "make": "Subaru",
     "model": "Impreza WRX STI",
     "generation": "GC/GF",
@@ -5110,7 +5110,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-sti-gd-gg",
+    "id": "subaru-impreza-wrx-sti-gd-gg-2000-2007",
     "make": "Subaru",
     "model": "Impreza WRX STI",
     "generation": "GD/GG",
@@ -5118,7 +5118,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-sti-gh-gr-ge-gv",
+    "id": "subaru-impreza-wrx-sti-gh-gr-ge-gv-2007-2014",
     "make": "Subaru",
     "model": "Impreza WRX STI",
     "generation": "GH/GR/GE/GV",
@@ -5126,7 +5126,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-impreza-wrx-sti-va",
+    "id": "subaru-impreza-wrx-sti-va-2014-2021",
     "make": "Subaru",
     "model": "Impreza WRX STI",
     "generation": "VA",
@@ -5134,7 +5134,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-justy-ka-kd-j10",
+    "id": "subaru-justy-ka-kd-j10-1984-1995",
     "make": "Subaru",
     "model": "Justy",
     "generation": "KA/KD/J10",
@@ -5142,7 +5142,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-justy-jma-ms",
+    "id": "subaru-justy-jma-ms-1995-2003",
     "make": "Subaru",
     "model": "Justy",
     "generation": "JMA/MS",
@@ -5150,7 +5150,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-justy-m300",
+    "id": "subaru-justy-m300-2007-2011",
     "make": "Subaru",
     "model": "Justy",
     "generation": "M300",
@@ -5158,7 +5158,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-b4-be",
+    "id": "subaru-legacy-b4-be-1998-2003",
     "make": "Subaru",
     "model": "Legacy B4",
     "generation": "BE",
@@ -5166,7 +5166,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-b4-bl",
+    "id": "subaru-legacy-b4-bl-2003-2009",
     "make": "Subaru",
     "model": "Legacy B4",
     "generation": "BL",
@@ -5174,7 +5174,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-b4-bm",
+    "id": "subaru-legacy-b4-bm-2009-2014",
     "make": "Subaru",
     "model": "Legacy B4",
     "generation": "BM",
@@ -5182,7 +5182,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-b4-bn",
+    "id": "subaru-legacy-b4-bn-2014-2020",
     "make": "Subaru",
     "model": "Legacy B4",
     "generation": "BN",
@@ -5190,7 +5190,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-bc-bj-bf",
+    "id": "subaru-legacy-bc-bj-bf-1989-1994",
     "make": "Subaru",
     "model": "Legacy",
     "generation": "BC/BJ/BF",
@@ -5198,7 +5198,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-bd-bg",
+    "id": "subaru-legacy-bd-bg-1994-1999",
     "make": "Subaru",
     "model": "Legacy",
     "generation": "BD/BG",
@@ -5206,7 +5206,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-be-bh",
+    "id": "subaru-legacy-be-bh-1998-2003",
     "make": "Subaru",
     "model": "Legacy",
     "generation": "BE/BH",
@@ -5214,7 +5214,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-bl-bp",
+    "id": "subaru-legacy-bl-bp-2003-2009",
     "make": "Subaru",
     "model": "Legacy",
     "generation": "BL/BP",
@@ -5222,7 +5222,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-bm-br",
+    "id": "subaru-legacy-bm-br-2009-2014",
     "make": "Subaru",
     "model": "Legacy",
     "generation": "BM/BR",
@@ -5230,7 +5230,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-legacy-bn-bs",
+    "id": "subaru-legacy-bn-bs-2014-2020",
     "make": "Subaru",
     "model": "Legacy",
     "generation": "BN/BS",
@@ -5238,7 +5238,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-outback-bg",
+    "id": "subaru-outback-bg-1994-1999",
     "make": "Subaru",
     "model": "Outback",
     "generation": "BG",
@@ -5246,7 +5246,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-outback-bh",
+    "id": "subaru-outback-bh-1998-2003",
     "make": "Subaru",
     "model": "Outback",
     "generation": "BH",
@@ -5254,7 +5254,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-outback-bp",
+    "id": "subaru-outback-bp-2003-2009",
     "make": "Subaru",
     "model": "Outback",
     "generation": "BP",
@@ -5262,7 +5262,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-outback-br",
+    "id": "subaru-outback-br-2009-2014",
     "make": "Subaru",
     "model": "Outback",
     "generation": "BR",
@@ -5270,7 +5270,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-outback-bs",
+    "id": "subaru-outback-bs-2014-2020",
     "make": "Subaru",
     "model": "Outback",
     "generation": "BS",
@@ -5278,7 +5278,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-outback-bt",
+    "id": "subaru-outback-bt-2020-",
     "make": "Subaru",
     "model": "Outback",
     "generation": "BT",
@@ -5286,7 +5286,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-r1-rj",
+    "id": "subaru-r1-rj-2005-2010",
     "make": "Subaru",
     "model": "R1",
     "generation": "RJ",
@@ -5294,7 +5294,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-r2-rc",
+    "id": "subaru-r2-rc-2003-2010",
     "make": "Subaru",
     "model": "R2",
     "generation": "RC",
@@ -5302,7 +5302,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-sambar-ks-kv",
+    "id": "subaru-sambar-ks-kv-1990-1998",
     "make": "Subaru",
     "model": "Sambar",
     "generation": "KS/KV",
@@ -5310,7 +5310,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-sambar-tt-tv-tw",
+    "id": "subaru-sambar-tt-tv-tw-1999-2012",
     "make": "Subaru",
     "model": "Sambar",
     "generation": "TT/TV/TW",
@@ -5318,7 +5318,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-sambar-s500-s510",
+    "id": "subaru-sambar-s500-s510-2014-",
     "make": "Subaru",
     "model": "Sambar",
     "generation": "S500/S510",
@@ -5326,7 +5326,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-stella-rn",
+    "id": "subaru-stella-rn-2006-2011",
     "make": "Subaru",
     "model": "Stella",
     "generation": "RN",
@@ -5334,7 +5334,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-stella-la100-110",
+    "id": "subaru-stella-la100-110-2011-2014",
     "make": "Subaru",
     "model": "Stella",
     "generation": "LA100/110",
@@ -5342,7 +5342,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-stella-la150-160",
+    "id": "subaru-stella-la150-160-2014-",
     "make": "Subaru",
     "model": "Stella",
     "generation": "LA150/160",
@@ -5350,7 +5350,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-tribeca-wx",
+    "id": "subaru-tribeca-wx-2005-2014",
     "make": "Subaru",
     "model": "Tribeca",
     "generation": "WX",
@@ -5358,7 +5358,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "subaru-vivio-kk-kw",
+    "id": "subaru-vivio-kk-kw-1992-1998",
     "make": "Subaru",
     "model": "Vivio",
     "generation": "KK/KW",
@@ -5366,7 +5366,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-baleno-wb",
+    "id": "suzuki-baleno-wb-2022-",
     "make": "Suzuki",
     "model": "Baleno",
     "generation": "WB",
@@ -5374,7 +5374,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-cappuccino-ea11r-ea21r",
+    "id": "suzuki-cappuccino-ea11r-ea21r-1991-1997",
     "make": "Suzuki",
     "model": "Cappuccino",
     "generation": "EA11R/EA21R",
@@ -5382,7 +5382,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-carry-van-st30",
+    "id": "suzuki-carry-van-st30-1979-1982",
     "make": "Suzuki",
     "model": "Carry Van",
     "generation": "ST30",
@@ -5390,7 +5390,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-cervo-hg21s",
+    "id": "suzuki-cervo-hg21s-2006-2009",
     "make": "Suzuki",
     "model": "Cervo",
     "generation": "HG21S",
@@ -5398,7 +5398,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-ciaz-vc",
+    "id": "suzuki-ciaz-vc-2015-2025",
     "make": "Suzuki",
     "model": "Ciaz",
     "generation": "VC",
@@ -5406,7 +5406,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-cultus-aa-af",
+    "id": "suzuki-cultus-aa-af-1988-1998",
     "make": "Suzuki",
     "model": "Cultus",
     "generation": "AA/AF",
@@ -5414,7 +5414,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-cultus-ga-gc",
+    "id": "suzuki-cultus-ga-gc-1995-2002",
     "make": "Suzuki",
     "model": "Cultus",
     "generation": "GA/GC",
@@ -5422,7 +5422,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-escudo-ta01",
+    "id": "suzuki-escudo-ta01-1988-1997",
     "make": "Suzuki",
     "model": "Escudo",
     "generation": "TA01",
@@ -5430,7 +5430,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-escudo-td01",
+    "id": "suzuki-escudo-td01-1997-2005",
     "make": "Suzuki",
     "model": "Escudo",
     "generation": "TD01",
@@ -5438,7 +5438,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-escudo-td54-94",
+    "id": "suzuki-escudo-td54-94-2005-2017",
     "make": "Suzuki",
     "model": "Escudo",
     "generation": "TD54/94",
@@ -5446,7 +5446,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-escudo-yea1s",
+    "id": "suzuki-escudo-yea1s-2015-2023",
     "make": "Suzuki",
     "model": "Escudo",
     "generation": "YEA1S",
@@ -5454,7 +5454,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-esteem-sy",
+    "id": "suzuki-esteem-sy-1995-2001",
     "make": "Suzuki",
     "model": "Esteem",
     "generation": "SY",
@@ -5462,7 +5462,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-every-da-db",
+    "id": "suzuki-every-da-db-1985-1991",
     "make": "Suzuki",
     "model": "Every",
     "generation": "DA/DB",
@@ -5470,7 +5470,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-every-de-df",
+    "id": "suzuki-every-de-df-1991-1998",
     "make": "Suzuki",
     "model": "Every",
     "generation": "DE/DF",
@@ -5478,7 +5478,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-every-da52-62",
+    "id": "suzuki-every-da52-62-1999-2005",
     "make": "Suzuki",
     "model": "Every",
     "generation": "DA52/62",
@@ -5486,7 +5486,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-every-da64",
+    "id": "suzuki-every-da64-2005-2015",
     "make": "Suzuki",
     "model": "Every",
     "generation": "DA64",
@@ -5494,7 +5494,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-every-da17",
+    "id": "suzuki-every-da17-2015-",
     "make": "Suzuki",
     "model": "Every",
     "generation": "DA17",
@@ -5502,7 +5502,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-fronx-wb",
+    "id": "suzuki-fronx-wb-2023-",
     "make": "Suzuki",
     "model": "Fronx",
     "generation": "WB",
@@ -5510,7 +5510,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-grand-escudo-tx92",
+    "id": "suzuki-grand-escudo-tx92-2000-2005",
     "make": "Suzuki",
     "model": "Grand Escudo",
     "generation": "TX92",
@@ -5518,7 +5518,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-grand-vitara-ft-gt",
+    "id": "suzuki-grand-vitara-ft-gt-1997-2005",
     "make": "Suzuki",
     "model": "Grand Vitara",
     "generation": "FT/GT",
@@ -5526,7 +5526,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-grand-vitara-jt",
+    "id": "suzuki-grand-vitara-jt-2005-2016",
     "make": "Suzuki",
     "model": "Grand Vitara",
     "generation": "JT",
@@ -5534,7 +5534,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-grand-vitara-xl-7-tx92",
+    "id": "suzuki-grand-vitara-xl-7-tx92-2000-2006",
     "make": "Suzuki",
     "model": "Grand Vitara XL-7",
     "generation": "TX92",
@@ -5542,7 +5542,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-hustler-mr31-41",
+    "id": "suzuki-hustler-mr31-41-2014-2019",
     "make": "Suzuki",
     "model": "Hustler",
     "generation": "MR31/41",
@@ -5550,7 +5550,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-hustler-mr52-92",
+    "id": "suzuki-hustler-mr52-92-2019-",
     "make": "Suzuki",
     "model": "Hustler",
     "generation": "MR52/92",
@@ -5558,7 +5558,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-ignis-ht",
+    "id": "suzuki-ignis-ht-2000-2007",
     "make": "Suzuki",
     "model": "Ignis",
     "generation": "HT",
@@ -5566,7 +5566,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-ignis-mf",
+    "id": "suzuki-ignis-mf-2015-2025",
     "make": "Suzuki",
     "model": "Ignis",
     "generation": "MF",
@@ -5574,7 +5574,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-lj10-20",
+    "id": "suzuki-jimny-lj10-20-1970-1981",
     "make": "Suzuki",
     "model": "Jimny",
     "generation": "LJ10/20",
@@ -5582,7 +5582,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-sj30-40",
+    "id": "suzuki-jimny-sj30-40-1982-1998",
     "make": "Suzuki",
     "model": "Jimny",
     "generation": "SJ30/40",
@@ -5590,7 +5590,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-jb23-jb43",
+    "id": "suzuki-jimny-jb23-jb43-1998-2019",
     "make": "Suzuki",
     "model": "Jimny",
     "generation": "JB23/JB43",
@@ -5598,7 +5598,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-jb64",
+    "id": "suzuki-jimny-jb64-2018-",
     "make": "Suzuki",
     "model": "Jimny",
     "generation": "JB64",
@@ -5606,7 +5606,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-sierra-jb31",
+    "id": "suzuki-jimny-sierra-jb31-1993-1997",
     "make": "Suzuki",
     "model": "Jimny Sierra",
     "generation": "JB31",
@@ -5614,7 +5614,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-sierra-jb43",
+    "id": "suzuki-jimny-sierra-jb43-2002-2018",
     "make": "Suzuki",
     "model": "Jimny Sierra",
     "generation": "JB43",
@@ -5622,7 +5622,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-sierra-jb74",
+    "id": "suzuki-jimny-sierra-jb74-2018-",
     "make": "Suzuki",
     "model": "Jimny Sierra",
     "generation": "JB74",
@@ -5630,7 +5630,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-jimny-wide-jb33",
+    "id": "suzuki-jimny-wide-jb33-1998-2002",
     "make": "Suzuki",
     "model": "Jimny Wide",
     "generation": "JB33",
@@ -5638,7 +5638,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-kei-hn11-12-21-22",
+    "id": "suzuki-kei-hn11-12-21-22-1998-2009",
     "make": "Suzuki",
     "model": "Kei",
     "generation": "HN11/12/21/22",
@@ -5646,7 +5646,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-kizashi-fr",
+    "id": "suzuki-kizashi-fr-2009-2015",
     "make": "Suzuki",
     "model": "Kizashi",
     "generation": "FR",
@@ -5654,7 +5654,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-landy-sc25",
+    "id": "suzuki-landy-sc25-2007-2010",
     "make": "Suzuki",
     "model": "Landy",
     "generation": "SC25",
@@ -5662,7 +5662,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-landy-sc26",
+    "id": "suzuki-landy-sc26-2010-2016",
     "make": "Suzuki",
     "model": "Landy",
     "generation": "SC26",
@@ -5670,7 +5670,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-landy-sc27",
+    "id": "suzuki-landy-sc27-2016-2022",
     "make": "Suzuki",
     "model": "Landy",
     "generation": "SC27",
@@ -5678,7 +5678,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-landy-r90c",
+    "id": "suzuki-landy-r90c-2022-",
     "make": "Suzuki",
     "model": "Landy",
     "generation": "R90C",
@@ -5686,7 +5686,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-liana-er",
+    "id": "suzuki-liana-er-2001-2007",
     "make": "Suzuki",
     "model": "Liana",
     "generation": "ER",
@@ -5694,7 +5694,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-mr-wagon-mf21",
+    "id": "suzuki-mr-wagon-mf21-2001-2005",
     "make": "Suzuki",
     "model": "MR Wagon",
     "generation": "MF21",
@@ -5702,7 +5702,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-mr-wagon-mf22",
+    "id": "suzuki-mr-wagon-mf22-2006-2010",
     "make": "Suzuki",
     "model": "MR Wagon",
     "generation": "MF22",
@@ -5710,7 +5710,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-mr-wagon-mf33",
+    "id": "suzuki-mr-wagon-mf33-2011-2016",
     "make": "Suzuki",
     "model": "MR Wagon",
     "generation": "MF33",
@@ -5718,7 +5718,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-palette-mk21s",
+    "id": "suzuki-palette-mk21s-2008-2013",
     "make": "Suzuki",
     "model": "Palette",
     "generation": "MK21S",
@@ -5726,7 +5726,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-solio-ma15",
+    "id": "suzuki-solio-ma15-2010-2015",
     "make": "Suzuki",
     "model": "Solio",
     "generation": "MA15",
@@ -5734,7 +5734,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-solio-ma26-36",
+    "id": "suzuki-solio-ma26-36-2015-2020",
     "make": "Suzuki",
     "model": "Solio",
     "generation": "MA26/36",
@@ -5742,7 +5742,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-solio-ma27-37",
+    "id": "suzuki-solio-ma27-37-2020-",
     "make": "Suzuki",
     "model": "Solio",
     "generation": "MA27/37",
@@ -5750,7 +5750,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-spacia-mk32-42",
+    "id": "suzuki-spacia-mk32-42-2013-2017",
     "make": "Suzuki",
     "model": "Spacia",
     "generation": "MK32/42",
@@ -5758,7 +5758,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-spacia-mk53",
+    "id": "suzuki-spacia-mk53-2017-",
     "make": "Suzuki",
     "model": "Spacia",
     "generation": "MK53",
@@ -5766,7 +5766,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-spacia-mk94",
+    "id": "suzuki-spacia-mk94-2023-",
     "make": "Suzuki",
     "model": "Spacia",
     "generation": "MK94",
@@ -5774,7 +5774,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-splash-xb32",
+    "id": "suzuki-splash-xb32-2007-2015",
     "make": "Suzuki",
     "model": "Splash",
     "generation": "XB32",
@@ -5782,7 +5782,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-swift-sa-ea",
+    "id": "suzuki-swift-sa-ea-1989-2004",
     "make": "Suzuki",
     "model": "Swift",
     "generation": "SA/EA",
@@ -5790,7 +5790,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-swift-aa",
+    "id": "suzuki-swift-aa-1983-2005",
     "make": "Suzuki",
     "model": "Swift",
     "generation": "AA",
@@ -5798,7 +5798,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-swift-rs",
+    "id": "suzuki-swift-rs-2003-2010",
     "make": "Suzuki",
     "model": "Swift",
     "generation": "RS",
@@ -5806,7 +5806,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-swift-fz-nz",
+    "id": "suzuki-swift-fz-nz-2010-2018",
     "make": "Suzuki",
     "model": "Swift",
     "generation": "FZ/NZ",
@@ -5814,7 +5814,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-swift-rz-az",
+    "id": "suzuki-swift-rz-az-2016-2024",
     "make": "Suzuki",
     "model": "Swift",
     "generation": "RZ/AZ",
@@ -5822,7 +5822,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-swift-aol",
+    "id": "suzuki-swift-aol-2023-",
     "make": "Suzuki",
     "model": "Swift",
     "generation": "AOL",
@@ -5830,7 +5830,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-sx4-gy",
+    "id": "suzuki-sx4-gy-2006-2016",
     "make": "Suzuki",
     "model": "SX4",
     "generation": "GY",
@@ -5838,7 +5838,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-sx4-jy",
+    "id": "suzuki-sx4-jy-2013-2021",
     "make": "Suzuki",
     "model": "SX4",
     "generation": "JY",
@@ -5846,7 +5846,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-vitara-et-ta",
+    "id": "suzuki-vitara-et-ta-1988-1999",
     "make": "Suzuki",
     "model": "Vitara",
     "generation": "ET/TA",
@@ -5854,7 +5854,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-vitara-ft-gt",
+    "id": "suzuki-vitara-ft-gt-1999-2004",
     "make": "Suzuki",
     "model": "Vitara",
     "generation": "FT/GT",
@@ -5862,7 +5862,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-vitara-ly",
+    "id": "suzuki-vitara-ly-2014-",
     "make": "Suzuki",
     "model": "Vitara",
     "generation": "LY",
@@ -5870,7 +5870,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-ct-cv",
+    "id": "suzuki-wagon-r-ct-cv-1993-1998",
     "make": "Suzuki",
     "model": "Wagon R",
     "generation": "CT/CV",
@@ -5878,7 +5878,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-mc",
+    "id": "suzuki-wagon-r-mc-1998-2003",
     "make": "Suzuki",
     "model": "Wagon R",
     "generation": "MC",
@@ -5886,7 +5886,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-mh",
+    "id": "suzuki-wagon-r-mh-2003-2008",
     "make": "Suzuki",
     "model": "Wagon R",
     "generation": "MH",
@@ -5894,7 +5894,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-mh23",
+    "id": "suzuki-wagon-r-mh23-2008-2012",
     "make": "Suzuki",
     "model": "Wagon R",
     "generation": "MH23",
@@ -5902,7 +5902,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-mh34-44",
+    "id": "suzuki-wagon-r-mh34-44-2012-2017",
     "make": "Suzuki",
     "model": "Wagon R",
     "generation": "MH34/44",
@@ -5910,7 +5910,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-mh55-85-95",
+    "id": "suzuki-wagon-r-mh55-85-95-2017-",
     "make": "Suzuki",
     "model": "Wagon R",
     "generation": "MH55/85/95",
@@ -5918,7 +5918,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-plus-ma",
+    "id": "suzuki-wagon-r-plus-ma-1997-2000",
     "make": "Suzuki",
     "model": "Wagon R Plus",
     "generation": "MA",
@@ -5926,7 +5926,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-plus-mm",
+    "id": "suzuki-wagon-r-plus-mm-1999-2008",
     "make": "Suzuki",
     "model": "Wagon R Plus",
     "generation": "MM",
@@ -5934,7 +5934,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-smile-mx81-91",
+    "id": "suzuki-wagon-r-smile-mx81-91-2021-",
     "make": "Suzuki",
     "model": "Wagon R Smile",
     "generation": "MX81/91",
@@ -5942,7 +5942,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-solio-ma",
+    "id": "suzuki-wagon-r-solio-ma-2000-2005",
     "make": "Suzuki",
     "model": "Wagon R Solio",
     "generation": "MA",
@@ -5950,7 +5950,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-wagon-r-wide-ma",
+    "id": "suzuki-wagon-r-wide-ma-1997-1999",
     "make": "Suzuki",
     "model": "Wagon R Wide",
     "generation": "MA",
@@ -5958,7 +5958,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-x-90-lb",
+    "id": "suzuki-x-90-lb-1994-1998",
     "make": "Suzuki",
     "model": "X-90",
     "generation": "LB",
@@ -5966,7 +5966,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-xl7-ja",
+    "id": "suzuki-xl7-ja-2006-2009",
     "make": "Suzuki",
     "model": "XL7",
     "generation": "JA",
@@ -5974,7 +5974,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-xbee-mn71s",
+    "id": "suzuki-xbee-mn71s-2017-2025",
     "make": "Suzuki",
     "model": "Xbee",
     "generation": "MN71S",
@@ -5982,7 +5982,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "suzuki-xbee-mnd1s",
+    "id": "suzuki-xbee-mnd1s-2025-",
     "make": "Suzuki",
     "model": "Xbee",
     "generation": "MND1S",
@@ -5990,7 +5990,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ct200h-a10",
+    "id": "lexus-ct200h-a10-2010-2022",
     "make": "Lexus",
     "model": "CT200h",
     "generation": "A10",
@@ -5998,7 +5998,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es200-xv60",
+    "id": "lexus-es200-xv60-2015-2018",
     "make": "Lexus",
     "model": "ES200",
     "generation": "XV60",
@@ -6006,7 +6006,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es200-xz10",
+    "id": "lexus-es200-xz10-2018-",
     "make": "Lexus",
     "model": "ES200",
     "generation": "XZ10",
@@ -6014,7 +6014,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es250-xv60",
+    "id": "lexus-es250-xv60-2012-2018",
     "make": "Lexus",
     "model": "ES250",
     "generation": "XV60",
@@ -6022,7 +6022,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es250-xz10",
+    "id": "lexus-es250-xz10-2018-",
     "make": "Lexus",
     "model": "ES250",
     "generation": "XZ10",
@@ -6030,7 +6030,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es300-xv10",
+    "id": "lexus-es300-xv10-1991-1996",
     "make": "Lexus",
     "model": "ES300",
     "generation": "XV10",
@@ -6038,7 +6038,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es300-xv20",
+    "id": "lexus-es300-xv20-1996-2001",
     "make": "Lexus",
     "model": "ES300",
     "generation": "XV20",
@@ -6046,7 +6046,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es300-xv30",
+    "id": "lexus-es300-xv30-2001-2006",
     "make": "Lexus",
     "model": "ES300",
     "generation": "XV30",
@@ -6054,7 +6054,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es300h-xv60",
+    "id": "lexus-es300h-xv60-2012-2018",
     "make": "Lexus",
     "model": "ES300h",
     "generation": "XV60",
@@ -6062,7 +6062,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es300h-axzh10-xz10",
+    "id": "lexus-es300h-axzh10-xz10-2018-2026",
     "make": "Lexus",
     "model": "ES300h",
     "generation": "AXZH10/XZ10",
@@ -6070,7 +6070,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es330-xv30",
+    "id": "lexus-es330-xv30-2004-2006",
     "make": "Lexus",
     "model": "ES330",
     "generation": "XV30",
@@ -6078,7 +6078,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es350-xv40",
+    "id": "lexus-es350-xv40-2006-2012",
     "make": "Lexus",
     "model": "ES350",
     "generation": "XV40",
@@ -6086,7 +6086,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es350-xv60",
+    "id": "lexus-es350-xv60-2012-2018",
     "make": "Lexus",
     "model": "ES350",
     "generation": "XV60",
@@ -6094,7 +6094,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-es350-xz10",
+    "id": "lexus-es350-xz10-2018-",
     "make": "Lexus",
     "model": "ES350",
     "generation": "XZ10",
@@ -6102,7 +6102,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs-f-l10",
+    "id": "lexus-gs-f-l10-2015-2020",
     "make": "Lexus",
     "model": "GS F",
     "generation": "L10",
@@ -6110,7 +6110,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs200t-arl10-l10",
+    "id": "lexus-gs200t-arl10-l10-2015-2017",
     "make": "Lexus",
     "model": "GS200t",
     "generation": "ARL10/L10",
@@ -6118,7 +6118,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs250-l10",
+    "id": "lexus-gs250-l10-2011-2016",
     "make": "Lexus",
     "model": "GS250",
     "generation": "L10",
@@ -6126,7 +6126,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs300-s140",
+    "id": "lexus-gs300-s140-1993-1997",
     "make": "Lexus",
     "model": "GS300",
     "generation": "S140",
@@ -6134,7 +6134,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs300-s160",
+    "id": "lexus-gs300-s160-1997-2005",
     "make": "Lexus",
     "model": "GS300",
     "generation": "S160",
@@ -6142,7 +6142,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs300-s190",
+    "id": "lexus-gs300-s190-2005-2012",
     "make": "Lexus",
     "model": "GS300",
     "generation": "S190",
@@ -6150,7 +6150,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs300h-l10",
+    "id": "lexus-gs300h-l10-2011-2020",
     "make": "Lexus",
     "model": "GS300h",
     "generation": "L10",
@@ -6158,7 +6158,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs350-s190",
+    "id": "lexus-gs350-s190-2005-2011",
     "make": "Lexus",
     "model": "GS350",
     "generation": "S190",
@@ -6166,7 +6166,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs350-l10",
+    "id": "lexus-gs350-l10-2011-2020",
     "make": "Lexus",
     "model": "GS350",
     "generation": "L10",
@@ -6174,7 +6174,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs400-s160",
+    "id": "lexus-gs400-s160-1997-1999",
     "make": "Lexus",
     "model": "GS400",
     "generation": "S160",
@@ -6182,7 +6182,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs430-s160",
+    "id": "lexus-gs430-s160-2000-2005",
     "make": "Lexus",
     "model": "GS430",
     "generation": "S160",
@@ -6190,7 +6190,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs430-s190",
+    "id": "lexus-gs430-s190-2005-2007",
     "make": "Lexus",
     "model": "GS430",
     "generation": "S190",
@@ -6198,7 +6198,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs450h-s190",
+    "id": "lexus-gs450h-s190-2005-2012",
     "make": "Lexus",
     "model": "GS450h",
     "generation": "S190",
@@ -6206,7 +6206,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs450h-l10",
+    "id": "lexus-gs450h-l10-2011-2020",
     "make": "Lexus",
     "model": "GS450h",
     "generation": "L10",
@@ -6214,7 +6214,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gs460-s190",
+    "id": "lexus-gs460-s190-2007-2012",
     "make": "Lexus",
     "model": "GS460",
     "generation": "S190",
@@ -6222,7 +6222,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gx460-j150",
+    "id": "lexus-gx460-j150-2009-2023",
     "make": "Lexus",
     "model": "GX460",
     "generation": "J150",
@@ -6230,7 +6230,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gx470-j120",
+    "id": "lexus-gx470-j120-2002-2009",
     "make": "Lexus",
     "model": "GX470",
     "generation": "J120",
@@ -6238,7 +6238,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-gx550-j250",
+    "id": "lexus-gx550-j250-2023-",
     "make": "Lexus",
     "model": "GX550",
     "generation": "J250",
@@ -6246,7 +6246,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-hs250h-f10",
+    "id": "lexus-hs250h-f10-2009-2018",
     "make": "Lexus",
     "model": "HS250h",
     "generation": "F10",
@@ -6254,7 +6254,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is-f-xe20",
+    "id": "lexus-is-f-xe20-2007-2014",
     "make": "Lexus",
     "model": "IS F",
     "generation": "XE20",
@@ -6262,7 +6262,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is200-xe10",
+    "id": "lexus-is200-xe10-1998-2005",
     "make": "Lexus",
     "model": "IS200",
     "generation": "XE10",
@@ -6270,7 +6270,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is200t-xe30",
+    "id": "lexus-is200t-xe30-2015-2017",
     "make": "Lexus",
     "model": "IS200t",
     "generation": "XE30",
@@ -6278,7 +6278,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is220d-xe20",
+    "id": "lexus-is220d-xe20-2005-2012",
     "make": "Lexus",
     "model": "IS220d",
     "generation": "XE20",
@@ -6286,7 +6286,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is250-xe20",
+    "id": "lexus-is250-xe20-2005-2013",
     "make": "Lexus",
     "model": "IS250",
     "generation": "XE20",
@@ -6294,7 +6294,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is250-xe30",
+    "id": "lexus-is250-xe30-2013-2016",
     "make": "Lexus",
     "model": "IS250",
     "generation": "XE30",
@@ -6302,7 +6302,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is250c-xe20",
+    "id": "lexus-is250c-xe20-2008-2016",
     "make": "Lexus",
     "model": "IS250C",
     "generation": "XE20",
@@ -6310,7 +6310,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is300-xe10",
+    "id": "lexus-is300-xe10-1999-2005",
     "make": "Lexus",
     "model": "IS300",
     "generation": "XE10",
@@ -6318,7 +6318,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is300-xe20",
+    "id": "lexus-is300-xe20-2006-2013",
     "make": "Lexus",
     "model": "IS300",
     "generation": "XE20",
@@ -6326,7 +6326,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is300-xe30",
+    "id": "lexus-is300-xe30-2015-",
     "make": "Lexus",
     "model": "IS300",
     "generation": "XE30",
@@ -6334,7 +6334,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is300h-xe30",
+    "id": "lexus-is300h-xe30-2013-",
     "make": "Lexus",
     "model": "IS300h",
     "generation": "XE30",
@@ -6342,7 +6342,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is350-xe20",
+    "id": "lexus-is350-xe20-2005-2013",
     "make": "Lexus",
     "model": "IS350",
     "generation": "XE20",
@@ -6350,7 +6350,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-is350-xe30",
+    "id": "lexus-is350-xe30-2013-",
     "make": "Lexus",
     "model": "IS350",
     "generation": "XE30",
@@ -6358,7 +6358,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lbx-ay10",
+    "id": "lexus-lbx-ay10-2023-",
     "make": "Lexus",
     "model": "LBX",
     "generation": "AY10",
@@ -6366,7 +6366,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lc500-z100",
+    "id": "lexus-lc500-z100-2016-",
     "make": "Lexus",
     "model": "LC500",
     "generation": "Z100",
@@ -6374,7 +6374,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lc500h-z100",
+    "id": "lexus-lc500h-z100-2016-",
     "make": "Lexus",
     "model": "LC500h",
     "generation": "Z100",
@@ -6382,7 +6382,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lm300h-h30",
+    "id": "lexus-lm300h-h30-2019-2023",
     "make": "Lexus",
     "model": "LM300h",
     "generation": "H30",
@@ -6390,7 +6390,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lm350h-h30",
+    "id": "lexus-lm350h-h30-2023-",
     "make": "Lexus",
     "model": "LM350h",
     "generation": "H30",
@@ -6398,7 +6398,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls400-xf10",
+    "id": "lexus-ls400-xf10-1989-1994",
     "make": "Lexus",
     "model": "LS400",
     "generation": "XF10",
@@ -6406,7 +6406,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls400-xf20",
+    "id": "lexus-ls400-xf20-1994-2000",
     "make": "Lexus",
     "model": "LS400",
     "generation": "XF20",
@@ -6414,7 +6414,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls430-xf30",
+    "id": "lexus-ls430-xf30-2000-2006",
     "make": "Lexus",
     "model": "LS430",
     "generation": "XF30",
@@ -6422,7 +6422,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls460-xf40",
+    "id": "lexus-ls460-xf40-2006-2017",
     "make": "Lexus",
     "model": "LS460",
     "generation": "XF40",
@@ -6430,7 +6430,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls460l-xf40",
+    "id": "lexus-ls460l-xf40-2006-2017",
     "make": "Lexus",
     "model": "LS460L",
     "generation": "XF40",
@@ -6438,7 +6438,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls500-xf50",
+    "id": "lexus-ls500-xf50-2017-",
     "make": "Lexus",
     "model": "LS500",
     "generation": "XF50",
@@ -6446,7 +6446,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls500h-xf50",
+    "id": "lexus-ls500h-xf50-2017-",
     "make": "Lexus",
     "model": "LS500h",
     "generation": "XF50",
@@ -6454,7 +6454,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ls600h-xf40",
+    "id": "lexus-ls600h-xf40-2006-2017",
     "make": "Lexus",
     "model": "LS600h",
     "generation": "XF40",
@@ -6462,7 +6462,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lx450-j80",
+    "id": "lexus-lx450-j80-1995-1997",
     "make": "Lexus",
     "model": "LX450",
     "generation": "J80",
@@ -6470,7 +6470,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lx470-j100",
+    "id": "lexus-lx470-j100-1998-2007",
     "make": "Lexus",
     "model": "LX470",
     "generation": "J100",
@@ -6478,7 +6478,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lx570-j200",
+    "id": "lexus-lx570-j200-2007-2022",
     "make": "Lexus",
     "model": "LX570",
     "generation": "J200",
@@ -6486,7 +6486,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lx600-j300",
+    "id": "lexus-lx600-j300-2021-",
     "make": "Lexus",
     "model": "LX600",
     "generation": "J300",
@@ -6494,7 +6494,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-lx700h-j300",
+    "id": "lexus-lx700h-j300-2024-",
     "make": "Lexus",
     "model": "LX700h",
     "generation": "J300",
@@ -6502,7 +6502,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx200-az10-z10",
+    "id": "lexus-nx200-az10-z10-2014-2021",
     "make": "Lexus",
     "model": "NX200",
     "generation": "AZ10/Z10",
@@ -6510,7 +6510,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx200-az20",
+    "id": "lexus-nx200-az20-2021-",
     "make": "Lexus",
     "model": "NX200",
     "generation": "AZ20",
@@ -6518,7 +6518,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx200t-az10-z10",
+    "id": "lexus-nx200t-az10-z10-2014-2017",
     "make": "Lexus",
     "model": "NX200t",
     "generation": "AZ10/Z10",
@@ -6526,7 +6526,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx250-az20",
+    "id": "lexus-nx250-az20-2021-",
     "make": "Lexus",
     "model": "NX250",
     "generation": "AZ20",
@@ -6534,7 +6534,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx300-az10-z10",
+    "id": "lexus-nx300-az10-z10-2017-2021",
     "make": "Lexus",
     "model": "NX300",
     "generation": "AZ10/Z10",
@@ -6542,7 +6542,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx300h-z10",
+    "id": "lexus-nx300h-z10-2014-2021",
     "make": "Lexus",
     "model": "NX300h",
     "generation": "Z10",
@@ -6550,7 +6550,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx350-az20",
+    "id": "lexus-nx350-az20-2021-",
     "make": "Lexus",
     "model": "NX350",
     "generation": "AZ20",
@@ -6558,7 +6558,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx350h-az20",
+    "id": "lexus-nx350h-az20-2021-",
     "make": "Lexus",
     "model": "NX350h",
     "generation": "AZ20",
@@ -6566,7 +6566,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-nx450h--az20",
+    "id": "lexus-nx450h--az20-2021-",
     "make": "Lexus",
     "model": "NX450h+",
     "generation": "AZ20",
@@ -6574,7 +6574,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rc-f-c10",
+    "id": "lexus-rc-f-c10-2014-",
     "make": "Lexus",
     "model": "RC F",
     "generation": "C10",
@@ -6582,7 +6582,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rc300h-c10",
+    "id": "lexus-rc300h-c10-2014-",
     "make": "Lexus",
     "model": "RC300h",
     "generation": "C10",
@@ -6590,7 +6590,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rc350-c10",
+    "id": "lexus-rc350-c10-2014-",
     "make": "Lexus",
     "model": "RC350",
     "generation": "C10",
@@ -6598,7 +6598,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx270-al10",
+    "id": "lexus-rx270-al10-2010-2015",
     "make": "Lexus",
     "model": "RX270",
     "generation": "AL10",
@@ -6606,7 +6606,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx300-xu10",
+    "id": "lexus-rx300-xu10-1998-2003",
     "make": "Lexus",
     "model": "RX300",
     "generation": "XU10",
@@ -6614,7 +6614,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx300-xu30",
+    "id": "lexus-rx300-xu30-2003-2006",
     "make": "Lexus",
     "model": "RX300",
     "generation": "XU30",
@@ -6622,7 +6622,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx300-al20",
+    "id": "lexus-rx300-al20-2017-2022",
     "make": "Lexus",
     "model": "RX300",
     "generation": "AL20",
@@ -6630,7 +6630,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx350-xu30",
+    "id": "lexus-rx350-xu30-2006-2009",
     "make": "Lexus",
     "model": "RX350",
     "generation": "XU30",
@@ -6638,7 +6638,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx350-al10",
+    "id": "lexus-rx350-al10-2008-2015",
     "make": "Lexus",
     "model": "RX350",
     "generation": "AL10",
@@ -6646,7 +6646,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx350-al20",
+    "id": "lexus-rx350-al20-2015-2022",
     "make": "Lexus",
     "model": "RX350",
     "generation": "AL20",
@@ -6654,7 +6654,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx350-al30-ala10",
+    "id": "lexus-rx350-al30-ala10-2022-",
     "make": "Lexus",
     "model": "RX350",
     "generation": "AL30/ALA10",
@@ -6662,7 +6662,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx350l-al20",
+    "id": "lexus-rx350l-al20-2017-2022",
     "make": "Lexus",
     "model": "RX350L",
     "generation": "AL20",
@@ -6670,7 +6670,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx400h-xu30",
+    "id": "lexus-rx400h-xu30-2005-2009",
     "make": "Lexus",
     "model": "RX400h",
     "generation": "XU30",
@@ -6678,7 +6678,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx450h-al10",
+    "id": "lexus-rx450h-al10-2009-2015",
     "make": "Lexus",
     "model": "RX450h",
     "generation": "AL10",
@@ -6686,7 +6686,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx450h-al20",
+    "id": "lexus-rx450h-al20-2015-2022",
     "make": "Lexus",
     "model": "RX450h",
     "generation": "AL20",
@@ -6694,7 +6694,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx450h--al30-alh10",
+    "id": "lexus-rx450h--al30-alh10-2022-",
     "make": "Lexus",
     "model": "RX450h+",
     "generation": "AL30/ALH10",
@@ -6702,7 +6702,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-rx500h-al30-alh10",
+    "id": "lexus-rx500h-al30-alh10-2022-",
     "make": "Lexus",
     "model": "RX500h",
     "generation": "AL30/ALH10",
@@ -6710,7 +6710,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-sc400-z30",
+    "id": "lexus-sc400-z30-1991-2000",
     "make": "Lexus",
     "model": "SC400",
     "generation": "Z30",
@@ -6718,7 +6718,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-sc430-z40",
+    "id": "lexus-sc430-z40-2001-2010",
     "make": "Lexus",
     "model": "SC430",
     "generation": "Z40",
@@ -6726,7 +6726,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ux200-mzaa10",
+    "id": "lexus-ux200-mzaa10-2018-2023",
     "make": "Lexus",
     "model": "UX200",
     "generation": "MZAA10",
@@ -6734,7 +6734,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ux250h-mzah10-15",
+    "id": "lexus-ux250h-mzah10-15-2018-2024",
     "make": "Lexus",
     "model": "UX250h",
     "generation": "MZAH10/15",
@@ -6742,7 +6742,7 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Drom"
   },
   {
-    "id": "lexus-ux300e-kma10",
+    "id": "lexus-ux300e-kma10-2019-",
     "make": "Lexus",
     "model": "UX300e",
     "generation": "KMA10",

@@ -1,4 +1,5 @@
 import { JAPANESE_BRANDS, JapaneseCarModel } from './japaneseBrandsData';
+import type { VehicleVariant } from './vehicleVariantSchema';
 
 /**
  * Supplemental, market-aware model records.
@@ -23,6 +24,7 @@ const makeSupplementalModel = (data: {
   curbWeightKg: string;
   engines: JapaneseCarModel['engines'];
   transmissions: string[];
+  variants?: VehicleVariant[];
   drivetrain?: string;
   sourceNotes: string;
   sourceReferences?: JapaneseCarModel['sourceReferences'];
@@ -57,6 +59,7 @@ const makeSupplementalModel = (data: {
     },
     engines: data.engines,
     transmissions: data.transmissions,
+    ...(data.variants?.length ? { variants: data.variants } : {}),
     fuelEconomy: {
       city: 'Зависит от двигателя, коробки, рынка и цикла измерения',
       highway: 'Зависит от двигателя, коробки, рынка и цикла измерения',
@@ -1776,6 +1779,60 @@ const supplementalModels: JapaneseCarModel[] = [
     ],
     transmissions: ['4-ступенчатая АКПП для японской версии 23C 2WD (2006)'],
     drivetrain: 'Передний привод (FF) для указанной реперной комплектации; 4WD имеет другие параметры.',
+    variants: [
+      {
+        id: 'mazda-mpv-ly3p-23c-2wd-2006',
+        modelId: 'mazda-mpv-ly3p-23c-2wd',
+        market: 'Япония',
+        modelYearFrom: 2006,
+        modelYearTo: 2007,
+        productionMonthFrom: '2006-02',
+        productionMonthTo: '2007-12',
+        bodyCode: 'DBA-LY3P',
+        bodyStyle: 'Минивэн, 8 мест, 3 ряда',
+        trimOrGrade: '2.3 23C 2WD',
+        engineCode: 'L3-VE',
+        transmissionType: 'AT',
+        drivetrain: 'FWD',
+        steeringPosition: 'RHD',
+        dimensions: { length: 4860, width: 1850, height: 1685, wheelbase: 2950, groundClearance: 155 },
+        interiorDimensions: { lengthMm: 2635, widthMm: 1565, heightMm: 1210 },
+        trackFrontMm: 1610,
+        trackRearMm: 1605,
+        turningRadiusM: 5.7,
+        curbWeightKg: 1720,
+        fuelTankLiters: 68,
+        tireSizes: ['215/65R16'],
+        fuelEconomy: { combined: '8.2 л/100 км', fuelGrade: 'Бензин Regular (АИ-92/АИ-95)' },
+        notes: '2260 см³; 163 л.с. при 6500 об/мин; 210 Н·м при 4000 об/мин; 4-ступенчатая АКПП. Спецификация относится только к японской 23C 2WD 2006–2007.'
+      },
+      {
+        id: 'mazda-mpv-ly3p-23c-2wd-2008',
+        modelId: 'mazda-mpv-ly3p-23c-2wd',
+        market: 'Япония',
+        modelYearFrom: 2008,
+        modelYearTo: 2012,
+        productionMonthFrom: '2008-01',
+        productionMonthTo: '2012-12',
+        bodyCode: 'DBA-LY3P',
+        bodyStyle: 'Минивэн, 8 мест, 3 ряда',
+        trimOrGrade: '2.3 23C 2WD',
+        engineCode: 'L3-VE',
+        transmissionType: 'AT',
+        drivetrain: 'FWD',
+        steeringPosition: 'RHD',
+        dimensions: { length: 4860, width: 1850, height: 1685, wheelbase: 2950, groundClearance: 155 },
+        interiorDimensions: { lengthMm: 2635, widthMm: 1565, heightMm: 1210 },
+        trackFrontMm: 1610,
+        trackRearMm: 1605,
+        turningRadiusM: 5.7,
+        curbWeightKg: 1730,
+        fuelTankLiters: 68,
+        tireSizes: ['215/65R16'],
+        fuelEconomy: { combined: '8.2 л/100 км', fuelGrade: 'Бензин Regular (АИ-92/АИ-95)' },
+        notes: '2260 см³; 163 л.с. при 6500 об/мин; 203 Н·м при 3500 об/мин; 5-ступенчатая АКПП. Рестайлинговая спецификация 2008–2012; не объединять с 4WD и 23T.'
+      }
+    ],
     sourceNotes: 'Реперная спецификация из релиза Mazda Japan от февраля 2006 года: MPV 23C FF, 4860×1850×1685 мм, база 2950 мм, клиренс 155 мм, масса 1720 кг, L3-VE 2260 см³, 163 PS/210 Н·м. Официальное руководство Mazda указывает бак 68 л для 2WD и 76 л для 4WD. Это не универсальная спецификация всего поколения LY: размеры, масса, бак, двигатель и коробка зависят от комплектации и года. Сверять VIN/код модели.',
     sourceReferences: [
       {

@@ -42,7 +42,7 @@ export interface GenerationBodyRecord {
     lengthMm: number;
     widthMm: number;
     heightMm: number;
-    wheelbaseMm: number;
+    wheelbaseMm?: number;
     groundClearanceMm?: number;
     trackFrontMm?: number;
     trackRearMm?: number;

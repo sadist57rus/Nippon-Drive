@@ -62,6 +62,11 @@ async function fetchXml(url: string): Promise<string> {
     signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`);
+  if (new URL(url).pathname.endsWith('.gz')) {
+    if (!response.body) throw new Error(`Empty gzip response for ${url}`);
+    const decompressed = response.body.pipeThrough(new DecompressionStream('gzip'));
+    return new Response(decompressed).text();
+  }
   return response.text();
 }
 

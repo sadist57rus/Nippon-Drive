@@ -8244,6 +8244,14 @@ const importedCatalogModels: JapaneseModelFamily[] = [
     "source": "Drom",
     "recordStatus": "model-family-seeded-generation-import-pending",
     "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "mazda-drom-bseries",
+    "make": "Mazda",
+    "model": "B-Series",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модельное семейство Mazda B-Series перенесено из индекса Drom; поколения и модификации сверяются отдельно."
   }
 ];
 const familyKeys = new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make + '|' + item.model.toLocaleLowerCase('en').replace(/[^a-z0-9]/g, '')));

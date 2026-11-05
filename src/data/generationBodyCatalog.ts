@@ -7,6 +7,7 @@ export type CatalogRecordStatus = 'seeded-needs-verification' | 'separated-needs
 export interface GenerationBodyRecord {
   id: string;
   sourceModelId: string;
+  modelFamilyId?: string;
   make: string;
   model: string;
   generation: string;

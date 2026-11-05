@@ -30,6 +30,13 @@ export interface GenerationBodyRecord {
     fuelTankLiters?: number;
     luggageVolumeLiters?: string;
   };
+  wheelFitments?: Array<{
+    tireSize: string;
+    rimSizes: string[];
+    boltPattern?: string;
+    centerBoreMm?: number;
+    notes?: string;
+  }>;
   source?: 'Drom' | 'Auto.ru';
 }
 const commonTasks = [

@@ -3,6 +3,7 @@ import { expect, test, type Page } from '@playwright/test';
 const viewports = [
   { width: 360, height: 800, name: 'phone-360x800' },
   { width: 390, height: 844, name: 'phone-390x844' },
+  { width: 430, height: 932, name: 'phone-430x932' },
   { width: 800, height: 480, name: 'tablet-800x480' },
   { width: 1280, height: 720, name: 'head-unit-1280x720' },
   { width: 1024, height: 600, name: 'head-unit-1024x600' },

@@ -80,3 +80,11 @@
 | `mazda-cx5-ke-crossover` | [2012 Mazda CX-5 (KE) Grand Touring wagon](https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg) | CX-5 KE, Grand Touring | OSX | общественное достояние | лицензия проверена, ожидает локального импорта |
 
 Примечание: файл `Mazda-CX-5.jpg` не выбран для KE, поскольку Commons относит его к более позднему поколению KF. В реестр внесён только снимок с явной маркировкой KE.
+
+
+### Ещё два поколения/кузова с проверенными фотографиями
+
+| Целевой ID каталога | Файл Commons | Модель / кузов / цвет | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `toyota-yaris-xp90-hatchback` | [White Toyota Vitz (XP90).jpg](https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg) | Vitz/Yaris XP90, белый хэтчбек | arakaki (загрузил Hanloh) | общественное достояние | лицензия проверена, ожидает локального импорта |
+| `mazda-6-gg-sedan` | [Mazda 6.jpg](https://commons.wikimedia.org/wiki/File:Mazda_6.jpg) | Mazda6 GG, красный седан | Bull-Doser | общественное достояние | лицензия проверена, ожидает локального импорта |

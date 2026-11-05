@@ -89,7 +89,7 @@ test('подпись фото и действия гаража не перекр
   }
 });
 
-test('контраст подписи кнопки удаления проверяется в светлой и тёмной темах', async ({ page }) => {
+test('контраст подписи кнопки удаления фиксируется в светлой и тёмной темах', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.addInitScript(() => {
     localStorage.clear();
@@ -108,35 +108,44 @@ test('контраст подписи кнопки удаления провер
   await expect(page.getByRole('heading', { name: 'Главная', exact: true })).toBeVisible();
   await openGarage(page);
   const article = page.locator('article').filter({ has: page.getByRole('button', { name: 'Сделать активной' }) }).first();
-  
-  const contrast = async (dark: boolean) => page.evaluate(({ dark }) => {
-    document.documentElement.classList.toggle('dark', dark);
-    const button = [...document.querySelectorAll('button')].find(item => item.textContent?.trim() === 'Удалить');
-    const card = button?.closest('article');
-    if (!button || !card) return null;
-    const parse = (value: string) => value.match(/[\d.]+/g)?.map(Number) ?? [];
-    const rgb = (value: string) => {
-      const [r, g, b] = parse(value);
+  const deleteButton = article.getByRole('button', { name: 'Удалить', exact: true });
+  await expect(deleteButton).toBeVisible();
+
+  const contrast = async (dark: boolean) => {
+    await page.locator('html').evaluate((html, isDark) => {
+      html.classList.toggle('dark', isDark);
+    }, dark);
+    return article.evaluate(element => {
+      const button = [...element.querySelectorAll('button')].find(item => item.textContent?.trim() === 'Удалить');
+      if (!button) return null;
+      const parse = (value: string) => value.match(/[\\d.]+/g)?.map(Number) ?? [];
+      const channels = (value: string) => {
+        const [r, g, b, a = 1] = parse(value);
+        return { r, g, b, a };
+      };
+      const cardColor = channels(getComputedStyle(element).backgroundColor);
+      const pageColor = channels(getComputedStyle(document.body).backgroundColor);
+      const background = [cardColor.r, cardColor.g, cardColor.b].map((channel, index) =>
+        channel * cardColor.a + [pageColor.r, pageColor.g, pageColor.b][index] * (1 - cardColor.a),
+      );
+      const foreground = channels(getComputedStyle(button).color);
       const linear = (channel: number) => {
         const c = channel / 255;
         return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
       };
-      return 0.2126 * linear(r) + 0.7152 * linear(g) + 0.0722 * linear(b);
-    };
-    const foreground = getComputedStyle(button).color;
-    const background = getComputedStyle(card).backgroundColor;
-    const a = rgb(foreground);
-    const b = rgb(background);
-    return { ratio: (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05), disabled: (button as HTMLButtonElement).disabled };
-  }, { dark });
+      const luminance = (rgb: number[]) => 0.2126 * linear(rgb[0]) + 0.7152 * linear(rgb[1]) + 0.0722 * linear(rgb[2]);
+      const fg = luminance([foreground.r, foreground.g, foreground.b]);
+      const bg = luminance(background);
+      return { ratio: (Math.max(fg, bg) + 0.05) / (Math.min(fg, bg) + 0.05), disabled: (button as HTMLButtonElement).disabled };
+    });
+  };
 
   const light = await contrast(false);
   const dark = await contrast(true);
-  expect(light).not.toBeNull();
-  expect(dark).not.toBeNull();
-  // WCAG не требует 4.5:1 для disabled controls, но фиксируем оба значения
-  // в отчёте, чтобы тёмный вариант не выдавать за прошедший AA.
+  expect(light, 'кнопка «Удалить» должна существовать в светлой теме').not.toBeNull();
+  expect(dark, 'кнопка «Удалить» должна существовать в тёмной теме').not.toBeNull();
   test.info().annotations.push({ type: 'контраст кнопки «Удалить»', description: JSON.stringify({ light, dark }) });
+  // Disabled-кнопка последнего автомобиля освобождена от порога WCAG 4.5:1.
   if (!light!.disabled) expect(light!.ratio).toBeGreaterThanOrEqual(4.5);
   if (!dark!.disabled) expect(dark!.ratio).toBeGreaterThanOrEqual(4.5);
 });

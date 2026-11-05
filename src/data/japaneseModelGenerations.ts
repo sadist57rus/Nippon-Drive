@@ -7236,5 +7236,157 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "generation": "III",
     "years": "2023-н.в.",
     "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-fx-i-s50--2002-2005",
+    "make": "Infiniti",
+    "model": "FX",
+    "generation": "I (S50)",
+    "years": "2002-2005",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-fx-i-s50--2006-2009",
+    "make": "Infiniti",
+    "model": "FX",
+    "generation": "I (S50) рестайлинг",
+    "years": "2006-2009",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-fx-ii-s51--2008-2012",
+    "make": "Infiniti",
+    "model": "FX",
+    "generation": "II (S51)",
+    "years": "2008-2012",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-fx-ii-s51--2011-2013",
+    "make": "Infiniti",
+    "model": "FX",
+    "generation": "II (S51) рестайлинг",
+    "years": "2011-2013",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-q50-i-2013-2017",
+    "make": "Infiniti",
+    "model": "Q50",
+    "generation": "I",
+    "years": "2013-2017",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-q50-i--2017-2024",
+    "make": "Infiniti",
+    "model": "Q50",
+    "generation": "I рестайлинг",
+    "years": "2017-2024",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-qx50-i-2013-2015",
+    "make": "Infiniti",
+    "model": "QX50",
+    "generation": "I",
+    "years": "2013-2015",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-qx50-i--2015-2017",
+    "make": "Infiniti",
+    "model": "QX50",
+    "generation": "I рестайлинг",
+    "years": "2015-2017",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-qx50-ii-2017-",
+    "make": "Infiniti",
+    "model": "QX50",
+    "generation": "II",
+    "years": "2017-н.в.",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-qx80-i-2010-2014",
+    "make": "Infiniti",
+    "model": "QX80",
+    "generation": "I",
+    "years": "2010-2014",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "infiniti-qx80-i--2014-2017",
+    "make": "Infiniti",
+    "model": "QX80",
+    "generation": "I рестайлинг",
+    "years": "2014-2017",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-bighorn-i-1981-1991",
+    "make": "Isuzu",
+    "model": "Bighorn",
+    "generation": "I",
+    "years": "1981-1991",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-bighorn-ii-1991-2002",
+    "make": "Isuzu",
+    "model": "Bighorn",
+    "generation": "II",
+    "years": "1991-2002",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-trooper-i-1981-1992",
+    "make": "Isuzu",
+    "model": "Trooper",
+    "generation": "I",
+    "years": "1981-1992",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-trooper-ii-1992-2002",
+    "make": "Isuzu",
+    "model": "Trooper",
+    "generation": "II",
+    "years": "1992-2002",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-d-max-i--2008-2012",
+    "make": "Isuzu",
+    "model": "D-Max",
+    "generation": "I рестайлинг",
+    "years": "2008-2012",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-d-max-ii-2012-2018",
+    "make": "Isuzu",
+    "model": "D-Max",
+    "generation": "II",
+    "years": "2012-2018",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-d-max-ii--2017-2023",
+    "make": "Isuzu",
+    "model": "D-Max",
+    "generation": "II рестайлинг",
+    "years": "2017-2023",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-d-max-iii-2019-",
+    "make": "Isuzu",
+    "model": "D-Max",
+    "generation": "III",
+    "years": "2019-н.в.",
+    "source": "Auto.ru"
   }
 ];

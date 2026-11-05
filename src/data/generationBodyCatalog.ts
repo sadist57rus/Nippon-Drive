@@ -5,6 +5,7 @@
  */
 export type CatalogRecordStatus = 'seeded-needs-verification' | 'separated-needs-verification';
 export interface GenerationBodyRecord {
+  source?: 'Drom' | 'Auto.ru';
   id: string;
   sourceModelId: string;
   make: string;

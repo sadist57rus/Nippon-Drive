@@ -1,6 +1,7 @@
 import { JAPANESE_BRANDS } from '../src/data/japaneseBrandsData';
 import '../src/data/expandedJapaneseModels';
 import '../src/data/expandedMazdaSuzukiModels';
+import { DROM_GENERATION_INDEX } from '../src/data/dromGenerationIndex';
 import { JAPANESE_MODEL_FAMILIES } from '../src/data/japaneseModelFamilies';
 
 type Model = (typeof JAPANESE_BRANDS)[number]['models'][number];
@@ -143,6 +144,16 @@ for (const family of JAPANESE_MODEL_FAMILIES) {
   if (family.source && family.source !== 'Drom' && family.source !== 'Auto.ru') errors.push(`Invalid model-family source: ${family.id}`);
 }
 console.log(`Model-family index: ${JAPANESE_MODEL_FAMILIES.length} families across ${new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make)).size} makes`);
+
+const generationIds = new Set<string>();
+for (const generation of DROM_GENERATION_INDEX) {
+  check(Boolean(generation.id && generation.make && generation.model && generation.years), `Drom generation missing identity/year: ${JSON.stringify(generation)}`);
+  if (generationIds.has(generation.id)) errors.push(`Duplicate Drom generation id: ${generation.id}`);
+  generationIds.add(generation.id);
+  if (generation.source !== 'Drom') errors.push(`Unexpected generation source: ${generation.id}`);
+  if (!Array.isArray(generation.chassisCodes)) errors.push(`Invalid chassis code list: ${generation.id}`);
+}
+console.log(`Drom generation index: ${DROM_GENERATION_INDEX.length} records across ${new Set(DROM_GENERATION_INDEX.map((item) => item.make)).size} makes`);
 
 console.log(`Catalog audit: ${JAPANESE_BRANDS.length} brands, ${modelCount} models`);
 for (const [name, ids] of duplicateNames) if (ids.length > 1) warnings.push(`Possible duplicate model names within brand: ${name}: ${ids.join(', ')}`);

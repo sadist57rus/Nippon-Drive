@@ -34,7 +34,7 @@
 |---|---|---|---|---|---|
 | `toyota-corolla-e120` | [E120 Toyota Corolla.jpg](https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg) | белый седан E120 | Kuha455405 | CC BY-SA 3.0 / GFDL 1.2+ | лицензия проверена, файл ожидает локального импорта |
 | `mazda3-bk-sedan` | [Mazda 3 BK.jpg](https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg) | синий седан BK | Krzysztof Masloch | CC BY-SA 3.0 | лицензия проверена, файл ожидает локального импорта |
-| `toyota-prado-j120-suv` | [Toyota Land-Cruiser Prado.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg) | серебристый Prado 120, 1KD-FTV | Dekel Santo | CC BY-SA 3.0 | лицензия проверена, файл ожидает локального импорта |
+| `toyota-land-cruiser-prado-120-j120-suv` | [Toyota Land-Cruiser Prado.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg) | серебристый Prado 120, 1KD-FTV | Dekel Santo | CC BY-SA 3.0 | лицензия проверена, файл ожидает локального импорта |
 | `nissan-qashqai-j10-crossover` | [Nissan Qashqai (J10) 130819.jpg](https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_130819.jpg) | серо-серебристый J10 | Trop86 | CC0 1.0 | лицензия проверена, файл ожидает локального импорта |
 | `nissan-xtrail-t31` | [Nissan X-Trail T31.jpg](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31.jpg) | белый T31 | Bull-Doser | общественное достояние (PD-self) | лицензия проверена, файл ожидает локального импорта |
 | `nissan-note-e11-hatchback` | [2005 Nissan Note 01.jpg](https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg) | светло-зелёный E11 | Mytho88 | CC BY-SA 3.0 / GFDL 1.2+ | лицензия проверена, файл ожидает локального импорта |

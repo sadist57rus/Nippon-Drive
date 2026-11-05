@@ -1563,6 +1563,67 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Замена шкворневых подшипников (Koyo), установка дистанционных регулировочных шайб и рулевого демпфера Tough Dog.'
           }
         ]
+      },
+      {
+        id: 'suzuki-swift-323',
+        brandId: 'suzuki',
+        name: 'Swift (FZ / NZ)',
+        generation: 'III поколение (2010–2018)',
+        years: '2010–2018',
+        bodyType: 'Хэтчбек',
+        drivetrain: 'Передний привод; отдельные исполнения и рынки требуют проверки.',
+        awdSystemName: 'Не применимо для базовых FZ/NZ модификаций; проверить по конкретной версии.',
+        overview: 'Карточка модели создана для корректной привязки подтверждаемых модификаций Suzuki Swift FZ/NZ. Неподтверждённые характеристики не заполняются предположениями.',
+        dimensions: {
+          lengthMm: null,
+          widthMm: null,
+          heightMm: null,
+          wheelbaseMm: null,
+          groundClearanceMm: null,
+          trunkVolumeLiters: 'Нет подтверждённых данных для единой спецификации поколения',
+          fuelTankLiters: null,
+          curbWeightKg: 'Зависит от модификации и рынка'
+        },
+        engines: [],
+        transmissions: [],
+        fuelEconomy: {
+          city: 'Нет подтверждённых данных',
+          highway: 'Нет подтверждённых данных',
+          combined: 'Нет подтверждённых данных',
+          fuelGrade: 'Проверять по рынку и двигателю'
+        },
+        fluidsAndCapacities: {
+          engineOil: 'Нет подтверждённых данных',
+          engineOilVolume: 'Нет подтверждённых данных',
+          transmissionFluid: 'Зависит от КПП; не подтверждено',
+          transferCaseAndDiff: 'Не применимо для базовых FWD-версий; проверять исполнение',
+          coolant: 'Нет подтверждённых данных',
+          brakeFluid: 'Нет подтверждённых данных'
+        },
+        bulbsSummary: {
+          lowBeam: 'Зависит от комплектации',
+          highBeam: 'Зависит от комплектации',
+          fogLights: 'Зависит от комплектации',
+          frontTurn: 'Зависит от комплектации',
+          tailStop: 'Зависит от комплектации',
+          interior: 'Зависит от комплектации'
+        },
+        obdDiagnostics: {
+          portLocation: 'Требует проверки по конкретному рынку и году',
+          commonCodes: [],
+          protocol: 'Требует проверки по конкретному двигателю и рынку'
+        },
+        knownIssues: [],
+        verificationStatus: 'unverified',
+        dataQualityNote: 'Базовая карточка модели для привязки точных вариантов FZ/NZ. Не является источником технических характеристик; параметры заполняются только по спецификациям конкретной модификации.',
+        sourceReferences: [
+          {
+            label: 'Drom — каталог Suzuki Swift',
+            url: 'https://www.drom.ru/catalog/suzuki/swift/',
+            scope: 'Идентификация модели; не подтверждает универсальные технические параметры поколения.'
+          }
+        ],
+        lastReviewed: '2026-11-06'
       }
     ]
   },

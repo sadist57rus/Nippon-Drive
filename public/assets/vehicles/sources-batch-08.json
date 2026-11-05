@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "Mitsubishi Outlander (third generation, 2012) 03.jpg",
+    "target": "mitsubishi-outlander-iii.jpg",
+    "author": "Alekc2m",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_(third_generation,_2012)_03.jpg",
+    "width": 1280,
+    "height": 790,
+    "bytes": 246912,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "Suzuki Jimny JB23 043.jpg",
+    "target": "suzuki-jimny-jb23.jpg",
+    "author": "天然ガス",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Jimny_JB23_043.jpg",
+    "width": 1280,
+    "height": 768,
+    "bytes": 243546,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "2002-2005 Subaru Forester XT wagon (2011-11-18) 01.jpg",
+    "target": "subaru-forester-sg.jpg",
+    "author": "OSX",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:2002-2005_Subaru_Forester_XT_wagon_(2011-11-18)_01.jpg",
+    "width": 1280,
+    "height": 631,
+    "bytes": 258832,
+    "downloadStatus": "downloaded"
+  }
+]

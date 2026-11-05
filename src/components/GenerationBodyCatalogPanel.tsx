@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { GENERATION_BODY_CATALOG } from '../data/generationBodyCatalog';
 import { JAPANESE_BRANDS } from '../data/japaneseBrandsData';
+import { JAPANESE_MODEL_FAMILIES } from '../data/japaneseModelFamilies';
 import { Search, Database, AlertTriangle, CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
 
 export default function GenerationBodyCatalogPanel() {
@@ -40,6 +41,7 @@ export default function GenerationBodyCatalogPanel() {
         {filtered.map(item => {
           const isOpen = expanded === item.id;
           const base = JAPANESE_BRANDS.flatMap(brand => brand.models).find(model => model.id === item.sourceModelId);
+          const family = JAPANESE_MODEL_FAMILIES.find(model => model.id === item.sourceModelId);
           return <article key={item.id} className="rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden">
             <button type="button" onClick={() => setExpanded(isOpen ? null : item.id)} className="w-full flex items-start justify-between gap-3 p-3 text-left hover:bg-slate-50 dark:hover:bg-slate-800/60">
               <div className="min-w-0">
@@ -51,6 +53,8 @@ export default function GenerationBodyCatalogPanel() {
             </button>
             {isOpen && <div className="p-4 pt-0 border-t border-slate-200 dark:border-slate-800 space-y-3 text-sm">
               {base && <p className="text-xs text-slate-500">Связанная карточка приложения: {base.name} · {base.years}</p>}
+              {!base && family && <p className="text-xs text-slate-500">Модельное семейство каталога: {family.make} {family.model}</p>}
+              {item.source && <p className="text-xs text-slate-500">Источник поколений: {item.source}</p>}
               <div><h3 className="font-bold mb-1">Семейства двигателей</h3><ul className="list-disc pl-5 space-y-1">{item.engineFamilies.map(x => <li key={x}>{x}</li>)}</ul></div>
               <div><h3 className="font-bold mb-1">Коробки передач</h3><ul className="list-disc pl-5 space-y-1">{item.transmissionFamilies.map(x => <li key={x}>{x}</li>)}</ul></div>
               <p className="text-slate-600 dark:text-slate-300">{item.drivetrainNotes}</p>

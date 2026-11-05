@@ -197,3 +197,20 @@
 | `subaru-forester-sg-sh` | [subaru-forester-sg.jpg](https://commons.wikimedia.org/wiki/File:2002-2005_Subaru_Forester_XT_wagon_(2011-11-18)_01.jpg) | Subaru Forester SG XT, 2002–2005, II поколение | OSX | Public domain (author release) | локальный файл подключён к карточке |
 
 Десять новых фотографий моделей Lancer IX, Pajero Sport III, Patrol Y61, Grand Vitara II, CR-V III, Infiniti FX S51, Terios J200, Outlander III, Jimny JB23W и Forester SG скачаны, проверены и оптимизированы для офлайн-каталога. Уже имевшиеся фотографии Pajero IV, RAV4 XA30 и Camry XV40 сохранены без перезаписи. ID моделей и технические данные не менялись.
+
+## Локальные фотографии седанов, хэтчбеков и минивэнов — пакет 8
+
+| Целевой ID каталога | Файл приложения | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `toyota-corolla-fielder-e140-wagon` | [toyota-corolla-fielder-e140.jpg](https://commons.wikimedia.org/wiki/File:2006_Toyota_Corolla-Fielder_03.jpg) | Toyota Corolla Fielder E140, универсал 2006 года | Mytho88 | GFDL 1.2+ / CC BY-SA 3.0 | локальный файл подключён к карточке |
+| `honda-civic-fd-sedan` | [honda-civic-fd1-sedan.jpg](https://commons.wikimedia.org/wiki/File:Honda_CIVIC_1.8GL_(DBA-FD1)_front.jpg) | Honda Civic FD1 1.8GL, седан | Tokumeigakarinoaoshima | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `honda-civic-fn-hatchback` | [honda-civic-fn-hatchback.jpg](https://commons.wikimedia.org/wiki/File:2008_Honda_Civic_hatchback_in_Galaxy_Grey,_front_left,_06-05-2025.jpg) | Honda Civic FN, хэтчбек 2008 года, Galaxy Grey | Cutlass | CC0 1.0 | локальный файл подключён к карточке |
+| `subaru-impreza-ge-sedan` | [subaru-impreza-ge-sedan.jpg](https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_sedan.jpg) | Subaru Impreza GE, седан 2008 года | IFCAR | Public domain (author release) | локальный файл подключён к карточке |
+| `subaru-impreza-gh-hatchback` | [subaru-impreza-gh-hatchback.jpg](https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_Hatchback.jpg) | Subaru Impreza GH, хэтчбек 2008 года | Bull-Doser | Public domain (author release) | локальный файл подключён к карточке |
+| `suzuki-swift-zc11-hatchback` | [suzuki-swift-zc11s.jpg](https://commons.wikimedia.org/wiki/File:Tuned_Suzuki_SWIFT_(ZC11S)_front.JPG) | Suzuki Swift ZC11S, хэтчбек | Tokumeigakarinoaoshima | CC0 1.0 | локальный файл подключён к карточке |
+| `lexus-is-xe20-sedan` | [lexus-is-xe20.jpg](https://commons.wikimedia.org/wiki/File:Lexus_IS250_front-1.JPG) | Lexus IS 250 XE20, седан | M 93 | CC BY-SA 3.0 | локальный файл подключён к карточке |
+| `infiniti-g-v36-sedan` | [infiniti-g-v36-sedan.jpg](https://commons.wikimedia.org/wiki/File:Infiniti_G_sedan.jpg) | Infiniti G V36, седан 2007–2009 годов | IFCAR | Public domain (author release) | локальный файл подключён к карточке |
+| `mazda-mpv-lw` | [mazda-mpv-lw.jpg](https://commons.wikimedia.org/wiki/File:1999-2002_Mazda_MPV_(LW)_van_01.jpg) | Mazda MPV LW, минивэн 1999–2002 годов | OSX | Public domain (author release) | локальный файл подключён к карточке |
+| `nissan-march-k12` | [nissan-march-k12.jpg](https://commons.wikimedia.org/wiki/File:NISSAN_MARCH_K12.jpg) | Nissan March K12, хэтчбек | TTTNIS | Public domain (author release) | локальный файл подключён к карточке |
+
+Десять изображений точных поколений Corolla Fielder E140, Civic FD/FN, Impreza GE/GH, Swift ZC11, Lexus IS XE20, Infiniti G V36, Mazda MPV LW и Nissan March K12 скачаны, проверены и оптимизированы для офлайн-каталога. ID моделей и технические данные не менялись.

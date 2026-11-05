@@ -9,6 +9,7 @@ export interface JapaneseModelFamily {
   model: string;
   recordStatus: 'model-family-seeded-generation-import-pending';
   note: string;
+  source?: 'Drom' | 'Auto.ru';
 }
 export const JAPANESE_MODEL_FAMILIES: JapaneseModelFamily[] = [
   {
@@ -3086,3 +3087,5185 @@ export const JAPANESE_MODEL_FAMILIES: JapaneseModelFamily[] = [
   }
 ] as JapaneseModelFamily[];
 export const JAPANESE_MODEL_FAMILY_MAKES = Array.from(new Set(JAPANESE_MODEL_FAMILIES.map(item => item.make))).sort();
+
+/**
+ * Дополнение полного модельного перечня по каталогам Drom и Auto.ru.
+ * Сами названия перенесены офлайн; внешние URL в пользовательские данные не добавляются.
+ */
+const importedCatalogModels: JapaneseModelFamily[] = [
+  {
+    "id": "toyota-drom-2000gt",
+    "make": "Toyota",
+    "model": "2000GT",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-4runner",
+    "make": "Toyota",
+    "model": "4Runner",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-allex",
+    "make": "Toyota",
+    "model": "Allex",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-allion",
+    "make": "Toyota",
+    "model": "Allion",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-auris",
+    "make": "Toyota",
+    "model": "Auris",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-avalon",
+    "make": "Toyota",
+    "model": "Avalon",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-avanza",
+    "make": "Toyota",
+    "model": "Avanza",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-avensisverso",
+    "make": "Toyota",
+    "model": "Avensis Verso",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-aygo",
+    "make": "Toyota",
+    "model": "Aygo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-blizzard",
+    "make": "Toyota",
+    "model": "Blizzard",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-brevis",
+    "make": "Toyota",
+    "model": "Brevis",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bz",
+    "make": "Toyota",
+    "model": "bZ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bzwoodland",
+    "make": "Toyota",
+    "model": "bZ Woodland",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bz3",
+    "make": "Toyota",
+    "model": "bZ3",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bz3x",
+    "make": "Toyota",
+    "model": "bZ3X",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bz4x",
+    "make": "Toyota",
+    "model": "bZ4X",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bz4xtouring",
+    "make": "Toyota",
+    "model": "bZ4X Touring",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bz5",
+    "make": "Toyota",
+    "model": "bZ5",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-bz7",
+    "make": "Toyota",
+    "model": "bZ7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-cpod",
+    "make": "Toyota",
+    "model": "C+pod",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-cami",
+    "make": "Toyota",
+    "model": "Cami",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-camrygracia",
+    "make": "Toyota",
+    "model": "Camry Gracia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-camryprominent",
+    "make": "Toyota",
+    "model": "Camry Prominent",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-carinae",
+    "make": "Toyota",
+    "model": "Carina E",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-carinaed",
+    "make": "Toyota",
+    "model": "Carina ED",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-carinaii",
+    "make": "Toyota",
+    "model": "Carina II",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-cavalier",
+    "make": "Toyota",
+    "model": "Cavalier",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-celsior",
+    "make": "Toyota",
+    "model": "Celsior",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-classic",
+    "make": "Toyota",
+    "model": "Classic",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-comfort",
+    "make": "Toyota",
+    "model": "Comfort",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-coms",
+    "make": "Toyota",
+    "model": "COMS",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-copen",
+    "make": "Toyota",
+    "model": "Copen",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollaaltis",
+    "make": "Toyota",
+    "model": "Corolla Altis",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollaceres",
+    "make": "Toyota",
+    "model": "Corolla Ceres",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollafx",
+    "make": "Toyota",
+    "model": "Corolla FX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollaii",
+    "make": "Toyota",
+    "model": "Corolla II",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollaim",
+    "make": "Toyota",
+    "model": "Corolla iM",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollarumion",
+    "make": "Toyota",
+    "model": "Corolla Rumion",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollaspacio",
+    "make": "Toyota",
+    "model": "Corolla Spacio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corollaverso",
+    "make": "Toyota",
+    "model": "Corolla Verso",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-corona",
+    "make": "Toyota",
+    "model": "Corona",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-coronaexiv",
+    "make": "Toyota",
+    "model": "Corona Exiv",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-coronapremio",
+    "make": "Toyota",
+    "model": "Corona Premio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-coronasf",
+    "make": "Toyota",
+    "model": "Corona SF",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-cressida",
+    "make": "Toyota",
+    "model": "Cressida",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-crownkluger",
+    "make": "Toyota",
+    "model": "Crown Kluger",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-crownsignia",
+    "make": "Toyota",
+    "model": "Crown Signia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-crownvellfire",
+    "make": "Toyota",
+    "model": "Crown Vellfire",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-curren",
+    "make": "Toyota",
+    "model": "Curren",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-duet",
+    "make": "Toyota",
+    "model": "Duet",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-echo",
+    "make": "Toyota",
+    "model": "Echo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-esquire",
+    "make": "Toyota",
+    "model": "Esquire",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-estimaemina",
+    "make": "Toyota",
+    "model": "Estima Emina",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-estimalucida",
+    "make": "Toyota",
+    "model": "Estima Lucida",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-etios",
+    "make": "Toyota",
+    "model": "Etios",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-etioscross",
+    "make": "Toyota",
+    "model": "Etios Cross",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-frontlander",
+    "make": "Toyota",
+    "model": "Frontlander",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-funcargo",
+    "make": "Toyota",
+    "model": "Funcargo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-grcorolla",
+    "make": "Toyota",
+    "model": "GR Corolla",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-granace",
+    "make": "Toyota",
+    "model": "GranAce",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-grandhiace",
+    "make": "Toyota",
+    "model": "Grand Hiace",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-grandhighlander",
+    "make": "Toyota",
+    "model": "Grand Highlander",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-granvia",
+    "make": "Toyota",
+    "model": "Granvia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-gt86",
+    "make": "Toyota",
+    "model": "GT 86",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-hiaceregius",
+    "make": "Toyota",
+    "model": "Hiace Regius",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-highlander",
+    "make": "Toyota",
+    "model": "Highlander",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-hiluxchamp",
+    "make": "Toyota",
+    "model": "Hilux Champ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-hiluxsurf",
+    "make": "Toyota",
+    "model": "Hilux Surf",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-iq",
+    "make": "Toyota",
+    "model": "iQ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-isis",
+    "make": "Toyota",
+    "model": "Isis",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-izoa",
+    "make": "Toyota",
+    "model": "Izoa",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-jpntaxi",
+    "make": "Toyota",
+    "model": "JPN TAXI",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-klugerv",
+    "make": "Toyota",
+    "model": "Kluger V",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-landcruisercygnus",
+    "make": "Toyota",
+    "model": "Land Cruiser Cygnus",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-landcruiserfj",
+    "make": "Toyota",
+    "model": "Land Cruiser FJ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-levin",
+    "make": "Toyota",
+    "model": "Levin",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-liteacenoah",
+    "make": "Toyota",
+    "model": "Lite Ace Noah",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-markiiwagonblit",
+    "make": "Toyota",
+    "model": "Mark II Wagon Blit",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-markiiwagonqualis",
+    "make": "Toyota",
+    "model": "Mark II Wagon Qualis",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-markxzio",
+    "make": "Toyota",
+    "model": "Mark X Zio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-masteracesurf",
+    "make": "Toyota",
+    "model": "Master Ace Surf",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-matrix",
+    "make": "Toyota",
+    "model": "Matrix",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-megacruiser",
+    "make": "Toyota",
+    "model": "Mega Cruiser",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-modelf",
+    "make": "Toyota",
+    "model": "Model F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-nadia",
+    "make": "Toyota",
+    "model": "Nadia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-opa",
+    "make": "Toyota",
+    "model": "Opa",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-origin",
+    "make": "Toyota",
+    "model": "Origin",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-passosette",
+    "make": "Toyota",
+    "model": "Passo Sette",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-picnic",
+    "make": "Toyota",
+    "model": "Picnic",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-pixisepoch",
+    "make": "Toyota",
+    "model": "Pixis Epoch",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-pixisjoy",
+    "make": "Toyota",
+    "model": "Pixis Joy",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-pixismega",
+    "make": "Toyota",
+    "model": "Pixis Mega",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-pixisspace",
+    "make": "Toyota",
+    "model": "Pixis Space",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-pixisvan",
+    "make": "Toyota",
+    "model": "Pixis Van",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-previa",
+    "make": "Toyota",
+    "model": "Previa",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-priusc",
+    "make": "Toyota",
+    "model": "Prius C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-priusphv",
+    "make": "Toyota",
+    "model": "Prius PHV",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-priusplus",
+    "make": "Toyota",
+    "model": "Prius Plus",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-priusprime",
+    "make": "Toyota",
+    "model": "Prius Prime",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-priusv",
+    "make": "Toyota",
+    "model": "Prius v",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-proace",
+    "make": "Toyota",
+    "model": "Proace",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-proacecity",
+    "make": "Toyota",
+    "model": "Proace City",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-proaceverso",
+    "make": "Toyota",
+    "model": "Proace Verso",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-progres",
+    "make": "Toyota",
+    "model": "Progres",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-pronard",
+    "make": "Toyota",
+    "model": "Pronard",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-publica",
+    "make": "Toyota",
+    "model": "Publica",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-raum",
+    "make": "Toyota",
+    "model": "Raum",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-regius",
+    "make": "Toyota",
+    "model": "Regius",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-reiz",
+    "make": "Toyota",
+    "model": "Reiz",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sai",
+    "make": "Toyota",
+    "model": "Sai",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-scepter",
+    "make": "Toyota",
+    "model": "Scepter",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sd",
+    "make": "Toyota",
+    "model": "SD",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sequoia",
+    "make": "Toyota",
+    "model": "Sequoia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sf",
+    "make": "Toyota",
+    "model": "SF",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sienna",
+    "make": "Toyota",
+    "model": "Sienna",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-solara",
+    "make": "Toyota",
+    "model": "Solara",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-soluna",
+    "make": "Toyota",
+    "model": "Soluna",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-spade",
+    "make": "Toyota",
+    "model": "Spade",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sparky",
+    "make": "Toyota",
+    "model": "Sparky",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sprintercarib",
+    "make": "Toyota",
+    "model": "Sprinter Carib",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sprintermarino",
+    "make": "Toyota",
+    "model": "Sprinter Marino",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-sprintertrueno",
+    "make": "Toyota",
+    "model": "Sprinter Trueno",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-t100",
+    "make": "Toyota",
+    "model": "T100",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-tacoma",
+    "make": "Toyota",
+    "model": "Tacoma",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-tamaraw",
+    "make": "Toyota",
+    "model": "Tamaraw",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-tercel",
+    "make": "Toyota",
+    "model": "Tercel",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-touringhiace",
+    "make": "Toyota",
+    "model": "Touring Hiace",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-townacenoah",
+    "make": "Toyota",
+    "model": "Town Ace Noah",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-tundra",
+    "make": "Toyota",
+    "model": "Tundra",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-urbancruiser",
+    "make": "Toyota",
+    "model": "Urban Cruiser",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-veloz",
+    "make": "Toyota",
+    "model": "Veloz",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-venza",
+    "make": "Toyota",
+    "model": "Venza",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-verso",
+    "make": "Toyota",
+    "model": "Verso",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-versos",
+    "make": "Toyota",
+    "model": "Verso-S",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-vios",
+    "make": "Toyota",
+    "model": "Vios",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-vista",
+    "make": "Toyota",
+    "model": "Vista",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-vistaardeo",
+    "make": "Toyota",
+    "model": "Vista Ardeo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-voltz",
+    "make": "Toyota",
+    "model": "Voltz",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-wigo",
+    "make": "Toyota",
+    "model": "Wigo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-wildlander",
+    "make": "Toyota",
+    "model": "Wildlander",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-willcypha",
+    "make": "Toyota",
+    "model": "WiLL Cypha",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-willvi",
+    "make": "Toyota",
+    "model": "WiLL Vi",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-windom",
+    "make": "Toyota",
+    "model": "Windom",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-xa",
+    "make": "Toyota",
+    "model": "xA",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-yarisativ",
+    "make": "Toyota",
+    "model": "Yaris Ativ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-yarisia",
+    "make": "Toyota",
+    "model": "Yaris iA",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-yarisl",
+    "make": "Toyota",
+    "model": "Yaris L",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "toyota-drom-yarisverso",
+    "make": "Toyota",
+    "model": "Yaris Verso",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-145",
+    "make": "Honda",
+    "model": "145",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-1300",
+    "make": "Honda",
+    "model": "1300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-accordinspire",
+    "make": "Honda",
+    "model": "Accord Inspire",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-acty",
+    "make": "Honda",
+    "model": "Acty",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-ascotinnova",
+    "make": "Honda",
+    "model": "Ascot Innova",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-ballade",
+    "make": "Honda",
+    "model": "Ballade",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-breeze",
+    "make": "Honda",
+    "model": "Breeze",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-civicferio",
+    "make": "Honda",
+    "model": "Civic Ferio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-civicshuttle",
+    "make": "Honda",
+    "model": "Civic Shuttle",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-concerto",
+    "make": "Honda",
+    "model": "Concerto",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-crxdelsol",
+    "make": "Honda",
+    "model": "CR-X del Sol",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-crider",
+    "make": "Honda",
+    "model": "Crider",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-crosstour",
+    "make": "Honda",
+    "model": "Crosstour",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-e",
+    "make": "Honda",
+    "model": "e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-enp1",
+    "make": "Honda",
+    "model": "e:NP1",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-enp2",
+    "make": "Honda",
+    "model": "e:NP2",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-ens1",
+    "make": "Honda",
+    "model": "e:NS1",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-ens2",
+    "make": "Honda",
+    "model": "e:NS2",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-eny1",
+    "make": "Honda",
+    "model": "e:NY1",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-everusve1",
+    "make": "Honda",
+    "model": "Everus VE-1",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-fitaria",
+    "make": "Honda",
+    "model": "Fit Aria",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-fitshuttle",
+    "make": "Honda",
+    "model": "Fit Shuttle",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-frv",
+    "make": "Honda",
+    "model": "FR-V",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-freedspike",
+    "make": "Honda",
+    "model": "Freed Spike",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-horizon",
+    "make": "Honda",
+    "model": "Horizon",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-integrasj",
+    "make": "Honda",
+    "model": "Integra SJ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-lagreat",
+    "make": "Honda",
+    "model": "Lagreat",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-lifedunk",
+    "make": "Honda",
+    "model": "Life Dunk",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-mnv",
+    "make": "Honda",
+    "model": "M-NV",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-mobiliospike",
+    "make": "Honda",
+    "model": "Mobilio Spike",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-nboxslash",
+    "make": "Honda",
+    "model": "N-BOX Slash",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-p7",
+    "make": "Honda",
+    "model": "P7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-quint",
+    "make": "Honda",
+    "model": "Quint",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-rafaga",
+    "make": "Honda",
+    "model": "Rafaga",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-saber",
+    "make": "Honda",
+    "model": "Saber",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-s660",
+    "make": "Honda",
+    "model": "S660",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-s7",
+    "make": "Honda",
+    "model": "S7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-street",
+    "make": "Honda",
+    "model": "Street",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-superone",
+    "make": "Honda",
+    "model": "Super-ONE",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-torneo",
+    "make": "Honda",
+    "model": "Torneo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-urv",
+    "make": "Honda",
+    "model": "UR-V",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-vamoshobio",
+    "make": "Honda",
+    "model": "Vamos Hobio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-vigor",
+    "make": "Honda",
+    "model": "Vigor",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-wrv",
+    "make": "Honda",
+    "model": "WR-V",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-xnv",
+    "make": "Honda",
+    "model": "X-NV",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-xrv",
+    "make": "Honda",
+    "model": "XR-V",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-z",
+    "make": "Honda",
+    "model": "Z",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "honda-drom-zrv",
+    "make": "Honda",
+    "model": "ZR-V",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-121",
+    "make": "Mazda",
+    "model": "121",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-1500",
+    "make": "Mazda",
+    "model": "1500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-323c",
+    "make": "Mazda",
+    "model": "323C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-323f",
+    "make": "Mazda",
+    "model": "323F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-616",
+    "make": "Mazda",
+    "model": "616",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-818",
+    "make": "Mazda",
+    "model": "818",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-autozamaz3",
+    "make": "Mazda",
+    "model": "Autozam AZ-3",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-autozamclef",
+    "make": "Mazda",
+    "model": "Autozam Clef",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-axela",
+    "make": "Mazda",
+    "model": "Axela",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-azoffroad",
+    "make": "Mazda",
+    "model": "AZ-Offroad",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-azwagon",
+    "make": "Mazda",
+    "model": "AZ-Wagon",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-bongobrawny",
+    "make": "Mazda",
+    "model": "Bongo Brawny",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-bongofriendee",
+    "make": "Mazda",
+    "model": "Bongo Friendee",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-chantez",
+    "make": "Mazda",
+    "model": "Chantez",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-cronos",
+    "make": "Mazda",
+    "model": "Cronos",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-cx4",
+    "make": "Mazda",
+    "model": "CX-4",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-cx6e",
+    "make": "Mazda",
+    "model": "CX-6e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-cx70",
+    "make": "Mazda",
+    "model": "CX-70",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-cx80",
+    "make": "Mazda",
+    "model": "CX-80",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-efinimpv",
+    "make": "Mazda",
+    "model": "Efini MPV",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-efinims6",
+    "make": "Mazda",
+    "model": "Efini MS-6",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-efinims8",
+    "make": "Mazda",
+    "model": "Efini MS-8",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-efinims9",
+    "make": "Mazda",
+    "model": "Efini MS-9",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-etude",
+    "make": "Mazda",
+    "model": "Etude",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunos100",
+    "make": "Mazda",
+    "model": "Eunos 100",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunos300",
+    "make": "Mazda",
+    "model": "Eunos 300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunos500",
+    "make": "Mazda",
+    "model": "Eunos 500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunos800",
+    "make": "Mazda",
+    "model": "Eunos 800",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunoscargo",
+    "make": "Mazda",
+    "model": "Eunos Cargo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunoscosmo",
+    "make": "Mazda",
+    "model": "Eunos Cosmo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunospresso",
+    "make": "Mazda",
+    "model": "Eunos Presso",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-eunosroadster",
+    "make": "Mazda",
+    "model": "Eunos Roadster",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-ez6",
+    "make": "Mazda",
+    "model": "EZ-6",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-ez60",
+    "make": "Mazda",
+    "model": "EZ-60",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-familiaswagon",
+    "make": "Mazda",
+    "model": "Familia S-Wagon",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-flair",
+    "make": "Mazda",
+    "model": "Flair",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-flaircrossover",
+    "make": "Mazda",
+    "model": "Flair Crossover",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-flairwagon",
+    "make": "Mazda",
+    "model": "Flair Wagon",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-grandfamilia",
+    "make": "Mazda",
+    "model": "Grand Familia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-mazda3mps",
+    "make": "Mazda",
+    "model": "Mazda3 MPS",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-mazda6mps",
+    "make": "Mazda",
+    "model": "Mazda6 MPS",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-mazda6e",
+    "make": "Mazda",
+    "model": "Mazda6e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-miata",
+    "make": "Mazda",
+    "model": "Miata",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-navajo",
+    "make": "Mazda",
+    "model": "Navajo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-persona",
+    "make": "Mazda",
+    "model": "Persona",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-proceedlevante",
+    "make": "Mazda",
+    "model": "Proceed Levante",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-proceedmarvie",
+    "make": "Mazda",
+    "model": "Proceed Marvie",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-revue",
+    "make": "Mazda",
+    "model": "Revue",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-roadpacer",
+    "make": "Mazda",
+    "model": "Roadpacer",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-roadster",
+    "make": "Mazda",
+    "model": "Roadster",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-rx5",
+    "make": "Mazda",
+    "model": "RX-5",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-savanna",
+    "make": "Mazda",
+    "model": "Savanna",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-savannarx7",
+    "make": "Mazda",
+    "model": "Savanna RX-7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-sentia",
+    "make": "Mazda",
+    "model": "Sentia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-spiano",
+    "make": "Mazda",
+    "model": "Spiano",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-xedos6",
+    "make": "Mazda",
+    "model": "Xedos 6",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mazda-drom-xedos9",
+    "make": "Mazda",
+    "model": "Xedos 9",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-3000gt",
+    "make": "Mitsubishi",
+    "model": "3000GT",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-aspire",
+    "make": "Mitsubishi",
+    "model": "Aspire",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-attrage",
+    "make": "Mitsubishi",
+    "model": "Attrage",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-bravo",
+    "make": "Mitsubishi",
+    "model": "Bravo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-celeste",
+    "make": "Mitsubishi",
+    "model": "Celeste",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-challenger",
+    "make": "Mitsubishi",
+    "model": "Challenger",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-chariotgrandis",
+    "make": "Mitsubishi",
+    "model": "Chariot Grandis",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-coltplus",
+    "make": "Mitsubishi",
+    "model": "Colt Plus",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-cordia",
+    "make": "Mitsubishi",
+    "model": "Cordia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-debonair",
+    "make": "Mitsubishi",
+    "model": "Debonair",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-delicad3",
+    "make": "Mitsubishi",
+    "model": "Delica D:3",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-delicamini",
+    "make": "Mitsubishi",
+    "model": "Delica Mini",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-destinator",
+    "make": "Mitsubishi",
+    "model": "Destinator",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-dignity",
+    "make": "Mitsubishi",
+    "model": "Dignity",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-dion",
+    "make": "Mitsubishi",
+    "model": "Dion",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-eclipsesportback",
+    "make": "Mitsubishi",
+    "model": "Eclipse Sportback",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-ekactive",
+    "make": "Mitsubishi",
+    "model": "eK Active",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-ekclassy",
+    "make": "Mitsubishi",
+    "model": "eK Classy",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-ekcustom",
+    "make": "Mitsubishi",
+    "model": "eK Custom",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-ekspace",
+    "make": "Mitsubishi",
+    "model": "eK Space",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-eksport",
+    "make": "Mitsubishi",
+    "model": "eK Sport",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-ekxev",
+    "make": "Mitsubishi",
+    "model": "eK X EV",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-emeraude",
+    "make": "Mitsubishi",
+    "model": "Emeraude",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-endeavor",
+    "make": "Mitsubishi",
+    "model": "Endeavor",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-eterna",
+    "make": "Mitsubishi",
+    "model": "Eterna",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-expo",
+    "make": "Mitsubishi",
+    "model": "Expo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-freeca",
+    "make": "Mitsubishi",
+    "model": "Freeca",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-galantfortis",
+    "make": "Mitsubishi",
+    "model": "Galant Fortis",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-grunder",
+    "make": "Mitsubishi",
+    "model": "Grunder",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-gto",
+    "make": "Mitsubishi",
+    "model": "GTO",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-i",
+    "make": "Mitsubishi",
+    "model": "i",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-jeep",
+    "make": "Mitsubishi",
+    "model": "Jeep",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-l200",
+    "make": "Mitsubishi",
+    "model": "L200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-l300",
+    "make": "Mitsubishi",
+    "model": "L300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-l400",
+    "make": "Mitsubishi",
+    "model": "L400",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-lancercedia",
+    "make": "Mitsubishi",
+    "model": "Lancer Cedia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-lancerex",
+    "make": "Mitsubishi",
+    "model": "Lancer EX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-lancerfortis",
+    "make": "Mitsubishi",
+    "model": "Lancer Fortis",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-libero",
+    "make": "Mitsubishi",
+    "model": "Libero",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-minicatoppo",
+    "make": "Mitsubishi",
+    "model": "Minica Toppo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-minicab",
+    "make": "Mitsubishi",
+    "model": "Minicab",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-minicabmiev",
+    "make": "Mitsubishi",
+    "model": "Minicab MiEV",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-miragedingo",
+    "make": "Mitsubishi",
+    "model": "Mirage Dingo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-montero",
+    "make": "Mitsubishi",
+    "model": "Montero",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-monterosport",
+    "make": "Mitsubishi",
+    "model": "Montero Sport",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-outlandersport",
+    "make": "Mitsubishi",
+    "model": "Outlander Sport",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-pajeropinin",
+    "make": "Mitsubishi",
+    "model": "Pajero Pinin",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-pistachio",
+    "make": "Mitsubishi",
+    "model": "Pistachio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-raider",
+    "make": "Mitsubishi",
+    "model": "Raider",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-sapporo",
+    "make": "Mitsubishi",
+    "model": "Sapporo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-savrin",
+    "make": "Mitsubishi",
+    "model": "Savrin",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-sigma",
+    "make": "Mitsubishi",
+    "model": "Sigma",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-spacewagon",
+    "make": "Mitsubishi",
+    "model": "Space Wagon",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-starion",
+    "make": "Mitsubishi",
+    "model": "Starion",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-strada",
+    "make": "Mitsubishi",
+    "model": "Strada",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-toppobj",
+    "make": "Mitsubishi",
+    "model": "Toppo BJ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-toppobjwide",
+    "make": "Mitsubishi",
+    "model": "Toppo BJ Wide",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-townboxwide",
+    "make": "Mitsubishi",
+    "model": "Town Box Wide",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-tredia",
+    "make": "Mitsubishi",
+    "model": "Tredia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-triton",
+    "make": "Mitsubishi",
+    "model": "Triton",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-xforce",
+    "make": "Mitsubishi",
+    "model": "Xforce",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-xpander",
+    "make": "Mitsubishi",
+    "model": "Xpander",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsubishi-drom-xpandercross",
+    "make": "Mitsubishi",
+    "model": "Xpander Cross",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-100nx",
+    "make": "Nissan",
+    "model": "100NX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-almeraclassic",
+    "make": "Nissan",
+    "model": "Almera Classic",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-ariya",
+    "make": "Nissan",
+    "model": "Ariya",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-armada",
+    "make": "Nissan",
+    "model": "Armada",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-aura",
+    "make": "Nissan",
+    "model": "Aura",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-auster",
+    "make": "Nissan",
+    "model": "Auster",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-avenir",
+    "make": "Nissan",
+    "model": "Avenir",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-avenirsalut",
+    "make": "Nissan",
+    "model": "Avenir Salut",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-bassara",
+    "make": "Nissan",
+    "model": "Bassara",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-be1",
+    "make": "Nissan",
+    "model": "BE-1",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-bluebirdmaxima",
+    "make": "Nissan",
+    "model": "Bluebird Maxima",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-bluebirdsylphy",
+    "make": "Nissan",
+    "model": "Bluebird Sylphy",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-caravanelgrand",
+    "make": "Nissan",
+    "model": "Caravan Elgrand",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-cedriccima",
+    "make": "Nissan",
+    "model": "Cedric Cima",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-cherry",
+    "make": "Nissan",
+    "model": "Cherry",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-clipper",
+    "make": "Nissan",
+    "model": "Clipper",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-crew",
+    "make": "Nissan",
+    "model": "Crew",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-cubecubic",
+    "make": "Nissan",
+    "model": "Cube Cubic",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-dayz",
+    "make": "Nissan",
+    "model": "DAYZ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-dayzroox",
+    "make": "Nissan",
+    "model": "DAYZ Roox",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-env200",
+    "make": "Nissan",
+    "model": "e-NV200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-exa",
+    "make": "Nissan",
+    "model": "Exa",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-expert",
+    "make": "Nissan",
+    "model": "Expert",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-figaro",
+    "make": "Nissan",
+    "model": "Figaro",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-frontier",
+    "make": "Nissan",
+    "model": "Frontier",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-frontierpro",
+    "make": "Nissan",
+    "model": "Frontier Pro",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-gloriacima",
+    "make": "Nissan",
+    "model": "Gloria Cima",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-homy",
+    "make": "Nissan",
+    "model": "Homy",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-homyelgrand",
+    "make": "Nissan",
+    "model": "Homy Elgrand",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-hypermini",
+    "make": "Nissan",
+    "model": "Hypermini",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-kait",
+    "make": "Nissan",
+    "model": "Kait",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-kix",
+    "make": "Nissan",
+    "model": "Kix",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-langley",
+    "make": "Nissan",
+    "model": "Langley",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-lannia",
+    "make": "Nissan",
+    "model": "Lannia",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-largo",
+    "make": "Nissan",
+    "model": "Largo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-latio",
+    "make": "Nissan",
+    "model": "Latio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-laurelspirit",
+    "make": "Nissan",
+    "model": "Laurel Spirit",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-leopard",
+    "make": "Nissan",
+    "model": "Leopard",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-libertavilla",
+    "make": "Nissan",
+    "model": "Liberta Villa",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-livina",
+    "make": "Nissan",
+    "model": "Livina",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-lucino",
+    "make": "Nissan",
+    "model": "Lucino",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-magnite",
+    "make": "Nissan",
+    "model": "Magnite",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-marchbox",
+    "make": "Nissan",
+    "model": "March Box",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-micracc",
+    "make": "Nissan",
+    "model": "Micra C+C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-moco",
+    "make": "Nissan",
+    "model": "Moco",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-n6",
+    "make": "Nissan",
+    "model": "N6",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-n7",
+    "make": "Nissan",
+    "model": "N7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-navarapro",
+    "make": "Nissan",
+    "model": "Navara Pro",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-np300",
+    "make": "Nissan",
+    "model": "NP300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-nv100clipper",
+    "make": "Nissan",
+    "model": "NV100 Clipper",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-nv300",
+    "make": "Nissan",
+    "model": "NV300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-nv350caravan",
+    "make": "Nissan",
+    "model": "NV350 Caravan",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-nxcoupe",
+    "make": "Nissan",
+    "model": "NX-Coupe",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-nx7",
+    "make": "Nissan",
+    "model": "NX7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-nx8",
+    "make": "Nissan",
+    "model": "NX8",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-otti",
+    "make": "Nissan",
+    "model": "Otti",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-pao",
+    "make": "Nissan",
+    "model": "Pao",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-pixo",
+    "make": "Nissan",
+    "model": "Pixo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-prairie",
+    "make": "Nissan",
+    "model": "Prairie",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-prairiejoy",
+    "make": "Nissan",
+    "model": "Prairie Joy",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-presage",
+    "make": "Nissan",
+    "model": "Presage",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-presea",
+    "make": "Nissan",
+    "model": "Presea",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-president",
+    "make": "Nissan",
+    "model": "President",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-primastar",
+    "make": "Nissan",
+    "model": "Primastar",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-primeracamino",
+    "make": "Nissan",
+    "model": "Primera Camino",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-qashqai2",
+    "make": "Nissan",
+    "model": "Qashqai+2",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-quest",
+    "make": "Nissan",
+    "model": "Quest",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-roguepluginhybrid",
+    "make": "Nissan",
+    "model": "Rogue Plug-in Hybrid",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-roguesport",
+    "make": "Nissan",
+    "model": "Rogue Sport",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-roox",
+    "make": "Nissan",
+    "model": "Roox",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-scargo",
+    "make": "Nissan",
+    "model": "S-Cargo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-sakura",
+    "make": "Nissan",
+    "model": "Sakura",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-sentra",
+    "make": "Nissan",
+    "model": "Sentra",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-skylinecrossover",
+    "make": "Nissan",
+    "model": "Skyline Crossover",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-skylinegtr",
+    "make": "Nissan",
+    "model": "Skyline GT-R",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-stanza",
+    "make": "Nissan",
+    "model": "Stanza",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-sunnycalifornia",
+    "make": "Nissan",
+    "model": "Sunny California",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-sunnyrz1",
+    "make": "Nissan",
+    "model": "Sunny RZ-1",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-sylphy",
+    "make": "Nissan",
+    "model": "Sylphy",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-tekton",
+    "make": "Nissan",
+    "model": "Tekton",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-terra",
+    "make": "Nissan",
+    "model": "Terra",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-terranoii",
+    "make": "Nissan",
+    "model": "Terrano II",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-terranoregulus",
+    "make": "Nissan",
+    "model": "Terrano Regulus",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-tiidalatio",
+    "make": "Nissan",
+    "model": "Tiida Latio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-urvan",
+    "make": "Nissan",
+    "model": "Urvan",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-vanetteserena",
+    "make": "Nissan",
+    "model": "Vanette Serena",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-versa",
+    "make": "Nissan",
+    "model": "Versa",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-versanote",
+    "make": "Nissan",
+    "model": "Versa Note",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-violet",
+    "make": "Nissan",
+    "model": "Violet",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-volkswagensantana",
+    "make": "Nissan",
+    "model": "Volkswagen Santana",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-xterra",
+    "make": "Nissan",
+    "model": "Xterra",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "nissan-drom-z",
+    "make": "Nissan",
+    "model": "Z",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-brat",
+    "make": "Subaru",
+    "model": "Brat",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-chiffon",
+    "make": "Subaru",
+    "model": "Chiffon",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-domingo",
+    "make": "Subaru",
+    "model": "Domingo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-exigacrossover7",
+    "make": "Subaru",
+    "model": "Exiga Crossover 7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-getaway",
+    "make": "Subaru",
+    "model": "Getaway",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-imprezawrxsti",
+    "make": "Subaru",
+    "model": "Impreza WRX STI",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-imprezaxv",
+    "make": "Subaru",
+    "model": "Impreza XV",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-layback",
+    "make": "Subaru",
+    "model": "Layback",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-legacyb4",
+    "make": "Subaru",
+    "model": "Legacy B4",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-legacylancaster",
+    "make": "Subaru",
+    "model": "Legacy Lancaster",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-pleoplus",
+    "make": "Subaru",
+    "model": "Pleo Plus",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-solterra",
+    "make": "Subaru",
+    "model": "Solterra",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-trailseeker",
+    "make": "Subaru",
+    "model": "Trailseeker",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-uncharted",
+    "make": "Subaru",
+    "model": "Uncharted",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "subaru-drom-xt",
+    "make": "Subaru",
+    "model": "XT",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-across",
+    "make": "Suzuki",
+    "model": "Across",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-aerio",
+    "make": "Suzuki",
+    "model": "Aerio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-alivio",
+    "make": "Suzuki",
+    "model": "Alivio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-altolapin",
+    "make": "Suzuki",
+    "model": "Alto Lapin",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-cara",
+    "make": "Suzuki",
+    "model": "Cara",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-carryvan",
+    "make": "Suzuki",
+    "model": "Carry Van",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-ciaz",
+    "make": "Suzuki",
+    "model": "Ciaz",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-eevery",
+    "make": "Suzuki",
+    "model": "e Every",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-esky",
+    "make": "Suzuki",
+    "model": "e Sky",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-evitara",
+    "make": "Suzuki",
+    "model": "e Vitara",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-eeco",
+    "make": "Suzuki",
+    "model": "Eeco",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-equator",
+    "make": "Suzuki",
+    "model": "Equator",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-ertiga",
+    "make": "Suzuki",
+    "model": "Ertiga",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-esteem",
+    "make": "Suzuki",
+    "model": "Esteem",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-forenza",
+    "make": "Suzuki",
+    "model": "Forenza",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-fronx",
+    "make": "Suzuki",
+    "model": "Fronx",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-grandescudo",
+    "make": "Suzuki",
+    "model": "Grand Escudo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-grandvitaraxl7",
+    "make": "Suzuki",
+    "model": "Grand Vitara XL-7",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-jimnysierra",
+    "make": "Suzuki",
+    "model": "Jimny Sierra",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-jimnywide",
+    "make": "Suzuki",
+    "model": "Jimny Wide",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-mightyboy",
+    "make": "Suzuki",
+    "model": "Mighty Boy",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-reno",
+    "make": "Suzuki",
+    "model": "Reno",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-scross",
+    "make": "Suzuki",
+    "model": "S-Cross",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-spresso",
+    "make": "Suzuki",
+    "model": "S-Presso",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-samurai",
+    "make": "Suzuki",
+    "model": "Samurai",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-sidekick",
+    "make": "Suzuki",
+    "model": "Sidekick",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-swace",
+    "make": "Suzuki",
+    "model": "Swace",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-verona",
+    "make": "Suzuki",
+    "model": "Verona",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-wagonrplus",
+    "make": "Suzuki",
+    "model": "Wagon R Plus",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-wagonrsmile",
+    "make": "Suzuki",
+    "model": "Wagon R Smile",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-wagonrsolio",
+    "make": "Suzuki",
+    "model": "Wagon R Solio",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-wagonrwide",
+    "make": "Suzuki",
+    "model": "Wagon R Wide",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-works",
+    "make": "Suzuki",
+    "model": "Works",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "suzuki-drom-xbee",
+    "make": "Suzuki",
+    "model": "Xbee",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "acura-drom-adx",
+    "make": "Acura",
+    "model": "ADX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "acura-drom-cdx",
+    "make": "Acura",
+    "model": "CDX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "acura-drom-el",
+    "make": "Acura",
+    "model": "EL",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "acura-drom-slx",
+    "make": "Acura",
+    "model": "SLX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "acura-drom-vigor",
+    "make": "Acura",
+    "model": "Vigor",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "datsun-drom-cross",
+    "make": "Datsun",
+    "model": "Cross",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "datsun-drom-go",
+    "make": "Datsun",
+    "model": "Go",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-esq",
+    "make": "Infiniti",
+    "model": "ESQ",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-ex25",
+    "make": "Infiniti",
+    "model": "EX25",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-ex30d",
+    "make": "Infiniti",
+    "model": "EX30d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-ex35",
+    "make": "Infiniti",
+    "model": "EX35",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-ex37",
+    "make": "Infiniti",
+    "model": "EX37",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-fx30d",
+    "make": "Infiniti",
+    "model": "FX30d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-fx45",
+    "make": "Infiniti",
+    "model": "FX45",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-fx50",
+    "make": "Infiniti",
+    "model": "FX50",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-g20",
+    "make": "Infiniti",
+    "model": "G20",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-i30",
+    "make": "Infiniti",
+    "model": "I30",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-i35",
+    "make": "Infiniti",
+    "model": "I35",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-j30",
+    "make": "Infiniti",
+    "model": "J30",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-jx35",
+    "make": "Infiniti",
+    "model": "JX35",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m25",
+    "make": "Infiniti",
+    "model": "M25",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m30",
+    "make": "Infiniti",
+    "model": "M30",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m30d",
+    "make": "Infiniti",
+    "model": "M30d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m35",
+    "make": "Infiniti",
+    "model": "M35",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m35h",
+    "make": "Infiniti",
+    "model": "M35h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m37",
+    "make": "Infiniti",
+    "model": "M37",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m45",
+    "make": "Infiniti",
+    "model": "M45",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-m56",
+    "make": "Infiniti",
+    "model": "M56",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "infiniti-drom-qx65",
+    "make": "Infiniti",
+    "model": "QX65",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-117coupe",
+    "make": "Isuzu",
+    "model": "117 Coupe",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-axiom",
+    "make": "Isuzu",
+    "model": "Axiom",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-como",
+    "make": "Isuzu",
+    "model": "Como",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-fargofilly",
+    "make": "Isuzu",
+    "model": "Fargo Filly",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-faster",
+    "make": "Isuzu",
+    "model": "Faster",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-filly",
+    "make": "Isuzu",
+    "model": "Filly",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-florian",
+    "make": "Isuzu",
+    "model": "Florian",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-imark",
+    "make": "Isuzu",
+    "model": "I-Mark",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-lingtuo",
+    "make": "Isuzu",
+    "model": "Lingtuo",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-midi",
+    "make": "Isuzu",
+    "model": "Midi",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-mux",
+    "make": "Isuzu",
+    "model": "MU-X",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-panero",
+    "make": "Isuzu",
+    "model": "Pa Nero",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-piazzanero",
+    "make": "Isuzu",
+    "model": "Piazza Nero",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-remaxruimai",
+    "make": "Isuzu",
+    "model": "RE-MAX Ruimai",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "isuzu-drom-t30explorer",
+    "make": "Isuzu",
+    "model": "T30 Explorer",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-galueclassic",
+    "make": "Mitsuoka",
+    "model": "Galue Classic",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-galueconvertible",
+    "make": "Mitsuoka",
+    "model": "Galue Convertible",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-galue204",
+    "make": "Mitsuoka",
+    "model": "Galue204",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-la1",
+    "make": "Mitsuoka",
+    "model": "LA1",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-m55",
+    "make": "Mitsuoka",
+    "model": "M55",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-microcar",
+    "make": "Mitsuoka",
+    "model": "Micro Car",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-nouera",
+    "make": "Mitsuoka",
+    "model": "Nouera",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-rockstar",
+    "make": "Mitsuoka",
+    "model": "Rock Star",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "mitsuoka-drom-ryugi",
+    "make": "Mitsuoka",
+    "model": "Ryugi",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-bee",
+    "make": "Daihatsu",
+    "model": "Bee",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-boonluminas",
+    "make": "Daihatsu",
+    "model": "Boon Luminas",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-ceria",
+    "make": "Daihatsu",
+    "model": "Ceria",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-charade",
+    "make": "Daihatsu",
+    "model": "Charade",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-charmant",
+    "make": "Daihatsu",
+    "model": "Charmant",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-coo",
+    "make": "Daihatsu",
+    "model": "Coo",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-deltawagon",
+    "make": "Daihatsu",
+    "model": "Delta Wagon",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-extol",
+    "make": "Daihatsu",
+    "model": "Extol",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-fellow",
+    "make": "Daihatsu",
+    "model": "Fellow",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-granmove",
+    "make": "Daihatsu",
+    "model": "Gran Move",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-hijetcaddie",
+    "make": "Daihatsu",
+    "model": "Hijet Caddie",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-materia",
+    "make": "Daihatsu",
+    "model": "Materia",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-max",
+    "make": "Daihatsu",
+    "model": "MAX",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-midget",
+    "make": "Daihatsu",
+    "model": "Midget",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-miracocoa",
+    "make": "Daihatsu",
+    "model": "Mira Cocoa",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-miraes",
+    "make": "Daihatsu",
+    "model": "Mira e:S",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-miragino",
+    "make": "Daihatsu",
+    "model": "Mira Gino",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-miratocot",
+    "make": "Daihatsu",
+    "model": "Mira Tocot",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-movecanbus",
+    "make": "Daihatsu",
+    "model": "Move Canbus",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-moveconte",
+    "make": "Daihatsu",
+    "model": "Move Conte",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-movelatte",
+    "make": "Daihatsu",
+    "model": "Move Latte",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-pyzar",
+    "make": "Daihatsu",
+    "model": "Pyzar",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-rugger",
+    "make": "Daihatsu",
+    "model": "Rugger",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-tantoexe",
+    "make": "Daihatsu",
+    "model": "Tanto Exe",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-wildcat",
+    "make": "Daihatsu",
+    "model": "Wildcat",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "daihatsu-drom-xenia",
+    "make": "Daihatsu",
+    "model": "Xenia",
+    "source": "Auto.ru",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "datsun-drom-mi-do",
+    "make": "Datsun",
+    "model": "mi-Do",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "datsun-drom-on-do",
+    "make": "Datsun",
+    "model": "on-DO",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "lexus-drom-ct200h",
+    "make": "Lexus",
+    "model": "CT200h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es200",
+    "make": "Lexus",
+    "model": "ES200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es250",
+    "make": "Lexus",
+    "model": "ES250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es260",
+    "make": "Lexus",
+    "model": "ES260",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es300",
+    "make": "Lexus",
+    "model": "ES300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es300h",
+    "make": "Lexus",
+    "model": "ES300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es330",
+    "make": "Lexus",
+    "model": "ES330",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es350",
+    "make": "Lexus",
+    "model": "ES350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es350e",
+    "make": "Lexus",
+    "model": "ES350e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es350h",
+    "make": "Lexus",
+    "model": "ES350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-es500e",
+    "make": "Lexus",
+    "model": "ES500e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gsf",
+    "make": "Lexus",
+    "model": "GS F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs200t",
+    "make": "Lexus",
+    "model": "GS200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs250",
+    "make": "Lexus",
+    "model": "GS250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs300",
+    "make": "Lexus",
+    "model": "GS300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs300h",
+    "make": "Lexus",
+    "model": "GS300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs350",
+    "make": "Lexus",
+    "model": "GS350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs400",
+    "make": "Lexus",
+    "model": "GS400",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs430",
+    "make": "Lexus",
+    "model": "GS430",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs450h",
+    "make": "Lexus",
+    "model": "GS450h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gs460",
+    "make": "Lexus",
+    "model": "GS460",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx460",
+    "make": "Lexus",
+    "model": "GX460",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx470",
+    "make": "Lexus",
+    "model": "GX470",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx550",
+    "make": "Lexus",
+    "model": "GX550",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-gx550h",
+    "make": "Lexus",
+    "model": "GX550h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-hs250h",
+    "make": "Lexus",
+    "model": "HS250h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-isf",
+    "make": "Lexus",
+    "model": "IS F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is200",
+    "make": "Lexus",
+    "model": "IS200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is200d",
+    "make": "Lexus",
+    "model": "IS200d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is200t",
+    "make": "Lexus",
+    "model": "IS200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is220d",
+    "make": "Lexus",
+    "model": "IS220d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is250",
+    "make": "Lexus",
+    "model": "IS250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is250c",
+    "make": "Lexus",
+    "model": "IS250C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is300",
+    "make": "Lexus",
+    "model": "IS300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is300c",
+    "make": "Lexus",
+    "model": "IS300C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is300h",
+    "make": "Lexus",
+    "model": "IS300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is350",
+    "make": "Lexus",
+    "model": "IS350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is350c",
+    "make": "Lexus",
+    "model": "IS350C",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-is500",
+    "make": "Lexus",
+    "model": "IS500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lbx",
+    "make": "Lexus",
+    "model": "LBX",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lc500",
+    "make": "Lexus",
+    "model": "LC500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lc500h",
+    "make": "Lexus",
+    "model": "LC500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lfa",
+    "make": "Lexus",
+    "model": "LFA",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm300h",
+    "make": "Lexus",
+    "model": "LM300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm350",
+    "make": "Lexus",
+    "model": "LM350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm350h",
+    "make": "Lexus",
+    "model": "LM350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lm500h",
+    "make": "Lexus",
+    "model": "LM500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls350",
+    "make": "Lexus",
+    "model": "LS350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls400",
+    "make": "Lexus",
+    "model": "LS400",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls430",
+    "make": "Lexus",
+    "model": "LS430",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls460",
+    "make": "Lexus",
+    "model": "LS460",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls460l",
+    "make": "Lexus",
+    "model": "LS460L",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls500",
+    "make": "Lexus",
+    "model": "LS500",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls500h",
+    "make": "Lexus",
+    "model": "LS500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls600h",
+    "make": "Lexus",
+    "model": "LS600h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ls600hl",
+    "make": "Lexus",
+    "model": "LS600hL",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx450",
+    "make": "Lexus",
+    "model": "LX450",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx450d",
+    "make": "Lexus",
+    "model": "LX450d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx470",
+    "make": "Lexus",
+    "model": "LX470",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx500d",
+    "make": "Lexus",
+    "model": "LX500d",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx570",
+    "make": "Lexus",
+    "model": "LX570",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx600",
+    "make": "Lexus",
+    "model": "LX600",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-lx700h",
+    "make": "Lexus",
+    "model": "LX700h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx200",
+    "make": "Lexus",
+    "model": "NX200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx200t",
+    "make": "Lexus",
+    "model": "NX200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx250",
+    "make": "Lexus",
+    "model": "NX250",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx260",
+    "make": "Lexus",
+    "model": "NX260",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx300",
+    "make": "Lexus",
+    "model": "NX300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx300h",
+    "make": "Lexus",
+    "model": "NX300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx350",
+    "make": "Lexus",
+    "model": "NX350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx350h",
+    "make": "Lexus",
+    "model": "NX350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx400h",
+    "make": "Lexus",
+    "model": "NX400h+",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-nx450h",
+    "make": "Lexus",
+    "model": "NX450h+",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rcf",
+    "make": "Lexus",
+    "model": "RC F",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc200t",
+    "make": "Lexus",
+    "model": "RC200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc300",
+    "make": "Lexus",
+    "model": "RC300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc300h",
+    "make": "Lexus",
+    "model": "RC300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rc350",
+    "make": "Lexus",
+    "model": "RC350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx200t",
+    "make": "Lexus",
+    "model": "RX200t",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx270",
+    "make": "Lexus",
+    "model": "RX270",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx300",
+    "make": "Lexus",
+    "model": "RX300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx330",
+    "make": "Lexus",
+    "model": "RX330",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx350",
+    "make": "Lexus",
+    "model": "RX350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx350h",
+    "make": "Lexus",
+    "model": "RX350h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx350l",
+    "make": "Lexus",
+    "model": "RX350L",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx400h",
+    "make": "Lexus",
+    "model": "RX400h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx450h",
+    "make": "Lexus",
+    "model": "RX450h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx450hl",
+    "make": "Lexus",
+    "model": "RX450hL",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rx500h",
+    "make": "Lexus",
+    "model": "RX500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz300e",
+    "make": "Lexus",
+    "model": "RZ300e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz350e",
+    "make": "Lexus",
+    "model": "RZ350e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz450e",
+    "make": "Lexus",
+    "model": "RZ450e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz500e",
+    "make": "Lexus",
+    "model": "RZ500e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz550e",
+    "make": "Lexus",
+    "model": "RZ550e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-rz600e",
+    "make": "Lexus",
+    "model": "RZ600e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-sc300",
+    "make": "Lexus",
+    "model": "SC300",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-sc400",
+    "make": "Lexus",
+    "model": "SC400",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-sc430",
+    "make": "Lexus",
+    "model": "SC430",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-tx350",
+    "make": "Lexus",
+    "model": "TX350",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-tx500h",
+    "make": "Lexus",
+    "model": "TX500h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-tx550h",
+    "make": "Lexus",
+    "model": "TX550h+",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux200",
+    "make": "Lexus",
+    "model": "UX200",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux250h",
+    "make": "Lexus",
+    "model": "UX250h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux260h",
+    "make": "Lexus",
+    "model": "UX260h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux300e",
+    "make": "Lexus",
+    "model": "UX300e",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "lexus-drom-ux300h",
+    "make": "Lexus",
+    "model": "UX300h",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Название модели/серии перенесено из каталога Drom; точные поколения, кузова, годы и модификации сверяются отдельно."
+  },
+  {
+    "id": "mazda-drom-bseries",
+    "make": "Mazda",
+    "model": "B-Series",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модельное семейство Mazda B-Series перенесено из индекса Drom; поколения и модификации сверяются отдельно."
+  },
+  {
+    "id": "suzuki-drom-liana",
+    "make": "Suzuki",
+    "model": "Liana",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модельное семейство Suzuki Liana перенесено из индекса Drom; поколения и модификации сверяются отдельно."
+  }
+];
+const familyKeys = new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make + '|' + item.model.toLocaleLowerCase('en').replace(/[^a-z0-9]/g, '')));
+for (const item of importedCatalogModels) {
+  const key = item.make + '|' + item.model.toLocaleLowerCase('en').replace(/[^a-z0-9]/g, '');
+  if (familyKeys.has(key)) continue;
+  familyKeys.add(key);
+  JAPANESE_MODEL_FAMILIES.push(item);
+}

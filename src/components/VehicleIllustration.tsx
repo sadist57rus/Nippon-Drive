@@ -81,7 +81,7 @@ export function getVehicleColorsForModel(modelId?: string, bodyType = '') {
   if (photoOptions.length) {
     return VEHICLE_COLORS.filter(color => photoOptions.some(option => option.id === color.id));
   }
-  return VEHICLE_COLORS;
+  return [];
 }
 
 interface Props {

@@ -1163,7 +1163,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "2GR-FE",
       "displacementCc": 3456,
       "powerHp": 280,
-      "fuelType": "Бензин Premium (АИ-98)"
+      "fuelType": "Бензин Premium (АИ-98)",
+      "torqueNm": 348
     },
     "transmissionType": "AT",
     "drivetrain": "4WD",
@@ -1176,7 +1177,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "groundClearanceMm": 185,
       "trackFrontMm": 1630,
       "trackRearMm": 1625,
-      "curbWeightKg": 1940
+      "curbWeightKg": 1940,
+      "fuelTankLiters": 72
     },
     "interiorDimensions": {
       "lengthMm": 2180,
@@ -1193,19 +1195,11 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/lexus/rx350/57470/",
         "sourceType": "secondary-reference",
         "market": "Япония",
-        "scope": "DBA-GGL15W RX350 4WD RHD, 01.2009–03.2012; 2GR-FE 3.5, 280 л.с., 6AT, размеры кузова и салона, масса и шины",
+        "scope": "DBA-GGL15W RX350 4WD RHD, 01.2009–03.2012; 2GR-FE 3.5, 280 л.с., 348 Н·м, 6AT, размеры кузова и салона, масса, бак 72 л и шины 235/60R18",
         "accessedAt": "2026-11-06"
       }
     ],
     "limitations": [
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент не приведён в доступном фрагменте карточки; не заполнен."
-      },
-      {
-        "field": "dimensions.fuelTankLiters",
-        "reason": "Объём топливного бака не подтверждён использованной карточкой."
-      },
       {
         "field": "wheelFitments",
         "reason": "235/60R18 указан как размер шин; ширина диска, PCD, DIA и ET не подтверждены."

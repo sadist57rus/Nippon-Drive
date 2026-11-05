@@ -108,14 +108,13 @@ test('контраст подписи кнопки удаления провер
   await expect(page.getByRole('heading', { name: 'Главная', exact: true })).toBeVisible();
   await openGarage(page);
   const article = page.locator('article').filter({ has: page.getByRole('button', { name: 'Сделать активной' }) }).first();
-  const remove = article.getByRole('button', { name: 'Удалить' });
-
+  
   const contrast = async (dark: boolean) => page.evaluate(({ dark }) => {
     document.documentElement.classList.toggle('dark', dark);
     const button = [...document.querySelectorAll('button')].find(item => item.textContent?.trim() === 'Удалить');
     const card = button?.closest('article');
     if (!button || !card) return null;
-    const parse = (value: string) => value.match(/[\\d.]+/g)?.map(Number) ?? [];
+    const parse = (value: string) => value.match(/[\d.]+/g)?.map(Number) ?? [];
     const rgb = (value: string) => {
       const [r, g, b] = parse(value);
       const linear = (channel: number) => {

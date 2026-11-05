@@ -161,3 +161,21 @@
 | `nissan-laurel-c33-rb20-medalist` | [nissan-laurel-c33-rb20-medalist.jpg](https://commons.wikimedia.org/wiki/File:Nissan_laurel_hc33_medalist_1_f.jpg) | Nissan Laurel C33 Medalist | Toyotacoronaexsaloon | CC BY-SA 4.0 | локальный файл подключён к карточке |
 
 Десять изображений поколений X90/X100, Supra A70/A80, Soarer Z30, Cefiro A31 и Laurel C33 скачаны с Wikimedia Commons, проверены и оптимизированы для офлайн-каталога. Цветовые варианты не заявляются: для каждой модели в этом пакете добавлен один подтверждённый снимок.
+
+
+## Локальные фотографии спорткаров и седанов — пакет 5
+
+| Целевой ID каталога | Файл приложения | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `toyota-mr2-sw20-gt-s-1997` | [toyota-mr2-sw20-gt-s.jpg](https://commons.wikimedia.org/wiki/File:Toyota_mr2_sw20_gt-s_1_r.jpg) | Toyota MR2 GT-S SW20, купе | Toyotacoronaexsaloon | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-starlet-ep91-glanza-v` | [toyota-starlet-ep91-glanza-v.jpg](https://commons.wikimedia.org/wiki/File:Toyota_starlet_ep91_glanzav_1_f.jpg) | Toyota Starlet Glanza V EP91, хэтчбек | Toyotacoronaexsaloon | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-caldina-st215w-gt-t` | [toyota-caldina-st215w-gt-t.jpg](https://commons.wikimedia.org/wiki/File:2000_Toyota_Caldina_GT-T.jpg) | Toyota Caldina GT-T ST215W, универсал | Calreyn88 | CC BY 4.0 | локальный файл подключён к карточке |
+| `toyota-crown-jzs171-athlete-v` | [toyota-crown-jzs171-athlete-v.jpg](https://commons.wikimedia.org/wiki/File:2002_Toyota_Crown_Athlete_V_2.5_Front.jpg) | Toyota Crown Athlete V JZS171, седан | Vauxford | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-crown-estate-jzs171w-athlete-v` | [toyota-crown-estate-jzs171w-athlete-v.jpg](https://commons.wikimedia.org/wiki/File:Toyota_CROWN_ESTATE_ATHLETE_V_(GH-JZS171W)_front.jpg) | Toyota Crown Estate Athlete V JZS171W, универсал | Tokumeigakarinoaoshima | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-altezza-sxe10-rs200` | [toyota-altezza-sxe10-rs200.jpg](https://commons.wikimedia.org/wiki/File:Toyota_ALTEZZA_RS200_(SXE10)_front.JPG) | Toyota Altezza RS200 SXE10, седан | Tokumeigakarinoaoshima | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-aristo-jzs161-v300` | [toyota-aristo-jzs161-v300.jpg](https://commons.wikimedia.org/wiki/File:Toyota_GH-JZS161_Aristo_V300_%E2%80%9CVERTEX_EDITION%E2%80%9D_(No.)_(24042811473).jpg) | Toyota Aristo V300 JZS161 Vertex Edition, седан | 先従隗始 | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-corolla-levin-ae101-gt-apex` | [toyota-corolla-levin-ae101-gt-apex.jpg](https://commons.wikimedia.org/wiki/File:1993-1995_Toyota_Corolla_Levin_(AE101)_GT_Apex_coupe_01.jpg) | Toyota Corolla Levin AE101 GT Apex, купе | OSX | Public domain (author release) | локальный файл подключён к карточке |
+| `nissan-skyline-gt-r-bnr34-v-spec-ii` | [nissan-skyline-bnr34-v-spec-ii.jpg](https://commons.wikimedia.org/wiki/File:Nissan_GF-BNR34_Skyline_GT-R_V%EF%BD%A5spec_%E2%85%A1_(22091110272).jpg) | Nissan Skyline GT-R BNR34 V-spec II, купе | 先従隗始 | CC0 1.0 | локальный файл подключён к карточке |
+| `nissan-skyline-gt-r-bnr34-m-spec-nur` | [nissan-skyline-bnr34-m-spec-nur.jpg](https://commons.wikimedia.org/wiki/File:Nissan_Skyline_R34_GT-R_N%C3%BCr_001.jpg) | Nissan Skyline GT-R BNR34 M-spec Nür, купе | Tennen-Gas | GFDL 1.2+ / CC BY-SA 3.0 | локальный файл подключён к карточке |
+
+Десять изображений точных поколений MR2 SW20, Starlet EP91, Caldina ST215W, Crown S170, Crown Estate JZS171W, Altezza SXE10, Aristo JZS161, Corolla Levin AE101 и Skyline BNR34 скачаны, проверены и оптимизированы для офлайн-каталога. Цветовые переключатели не добавлялись: в пакете по одному подтверждённому снимку на вариант.

@@ -9,6 +9,7 @@ export interface JapaneseModelFamily {
   model: string;
   recordStatus: 'model-family-seeded-generation-import-pending';
   note: string;
+  source?: 'Drom' | 'Auto.ru';
 }
 export const JAPANESE_MODEL_FAMILIES: JapaneseModelFamily[] = [
   {

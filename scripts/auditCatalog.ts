@@ -152,6 +152,16 @@ for (const generation of GENERATION_BODY_CATALOG) {
   generationIds.add(generation.id);
   if (!Array.isArray(generation.chassisCodes) || !Array.isArray(generation.bodyStyles)) errors.push(`Invalid generation arrays: ${generation.id}`);
   if (generation.source && generation.source !== 'Drom' && generation.source !== 'Auto.ru') errors.push(`Invalid generation source: ${generation.id}`);
+  for (const variant of generation.dimensionVariants ?? []) {
+    check(Boolean(variant.label.trim()), `Dimension variant missing label: ${generation.id}`);
+    for (const field of ['lengthMm', 'widthMm', 'heightMm', 'wheelbaseMm'] as const) {
+      check(Number.isFinite(variant[field]) && variant[field] > 0, `Invalid dimension variant: ${generation.id} ${field}`);
+    }
+    for (const field of ['groundClearanceMm', 'trackFrontMm', 'trackRearMm'] as const) {
+      const value = variant[field];
+      if (value !== undefined) check(Number.isFinite(value) && value > 0, `Invalid dimension variant: ${generation.id} ${field}`);
+    }
+  }
   for (const fitment of generation.wheelFitments ?? []) {
     check(Boolean(fitment.tireSize.trim()), `Wheel fitment missing tire size: ${generation.id}`);
     if (fitment.centerBoreMm !== undefined) check(Number.isFinite(fitment.centerBoreMm) && fitment.centerBoreMm > 0, `Invalid wheel center bore: ${generation.id}`);

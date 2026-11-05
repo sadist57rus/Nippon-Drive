@@ -1,3 +1,5 @@
+import PhotoCredit from './PhotoCredit';
+
 export const VEHICLE_COLORS = [
   { id: 'black', label: 'Чёрный', hex: '#202124' },
   { id: 'white', label: 'Белый', hex: '#f5f5f2' },
@@ -164,7 +166,7 @@ export default function VehicleIllustration({
             event.currentTarget.style.display = 'none';
           }}
         />
-        <figcaption className="mt-1 text-center text-xs opacity-60"><a href={image.sourceUrl} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center justify-center px-2 py-1 text-center underline">{image.credit}</a></figcaption>
+        <PhotoCredit credit={image.credit} sourceUrl={image.sourceUrl} />
       </figure>
     );
   }

@@ -7134,67 +7134,107 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "source": "Auto.ru"
   },
   {
-    "id": "scion-xa-i-2003-2006",
-    "make": "Scion",
-    "model": "xA",
+    "id": "daihatsu-taft-i-1974-1984",
+    "make": "Daihatsu",
+    "model": "Taft",
     "generation": "I",
-    "years": "2003-2006",
+    "years": "1974-1984",
     "source": "Auto.ru"
   },
   {
-    "id": "scion-tc-i-2004-2010",
-    "make": "Scion",
-    "model": "tC",
-    "generation": "I",
-    "years": "2004-2010",
-    "source": "Auto.ru"
-  },
-  {
-    "id": "scion-tc-ii-2010-2016",
-    "make": "Scion",
-    "model": "tC",
+    "id": "daihatsu-taft-ii-2020-",
+    "make": "Daihatsu",
+    "model": "Taft",
     "generation": "II",
-    "years": "2010-2016",
+    "years": "2020-н.в.",
     "source": "Auto.ru"
   },
   {
-    "id": "scion-iq-i-2011-2015",
-    "make": "Scion",
-    "model": "iQ",
-    "generation": "I",
-    "years": "2011-2015",
+    "id": "infiniti-ex-i-j50--2007-2013",
+    "make": "Infiniti",
+    "model": "EX",
+    "generation": "I (J50)",
+    "years": "2007-2013",
     "source": "Auto.ru"
   },
   {
-    "id": "scion-fr-s-i-2012-2016",
-    "make": "Scion",
-    "model": "FR-S",
+    "id": "infiniti-qx60-i-2013-2016",
+    "make": "Infiniti",
+    "model": "QX60",
     "generation": "I",
-    "years": "2012-2016",
+    "years": "2013-2016",
     "source": "Auto.ru"
   },
   {
-    "id": "scion-ia-i-2015-2018",
-    "make": "Scion",
-    "model": "iA",
-    "generation": "I",
-    "years": "2015-2018",
+    "id": "infiniti-qx60-i--2016-2020",
+    "make": "Infiniti",
+    "model": "QX60",
+    "generation": "I рестайлинг",
+    "years": "2016-2020",
     "source": "Auto.ru"
   },
   {
-    "id": "scion-im-i-2015-2016",
-    "make": "Scion",
-    "model": "iM",
-    "generation": "I",
-    "years": "2015-2016",
+    "id": "infiniti-qx60-ii-2021-",
+    "make": "Infiniti",
+    "model": "QX60",
+    "generation": "II",
+    "years": "2021-н.в.",
     "source": "Auto.ru"
   },
   {
-    "id": "scion-xd-i-2007-2014",
-    "make": "Scion",
-    "model": "xD",
+    "id": "infiniti-qx60-ii--2025-",
+    "make": "Infiniti",
+    "model": "QX60",
+    "generation": "II рестайлинг",
+    "years": "2025-н.в.",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-mu-x-i-2013-2017",
+    "make": "Isuzu",
+    "model": "MU-X",
     "generation": "I",
-    "years": "2007-2014",
+    "years": "2013-2017",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-mu-x-i--2017-2020",
+    "make": "Isuzu",
+    "model": "MU-X",
+    "generation": "I рестайлинг",
+    "years": "2017-2020",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-mu-x-ii-2020-2024",
+    "make": "Isuzu",
+    "model": "MU-X",
+    "generation": "II",
+    "years": "2020-2024",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-mu-x-ii--2024-",
+    "make": "Isuzu",
+    "model": "MU-X",
+    "generation": "II рестайлинг",
+    "years": "2024-н.в.",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-d-max-ii--2021-",
+    "make": "Isuzu",
+    "model": "D-Max",
+    "generation": "II рестайлинг",
+    "years": "2021-н.в.",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "isuzu-d-max-iii-2023-",
+    "make": "Isuzu",
+    "model": "D-Max",
+    "generation": "III",
+    "years": "2023-н.в.",
     "source": "Auto.ru"
   }
 ];

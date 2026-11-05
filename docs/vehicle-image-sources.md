@@ -143,3 +143,21 @@
 | `honda-fit-gd-hatchback` | [honda-jazz-gd-blue.jpg](https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_02.jpg) | Fit/Jazz GD, синий хэтчбек | OSX | общественное достояние | локальный файл подключён к карточке |
 
 В пакет вошли десять оптимизированных изображений. Для Prado J120, X-Trail T31, Qashqai J10, Note E11, Fit/Jazz GD и Lancer X добавлены переключаемые реальные цветовые варианты. Для новых карточек CR-V RD7 и Mazda6 GG добавлена по одной фотографии без искусственного изменения цвета.
+
+
+## Локальные фотографии JDM-легенд — пакет 4
+
+| Целевой ID каталога | Файл приложения | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `toyota-mark-ii-x90-tourer-v` | [toyota-mark-ii-x90-tourer-v.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Mark_II_Tourer_V_(JZX90).jpg) | Toyota Mark II X90 Tourer V, седан | Mld61294 | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-mark-ii-x100-tourer-v` | [toyota-mark-ii-x100-tourer-v.jpg](https://commons.wikimedia.org/wiki/File:Toyota_GF-JZX100_Mark_Ⅱ_2.5_TOURER_V_(24033010401).jpg) | Toyota Mark II X100 Tourer V, седан | 先従隗始 | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-chaser-x100-tourer-v` | [toyota-chaser-x100-tourer-v.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Chaser_Tourer_V.jpg) | Toyota Chaser X100 Tourer V | FotoSleuth (uploaded by OSX) | CC BY 2.0 | локальный файл подключён к карточке |
+| `toyota-chaser-x90-tourer-v` | [toyota-chaser-x90-tourer-v.jpg](https://commons.wikimedia.org/wiki/File:Nissan_GF-S15_Silvia_spec._S_-_Toyota_E-JZX90_Chaser_2.5_Tourer_V_(23011710160).jpg) | Toyota Chaser X90 Tourer V | 先従隗始 | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-cresta-x100-rulant-g` | [toyota-cresta-x100-roulant-g.jpg](https://commons.wikimedia.org/wiki/File:Toyota_GF-JZX100_Cresta_2.5_Roulant_G_-_Honda_ABA-CL9_Accord_24TL_(23060415233).jpg) | Toyota Cresta X100 2.5 Roulant G | 先従隗始 | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-supra-a80-rz` | [toyota-supra-a80-rz.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Supra_RZ_(E-JZA80).jpg) | Toyota Supra A80 RZ, купе | Tokumeigakarinoaoshima | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-supra-a70-gt-turbo` | [toyota-supra-a70-gt-turbo.jpg](https://commons.wikimedia.org/wiki/File:1989_Toyota_A70_Supra_MkIII_3.0_GT_Turbo.jpg) | Toyota Supra A70 3.0 GT Turbo, купе 1989 года | Sicnag | CC BY 2.0 | локальный файл подключён к карточке |
+| `toyota-soarer-jzz30-gt-twin-turbo` | [toyota-soarer-jzz30-gt-twin-turbo.jpg](https://commons.wikimedia.org/wiki/File:1992_Toyota_Soarer_2.5GT_Twin_Turbo.jpg) | Toyota Soarer JZZ30 2.5 GT Twin Turbo | TTTNIS | CC0 1.0 | локальный файл подключён к карточке |
+| `nissan-cefiro-a31-rb20det` | [nissan-cefiro-a31-rb20det.jpg](https://commons.wikimedia.org/wiki/File:1988-1990_Nissan_Cefiro_(A31)_sedan_01.jpg) | Nissan Cefiro A31, седан | OSX | Public domain (author release) | локальный файл подключён к карточке |
+| `nissan-laurel-c33-rb20-medalist` | [nissan-laurel-c33-rb20-medalist.jpg](https://commons.wikimedia.org/wiki/File:Nissan_laurel_hc33_medalist_1_f.jpg) | Nissan Laurel C33 Medalist | Toyotacoronaexsaloon | CC BY-SA 4.0 | локальный файл подключён к карточке |
+
+Десять изображений поколений X90/X100, Supra A70/A80, Soarer Z30, Cefiro A31 и Laurel C33 скачаны с Wikimedia Commons, проверены и оптимизированы для офлайн-каталога. Цветовые варианты не заявляются: для каждой модели в этом пакете добавлен один подтверждённый снимок.

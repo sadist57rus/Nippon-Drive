@@ -80,10 +80,64 @@ test('подпись фото и действия гаража не перекр
         expect(button.width, viewport.name + ': action width').toBeGreaterThanOrEqual(56);
       }
 
-      await page.screenshot({
+      // Снимок самой карточки, а не всей страницы: fixed-нижняя навигация
+      // не должна закрывать кнопки в отчёте.
+      await article.screenshot({
         path: 'test-results/garage-photo-layout-' + viewport.name + (scale === 1.5 ? '-font-150' : '') + '.png',
-        fullPage: true,
       });
     }
   }
+});
+
+test('контраст подписи кнопки удаления проверяется в светлой и тёмной темах', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(() => {
+    localStorage.clear();
+    sessionStorage.clear();
+  });
+  await page.goto('/');
+  const orientation = page.getByRole('heading', { name: /Выберите ориентацию экрана/i });
+  if (await orientation.isVisible().catch(() => false)) {
+    await page.getByRole('button', { name: /Телефон/i }).click();
+  }
+  const setup = page.getByRole('heading', { name: /Добавим вашу машину/i });
+  if (await setup.isVisible().catch(() => false)) {
+    await page.locator('select').first().selectOption({ value: 'mitsubishi' });
+    await page.getByRole('button', { name: /Сохранить автомобиль и открыть приложение/i }).click();
+  }
+  await expect(page.getByRole('heading', { name: 'Главная', exact: true })).toBeVisible();
+  await openGarage(page);
+  const article = page.locator('article').filter({ has: page.getByRole('button', { name: 'Сделать активной' }) }).first();
+  const remove = article.getByRole('button', { name: 'Удалить' });
+
+  const contrast = async (dark: boolean) => page.evaluate(({ dark }) => {
+    document.documentElement.classList.toggle('dark', dark);
+    const button = [...document.querySelectorAll('button')].find(item => item.textContent?.trim() === 'Удалить');
+    const card = button?.closest('article');
+    if (!button || !card) return null;
+    const parse = (value: string) => value.match(/[\\d.]+/g)?.map(Number) ?? [];
+    const rgb = (value: string) => {
+      const [r, g, b] = parse(value);
+      const linear = (channel: number) => {
+        const c = channel / 255;
+        return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+      };
+      return 0.2126 * linear(r) + 0.7152 * linear(g) + 0.0722 * linear(b);
+    };
+    const foreground = getComputedStyle(button).color;
+    const background = getComputedStyle(card).backgroundColor;
+    const a = rgb(foreground);
+    const b = rgb(background);
+    return { ratio: (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05), disabled: (button as HTMLButtonElement).disabled };
+  }, { dark });
+
+  const light = await contrast(false);
+  const dark = await contrast(true);
+  expect(light).not.toBeNull();
+  expect(dark).not.toBeNull();
+  // WCAG не требует 4.5:1 для disabled controls, но фиксируем оба значения
+  // в отчёте, чтобы тёмный вариант не выдавать за прошедший AA.
+  test.info().annotations.push({ type: 'контраст кнопки «Удалить»', description: JSON.stringify({ light, dark }) });
+  if (!light!.disabled) expect(light!.ratio).toBeGreaterThanOrEqual(4.5);
+  if (!dark!.disabled) expect(dark!.ratio).toBeGreaterThanOrEqual(4.5);
 });

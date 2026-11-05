@@ -125,3 +125,21 @@
 | `toyota-yaris-xp90-hatchback` | [toyota-vitz-xp90](https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg) | Белая Toyota Vitz / Yaris XP90, хэтчбек | arakaki (uploaded by Hanloh) | Public domain (author release) | локальный файл подключён к карточке |
 
 Все десять изображений скачаны с Wikimedia Commons, проверены как изображения и оптимизированы для офлайн-каталога. Фото добавлены в `public/assets/vehicles/` и подключены к точным ID карточек. Цветовые переключатели не добавлялись там, где для модели есть только один проверенный снимок.
+
+
+## Локальные фотографии и цветовые варианты — пакет 3
+
+| Целевой ID каталога | Файл приложения | Модель / кузов / цвет | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `honda-crv-rd7-suv` | [honda-crv-rd7-gray.jpg](https://commons.wikimedia.org/wiki/File:2006_Honda_CR-V_(RD7_MY06)_wagon_(2008-11-12).jpg) | Honda CR-V RD7 MY06, серый | OSX | общественное достояние | локальный файл подключён к карточке |
+| `mazda-6-gg-sedan` | [mazda6-gg-sedan-silver.jpg](https://commons.wikimedia.org/wiki/File:%2703-%2705_Mazda_6_Sedan.JPG) | Mazda6 GG, седан 2003–2005, серебристый | Bull-Doser | общественное достояние | локальный файл подключён к карточке |
+| `mitsubishi-lancer-x-cy-sedan` | [mitsubishi-lancer-x-black.jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg) | Lancer X / CY, чёрный седан | JustAnotherCarDesigner | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-land-cruiser-prado-120-j120-suv` | [toyota-prado-j120-black.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_Raven_Black_01.jpg) | Prado J120 KZJ120 3.0 VX, Raven Black | Ethan Llamas | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-land-cruiser-prado-120-j120-suv` | [toyota-prado-j120-white.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_White_Pearl_Crystal_Shine_01.jpg) | Prado J120 KZJ120 3.0 VX, White Pearl Crystal Shine | Ethan Llamas | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `nissan-qashqai-j10-crossover` | [nissan-qashqai-j10-silver.jpg](https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_130819.jpg) | Qashqai J10, серебристый | Trop86 | CC0 1.0 | локальный файл подключён к карточке |
+| `nissan-xtrail-t31` | [nissan-x-trail-t31-white.jpg](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_White.jpg) | X-Trail T31 2.5L 2WD, белый | Ethan Llamas | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `nissan-xtrail-t31` | [nissan-x-trail-t31-blue.jpg](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_Tempest_Blue.jpg) | X-Trail T31 2.5L 2WD, Tempest Blue | Ethan Llamas | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `nissan-note-e11-hatchback` | [nissan-note-e11-red.jpg](https://commons.wikimedia.org/wiki/File:2009_Nissan_Note_in_Emotion_Red,_front_left,_06-08-2025.jpg) | Note E11 facelift, Emotion Red | Cutlass | CC0 1.0 | локальный файл подключён к карточке |
+| `honda-fit-gd-hatchback` | [honda-jazz-gd-blue.jpg](https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_02.jpg) | Fit/Jazz GD, синий хэтчбек | OSX | общественное достояние | локальный файл подключён к карточке |
+
+В пакет вошли десять оптимизированных изображений. Для Prado J120, X-Trail T31, Qashqai J10, Note E11, Fit/Jazz GD и Lancer X добавлены переключаемые реальные цветовые варианты. Для новых карточек CR-V RD7 и Mazda6 GG добавлена по одной фотографии без искусственного изменения цвета.

@@ -41,7 +41,7 @@ export default function GenerationBodyCatalogPanel() {
         {filtered.map(item => {
           const isOpen = expanded === item.id;
           const base = JAPANESE_BRANDS.flatMap(brand => brand.models).find(model => model.id === item.sourceModelId);
-          const family = JAPANESE_MODEL_FAMILIES.find(model => model.id === item.sourceModelId);
+          const family = JAPANESE_MODEL_FAMILIES.find(model => model.id === (item.modelFamilyId ?? item.sourceModelId));
           return <article key={item.id} className="rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden">
             <button type="button" onClick={() => setExpanded(isOpen ? null : item.id)} className="w-full flex items-start justify-between gap-3 p-3 text-left hover:bg-slate-50 dark:hover:bg-slate-800/60">
               <div className="min-w-0">

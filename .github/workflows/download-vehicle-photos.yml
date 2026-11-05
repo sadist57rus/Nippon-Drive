@@ -1,0 +1,118 @@
+name: Download verified vehicle photos
+
+on:
+  push:
+    branches:
+      - assets/vehicle-photo-fetch
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vehicle-photo-fetch
+  cancel-in-progress: false
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout photo batch branch
+        uses: actions/checkout@v4
+        with:
+          ref: assets/vehicle-photo-fetch
+          fetch-depth: 0
+
+      - name: Download and validate photo files in parallel
+        run: |
+          python -m pip install --disable-pip-version-check Pillow
+          python - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from pathlib import Path
+          from urllib.parse import quote
+          from urllib.request import Request, urlopen
+          from PIL import Image
+          import io, json, time
+
+          photos = [
+          {
+            "filename": "E120 Toyota Corolla.jpg",
+            "target": "toyota-corolla-e120.jpg",
+            "author": "Kuha455405",
+            "license": "CC BY-SA 3.0 / GFDL 1.2+",
+            "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
+          },
+          {
+            "filename": "Toyota camry acv30 2.4g 1 f.jpg",
+            "target": "toyota-camry-xv30.jpg",
+            "author": "Toyotacoronaexsaloon",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
+          },
+          {
+            "filename": "White Toyota Vitz (XP90).jpg",
+            "target": "toyota-vitz-xp90.jpg",
+            "author": "arakaki",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg",
+          },
+          ]
+
+          destination = Path("public/assets/vehicles")
+          destination.mkdir(parents=True, exist_ok=True)
+
+          def fetch_one(item):
+              url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + quote(item["filename"], safe="") + "?width=1200"
+              payload = None
+              for attempt in range(5):
+                  try:
+                      request = Request(url, headers={"User-Agent": "Nippon-Drive vehicle-photo catalog/1.0 (offline app asset import)"})
+                      with urlopen(request, timeout=60) as response:
+                          payload = response.read()
+                      break
+                  except Exception:
+                      if attempt == 4:
+                          raise
+                      time.sleep(8 * (attempt + 1))
+              if len(payload) < 12000:
+                  raise RuntimeError(f"{item['filename']}: response too small ({len(payload)} bytes)")
+              image = Image.open(io.BytesIO(payload))
+              image.verify()
+              image = Image.open(io.BytesIO(payload)).convert("RGB")
+              if image.width < 640 or image.height < 300:
+                  raise RuntimeError(f"{item['filename']}: insufficient dimensions {image.size}")
+              output = destination / item["target"]
+              image.save(output, "JPEG", quality=88, optimize=True, progressive=True)
+              item["width"], item["height"] = image.size
+              item["bytes"] = output.stat().st_size
+              return item["target"], item["width"], item["height"], item["bytes"]
+
+          errors = []
+          with ThreadPoolExecutor(max_workers=2) as pool:
+              futures = {pool.submit(fetch_one, item): item for item in photos}
+              for future in as_completed(futures):
+                  item = futures[future]
+                  try:
+                      print("DOWNLOADED", future.result())
+                      item["downloadStatus"] = "downloaded"
+                  except Exception as exc:
+                      item["downloadStatus"] = "failed"
+                      item["downloadError"] = str(exc)
+                      errors.append(str(exc))
+                      print("DOWNLOAD_ERROR", item["filename"], repr(exc))
+
+          (destination / "sources-batch-03.json").write_text(
+              json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          print(f"Downloaded {sum(item.get('downloadStatus') == 'downloaded' for item in photos)} of {len(photos)} image files.")
+          if errors:
+              print("Some sources need retry: " + " | ".join(errors))
+          PY
+
+      - name: Commit downloaded images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/assets/vehicles/
+          git commit -m "assets: повторить загрузку трёх фото после ограничения Commons"
+          git push origin HEAD:assets/vehicle-photo-fetch

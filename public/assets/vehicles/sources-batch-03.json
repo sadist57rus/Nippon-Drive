@@ -1,0 +1,35 @@
+[
+  {
+    "filename": "E120 Toyota Corolla.jpg",
+    "target": "toyota-corolla-e120.jpg",
+    "author": "Kuha455405",
+    "license": "CC BY-SA 3.0 / GFDL 1.2+",
+    "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
+    "width": 1280,
+    "height": 719,
+    "bytes": 195587,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "Toyota camry acv30 2.4g 1 f.jpg",
+    "target": "toyota-camry-xv30.jpg",
+    "author": "Toyotacoronaexsaloon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 228293,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "White Toyota Vitz (XP90).jpg",
+    "target": "toyota-vitz-xp90.jpg",
+    "author": "arakaki",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 190889,
+    "downloadStatus": "downloaded"
+  }
+]

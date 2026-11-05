@@ -1,0 +1,106 @@
+[
+  {
+    "filename": "E120 Toyota Corolla.jpg",
+    "target": "toyota-corolla-e120.jpg",
+    "author": "Kuha455405",
+    "license": "CC BY-SA 3.0 / GFDL 1.2+",
+    "source": "https://commons.wikimedia.org/wiki/File:E120_Toyota_Corolla.jpg",
+    "downloadStatus": "failed",
+    "downloadError": "HTTP Error 429: Too many requests (f061ab2)"
+  },
+  {
+    "filename": "Mazda 3 BK.jpg",
+    "target": "mazda3-bk-sedan.jpg",
+    "author": "Krzysztof Masloch",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mazda_3_BK.jpg",
+    "width": 1920,
+    "height": 1440,
+    "bytes": 715115,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "2005 Nissan Note 01.jpg",
+    "target": "nissan-note-e11.jpg",
+    "author": "Mytho88",
+    "license": "CC BY-SA 3.0 / GFDL 1.2+",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Nissan_Note_01.jpg",
+    "width": 1350,
+    "height": 700,
+    "bytes": 197629,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "Toyota camry acv30 2.4g 1 f.jpg",
+    "target": "toyota-camry-xv30.jpg",
+    "author": "Toyotacoronaexsaloon",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_camry_acv30_2.4g_1_f.jpg",
+    "downloadStatus": "failed",
+    "downloadError": "HTTP Error 429: Too many requests (f061ab2)"
+  },
+  {
+    "filename": "NISSAN SERENA C25.jpg",
+    "target": "nissan-serena-c25.jpg",
+    "author": "TTTNIS",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg",
+    "width": 1920,
+    "height": 974,
+    "bytes": 370746,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "Nissan Tiida (C11) hatchback.png",
+    "target": "nissan-tiida-c11-hatchback.jpg",
+    "author": "SSJF01",
+    "license": "CC0 1.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png",
+    "width": 1920,
+    "height": 969,
+    "bytes": 313180,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "TOYOTA PRIUS (XW30) China.jpg",
+    "target": "toyota-prius-xw30.jpg",
+    "author": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg",
+    "width": 1920,
+    "height": 1192,
+    "bytes": 435298,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "Toyota H-200 HiAce.jpg",
+    "target": "toyota-hiace-h200.jpg",
+    "author": "Bull-Doser",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg",
+    "width": 731,
+    "height": 458,
+    "bytes": 66129,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "2012 Mazda CX-5 (KE) Grand Touring wagon (2012-10-26) 01.jpg",
+    "target": "mazda-cx5-ke.jpg",
+    "author": "OSX",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg",
+    "width": 1920,
+    "height": 1440,
+    "bytes": 547258,
+    "downloadStatus": "downloaded"
+  },
+  {
+    "filename": "White Toyota Vitz (XP90).jpg",
+    "target": "toyota-vitz-xp90.jpg",
+    "author": "arakaki",
+    "license": "Public domain (author release)",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg",
+    "downloadStatus": "failed",
+    "downloadError": "HTTP Error 429: Too many requests (f061ab2)"
+  }
+]

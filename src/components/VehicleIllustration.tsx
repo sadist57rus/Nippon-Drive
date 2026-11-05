@@ -23,6 +23,9 @@ const MODEL_IMAGE_ALIASES: Record<string, string> = {
   'toyota-rav4-xa30-crossover': 'toyota-rav4-3',
   'mitsubishi-lancer-cs-sedan': 'lancer-9',
   'mitsubishi-lancer-cs-wagon': 'lancer-9',
+  'toyota-land-cruiser-prado-120-j120-suv': 'toyota-prado-j120-suv',
+  'nissan-xtrail-t31-suv': 'nissan-xtrail-t31',
+  'honda-fit-gd': 'honda-fit-gd-hatchback',
 };
 
 function resolveVehicleImageModelId(modelId?: string): string {
@@ -64,6 +67,22 @@ export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): Ve
     ],
     'mitsubishi-lancer-x-cy-sedan': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-x-silver.jpg' },
+      { id: 'red', label: 'Красный', src: '/assets/vehicles/mitsubishi-lancer-x-sport-sedan.jpg' },
+    ],
+    'toyota-prado-j120-suv': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/toyota-land-cruiser-prado-j120.jpg' },
+    ],
+    'nissan-xtrail-t31': [
+      { id: 'black', label: 'Чёрный', src: '/assets/vehicles/nissan-x-trail-t31.jpg' },
+    ],
+    'mazda3-bk-hatchback': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mazda3-bk-hatchback.jpg' },
+    ],
+    'nissan-qashqai-j10-crossover': [
+      { id: 'white', label: 'Белый', src: '/assets/vehicles/nissan-qashqai-j10.jpg' },
+    ],
+    'honda-fit-gd-hatchback': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/honda-jazz-gd.jpg' },
     ],
     'lancer-9': bodyType === 'Универсал' ? [
       { id: 'blue', label: 'Синий', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-blue.jpg' },
@@ -137,6 +156,36 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: Acgskup, Wikimedia Commons, CC BY 4.0; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_(2008)_–_left_side_view.jpg',
   },
+  'toyota-prado-j120-suv': {
+    src: '/assets/vehicles/toyota-land-cruiser-prado-j120.jpg',
+    alt: 'Серебристый Toyota Land Cruiser Prado J120, 2006 год, 3.0 D-4D',
+    credit: 'Фото: Dekel Santo, Wikimedia Commons, CC BY-SA 3.0; файл уменьшен для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg',
+  },
+  'nissan-xtrail-t31': {
+    src: '/assets/vehicles/nissan-x-trail-t31.jpg',
+    alt: 'Чёрный Nissan X-Trail второго поколения T31, вид сбоку',
+    credit: 'Фото: Acgskup, Wikimedia Commons, CC BY 4.0; файл уменьшен для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_%E2%80%93_right_side_view.jpg',
+  },
+  'mazda3-bk-hatchback': {
+    src: '/assets/vehicles/mazda3-bk-hatchback.jpg',
+    alt: 'Серебристый Mazda3 первого поколения BK, хэтчбек 2004 года',
+    credit: 'Фото: Bull-Doser, Wikimedia Commons, общественное достояние; файл уменьшен для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:%2704_Mazda3_2.3_Hatchback.JPG',
+  },
+  'nissan-qashqai-j10-crossover': {
+    src: '/assets/vehicles/nissan-qashqai-j10.jpg',
+    alt: 'Белый Nissan Qashqai первого поколения J10',
+    credit: 'Фото: Trop86, Wikimedia Commons, CC BY 4.0; файл уменьшен для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_164122.jpg',
+  },
+  'honda-fit-gd-hatchback': {
+    src: '/assets/vehicles/honda-jazz-gd.jpg',
+    alt: 'Honda Jazz / Fit первого поколения GD, хэтчбек 2002–2004 годов',
+    credit: 'Фото: OSX, Wikimedia Commons, общественное достояние; файл уменьшен для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_01.jpg',
+  },
   'toyota-land-cruiser-100': {
     src: '/assets/vehicles/toyota-land-cruiser-100.jpg',
     alt: 'Toyota Land Cruiser 100 (J100), фотография автомобиля',
@@ -168,6 +217,9 @@ export default function VehicleIllustration({
     'outlander-xl': {
       silver: colorImage('/assets/vehicles/mitsubishi-outlander-2-silver.jpg','Серебристый Mitsubishi Outlander II / CW','Фото: Cutlass, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:2007_Mitsubishi_Outlander_in_Cool_Silver_Metallic,_front_left,_10-11-2025.jpg'),
       black: colorImage('/assets/vehicles/mitsubishi-outlander-2-black.jpg','Чёрный Mitsubishi Outlander II / CW','Фото: Lukas 3z, Wikimedia Commons, CC0 1.0','https://commons.wikimedia.org/wiki/File:Black_Mitsubishi_Outlander_in_Kraków_(1).jpg'),
+    },
+    'mitsubishi-lancer-x-cy-sedan': {
+      red: colorImage('/assets/vehicles/mitsubishi-lancer-x-sport-sedan.jpg','Красный Mitsubishi Lancer X / CY0, седан, 2007 год','Фото: Overlaet, Wikimedia Commons, CC BY-SA 3.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg'),
     },
     'lancer-9': bodyType === 'Универсал' ? {
       blue: colorImage('/assets/vehicles/mitsubishi-lancer-9-wagon-blue.jpg','Синий Mitsubishi Lancer IX универсал','Фото: Charles01, Wikimedia Commons, CC BY-SA 4.0','https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_estate_1584cc_Registered_February_2005.JPG'),

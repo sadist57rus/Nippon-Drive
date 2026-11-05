@@ -1478,6 +1478,9 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Вывод удлиненного шланга сапуна редуктора наверх в подкапотное пространство с установкой фильтра.'
           }
         ]
+        sourceReferences: [{ label: "Drom — Suzuki Grand Vitara JT 2.0 AT Base (09.2005–07.2008), Япония", url: "https://www.drom.ru/catalog/suzuki/grand_vitara/94859/", scope: "Точная версия JT 2.0 AT Base: бензиновый 1995 см³, 140 л.с.; 4-ступенчатая АКПП, полный привод; кузов 4470×1810×1695 мм, база 2640 мм, клиренс 200 мм, колея 1540/1570 мм, масса 1595 кг, шины 225/70 R16, багажник 398 л. Эти параметры относятся к ранней 2.0 AT, а не к рестайлинговой 2.4." }],
+        verificationStatus: 'partially-verified',
+        lastReviewed: '2026-11-06'
       },
       {
         id: 'suzuki-jimny-3',
@@ -1683,6 +1686,9 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Замена прокладок на усиленные многослойные стальные прокладки (MLS) от турбомотора EJ257 со шлифовкой плоскостей блока и ГБЦ.'
           }
         ]
+        sourceReferences: [{ label: "Drom — Subaru Forester SH 2.0XS AT IN (05.2008–09.2010), Япония", url: "https://www.drom.ru/catalog/subaru/forester/212585/", scope: "Точная версия SH 2.0XS AT IN: EJ20 1994 см³, 150 л.с.; 4-ступенчатая АКПП, полный привод; кузов 4560×1780×1700 мм, база 2615 мм, клиренс 215 мм, колея 1530/1530 мм, масса 1495 кг, шины 215/65R16, багажник 450 л. Не переносить на дизель 2.0D, турбо 2.5XT и другие годы/рынки." }],
+        verificationStatus: 'partially-verified',
+        lastReviewed: '2026-11-06'
       }
     ]
   },

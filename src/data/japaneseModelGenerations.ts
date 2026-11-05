@@ -6748,5 +6748,333 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "generation": "KMA10",
     "years": "2019-н.в.",
     "source": "Drom"
+  },
+  {
+    "id": "acura-cl-ya1-1996-1999",
+    "make": "Acura",
+    "model": "CL",
+    "generation": "YA1",
+    "years": "1996-1999",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-cl-ya4-2000-2003",
+    "make": "Acura",
+    "model": "CL",
+    "generation": "YA4",
+    "years": "2000-2003",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-el-1--1996-2000",
+    "make": "Acura",
+    "model": "EL",
+    "generation": "1 поколение",
+    "years": "1996-2000",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-ilx-de1-2012-2022",
+    "make": "Acura",
+    "model": "ILX",
+    "generation": "DE1",
+    "years": "2012-2022",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-integra-dc4-1993-2001",
+    "make": "Acura",
+    "model": "Integra",
+    "generation": "DC4",
+    "years": "1993-2001",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-integra-de4-2022-",
+    "make": "Acura",
+    "model": "Integra",
+    "generation": "DE4",
+    "years": "2022-н.в.",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-legend-ka7-8-1990-1995",
+    "make": "Acura",
+    "model": "Legend",
+    "generation": "KA7/8",
+    "years": "1990-1995",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-mdx-yd1-2000-2006",
+    "make": "Acura",
+    "model": "MDX",
+    "generation": "YD1",
+    "years": "2000-2006",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-mdx-yd2-2006-2013",
+    "make": "Acura",
+    "model": "MDX",
+    "generation": "YD2",
+    "years": "2006-2013",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-mdx-yd3-2013-2021",
+    "make": "Acura",
+    "model": "MDX",
+    "generation": "YD3",
+    "years": "2013-2021",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-mdx-yd8-2020-",
+    "make": "Acura",
+    "model": "MDX",
+    "generation": "YD8",
+    "years": "2020-н.в.",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-rdx-tb1-2-2006-2012",
+    "make": "Acura",
+    "model": "RDX",
+    "generation": "TB1/2",
+    "years": "2006-2012",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-rdx-tb3-4-2012-2018",
+    "make": "Acura",
+    "model": "RDX",
+    "generation": "TB3/4",
+    "years": "2012-2018",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-rl-kb1-2004-2012",
+    "make": "Acura",
+    "model": "RL",
+    "generation": "KB1",
+    "years": "2004-2012",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-rsx-dc5-2001-2006",
+    "make": "Acura",
+    "model": "RSX",
+    "generation": "DC5",
+    "years": "2001-2006",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-tl-ua1-2-3-1996-1998",
+    "make": "Acura",
+    "model": "TL",
+    "generation": "UA1/2/3",
+    "years": "1996-1998",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-tl-ua4-1998-2003",
+    "make": "Acura",
+    "model": "TL",
+    "generation": "UA4",
+    "years": "1998-2003",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-tl-ua6-2003-2008",
+    "make": "Acura",
+    "model": "TL",
+    "generation": "UA6",
+    "years": "2003-2008",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-tlx-ub1-2-3-4-2014-2020",
+    "make": "Acura",
+    "model": "TLX",
+    "generation": "UB1/2/3/4",
+    "years": "2014-2020",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-tlx-ub5-6-7-2020-",
+    "make": "Acura",
+    "model": "TLX",
+    "generation": "UB5/6/7",
+    "years": "2020-н.в.",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-tsx-cl9-2003-2008",
+    "make": "Acura",
+    "model": "TSX",
+    "generation": "CL9",
+    "years": "2003-2008",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-tsx-cu2-2008-2014",
+    "make": "Acura",
+    "model": "TSX",
+    "generation": "CU2",
+    "years": "2008-2014",
+    "source": "Drom"
+  },
+  {
+    "id": "acura-zdx-yb1-2009-2013",
+    "make": "Acura",
+    "model": "ZDX",
+    "generation": "YB1",
+    "years": "2009-2013",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-9--1999-2004",
+    "make": "Daihatsu",
+    "model": "Hijet",
+    "generation": "9 поколение",
+    "years": "1999-2004",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-9--2004-2014",
+    "make": "Daihatsu",
+    "model": "Hijet",
+    "generation": "9 поколение, рестайлинг",
+    "years": "2004-2014",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-10--2004-2007",
+    "make": "Daihatsu",
+    "model": "Hijet",
+    "generation": "10 поколение",
+    "years": "2004-2007",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-10--2007-2017",
+    "make": "Daihatsu",
+    "model": "Hijet",
+    "generation": "10 поколение, рестайлинг",
+    "years": "2007-2017",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-10-2--2017-2021",
+    "make": "Daihatsu",
+    "model": "Hijet",
+    "generation": "10 поколение, 2-й рестайлинг",
+    "years": "2017-2021",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-11-s700-s710-2021-",
+    "make": "Daihatsu",
+    "model": "Hijet",
+    "generation": "11 поколение S700/S710",
+    "years": "2021-н.в.",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-truck-9--1999-2004",
+    "make": "Daihatsu",
+    "model": "Hijet Truck",
+    "generation": "9 поколение",
+    "years": "1999-2004",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-truck-9--2004-2014",
+    "make": "Daihatsu",
+    "model": "Hijet Truck",
+    "generation": "9 поколение, рестайлинг",
+    "years": "2004-2014",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-hijet-truck-10--2014-2021",
+    "make": "Daihatsu",
+    "model": "Hijet Truck",
+    "generation": "10 поколение",
+    "years": "2014-2021",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-rocky-1--1984-1993",
+    "make": "Daihatsu",
+    "model": "Rocky",
+    "generation": "1 поколение",
+    "years": "1984-1993",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-rocky-1--1987-1997",
+    "make": "Daihatsu",
+    "model": "Rocky",
+    "generation": "1 поколение, рестайлинг",
+    "years": "1987-1997",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-sirion-2--2004-2007",
+    "make": "Daihatsu",
+    "model": "Sirion",
+    "generation": "2 поколение",
+    "years": "2004-2007",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-sirion-2--2007-2013",
+    "make": "Daihatsu",
+    "model": "Sirion",
+    "generation": "2 поколение, рестайлинг",
+    "years": "2007-2013",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-taft-2--2020-",
+    "make": "Daihatsu",
+    "model": "Taft",
+    "generation": "2 поколение",
+    "years": "2020-н.в.",
+    "source": "Drom"
+  },
+  {
+    "id": "daihatsu-tanto-2--2007-2013",
+    "make": "Daihatsu",
+    "model": "Tanto",
+    "generation": "2 поколение",
+    "years": "2007-2013",
+    "source": "Drom"
+  },
+  {
+    "id": "datsun-mi-do-1--2014-2021",
+    "make": "Datsun",
+    "model": "mi-Do",
+    "generation": "1 поколение",
+    "years": "2014-2021",
+    "source": "Drom"
+  },
+  {
+    "id": "datsun-on-do-1--2014-2019",
+    "make": "Datsun",
+    "model": "on-DO",
+    "generation": "1 поколение",
+    "years": "2014-2019",
+    "source": "Drom"
+  },
+  {
+    "id": "datsun-on-do-1--2019-2021",
+    "make": "Datsun",
+    "model": "on-DO",
+    "generation": "1 поколение, рестайлинг",
+    "years": "2019-2021",
+    "source": "Drom"
   }
 ];

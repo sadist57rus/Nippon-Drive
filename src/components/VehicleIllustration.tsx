@@ -395,6 +395,66 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: Tennen-Gas, Wikimedia Commons, GFDL 1.2+ / CC BY-SA 3.0; файл оптимизирован для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_Skyline_R34_GT-R_N%C3%BCr_001.jpg',
   },
+  'pajero-4': {
+    src: '/assets/vehicles/mitsubishi-pajero-v80.jpg',
+    alt: 'Mitsubishi Pajero IV, серия V80',
+    credit: 'Фото: M 93, Wikimedia Commons, GFDL 1.2+ / CC BY-SA 3.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_(V80)_front.jpg',
+  },
+  'lancer-9': {
+    src: '/assets/vehicles/mitsubishi-lancer-ix-cs-sedan.jpg',
+    alt: 'Mitsubishi Lancer IX CS, седан 2004–2005 годов',
+    credit: 'Фото: IFCAR, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:04-05_Mitsubishi_Lancer_sedan.jpg',
+  },
+  'pajero-sport-3': {
+    src: '/assets/vehicles/mitsubishi-pajero-sport-iii.jpg',
+    alt: 'Mitsubishi Pajero Sport III, внедорожник',
+    credit: 'Фото: RL GNZLZ, Wikimedia Commons, CC BY-SA 2.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_III.jpg',
+  },
+  'nissan-patrol-y61': {
+    src: '/assets/vehicles/nissan-patrol-y61.jpg',
+    alt: 'Nissan Patrol Y61 до рестайлинга',
+    credit: 'Фото: Alekc2m, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_Patrol_Y61.jpg',
+  },
+  'suzuki-grand-vitara-2': {
+    src: '/assets/vehicles/suzuki-grand-vitara-jt.jpg',
+    alt: 'Suzuki Grand Vitara II JT 2.4 GLX Sport',
+    credit: 'Фото: RL GNZLZ, Wikimedia Commons, CC BY-SA 2.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Suzuki_Grand_Vitara_2.4_GLX_Sport_2014_(33343530282).jpg',
+  },
+  'honda-cr-v-3': {
+    src: '/assets/vehicles/honda-crv-re-third-gen.jpg',
+    alt: 'Honda CR-V RE, третье поколение',
+    credit: 'Фото: Rudolf Stricker, Wikimedia Commons, GFDL 1.2+ / CC BY-SA 3.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Honda_CRV_3_front_20071106.jpg',
+  },
+  'toyota-rav4-3': {
+    src: '/assets/vehicles/toyota-rav4-xa30.jpg',
+    alt: 'Toyota RAV4 XA30, третье поколение',
+    credit: 'Фото: Navigator84, Wikimedia Commons, CC BY-SA 3.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Rav4_XA30_01_China_2012-04-22.jpg',
+  },
+  'toyota-camry-40': {
+    src: '/assets/vehicles/toyota-camry-xv40.jpg',
+    alt: 'Toyota Camry XV40 SE',
+    credit: 'Фото: Bull-Doser, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Camry_SE_XV40.JPG',
+  },
+  'infiniti-fx-35-37': {
+    src: '/assets/vehicles/infiniti-fx35-s51.jpg',
+    alt: 'Infiniti FX35 S51',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Infiniti_FX35_(S51)_front.jpg',
+  },
+  'daihatsu-terios': {
+    src: '/assets/vehicles/daihatsu-terios-j200.jpg',
+    alt: 'Daihatsu Terios J200',
+    credit: 'Фото: Trop86, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Daihatsu_Terios_(J200)_164951260.jpg',
+  },
 };
 
 export default function VehicleIllustration({

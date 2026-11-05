@@ -45,6 +45,9 @@ export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): Ve
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-outlander-2-silver.jpg' },
       { id: 'black', label: 'Чёрный', src: '/assets/vehicles/mitsubishi-outlander-2-black.jpg' },
     ],
+    'mitsubishi-lancer-x-cy-sedan': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-x-silver.jpg' },
+    ],
     'lancer-9': bodyType === 'Универсал' ? [
       { id: 'blue', label: 'Синий', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-blue.jpg' },
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-silver.jpg' },
@@ -110,6 +113,12 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     alt: 'Toyota RAV4 третьего поколения (XA30), синий кузов',
     credit: 'Фото: Ymaup, Wikimedia Commons, CC BY-SA 3.0 / GFDL; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Rav4.jpg',
+  },
+  'mitsubishi-lancer-x-cy-sedan': {
+    src: '/assets/vehicles/mitsubishi-lancer-x-silver.jpg',
+    alt: 'Серебристый Mitsubishi Lancer X (CY), седан 2008 года, вид сбоку',
+    credit: 'Фото: Acgskup, Wikimedia Commons, CC BY 4.0; файл уменьшен для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_(2008)_–_left_side_view.jpg',
   },
   'toyota-land-cruiser-100': {
     src: '/assets/vehicles/toyota-land-cruiser-100.jpg',

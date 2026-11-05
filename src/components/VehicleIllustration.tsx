@@ -18,6 +18,22 @@ export const VEHICLE_COLORS = [
   { id: 'burgundy', label: 'Бордовый', hex: '#722f3e' },
 ] as const;
 
+const MODEL_IMAGE_ALIASES: Record<string, string> = {
+  'toyota-camry-xv40': 'toyota-camry-40',
+  'toyota-rav4-xa30-crossover': 'toyota-rav4-3',
+  'mitsubishi-lancer-cs-sedan': 'lancer-9',
+  'mitsubishi-lancer-cs-wagon': 'lancer-9',
+};
+
+function resolveVehicleImageModelId(modelId?: string): string {
+  return MODEL_IMAGE_ALIASES[modelId || ''] || modelId || '';
+}
+
+export function hasVerifiedVehicleImage(modelId?: string): boolean {
+  const resolvedModelId = resolveVehicleImageModelId(modelId);
+  return Boolean(VERIFIED_MODEL_IMAGES[resolvedModelId] || resolvedModelId === 'lancer-9');
+}
+
 export type VehicleColorId = typeof VEHICLE_COLORS[number]['id'];
 export const DEFAULT_VEHICLE_COLOR: VehicleColorId = 'silver';
 
@@ -30,6 +46,7 @@ export interface VehicleColorPhotoOption {
 
 /** Color options are restricted to models/colors with a real matching photo. */
 export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): VehicleColorPhotoOption[] {
+  const resolvedModelId = resolveVehicleImageModelId(modelId);
   const options: Record<string, Array<{id: string; label: string; src: string}>> = {
     'toyota-rav4-3': [
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/toyota-rav4-xa30-silver.jpg' },
@@ -45,6 +62,9 @@ export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): Ve
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-outlander-2-silver.jpg' },
       { id: 'black', label: 'Чёрный', src: '/assets/vehicles/mitsubishi-outlander-2-black.jpg' },
     ],
+    'mitsubishi-lancer-x-cy-sedan': [
+      { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-x-silver.jpg' },
+    ],
     'lancer-9': bodyType === 'Универсал' ? [
       { id: 'blue', label: 'Синий', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-blue.jpg' },
       { id: 'silver', label: 'Серебристый', src: '/assets/vehicles/mitsubishi-lancer-9-wagon-silver.jpg' },
@@ -53,7 +73,7 @@ export function getVehicleColorPhotoOptions(modelId?: string, bodyType = ''): Ve
       { id: 'yellow', label: 'Жёлтый', src: '/assets/vehicles/mitsubishi-lancer-9-sedan-yellow.jpg' },
     ],
   };
-  return (options[modelId || ''] || []).map(option => ({
+  return (options[resolvedModelId] || []).map(option => ({
     ...option,
     hex: VEHICLE_COLORS.find(color => color.id === option.id)?.hex || '#808080',
   }));
@@ -64,7 +84,7 @@ export function getVehicleColorsForModel(modelId?: string, bodyType = '') {
   if (photoOptions.length) {
     return VEHICLE_COLORS.filter(color => photoOptions.some(option => option.id === color.id));
   }
-  return VEHICLE_COLORS;
+  return [];
 }
 
 interface Props {
@@ -111,6 +131,12 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: Ymaup, Wikimedia Commons, CC BY-SA 3.0 / GFDL; файл уменьшен для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Rav4.jpg',
   },
+  'mitsubishi-lancer-x-cy-sedan': {
+    src: '/assets/vehicles/mitsubishi-lancer-x-silver.jpg',
+    alt: 'Серебристый Mitsubishi Lancer X (CY), седан 2008 года, вид сбоку',
+    credit: 'Фото: Acgskup, Wikimedia Commons, CC BY 4.0; файл уменьшен для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_(2008)_–_left_side_view.jpg',
+  },
   'toyota-land-cruiser-100': {
     src: '/assets/vehicles/toyota-land-cruiser-100.jpg',
     alt: 'Toyota Land Cruiser 100 (J100), фотография автомобиля',
@@ -151,7 +177,8 @@ export default function VehicleIllustration({
       yellow: colorImage('/assets/vehicles/mitsubishi-lancer-9-sedan-yellow.jpg','Жёлтый Mitsubishi Lancer IX седан CH MY07','Фото: OSX, Wikimedia Commons, общественное достояние','https://commons.wikimedia.org/wiki/File:2006-2007_Mitsubishi_Lancer_(CH_MY07)_ES_sedan_01.jpg'),
     },
   };
-  const image = modelColorImages[modelId]?.[color] || VERIFIED_MODEL_IMAGES[modelId];
+  const resolvedModelId = resolveVehicleImageModelId(modelId);
+  const image = modelColorImages[resolvedModelId]?.[color] || VERIFIED_MODEL_IMAGES[resolvedModelId];
 
   if (image) {
     return (

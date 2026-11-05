@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   JAPANESE_BRANDS,
   JapaneseBrand,
@@ -6,6 +6,7 @@ import {
   JapaneseCarEngine
 } from '../data/vehicleCatalog';
 import { BrandLogo } from './BrandLogos';
+import VehicleIllustration, { getVehicleColorPhotoOptions, hasVerifiedVehicleImage } from './VehicleIllustration';
 import { TabId } from './Header';
 import { plural } from '../lib/plural';
 import {
@@ -54,6 +55,7 @@ export default function JapaneseBrandsHub({
 }: Props) {
   const [activeBrandId, setActiveBrandId] = useState<string>(initialBrandId);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedPhotoColor, setSelectedPhotoColor] = useState('silver');
   const [showOtherBrands, setShowOtherBrands] = useState(false);
   const [filterBodyType, setFilterBodyType] = useState<string>('ALL');
   const [activeTabSubSection, setActiveTabSubSection] = useState<
@@ -80,6 +82,11 @@ export default function JapaneseBrandsHub({
     if (foundInBrand) return foundInBrand;
     return currentBrand.models[0];
   }, [currentBrand, currentModelId]);
+
+  useEffect(() => {
+    const options = getVehicleColorPhotoOptions(currentModel?.id, currentModel?.bodyType);
+    setSelectedPhotoColor(options[0]?.id || 'silver');
+  }, [currentModel?.id, currentModel?.bodyType]);
 
   const handleBrandChange = (brandId: string) => {
     setActiveBrandId(brandId);
@@ -441,6 +448,33 @@ export default function JapaneseBrandsHub({
                 <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
                   {currentModel.name}
                 </h2>
+
+                {hasVerifiedVehicleImage(currentModel.id) && (
+                  <div className="mt-3 max-w-2xl">
+                    <VehicleIllustration
+                      modelId={currentModel.id}
+                      modelName={currentModel.name}
+                      bodyType={currentModel.bodyType}
+                      color={selectedPhotoColor}
+                    />
+                    {getVehicleColorPhotoOptions(currentModel.id, currentModel.bodyType).length > 1 && (
+                      <div className="mt-2 flex flex-wrap gap-2" aria-label="Цвет кузова на фотографии">
+                        {getVehicleColorPhotoOptions(currentModel.id, currentModel.bodyType).map(option => (
+                          <button
+                            key={option.id}
+                            type="button"
+                            onClick={() => setSelectedPhotoColor(option.id)}
+                            aria-pressed={selectedPhotoColor === option.id}
+                            title={option.label}
+                            className={`min-h-9 rounded-full border px-3 text-xs font-semibold transition ${selectedPhotoColor === option.id ? 'border-slate-900 bg-slate-900 text-white dark:border-white dark:bg-white dark:text-slate-900' : 'border-slate-300 text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800'}`}
+                          >
+                            {option.label}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
 
                 <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-3xl leading-relaxed">
                   {currentModel.overview}

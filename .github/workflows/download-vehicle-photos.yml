@@ -35,74 +35,74 @@ jobs:
 
           photos = [
           {
-            "filename": "2006 Honda CR-V (RD7 MY06) wagon (2008-11-12).jpg",
-            "target": "honda-crv-rd7-gray.jpg",
+            "filename": "Toyota Mark II Tourer V (JZX90).jpg",
+            "target": "toyota-mark-ii-x90-tourer-v.jpg",
+            "author": "Mld61294",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Mark_II_Tourer_V_(JZX90).jpg",
+          },
+          {
+            "filename": "Toyota GF-JZX100 Mark Ⅱ 2.5 TOURER V (24033010401).jpg",
+            "target": "toyota-mark-ii-x100-tourer-v.jpg",
+            "author": "先従隗始",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_GF-JZX100_Mark_Ⅱ_2.5_TOURER_V_(24033010401).jpg",
+          },
+          {
+            "filename": "Toyota Chaser Tourer V.jpg",
+            "target": "toyota-chaser-x100-tourer-v.jpg",
+            "author": "FotoSleuth (uploaded by OSX)",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Chaser_Tourer_V.jpg",
+          },
+          {
+            "filename": "Nissan GF-S15 Silvia spec. S - Toyota E-JZX90 Chaser 2.5 Tourer V (23011710160).jpg",
+            "target": "toyota-chaser-x90-tourer-v.jpg",
+            "author": "先従隗始",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_GF-S15_Silvia_spec._S_-_Toyota_E-JZX90_Chaser_2.5_Tourer_V_(23011710160).jpg",
+          },
+          {
+            "filename": "Toyota GF-JZX100 Cresta 2.5 Roulant G - Honda ABA-CL9 Accord 24TL (23060415233).jpg",
+            "target": "toyota-cresta-x100-roulant-g.jpg",
+            "author": "先従隗始",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_GF-JZX100_Cresta_2.5_Roulant_G_-_Honda_ABA-CL9_Accord_24TL_(23060415233).jpg",
+          },
+          {
+            "filename": "Toyota Supra RZ (E-JZA80).jpg",
+            "target": "toyota-supra-a80-rz.jpg",
+            "author": "Tokumeigakarinoaoshima",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Supra_RZ_(E-JZA80).jpg",
+          },
+          {
+            "filename": "1989 Toyota A70 Supra MkIII 3.0 GT Turbo.jpg",
+            "target": "toyota-supra-a70-gt-turbo.jpg",
+            "author": "Sicnag",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:1989_Toyota_A70_Supra_MkIII_3.0_GT_Turbo.jpg",
+          },
+          {
+            "filename": "1992 Toyota Soarer 2.5GT Twin Turbo.jpg",
+            "target": "toyota-soarer-jzz30-gt-twin-turbo.jpg",
+            "author": "TTTNIS",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:1992_Toyota_Soarer_2.5GT_Twin_Turbo.jpg",
+          },
+          {
+            "filename": "1988-1990 Nissan Cefiro (A31) sedan 01.jpg",
+            "target": "nissan-cefiro-a31-rb20det.jpg",
             "author": "OSX",
             "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:2006_Honda_CR-V_(RD7_MY06)_wagon_(2008-11-12).jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:1988-1990_Nissan_Cefiro_(A31)_sedan_01.jpg",
           },
           {
-            "filename": "'03-'05 Mazda 6 Sedan.JPG",
-            "target": "mazda6-gg-sedan-silver.jpg",
-            "author": "Bull-Doser",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:%2703-%2705_Mazda_6_Sedan.JPG",
-          },
-          {
-            "filename": "Mitsubishi Lancer X 001.jpg",
-            "target": "mitsubishi-lancer-x-black.jpg",
-            "author": "JustAnotherCarDesigner",
-            "license": "CC0 1.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg",
-          },
-          {
-            "filename": "Toyota Land Cruiser Prado KZJ120 3.0 VX Raven Black 01.jpg",
-            "target": "toyota-prado-j120-black.jpg",
-            "author": "Ethan Llamas",
+            "filename": "Nissan laurel hc33 medalist 1 f.jpg",
+            "target": "nissan-laurel-c33-rb20-medalist.jpg",
+            "author": "Toyotacoronaexsaloon",
             "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_Raven_Black_01.jpg",
-          },
-          {
-            "filename": "Toyota Land Cruiser Prado KZJ120 3.0 VX White Pearl Crystal Shine 01.jpg",
-            "target": "toyota-prado-j120-white.jpg",
-            "author": "Ethan Llamas",
-            "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_White_Pearl_Crystal_Shine_01.jpg",
-          },
-          {
-            "filename": "Nissan Qashqai (J10) 130819.jpg",
-            "target": "nissan-qashqai-j10-silver.jpg",
-            "author": "Trop86",
-            "license": "CC0 1.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_130819.jpg",
-          },
-          {
-            "filename": "Nissan X-Trail T31 2.5L 2WD White.jpg",
-            "target": "nissan-x-trail-t31-white.jpg",
-            "author": "Ethan Llamas",
-            "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_White.jpg",
-          },
-          {
-            "filename": "Nissan X-Trail T31 2.5L 2WD Tempest Blue.jpg",
-            "target": "nissan-x-trail-t31-blue.jpg",
-            "author": "Ethan Llamas",
-            "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_Tempest_Blue.jpg",
-          },
-          {
-            "filename": "2009 Nissan Note in Emotion Red, front left, 06-08-2025.jpg",
-            "target": "nissan-note-e11-red.jpg",
-            "author": "Cutlass",
-            "license": "CC0 1.0",
-            "source": "https://commons.wikimedia.org/wiki/File:2009_Nissan_Note_in_Emotion_Red,_front_left,_06-08-2025.jpg",
-          },
-          {
-            "filename": "2002-2004 Honda Jazz (GD) hatchback 02.jpg",
-            "target": "honda-jazz-gd-blue.jpg",
-            "author": "OSX",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_02.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_laurel_hc33_medalist_1_f.jpg",
           },
           ]
 
@@ -149,7 +149,7 @@ jobs:
                       errors.append(str(exc))
                       print("DOWNLOAD_ERROR", item["filename"], repr(exc))
 
-          (destination / "sources-batch-04.json").write_text(
+          (destination / "sources-batch-05.json").write_text(
               json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )
@@ -163,5 +163,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/assets/vehicles/
-          git commit -m "assets: загрузить фотографии моделей и цветовые варианты — пакет 3"
+          git commit -m "assets: загрузить фото JDM икон и спорткаров — пакет 4"
           git push origin HEAD:assets/vehicle-photo-fetch

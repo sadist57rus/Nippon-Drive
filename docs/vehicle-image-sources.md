@@ -34,7 +34,8 @@
 | Mitsubishi Lancer X / CY0, седан, 2007 | [Mitsubishi Lancer Sport Sedan (front side quarter).jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg) | Overlaet | CC BY-SA 3.0 (также GFDL) | Снимок автомобиля на IAA Frankfurt 2007; подходит как источник для раннего Lancer X, красный кузов |
 | Mitsubishi Lancer X / CJ MY10, седан, 2009–2010 | [2009-2010 Mitsubishi Lancer (CJ MY10) VR-X sedan 01.jpg](https://commons.wikimedia.org/wiki/File:2009-2010_Mitsubishi_Lancer_(CJ_MY10)_VR-X_sedan_01.jpg) | OSX | Общественное достояние (авторская передача в public domain) | Австралийский CJ MY10; отдельный экспортный вариант, не подменять им ранний CY0 без указания версии |
 
-При подготовке локальной копии сохранять автора, исходную страницу, лицензию и факт изменения размера/перекодирования. Не создавать цветовые варианты программной тонировкой.
 | Toyota Land Cruiser Prado J120, 2006 | [Toyota Land-Cruiser Prado.jpg](https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg) | Dekel Santo | CC BY-SA 3.0 | В описании указан Prado 120 2006 года, 3.0 D-4D; серебристый SUV |
 | Nissan X-Trail T31 | [Nissan X-Trail – right side view.jpg](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_%E2%80%93_right_side_view.jpg) | Acgskup | CC BY 4.0 | Фотография с правым боковым ракурсом; опубликована в январе 2026 года |
 | Mazda3 BK, hatchback, 2004 | ['04 Mazda3 2.3 Hatchback.JPG](https://commons.wikimedia.org/wiki/File:%2704_Mazda3_2.3_Hatchback.JPG) | Bull-Doser | Общественное достояние (авторская передача в public domain) | Хэтчбек Mazda3 первого поколения; не использовать для карточки седана |
+
+При подготовке локальной копии сохранять автора, исходную страницу, лицензию и факт изменения размера/перекодирования. Не создавать цветовые варианты программной тонировкой.

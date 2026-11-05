@@ -91,3 +91,19 @@
 
 
 | `mitsubishi-lancer-x-cy-sedan` | [Mitsubishi Lancer X 001.jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg) | Lancer X / CY, чёрный седан | JustAnotherCarDesigner | CC0 1.0 | лицензия проверена, ожидает локального импорта |
+
+
+## Локальные фотографии — пакет 1
+
+| Файл приложения | Модель / кузов | Автор | Лицензия | Исходная страница |
+|---|---|---|---|---|
+| `mitsubishi-lancer-x-sport-sedan.jpg` | Lancer X / CY0, седан, 2007 | Overlaet | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg) |
+| `mitsubishi-lancer-cj-my10.jpg` | Lancer X / CJ MY10, седан, 2009–2010; отдельный экспортный вариант, пока не привязан к карточке | OSX | Public domain (author release) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-2010_Mitsubishi_Lancer_(CJ_MY10)_VR-X_sedan_01.jpg) |
+| `toyota-land-cruiser-prado-j120.jpg` | Land Cruiser Prado J120, 2006 | Dekel Santo | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg) |
+| `nissan-x-trail-t31.jpg` | X-Trail T31 | Acgskup | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_%E2%80%93_right_side_view.jpg) |
+| `mazda3-bk-hatchback.jpg` | Mazda3 BK, хэтчбек, 2004 | Bull-Doser | Public domain (author release) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%2704_Mazda3_2.3_Hatchback.JPG) |
+| `toyota-corolla-axio-e140.jpg` | Corolla Axio E140; файл загружен, но пока не привязан — точной карточки в активном каталоге не найдено | Tokumeigakarinoaoshima | CC0 1.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Toyota_COROLLA_Axio_1.8LUXEL_(E140)_front.JPG) |
+| `nissan-qashqai-j10.jpg` | Qashqai J10 | Trop86 | CC BY 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_164122.jpg) |
+| `honda-jazz-gd.jpg` | Honda Jazz / Fit GD, хэтчбек, 2002–2004 | OSX | Public domain (author release) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_01.jpg) |
+
+Локальные копии оптимизированы до 1920 px по ширине. Цветовые переключатели включены только для реально существующих снимков; CSS-перекраска не используется. Фотографии Corolla Axio и Lancer CJ MY10 сохранены в каталоге файлов, но не назначены карточкам до точного подтверждения ID/варианта.

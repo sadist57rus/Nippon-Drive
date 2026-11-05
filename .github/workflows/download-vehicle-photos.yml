@@ -35,74 +35,25 @@ jobs:
 
           photos = [
           {
-            "filename": "Mitsubishi Pajero (V80) front.jpg",
-            "target": "mitsubishi-pajero-v80.jpg",
-            "author": "M 93",
-            "license": "GFDL 1.2+ / CC BY-SA 3.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_(V80)_front.jpg",
-          },
-          {
-            "filename": "04-05 Mitsubishi Lancer sedan.jpg",
-            "target": "mitsubishi-lancer-ix-cs-sedan.jpg",
-            "author": "IFCAR",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:04-05_Mitsubishi_Lancer_sedan.jpg",
-          },
-          {
-            "filename": "Mitsubishi Pajero Sport III.jpg",
-            "target": "mitsubishi-pajero-sport-iii.jpg",
-            "author": "RL GNZLZ",
-            "license": "CC BY-SA 2.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_III.jpg",
-          },
-          {
-            "filename": "Nissan Patrol Y61.jpg",
-            "target": "nissan-patrol-y61.jpg",
+            "filename": "Mitsubishi Outlander (third generation, 2012) 03.jpg",
+            "target": "mitsubishi-outlander-iii.jpg",
             "author": "Alekc2m",
             "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Nissan_Patrol_Y61.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_(third_generation,_2012)_03.jpg",
           },
           {
-            "filename": "Suzuki Grand Vitara 2.4 GLX Sport 2014 (33343530282).jpg",
-            "target": "suzuki-grand-vitara-jt.jpg",
-            "author": "RL GNZLZ",
-            "license": "CC BY-SA 2.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Grand_Vitara_2.4_GLX_Sport_2014_(33343530282).jpg",
-          },
-          {
-            "filename": "Honda CRV 3 front 20071106.jpg",
-            "target": "honda-crv-re-third-gen.jpg",
-            "author": "Rudolf Stricker",
-            "license": "GFDL 1.2+ / CC BY-SA 3.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Honda_CRV_3_front_20071106.jpg",
-          },
-          {
-            "filename": "Toyota Rav4 XA30 01 China 2012-04-22.jpg",
-            "target": "toyota-rav4-xa30.jpg",
-            "author": "Navigator84",
-            "license": "CC BY-SA 3.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Rav4_XA30_01_China_2012-04-22.jpg",
-          },
-          {
-            "filename": "Toyota Camry SE XV40.JPG",
-            "target": "toyota-camry-xv40.jpg",
-            "author": "Bull-Doser",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Camry_SE_XV40.JPG",
-          },
-          {
-            "filename": "Infiniti FX35 (S51) front.jpg",
-            "target": "infiniti-fx35-s51.jpg",
-            "author": "Tokumeigakarinoaoshima",
+            "filename": "Suzuki Jimny JB23 043.jpg",
+            "target": "suzuki-jimny-jb23.jpg",
+            "author": "天然ガス",
             "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Infiniti_FX35_(S51)_front.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Jimny_JB23_043.jpg",
           },
           {
-            "filename": "Daihatsu Terios (J200) 164951260.jpg",
-            "target": "daihatsu-terios-j200.jpg",
-            "author": "Trop86",
-            "license": "CC0 1.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Daihatsu_Terios_(J200)_164951260.jpg",
+            "filename": "2002-2005 Subaru Forester XT wagon (2011-11-18) 01.jpg",
+            "target": "subaru-forester-sg.jpg",
+            "author": "OSX",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:2002-2005_Subaru_Forester_XT_wagon_(2011-11-18)_01.jpg",
           },
           ]
 
@@ -149,7 +100,7 @@ jobs:
                       errors.append(str(exc))
                       print("DOWNLOAD_ERROR", item["filename"], repr(exc))
 
-          (destination / "sources-batch-07.json").write_text(
+          (destination / "sources-batch-08.json").write_text(
               json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )

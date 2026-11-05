@@ -3984,7 +3984,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-mt-2wd-12-2012-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4045,7 +4045,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-mt-2wd-12-2014-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2014,
@@ -4106,7 +4106,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-mt-4wd-12-2012-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4167,7 +4167,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-mt-4wd-12-2014-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2014,
@@ -4228,7 +4228,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-cvt-2wd-12-2012-02-2014",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4289,7 +4289,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-cvt-2wd-12-2013-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2013,
@@ -4350,7 +4350,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2012-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4411,7 +4411,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2012-12-2013",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4472,7 +4472,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2012-02-2014",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4533,7 +4533,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2013-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2013,
@@ -4594,7 +4594,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2012-12-2013",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4655,7 +4655,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2012-02-2014",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4716,7 +4716,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2013-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2013,
@@ -4777,7 +4777,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2014-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2014,
@@ -4838,7 +4838,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-12-2012-07-2013",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4899,7 +4899,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-12-2012-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2012,
@@ -4960,7 +4960,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-08-2013-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2013,
@@ -5021,7 +5021,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-12-2014-12-2015",
-    "modelId": "toyota-rav4-3",
+    "modelId": "toyota-rav4-63",
     "generationId": "drom-toyota-rav4-xa40",
     "market": "Россия",
     "modelYearFrom": 2014,

@@ -1,6 +1,7 @@
 import { JAPANESE_BRANDS } from '../src/data/japaneseBrandsData';
 import '../src/data/expandedJapaneseModels';
 import '../src/data/expandedMazdaSuzukiModels';
+import { JAPANESE_MODEL_FAMILIES } from '../src/data/japaneseModelFamilies';
 
 type Model = (typeof JAPANESE_BRANDS)[number]['models'][number];
 
@@ -129,6 +130,19 @@ for (const brand of JAPANESE_BRANDS) {
     }
   }
 }
+
+const familyIds = new Set<string>();
+const familyNames = new Set<string>();
+for (const family of JAPANESE_MODEL_FAMILIES) {
+  check(Boolean(family.id && family.make && family.model), `Model-family entry missing identity: ${JSON.stringify(family)}`);
+  if (familyIds.has(family.id)) errors.push(`Duplicate model-family id: ${family.id}`);
+  familyIds.add(family.id);
+  const key = family.make.toLocaleLowerCase('en') + '|' + family.model.toLocaleLowerCase('en').replace(/[^a-z0-9]/g, '');
+  if (familyNames.has(key)) errors.push(`Duplicate model-family name: ${family.make}/${family.model}`);
+  familyNames.add(key);
+  if (family.source && family.source !== 'Drom' && family.source !== 'Auto.ru') errors.push(`Invalid model-family source: ${family.id}`);
+}
+console.log(`Model-family index: ${JAPANESE_MODEL_FAMILIES.length} families across ${new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make)).size} makes`);
 
 console.log(`Catalog audit: ${JAPANESE_BRANDS.length} brands, ${modelCount} models`);
 for (const [name, ids] of duplicateNames) if (ids.length > 1) warnings.push(`Possible duplicate model names within brand: ${name}: ${ids.join(', ')}`);

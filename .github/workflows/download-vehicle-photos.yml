@@ -1,0 +1,140 @@
+name: Download verified vehicle photos
+
+on:
+  push:
+    branches:
+      - assets/vehicle-photo-fetch
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vehicle-photo-fetch
+  cancel-in-progress: false
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout photo batch branch
+        uses: actions/checkout@v4
+        with:
+          ref: assets/vehicle-photo-fetch
+          fetch-depth: 0
+
+      - name: Download and validate photo files in parallel
+        run: |
+          python -m pip install --disable-pip-version-check Pillow
+          python - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from pathlib import Path
+          from urllib.parse import quote
+          from urllib.request import Request, urlopen
+          from PIL import Image
+          import io, json
+
+          photos = [
+              {
+                  "filename": "Mitsubishi Lancer Sport Sedan (front side quarter).jpg",
+                  "target": "mitsubishi-lancer-x-sport-sedan.jpg",
+                  "author": "Overlaet",
+                  "license": "CC BY-SA 3.0",
+                  "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Sport_Sedan_(front_side_quarter).jpg",
+              },
+              {
+                  "filename": "2009-2010 Mitsubishi Lancer (CJ MY10) VR-X sedan 01.jpg",
+                  "target": "mitsubishi-lancer-cj-my10.jpg",
+                  "author": "OSX",
+                  "license": "Public domain (author release)",
+                  "source": "https://commons.wikimedia.org/wiki/File:2009-2010_Mitsubishi_Lancer_(CJ_MY10)_VR-X_sedan_01.jpg",
+              },
+              {
+                  "filename": "Toyota Land-Cruiser Prado.jpg",
+                  "target": "toyota-land-cruiser-prado-j120.jpg",
+                  "author": "Dekel Santo",
+                  "license": "CC BY-SA 3.0",
+                  "source": "https://commons.wikimedia.org/wiki/File:Toyota_Land-Cruiser_Prado.jpg",
+              },
+              {
+                  "filename": "Nissan X-Trail – right side view.jpg",
+                  "target": "nissan-x-trail-t31.jpg",
+                  "author": "Acgskup",
+                  "license": "CC BY 4.0",
+                  "source": "https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_%E2%80%93_right_side_view.jpg",
+              },
+              {
+                  "filename": "'04 Mazda3 2.3 Hatchback.JPG",
+                  "target": "mazda3-bk-hatchback.jpg",
+                  "author": "Bull-Doser",
+                  "license": "Public domain (author release)",
+                  "source": "https://commons.wikimedia.org/wiki/File:%2704_Mazda3_2.3_Hatchback.JPG",
+              },
+              {
+                  "filename": "Toyota COROLLA Axio 1.8LUXEL (E140) front.JPG",
+                  "target": "toyota-corolla-axio-e140.jpg",
+                  "author": "Tokumeigakarinoaoshima",
+                  "license": "CC0 1.0",
+                  "source": "https://commons.wikimedia.org/wiki/File:Toyota_COROLLA_Axio_1.8LUXEL_(E140)_front.JPG",
+              },
+              {
+                  "filename": "Nissan Qashqai (J10) 164122.jpg",
+                  "target": "nissan-qashqai-j10.jpg",
+                  "author": "Trop86",
+                  "license": "CC BY 4.0",
+                  "source": "https://commons.wikimedia.org/wiki/File:Nissan_Qashqai_(J10)_164122.jpg",
+              },
+              {
+                  "filename": "2002-2004 Honda Jazz (GD) hatchback 01.jpg",
+                  "target": "honda-jazz-gd.jpg",
+                  "author": "OSX",
+                  "license": "Public domain (author release)",
+                  "source": "https://commons.wikimedia.org/wiki/File:2002-2004_Honda_Jazz_(GD)_hatchback_01.jpg",
+              },
+          ]
+
+          destination = Path("public/assets/vehicles")
+          destination.mkdir(parents=True, exist_ok=True)
+
+          def fetch_one(item):
+              url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + quote(item["filename"], safe="") + "?width=1600"
+              request = Request(url, headers={"User-Agent": "Nippon-Drive vehicle-photo catalog/1.0 (offline app asset import)"})
+              with urlopen(request, timeout=60) as response:
+                  payload = response.read()
+              if len(payload) < 12000:
+                  raise RuntimeError(f"{item['filename']}: response too small ({len(payload)} bytes)")
+              image = Image.open(io.BytesIO(payload))
+              image.verify()
+              image = Image.open(io.BytesIO(payload)).convert("RGB")
+              if image.width < 640 or image.height < 300:
+                  raise RuntimeError(f"{item['filename']}: insufficient dimensions {image.size}")
+              output = destination / item["target"]
+              image.save(output, "JPEG", quality=88, optimize=True, progressive=True)
+              item["width"], item["height"] = image.size
+              item["bytes"] = output.stat().st_size
+              return item["target"], item["width"], item["height"], item["bytes"]
+
+          errors = []
+          with ThreadPoolExecutor(max_workers=8) as pool:
+              futures = [pool.submit(fetch_one, item) for item in photos]
+              for future in as_completed(futures):
+                  try:
+                      print("DOWNLOADED", future.result())
+                  except Exception as exc:
+                      errors.append(str(exc))
+          if errors:
+              raise SystemExit("Photo download batch failed:\n" + "\n".join(errors))
+
+          (destination / "sources-batch-01.json").write_text(
+              json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          print(f"Validated {len(photos)} image files.")
+          PY
+
+      - name: Commit downloaded images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/assets/vehicles/
+          git commit -m "assets: добавить реальные фото автомобилей — пакет 1"
+          git push origin HEAD:assets/vehicle-photo-fetch

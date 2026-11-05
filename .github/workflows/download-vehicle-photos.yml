@@ -129,20 +129,25 @@ jobs:
 
           errors = []
           with ThreadPoolExecutor(max_workers=8) as pool:
-              futures = [pool.submit(fetch_one, item) for item in photos]
+              futures = {pool.submit(fetch_one, item): item for item in photos}
               for future in as_completed(futures):
+                  item = futures[future]
                   try:
                       print("DOWNLOADED", future.result())
+                      item["downloadStatus"] = "downloaded"
                   except Exception as exc:
+                      item["downloadStatus"] = "failed"
+                      item["downloadError"] = str(exc)
                       errors.append(str(exc))
-          if errors:
-              raise SystemExit("Photo download batch failed:\n" + "\n".join(errors))
+                      print("DOWNLOAD_ERROR", item["filename"], repr(exc))
 
           (destination / "sources-batch-02.json").write_text(
               json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )
-          print(f"Validated {len(photos)} image files.")
+          print(f"Downloaded {sum(item.get('downloadStatus') == 'downloaded' for item in photos)} of {len(photos)} image files.")
+          if errors:
+              print("Some sources need retry: " + " | ".join(errors))
           PY
 
       - name: Commit downloaded images

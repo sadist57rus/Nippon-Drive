@@ -35,25 +35,74 @@ jobs:
 
           photos = [
           {
-            "filename": "Mitsubishi Outlander (third generation, 2012) 03.jpg",
-            "target": "mitsubishi-outlander-iii.jpg",
-            "author": "Alekc2m",
-            "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_(third_generation,_2012)_03.jpg",
+            "filename": "2006 Toyota Corolla-Fielder 03.jpg",
+            "target": "toyota-corolla-fielder-e140.jpg",
+            "author": "Mytho88",
+            "license": "GFDL 1.2+ / CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2006_Toyota_Corolla-Fielder_03.jpg",
           },
           {
-            "filename": "Suzuki Jimny JB23 043.jpg",
-            "target": "suzuki-jimny-jb23.jpg",
-            "author": "天然ガス",
+            "filename": "Honda CIVIC 1.8GL (DBA-FD1) front.jpg",
+            "target": "honda-civic-fd1-sedan.jpg",
+            "author": "Tokumeigakarinoaoshima",
             "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Suzuki_Jimny_JB23_043.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Honda_CIVIC_1.8GL_(DBA-FD1)_front.jpg",
           },
           {
-            "filename": "2002-2005 Subaru Forester XT wagon (2011-11-18) 01.jpg",
-            "target": "subaru-forester-sg.jpg",
+            "filename": "2008 Honda Civic hatchback in Galaxy Grey, front left, 06-05-2025.jpg",
+            "target": "honda-civic-fn-hatchback.jpg",
+            "author": "Cutlass",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2008_Honda_Civic_hatchback_in_Galaxy_Grey,_front_left,_06-05-2025.jpg",
+          },
+          {
+            "filename": "2008 Subaru Impreza sedan.jpg",
+            "target": "subaru-impreza-ge-sedan.jpg",
+            "author": "IFCAR",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_sedan.jpg",
+          },
+          {
+            "filename": "2008 Subaru Impreza Hatchback.jpg",
+            "target": "subaru-impreza-gh-hatchback.jpg",
+            "author": "Bull-Doser",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_Hatchback.jpg",
+          },
+          {
+            "filename": "Tuned Suzuki SWIFT (ZC11S) front.JPG",
+            "target": "suzuki-swift-zc11s.jpg",
+            "author": "Tokumeigakarinoaoshima",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Tuned_Suzuki_SWIFT_(ZC11S)_front.JPG",
+          },
+          {
+            "filename": "Lexus IS250 front-1.JPG",
+            "target": "lexus-is-xe20.jpg",
+            "author": "M 93",
+            "license": "CC BY-SA 3.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Lexus_IS250_front-1.JPG",
+          },
+          {
+            "filename": "Infiniti G sedan.jpg",
+            "target": "infiniti-g-v36-sedan.jpg",
+            "author": "IFCAR",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:Infiniti_G_sedan.jpg",
+          },
+          {
+            "filename": "1999-2002 Mazda MPV (LW) van 01.jpg",
+            "target": "mazda-mpv-lw.jpg",
             "author": "OSX",
             "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:2002-2005_Subaru_Forester_XT_wagon_(2011-11-18)_01.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:1999-2002_Mazda_MPV_(LW)_van_01.jpg",
+          },
+          {
+            "filename": "NISSAN MARCH K12.jpg",
+            "target": "nissan-march-k12.jpg",
+            "author": "TTTNIS",
+            "license": "Public domain (author release)",
+            "source": "https://commons.wikimedia.org/wiki/File:NISSAN_MARCH_K12.jpg",
           },
           ]
 
@@ -100,7 +149,7 @@ jobs:
                       errors.append(str(exc))
                       print("DOWNLOAD_ERROR", item["filename"], repr(exc))
 
-          (destination / "sources-batch-08.json").write_text(
+          (destination / "sources-batch-09.json").write_text(
               json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )

@@ -1018,6 +1018,9 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Перепрессовка подшипника муфты без необходимости покупки редуктора в сборе.'
           }
         ]
+        sourceReferences: [{ label: "Drom — Toyota RAV4 XA30 2.0 MT Стандарт, ACA30 (12.2008–04.2010), Россия", url: "https://www.drom.ru/catalog/toyota/rav4/119984/", scope: "Точная комплектация ACA30: 1AZ-FE 1998 см³, 152 л.с.; 5-ступенчатая МКПП, полный привод; кузов 4415×1815×1685 мм, база 2560 мм, клиренс 190 мм, колея 1560/1560 мм, шины 225/65 R17, багажник 410 л. Не переносить эти значения на 2.4 ACA33/ACA31, вариаторные и другие рынки." }],
+        verificationStatus: 'partially-verified',
+        lastReviewed: '2026-11-06'
       },
       {
         id: 'toyota-camry-40',
@@ -1118,6 +1121,9 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Установка модернизированного усиленного упорного подшипника и регулярная замена масла Toyota WS каждые 40-50 тыс. км с фильтром.'
           }
         ]
+        sourceReferences: [{ label: "Drom — Toyota Camry XV40 2.4 G, DBA-ACV40 (01.2009–08.2011), Япония", url: "https://www.drom.ru/catalog/toyota/camry/119149/", scope: "Точная японская комплектация 2.4 G: 2AZ-FE 2362 см³, 167 л.с.; 5-ступенчатая АКПП, передний привод; кузов 4815×1820×1470 мм, салон 2130×1525×1200 мм, база 2775 мм, колея 1575/1565 мм, радиус разворота 5.5 м, клиренс 150 мм, шины 215/60R16. Не смешивать с ранними ACV40 и североамериканскими версиями." }],
+        verificationStatus: 'partially-verified',
+        lastReviewed: '2026-11-06'
       }
     ]
   },
@@ -1253,6 +1259,9 @@ export const JAPANESE_BRANDS: JapaneseBrand[] = [
             solution: 'Замена подрулевого шлейфа (артикул 25567-EB301 / 25567-5X00A) на новый.'
           }
         ]
+        sourceReferences: [{ label: "Drom — Nissan X-Trail T31 2.0 20X 4WD, DBA-NT31 (08.2007–10.2008), Япония", url: "https://www.drom.ru/catalog/nissan/x-trail/91008/", scope: "Точная японская комплектация NT31: MR20DE 1997 см³, 137 л.с.; CVT, полный привод; кузов 4590×1785×1685 мм, салон 2000×1450×1265 мм, база 2630 мм, колея 1530/1535 мм, клиренс 200 мм, масса 1440 кг, бак 65 л, шины 215/60R17. Не переносить на переднеприводный T31, рестайлинг и российскую сборку." }],
+        verificationStatus: 'partially-verified',
+        lastReviewed: '2026-11-06'
       },
       {
         id: 'nissan-patrol-y61',

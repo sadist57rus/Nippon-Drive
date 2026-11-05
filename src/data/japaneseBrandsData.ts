@@ -1,4 +1,5 @@
 import type { CarDimensions, InteriorDimensions, LegacyCarDimensions, TireOption, WheelRimFitment, WiperBladeSize } from './types/carDimensions';
+import type { VehicleVariant } from './vehicleVariantSchema';
 
 export interface JapaneseCarEngine {
   code: string;
@@ -31,6 +32,8 @@ export interface JapaneseCarModel {
   wheelFitments?: WheelRimFitment[];
   /** Alternative tire fitments; must be tied to market/body/trim before marked official. */
   tires?: TireOption[];
+  /** Exact trim/market/year specifications; do not merge across variants. */
+  variants?: VehicleVariant[];
   /** Wiper lengths vary by body and steering/market specification. */
   wiperBladeSize?: WiperBladeSize[];
   engines: JapaneseCarEngine[];

@@ -35,74 +35,74 @@ jobs:
 
           photos = [
           {
-            "filename": "2006 Toyota Corolla-Fielder 03.jpg",
-            "target": "toyota-corolla-fielder-e140.jpg",
-            "author": "Mytho88",
-            "license": "GFDL 1.2+ / CC BY-SA 3.0",
-            "source": "https://commons.wikimedia.org/wiki/File:2006_Toyota_Corolla-Fielder_03.jpg",
-          },
-          {
-            "filename": "Honda CIVIC 1.8GL (DBA-FD1) front.jpg",
-            "target": "honda-civic-fd1-sedan.jpg",
-            "author": "Tokumeigakarinoaoshima",
+            "filename": "2019 Mazda3 Hatchback 2.0 BP (20191219) 01.jpg",
+            "target": "mazda3-bp-fastback.jpg",
+            "author": "オーバードライブ83",
             "license": "CC BY-SA 4.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Honda_CIVIC_1.8GL_(DBA-FD1)_front.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:2019_Mazda3_Hatchback_2.0_BP_(20191219)_01.jpg",
           },
           {
-            "filename": "2008 Honda Civic hatchback in Galaxy Grey, front left, 06-05-2025.jpg",
-            "target": "honda-civic-fn-hatchback.jpg",
-            "author": "Cutlass",
+            "filename": "2019 Mazda 3 Sedan 2.0 SkyActiv-G High Plus (1).jpg",
+            "target": "mazda3-bp-sedan.jpg",
+            "author": "Bindydad123",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2019_Mazda_3_Sedan_2.0_SkyActiv-G_High_Plus_(1).jpg",
+          },
+          {
+            "filename": "2007 Mazda MPV 2.3 Front.jpg",
+            "target": "mazda-mpv-ly3p.jpg",
+            "author": "Vauxford",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2007_Mazda_MPV_2.3_Front.jpg",
+          },
+          {
+            "filename": "Toyota Corolla Coupe Levin AE86.jpg",
+            "target": "toyota-corolla-levin-ae86.jpg",
+            "author": "crash71100",
             "license": "CC0 1.0",
-            "source": "https://commons.wikimedia.org/wiki/File:2008_Honda_Civic_hatchback_in_Galaxy_Grey,_front_left,_06-05-2025.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Coupe_Levin_AE86.jpg",
           },
           {
-            "filename": "2008 Subaru Impreza sedan.jpg",
-            "target": "subaru-impreza-ge-sedan.jpg",
-            "author": "IFCAR",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_sedan.jpg",
-          },
-          {
-            "filename": "2008 Subaru Impreza Hatchback.jpg",
-            "target": "subaru-impreza-gh-hatchback.jpg",
-            "author": "Bull-Doser",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_Hatchback.jpg",
-          },
-          {
-            "filename": "Tuned Suzuki SWIFT (ZC11S) front.JPG",
-            "target": "suzuki-swift-zc11s.jpg",
-            "author": "Tokumeigakarinoaoshima",
-            "license": "CC0 1.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Tuned_Suzuki_SWIFT_(ZC11S)_front.JPG",
-          },
-          {
-            "filename": "Lexus IS250 front-1.JPG",
-            "target": "lexus-is-xe20.jpg",
-            "author": "M 93",
-            "license": "CC BY-SA 3.0",
-            "source": "https://commons.wikimedia.org/wiki/File:Lexus_IS250_front-1.JPG",
-          },
-          {
-            "filename": "Infiniti G sedan.jpg",
-            "target": "infiniti-g-v36-sedan.jpg",
-            "author": "IFCAR",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:Infiniti_G_sedan.jpg",
-          },
-          {
-            "filename": "1999-2002 Mazda MPV (LW) van 01.jpg",
-            "target": "mazda-mpv-lw.jpg",
+            "filename": "1997-2000 Toyota Corolla Levin (AE111) BZ-R coupe 02.jpg",
+            "target": "toyota-corolla-levin-ae111.jpg",
             "author": "OSX",
             "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:1999-2002_Mazda_MPV_(LW)_van_01.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:1997-2000_Toyota_Corolla_Levin_(AE111)_BZ-R_coupe_02.jpg",
           },
           {
-            "filename": "NISSAN MARCH K12.jpg",
-            "target": "nissan-march-k12.jpg",
-            "author": "TTTNIS",
-            "license": "Public domain (author release)",
-            "source": "https://commons.wikimedia.org/wiki/File:NISSAN_MARCH_K12.jpg",
+            "filename": "Nissan CUBE PREMIUM (Z10) front.JPG",
+            "target": "nissan-cube-z10.jpg",
+            "author": "Tokumeigakarinoaoshima",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_CUBE_PREMIUM_(Z10)_front.JPG",
+          },
+          {
+            "filename": "Nissan Cube Z11 (2003).jpg",
+            "target": "nissan-cube-z11.jpg",
+            "author": "Andrew Bone",
+            "license": "CC BY 2.0",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_Cube_Z11_(2003).jpg",
+          },
+          {
+            "filename": "Nissan Cube (Z12) – Frontansicht, 12. März 2011, Düsseldorf.jpg",
+            "target": "nissan-cube-z12.jpg",
+            "author": "M 93",
+            "license": "Attribution only (Commons permission statement)",
+            "source": "https://commons.wikimedia.org/wiki/File:Nissan_Cube_(Z12)_%E2%80%93_Frontansicht,_12._M%C3%A4rz_2011,_D%C3%BCsseldorf.jpg",
+          },
+          {
+            "filename": "2000-2003 Toyota bB in Black, front left.jpg",
+            "target": "toyota-bb-ncp30.jpg",
+            "author": "Mr.choppers",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:2000-2003_Toyota_bB_in_Black,_front_left.jpg",
+          },
+          {
+            "filename": "The frontview of Toyota bB (QNC20) with body lowered.JPG",
+            "target": "toyota-bb-qnc20.jpg",
+            "author": "Tokumeigakarinoaoshima",
+            "license": "CC0 1.0",
+            "source": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Toyota_bB_(QNC20)_with_body_lowered.JPG",
           },
           ]
 
@@ -149,7 +149,7 @@ jobs:
                       errors.append(str(exc))
                       print("DOWNLOAD_ERROR", item["filename"], repr(exc))
 
-          (destination / "sources-batch-09.json").write_text(
+          (destination / "sources-batch-10.json").write_text(
               json.dumps(photos, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )

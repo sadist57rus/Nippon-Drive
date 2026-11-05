@@ -150,7 +150,7 @@ const generationFamilyYears = new Set<string>();
 for (const generation of GENERATION_BODY_CATALOG) {
   check(Boolean(generation.id && generation.sourceModelId && generation.make && generation.model && generation.years), `Generation record missing identity: ${JSON.stringify(generation)}`);
   if (generationIds.has(generation.id)) errors.push(`Duplicate generation id: ${generation.id}`);
-  const generationKey = `${generation.sourceModelId}|${generation.years.replace(/[–—]/g, '-').replace(/\\s+/g, '')}`;
+  const generationKey = `${generation.sourceModelId}|${generation.years.replace(/[–—]/g, '-').replace(/\s+/g, '')}`;
   if (generationFamilyYears.has(generationKey)) errors.push(`Duplicate generation family+years: ${generation.id} (${generation.sourceModelId}, ${generation.years})`);
   generationFamilyYears.add(generationKey);
   generationIds.add(generation.id);

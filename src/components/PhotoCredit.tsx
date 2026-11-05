@@ -19,7 +19,7 @@ export default function PhotoCredit({ credit, sourceUrl }: Props) {
           aria-controls={detailsId}
           title="Авторство и лицензия"
           onClick={() => setIsOpen(open => !open)}
-          className="flex min-h-8 min-w-8 cursor-pointer items-center justify-center rounded-full text-sm text-slate-500 opacity-70 transition hover:bg-slate-500/10 hover:opacity-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-current"
+          className="flex h-11 w-11 min-h-11 min-w-11 shrink-0 cursor-pointer items-center justify-center rounded-full text-sm text-slate-500 opacity-70 transition hover:bg-slate-500/10 hover:opacity-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-current"
         >
           <span aria-hidden="true">ⓘ</span>
         </button>

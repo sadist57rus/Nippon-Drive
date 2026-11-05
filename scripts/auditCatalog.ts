@@ -152,6 +152,10 @@ for (const generation of GENERATION_BODY_CATALOG) {
   generationIds.add(generation.id);
   if (!Array.isArray(generation.chassisCodes) || !Array.isArray(generation.bodyStyles)) errors.push(`Invalid generation arrays: ${generation.id}`);
   if (generation.source && generation.source !== 'Drom' && generation.source !== 'Auto.ru') errors.push(`Invalid generation source: ${generation.id}`);
+  for (const [field, value] of Object.entries(generation.dimensions ?? {})) {
+    if (typeof value === 'number' && (!Number.isFinite(value) || value <= 0)) errors.push(`Invalid generation dimension: ${generation.id} dimensions.${field}`);
+    if (typeof value === 'string' && !value.trim()) errors.push(`Empty generation dimension: ${generation.id} dimensions.${field}`);
+  }
 }
 console.log(`Generation/body index: ${GENERATION_BODY_CATALOG.length} records across ${new Set(GENERATION_BODY_CATALOG.map((item) => item.make)).size} makes`);
 

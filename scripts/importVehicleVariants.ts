@@ -30,6 +30,10 @@ const ids = new Set<string>();
 const identities = new Set<string>();
 const errors: string[] = [];
 const files = await jsonFiles(INPUT_DIR);
+if (files.length === 0) {
+  console.error('Импорт остановлен: в src/data/packs нет JSON-пакетов. Пустой каталог не считается успешным импортом.');
+  process.exit(1);
+}
 for (const file of files) {
   let pack: unknown;
   try { pack = JSON.parse(await readFile(file, 'utf8')); }
@@ -60,6 +64,7 @@ for (const file of files) {
     allVariants.push(variant);
   }
 }
+if (allVariants.length === 0) errors.push('пакеты не содержат ни одной модификации');
 if (errors.length) {
   console.error('Импорт остановлен. Ошибок: ' + errors.length);
   for (const issue of errors) console.error('ERROR: ' + issue);

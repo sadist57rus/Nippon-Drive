@@ -1,0 +1,41 @@
+name: Drom catalogue source collection
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Public Drom XML sitemap inventory
+        required: true
+        type: choice
+        options:
+          - sitemap-inventory
+        default: sitemap-inventory
+
+permissions:
+  contents: read
+
+concurrency:
+  group: drom-catalog-source-collection
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Discover public Drom catalogue URLs
+        run: npx --yes tsx scripts/collectDromCatalog.ts
+      - name: Upload source inventory
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: drom-catalog-sitemap-inventory
+          path: artifacts/drom-catalog/
+          if-no-files-found: warn
+          retention-days: 14

@@ -69,3 +69,14 @@
 | `honda-cr-v-rd` | [2006 Honda CR-V (RD7 MY06) wagon](https://commons.wikimedia.org/wiki/File:2006_Honda_CR-V_(RD7_MY06)_wagon_(2008-11-12).jpg) | CR-V RD7 MY06 | OSX | общественное достояние | лицензия проверена, ожидает локального импорта |
 | `nissan-serena-c25` | [NISSAN SERENA C25.jpg](https://commons.wikimedia.org/wiki/File:NISSAN_SERENA_C25.jpg) | Serena C25 | TTTNIS | общественное достояние | лицензия проверена, ожидает локального импорта |
 | `nissan-tiida-c11-hatchback` | [Nissan Tiida (C11) hatchback.png](https://commons.wikimedia.org/wiki/File:Nissan_Tiida_(C11)_hatchback.png) | Tiida C11, хэтчбек | SSJF01 | CC0 1.0 | лицензия проверена, ожидает локального импорта |
+
+
+### Дополнительные кандидаты по Toyota и Mazda
+
+| Целевой ID каталога | Файл Commons | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `toyota-prius-xw30-liftback` | [TOYOTA PRIUS (XW30) China.jpg](https://commons.wikimedia.org/wiki/File:TOYOTA_PRIUS_(XW30)_China.jpg) | Prius XW30 | Dinkun Chen | CC BY-SA 4.0 | лицензия проверена, ожидает локального импорта |
+| `toyota-hiace-h200` | [Toyota H-200 HiAce.jpg](https://commons.wikimedia.org/wiki/File:Toyota_H-200_HiAce.jpg) | HiAce H200 | Bull-Doser | общественное достояние | лицензия проверена, ожидает локального импорта |
+| `mazda-cx5-ke-crossover` | [2012 Mazda CX-5 (KE) Grand Touring wagon](https://commons.wikimedia.org/wiki/File:2012_Mazda_CX-5_(KE)_Grand_Touring_wagon_(2012-10-26)_01.jpg) | CX-5 KE, Grand Touring | OSX | общественное достояние | лицензия проверена, ожидает локального импорта |
+
+Примечание: файл `Mazda-CX-5.jpg` не выбран для KE, поскольку Commons относит его к более позднему поколению KF. В реестр внесён только снимок с явной маркировкой KE.

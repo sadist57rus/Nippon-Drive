@@ -88,3 +88,6 @@
 |---|---|---|---|---|---|
 | `toyota-yaris-xp90-hatchback` | [White Toyota Vitz (XP90).jpg](https://commons.wikimedia.org/wiki/File:White_Toyota_Vitz_(XP90).jpg) | Vitz/Yaris XP90, белый хэтчбек | arakaki (загрузил Hanloh) | общественное достояние | лицензия проверена, ожидает локального импорта |
 | `mazda-6-gg-sedan` | [Mazda 6.jpg](https://commons.wikimedia.org/wiki/File:Mazda_6.jpg) | Mazda6 GG, красный седан | Bull-Doser | общественное достояние | лицензия проверена, ожидает локального импорта |
+
+
+| `mitsubishi-lancer-x-cy-sedan` | [Mitsubishi Lancer X 001.jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_X_001.jpg) | Lancer X / CY, чёрный седан | JustAnotherCarDesigner | CC0 1.0 | лицензия проверена, ожидает локального импорта |

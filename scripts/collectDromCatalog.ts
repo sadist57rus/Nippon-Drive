@@ -74,7 +74,7 @@ async function main() {
   const visitedSitemaps = new Set<string>();
   const records = new Map<string, SitemapRecord>();
   const errors: string[] = [];
-  const queue = [...SEEDS];
+  const queue: string[] = [...SEEDS];
 
   while (queue.length) {
     const sitemap = queue.shift()!;

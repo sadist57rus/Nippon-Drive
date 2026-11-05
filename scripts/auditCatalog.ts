@@ -152,6 +152,11 @@ for (const generation of GENERATION_BODY_CATALOG) {
   generationIds.add(generation.id);
   if (!Array.isArray(generation.chassisCodes) || !Array.isArray(generation.bodyStyles)) errors.push(`Invalid generation arrays: ${generation.id}`);
   if (generation.source && generation.source !== 'Drom' && generation.source !== 'Auto.ru') errors.push(`Invalid generation source: ${generation.id}`);
+  for (const fitment of generation.wheelFitments ?? []) {
+    check(Boolean(fitment.tireSize.trim()), `Wheel fitment missing tire size: ${generation.id}`);
+    if (fitment.centerBoreMm !== undefined) check(Number.isFinite(fitment.centerBoreMm) && fitment.centerBoreMm > 0, `Invalid wheel center bore: ${generation.id}`);
+    if (!Array.isArray(fitment.rimSizes)) errors.push(`Invalid rim sizes: ${generation.id}`);
+  }
   for (const [field, value] of Object.entries(generation.dimensions ?? {})) {
     if (typeof value === 'number' && (!Number.isFinite(value) || value <= 0)) errors.push(`Invalid generation dimension: ${generation.id} dimensions.${field}`);
     if (typeof value === 'string' && !value.trim()) errors.push(`Empty generation dimension: ${generation.id} dimensions.${field}`);

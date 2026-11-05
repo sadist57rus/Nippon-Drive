@@ -7076,5 +7076,125 @@ export const JAPANESE_MODEL_GENERATIONS: JapaneseModelGeneration[] = [
     "generation": "1 поколение, рестайлинг",
     "years": "2019-2021",
     "source": "Drom"
+  },
+  {
+    "id": "mitsuoka-viewt-i-k11--1993-2003",
+    "make": "Mitsuoka",
+    "model": "Viewt",
+    "generation": "I (K11)",
+    "years": "1993-2003",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "mitsuoka-viewt-ii-k12--2005-2012",
+    "make": "Mitsuoka",
+    "model": "Viewt",
+    "generation": "II (K12)",
+    "years": "2005-2012",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "mitsuoka-viewt-iii-k13--2012-2023",
+    "make": "Mitsuoka",
+    "model": "Viewt",
+    "generation": "III (K13)",
+    "years": "2012-2023",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "mitsuoka-viewt-iv-2023-",
+    "make": "Mitsuoka",
+    "model": "Viewt",
+    "generation": "IV",
+    "years": "2023-н.в.",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "mitsuoka-mc-1---1998-2007",
+    "make": "Mitsuoka",
+    "model": "MC-1",
+    "generation": "единственное поколение",
+    "years": "1998-2007",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-xb-i-2003-2007",
+    "make": "Scion",
+    "model": "xB",
+    "generation": "I",
+    "years": "2003-2007",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-xb-ii-2007-2015",
+    "make": "Scion",
+    "model": "xB",
+    "generation": "II",
+    "years": "2007-2015",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-xa-i-2003-2006",
+    "make": "Scion",
+    "model": "xA",
+    "generation": "I",
+    "years": "2003-2006",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-tc-i-2004-2010",
+    "make": "Scion",
+    "model": "tC",
+    "generation": "I",
+    "years": "2004-2010",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-tc-ii-2010-2016",
+    "make": "Scion",
+    "model": "tC",
+    "generation": "II",
+    "years": "2010-2016",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-iq-i-2011-2015",
+    "make": "Scion",
+    "model": "iQ",
+    "generation": "I",
+    "years": "2011-2015",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-fr-s-i-2012-2016",
+    "make": "Scion",
+    "model": "FR-S",
+    "generation": "I",
+    "years": "2012-2016",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-ia-i-2015-2018",
+    "make": "Scion",
+    "model": "iA",
+    "generation": "I",
+    "years": "2015-2018",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-im-i-2015-2016",
+    "make": "Scion",
+    "model": "iM",
+    "generation": "I",
+    "years": "2015-2016",
+    "source": "Auto.ru"
+  },
+  {
+    "id": "scion-xd-i-2007-2014",
+    "make": "Scion",
+    "model": "xD",
+    "generation": "I",
+    "years": "2007-2014",
+    "source": "Auto.ru"
   }
 ];

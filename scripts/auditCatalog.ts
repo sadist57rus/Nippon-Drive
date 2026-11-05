@@ -2,6 +2,7 @@ import { JAPANESE_BRANDS } from '../src/data/japaneseBrandsData';
 import '../src/data/expandedJapaneseModels';
 import '../src/data/expandedMazdaSuzukiModels';
 import { JAPANESE_MODEL_FAMILIES } from '../src/data/japaneseModelFamilies';
+import { GENERATION_BODY_CATALOG } from '../src/data/generationBodyCatalog';
 
 type Model = (typeof JAPANESE_BRANDS)[number]['models'][number];
 
@@ -143,6 +144,16 @@ for (const family of JAPANESE_MODEL_FAMILIES) {
   if (family.source && family.source !== 'Drom' && family.source !== 'Auto.ru') errors.push(`Invalid model-family source: ${family.id}`);
 }
 console.log(`Model-family index: ${JAPANESE_MODEL_FAMILIES.length} families across ${new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make)).size} makes`);
+
+const generationIds = new Set<string>();
+for (const generation of GENERATION_BODY_CATALOG) {
+  check(Boolean(generation.id && generation.sourceModelId && generation.make && generation.model && generation.years), `Generation record missing identity: ${JSON.stringify(generation)}`);
+  if (generationIds.has(generation.id)) errors.push(`Duplicate generation id: ${generation.id}`);
+  generationIds.add(generation.id);
+  if (!Array.isArray(generation.chassisCodes) || !Array.isArray(generation.bodyStyles)) errors.push(`Invalid generation arrays: ${generation.id}`);
+  if (generation.source && generation.source !== 'Drom' && generation.source !== 'Auto.ru') errors.push(`Invalid generation source: ${generation.id}`);
+}
+console.log(`Generation/body index: ${GENERATION_BODY_CATALOG.length} records across ${new Set(GENERATION_BODY_CATALOG.map((item) => item.make)).size} makes`);
 
 console.log(`Catalog audit: ${JAPANESE_BRANDS.length} brands, ${modelCount} models`);
 for (const [name, ids] of duplicateNames) if (ids.length > 1) warnings.push(`Possible duplicate model names within brand: ${name}: ${ids.join(', ')}`);

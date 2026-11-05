@@ -179,3 +179,21 @@
 | `nissan-skyline-gt-r-bnr34-m-spec-nur` | [nissan-skyline-bnr34-m-spec-nur.jpg](https://commons.wikimedia.org/wiki/File:Nissan_Skyline_R34_GT-R_N%C3%BCr_001.jpg) | Nissan Skyline GT-R BNR34 M-spec Nür, купе | Tennen-Gas | GFDL 1.2+ / CC BY-SA 3.0 | локальный файл подключён к карточке |
 
 Десять изображений точных поколений MR2 SW20, Starlet EP91, Caldina ST215W, Crown S170, Crown Estate JZS171W, Altezza SXE10, Aristo JZS161, Corolla Levin AE101 и Skyline BNR34 скачаны, проверены и оптимизированы для офлайн-каталога. Цветовые переключатели не добавлялись: в пакете по одному подтверждённому снимку на вариант.
+
+
+## Локальные фотографии основных внедорожников и моделей — пакет 6
+
+| Целевой ID каталога | Файл приложения | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `lancer-9` | [mitsubishi-lancer-ix-cs-sedan.jpg](https://commons.wikimedia.org/wiki/File:04-05_Mitsubishi_Lancer_sedan.jpg) | Mitsubishi Lancer IX CS, седан 2004–2005 годов | IFCAR | Public domain (author release) | локальный файл подключён к карточке |
+| `pajero-sport-3` | [mitsubishi-pajero-sport-iii.jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Pajero_Sport_III.jpg) | Mitsubishi Pajero Sport III, внедорожник | RL GNZLZ | CC BY-SA 2.0 | локальный файл подключён к карточке |
+| `nissan-patrol-y61` | [nissan-patrol-y61.jpg](https://commons.wikimedia.org/wiki/File:Nissan_Patrol_Y61.jpg) | Nissan Patrol Y61 до рестайлинга | Alekc2m | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `suzuki-grand-vitara-2` | [suzuki-grand-vitara-jt.jpg](https://commons.wikimedia.org/wiki/File:Suzuki_Grand_Vitara_2.4_GLX_Sport_2014_(33343530282).jpg) | Suzuki Grand Vitara II JT 2.4 GLX Sport | RL GNZLZ | CC BY-SA 2.0 | локальный файл подключён к карточке |
+| `honda-cr-v-3` | [honda-crv-re-third-gen.jpg](https://commons.wikimedia.org/wiki/File:Honda_CRV_3_front_20071106.jpg) | Honda CR-V RE, третье поколение | Rudolf Stricker | GFDL 1.2+ / CC BY-SA 3.0 | локальный файл подключён к карточке |
+| `infiniti-fx-35-37` | [infiniti-fx35-s51.jpg](https://commons.wikimedia.org/wiki/File:Infiniti_FX35_(S51)_front.jpg) | Infiniti FX35 S51 | Tokumeigakarinoaoshima | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `daihatsu-terios` | [daihatsu-terios-j200.jpg](https://commons.wikimedia.org/wiki/File:Daihatsu_Terios_(J200)_164951260.jpg) | Daihatsu Terios J200 | Trop86 | CC0 1.0 | локальный файл подключён к карточке |
+| `outlander-3` | [mitsubishi-outlander-iii.jpg](https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_(third_generation,_2012)_03.jpg) | Mitsubishi Outlander III, поколение 2012 года | Alekc2m | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `suzuki-jimny-3` | [suzuki-jimny-jb23.jpg](https://commons.wikimedia.org/wiki/File:Suzuki_Jimny_JB23_043.jpg) | Suzuki Jimny JB23W, III поколение, версия 4 (2002–2004) | 天然ガス | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `subaru-forester-sg-sh` | [subaru-forester-sg.jpg](https://commons.wikimedia.org/wiki/File:2002-2005_Subaru_Forester_XT_wagon_(2011-11-18)_01.jpg) | Subaru Forester SG XT, 2002–2005, II поколение | OSX | Public domain (author release) | локальный файл подключён к карточке |
+
+Десять новых фотографий моделей Lancer IX, Pajero Sport III, Patrol Y61, Grand Vitara II, CR-V III, Infiniti FX S51, Terios J200, Outlander III, Jimny JB23W и Forester SG скачаны, проверены и оптимизированы для офлайн-каталога. Уже имевшиеся фотографии Pajero IV, RAV4 XA30 и Camry XV40 сохранены без перезаписи. ID моделей и технические данные не менялись.

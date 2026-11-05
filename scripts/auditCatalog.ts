@@ -2,6 +2,7 @@ import { JAPANESE_BRANDS } from '../src/data/japaneseBrandsData';
 import '../src/data/expandedJapaneseModels';
 import '../src/data/expandedMazdaSuzukiModels';
 import { JAPANESE_MODEL_FAMILIES } from '../src/data/japaneseModelFamilies';
+import { JAPANESE_MODEL_GENERATIONS } from '../src/data/japaneseModelGenerations';
 
 type Model = (typeof JAPANESE_BRANDS)[number]['models'][number];
 
@@ -143,6 +144,21 @@ for (const family of JAPANESE_MODEL_FAMILIES) {
   if (family.source && family.source !== 'Drom' && family.source !== 'Auto.ru') errors.push(`Invalid model-family source: ${family.id}`);
 }
 console.log(`Model-family index: ${JAPANESE_MODEL_FAMILIES.length} families across ${new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make)).size} makes`);
+
+const generationIds = new Set<string>();
+const generationKeys = new Set<string>();
+for (const generation of JAPANESE_MODEL_GENERATIONS) {
+  check(Boolean(generation.id && generation.make && generation.model && generation.generation && generation.years), `Generation entry missing identity/year: ${JSON.stringify(generation)}`);
+  if (generationIds.has(generation.id)) errors.push(`Duplicate generation id: ${generation.id}`);
+  generationIds.add(generation.id);
+  const key = [generation.make, generation.model, generation.generation, generation.years].map((value) => value.trim().toLocaleLowerCase('en')).join('|');
+  if (generationKeys.has(key)) errors.push(`Duplicate generation record: ${key}`);
+  generationKeys.add(key);
+  if (generation.source !== 'Drom' && generation.source !== 'Auto.ru') errors.push(`Invalid generation source: ${generation.id}`);
+}
+console.log(`Generation index: ${JAPANESE_MODEL_GENERATIONS.length} records across ${new Set(JAPANESE_MODEL_GENERATIONS.map((item) => item.make)).size} makes`);
+
+
 
 console.log(`Catalog audit: ${JAPANESE_BRANDS.length} brands, ${modelCount} models`);
 for (const [name, ids] of duplicateNames) if (ids.length > 1) warnings.push(`Possible duplicate model names within brand: ${name}: ${ids.join(', ')}`);

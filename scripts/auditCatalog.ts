@@ -146,9 +146,13 @@ for (const family of JAPANESE_MODEL_FAMILIES) {
 console.log(`Model-family index: ${JAPANESE_MODEL_FAMILIES.length} families across ${new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make)).size} makes`);
 
 const generationIds = new Set<string>();
+const generationFamilyYears = new Set<string>();
 for (const generation of GENERATION_BODY_CATALOG) {
   check(Boolean(generation.id && generation.sourceModelId && generation.make && generation.model && generation.years), `Generation record missing identity: ${JSON.stringify(generation)}`);
   if (generationIds.has(generation.id)) errors.push(`Duplicate generation id: ${generation.id}`);
+  const generationKey = `${generation.sourceModelId}|${generation.years.replace(/[–—]/g, '-').replace(/\\s+/g, '')}`;
+  if (generationFamilyYears.has(generationKey)) errors.push(`Duplicate generation family+years: ${generation.id} (${generation.sourceModelId}, ${generation.years})`);
+  generationFamilyYears.add(generationKey);
   generationIds.add(generation.id);
   if (!Array.isArray(generation.chassisCodes) || !Array.isArray(generation.bodyStyles)) errors.push(`Invalid generation arrays: ${generation.id}`);
   if (generation.source && generation.source !== 'Drom' && generation.source !== 'Auto.ru') errors.push(`Invalid generation source: ${generation.id}`);

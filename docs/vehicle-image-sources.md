@@ -45,3 +45,16 @@
 - Сохранять исходную страницу, имя автора и лицензию в реестре источников.
 - Для CC BY-SA указать ссылку на лицензию и отметить факт уменьшения/перекодирования изображения.
 - Не считать один найденный цвет основанием показывать фиктивные варианты окраски. Переключатель включать только после добавления отдельных фотографий других цветов.
+
+
+### Дополнительные подтверждённые цветовые варианты
+
+| Целевой ID каталога | Файл Commons | Цвет / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `nissan-xtrail-t31` | [Nissan X-Trail T31 2.5L 2WD Tempest Blue.jpg](https://commons.wikimedia.org/wiki/File:Nissan_X-Trail_T31_2.5L_2WD_Tempest_Blue.jpg) | Tempest Blue, T31 | Ethan Llamas | CC BY-SA 4.0 | лицензия проверена, ожидает локального импорта |
+| `mazda3-bk-hatchback` | [2007 Mazda3 S Sport Hatchback in Sunlight Silver Metallic](https://commons.wikimedia.org/wiki/File:2007_Mazda3_S_Sport_Hatchback_in_Sunlight_Silver_Metallic,_front_left,_09-19-2026.jpg) | Sunlight Silver Metallic, BK hatchback | Cutlass | CC0 1.0 | лицензия проверена, ожидает локального импорта |
+| `nissan-note-e11-hatchback` | [2009 Nissan Note in Emotion Red](https://commons.wikimedia.org/wiki/File:2009_Nissan_Note_in_Emotion_Red,_front_left,_06-08-2025.jpg) | Emotion Red, E11 facelift | Cutlass | CC0 1.0 | лицензия проверена, ожидает локального импорта |
+| `toyota-land-cruiser-prado-120-j120-suv` | [Prado KZJ120 3.0 VX Raven Black](https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_Raven_Black_01.jpg) | Raven Black, KZJ120 3.0 VX | Ethan Llamas | CC BY-SA 4.0 | лицензия проверена, ожидает локального импорта |
+| `toyota-land-cruiser-prado-120-j120-suv` | [Prado KZJ120 3.0 VX White Pearl Crystal Shine](https://commons.wikimedia.org/wiki/File:Toyota_Land_Cruiser_Prado_KZJ120_3.0_VX_White_Pearl_Crystal_Shine_01.jpg) | White Pearl Crystal Shine, KZJ120 3.0 VX | Ethan Llamas | CC BY-SA 4.0 | лицензия проверена, ожидает локального импорта |
+
+У Prado KZJ120 найдены две отдельные фотографии одного и того же поколения/варианта 3.0 VX в чёрном и белом цветах. У Nissan X-Trail T31 найдена отдельная фотография синего Tempest Blue. Это подтверждённые реальные снимки, не программная перекраска.

@@ -203,6 +203,66 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: OSX, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:2002-2005_Subaru_Forester_XT_wagon_(2011-11-18)_01.jpg',
   },
+  'toyota-corolla-fielder-e140-wagon': {
+    src: '/assets/vehicles/toyota-corolla-fielder-e140.jpg',
+    alt: 'Toyota Corolla Fielder E140, универсал 2006 года',
+    credit: 'Фото: Mytho88, Wikimedia Commons, GFDL 1.2+ / CC BY-SA 3.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2006_Toyota_Corolla-Fielder_03.jpg',
+  },
+  'honda-civic-fd-sedan': {
+    src: '/assets/vehicles/honda-civic-fd1-sedan.jpg',
+    alt: 'Honda Civic FD1 1.8GL, седан',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC BY-SA 4.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Honda_CIVIC_1.8GL_(DBA-FD1)_front.jpg',
+  },
+  'honda-civic-fn-hatchback': {
+    src: '/assets/vehicles/honda-civic-fn-hatchback.jpg',
+    alt: 'Honda Civic FN, хэтчбек 2008 года, Galaxy Grey',
+    credit: 'Фото: Cutlass, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2008_Honda_Civic_hatchback_in_Galaxy_Grey,_front_left,_06-05-2025.jpg',
+  },
+  'subaru-impreza-ge-sedan': {
+    src: '/assets/vehicles/subaru-impreza-ge-sedan.jpg',
+    alt: 'Subaru Impreza GE, седан 2008 года',
+    credit: 'Фото: IFCAR, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_sedan.jpg',
+  },
+  'subaru-impreza-gh-hatchback': {
+    src: '/assets/vehicles/subaru-impreza-gh-hatchback.jpg',
+    alt: 'Subaru Impreza GH, хэтчбек 2008 года',
+    credit: 'Фото: Bull-Doser, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2008_Subaru_Impreza_Hatchback.jpg',
+  },
+  'suzuki-swift-zc11-hatchback': {
+    src: '/assets/vehicles/suzuki-swift-zc11s.jpg',
+    alt: 'Suzuki Swift ZC11S, хэтчбек',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC0 1.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Tuned_Suzuki_SWIFT_(ZC11S)_front.JPG',
+  },
+  'lexus-is-xe20-sedan': {
+    src: '/assets/vehicles/lexus-is-xe20.jpg',
+    alt: 'Lexus IS 250 XE20, седан',
+    credit: 'Фото: M 93, Wikimedia Commons, CC BY-SA 3.0; файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Lexus_IS250_front-1.JPG',
+  },
+  'infiniti-g-v36-sedan': {
+    src: '/assets/vehicles/infiniti-g-v36-sedan.jpg',
+    alt: 'Infiniti G V36, седан 2007–2009 годов',
+    credit: 'Фото: IFCAR, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Infiniti_G_sedan.jpg',
+  },
+  'mazda-mpv-lw': {
+    src: '/assets/vehicles/mazda-mpv-lw.jpg',
+    alt: 'Mazda MPV LW, минивэн 1999–2002 годов',
+    credit: 'Фото: OSX, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1999-2002_Mazda_MPV_(LW)_van_01.jpg',
+  },
+  'nissan-march-k12': {
+    src: '/assets/vehicles/nissan-march-k12.jpg',
+    alt: 'Nissan March K12, хэтчбек',
+    credit: 'Фото: TTTNIS, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:NISSAN_MARCH_K12.jpg',
+  },
 };
 
 export default function VehicleIllustration({

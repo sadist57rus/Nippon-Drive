@@ -7380,6 +7380,22 @@ const importedCatalogModels: JapaneseModelFamily[] = [
     "source": "Auto.ru",
     "recordStatus": "model-family-seeded-generation-import-pending",
     "note": "Модель перенесена из каталога Auto.ru; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "datsun-drom-mi-do",
+    "make": "Datsun",
+    "model": "mi-Do",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
+  },
+  {
+    "id": "datsun-drom-on-do",
+    "make": "Datsun",
+    "model": "on-DO",
+    "source": "Drom",
+    "recordStatus": "model-family-seeded-generation-import-pending",
+    "note": "Модель перенесена из каталога Drom; поколения, кузова, годы и модификации требуют отдельной сверки."
   }
 ];
 const familyKeys = new Set(JAPANESE_MODEL_FAMILIES.map((item) => item.make + '|' + item.model.toLocaleLowerCase('en').replace(/[^a-z0-9]/g, '')));

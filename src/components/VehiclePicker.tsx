@@ -288,4 +288,190 @@ export default function VehiclePicker({ onComplete, onCancel, onRegisterBack, in
           </button>
         )}
         <h2 className="min-w-0 flex-1 text-2xl font-black">{searchOpen ? 'Поиск' : STEP_TITLES[step]}</h2>
-        <
+        <button type="button" data-testid="picker-search-toggle" aria-label="Поиск по марке и модели" aria-pressed={searchOpen} onClick={() => (searchOpen ? closeSearch() : openSearch())} className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border-2 ${searchOpen ? 'border-red-600 bg-red-600 text-white' : 'border-slate-300 hover:border-red-400 dark:border-slate-600'}`}>
+          {searchOpen ? <X aria-hidden="true" size={24} /> : <Search aria-hidden="true" size={24} />}
+        </button>
+      </div>
+
+      {searchOpen && (
+        <div className="space-y-4">
+          <label className="flex min-h-14 items-center gap-3 rounded-2xl border-2 border-slate-300 bg-white px-4 dark:border-slate-600 dark:bg-slate-800">
+            <Search aria-hidden="true" className="shrink-0 text-slate-500" size={20} />
+            <input
+              autoFocus
+              type="search"
+              enterKeyHint="search"
+              autoComplete="off"
+              autoCapitalize="off"
+              spellCheck={false}
+              data-testid="picker-search-input"
+              aria-label="Марка, модель или поколение"
+              value={query}
+              onChange={event => setQuery(event.target.value)}
+              placeholder="Например: тойота кор, outlander 2005"
+              className="min-h-14 w-full bg-transparent text-lg text-slate-900 outline-none placeholder:text-slate-500 dark:text-white"
+            />
+          </label>
+          {!results && <p className="text-base text-slate-600 dark:text-slate-300">Начните вводить марку или модель. Можно по-русски и по-английски, с годом выпуска.</p>}
+          {results && results.brands.length === 0 && results.models.length === 0 && (
+            <p className="text-base text-slate-600 dark:text-slate-300">Ничего не нашли. Попробуйте написать иначе или закройте поиск и выберите по карточкам.</p>
+          )}
+          {results && results.brands.length > 0 && (
+            <div className="space-y-2">
+              <h3 className="text-base font-bold">Марки</h3>
+              {results.brands.map(item => (
+                <button key={item.id} type="button" data-testid={`picker-result-brand-${item.id}`} onClick={() => { chooseBrand(item.id); closeSearch(); }} className={cardClass}>
+                  <span className="text-lg font-extrabold">{item.name}</span> <span className="text-sm text-slate-600 dark:text-slate-300">{item.russianName}</span>
+                </button>
+              ))}
+            </div>
+          )}
+          {results && results.models.length > 0 && (
+            <div className="space-y-2">
+              <h3 className="text-base font-bold">Модели и поколения</h3>
+              {results.models.map(({ brand: owner, model: item }) => (
+                <button key={item.id} type="button" data-testid={`picker-result-model-${item.id}`} onClick={() => { chooseModel(owner, item); closeSearch(); }} className={cardClass}>
+                  <span className="block text-lg font-extrabold">{owner.name} {item.name}</span>
+                  <span className="block text-sm text-slate-600 dark:text-slate-300">{item.generation}, {item.years}</span>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {!searchOpen && step !== 'brand' && brand && (
+        <nav aria-label="Ваш выбор" className="flex flex-wrap gap-2">
+          {crumb(brand.name, 'brand')}
+          {family && step !== 'family' && crumb(family.name, 'family')}
+          {family && family.models.length > 1 && model && (step === 'modification' || step === 'confirm') && crumb(model.generation, 'generation')}
+        </nav>
+      )}
+
+      {!searchOpen && step === 'brand' && (
+        <div className="space-y-3">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {shownBrands.map(item => (
+              <button key={item.id} type="button" data-testid={`picker-brand-${item.id}`} onClick={() => chooseBrand(item.id)} className={cardClass + ' flex min-h-28 flex-col items-center justify-center gap-2 text-center'}>
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 p-1.5 dark:bg-slate-800"><BrandLogo brandId={item.id} className="h-9 w-9" useBrandColor={true} /></span>
+                <span className="text-lg font-extrabold">{item.name}</span>
+              </button>
+            ))}
+          </div>
+          {!showAllBrands && popular.length > 0 && popular.length < JAPANESE_BRANDS.length && (
+            <button type="button" data-testid="picker-show-all" onClick={() => setShowAllBrands(true)} className={moreButtonClass}>Все марки ({JAPANESE_BRANDS.length})</button>
+          )}
+        </div>
+      )}
+
+      {!searchOpen && step === 'family' && brand && (
+        <div className="space-y-3">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {shownFamilies.map((item, position) => (
+              <button key={item.key} type="button" data-testid={`picker-family-${position}`} onClick={() => chooseFamily(item)} className={cardClass}>
+                <span className="block text-lg font-extrabold">{item.name}</span>
+                <span className="block text-sm text-slate-600 dark:text-slate-300">
+                  {[familySpan(item), `${item.models.length} ${plural(item.models.length, ['поколение', 'поколения', 'поколений'])}`].filter(Boolean).join(', ')}
+                </span>
+              </button>
+            ))}
+          </div>
+          {!showAllFamilies && families.length > MAX_VISIBLE && (
+            <button type="button" data-testid="picker-show-all" onClick={() => setShowAllFamilies(true)} className={moreButtonClass}>Показать все модели ({families.length})</button>
+          )}
+          <p className="text-sm text-slate-600 dark:text-slate-300">Не нашли свою? Нажмите на лупу вверху и введите название.</p>
+        </div>
+      )}
+
+      {!searchOpen && step === 'generation' && brand && family && (
+        <div className="space-y-3">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {shownGenerations.map(item => (
+              <button key={item.id} type="button" data-testid={`picker-model-${item.id}`} onClick={() => chooseModel(brand, item)} className={cardClass}>
+                <span className="block text-lg font-extrabold">{item.generation}</span>
+                <span className="block text-sm text-slate-700 dark:text-slate-200">{item.years}, {item.bodyType}</span>
+                <span className="block text-xs text-slate-600 dark:text-slate-300">{item.name}</span>
+              </button>
+            ))}
+          </div>
+          {!showAllGenerations && generations.length > MAX_VISIBLE && (
+            <button type="button" data-testid="picker-show-all" onClick={() => setShowAllGenerations(true)} className={moreButtonClass}>Показать все поколения ({generations.length})</button>
+          )}
+        </div>
+      )}
+
+      {!searchOpen && step === 'modification' && brand && model && (
+        <div className="space-y-6">
+          <div>
+            <p className="text-lg font-extrabold">{brand.name} {model.name}</p>
+            <p className="text-sm text-slate-600 dark:text-slate-300">{model.generation}, {model.years}, {model.bodyType}</p>
+          </div>
+          {engines.length > 0 && (
+            <ChipGroup id="engine" legend="Двигатель" value={engine} onChange={setEngine} unknownValue={UNKNOWN_ENGINE} options={engines.map(item => ({ value: item.code, label: item.name, hint: item.code }))} />
+          )}
+          {transmissions.length > 0 && (
+            <ChipGroup id="transmission" legend="Коробка передач" value={transmission} onChange={setTransmission} unknownValue={UNKNOWN_TRANSMISSION} options={transmissions.map(item => ({ value: item, label: shortLabel(item) }))} />
+          )}
+          <ChipGroup id="drivetrain" legend="Привод" value={drivetrain} onChange={value => setDrivetrain(value as PickedDrivetrain)} unknownValue="ALL" options={[{ value: 'FWD', label: 'Передний' }, { value: '4WD', label: 'Полный' }]} />
+          <button type="button" data-testid="picker-next" disabled={!modificationReady} onClick={() => setStep('confirm')} className="min-h-16 w-full rounded-2xl bg-red-600 px-6 text-xl font-black text-white shadow-lg hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-50">
+            Далее
+          </button>
+          {!modificationReady && <p className="text-sm text-slate-600 dark:text-slate-300">В каждой группе выберите вариант или нажмите «Не знаю».</p>}
+        </div>
+      )}
+
+      {!searchOpen && step === 'confirm' && brand && model && (
+        <div className="space-y-6">
+          <div className="flex items-center gap-4 rounded-2xl border-2 border-slate-200 p-4 dark:border-slate-700">
+            <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-slate-100 p-2 dark:bg-slate-800"><BrandLogo brandId={brand.id} className="h-10 w-10" useBrandColor={true} /></span>
+            <div className="min-w-0">
+              <p className="text-lg font-extrabold">{brand.name} {model.name}</p>
+              <p className="text-sm text-slate-600 dark:text-slate-300">{model.generation}, {model.years}</p>
+              <p className="text-sm text-slate-600 dark:text-slate-300">Двигатель: {engineLabel}. Коробка: {transmissionLabel}. Привод: {drivetrainLabel}.</p>
+            </div>
+          </div>
+
+          <fieldset className="space-y-2">
+            <legend className="text-base font-bold">Год выпуска</legend>
+            {years.length === 0 ? (
+              <input type="number" inputMode="numeric" min="1950" max={new Date().getFullYear() + 1} data-testid="picker-year-input" aria-label="Год выпуска" value={year ?? ''} onChange={event => { setYear(event.target.value ? Number(event.target.value) : null); setYearGuess(false); }} className="min-h-14 w-full rounded-2xl border-2 border-slate-300 bg-white px-4 text-xl text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-white" />
+            ) : (
+              <div className="space-y-2">
+                {bands && (
+                  <div className="flex flex-wrap gap-2">
+                    {bands.map((band, position) => (
+                      <button key={band[0]} type="button" data-testid={`picker-band-${position}`} aria-pressed={bandIndex === position} onClick={() => { setBandIndex(position); setYear(null); setYearGuess(false); }} className={chipClass(bandIndex === position)}>
+                        {band[0]}–{band[band.length - 1]}
+                      </button>
+                    ))}
+                  </div>
+                )}
+                <div className="flex flex-wrap gap-2">
+                  {visibleYears.map(value => (
+                    <button key={value} type="button" data-testid={`picker-yearchip-${value}`} aria-pressed={year === value} onClick={() => { setYear(value); setYearGuess(false); }} className={chipClass(year === value)}>
+                      {value}
+                    </button>
+                  ))}
+                  <button type="button" data-testid="picker-year-unknown" aria-pressed={yearGuess} onClick={() => { setYear(years[0]); setYearGuess(true); }} className={chipClass(yearGuess)}>
+                    Не знаю
+                  </button>
+                </div>
+                {yearGuess && <p className="text-sm text-slate-600 dark:text-slate-300">Поставим начало выпуска этого поколения: {years[0]}. Уточнить год можно позже в разделе «Авто».</p>}
+              </div>
+            )}
+          </fieldset>
+
+          <label className="block text-base font-bold">
+            Пробег, км (можно указать позже)
+            <input type="number" min="0" inputMode="numeric" data-testid="picker-mileage" value={mileage} onChange={event => setMileage(event.target.value)} className="mt-2 min-h-14 w-full rounded-2xl border-2 border-slate-300 bg-white px-4 text-xl text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-white" />
+          </label>
+
+          <button type="button" data-testid="picker-save" disabled={!yearValid} onClick={save} className="min-h-16 w-full rounded-2xl bg-red-600 px-6 text-xl font-black text-white shadow-lg hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-50">
+            {saveLabel}
+          </button>
+          {!yearValid && <p className="text-sm text-slate-600 dark:text-slate-300">Выберите год выпуска или нажмите «Не знаю».</p>}
+        </div>
+      )}
+    </section>
+  );
+}

@@ -9765,6 +9765,582 @@
         }
       ],
       "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "nissan-patrol-y61-2001-5d-tb42s-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2001,
+      "modelYearTo": 2004,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.2 MT",
+      "engineCode": "TB42S",
+      "engine": {
+        "code": "TB42S",
+        "displacementCc": 4169,
+        "powerHp": 200,
+        "torqueNm": 320,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/503139/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2001–2004, 5 дв. SUV, 4.2 MT; TB42S, 4169 см³, 200 л.с., 320 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2001-5d-td42-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2001,
+      "modelYearTo": 2004,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.2 TD MT",
+      "engineCode": "TD42",
+      "engine": {
+        "code": "TD42",
+        "displacementCc": 4169,
+        "powerHp": 145,
+        "torqueNm": 331,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/503133/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2001–2004, 5 дв. SUV, 4.2 TD MT; TD42, 4169 см³, 145 л.с., 331 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2001-5d-tb45e-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2001,
+      "modelYearTo": 2004,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.5 MT",
+      "engineCode": "TB45E",
+      "engine": {
+        "code": "TB45E",
+        "displacementCc": 4478,
+        "powerHp": 200,
+        "torqueNm": 350,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2001–2004, 5 дв. SUV, 4.5 MT; TB45E, 4478 см³, 200 л.с., 350 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2001-5d-tb45e-at",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2001,
+      "modelYearTo": 2004,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.5 AT",
+      "engineCode": "TB45E",
+      "engine": {
+        "code": "TB45E",
+        "displacementCc": 4478,
+        "powerHp": 200,
+        "torqueNm": 350,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/503136/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2001–2004, 5 дв. SUV, 4.5 AT; TB45E, 4478 см³, 200 л.с., 350 Н·м, АКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2001-5d-tb48de-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2001,
+      "modelYearTo": 2004,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.8 MT",
+      "engineCode": "TB48DE",
+      "engine": {
+        "code": "TB48DE",
+        "displacementCc": 4758,
+        "powerHp": 245,
+        "torqueNm": 400,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2001–2004, 5 дв. SUV, 4.8 MT; TB48DE, 4758 см³, 245 л.с., 400 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2001-5d-tb48de-at",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2001,
+      "modelYearTo": 2004,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.8 AT",
+      "engineCode": "TB48DE",
+      "engine": {
+        "code": "TB48DE",
+        "displacementCc": 4758,
+        "powerHp": 245,
+        "torqueNm": 400,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/503138/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2001–2004, 5 дв. SUV, 4.8 AT; TB48DE, 4758 см³, 245 л.с., 400 Н·м, АКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2004-5d-zd30ddti-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2004,
+      "modelYearTo": 2017,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "3.0 TD MT",
+      "engineCode": "ZD30DDTi",
+      "engine": {
+        "code": "ZD30DDTi",
+        "displacementCc": 2953,
+        "powerHp": 160,
+        "torqueNm": 380,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2004–2017, 5 дв. SUV, 3.0 TD MT; ZD30DDTi, 2953 см³, 160 л.с., 380 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2004-5d-zd30ddti-at",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2004,
+      "modelYearTo": 2017,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "3.0 TD AT",
+      "engineCode": "ZD30DDTi",
+      "engine": {
+        "code": "ZD30DDTi",
+        "displacementCc": 2953,
+        "powerHp": 160,
+        "torqueNm": 380,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2004–2017, 5 дв. SUV, 3.0 TD AT; ZD30DDTi, 2953 см³, 160 л.с., 380 Н·м, АКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2004-5d-td42-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2004,
+      "modelYearTo": 2017,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.2 D MT",
+      "engineCode": "TD42",
+      "engine": {
+        "code": "TD42",
+        "displacementCc": 4169,
+        "powerHp": 135,
+        "torqueNm": 285,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2004–2017, 5 дв. SUV, 4.2 D MT; TD42, 4169 см³, 135 л.с., 285 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2004-5d-tb45e-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2004,
+      "modelYearTo": 2017,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.5 MT",
+      "engineCode": "TB45E",
+      "engine": {
+        "code": "TB45E",
+        "displacementCc": 4478,
+        "powerHp": 230,
+        "torqueNm": 385,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2004–2017, 5 дв. SUV, 4.5 MT; TB45E, 4478 см³, 230 л.с., 385 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2004-5d-tb48de-mt",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2004,
+      "modelYearTo": 2017,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.8 MT",
+      "engineCode": "TB48DE",
+      "engine": {
+        "code": "TB48DE",
+        "displacementCc": 4758,
+        "powerHp": 245,
+        "torqueNm": 451,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2004–2017, 5 дв. SUV, 4.8 MT; TB48DE, 4758 см³, 245 л.с., 451 Н·м, МКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+    },
+    {
+      "id": "nissan-patrol-y61-2004-5d-tb48de-at",
+      "modelId": "nissan-patrol-y61",
+      "generationId": "nissan-patrol-y61",
+      "market": "не указан в карточке Drom",
+      "modelYearFrom": 2004,
+      "modelYearTo": 2017,
+      "bodyCode": "Y61",
+      "bodyStyle": "5 дв. SUV",
+      "trimOrGrade": "4.8 AT",
+      "engineCode": "TB48DE",
+      "engine": {
+        "code": "TB48DE",
+        "displacementCc": 4758,
+        "powerHp": 245,
+        "torqueNm": 451,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+          "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+          "sourceType": "secondary-reference",
+          "market": "не указан в карточке Drom",
+          "scope": "Y61 2004–2017, 5 дв. SUV, 4.8 AT; TB48DE, 4758 см³, 245 л.с., 451 Н·м, АКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+        },
+        {
+          "field": "market",
+          "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        }
+      ],
+      "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
     }
   ]
 }

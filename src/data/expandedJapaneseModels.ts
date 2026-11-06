@@ -2486,20 +2486,22 @@ const nissanBrandForJ32 = JAPANESE_BRANDS.find((brand) => brand.id === 'nissan')
 if (nissanBrandForJ32 && !nissanBrandForJ32.models.some((model) => model.id === nissanTeanaJ32.id)) nissanBrandForJ32.models.push(nissanTeanaJ32);
 
 const hondaCivicFkFn = makeSupplementalModel({
-  id: 'honda-civic-147', brandId: 'honda', name: 'Civic VIII (FK/FN, хэтчбек)',
-  generation: 'VIII поколение FK2/FN1', years: '2009–2012', bodyType: 'Хэтчбек',
-  overview: 'Европейский пятидверный Civic VIII FK/FN для российского рынка. Не смешивать с седаном FD и Civic IX FB.',
+  id: 'honda-civic-147', brandId: 'honda', name: 'Civic (FK/FN, FB)',
+  generation: 'VIII поколение FK2/FN1 и IX поколение FB — отдельные кузова и рынки', years: '2009–2013', bodyType: 'Хэтчбек',
+  overview: 'Модельная запись объединяет несколько поколений Civic только для привязки каталога модификаций: европейский хэтчбек FK2/FN1 и отдельный седан FB для рынка ОАЭ. Их двигатели, кузова и комплектации не взаимозаменяемы.',
   lengthMm: null, widthMm: null, heightMm: null, wheelbaseMm: null, groundClearanceMm: null,
   trunkVolumeLiters: 'Нет подтверждённых данных для точной комплектации', fuelTankLiters: null,
   curbWeightKg: 'Зависит от комплектации; точное значение не подтверждено',
   engines: [
-    { code: 'R18A2', name: '1.8 i-VTEC бензин', displacement: '1799 см³', powerHp: '140 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Рядный 4-цилиндровый', fuelSystem: 'i-VTEC', timingDrive: 'Не указано', strengths: ['Код и мощность указаны Drom для FK2/FN1'], weaknesses: ['Не переносить на седан FD/FB'] }
+    { code: 'R18A2', name: '1.8 i-VTEC бензин, FK2/FN1', displacement: '1799 см³', powerHp: '140 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Рядный 4-цилиндровый', fuelSystem: 'i-VTEC', timingDrive: 'Не указано', strengths: ['Код и мощность указаны Drom для FK2/FN1'], weaknesses: ['Не переносить на FB'] },
+    { code: 'R18A1', name: '1.8 бензин, FB', displacement: '1799 см³', powerHp: '139 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Рядный 4-цилиндровый', fuelSystem: 'Не указано', timingDrive: 'Не указано', strengths: ['Код и мощность указаны Drom для рынка ОАЭ'], weaknesses: ['Не переносить на FK2/FN1'] }
   ],
   transmissions: ['МКПП — Sport', 'АКПП — Sport/Executive/Glass Roof'],
   drivetrain: 'Передний привод (FWD).',
-  sourceNotes: 'Drom для российского Civic FK2/FN1 05.2009–03.2012 указывает R18A2 1.8 140 л.с., МКПП/АКПП и передний привод. Габариты, масса, момент и сервисные параметры точной комплектации не добавлены.',
+  sourceNotes: 'Drom для российского Civic FK2/FN1 05.2009–03.2012 указывает R18A2 1.8 140 л.с., МКПП/АКПП и передний привод; для FB рынка ОАЭ 07.2011–04.2013 — R18A1 1.8 139 л.с. и АКПП. Это разные поколения и кузова. Габариты, масса, момент и сервисные параметры точной комплектации не добавлены.',
   sourceReferences: [
-    { label: 'Drom — Honda Civic FK/FN, Россия', url: 'https://www.drom.ru/catalog/honda/civic/g_2009_1412/', scope: 'Комплектации, двигатель R18A2, мощность, тип КПП, привод и период.' }
+    { label: 'Drom — Honda Civic FK/FN, Россия', url: 'https://www.drom.ru/catalog/honda/civic/g_2009_1412/', scope: 'Комплектации, двигатель R18A2, мощность, тип КПП, привод и период.' },
+    { label: 'Drom — Honda Civic FB, ОАЭ', url: 'https://www.drom.ru/catalog/honda/civic/g_2011_25045/', scope: 'Седан FB: двигатель R18A1, мощность, АКПП, привод и период.' }
   ]
 });
 const hondaBrandForFkFn = JAPANESE_BRANDS.find((brand) => brand.id === 'honda');

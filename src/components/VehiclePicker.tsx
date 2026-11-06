@@ -160,4 +160,168 @@ export default function VehiclePicker({ onComplete, onCancel, onRegisterBack, in
   const [yearGuess, setYearGuess] = useState(false);
   const [bandIndex, setBandIndex] = useState<number | null>(null);
   const [mileage, setMileage] = useState('');
-  const [showAll
+  const [showAllFamilies, setShowAllFamilies] = useState(false);
+  const [showAllGenerations, setShowAllGenerations] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [query, setQuery] = useState('');
+  const [index, setIndex] = useState<CatalogIndex | null>(null);
+
+  const brand = brandId ? JAPANESE_BRANDS.find(item => item.id === brandId) ?? null : null;
+  const families = brand ? buildFamilies(brand) : [];
+  const family = families.find(item => item.key === familyKey) ?? null;
+  const model = brand && modelId ? brand.models.find(item => item.id === modelId) ?? null : null;
+  const engines = model?.engines ?? [];
+  const transmissions = model?.transmissions ?? [];
+
+  const openSearch = () => {
+    setIndex(previous => previous ?? buildCatalogIndex(JAPANESE_BRANDS));
+    setSearchOpen(true);
+  };
+  const closeSearch = () => {
+    setSearchOpen(false);
+    setQuery('');
+  };
+
+  const chooseBrand = (id: string) => {
+    setBrandId(id);
+    setFamilyKey(null);
+    setModelId(null);
+    setShowAllFamilies(false);
+    setStep('family');
+  };
+
+  const chooseModel = (nextBrand: JapaneseBrand, next: JapaneseCarModel) => {
+    setBrandId(nextBrand.id);
+    setFamilyKey(familyKeyOf(next));
+    setModelId(next.id);
+    setEngine(singleEngine(next));
+    setTransmission(singleTransmission(next));
+    setDrivetrain(null);
+    setYear(null);
+    setYearGuess(false);
+    setBandIndex(null);
+    setStep('modification');
+  };
+
+  const chooseFamily = (next: VehicleFamily) => {
+    setFamilyKey(next.key);
+    setShowAllGenerations(false);
+    if (next.models.length === 1 && brand) {
+      chooseModel(brand, next.models[0]);
+    } else {
+      setModelId(null);
+      setStep('generation');
+    }
+  };
+
+  const goBack = useCallback((): boolean => {
+    if (searchOpen) {
+      setSearchOpen(false);
+      setQuery('');
+      return true;
+    }
+    if (step === 'confirm') { setStep('modification'); return true; }
+    if (step === 'modification') { setStep(family && family.models.length > 1 ? 'generation' : 'family'); return true; }
+    if (step === 'generation') { setStep('family'); return true; }
+    if (step === 'family') { setStep('brand'); return true; }
+    if (onCancel) { onCancel(); return true; }
+    return false;
+  }, [searchOpen, step, family, onCancel]);
+
+  useEffect(() => {
+    onRegisterBack?.(goBack);
+    return () => onRegisterBack?.(() => false);
+  }, [goBack, onRegisterBack]);
+
+  const canGoBack = searchOpen || step !== 'brand' || Boolean(onCancel);
+  const results = index && query.trim() ? searchCatalog(index, query) : null;
+
+  const modificationReady =
+    (engines.length === 0 || engine !== null) &&
+    (transmissions.length === 0 || transmission !== null) &&
+    drivetrain !== null;
+
+  const range = model ? parseYearRange(model.years) : null;
+  const years = range ? Array.from({ length: range.to - range.from + 1 }, (_, offset) => range.from + offset) : [];
+  const bands: number[][] | null = years.length > MAX_VISIBLE
+    ? Array.from({ length: Math.ceil(years.length / YEAR_BAND) }, (_, i) => years.slice(i * YEAR_BAND, (i + 1) * YEAR_BAND))
+    : null;
+  const visibleYears = bands ? (bandIndex !== null ? bands[bandIndex] : []) : years;
+  const yearValid = year !== null && Number.isInteger(year) && year >= 1900 && year <= new Date().getFullYear() + 1;
+
+  const save = () => {
+    if (!brand || !model || year === null || !yearValid) return;
+    onComplete({
+      brandId: brand.id,
+      modelId: model.id,
+      year,
+      mileage: Math.max(0, Number(mileage) || 0),
+      engine: engine ?? UNKNOWN_ENGINE,
+      transmission: transmission ?? UNKNOWN_TRANSMISSION,
+      drivetrain: drivetrain ?? 'ALL',
+    });
+  };
+
+  const engineLabel = engine === null || engine === UNKNOWN_ENGINE ? 'не указан' : engines.find(item => item.code === engine)?.name ?? engine;
+  const transmissionLabel = transmission === null || transmission === UNKNOWN_TRANSMISSION ? 'не указана' : shortLabel(transmission);
+  const drivetrainLabel = drivetrain === 'FWD' ? 'передний' : drivetrain === '4WD' ? 'полный' : 'не указан';
+
+  const popular = JAPANESE_BRANDS.filter(item => POPULAR_BRAND_IDS.includes(item.id));
+  const shownBrands = showAllBrands || popular.length === 0 ? JAPANESE_BRANDS : popular;
+  const shownFamilies = showAllFamilies ? families : families.slice(0, MAX_VISIBLE);
+  const generations = family?.models ?? [];
+  const shownGenerations = showAllGenerations ? generations : generations.slice(0, MAX_VISIBLE);
+
+  const crumb = (label: string, target: Step) => (
+    <button key={target} type="button" onClick={() => setStep(target)} className="min-h-12 rounded-full bg-slate-100 px-4 text-sm font-semibold text-slate-800 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700">
+      {label}
+    </button>
+  );
+
+  return (
+    <section aria-label="Подбор автомобиля" data-testid="vehicle-picker" className="mx-auto w-full max-w-3xl space-y-5 text-slate-900 dark:text-white">
+      <div className="flex items-center gap-3">
+        {canGoBack && (
+          <button type="button" data-testid="picker-back" aria-label="Назад" onClick={() => { goBack(); }} className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border-2 border-slate-300 hover:border-red-400 dark:border-slate-600">
+            <ChevronLeft aria-hidden="true" size={24} />
+          </button>
+        )}
+        <h2 className="min-w-0 flex-1 text-2xl font-black">{searchOpen ? 'Поиск' : STEP_TITLES[step]}</h2>
+        <button type="button" data-testid="picker-search-toggle" aria-label="Поиск по марке и модели" aria-pressed={searchOpen} onClick={() => (searchOpen ? closeSearch() : openSearch())} className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border-2 ${searchOpen ? 'border-red-600 bg-red-600 text-white' : 'border-slate-300 hover:border-red-400 dark:border-slate-600'}`}>
+          {searchOpen ? <X aria-hidden="true" size={24} /> : <Search aria-hidden="true" size={24} />}
+        </button>
+      </div>
+
+      {searchOpen && (
+        <div className="space-y-4">
+          <label className="flex min-h-14 items-center gap-3 rounded-2xl border-2 border-slate-300 bg-white px-4 dark:border-slate-600 dark:bg-slate-800">
+            <Search aria-hidden="true" className="shrink-0 text-slate-500" size={20} />
+            <input
+              autoFocus
+              type="search"
+              enterKeyHint="search"
+              autoComplete="off"
+              autoCapitalize="off"
+              spellCheck={false}
+              data-testid="picker-search-input"
+              aria-label="Марка, модель или поколение"
+              value={query}
+              onChange={event => setQuery(event.target.value)}
+              placeholder="Например: тойота кор, outlander 2005"
+              className="min-h-14 w-full bg-transparent text-lg text-slate-900 outline-none placeholder:text-slate-500 dark:text-white"
+            />
+          </label>
+          {!results && <p className="text-base text-slate-600 dark:text-slate-300">Начните вводить марку или модель. Можно по-русски и по-английски, с годом выпуска.</p>}
+          {results && results.brands.length === 0 && results.models.length === 0 && (
+            <p className="text-base text-slate-600 dark:text-slate-300">Ничего не нашли. Попробуйте написать иначе или закройте поиск и выберите по карточкам.</p>
+          )}
+          {results && results.brands.length > 0 && (
+            <div className="space-y-2">
+              <h3 className="text-base font-bold">Марки</h3>
+              {results.brands.map(item => (
+                <button key={item.id} type="button" data-testid={`picker-result-brand-${item.id}`} onClick={() => { chooseBrand(item.id); closeSearch(); }} className={cardClass}>
+                  <span className="text-lg font-extrabold">{item.name}</span> <span className="text-sm text-slate-600 dark:text-slate-300">{item.russianName}</span>
+                </button>
+              ))}
+            </div>
+          )}

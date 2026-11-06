@@ -20814,5 +20814,5905 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       }
     ],
     "notes": "Отдельная версия FB для рынка ОАЭ; не переносить характеристики на FK/FN или другие рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2008-09-2009-04-1",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2008-09-2009-04-2",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-slide-passenger-seat-a-type-2008-09-2009-04-3",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab slide passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab slide passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-slide-passenger-seat-b-type-2008-09-2009-04-4",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab slide passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab slide passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2008-09-2009-04-5",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2008-09-2009-04-6",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2008-09-2009-04-7",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2008-09-2009-04-8",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-slide-passenger-seat-a-type-2008-09-2009-04-9",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab slide passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab slide passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-slide-passenger-seat-b-type-2008-09-2009-04-10",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab slide passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab slide passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2008-09-2009-04-11",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2008-09-2009-04-12",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2008-09-2009-04-13",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2008-09-2009-04-14",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S 10th anniversary edition",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2008-09-2009-04-15",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2007-09-2008-08-16",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2007-09-2008-08-17",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-lift-up-passenger-seat-a-type-2007-09-2008-08-18",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab lift-up passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab lift-up passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-lift-up-passenger-seat-b-type-2007-09-2008-08-19",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab lift-up passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab lift-up passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2007-09-2008-08-20",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2007-09-2008-08-21",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2007-09-2008-08-22",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2007-09-2008-08-23",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-lift-up-passenger-seat-a-type-2007-09-2008-08-24",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab lift-up passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab lift-up passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-lift-up-passenger-seat-b-type-2007-09-2008-08-25",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab lift-up passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab lift-up passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2007-09-2008-08-26",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2007-09-2008-08-27",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2007-09-2008-08-28",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2007-09-2008-08-29",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S 10th anniversary edition",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2007-09-2008-08-30",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2007-01-2007-08-31",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2007-01-2007-08-32",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-rotating-and-sliding-passenger-seat-a-type-2007-01-2007-08-33",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab rotating and sliding passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab rotating and sliding passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-rotating-and-sliding-passenger-seat-b-type-2007-01-2007-08-34",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab rotating and sliding passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab rotating and sliding passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2007-01-2007-08-35",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2007-01-2007-08-36",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2007-01-2007-08-37",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2007-01-2007-08-38",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-rotating-and-sliding-passenger-seat-a-type-2007-01-2007-08-39",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab rotating and sliding passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab rotating and sliding passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-rotating-and-sliding-passenger-seat-b-type-2007-01-2007-08-40",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab rotating and sliding passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab rotating and sliding passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2007-01-2007-08-41",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2007-01-2007-08-42",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2007-01-2007-08-43",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2007-01-2007-08-44",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection Leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection Leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2007-01-2007-08-45",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S 10th anniversary edition",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2005-11-2006-12-46",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2005-11-2006-12-47",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2005-11-2006-12-48",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2005-11-2006-12-49",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2005-11-2006-12-50",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2005-11-2006-12-51",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-s-2003-09-2005-10-52",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 S; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-g-2003-09-2005-10-53",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 G; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-s-touring-selection-2003-09-2005-10-54",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 S touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-g-touring-selection-2003-09-2005-10-55",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 G touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-s-touring-selection-premium-2004-08-2005-10-56",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2004-08",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection premium",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 S touring selection premium; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 08.2004–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-g-touring-selection-premium-2004-08-2005-10-57",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2004-08",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection premium",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 G touring selection premium; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 08.2004–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-2009-11-2010-09-58",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G; L13A 1339 см³, 100 л.с., MT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-selection-2009-11-2010-09-59",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection; L13A 1339 см³, 100 л.с., MT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-4wd-2009-11-2010-09-60",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-rotating-passenger-seat-4wd-2009-11-2010-09-61",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G rotating passenger seat 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G rotating passenger seat 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-smart-selection-rotating-passenger-seat-4wd-2009-11-2010-09-62",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection rotating passenger seat 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection rotating passenger seat 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-smart-selection-4wd-2009-11-2010-09-63",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-rotating-passenger-seat-4wd-2009-11-2010-09-64",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L rotating passenger seat 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L rotating passenger seat 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-4wd-2009-11-2010-09-65",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-4wd-2007-10-2009-10-66",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-4wd-2007-10-2009-10-67",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-highway-edition-4wd-2008-06-2009-10-68",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G highway edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G highway edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-highway-edition-4wd-2008-06-2009-10-69",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L highway edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L highway edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-smart-style-edition-4wd-2009-05-2009-10-70",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart style edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart style edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-smart-style-edition-4wd-2009-05-2009-10-71",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L smart style edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L smart style edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-she-s-4wd-2010-05-2010-09-72",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G She's 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G She's 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-sporty-edition-4wd-2010-05-2010-09-73",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G sporty edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G sporty edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-2009-11-2010-09-74",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-rotating-passenger-seat-2009-11-2010-09-75",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G rotating passenger seat",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G rotating passenger seat; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-selection-rotating-passenger-seat-2009-11-2010-09-76",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection rotating passenger seat",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection rotating passenger seat; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-selection-2009-11-2010-09-77",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-rotating-passenger-seat-2009-11-2010-09-78",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L rotating passenger seat",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L rotating passenger seat; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-2009-11-2010-09-79",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-2007-10-2009-10-80",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G; L13A 1339 см³, 100 л.с., CVT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-2007-10-2009-10-81",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L; L13A 1339 см³, 100 л.с., CVT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-highway-edition-2008-06-2009-10-82",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G highway edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G highway edition; L13A 1339 см³, 100 л.с., CVT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-highway-edition-2008-06-2009-10-83",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L highway edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L highway edition; L13A 1339 см³, 100 л.с., CVT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-style-edition-2009-05-2009-10-84",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart style edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart style edition; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-smart-style-edition-2009-05-2009-10-85",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L smart style edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L smart style edition; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-she-s-2010-05-2010-09-86",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G She's",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G She's; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-sporty-edition-2010-05-2010-09-87",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G sporty edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G sporty edition; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2009-11-2010-09-88",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., MT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2007-10-2009-10-89",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., MT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-highway-edition-2008-06-2009-10-90",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS highway edition",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS highway edition; L15A 1496 см³, 120 л.с., MT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-x-4wd-2009-11-2010-09-91",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 X 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 X 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-rs-4wd-2009-11-2010-09-92",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-rs-4wd-2007-10-2009-10-93",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-rs-highway-edition-4wd-2008-06-2009-10-94",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS highway edition 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS highway edition 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-x-2009-11-2010-09-95",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 X",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 X; L15A 1496 см³, 120 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2009-11-2010-09-96",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2007-10-2009-10-97",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., CVT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-highway-edition-2008-06-2009-10-98",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS highway edition",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS highway edition; L15A 1496 см³, 120 л.с., CVT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw30-liftback-zvw30l-2zr-fxe-99-1-8-cvt-elegance-2009-10-2011-12-99",
+    "modelId": "toyota-prius-xw30-liftback",
+    "generationId": "drom-toyota-prius-xw30-app",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2009-10",
+    "productionMonthTo": "2011-12",
+    "bodyCode": "ZVW30L",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.8 CVT Elegance",
+    "engineCode": "2ZR-FXE",
+    "engine": {
+      "code": "2ZR-FXE",
+      "displacementCc": 1798,
+      "powerHp": 99,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius ZVW30L",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2009_1284/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "1.8 CVT Elegance; 2ZR-FXE 1798 см³, 99 л.с., гибрид, CVT, FWD, 10.2009–12.2011.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw30-liftback-zvw30l-2zr-fxe-99-1-8-cvt-prestige-2009-10-2011-12-100",
+    "modelId": "toyota-prius-xw30-liftback",
+    "generationId": "drom-toyota-prius-xw30-app",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2009-10",
+    "productionMonthTo": "2011-12",
+    "bodyCode": "ZVW30L",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.8 CVT Prestige",
+    "engineCode": "2ZR-FXE",
+    "engine": {
+      "code": "2ZR-FXE",
+      "displacementCc": 1798,
+      "powerHp": 99,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius ZVW30L",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2009_1284/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "1.8 CVT Prestige; 2ZR-FXE 1798 см³, 99 л.с., гибрид, CVT, FWD, 10.2009–12.2011.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
   }
 ];

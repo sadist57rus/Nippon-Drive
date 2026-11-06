@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { lazy, Suspense, useState, useEffect, useRef, useCallback } from 'react';
+import React, { lazy, Suspense, useState, useEffect, useRef } from 'react';
 import { App as CapacitorApp } from '@capacitor/app';
 import { Capacitor } from '@capacitor/core';
 import { StatusBar, Style } from '@capacitor/status-bar';
@@ -31,9 +31,6 @@ const BulbsCatalog = lazy(async () => { await import('./data/bulbsData'); return
 import ApkGuideModal from './components/ApkGuideModal';
 const JapaneseBrandsHub = lazy(async () => { await import('./data/vehicleCatalog'); return import('./components/JapaneseBrandsHub'); });
 import BrandSelectorModal from './components/BrandSelectorModal';
-import type { PickedVehicle } from './components/VehiclePicker';
-const VehiclePicker = lazy(() => import('./components/VehiclePicker'));
-import { isSectionAvailable } from './data/vehicleDataAvailability';
 import { useTheme } from './context/ThemeContext';
 import { JAPANESE_BRANDS } from './data/vehicleCatalog';
 import { VehicleProvider, useVehicle } from './context/VehicleContext';
@@ -87,10 +84,6 @@ function AppContent() {
   const swipeStartRef = useRef<{ x: number; y: number } | null>(null);
   const [isBrandSelectorOpen, setIsBrandSelectorOpen] = useState(false);
   const [isApkGuideOpen, setIsApkGuideOpen] = useState(false);
-  const pickerBackRef = useRef<() => boolean>(() => false);
-  const registerPickerBack = useCallback((handler: () => boolean) => { pickerBackRef.current = handler; }, []);
-  const [picker, setPicker] = useState<{ modelId?: string } | null>(null);
-  const [browse, setBrowse] = useState<{ brandId?: string; modelId?: string }>({});
   const setActiveTab = (tab: TabId) => {
     if (tab === activeTabRef.current) return;
     activeTabRef.current = tab;
@@ -148,7 +141,6 @@ function AppContent() {
     let active = true;
     const listener = CapacitorApp.addListener('backButton', () => {
       if (!active) return;
-      if (pickerBackRef.current()) return;
       if (isBrandSelectorOpen) { setIsBrandSelectorOpen(false); return; }
       if (isApkGuideOpen) { setIsApkGuideOpen(false); return; }
       if (headerBackHandlerRef.current()) return;
@@ -172,7 +164,7 @@ function AppContent() {
     };
   }, [isBrandSelectorOpen, isApkGuideOpen]);
 
-  const { vehicleId: activeVehicleId, engine: selectedEngine, setEngine: setSelectedEngine, brandId: selectedBrandId, modelId: selectedModelId, vehicles, activeVehicle, addVehicle, updateVehicle } = useVehicle();
+  const { vehicleId: activeVehicleId, engine: selectedEngine, setEngine: setSelectedEngine, brandId: selectedBrandId, setBrandId: setSelectedBrandId, modelId: selectedModelId, setModelId: setSelectedModelId, vehicles, activeVehicle, addVehicle, updateVehicle } = useVehicle();
   const [setupBrandId, setSetupBrandId] = useState('nissan');
   const setupBrand = JAPANESE_BRANDS.find(brand => brand.id === setupBrandId) || JAPANESE_BRANDS[0];
   const [setupModelId, setSetupModelId] = useState(setupBrand.models[0]?.id || '');
@@ -230,42 +222,6 @@ function AppContent() {
   };
   const currentTabInfo = tabTitles[activeTab] || tabTitles.overview;
 
-  // Выбор в справочнике «Марки» хранится отдельно и не меняет вашу машину.
-  const setSelectedBrandId = (brandId: string) => setBrowse(previous => ({ ...previous, brandId }));
-  const setSelectedModelId = (modelId: string) => setBrowse(previous => ({ ...previous, modelId }));
-  const browsedBrand = browse.modelId ? JAPANESE_BRANDS.find(item => item.models.some(candidate => candidate.id === browse.modelId)) : undefined;
-  const browsedModel = browsedBrand?.models.find(candidate => candidate.id === browse.modelId);
-  const moreSections = (Object.keys(tabTitles) as TabId[]).filter(id => !primaryNavigation.includes(id) && id !== 'more');
-  const readySections = moreSections.filter(id => isSectionAvailable(id, selectedModelId)).length;
-
-  const isOnboarding = !profileSelected || vehicles.length === 0;
-  const finishPicker = (picked: PickedVehicle) => {
-    const vehicle = { ...picked, currency: activeVehicle.currency || 'RUB' };
-    if (isOnboarding) {
-      if (vehicles.length) updateVehicle({ ...activeVehicle, ...vehicle }); else addVehicle(vehicle);
-      try { localStorage.setItem('car-brother-profile-selected-v1', 'yes'); } catch { /* storage may be unavailable */ }
-      setProfileSelected(true);
-    } else {
-      addVehicle(vehicle);
-      setActiveTab('overview');
-    }
-    setPicker(null);
-    setBrowse({});
-  };
-  const pickerOverlay = picker ? (
-    <div aria-label="Подбор автомобиля" className="fixed inset-0 z-[70] overflow-y-auto overscroll-y-contain bg-slate-100 p-4 pt-[max(1rem,env(safe-area-inset-top))] pb-[max(1rem,env(safe-area-inset-bottom))] text-slate-900 dark:bg-[#070b12] dark:text-white" style={{ WebkitOverflowScrolling: 'touch' }}>
-      <Suspense fallback={<p className="p-6 text-base">Загрузка…</p>}>
-        <VehiclePicker
-          initialModelId={picker.modelId}
-          onComplete={finishPicker}
-          onCancel={() => setPicker(null)}
-          onRegisterBack={registerPickerBack}
-          saveLabel={isOnboarding ? 'Сохранить и открыть приложение' : 'Добавить в гараж и сделать активной'}
-        />
-      </Suspense>
-    </div>
-  ) : null;
-
   if (!profileSelected || vehicles.length === 0) {
     const model = setupBrand.models.find(item => item.id === setupModelId) || setupBrand.models[0];
     return (
@@ -273,8 +229,6 @@ function AppContent() {
         <section className="min-h-[100dvh] w-full max-w-none rounded-none border-0 bg-white dark:bg-slate-900 p-4 pb-[max(1rem,env(safe-area-inset-bottom))] md:p-8 shadow-none">
           <div className="flex items-center gap-4 mb-6"><img src="/nippon-drive-icon.png" alt="Nippon-Drive" className="h-16 w-16 shrink-0 rounded-2xl shadow-lg" /><div><p className="text-sm font-bold uppercase tracking-widest text-red-600">NIPPON-DRIVE</p><h1 className="text-3xl md:text-4xl font-black">Добавим вашу машину</h1></div></div>
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-8">Выберите автомобиль, чтобы настроить главный экран, характеристики и журнал обслуживания. Марка по умолчанию не выбрана.</p>
-          <button type="button" data-testid="onboarding-open-picker" onClick={() => setPicker({})} className="mb-4 min-h-16 w-full rounded-2xl border-2 border-red-600 px-6 text-lg md:text-xl font-black text-red-600 hover:bg-red-50 dark:hover:bg-red-950/30">Подобрать по шагам: проще и быстрее</button>
-          <p className="mb-5 text-base text-slate-600 dark:text-slate-300">Или заполните форму ниже.</p>
           <div className="grid gap-5 md:grid-cols-2">
             <label className="block text-base md:text-lg font-bold">Марка<select className="mt-2 min-h-16 w-full rounded-2xl border-2 border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 text-lg md:text-xl" value={setupBrandId} onChange={event => { const id=event.target.value; const brand=JAPANESE_BRANDS.find(item=>item.id===id)!; setSetupBrandId(id); setSetupModelId(brand.models[0]?.id||''); setSetupEngine(brand.models[0]?.engines[0]?.code||''); setSetupTransmission(brand.models[0]?.transmissions[0]||''); }}>{JAPANESE_BRANDS.map(brand=><option key={brand.id} value={brand.id}>{brand.name}</option>)}</select></label>
             <label className="block text-base md:text-lg font-bold">Модель<select className="mt-2 min-h-16 w-full rounded-2xl border-2 border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 text-lg md:text-xl" value={setupModelId} onChange={event=>{const id=event.target.value;const item=setupBrand.models.find(value=>value.id===id);setSetupModelId(id);setSetupEngine(item?.engines[0]?.code||''); setSetupTransmission(item?.transmissions[0]||'');}}>{setupBrand.models.map(item=><option key={item.id} value={item.id}>{item.name} ({item.years})</option>)}</select></label>
@@ -286,7 +240,6 @@ function AppContent() {
             <label className="block text-base md:text-lg font-bold">Текущий пробег (км)<input className="mt-2 min-h-16 w-full rounded-2xl border-2 border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 px-4 text-xl" type="number" min="0" inputMode="numeric" value={setupMileage} onChange={event=>setSetupMileage(event.target.value)}/></label>
           </div>
           <button className="mt-8 min-h-16 w-full rounded-2xl bg-red-600 px-6 text-xl md:text-2xl font-black text-white shadow-lg hover:bg-red-700" onClick={()=>{ const vehicle={brandId:setupBrand.id,modelId:model.id,year:setupYear,mileage:Math.max(0,Number(setupMileage)||0),vin:setupVin.trim()||undefined,engine:setupEngine||'не указан',transmission:setupTransmission||'не указана',drivetrain:setupDrivetrain,currency:'RUB'}; if(vehicles.length) updateVehicle({...activeVehicle,...vehicle}); else addVehicle(vehicle); try { localStorage.setItem('car-brother-profile-selected-v1','yes'); } catch {} setProfileSelected(true); }}>Сохранить автомобиль и открыть приложение</button>
-          {pickerOverlay}
         </section>
       </main>
     );
@@ -371,7 +324,7 @@ function AppContent() {
             {favoriteSections.length > 0 && <FavoriteSectionsPanel favorites={favoriteSections} onNavigate={setActiveTab} onRemove={removeFavorite} />}
             <div>
               <h2 id="more-screen-title" className="text-xl font-black text-slate-900 dark:text-white">Дополнительные разделы</h2>
-              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">Готово для вашей машины: {readySections} из {moreSections.length}</p>
+              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">Справочные разделы и настройки</p>
             </div>
             <button type="button" onClick={() => setIsApkGuideOpen(true)} className="flex min-h-14 w-full items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-left font-semibold text-slate-900 transition hover:border-red-400 dark:border-slate-800 dark:bg-slate-900 dark:text-white">
               <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-slate-100 text-red-600 dark:bg-slate-800 dark:text-red-400"><Smartphone aria-hidden="true" size={24} /></span>
@@ -380,9 +333,8 @@ function AppContent() {
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4" data-testid="more-screen-grid">
               {Object.entries(tabTitles).filter(([id]) => !primaryNavigation.includes(id as TabId) && id !== 'more').map(([id, item]) => {
                 const sectionId = id as TabId;
-                const available = isSectionAvailable(sectionId, selectedModelId);
                 const Icon = item.icon;
-                return <button key={id} type="button" data-testid={`more-nav-item-${id}`} title={available ? undefined : 'Нет данных для вашей модели'} onClick={() => setActiveTab(sectionId)} className={`flex min-h-20 items-center gap-3 rounded-2xl border bg-white p-4 text-left font-semibold text-slate-900 transition hover:border-red-400 dark:bg-slate-900 dark:text-white ${available ? 'border-slate-200 dark:border-slate-800' : 'border-dashed border-slate-300 opacity-70 dark:border-slate-700'}`}>
+                return <button key={id} type="button" data-testid={`more-nav-item-${id}`} onClick={() => setActiveTab(sectionId)} className="flex min-h-20 items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 text-left font-semibold text-slate-900 transition hover:border-red-400 dark:border-slate-800 dark:bg-slate-900 dark:text-white">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-slate-100 text-red-600 dark:bg-slate-800 dark:text-red-400"><Icon aria-hidden="true" size={24} /></span>
                   <span>{shortTabTitles[sectionId]}</span>
                 </button>;
@@ -395,21 +347,13 @@ function AppContent() {
         {activeTab === 'settings' && <Settings uiMode={uiMode} onChangeUiMode={(mode) => { void applyUiMode(mode); }} />}
 
         {activeTab === 'brands' && (
-          <>
-            {browsedBrand && browsedModel && browsedModel.id !== selectedModelId && (
-              <div data-testid="make-mine-bar" className="sticky top-[4.75rem] z-40 mb-4 flex flex-wrap items-center gap-3 rounded-2xl border border-red-200 bg-white p-3 shadow-md dark:border-red-900/60 dark:bg-slate-900">
-                <p className="min-w-0 flex-1 text-sm font-semibold text-slate-900 dark:text-white">Вы смотрите: {browsedBrand.name} {browsedModel.name}. Ваша машина не изменилась.</p>
-                <button type="button" data-testid="make-mine-button" onClick={() => setPicker({ modelId: browsedModel.id })} className="min-h-14 rounded-xl bg-red-600 px-5 font-bold text-white hover:bg-red-700">Это моя машина</button>
-              </div>
-            )}
-            <JapaneseBrandsHub
-              onNavigateTab={setActiveTab}
-              selectedBrandId={browse.brandId ?? selectedBrandId}
-              onSelectBrand={setSelectedBrandId}
-              selectedModelId={browse.modelId ?? selectedModelId}
-              onSelectModel={setSelectedModelId}
-            />
-          </>
+          <JapaneseBrandsHub
+            onNavigateTab={setActiveTab}
+            selectedBrandId={selectedBrandId}
+            onSelectBrand={setSelectedBrandId}
+            selectedModelId={selectedModelId}
+            onSelectModel={setSelectedModelId}
+          />
         )}
 
         {activeTab === 'fuel' && (
@@ -480,8 +424,6 @@ function AppContent() {
       )}
 
       {backHint && <div role="status" className="fixed bottom-5 left-1/2 z-[100] -translate-x-1/2 rounded-xl bg-slate-950 px-4 py-3 text-sm font-semibold text-white shadow-xl">{backHint}</div>}
-
-      {pickerOverlay}
 
       {/* APK Guide Modal */}
       <ApkGuideModal

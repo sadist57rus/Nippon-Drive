@@ -2432,3 +2432,75 @@ const hondaBrandForAccord = JAPANESE_BRANDS.find((brand) => brand.id === 'honda'
 if (hondaBrandForAccord && !hondaBrandForAccord.models.some((model) => model.id === hondaAccordCl.id)) {
   hondaBrandForAccord.models.push(hondaAccordCl);
 }
+
+
+// Дополнительные модельные записи для импорта точных модификаций Drom.
+const mazda6Gh = makeSupplementalModel({
+  id: 'mazda-6-atenza-194', brandId: 'mazda', name: 'Mazda6 / Atenza (GH)',
+  generation: 'II поколение GH', years: '2007–2012', bodyType: 'Седан',
+  overview: 'Второе поколение Mazda6 GH. Варианты кузова: седан, лифтбек и универсал; рынок, двигатель и коробку необходимо выбирать по точной модификации.',
+  lengthMm: null, widthMm: null, heightMm: null, wheelbaseMm: null, groundClearanceMm: null,
+  trunkVolumeLiters: 'Зависит от кузова; точное значение для модификации не подтверждено',
+  fuelTankLiters: null, curbWeightKg: 'Зависит от кузова, двигателя и рынка; точное значение не подтверждено',
+  engines: [
+    { code: 'L813', name: '1.8 бензин', displacement: '1798 см³', powerHp: '120 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Не указано', fuelSystem: 'Не указано', timingDrive: 'Не указано', strengths: ['Код и мощность перечислены в каталоге Drom для GH'], weaknesses: ['Не переносить на другие рынки без проверки'] },
+    { code: 'LF17', name: '2.0 бензин', displacement: '1999 см³', powerHp: '147 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Не указано', fuelSystem: 'Не указано', timingDrive: 'Не указано', strengths: ['Код и мощность перечислены в каталоге Drom для GH'], weaknesses: ['Не смешивать с LF-DE 2.0 DISI'] },
+    { code: 'LF-DE', name: '2.0 DISI бензин', displacement: '1999 см³', powerHp: '155 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Не указано', fuelSystem: 'Непосредственный впрыск DISI', timingDrive: 'Не указано', strengths: ['Европейские версии рестайлинга GH'], weaknesses: ['Рынок и трансмиссия зависят от комплектации'] },
+    { code: 'RF7J', name: '2.0 MZR-CD дизель', displacement: '1998 см³', powerHp: '140 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Не указано', fuelSystem: 'Common Rail', timingDrive: 'Не указано', strengths: ['Код и мощность перечислены в каталоге Drom'], weaknesses: ['Не переносить на 2.2 MZR-CD'] },
+    { code: 'R2AA/R2BF', name: '2.2 MZR-CD дизель', displacement: '2184 см³', powerHp: '125/129/163/180/185 л.с. в разных версиях', torqueNm: 'Не подтверждено для точной версии', valves: 'Не указано', fuelSystem: 'Common Rail', timingDrive: 'Не указано', strengths: ['Мощность зависит от версии и периода'], weaknesses: ['Код и мощность требуется сверять по конкретной карточке'] },
+    { code: 'L5-VE', name: '2.5 бензин', displacement: '2488 см³', powerHp: '170 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Не указано', fuelSystem: 'Не указано', timingDrive: 'Не указано', strengths: ['Код и мощность перечислены в каталоге Drom'], weaknesses: ['Не переносить на другие рынки и годы без проверки'] }
+  ],
+  transmissions: ['5MT/6MT — зависит от двигателя и рынка', '5AT — отдельные версии 2.0 бензин'],
+  drivetrain: 'Передний привод для перечисленных в использованных карточках комплектаций.',
+  sourceNotes: 'Модельная запись объединяет кузова GH; точные габариты, масса, бак, момент и сервисные параметры намеренно не указаны. Для этих данных требуется карточка конкретной модификации и VIN.',
+  sourceReferences: [
+    { label: 'Drom — Mazda6 GH, дорестайлинг, седан', url: 'https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/', scope: 'Европейские комплектации, двигатели, мощность, тип КПП и периоды.' },
+    { label: 'Drom — Mazda6 GH, дорестайлинг, универсал', url: 'https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/', scope: 'Европейские комплектации, двигатели, мощность, тип КПП и периоды.' },
+    { label: 'Drom — Mazda6 GH, рестайлинг, седан', url: 'https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/', scope: 'Российские комплектации, двигатели, мощность, тип КПП и периоды.' },
+    { label: 'Drom — Mazda6 GH, рестайлинг, универсал', url: 'https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/', scope: 'Европейские комплектации, двигатели, мощность, тип КПП и периоды.' }
+  ]
+});
+const mazdaBrandForGh = JAPANESE_BRANDS.find((brand) => brand.id === 'mazda');
+if (mazdaBrandForGh && !mazdaBrandForGh.models.some((model) => model.id === mazda6Gh.id)) mazdaBrandForGh.models.push(mazda6Gh);
+
+const nissanTeanaJ32 = makeSupplementalModel({
+  id: 'nissan-teana-132', brandId: 'nissan', name: 'Teana (J32)',
+  generation: 'II поколение J32', years: '2008–2014', bodyType: 'Седан',
+  overview: 'Второе поколение Nissan Teana J32. Для российского рынка Drom перечисляет переднеприводные VQ25DE/VQ35DE и полноприводные QR25DE; не смешивать с японскими праворульными версиями.',
+  lengthMm: null, widthMm: null, heightMm: null, wheelbaseMm: null, groundClearanceMm: null,
+  trunkVolumeLiters: 'Нет подтверждённых данных для точной комплектации', fuelTankLiters: null,
+  curbWeightKg: 'Зависит от двигателя и привода; точное значение не подтверждено',
+  engines: [
+    { code: 'QR25DE', name: '2.5 бензин, 4WD', displacement: '2488 см³', powerHp: '167 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Не указано', fuelSystem: 'Не указано', timingDrive: 'Не указано', strengths: ['Российские полноприводные версии J32'], weaknesses: ['Не смешивать с VQ25DE'] },
+    { code: 'VQ25DE', name: '2.5 V6 бензин', displacement: '2496 см³', powerHp: '182 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'V6', fuelSystem: 'Не указано', timingDrive: 'Не указано', strengths: ['Российские переднеприводные версии J32'], weaknesses: ['Не смешивать с QR25DE'] },
+    { code: 'VQ35DE', name: '3.5 V6 бензин', displacement: '3498 см³', powerHp: '249 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'V6', fuelSystem: 'Не указано', timingDrive: 'Не указано', strengths: ['Российские переднеприводные версии J32'], weaknesses: ['Параметры зависят от рынка и года'] }
+  ],
+  transmissions: ['XTRONIC CVT — точный код уточнять по VIN'],
+  drivetrain: 'FWD для VQ25DE/VQ35DE; 4WD для отдельных QR25DE.',
+  sourceNotes: 'Российская линейка J32: QR25DE 2.5 167 л.с. CVT 4WD; VQ25DE 2.5 182 л.с. CVT FWD; VQ35DE 3.5 249 л.с. CVT FWD. Точные размеры, масса, момент и сервисные параметры не подставлены.',
+  sourceReferences: [
+    { label: 'Drom — Nissan Teana J32, Россия', url: 'https://www.drom.ru/catalog/nissan/teana/g_2008_5258/', scope: 'Комплектации, коды двигателей, мощность, тип КПП, привод и периоды.' }
+  ]
+});
+const nissanBrandForJ32 = JAPANESE_BRANDS.find((brand) => brand.id === 'nissan');
+if (nissanBrandForJ32 && !nissanBrandForJ32.models.some((model) => model.id === nissanTeanaJ32.id)) nissanBrandForJ32.models.push(nissanTeanaJ32);
+
+const hondaCivicFkFn = makeSupplementalModel({
+  id: 'honda-civic-147', brandId: 'honda', name: 'Civic VIII (FK/FN, хэтчбек)',
+  generation: 'VIII поколение FK2/FN1', years: '2009–2012', bodyType: 'Хэтчбек',
+  overview: 'Европейский пятидверный Civic VIII FK/FN для российского рынка. Не смешивать с седаном FD и Civic IX FB.',
+  lengthMm: null, widthMm: null, heightMm: null, wheelbaseMm: null, groundClearanceMm: null,
+  trunkVolumeLiters: 'Нет подтверждённых данных для точной комплектации', fuelTankLiters: null,
+  curbWeightKg: 'Зависит от комплектации; точное значение не подтверждено',
+  engines: [
+    { code: 'R18A2', name: '1.8 i-VTEC бензин', displacement: '1799 см³', powerHp: '140 л.с.', torqueNm: 'Не подтверждено для точной версии', valves: 'Рядный 4-цилиндровый', fuelSystem: 'i-VTEC', timingDrive: 'Не указано', strengths: ['Код и мощность указаны Drom для FK2/FN1'], weaknesses: ['Не переносить на седан FD/FB'] }
+  ],
+  transmissions: ['МКПП — Sport', 'АКПП — Sport/Executive/Glass Roof'],
+  drivetrain: 'Передний привод (FWD).',
+  sourceNotes: 'Drom для российского Civic FK2/FN1 05.2009–03.2012 указывает R18A2 1.8 140 л.с., МКПП/АКПП и передний привод. Габариты, масса, момент и сервисные параметры точной комплектации не добавлены.',
+  sourceReferences: [
+    { label: 'Drom — Honda Civic FK/FN, Россия', url: 'https://www.drom.ru/catalog/honda/civic/g_2009_1412/', scope: 'Комплектации, двигатель R18A2, мощность, тип КПП, привод и период.' }
+  ]
+});
+const hondaBrandForFkFn = JAPANESE_BRANDS.find((brand) => brand.id === 'honda');
+if (hondaBrandForFkFn && !hondaBrandForFkFn.models.some((model) => model.id === hondaCivicFkFn.id)) hondaBrandForFkFn.models.push(hondaCivicFkFn);

@@ -11834,5 +11834,2425 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       }
     ],
     "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100--2002-08-kr-hdj101k-4-2-vx-limited-g-selection-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "KR-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 196,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KR-HDJ101K, 4.2 VX limited G selection diesel turbo 4WD, 2002-08–2003-07; 1HD-FTE 4163 см³, 196 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-kr-hdj101k-4-2-vx-limited-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "KR-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 196,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KR-HDJ101K, 4.2 VX limited diesel turbo 4WD, 2002-08–2003-07; 1HD-FTE 4163 см³, 196 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-gh-uzj100w-4-7-100-vx-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "GH-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GH-UZJ100W, 4.7 100 VX 4WD, 2002-08–2003-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-gh-uzj100w-4-7-100-vx-limited-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "GH-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GH-UZJ100W, 4.7 100 VX limited 4WD, 2002-08–2003-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-gh-uzj100w-4-7-100-vx-limited-g-selection-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "GH-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited G selection 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GH-UZJ100W, 4.7 100 VX limited G selection 4WD, 2002-08–2003-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-active-vacation-type-a-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type A diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-active-vacation-type-b-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type B diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-kg-hdj101k-4-2-vx-limited-50th-anniversary-edition-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited 50th anniversary edition diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited 50th anniversary edition diesel turbo 4WD, 2001-01–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-g-selection-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-kg-hdj101k-4-2-vx-limited-g-selection-50th-anniversary-edition-diesel-t-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection 50th anniversary edition diesel T 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection 50th anniversary edition diesel T 4WD, 2001-01–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-active-vacation-type-a-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited active vacation type A diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-active-vacation-type-b-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited active vacation type B diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-g-selection-active-vacation-type-a-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection active vacation type A diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-g-selection-active-vacation-type-b-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection active vacation type B diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-100-vx-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 100 VX 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-100-vx-limited-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 100 VX limited 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-100-vx-limited-g-selection-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited G selection 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 100 VX limited G selection 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-gf-uzj100w-4-7-vx-limited-50th-anniversary-edition-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited 50th anniversary edition 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited 50th anniversary edition 4WD, 2001-01–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-gf-uzj100w-4-7-vx-limited-g-selection-50th-anniversary-edition-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited G selection 50th anniversary edition 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited G selection 50th anniversary edition 4WD, 2001-01–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-active-vacation-type-a-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX active vacation type A 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX active vacation type A 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-active-vacation-type-b-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX active vacation type B 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX active vacation type B 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-g-selection-active-vacation-type-a-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited G selection active vacation type A 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited G selection active vacation type A 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-g-selection-active-vacation-type-b-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited G selection active vacation type B 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited G selection active vacation type B 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-active-vacation-type-a-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited active vacation type A 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited active vacation type A 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-active-vacation-type-b-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited active vacation type B 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited active vacation type B 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-09-uzj100-4-7-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "США",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-09",
+    "productionMonthTo": "2005-01",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "UZJ100, 4.7 AT, 2002-09–2005-01; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-uzj100-4-7-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "США",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-08",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "UZJ100, 4.7 AT, 1998-01–2002-08; 2UZ-FE 4663 см³, 230 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-hzj105-4-2-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT GX-R",
+    "engineCode": "1HZ",
+    "engine": {
+      "code": "1HZ",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "HZJ105, 4.2 MT GX-R, 2002-08–2005-03; 1HZ 4163 см³, 131 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-fzj100-4-5-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT GX-R, 2002-08–2005-03; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-fzj100-4-5-mt-g",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT G",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT G, 2002-08–2005-03; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-fzj100-4-5-at-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 AT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 AT GX-R, 2002-08–2005-03; 1FZ-FE 4477 см³, 211 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-uzj100-4-7-mt-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 MT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 MT VX-R, 2002-08–2005-03; 2UZ-FE 4663 см³, 238 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-uzj100-4-7-at-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 AT VX-R, 2002-08–2005-03; 2UZ-FE 4663 см³, 238 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-hzj105-4-2-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT GX-R",
+    "engineCode": "1HZ",
+    "engine": {
+      "code": "1HZ",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "HZJ105, 4.2 MT GX-R, 1998-01–2002-07; 1HZ 4163 см³, 131 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-fzj100-4-5-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT GX-R, 1998-01–2002-07; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-fzj100-4-5-mt-g",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT G",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT G, 1998-01–2002-07; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-fzj100-4-5-at-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 AT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 AT GX-R, 1998-01–2002-07; 1FZ-FE 4477 см³, 211 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-uzj100-4-7-mt-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 MT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 MT VX-R, 1998-01–2002-07; 2UZ-FE 4663 см³, 238 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-uzj100-4-7-at-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 AT VX-R, 1998-01–2002-07; 2UZ-FE 4663 см³, 238 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-diesel-turbo-4wd-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+  },
+  {
+    "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-active-vacation-type-a-diesel-turbo-4wd-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type A diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+  },
+  {
+    "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-active-vacation-type-b-diesel-turbo-4wd-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type B diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
   }
 ];

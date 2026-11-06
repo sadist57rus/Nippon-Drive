@@ -14254,6 +14254,666 @@
         }
       ],
       "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+    },
+    {
+      "id": "accord-cl-eu-cl7-2-0-mt-comfort",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL7",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.0 MT Comfort",
+      "engineCode": "K20Z2",
+      "engine": {
+        "code": "K20Z2",
+        "displacementCc": 1998,
+        "powerHp": 155,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL7, 2.0 MT Comfort; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl7-2-0-mt-sport",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL7",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.0 MT Sport",
+      "engineCode": "K20Z2",
+      "engine": {
+        "code": "K20Z2",
+        "displacementCc": 1998,
+        "powerHp": 155,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL7, 2.0 MT Sport; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl7-2-0-mt-executive",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL7",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.0 MT Executive",
+      "engineCode": "K20Z2",
+      "engine": {
+        "code": "K20Z2",
+        "displacementCc": 1998,
+        "powerHp": 155,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL7, 2.0 MT Executive; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl7-2-0-at-comfort",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL7",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.0 AT Comfort",
+      "engineCode": "K20Z2",
+      "engine": {
+        "code": "K20Z2",
+        "displacementCc": 1998,
+        "powerHp": 155,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL7, 2.0 AT Comfort; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl7-2-0-at-sport",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL7",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.0 AT Sport",
+      "engineCode": "K20Z2",
+      "engine": {
+        "code": "K20Z2",
+        "displacementCc": 1998,
+        "powerHp": 155,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL7, 2.0 AT Sport; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl7-2-0-at-executive",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL7",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.0 AT Executive",
+      "engineCode": "K20Z2",
+      "engine": {
+        "code": "K20Z2",
+        "displacementCc": 1998,
+        "powerHp": 155,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL7, 2.0 AT Executive; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cn1-2-2-i-ctdi-mt-sport",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CN1",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.2 i-CTDi MT Sport",
+      "engineCode": "N22A1",
+      "engine": {
+        "code": "N22A1",
+        "displacementCc": 2204,
+        "powerHp": 140,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CN1, 2.2 i-CTDi MT Sport; N22A1 2204 см³, 140 л.с., MT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cn1-2-2-i-ctdi-mt-executive",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CN1",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.2 i-CTDi MT Executive",
+      "engineCode": "N22A1",
+      "engine": {
+        "code": "N22A1",
+        "displacementCc": 2204,
+        "powerHp": 140,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CN1, 2.2 i-CTDi MT Executive; N22A1 2204 см³, 140 л.с., MT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl9-2-4-mt-type-s",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL9",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.4 MT Type-S",
+      "engineCode": "K24A3",
+      "engine": {
+        "code": "K24A3",
+        "displacementCc": 2354,
+        "powerHp": 190,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL9, 2.4 MT Type-S; K24A3 2354 см³, 190 л.с., MT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl9-2-4-mt-executive",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL9",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.4 MT Executive",
+      "engineCode": "K24A3",
+      "engine": {
+        "code": "K24A3",
+        "displacementCc": 2354,
+        "powerHp": 190,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL9, 2.4 MT Executive; K24A3 2354 см³, 190 л.с., MT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl9-2-4-at-type-s",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL9",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.4 AT Type-S",
+      "engineCode": "K24A3",
+      "engine": {
+        "code": "K24A3",
+        "displacementCc": 2354,
+        "powerHp": 190,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL9, 2.4 AT Type-S; K24A3 2354 см³, 190 л.с., AT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    },
+    {
+      "id": "accord-cl-eu-cl9-2-4-at-executive",
+      "modelId": "honda-accord",
+      "generationId": "honda-accord-cl",
+      "market": "Европа",
+      "modelYearFrom": 2002,
+      "modelYearTo": 2005,
+      "productionMonthFrom": "2002-10",
+      "productionMonthTo": "2005-12",
+      "bodyCode": "CL9",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "2.4 AT Executive",
+      "engineCode": "K24A3",
+      "engine": {
+        "code": "K24A3",
+        "displacementCc": 2354,
+        "powerHp": 190,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "FWD",
+      "steeringPosition": "unknown",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+          "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "CL9, 2.4 AT Executive; K24A3 2354 см³, 190 л.с., AT, FWD, 10.2002–12.2005",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+        },
+        {
+          "field": "tires",
+          "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
     }
   ]
 }

@@ -2368,3 +2368,67 @@ const mazdaBrandForBl = JAPANESE_BRANDS.find((brand) => brand.id === 'mazda');
 if (mazdaBrandForBl && !mazdaBrandForBl.models.some((model) => model.id === mazda3BlRussia.id)) {
   mazdaBrandForBl.models.push(mazda3BlRussia);
 }
+
+
+// Honda Accord VII CL — отдельная модельная запись для европейского седана.
+// Комплектации и агрегаты взяты из таблицы Drom; неподтверждённые поля не заполняются.
+const hondaAccordCl = makeSupplementalModel({
+  id: 'honda-accord',
+  brandId: 'honda',
+  name: 'Accord VII (CL, седан)',
+  generation: 'VII поколение CL, европейская спецификация',
+  years: '2002–2005',
+  bodyType: 'Седан',
+  overview: 'Европейский Honda Accord VII в кузове седан CL. В каталоге Drom отдельно указаны CL7 2.0 K20Z2, CL9 2.4 K24A3 и CN1 2.2 i-CTDi N22A1. Не объединять с японскими праворульными и американскими версиями.',
+  lengthMm: null,
+  widthMm: null,
+  heightMm: null,
+  wheelbaseMm: null,
+  groundClearanceMm: null,
+  trunkVolumeLiters: 'Нет подтверждённых данных для точной европейской комплектации',
+  fuelTankLiters: null,
+  curbWeightKg: 'Нет подтверждённых данных для точной комплектации',
+  engines: [
+    {
+      code: 'K20Z2', name: '2.0 i-VTEC бензин', displacement: '1998 см³',
+      powerHp: '155 л.с.', torqueNm: 'Нет подтверждённых данных для точной комплектации',
+      valves: 'Рядный 4-цилиндровый DOHC', fuelSystem: 'Нет подтверждённых данных для точной комплектации',
+      timingDrive: 'Нет подтверждённых данных для точной комплектации',
+      strengths: ['Код двигателя и мощность указаны для CL7 в европейском каталоге Drom'],
+      weaknesses: ['Не переносить характеристики на K20A/K20Z и другие рынки без сверки']
+    },
+    {
+      code: 'K24A3', name: '2.4 i-VTEC бензин', displacement: '2354 см³',
+      powerHp: '190 л.с.', torqueNm: 'Нет подтверждённых данных для точной комплектации',
+      valves: 'Рядный 4-цилиндровый DOHC', fuelSystem: 'Нет подтверждённых данных для точной комплектации',
+      timingDrive: 'Нет подтверждённых данных для точной комплектации',
+      strengths: ['Код двигателя и мощность указаны для CL9 в европейском каталоге Drom'],
+      weaknesses: ['Не переносить характеристики на K24A/K24Z других рынков']
+    },
+    {
+      code: 'N22A1', name: '2.2 i-CTDi дизель', displacement: '2204 см³',
+      powerHp: '140 л.с.', torqueNm: 'Нет подтверждённых данных для точной комплектации',
+      valves: 'Рядный 4-цилиндровый DOHC', fuelSystem: 'Common Rail — уточнить по заводскому документу',
+      timingDrive: 'Нет подтверждённых данных для точной комплектации',
+      strengths: ['Код двигателя и мощность указаны для CN1 в европейском каталоге Drom'],
+      weaknesses: ['Точные сервисные параметры требуют документа для N22A1 и VIN']
+    }
+  ],
+  transmissions: [
+    'МКПП — число передач и код коробки в используемой карточке Drom не указаны',
+    'АКПП — число передач и код коробки в используемой карточке Drom не указаны'
+  ],
+  drivetrain: 'Передний привод (FWD) для перечисленных европейских комплектаций.',
+  sourceNotes: 'Европейский Honda Accord CL 10.2002–12.2005: CL7 2.0 K20Z2 155 л.с. с MT/AT; CN1 2.2 i-CTDi N22A1 140 л.с. с MT; CL9 2.4 K24A3 190 л.с. с MT/AT. Drom не приводит в этой таблице число передач, момент двигателя, габариты, массу и точные сервисные параметры. Запись unverified; не использовать как VIN-подбор.',
+  sourceReferences: [
+    {
+      label: 'Drom — Honda Accord CL, Европа, 2002–2005',
+      url: 'https://www.drom.ru/catalog/honda/accord/g_2002_22307/',
+      scope: 'Европейский седан CL: коды кузовов CL7/CL9/CN1, двигатели, мощность, тип КПП и периоды комплектаций.'
+    }
+  ]
+});
+const hondaBrandForAccord = JAPANESE_BRANDS.find((brand) => brand.id === 'honda');
+if (hondaBrandForAccord && !hondaBrandForAccord.models.some((model) => model.id === hondaAccordCl.id)) {
+  hondaBrandForAccord.models.push(hondaAccordCl);
+}

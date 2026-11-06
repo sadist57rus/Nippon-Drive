@@ -33,7 +33,18 @@ export interface VehicleVariant {
   transmissionType?: 'MT' | 'AT' | 'CVT' | 'DCT' | 'AMT' | 'EV-reduction' | 'other';
   drivetrain?: 'FWD' | 'RWD' | 'AWD' | '4WD' | 'other';
   steeringPosition?: 'LHD' | 'RHD' | 'both' | 'unknown';
-  dimensions?: CarDimensions;
+  dimensions?: Partial<CarDimensions>;
+  trackFrontMm?: number;
+  trackRearMm?: number;
+  turningRadiusM?: number;
+  curbWeightKg?: number;
+  fuelTankLiters?: number;
+  luggageVolumeLiters?: number;
+  tireSizes?: string[];
+  rimSize?: string;
+  fuelEconomy?: { city?: string; highway?: string; combined?: string; fuelGrade?: string };
+  acceleration0To100Sec?: number;
+  maxSpeedKmh?: number;
   interiorDimensions?: InteriorDimensions | null;
   wheelFitments?: WheelRimFitment[];
   tires?: TireOption[];
@@ -74,6 +85,10 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
   }
   for (const [key, value] of Object.entries(variant.specification?.engineOil ?? {})) {
     if (value && /^(unknown|tbd|уточнить|зависит от)$/i.test(value.trim())) errors.push(`engineOil.${key} contains a placeholder`);
+  }
+  for (const key of ['trackFrontMm', 'trackRearMm', 'turningRadiusM', 'curbWeightKg', 'fuelTankLiters', 'luggageVolumeLiters', 'acceleration0To100Sec', 'maxSpeedKmh'] as const) {
+    const value = variant[key];
+    if (value !== undefined && (!Number.isFinite(value) || value <= 0)) errors.push(`${key} must be positive when supplied`);
   }
   if (variant.dimensions) {
     for (const [key, value] of Object.entries(variant.dimensions)) {

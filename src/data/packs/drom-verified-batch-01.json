@@ -19695,65 +19695,6 @@
       "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
     },
     {
-      "id": "mazda6-gh--r2aa-163-2-2cd-mt-sports-line-2009-2012-82",
-      "modelId": "mazda-6-atenza-194",
-      "generationId": "drom-mazda-6atenza-gh",
-      "market": "Европа",
-      "modelYearFrom": 2009,
-      "modelYearTo": 2012,
-      "productionMonthFrom": "2010-03",
-      "productionMonthTo": "2012-07",
-      "bodyCode": "GH",
-      "bodyStyle": "Универсал рестайлинг",
-      "trimOrGrade": "2.2CD MT Sports-Line",
-      "engineCode": "R2AA",
-      "engine": {
-        "code": "R2AA",
-        "displacementCc": 2184,
-        "powerHp": 163,
-        "fuelType": "Дизель"
-      },
-      "transmissionType": "MT",
-      "drivetrain": "FWD",
-      "steeringPosition": "unknown",
-      "tires": [],
-      "wheelFitments": [],
-      "verificationStatus": "partially-verified",
-      "sources": [
-        {
-          "label": "Drom — Mazda6 GH Универсал рестайлинг",
-          "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
-          "sourceType": "secondary-reference",
-          "market": "Европа",
-          "scope": "2.2CD MT Sports-Line; R2AA, 2184 см³, 163 л.с., MT, FWD; 2010-03–2012-07",
-          "accessedAt": "2026-11-06"
-        }
-      ],
-      "limitations": [
-        {
-          "field": "dimensions",
-          "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
-        },
-        {
-          "field": "engineTorque",
-          "reason": "Крутящий момент не указан в использованной таблице комплектаций."
-        },
-        {
-          "field": "transmissionCode",
-          "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
-        },
-        {
-          "field": "tires",
-          "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
-        },
-        {
-          "field": "wheelFitments",
-          "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
-        }
-      ],
-      "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
-    },
-    {
       "id": "mazda6-gh--r2aa-180-2-2cd-mt-sports-line-2009-2012-83",
       "modelId": "mazda-6-atenza-194",
       "generationId": "drom-mazda-6atenza-gh",
@@ -20814,6 +20755,65 @@
         }
       ],
       "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
+    },
+    {
+      "id": "honda-civic-fb-r18a1-139-at-lxi-uae-2011-2013",
+      "modelId": "honda-civic-147",
+      "generationId": "drom-honda-civic-fbfk",
+      "market": "ОАЭ",
+      "modelYearFrom": 2011,
+      "modelYearTo": 2013,
+      "productionMonthFrom": "2011-07",
+      "productionMonthTo": "2013-04",
+      "bodyCode": "FB",
+      "bodyStyle": "Седан",
+      "trimOrGrade": "1.8 AT LXi",
+      "engineCode": "R18A1",
+      "engine": {
+        "code": "R18A1",
+        "displacementCc": 1799,
+        "powerHp": 139,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "FWD",
+      "steeringPosition": "LHD",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Honda Civic FB, рынок ОАЭ",
+          "url": "https://www.drom.ru/catalog/honda/civic/g_2011_25045/",
+          "sourceType": "secondary-reference",
+          "market": "ОАЭ",
+          "scope": "FB sedan 1.8 AT LXi; R18A1, 1799 см³, 139 л.с., AT, FWD, 07.2011–04.2013",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+        },
+        {
+          "field": "engineTorque",
+          "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Заводской код АКПП не подтверждён."
+        },
+        {
+          "field": "tires",
+          "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+        }
+      ],
+      "notes": "Отдельная версия FB для рынка ОАЭ; не переносить характеристики на FK/FN или другие рынки."
     }
   ]
 }

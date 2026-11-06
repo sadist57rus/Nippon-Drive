@@ -61,7 +61,7 @@ test('мастер проводит от марки до сохранения б
   await walkToModification(page, 'toyota');
   await completeAndSave(page);
   await expect(page.getByTestId('phone-bottom-navigation')).toBeVisible();
-  await expect(page.locator('main')).toContainText('Toyota');
+  await expect(page.locator('main')).toContainText('Тойота');
 });
 
 test('поиск понимает русский и английский и ведёт сразу к модификации', async ({ page }) => {
@@ -79,7 +79,7 @@ test('поиск понимает русский и английский и ве
   await input.fill('аутлендер');
   await expect(modelResults.first()).toBeVisible();
 
-  await input.fill('zzzzqq');
+  await input.fill('qzxvjkqzxvjkqzxvjk');
   await expect(page.getByText(/Ничего не нашли/)).toBeVisible();
 
   await input.fill('outlander');
@@ -98,8 +98,8 @@ test('просмотр справочника не меняет вашу маш�
   await expect(page.getByTestId('make-mine-bar')).toBeVisible();
 
   await page.getByTestId('phone-nav-item-overview').click();
-  await expect(page.locator('main')).toContainText('Toyota');
-  await expect(page.locator('main')).not.toContainText('Honda');
+  await expect(page.locator('main')).toContainText('Тойота');
+  await expect(page.locator('main')).not.toContainText('Хонда');
 
   await openBrandsHub(page);
   await expect(page.getByTestId('make-mine-bar')).toBeVisible();
@@ -108,5 +108,5 @@ test('просмотр справочника не меняет вашу маш�
   await completeAndSave(page);
 
   await expect(page.getByTestId('phone-bottom-navigation')).toBeVisible();
-  await expect(page.locator('main')).toContainText('Honda');
+  await expect(page.locator('main')).toContainText('Хонда');
 });

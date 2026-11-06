@@ -14089,6 +14089,171 @@
         }
       ],
       "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+    },
+    {
+      "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-diesel-turbo-4wd-at",
+      "modelId": "toyota-land-cruiser-100",
+      "generationId": "toyota-land-cruiser-100",
+      "market": "Япония",
+      "modelYearFrom": 2000,
+      "modelYearTo": 2002,
+      "productionMonthFrom": "2000-05",
+      "productionMonthTo": "2002-07",
+      "bodyCode": "KG-HDJ101K",
+      "bodyStyle": "SUV, 5 дверей",
+      "trimOrGrade": "4.2 VX diesel turbo 4WD",
+      "engineCode": "1HD-FTE",
+      "engine": {
+        "code": "1HD-FTE",
+        "displacementCc": 4163,
+        "powerHp": 205,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "RHD",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+          "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "KG-HDJ101K, 4.2 VX diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+        },
+        {
+          "field": "tires",
+          "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+    },
+    {
+      "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-active-vacation-type-a-diesel-turbo-4wd-at",
+      "modelId": "toyota-land-cruiser-100",
+      "generationId": "toyota-land-cruiser-100",
+      "market": "Япония",
+      "modelYearFrom": 2000,
+      "modelYearTo": 2002,
+      "productionMonthFrom": "2000-05",
+      "productionMonthTo": "2002-07",
+      "bodyCode": "KG-HDJ101K",
+      "bodyStyle": "SUV, 5 дверей",
+      "trimOrGrade": "4.2 VX active vacation type A diesel turbo 4WD",
+      "engineCode": "1HD-FTE",
+      "engine": {
+        "code": "1HD-FTE",
+        "displacementCc": 4163,
+        "powerHp": 205,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "RHD",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+          "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "KG-HDJ101K, 4.2 VX active vacation type A diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+        },
+        {
+          "field": "tires",
+          "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+    },
+    {
+      "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-active-vacation-type-b-diesel-turbo-4wd-at",
+      "modelId": "toyota-land-cruiser-100",
+      "generationId": "toyota-land-cruiser-100",
+      "market": "Япония",
+      "modelYearFrom": 2000,
+      "modelYearTo": 2002,
+      "productionMonthFrom": "2000-05",
+      "productionMonthTo": "2002-07",
+      "bodyCode": "KG-HDJ101K",
+      "bodyStyle": "SUV, 5 дверей",
+      "trimOrGrade": "4.2 VX active vacation type B diesel turbo 4WD",
+      "engineCode": "1HD-FTE",
+      "engine": {
+        "code": "1HD-FTE",
+        "displacementCc": 4163,
+        "powerHp": 205,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "RHD",
+      "tires": [],
+      "wheelFitments": [],
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+          "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+          "sourceType": "secondary-reference",
+          "market": "Япония",
+          "scope": "KG-HDJ101K, 4.2 VX active vacation type B diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "dimensions",
+          "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+        },
+        {
+          "field": "tires",
+          "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+        }
+      ],
+      "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
     }
   ]
 }

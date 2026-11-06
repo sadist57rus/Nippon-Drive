@@ -9060,6 +9060,711 @@
         }
       ],
       "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+    },
+    {
+      "id": "suzuki-jimny-jb64-k15b-102-mt-ru-2018-2022",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb74",
+      "market": "Россия",
+      "modelYearFrom": 2018,
+      "modelYearTo": 2022,
+      "bodyCode": "JB64",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.5 102 л.с. 5MT 4WD",
+      "engineCode": "K15B",
+      "engine": {
+        "code": "K15B",
+        "displacementCc": 1462,
+        "powerHp": 102,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB64, Россия, 06.2018–12.2022; K15B 1462 см³, 102 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb64-k15b-102-at-ru-2018-2022",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb74",
+      "market": "Россия",
+      "modelYearFrom": 2018,
+      "modelYearTo": 2022,
+      "bodyCode": "JB64",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.5 102 л.с. 4AT 4WD",
+      "engineCode": "K15B",
+      "engine": {
+        "code": "K15B",
+        "displacementCc": 1462,
+        "powerHp": 102,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB64, Россия, 06.2018–12.2022; K15B 1462 см³, 102 л.с.; АКПП 4, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-85-mt-ru-2012-2019",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Россия",
+      "modelYearFrom": 2012,
+      "modelYearTo": 2019,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 85 л.с. 5MT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 85,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB43, Россия, 07.2012–05.2019; M13A 1328 см³, 85 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-85-at-ru-2012-2019",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Россия",
+      "modelYearFrom": 2012,
+      "modelYearTo": 2019,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 85 л.с. 4AT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 85,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB43, Россия, 07.2012–05.2019; M13A 1328 см³, 85 л.с.; АКПП 4, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-85-mt-ru-2005-2012",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Россия",
+      "modelYearFrom": 2005,
+      "modelYearTo": 2012,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 85 л.с. 5MT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 85,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB43, Россия, 08.2005–06.2012; M13A 1328 см³, 85 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-85-at-ru-2005-2012",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Россия",
+      "modelYearFrom": 2005,
+      "modelYearTo": 2012,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 85 л.с. 4AT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 85,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB43, Россия, 08.2005–06.2012; M13A 1328 см³, 85 л.с.; АКПП 4, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-g13bb-80-mt-ru-1998-2005",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Россия",
+      "modelYearFrom": 1998,
+      "modelYearTo": 2005,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 80 л.с. 5MT 4WD",
+      "engineCode": "G13BB",
+      "engine": {
+        "code": "G13BB",
+        "displacementCc": 1298,
+        "powerHp": 80,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB43, Россия, 10.1998–07.2005; G13BB 1298 см³, 80 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-82-mt-ru-1998-2005",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Россия",
+      "modelYearFrom": 1998,
+      "modelYearTo": 2005,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 82 л.с. 5MT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 82,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB43, Россия, 10.1998–07.2005; M13A 1328 см³, 82 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-82-at-ru-1998-2005",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Россия",
+      "modelYearFrom": 1998,
+      "modelYearTo": 2005,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 82 л.с. 4AT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 82,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "unknown",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+          "sourceType": "secondary-reference",
+          "market": "Россия",
+          "scope": "Jimny JB43, Россия, 10.1998–07.2005; M13A 1328 см³, 82 л.с.; АКПП 4, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-86-mt-eu-2012-2018",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Европа",
+      "modelYearFrom": 2012,
+      "modelYearTo": 2018,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 86 л.с. 5MT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 86,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "LHD",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "Jimny JB43, Европа, 07.2012–07.2018; M13A 1328 см³, 86 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-86-at-eu-2012-2018",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Европа",
+      "modelYearFrom": 2012,
+      "modelYearTo": 2018,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 86 л.с. 4AT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 86,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "LHD",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "Jimny JB43, Европа, 07.2012–07.2018; M13A 1328 см³, 86 л.с.; АКПП 4, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-86-mt-eu-2005-2012",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Европа",
+      "modelYearFrom": 2005,
+      "modelYearTo": 2012,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 86 л.с. 5MT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 86,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "LHD",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "Jimny JB43, Европа, 08.2005–06.2012; M13A 1328 см³, 86 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-m13a-86-at-eu-2005-2012",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Европа",
+      "modelYearFrom": 2005,
+      "modelYearTo": 2012,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 86 л.с. 4AT 4WD",
+      "engineCode": "M13A",
+      "engine": {
+        "code": "M13A",
+        "displacementCc": 1328,
+        "powerHp": 86,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "AT",
+      "drivetrain": "4WD",
+      "steeringPosition": "LHD",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "Jimny JB43, Европа, 08.2005–06.2012; M13A 1328 см³, 86 л.с.; АКПП 4, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-k9k-266-86-mt-eu-2005-2012",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Европа",
+      "modelYearFrom": 2005,
+      "modelYearTo": 2012,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.5 DDiS 86 л.с. 5MT 4WD",
+      "engineCode": "K9K 266",
+      "engine": {
+        "code": "K9K 266",
+        "displacementCc": 1461,
+        "powerHp": 86,
+        "fuelType": "Дизель"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "LHD",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "Jimny JB43, Европа, 08.2005–06.2012; K9K 266 1461 см³, 86 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+    },
+    {
+      "id": "suzuki-jimny-jb43-g13bb-80-mt-eu-1999-2005",
+      "modelId": "suzuki-jimny-3",
+      "generationId": "suzuki-jimny-jb43",
+      "market": "Европа",
+      "modelYearFrom": 1999,
+      "modelYearTo": 2005,
+      "bodyCode": "JB43",
+      "bodyStyle": "SUV 3 дв.",
+      "trimOrGrade": "1.3 80 л.с. 5MT 4WD",
+      "engineCode": "G13BB",
+      "engine": {
+        "code": "G13BB",
+        "displacementCc": 1298,
+        "powerHp": 80,
+        "fuelType": "Бензин"
+      },
+      "transmissionType": "MT",
+      "drivetrain": "4WD",
+      "steeringPosition": "LHD",
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+          "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+          "sourceType": "secondary-reference",
+          "market": "Европа",
+          "scope": "Jimny JB43, Европа, 12.1999–07.2005; G13BB 1298 см³, 80 л.с.; МКПП 5, 4WD",
+          "accessedAt": "2026-11-06"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "transmissionCode",
+          "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+        },
+        {
+          "field": "dimensions",
+          "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+        },
+        {
+          "field": "market",
+          "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+        }
+      ],
+      "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
     }
   ]
 }

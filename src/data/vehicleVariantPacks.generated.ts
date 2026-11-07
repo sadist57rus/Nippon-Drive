@@ -28511,7 +28511,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "batch50-honda-fit-gd",
-    "modelId": "honda-fit-gd",
+    "modelId": "honda-fit-gd-hatchback",
     "generationId": "batch50-honda-fit-gd",
     "market": "не указан в источнике",
     "modelYearFrom": 2001,
@@ -28713,7 +28713,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
   },
   {
     "id": "batch50-subaru-legacy-bp",
-    "modelId": "subaru-legacy-bp",
+    "modelId": "subaru-legacy-bp-wagon",
     "generationId": "drom-subaru-legacy-blbp",
     "market": "не указан в источнике",
     "modelYearFrom": 2003,

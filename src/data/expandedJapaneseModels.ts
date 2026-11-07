@@ -278,11 +278,16 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 155, trunkVolumeLiters: 'Универсал; объём зависит от методики измерения', fuelTankLiters: 50,
     curbWeightKg: 'Ориентировочно 1100–1350 кг',
     engines: [
-      { code: '1NZ-FE', name: '1.5 л бензин, VVT-i', displacement: '1496 см³', powerHp: 'Зависит от версии и привода', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Широкая распространённость'], weaknesses: ['Параметры различаются по рынку'] },
-      { code: '2ZR-FE', name: '1.8 л бензин, Dual VVT-i', displacement: '1797 см³', powerHp: 'Зависит от рынка и года', torqueNm: 'Зависит от версии', valves: '16V DOHC Dual VVT-i', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая мощность'], weaknesses: ['Нужна проверка точной комплектации'] }
+      { code: '1NZ-FE', name: '1.5 л бензиновый VVT-i', displacement: '1496 см³', powerHp: '110 PS при 6000 об/мин (2WD); 105 PS для отдельных 4WD исполнений', torqueNm: '140 Н·м при 4400 об/мин (2WD); значение зависит от 4WD калибровки', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Параметры 2WD и 4WD не смешаны'], weaknesses: ['Для 4WD точный момент уточнять по кузовному коду'] },
+      { code: '2ZR-FE', name: '1.8 л бензиновый Dual VVT-i', displacement: '1797 см³', powerHp: '136 PS при 6000 об/мин (2WD); 125 PS для отдельных 4WD исполнений', torqueNm: '175 Н·м при 4400 об/мин (2WD); 163 Н·м при 4400 об/мин (4WD)', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Указаны отдельные показатели 2WD и 4WD'], weaknesses: ['Не переносить 2WD калибровку на 4WD'] }
     ],
     transmissions: ['МКПП / автоматическая трансмиссия / вариатор — в зависимости от версии'],
     drivetrain: 'Передний привод; на японском рынке доступны отдельные версии 4WD.',
+    sourceReferences: [
+      { label: 'Toyota Global — Corolla / Corolla Fielder launch specifications', url: 'https://global.toyota/en/detail/271959', scope: 'Заводские данные 1NZ-FE 1496 см³ 110 PS/140 Н·м и 2ZR-FE 1797 см³ 136 PS/175 Н·м для переднеприводной конфигурации.' },
+      { label: 'Drom — Corolla Fielder E140 engine specifications', url: 'https://www.drom.ru/catalog/toyota/corolla_fielder/specs/engine_capacity/', scope: 'Состав двигателей E140 и различия мощности по 2WD/4WD.' },
+      { label: 'Cars Japan — Corolla Fielder 2009 engine specifications', url: 'https://cars-japan.net/engine/yea00100162009.html', scope: 'DBA-NZE141G 1NZ-FE 110 PS/140 Н·м; DBA-ZRE142G 2ZR-FE 136 PS/175 Н·м; DBA-ZRE144G 2ZR-FE 125 PS/163 Н·м.' }
+    ],
     sourceNotes: 'Кузов универсал выделен отдельно от седана. Уточнить габариты и агрегаты по номеру кузова перед ремонтом.'
   }),
   makeSupplementalModel({
@@ -443,11 +448,13 @@ const supplementalModels: JapaneseCarModel[] = [
     lengthMm: 4460, widthMm: 1745, heightMm: 1490, wheelbaseMm: 2700,
     groundClearanceMm: 140, trunkVolumeLiters: 'Около 445 л, зависит от методики', fuelTankLiters: 45,
     curbWeightKg: 'Ориентировочно 1350–1450 кг',
-    engines: [
-      { code: '2ZR-FXE', name: '1.8 л Atkinson-cycle Hybrid', displacement: '1798 см³', powerHp: 'Система: около 136 л.с. суммарно; зависит от рынка', torqueNm: 'Зависит от методики указания для ДВС/системы', valves: '16V DOHC VVT-i', fuelSystem: 'Электронный впрыск, гибридная система', timingDrive: 'Цепь ГРМ', strengths: ['Низкий расход топлива в подходящих условиях'], weaknesses: ['Требует специализированной диагностики гибридной системы'] }
-    ],
+    engines: [{ code: '2ZR-FXE', name: '1.8 л Atkinson-cycle Hybrid, бензиновый ДВС', displacement: '1797 см³', powerHp: '99 PS при 5200 об/мин (ДВС); гибридная система 136 PS', torqueNm: '142 Н·м при 4000 об/мин (ДВС); электромотор 207 Н·м', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов, VVT-i', fuelSystem: 'EFI, гибридная система Toyota Hybrid Synergy Drive', timingDrive: 'Цепь ГРМ', strengths: ['Разделены показатели ДВС и суммарная мощность гибридной системы'], weaknesses: ['Момент электромотора не является моментом ДВС'] }],
     transmissions: ['Гибридная трансмиссия e-CVT (планетарный делитель мощности)'],
     drivetrain: 'Передний привод в большинстве версий; привод зависит от рынка.',
+    sourceReferences: [
+      { label: 'Toyota Global — Third-generation Prius launch', url: 'https://global.toyota/en/detail/308252', scope: 'Заводские данные 2ZR-FXE: 1797 см³, 99 PS/142 Н·м; электромотор 82 PS/207 Н·м; суммарная мощность системы 136 PS.' },
+      { label: 'Toyota Japan — Prius ZVW30 G specification', url: 'https://toyota.jp/ucar/catalog/brand-TOYOTA/car-PRIUS/200905/10055320/', scope: 'Японская версия DAA-ZVW30: двигатель 2ZR-FXE, 99 PS/142 Н·м, 1797 см³.' }
+    ],
     sourceNotes: 'Гибридная системная мощность не равна мощности ДВС. Перед ремонтом проверять спецификацию для рынка и высоковольтную безопасность.'
   }),
   makeSupplementalModel({
@@ -571,10 +578,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Компактный внедорожник с разными версиями трансмиссии 4WD; названия и моторы зависят от рынка.',
     lengthMm: 3975, widthMm: 1680, heightMm: 1700, wheelbaseMm: 2450, groundClearanceMm: 200, trunkVolumeLiters: 'Зависит от кузова', fuelTankLiters: 53, curbWeightKg: '1250–1500 кг',
     engines: [
-      { code: '4G93', name: '1.8 л GDI/MPI', displacement: '1834 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'GDI или MPI — проверить конкретный мотор', timingDrive: 'Ремень ГРМ', strengths: ['Компактный размер и внедорожная трансмиссия'], weaknesses: ['GDI чувствителен к состоянию топливной системы'] },
-      { code: '4G94', name: '2.0 л GDI — отдельные версии', displacement: '1999 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от рынка', valves: '16V DOHC', fuelSystem: 'GDI', timingDrive: 'Ремень ГРМ', strengths: ['Тяга для небольшого кузова'], weaknesses: ['Требует диагностики высокого давления и впуска'] }
+      { code: '4G93', name: '1.8 л бензин GDI/MPI; конкретная система впрыска зависит от исполнения', displacement: '1834 см³', powerHp: '116 PS при 5500 об/мин (TA-H76W, атмосферная версия); 160 PS при 5200 об/мин (TR turbo)', torqueNm: '160 Н·м при 4000 об/мин (атмосферная); 220 Н·м при 3500 об/мин (TR turbo)', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'GDI или MPI; различать по коду/маркировке конкретного двигателя', timingDrive: 'Ремень ГРМ', strengths: ['Параметры разделены для атмосферного и турбированного исполнений'], weaknesses: ['Не переносить показатели TR turbo на атмосферный 4G93'] },
+      { code: '4G94', name: '2.0 л бензин GDI', displacement: '1999 см³', powerHp: '136 PS при 5500 об/мин', torqueNm: '191 Н·м при 3500 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'GDI', timingDrive: 'Ремень ГРМ', strengths: ['Параметры подтверждены для TA-H77W 2.0'], weaknesses: ['Не смешивать с 4G93 1.8'] }
     ],
     transmissions: ['МКПП', 'АКПП'], drivetrain: 'Easy Select / Full-time 4WD — зависит от версии; проверить рычаг/код трансмиссии.',
+    sourceReferences: [
+      { label: 'Cars Japan — Mitsubishi Pajero iO engine specifications', url: 'https://cars-japan.net/engine/mdl0040035.html', scope: 'Модификации TA-H76W 4G93 1.8: 116 PS/160 Н·м; TA-H77W 4G94 2.0: 136 PS/191 Н·м; отдельно показан TR 4G93 turbo 160 PS/220 Н·м.' }
+    ],
     sourceNotes: 'Pajero iO/Pinin имеет отличия по рынкам и типу 4WD. Сервисные спецификации уточнять по номеру кузова.'
   }),
   makeSupplementalModel({
@@ -582,20 +592,28 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Среднеразмерный седан; двигатели 2.4/3.5 и коробки зависят от рынка, есть гибридная версия на отдельных рынках.',
     lengthMm: 4815, widthMm: 1820, heightMm: 1480, wheelbaseMm: 2775, groundClearanceMm: 155, trunkVolumeLiters: '535 л (зависит от рынка)', fuelTankLiters: 70, curbWeightKg: '1450–1650 кг',
     engines: [
-      { code: '2AZ-FE', name: '2.4 л бензин', displacement: '2362 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Распространённый мотор'], weaknesses: ['Проверять расход масла и состояние резьбы/охлаждения по истории конкретного двигателя'] },
-      { code: '2GR-FE', name: '3.5 л V6', displacement: '3456 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '24V DOHC Dual VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Высокая мощность'], weaknesses: ['Обслуживание и доступ к узлам дороже'] }
+      { code: '2AZ-FE', name: '2.4 л бензиновый VVT-i', displacement: '2362 см³', powerHp: '167 PS при 6000 об/мин (Япония); 158 hp при 6000 об/мин (США)', torqueNm: '224 Н·м при 4000 об/мин (Япония); 219 Н·м при 4000 об/мин (США)', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Отдельно указаны японская и американская калибровки'], weaknesses: ['Не переносить показатели одного рынка на другой'] },
+      { code: '2GR-FE', name: '3.5 л бензиновый V6 Dual VVT-i', displacement: '3456 см³', powerHp: '268 hp при 6200 об/мин (США, 2007)', torqueNm: '337 Н·м при 4700 об/мин (США, 2007)', valves: 'V6 DOHC, 24 клапана, Dual VVT-i', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Параметры относятся к американской спецификации 2007 года'], weaknesses: ['Не использовать для японских 3.5 без проверки местной калибровки'] }
     ],
-    transmissions: ['5-ступенчатая АКПП', '6-ступенчатая АКПП — по версии'], sourceNotes: 'XV40 для разных рынков имеет разные двигатели и системы. Точные заправочные объёмы брать из руководства соответствующего рынка.'
+    transmissions: ['5-ступенчатая АКПП', '6-ступенчатая АКПП — по версии'], sourceReferences: [
+      { label: 'Toyota Japan — Camry ACV40 G (2006)', url: 'https://toyota.jp/ucar/catalog/brand-TOYOTA/car-CAMRY/200601/10032258/', scope: 'Японская ACV40 с 2AZ-FE: 2362 см³, 167 PS/224 Н·м.' },
+      { label: 'Toyota Global — 2007 Camry technical specifications', url: 'https://global.toyota/en/newsroom/corporate/25616832.html', scope: 'Американская Camry 2007: 2AZ-FE 158 hp/219 Н·м и 2GR-FE 268 hp/337 Н·м.' }
+    ],
+    sourceNotes: 'XV40 для разных рынков имеет разные двигатели и системы. Точные заправочные объёмы брать из руководства соответствующего рынка.'
   }),
   makeSupplementalModel({
     id: 'toyota-prado-j120-suv', brandId: 'toyota', name: 'Land Cruiser Prado (J120)', generation: 'III поколение', years: '2002–2009', bodyType: 'Внедорожник',
     overview: 'Рамный внедорожник с бензиновыми и дизельными моторами, постоянным/подключаемым 4WD в зависимости от исполнения.',
     lengthMm: 4715, widthMm: 1875, heightMm: 1870, wheelbaseMm: 2790, groundClearanceMm: 220, trunkVolumeLiters: 'Зависит от 3-го ряда', fuelTankLiters: 87, curbWeightKg: '1800–2200 кг',
     engines: [
-      { code: '1GR-FE', name: '4.0 л V6 бензин', displacement: '3956 см³', powerHp: 'Зависит от года/рынка', torqueNm: 'Зависит от версии', valves: '24V DOHC Dual VVT-i/ VVT-i по версии', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Проверять систему охлаждения и течи'] },
-      { code: '1KD-FTV', name: '3.0 л турбодизель', displacement: '2982 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '16V DOHC Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Ремень ГРМ', strengths: ['Высокий крутящий момент'], weaknesses: ['Форсунки и топливная система требуют диагностики'] }
+      { code: '1GR-FE', name: '4.0 л бензиновый V6 VVT-i', displacement: '3956 см³', powerHp: '249 PS при 5200 об/мин (японское исполнение GRJ120, с 2005 года)', torqueNm: '380 Н·м при 3800 об/мин (указанное японское исполнение)', valves: 'V6 DOHC, 24 клапана', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Приведена отдельная поздняя спецификация GRJ120'], weaknesses: ['Не переносить на ранние J120 с 5VZ-FE/3RZ-FE'] },
+      { code: '1KD-FTV', name: '3.0 л турбодизель D-4D', displacement: '2982 см³', powerHp: '170 PS при 3400 об/мин (японское исполнение KDJ120)', torqueNm: '352 Н·м при 1400–3400 об/мин (указанное исполнение)', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Common Rail direct injection', timingDrive: 'Ремень ГРМ', strengths: ['Параметры указаны для версии KDJ120'], weaknesses: ['Ранние и экспортные калибровки могут отличаться'] }
     ],
     transmissions: ['МКПП', 'АКПП'], drivetrain: '4WD; схема блокировок и межосевого дифференциала зависит от комплектации.',
+    sourceReferences: [
+      { label: 'Toyota — Land Cruiser Prado J120 specifications', url: 'https://www.jdmbuysell.com/learn/toyota/land-cruiser-prado/j120/', scope: 'Сводная разбивка J120 по кодам/годам; 1GR-FE 3955 см³ 249 PS/380 Н·м, 1KD-FTV 2982 см³ 170 PS/352 Н·м; сверять по конкретному рынку.' },
+      { label: 'Toyota — Prado export technical specifications', url: 'https://toyota.dreamhosters.com/pages/land_cruiser_prado/spec.php/86/spec.php', scope: 'Заводские параметры экспортных 1GR-FE и 1KD-FTV; они отличаются от некоторых японских калибровок.' }
+    ],
     sourceNotes: 'J120 включает несколько двигателей и рынков. Не переносить параметры J150 или Hilux; сверять код кузова и агрегатов.'
   }),
   makeSupplementalModel({
@@ -603,10 +621,15 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Компактный хэтчбек; Vitz — имя для японского рынка, Yaris — экспортное название.',
     lengthMm: 3750, widthMm: 1695, heightMm: 1530, wheelbaseMm: 2460, groundClearanceMm: 145, trunkVolumeLiters: 'Зависит от кузова и рынка', fuelTankLiters: 42, curbWeightKg: '950–1200 кг',
     engines: [
-      { code: '1KR-FE', name: '1.0 л бензин', displacement: '996 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '12V DOHC VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Экономичность'], weaknesses: ['Требует контроля масла и охлаждения'] },
-      { code: '1NZ-FE', name: '1.5 л бензин', displacement: '1496 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Надёжное распространённое семейство'], weaknesses: ['Проверять расход масла на возрастных экземплярах'] }
+      { code: '1KR-FE', name: '1.0 л бензиновый VVT-i', displacement: '996 см³', powerHp: '71 PS для японского KSP90; показатели экспортных версий зависят от рынка', torqueNm: '94 Н·м для японского KSP90', valves: 'Рядный 3-цилиндровый DOHC, 12 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Отдельно обозначен японский KSP90'], weaknesses: ['Не переносить на 1.3/1.5 и другие рынки'] },
+      { code: '1NZ-FE', name: '1.5 л бензиновый VVT-i', displacement: '1496 см³', powerHp: '110 PS для японского NCP91', torqueNm: '140 Н·м для японского NCP91', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Данные привязаны к японскому NCP91'], weaknesses: ['Европейские и японские калибровки различаются'] }
     ],
-    transmissions: ['МКПП', 'АКПП/вариатор — по рынку'], sourceNotes: 'XP90 включает несколько кузовов и рынков; точные размеры, лампы и жидкости требуют конкретного кода кузова.'
+    transmissions: ['МКПП', 'АКПП/вариатор — по рынку'], sourceReferences: [
+      { label: 'Toyota repair manual index — Yaris XP90', url: 'https://toyotamanuals.gitlab.io/toyotamanuals/', scope: 'Заводские руководства XP90 по кодам кузова и применяемым двигателям 1KR-FE/1NZ-FE.' },
+      { label: 'JIKIU application catalogue — Yaris XP90 1NZ-FE', url: 'https://jikiu.jp/catalogue/application?body%5B%5D=XP90+-+NCP91L&brand_id=88&eng_no%5B%5D=1NZ-FE&engine%5B%5D=1500&model_id%5B%5D=2623&product_id=328603', scope: 'Подтверждение применимости 1NZ-FE к XP90 NCP91; мощность/момент требуют отдельной проверки по конкретному рынку.' },
+      { label: 'Toyota — Yaris XP90 1KR-FE parts application', url: 'https://jikiu.jp/catalogue/application?body%5B%5D=XP90+-+KSP90L&brand_id=88&eng_no%5B%5D=1KR-FE&engine%5B%5D=1000&model_id%5B%5D=2623&product_id=329317', scope: 'Подтверждение применимости 1KR-FE к XP90 KSP90.' }
+    ],
+    sourceNotes: 'XP90 включает несколько кузовов и рынков; точные размеры, лампы и жидкости требуют конкретного кода кузова.'
   }),
   makeSupplementalModel({
     id: 'nissan-xtrail-t31-suv', brandId: 'nissan', name: 'X-Trail (T31)', generation: 'II поколение', years: '2007–2014', bodyType: 'Кроссовер',
@@ -733,10 +756,14 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Компактный кроссовер с бензиновыми и дизельными двигателями; привод и трансмиссия зависят от рынка.',
     lengthMm: 4600, widthMm: 1855, heightMm: 1685, wheelbaseMm: 2660, groundClearanceMm: 190, trunkVolumeLiters: 'Зависит от рынка', fuelTankLiters: 60, curbWeightKg: '1450–1700 кг',
     engines: [
-      { code: '2AZ-FE', name: '2.4 л бензин', displacement: '2362 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Широко распространённый двигатель'], weaknesses: ['Проверять расход масла и состояние охлаждения'] },
-      { code: '3ZR-FE', name: '2.0 л бензин — отдельные рынки', displacement: '1987 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC Dual VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Умеренный расход'], weaknesses: ['Не устанавливался во всех странах'] }
+      { code: '2AZ-FE', name: '2.4 л бензиновый VVT-i', displacement: '2362 см³', powerHp: '170 PS при 6000 об/мин (японская ACA31W)', torqueNm: '224 Н·м при 4000 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Параметры подтверждены для японской ACA31W 2006 года'], weaknesses: ['Не переносить на экспортные рынки без проверки'] },
+      { code: '3ZR-FE', name: '2.0 л бензиновый Dual VVT-i', displacement: '1987 см³', powerHp: '146 PS для японских исполнений с 3ZR-FE', torqueNm: '187 Н·м для соответствующей калибровки', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Отделён от 2AZ-FE 2.4'], weaknesses: ['Уточнять год и код кузова: 3ZR-FE не является универсальным мотором всех рынков XA30'] }
     ],
     transmissions: ['МКПП', 'АКПП', 'CVT — по рынку'], drivetrain: 'Передний привод или AWD; схема зависит от рынка и комплектации.',
+    sourceReferences: [
+      { label: 'Toyota Japan — RAV4 ACA31W X (2006)', url: 'https://toyota.jp/ucar/catalog/brand-TOYOTA/car-RAV4/200608/10035421/', scope: 'Японская ACA31W: 2AZ-FE 2362 см³, 170 PS/224 Н·м.' },
+      { label: 'Toyota Japan — RAV4 2AZ-FE (2008)', url: 'https://toyota.jp/ucar/catalog/brand-TOYOTA/car-RAV4/200809/10050289/', scope: 'Сверка поздней японской версии 2AZ-FE: 170 PS/224 Н·м.' }
+    ],
     sourceNotes: 'XA30 включает разные силовые агрегаты. Жидкость АКПП/CVT и редукторов не подбирать по одному названию модели.'
   }),
   makeSupplementalModel({
@@ -744,10 +771,14 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Рамный пикап с дизельными и бензиновыми двигателями; параметры зависят от региона, кабины и привода.',
     lengthMm: 5330, widthMm: 1855, heightMm: 1815, wheelbaseMm: 3085, groundClearanceMm: 279, trunkVolumeLiters: 'Грузовая платформа зависит от кабины', fuelTankLiters: 80, curbWeightKg: '1900–2300 кг',
     engines: [
-      { code: '2GD-FTV', name: '2.4 л турбодизель', displacement: '2393 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Цепь ГРМ', strengths: ['Высокая тяга на низких оборотах'], weaknesses: ['Проверять EGR/DPF и историю обслуживания'] },
-      { code: '1GD-FTV', name: '2.8 л турбодизель', displacement: '2755 см³', powerHp: 'Зависит от рынка и года', torqueNm: 'Зависит от версии', valves: '16V DOHC Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Цепь ГРМ', strengths: ['Высокий крутящий момент'], weaknesses: ['Экологическая система и турбонаддув требуют диагностики'] }
+      { code: '2GD-FTV', name: '2.4 л турбодизель D-4D', displacement: '2393 см³', powerHp: '150 PS при 3400 об/мин (заводская спецификация 2GD-FTV)', torqueNm: '400 Н·м при 1600–2000 об/мин (высокая калибровка; рынок-зависимо)', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Common Rail direct injection', timingDrive: 'Цепь ГРМ', strengths: ['Параметры привязаны к калибровке двигателя'], weaknesses: ['Встречаются низкая и высокая калибровки; проверять рынок'] },
+      { code: '1GD-FTV', name: '2.8 л турбодизель D-4D', displacement: '2755 см³', powerHp: '177 PS при 3400 об/мин (ранняя спецификация 2015 года)', torqueNm: '450 Н·м при 1600–2400 об/мин (ранняя спецификация 2015 года)', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Common Rail direct injection', timingDrive: 'Цепь ГРМ', strengths: ['Отдельно указана ранняя калибровка 1GD-FTV'], weaknesses: ['Более поздние версии имеют другие значения мощности и момента'] }
     ],
     transmissions: ['МКПП', 'АКПП'], drivetrain: 'RWD или подключаемый 4WD; проверить конкретную комплектацию.',
+    sourceReferences: [
+      { label: 'Toyota Global — revamped GD diesel engines (2015)', url: 'https://global.toyota/en/detail/8348091', scope: 'Заводские данные 1GD-FTV 2754 см³ 177 PS/450 Н·м и 2GD-FTV 2393 см³ 150 PS/400 Н·м; значения зависят от рынка.' },
+      { label: 'Toyota UK — Hilux technical specifications', url: 'https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/brochure-downloads/hilux-march.pdf', scope: 'Сравнение калибровок GD: 2GD-FTV 150 PS/400 Н·м и 1GD-FTV 204 PS/500 Н·м в более поздней версии; не смешивать с ранними 177 PS/450 Н·м.' }
+    ],
     sourceNotes: 'Hilux сильно отличается по региону, двигателю и кабине. Масла мостов/раздатки выбирать по коду агрегата.'
   }),
   makeSupplementalModel({
@@ -1182,9 +1213,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4730, widthMm: 1795, heightMm: 1870, wheelbaseMm: 2850, groundClearanceMm: 210,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 66, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: '4B12', name: '2.4 л MIVEC, атмосферный бензиновый', displacement: '2359 см³', powerHp: '170 PS при 6000 об/мин', torqueNm: '226 Н·м при 4100 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'ECI-MULTI, электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Параметры подтверждены для CV5W японского рынка'], weaknesses: ['Не переносить характеристики CV5W на дизельные и более поздние версии'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'GAZOO — Mitsubishi Delica D:5 CV5W 4B12 (2012)', url: 'https://gazoo.com/catalog/maker/MITSUBISHI/DELICA_D5/200701/10077421/', scope: 'CV5W: 4B12, 2359 см³, 170 PS/226 Н·м, атмосферный двигатель, ECI-MULTI.' },
+      { label: 'Cars Japan — Delica D:5 engine specifications', url: 'https://cars-japan.net/engine/mdl0040006.html', scope: 'Сверка модификаций CV5W/4B12 и CV4W/4B11 по годам и трансмиссии.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1192,9 +1227,20 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4680, widthMm: 1775, heightMm: 1900, wheelbaseMm: 2725, groundClearanceMm: 215,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 75, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [
+      { code: '4G64', name: '2.4 л бензиновый, атмосферный', displacement: '2350 см³', powerHp: '112–145 PS в зависимости от года и калибровки', torqueNm: '184–206 Н·м в зависимости от исполнения', valves: 'Рядный 4-цилиндровый бензиновый двигатель', fuelSystem: 'Бензиновый впрыск; вариант зависит от года и рынка', timingDrive: 'Ремень ГРМ', strengths: ['Диапазон относится к вариантам V20, перечисленным в каталоге'], weaknesses: ['Не считать диапазон характеристикой одной комплектации'] },
+      { code: '4D56', name: '2.5 л турбодизель', displacement: '2476 см³', powerHp: '85–105 PS в зависимости от версии', torqueNm: '196–240 Н·м в зависимости от версии', valves: 'Рядный 4-цилиндровый дизель', fuelSystem: 'Дизельный впрыск; атмосферные и турбированные версии не объединять при ремонте', timingDrive: 'Ремень ГРМ', strengths: ['Отдельно встречаются разные калибровки 4D56'], weaknesses: ['Точный тип наддува и топливной аппаратуры определяется модификацией'] },
+      { code: '4M40', name: '2.8 л турбодизель', displacement: '2835 см³', powerHp: '125–140 PS в зависимости от года', torqueNm: '292–314 Н·м в зависимости от исполнения', valves: 'Рядный 4-цилиндровый турбодизель', fuelSystem: 'Дизельный впрыск', timingDrive: 'Цепной привод ГРМ', strengths: ['Показатели различаются до и после обновлений'], weaknesses: ['Не переносить значения 140 PS на раннюю версию 125 PS'] },
+      { code: '6G72', name: '3.0 л бензиновый V6', displacement: '2972 см³', powerHp: '150–185 PS в зависимости от версии и года', torqueNm: '235–265 Н·м в зависимости от версии', valves: 'V6, SOHC/DOHC в зависимости от исполнения', fuelSystem: 'Электронный впрыск', timingDrive: 'Ремень ГРМ', strengths: ['Разделены ранние и поздние калибровки'], weaknesses: ['Количество клапанов и мощность требуют сверки по году/рынку'] },
+      { code: '6G74', name: '3.5 л бензиновый V6', displacement: '3496 см³', powerHp: '194–280 PS в зависимости от версии и рынка', torqueNm: '300–348 Н·м в зависимости от исполнения', valves: 'V6, SOHC/DOHC в зависимости от исполнения', fuelSystem: 'Электронный впрыск', timingDrive: 'Ремень ГРМ', strengths: ['Показатели зависят от калибровки и трансмиссии'], weaknesses: ['Не объединять экспортные и японские исполнения в одну ремонтную спецификацию'] }
+    ],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Drom — Mitsubishi Pajero engine capacity by generation', url: 'https://www.drom.ru/catalog/mitsubishi/pajero/specs/engine_capacity/', scope: 'Коды и мощности двигателей V20/V30 по годам, кузовам и трансмиссиям.' },
+      { label: 'Drom — Mitsubishi Pajero engine torque by generation', url: 'https://www.drom.ru/catalog/mitsubishi/pajero/specs/engine_torque/', scope: 'Крутящий момент 4G64, 4D56, 4M40, 6G72 и 6G74 по конкретным версиям V20.' },
+      { label: 'Mitsubishi Pajero 1991 workshop manual — engine specifications', url: 'https://rasterburn.org/~tk/pajero/CHASSIS/V00%20%28Q%29_MY91/PWJE9086_ABCDEF_PAJERO_91_CHASSIS/PWJE9086_PAJERO_ABCDE_CHASSIS_11.pdf', scope: 'Заводская ремонтная документация Mitsubishi по двигателям 4G64, 6G72, 6G74, 4D56 и 4M40; применимость по модели/году проверять.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({

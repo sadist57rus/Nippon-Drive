@@ -1,0 +1,26718 @@
+// Автоматически создано scripts/importVehicleVariants.ts. Не редактировать вручную.
+import type { VehicleVariant } from './vehicleVariantSchema';
+export const VEHICLE_VARIANTS: VehicleVariant[] = [
+  {
+    "market": "не указан в карточке Drom",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mitsubishi Outlander 2.4 AT XLS",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/312259/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "CU5W 2.4 AT XLS FWD, 12.2002–03.2006; двигатель, коробка, привод, размеры, масса и бак",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок сбыта не установлен по карточке Drom."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "ET, PCD и DIA не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Индексы нагрузки и скорости не указаны источником."
+      }
+    ],
+    "id": "mitsubishi-outlander-cu5w-24-at-xls-fwd-2002-2006",
+    "modelId": "outlander-1",
+    "generationId": "mitsubishi-outlander-cu",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2002-12",
+    "productionMonthTo": "2006-03",
+    "bodyCode": "CU5W",
+    "trimOrGrade": "2.4 AT XLS FWD",
+    "engineCode": "4G69",
+    "engine": {
+      "code": "4G69",
+      "displacementCc": 2378,
+      "powerHp": 160,
+      "torqueNm": 216,
+      "fuelType": "Бензин АИ-92"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "dimensions": {
+      "lengthMm": 4550,
+      "widthMm": 1750,
+      "heightMm": 1680,
+      "wheelbaseMm": 2625,
+      "groundClearanceMm": 210,
+      "trackFrontMm": 1540,
+      "trackRearMm": 1540,
+      "curbWeightKg": 1470,
+      "fuelTankLiters": 60,
+      "luggageVolumeLiters": 402
+    },
+    "notes": "Только CU5W 2.4 AT XLS FWD; не переносить на другие исполнения."
+  },
+  {
+    "market": "не указан в карточке Drom",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT SE",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/91044/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "T31 2.0 CVT SE 4WD, 08.2007–02.2011; двигатель, трансмиссия, привод, размеры, масса и бак",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок сбыта не установлен по карточке Drom."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "ET, PCD и DIA не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Индексы нагрузки и скорости не указаны источником."
+      }
+    ],
+    "id": "nissan-xtrail-t31-mr20de-cvt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT SE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "dimensions": {
+      "lengthMm": 4630,
+      "widthMm": 1785,
+      "heightMm": 1685,
+      "wheelbaseMm": 2630,
+      "groundClearanceMm": 200,
+      "trackFrontMm": 1530,
+      "trackRearMm": 1535,
+      "curbWeightKg": 1514,
+      "fuelTankLiters": 65,
+      "luggageVolumeLiters": 479
+    },
+    "notes": "Только T31 2.0 CVT SE 4WD указанного периода."
+  },
+  {
+    "market": "не указан в карточке Drom",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [
+      {
+        "tireSize": "225/65 R17",
+        "rimSize": "7J x 17",
+        "applicability": "Toyota RAV4 ACA31 2.4 AT Sol 4WD, 01.2006–12.2008",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/toyota/rav4/119983/",
+        "notes": "Drom указывает размер диска и шин. PCD, DIA и ET в карточке не указаны."
+      }
+    ],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota RAV4 2.4 AT Sol",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/119983/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "ACA31 2.4 AT Sol 4WD, 01.2006–12.2008; двигатель, трансмиссия, привод, размеры, масса и бак",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок сбыта не установлен по карточке Drom."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "В источнике указан 7J x 17, но ET, PCD и DIA не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Индексы нагрузки и скорости не указаны источником."
+      }
+    ],
+    "id": "toyota-rav4-xa30-2azfe-24-at-sol-4wd-2006-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACA31",
+    "trimOrGrade": "2.4 AT Sol 4WD",
+    "engineCode": "2AZ-FE",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 170,
+      "torqueNm": 224,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "dimensions": {
+      "lengthMm": 4395,
+      "widthMm": 1815,
+      "heightMm": 1685,
+      "wheelbaseMm": 2560,
+      "groundClearanceMm": 190,
+      "trackFrontMm": 1560,
+      "trackRearMm": 1560,
+      "curbWeightKg": 1590,
+      "fuelTankLiters": 60,
+      "luggageVolumeLiters": 586
+    },
+    "notes": "Только ACA31 2.4 AT Sol 4WD указанного периода."
+  },
+  {
+    "id": "toyota-camry-xv40-2azfe-24-at-se-fwd-2006-2008",
+    "modelId": "toyota-camry-40",
+    "generationId": "toyota-camry-xv40",
+    "market": "не уточнён; Drom указывает сборку Япония/США",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-03",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACV40",
+    "bodyStyle": "седан",
+    "trimOrGrade": "2.4 AT SE",
+    "engineCode": "2AZ-FE",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 158,
+      "torqueNm": 218,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "dimensions": {
+      "lengthMm": 4806,
+      "widthMm": 1821,
+      "heightMm": 1466,
+      "wheelbaseMm": 2776,
+      "groundClearanceMm": 134,
+      "trackFrontMm": 1575,
+      "trackRearMm": 1565,
+      "curbWeightKg": 1520,
+      "fuelTankLiters": 70,
+      "luggageVolumeLiters": 425
+    },
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Camry 2.4 AT SE",
+        "url": "https://www.drom.ru/catalog/toyota/camry/84300/",
+        "sourceType": "secondary-reference",
+        "market": "не уточнён; Drom указывает сборку Япония/США",
+        "scope": "ACV40 2.4 AT SE, 03.2006–12.2008; двигатель, АКПП, привод, рулевое положение, габариты, масса, бак и багажник",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Drom перечисляет сборку Япония/США, но не привязывает карточку к одному рынку продаж."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "В карточке указан только диаметр диска 17 дюймов; ширина, ET, PCD и DIA не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин указан, но индексы нагрузки и скорости не указаны."
+      }
+    ],
+    "notes": "Не смешивать с Camry XV40 других рынков, двигателями 2AZ-FE иных калибровок и 3.5 V6."
+  },
+  {
+    "id": "subaru-forester-sh5-ej205-20-xt-4wd-5mt-2010-2012",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-10",
+    "productionMonthTo": "2012-10",
+    "bodyCode": "DBA-SH5",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 XT 4WD 5MT",
+    "engineCode": "EJ205",
+    "engine": {
+      "code": "EJ205",
+      "displacementCc": 1994,
+      "powerHp": 230,
+      "torqueNm": 319,
+      "fuelType": "Бензин Premium (АИ-98)",
+      "induction": "Турбонаддув"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4560,
+      "widthMm": 1780,
+      "heightMm": 1675,
+      "wheelbaseMm": 2615,
+      "groundClearanceMm": 225,
+      "trackFrontMm": 1530,
+      "trackRearMm": 1530,
+      "curbWeightKg": 1490,
+      "fuelTankLiters": 60
+    },
+    "interiorDimensions": {
+      "lengthMm": 2000,
+      "widthMm": 1520,
+      "heightMm": 1290,
+      "notes": "Drom: габариты салона для SH5 2.0 XT 4WD 5MT, RHD, 10.2010–10.2012."
+    },
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Subaru Forester 2.0 XT 4WD",
+        "url": "https://www.drom.ru/catalog/subaru/forester/94533/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "DBA-SH5 2.0 XT 4WD, 5MT, RHD, 10.2010–10.2012; двигатель, трансмиссия, привод, внешние и внутренние размеры, масса, бак и шины",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "wheelFitments",
+        "reason": "Размер диска, ET, PCD и DIA не указаны в карточке."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин 225/55R17 указан, но индексы нагрузки и скорости в используемой карточке не приведены."
+      }
+    ],
+    "notes": "Только SH5 2.0 XT с 5MT и правым рулём; не объединять с 4AT или версиями 2007–2010."
+  },
+  {
+    "id": "honda-crv-re-24-at-4wd-2007-2009",
+    "modelId": "honda-cr-v-3",
+    "generationId": "honda-crv-re",
+    "market": "не указан; страна сборки Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-03",
+    "productionMonthTo": "2009-08",
+    "bodyCode": "RE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT 4WD",
+    "engineCode": "K24Z1",
+    "engine": {
+      "code": "K24Z1",
+      "displacementCc": 2354,
+      "powerHp": 170,
+      "torqueNm": 220,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "dimensions": {
+      "lengthMm": 4520,
+      "widthMm": 1820,
+      "heightMm": 1680,
+      "wheelbaseMm": 2620,
+      "groundClearanceMm": 185,
+      "trackFrontMm": 1565,
+      "trackRearMm": 1565,
+      "curbWeightKg": 1550,
+      "fuelTankLiters": 58,
+      "luggageVolumeLiters": 556
+    },
+    "tires": [],
+    "wheelFitments": [
+      {
+        "tireSize": "225/60R18",
+        "rimSize": "18x7J",
+        "applicability": "Honda CR-V RE 2.4 AT 4WD, 03.2007–08.2009",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/honda/cr-v/195793/",
+        "notes": "Drom указывает размер шины и диска; PCD, DIA и ET не указаны."
+      }
+    ],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda CR-V 2.4 AT",
+        "url": "https://www.drom.ru/catalog/honda/cr-v/195793/",
+        "sourceType": "secondary-reference",
+        "market": "не указан; страна сборки Япония",
+        "scope": "RE 2.4 AT 4WD, 03.2007–08.2009; двигатель, АКПП, привод, рулевое положение, габариты, масса, бак, багажник, шины и размер диска",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Drom указывает страну сборки Япония, но не называет рынок продаж."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены карточкой."
+      },
+      {
+        "field": "tires",
+        "reason": "Индексы нагрузки и скорости не включены в запись; не формировать полную TireOption."
+      }
+    ],
+    "notes": "Только RE 2.4 AT 4WD указанного периода; не переносить характеристики на 2.0, переднеприводные и рестайлинговые версии."
+  },
+  {
+    "id": "mazda-cx5-ke-pevps-20-mt-sport-fwd-2012-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "рынок сбыта не указан; Drom указывает сборку Япония/Малайзия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-01",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.0 MT Sport FWD",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 155,
+      "torqueNm": 210,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4539,
+      "widthMm": 1840,
+      "heightMm": 1709,
+      "wheelbaseMm": 2700,
+      "groundClearanceMm": 216,
+      "trackFrontMm": 1585,
+      "trackRearMm": 1590,
+      "curbWeightKg": 1449,
+      "fuelTankLiters": 56,
+      "luggageVolumeLiters": 966
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda CX-5 2.0 MT Sport",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/250344/",
+        "sourceType": "secondary-reference",
+        "market": "рынок сбыта не указан; сборка Япония/Малайзия",
+        "scope": "KE 2.0 MT Sport FWD, 01.2012–01.2015; двигатель PE-VPS, 155 л.с., 210 Н·м, 6MT, размеры, масса, бак, багажник и шины",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Drom сообщает страны сборки, но не фиксирует рынок продаж конкретного экземпляра."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер 225/65 R17 указан без индексов нагрузки и скорости; полная TireOption не создаётся."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "В использованной карточке не подтверждены параметры диска, PCD, DIA и ET."
+      }
+    ],
+    "notes": "Передний привод и 6MT; не смешивать с 2.0 AT и AWD/дизельными версиями KE."
+  },
+  {
+    "id": "mazda-cx5-ke-pevps-20-at-drive-fwd-2014-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "рынок не уточнён; Drom указывает сборку Япония/Россия/Малайзия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-01",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.0 AT Drive FWD",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "torqueNm": 210,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4555,
+      "widthMm": 1840,
+      "heightMm": 1670,
+      "wheelbaseMm": 2700,
+      "groundClearanceMm": 215,
+      "trackFrontMm": 1585,
+      "trackRearMm": 1590,
+      "curbWeightKg": 1400,
+      "fuelTankLiters": 56,
+      "luggageVolumeLiters": 403
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda CX-5 2.0 AT Drive",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/75135/",
+        "sourceType": "secondary-reference",
+        "market": "рынок не уточнён; сборка Япония/Россия/Малайзия",
+        "scope": "KE 2.0 AT Drive FWD, 01.2014–01.2015; PE-VPS 150 л.с., 210 Н·м, 6AT, габариты, масса, бак, багажник и шины",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Страны сборки не позволяют однозначно определить рынок продаж."
+      },
+      {
+        "field": "tires",
+        "reason": "225/65 R17 без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина обода, ET, PCD и DIA не подтверждены карточкой."
+      }
+    ],
+    "notes": "FWD, 6AT; характеристики не переносить на AWD и поздний рестайлинг."
+  },
+  {
+    "id": "mazda-cx5-ke-shy1-22d-mt-sports-line-4wd-2015-2017",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Япония (страна сборки по Drom)",
+    "modelYearFrom": 2015,
+    "modelYearTo": 2017,
+    "productionMonthFrom": "2015-01",
+    "productionMonthTo": "2017-03",
+    "bodyCode": "KE",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.2D Sports-Line 4WD",
+    "engineCode": "SHY1 / SHY4",
+    "engine": {
+      "code": "SHY1 / SHY4",
+      "displacementCc": 2191,
+      "powerHp": 175,
+      "torqueNm": 420,
+      "fuelType": "Дизельное топливо",
+      "induction": "Турбонаддув"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4555,
+      "widthMm": 1840,
+      "heightMm": 1710,
+      "wheelbaseMm": 2700,
+      "groundClearanceMm": 215,
+      "trackFrontMm": 1585,
+      "trackRearMm": 1590,
+      "curbWeightKg": 1555,
+      "fuelTankLiters": 58,
+      "luggageVolumeLiters": 503
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda CX-5 2.2D Sports-Line",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/450096/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KE 2.2D Sports-Line 4WD, 01.2015–03.2017; SHY1/SHY4, 175 л.с., 420 Н·м, 6MT, размеры, масса, бак, багажник и шины",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "tires",
+        "reason": "225/55 R19 указан без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размер диска, PCD, DIA и ET не подтверждены."
+      }
+    ],
+    "notes": "Турбодизель 2.2, полный привод, 6MT; не смешивать с 2.2D AT и бензиновыми версиями."
+  },
+  {
+    "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2010-2011",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Япония (страна сборки по Drom)",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2010-06",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "ZSA30",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.0 CVT Стандарт 4WD",
+    "engineCode": "3ZR-FAE",
+    "engine": {
+      "code": "3ZR-FAE",
+      "displacementCc": 1986,
+      "powerHp": 158,
+      "torqueNm": 198,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4445,
+      "widthMm": 1815,
+      "heightMm": 1685,
+      "wheelbaseMm": 2560,
+      "groundClearanceMm": 180,
+      "trackFrontMm": 1560,
+      "trackRearMm": 1560,
+      "curbWeightKg": 1645,
+      "fuelTankLiters": 60,
+      "luggageVolumeLiters": 410
+    },
+    "wheelFitments": [
+      {
+        "tireSize": "225/65R17",
+        "rimSize": "6.5J x 17",
+        "applicability": "Toyota RAV4 ZSA30 2.0 CVT Стандарт 4WD, 06.2010–08.2011",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/toyota/rav4/60899/",
+        "notes": "Drom указывает размер шины и диска; PCD, DIA и ET не указаны."
+      }
+    ],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota RAV4 2.0 CVT Стандарт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/60899/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "ZSA30 2.0 CVT Стандарт 4WD, 06.2010–08.2011; 3ZR-FAE 158 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "tires",
+        "reason": "Размер 225/65R17 без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не приведены."
+      }
+    ],
+    "notes": "Ранний период рестайлинга XA30; мощность 158 л.с. не переносить на исполнение 2011–2013."
+  },
+  {
+    "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2011-2013",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Япония (страна сборки по Drom)",
+    "modelYearFrom": 2011,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2011-09",
+    "productionMonthTo": "2013-01",
+    "bodyCode": "ZSA30",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.0 CVT Стандарт 4WD",
+    "engineCode": "3ZR-FAE",
+    "engine": {
+      "code": "3ZR-FAE",
+      "displacementCc": 1986,
+      "powerHp": 148,
+      "torqueNm": 198,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4445,
+      "widthMm": 1815,
+      "heightMm": 1685,
+      "wheelbaseMm": 2560,
+      "groundClearanceMm": 180,
+      "trackFrontMm": 1560,
+      "trackRearMm": 1560,
+      "curbWeightKg": 1645,
+      "fuelTankLiters": 60,
+      "luggageVolumeLiters": 410
+    },
+    "wheelFitments": [
+      {
+        "tireSize": "225/65R17",
+        "rimSize": "6.5J x 17",
+        "applicability": "Toyota RAV4 ZSA30 2.0 CVT Стандарт 4WD, 09.2011–01.2013",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/toyota/rav4/183254/",
+        "notes": "Drom указывает размер шины и диска; PCD, DIA и ET не указаны."
+      }
+    ],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota RAV4 2.0 CVT Стандарт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/183254/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "ZSA30 2.0 CVT Стандарт 4WD, 09.2011–01.2013; 3ZR-FAE 148 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "tires",
+        "reason": "Размер 225/65R17 без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не приведены."
+      }
+    ],
+    "notes": "Поздний период рестайлинга XA30; не объединять с версией 158 л.с. 2010–2011."
+  },
+  {
+    "id": "nissan-xtrail-t31-mr20de-cvt-le-high-4wd-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.0 CVT LE High 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "dimensions": {
+      "lengthMm": 4635,
+      "widthMm": 1790,
+      "heightMm": 1785,
+      "wheelbaseMm": 2630,
+      "groundClearanceMm": 210,
+      "trackFrontMm": 1540,
+      "trackRearMm": 1545,
+      "curbWeightKg": 1550,
+      "fuelTankLiters": 65,
+      "luggageVolumeLiters": 479
+    },
+    "wheelFitments": [
+      {
+        "tireSize": "225/55 R18",
+        "rimSize": "18X7JJ",
+        "applicability": "Nissan X-Trail T31 2.0 CVT LE High 4WD, 12.2012–01.2015",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/nissan/x-trail/71634/",
+        "notes": "Drom указывает размер шины и диска; PCD, DIA и ET не указаны."
+      }
+    ],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE High",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/71634/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE High 4WD, 12.2012–01.2015; MR20DE 141 л.с./196 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "tires",
+        "reason": "225/55 R18 без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не указаны."
+      }
+    ],
+    "notes": "Российское исполнение T31 после рестайлинга; не переносить размеры кузова на японские RHD исполнения."
+  },
+  {
+    "id": "suzuki-grand-vitara-jt-j24b-24-at-3door-4wd-2008-2012",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "рынок сбыта не указан; страна сборки Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2008-08",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "TAA4V",
+    "bodyStyle": "3-дверный SUV",
+    "trimOrGrade": "2.4 AT Comfort 4WD",
+    "engineCode": "J24B",
+    "engine": {
+      "code": "J24B",
+      "displacementCc": 2393,
+      "powerHp": 166,
+      "torqueNm": 183,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4150,
+      "widthMm": 1870,
+      "heightMm": 1685,
+      "wheelbaseMm": 2440,
+      "groundClearanceMm": 205,
+      "trackFrontMm": 1540,
+      "trackRearMm": 1570,
+      "curbWeightKg": 1536,
+      "fuelTankLiters": 55,
+      "luggageVolumeLiters": 184
+    },
+    "wheelFitments": [
+      {
+        "tireSize": "225/65 R17",
+        "rimSize": "17X6.5J",
+        "applicability": "Suzuki Grand Vitara TAA4V 2.4 AT Comfort 4WD, 08.2008–07.2012",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/suzuki/grand_vitara/221896/",
+        "notes": "Drom указывает шины и размер диска; PCD, DIA и ET не указаны."
+      }
+    ],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Grand Vitara 2.4 AT Comfort, 3 двери",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/221896/",
+        "sourceType": "secondary-reference",
+        "market": "рынок не указан; сборка Япония",
+        "scope": "TAA4V, 3-дверный кузов, 2.4 AT Comfort 4WD, 08.2008–07.2012; J24B, размеры, масса, бак, багажник и колёса",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Страна сборки Япония не устанавливает однозначно рынок продаж."
+      },
+      {
+        "field": "tires",
+        "reason": "Индексы нагрузки и скорости не указаны."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не приведены."
+      }
+    ],
+    "notes": "3-дверный TAA4V; не объединять с 5-дверным TD_4 и его другими габаритами."
+  },
+  {
+    "id": "suzuki-grand-vitara-jt-j24b-24-at-5door-4wd-2008-2012",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "рынок сбыта не указан; страна сборки Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2008-08",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "TD_4",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.4 AT Comfort 4WD",
+    "engineCode": "J24B",
+    "engine": {
+      "code": "J24B",
+      "displacementCc": 2393,
+      "powerHp": 169,
+      "torqueNm": 183,
+      "fuelType": "Бензин АИ-95"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4575,
+      "widthMm": 1880,
+      "heightMm": 1685,
+      "wheelbaseMm": 2640,
+      "groundClearanceMm": 205,
+      "trackFrontMm": 1540,
+      "trackRearMm": 1570,
+      "curbWeightKg": 1642,
+      "fuelTankLiters": 66,
+      "luggageVolumeLiters": 398
+    },
+    "wheelFitments": [
+      {
+        "tireSize": "225/65 R17",
+        "rimSize": "17X6.5J",
+        "applicability": "Suzuki Grand Vitara TD_4 2.4 AT Comfort 4WD, 08.2008–07.2012",
+        "verificationStatus": "partially-verified",
+        "sourceUrl": "https://www.drom.ru/catalog/suzuki/grand_vitara/221889/",
+        "notes": "Drom указывает шины и размер диска; PCD, DIA и ET не указаны."
+      }
+    ],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Grand Vitara 2.4 AT Comfort, 5 дверей",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/221889/",
+        "sourceType": "secondary-reference",
+        "market": "рынок не указан; сборка Япония",
+        "scope": "TD_4, 5-дверный кузов, 2.4 AT Comfort 4WD, 08.2008–07.2012; J24B, размеры, масса, бак, багажник и колёса",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Страна сборки Япония не устанавливает однозначно рынок продаж."
+      },
+      {
+        "field": "tires",
+        "reason": "Индексы нагрузки и скорости не указаны."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не приведены."
+      }
+    ],
+    "notes": "5-дверный TD_4; не объединять с 3-дверным TAA4V и его другими габаритами."
+  },
+  {
+    "id": "mazda-cx5-ke-shy1-22d-at-sports-line-4wd-2015-2017",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Япония",
+    "modelYearFrom": 2015,
+    "modelYearTo": 2017,
+    "productionMonthFrom": "2015-01",
+    "productionMonthTo": "2017-03",
+    "bodyCode": "KE",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.2D AT Sports-Line 4WD",
+    "engineCode": "SHY1 / SHY4",
+    "engine": {
+      "code": "SHY1 / SHY4",
+      "displacementCc": 2191,
+      "powerHp": 175,
+      "torqueNm": 420,
+      "fuelType": "Дизельное топливо",
+      "induction": "Турбонаддув"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4555,
+      "widthMm": 1840,
+      "heightMm": 1710,
+      "wheelbaseMm": 2700,
+      "groundClearanceMm": 215,
+      "trackFrontMm": 1585,
+      "trackRearMm": 1590,
+      "curbWeightKg": 1570,
+      "fuelTankLiters": 58,
+      "luggageVolumeLiters": 503
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda CX-5 2.2D AT Sports-Line",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/450099/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KE 2.2D AT Sports-Line 4WD, 01.2015–03.2017; SHY1/SHY4 175 л.с./420 Н·м, 6AT, габариты, масса, бак, багажник и шины",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "tires",
+        "reason": "225/55 R19 указан без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размер диска, PCD, DIA и ET не подтверждены."
+      }
+    ],
+    "notes": "Турбодизель 2.2, полный привод, 6AT; не смешивать с 2.2D MT и 150-сильными дизельными версиями."
+  },
+  {
+    "id": "subaru-forester-sh5-ej204-20-x-4wd-5mt-2009-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-01",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-SH5",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.0 X 4WD 5MT",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 148,
+      "torqueNm": 191,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4560,
+      "widthMm": 1780,
+      "heightMm": 1675,
+      "wheelbaseMm": 2615,
+      "groundClearanceMm": 215,
+      "trackFrontMm": 1530,
+      "trackRearMm": 1530,
+      "curbWeightKg": 1430,
+      "fuelTankLiters": 60
+    },
+    "interiorDimensions": {
+      "lengthMm": 2000,
+      "widthMm": 1520,
+      "heightMm": 1290,
+      "notes": "Размеры салона приведены в карточке Drom для указанной модификации; не переносить на другие кузова и комплектации."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Subaru Forester 2.0 X 4WD",
+        "url": "https://www.drom.ru/catalog/subaru/forester/56890/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "DBA-SH5 2.0 X 4WD 5MT RHD, 01.2009–09.2010; EJ204, мощность/момент, внешние и внутренние размеры, масса, бак и шины",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "tires",
+        "reason": "215/65R16 без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA не приведены."
+      },
+      {
+        "field": "luggageVolumeLiters",
+        "reason": "Объём багажника не указан в использованной карточке."
+      }
+    ],
+    "notes": "Японская праворульная версия 5MT; не объединять с 4AT и более поздними FB20."
+  },
+  {
+    "id": "subaru-forester-sh5-ej204-20-xs-4wd-4at-2009-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-01",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-SH5",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "2.0 XS 4WD 4AT",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 148,
+      "torqueNm": 191,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4560,
+      "widthMm": 1780,
+      "heightMm": 1675,
+      "wheelbaseMm": 2615,
+      "groundClearanceMm": 215,
+      "trackFrontMm": 1530,
+      "trackRearMm": 1530,
+      "curbWeightKg": 1460,
+      "fuelTankLiters": 60
+    },
+    "interiorDimensions": {
+      "lengthMm": 2000,
+      "widthMm": 1520,
+      "heightMm": 1290,
+      "notes": "Размеры салона приведены в карточке Drom для указанной модификации; не переносить на другие кузова и комплектации."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Subaru Forester 2.0 XS 4WD",
+        "url": "https://www.drom.ru/catalog/subaru/forester/56891/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "DBA-SH5 2.0 XS 4WD 4AT RHD, 01.2009–09.2010; EJ204, мощность/момент, внешние и внутренние размеры, масса, бак и шины",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "tires",
+        "reason": "215/65R16 без индексов нагрузки и скорости."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA не приведены."
+      },
+      {
+        "field": "luggageVolumeLiters",
+        "reason": "Объём багажника не указан в использованной карточке."
+      }
+    ],
+    "notes": "Японская праворульная версия 4AT; не объединять с 5MT и более поздними FB20."
+  },
+  {
+    "id": "lexus-rx-al10-2grfe-35-at-4wd-rhd-2009-2012",
+    "modelId": "lexus-rx-350",
+    "generationId": "lexus-rx-al10",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2009-01",
+    "productionMonthTo": "2012-03",
+    "bodyCode": "DBA-GGL15W",
+    "bodyStyle": "5-дверный SUV",
+    "trimOrGrade": "RX350 4WD",
+    "engineCode": "2GR-FE",
+    "engine": {
+      "code": "2GR-FE",
+      "displacementCc": 3456,
+      "powerHp": 280,
+      "fuelType": "Бензин Premium (АИ-98)",
+      "torqueNm": 348
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4770,
+      "widthMm": 1885,
+      "heightMm": 1690,
+      "wheelbaseMm": 2740,
+      "groundClearanceMm": 185,
+      "trackFrontMm": 1630,
+      "trackRearMm": 1625,
+      "curbWeightKg": 1940,
+      "fuelTankLiters": 72
+    },
+    "interiorDimensions": {
+      "lengthMm": 2180,
+      "widthMm": 1560,
+      "heightMm": 1220,
+      "notes": "Размеры салона приведены в карточке Drom для указанной модификации; не переносить на другие кузова и комплектации."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Lexus RX350 350 4WD",
+        "url": "https://www.drom.ru/catalog/lexus/rx350/57470/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "DBA-GGL15W RX350 4WD RHD, 01.2009–03.2012; 2GR-FE 3.5, 280 л.с., 348 Н·м, 6AT, размеры кузова и салона, масса, бак 72 л и шины 235/60R18",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "wheelFitments",
+        "reason": "235/60R18 указан как размер шин; ширина диска, PCD, DIA и ET не подтверждены."
+      }
+    ],
+    "notes": "Японская праворульная версия GGL15W с полным приводом; не смешивать с переднеприводной GGL10W и GGL16W с пневмоподвеской."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-xl-2010-2013",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2010-09",
+    "productionMonthTo": "2013-06",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 XL CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "torqueNm": 118,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 145,
+      "trackFrontMm": 1480,
+      "trackRearMm": 1485,
+      "curbWeightKg": 990,
+      "fuelTankLiters": 42
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S 1.2 XL, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 XL",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/106405/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 XL CVT, Япония RHD, 09.2010–06.2013; K12B 1242 см³, 91 л.с., 118 Н·м; размеры кузова/салона, масса, бак, колея, клиренс.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "wheelFitments",
+        "reason": "Карточка приводит размер шин, но не подтверждает полный размер диска, PCD, DIA и ET; fitment не добавлен."
+      }
+    ],
+    "notes": "Не смешивать с ZC72S для других рынков и с полноприводным ZD72S."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-style-2014-2016",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2014-06",
+    "productionMonthTo": "2016-11",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 Style CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "torqueNm": 118,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 140,
+      "trackFrontMm": 1480,
+      "trackRearMm": 1485,
+      "curbWeightKg": 980,
+      "fuelTankLiters": 42
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S 1.2 Style, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 Style",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/76470/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 Style CVT, Япония RHD, 06.2014–11.2016; K12B 1242 см³, 91 л.с., 118 Н·м; кузов/салон, масса, бак, шины.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "wheelFitments",
+        "reason": "Размер шин 185/55R16 известен, но ширина/вылет диска, PCD и DIA не подтверждены."
+      }
+    ],
+    "notes": "Конкретная японская комплектация Style; параметры не переносить на ZC72S других рынков."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-xs-dje-2013-2016",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2013-07",
+    "productionMonthTo": "2016-11",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 XS-DJE CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "torqueNm": 118,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1500,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 130,
+      "trackFrontMm": 1480,
+      "trackRearMm": 1485,
+      "curbWeightKg": 1000,
+      "fuelTankLiters": 42
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S 1.2 XS-DJE, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 XS-DJE",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/72860/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 XS-DJE CVT, Япония RHD, 07.2013–11.2016; K12B 1242 см³, 91 л.с., 118 Н·м; размеры кузова/салона, масса, бак, шины.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "wheelFitments",
+        "reason": "Размер шин 185/55R16 указан; параметры диска, PCD, DIA и ET не приведены."
+      }
+    ],
+    "notes": "DJE-исполнение с отдельной высотой кузова и клиренсом; не объединять с обычным XG/Style."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-xg-dje-2013-2016",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2013-07",
+    "productionMonthTo": "2016-11",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 XG-DJE CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "torqueNm": 118,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1500,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 130,
+      "trackFrontMm": 1490,
+      "trackRearMm": 1495,
+      "curbWeightKg": 1000
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S 1.2 XG-DJE, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 XG-DJE",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/72856/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 XG-DJE CVT, Япония RHD, 07.2013–11.2016; K12B 1242 см³, 91 л.с.; кузов/салон, масса, колея и клиренс.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions.fuelTankLiters",
+        "reason": "Объём бака в использованном фрагменте карточки не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Штатный размер диска, PCD, DIA и ET не подтверждены."
+      }
+    ],
+    "notes": "XG-DJE — отдельная комплектация; не смешивать с XS-DJE или Style."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-style-dje-2014-2016",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2014-06",
+    "productionMonthTo": "2016-11",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 Style-DJE CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1500,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 130,
+      "trackFrontMm": 1480,
+      "trackRearMm": 1485,
+      "curbWeightKg": 1000
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S для указанной комплектации, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 Style-DJE CVT",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/76472/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 Style-DJE CVT, Япония RHD, 06.2014–11.2016; K12B 1242 см³, 91 л.с.; кузов/салон, масса, колея, клиренс, шины 185/55R16.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не подтверждён доступной карточкой модификации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Не подтверждены полный размер диска, PCD, DIA и ET; fitment не добавлен."
+      }
+    ],
+    "notes": "Style-DJE — отдельная комплектация; не объединять с обычным Style."
+  },
+  {
+    "id": "suzuki-swift-zc72s-k12b-12-cvt-xg-2013-2016",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония, правый руль",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2013-07",
+    "productionMonthTo": "2016-11",
+    "bodyCode": "DBA-ZC72S",
+    "bodyStyle": "5-дверный хэтчбек",
+    "trimOrGrade": "1.2 XG CVT",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "torqueNm": 118,
+      "fuelType": "Бензин Regular (АИ-92, АИ-95)"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 140,
+      "trackFrontMm": 1490,
+      "trackRearMm": 1495,
+      "curbWeightKg": 980,
+      "fuelTankLiters": 42
+    },
+    "interiorDimensions": {
+      "lengthMm": 1905,
+      "widthMm": 1385,
+      "heightMm": 1225,
+      "notes": "Drom: размеры салона DBA-ZC72S для указанной комплектации, японская праворульная версия."
+    },
+    "wheelFitments": [],
+    "tires": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Swift 1.2 XG CVT",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/72846/",
+        "sourceType": "secondary-reference",
+        "market": "Япония, правый руль",
+        "scope": "DBA-ZC72S 1.2 XG CVT, Япония RHD, 07.2013–11.2016; K12B 1242 см³, 91 л.с., 118 Н·м; кузов/салон, масса, бак 42 л, колея, клиренс.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "wheelFitments",
+        "reason": "Не подтверждены полный размер диска, PCD, DIA и ET; fitment не добавлен."
+      }
+    ],
+    "notes": "XG без DJE — отдельная комплектация; не переносить параметры на XG-DJE."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-mr20de-mt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-mr20de-cvt-le-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D MT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-m9r-mt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D MT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-m9r-at-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT LE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT LE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-m9r-at-le-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT LE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 MT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-mt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 MT SE 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT SE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-cvt-se-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT SE 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT SiV 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT SiV 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-cvt-siv-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT SiV 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT LE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2007_3971/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT LE 4WD, 2007-08–2011-02; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-qr25de-cvt-le-4wd-2007-2011",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2011-02",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT LE 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT XE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-xe-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT XE 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-xe-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE Mid 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE Mid 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-se-mid-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE Mid 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 MT SE Base 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 MT SE Base 4WD, 2014-01–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-mt-se-base-2014-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-01",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 MT SE Base 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT XE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-xe-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT SE 4WD (--B--)",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT SE 4WD (--B--), 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT SE 4WD (--B--)",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE 4WD (-----)",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE 4WD (-----), 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-le-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE 4WD (-----)",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT XE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT XE 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-xe-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT XE 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT SE Mid 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT SE Mid 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-se-mid-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT SE Mid 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE Base 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE Base 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-le-base-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE Base 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0 CVT LE High 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0 CVT LE High 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-mr20de-cvt-le-high-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0 CVT LE High 4WD",
+    "engineCode": "MR20DE",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 196,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D MT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D MT SE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-mt-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D MT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT SE 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT SE 4WD, 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-at-se-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT SE 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT LE 4WD (---E-)",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT LE 4WD (---E-), 2010-12–2012-12; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-at-le-2010-2012",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-12",
+    "productionMonthTo": "2012-12",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT LE 4WD (---E-)",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.0D AT SE Mid 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.0D AT SE Mid 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-m9r-at-se-mid-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.0D AT SE Mid 4WD",
+    "engineCode": "M9R",
+    "engine": {
+      "code": "M9R",
+      "displacementCc": 1995,
+      "powerHp": 150,
+      "torqueNm": 320,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "market": "Россия",
+    "bodyStyle": "SUV",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan X-Trail 2.5 CVT SE Base 4WD",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/g_2010_1007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "T31 2.5 CVT SE Base 4WD, 2012-12–2015-01; двигатель, мощность, тип КПП и привод",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака не перенесены: в карточке поколения они не разнесены по конкретным комплектациям; требуется отдельная проверка модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для этой комплектации не подтверждены в используемом фрагменте."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Ширина диска, ET, PCD и DIA для этой комплектации не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент QR25DE для этой конкретной комплектации не подтверждён открытым фрагментом страницы."
+      }
+    ],
+    "id": "nissan-xtrail-t31-facelift-qr25de-cvt-se-base-2012-2015",
+    "modelId": "nissan-xtrail-t31",
+    "generationId": "nissan-xtrail-t31",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "T31",
+    "trimOrGrade": "2.5 CVT SE Base 4WD",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "notes": "Nissan X-Trail T31, рынок Россия. Комплектация и период выпуска перенесены из списка Drom; неизвестные параметры намеренно не заполнены."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-mt-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 MT; кузов ACA35; двигатель 1AZ-FE; КПП MT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-mt-sol-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT Sol",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT Sol",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 MT Sol; кузов ACA35; двигатель 1AZ-FE; КПП MT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-mt-executive-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT Executive",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT Executive",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 MT Executive; кузов ACA35; двигатель 1AZ-FE; КПП MT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-mt-travel-09-2007-08-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT Travel",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT Travel",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 MT Travel; кузов ACA35; двигатель 1AZ-FE; КПП MT; привод 4WD; период 09.2007–08.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-mt-cross-sport-09-2007-08-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT Cross Sport",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT Cross Sport",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 MT Cross Sport; кузов ACA35; двигатель 1AZ-FE; КПП MT; привод 4WD; период 09.2007–08.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-at-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 AT",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 AT; кузов ACA35; двигатель 1AZ-FE; КПП AT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-at-sol-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Sol",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 AT Sol",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 AT Sol; кузов ACA35; двигатель 1AZ-FE; КПП AT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-at-executive-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Executive",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 AT Executive",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 AT Executive; кузов ACA35; двигатель 1AZ-FE; КПП AT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-at-travel-09-2007-08-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Travel",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 AT Travel",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 AT Travel; кузов ACA35; двигатель 1AZ-FE; КПП AT; привод 4WD; период 09.2007–08.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-aca35-1az-fe-2-0-at-cross-sport-09-2007-08-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "ACA35",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Cross Sport",
+    "engineCode": "1AZ-FE",
+    "engine": {
+      "code": "1AZ-FE",
+      "displacementCc": 1998,
+      "powerHp": 152,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 AT Cross Sport",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.0 AT Cross Sport; кузов ACA35; двигатель 1AZ-FE; КПП AT; привод 4WD; период 09.2007–08.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala30-2ad-ftv-2-2-d-4d-mt-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ALA30",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2 D-4D MT",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 136,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2 D-4D MT",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.2 D-4D MT; кузов ALA30; двигатель 2AD-FTV; КПП MT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala30-2ad-ftv-2-2-d-4d-mt-sol-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ALA30",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2 D-4D MT Sol",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 136,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2 D-4D MT Sol",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.2 D-4D MT Sol; кузов ALA30; двигатель 2AD-FTV; КПП MT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala30-2ad-ftv-2-2-d-4d-mt-executive-03-2008-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2008-03",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ALA30",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2 D-4D MT Executive",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 136,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2 D-4D MT Executive",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.2 D-4D MT Executive; кузов ALA30; двигатель 2AD-FTV; КПП MT; привод 4WD; период 03.2008–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala30-2ad-ftv-2-2-d-4d-mt-travel-09-2007-08-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "ALA30",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2 D-4D MT Travel",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 136,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2 D-4D MT Travel",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.2 D-4D MT Travel; кузов ALA30; двигатель 2AD-FTV; КПП MT; привод 4WD; период 09.2007–08.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala30-2ad-ftv-2-2-d-4d-mt-cross-sport-09-2007-08-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "ALA30",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2 D-4D MT Cross Sport",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 136,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2 D-4D MT Cross Sport",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.2 D-4D MT Cross Sport; кузов ALA30; двигатель 2AD-FTV; КПП MT; привод 4WD; период 09.2007–08.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala30-2ad-ftv-2-2-d-cat-mt-sol-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ALA30",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2 D-CAT MT Sol",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 177,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2 D-CAT MT Sol",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.2 D-CAT MT Sol; кузов ALA30; двигатель 2AD-FTV; КПП MT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala30-2ad-ftv-2-2-d-cat-mt-executive-01-2006-12-2008",
+    "modelId": "toyota-rav4-3",
+    "generationId": "toyota-rav4-xa30",
+    "market": "Европа",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2006-01",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "ALA30",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2 D-CAT MT Executive",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 177,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2 D-CAT MT Executive",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2005_8840/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Строка комплектации 2.2 D-CAT MT Executive; кузов ALA30; двигатель 2AD-FTV; КПП MT; привод 4WD; период 01.2006–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-mt-2wd-12-2012-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ZSA42",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT 2WD Стандарт",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT 2WD Стандарт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT 2WD Стандарт; кузов ZSA42; двигатель 3ZR-FE; КПП MT; привод FWD; период 12.2012–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-mt-2wd-12-2014-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ZSA42",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT 2WD Классик",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT 2WD Классик",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT 2WD Классик; кузов ZSA42; двигатель 3ZR-FE; КПП MT; привод FWD; период 12.2014–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-mt-4wd-12-2012-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ZSA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT 4WD Комфорт",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT 4WD Комфорт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT 4WD Комфорт; кузов ZSA44; двигатель 3ZR-FE; КПП MT; привод 4WD; период 12.2012–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-mt-4wd-12-2014-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ZSA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT 4WD Стандарт",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 MT 4WD Стандарт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT 4WD Стандарт; кузов ZSA44; двигатель 3ZR-FE; КПП MT; привод 4WD; период 12.2014–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-cvt-2wd-12-2012-02-2014",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2014,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2014-02",
+    "bodyCode": "ZSA42",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 CVT 2WD Стандарт Плюс",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 CVT 2WD Стандарт Плюс",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 CVT 2WD Стандарт Плюс; кузов ZSA42; двигатель 3ZR-FE; КПП CVT; привод FWD; период 12.2012–02.2014.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa42-3zr-fe-2-0-cvt-2wd-12-2013-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ZSA42",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 CVT 2WD Стандарт",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 CVT 2WD Стандарт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 CVT 2WD Стандарт; кузов ZSA42; двигатель 3ZR-FE; КПП CVT; привод FWD; период 12.2013–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2012-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ZSA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 CVT 4WD Стандарт",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 CVT 4WD Стандарт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 CVT 4WD Стандарт; кузов ZSA44; двигатель 3ZR-FE; КПП CVT; привод 4WD; период 12.2012–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2012-12-2013",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2013-12",
+    "bodyCode": "ZSA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 CVT 4WD Элеганс",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 CVT 4WD Элеганс",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 CVT 4WD Элеганс; кузов ZSA44; двигатель 3ZR-FE; КПП CVT; привод 4WD; период 12.2012–12.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2012-02-2014",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2014,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2014-02",
+    "bodyCode": "ZSA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 CVT 4WD Престиж",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 CVT 4WD Престиж",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 CVT 4WD Престиж; кузов ZSA44; двигатель 3ZR-FE; КПП CVT; привод 4WD; период 12.2012–02.2014.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-zsa44-3zr-fe-2-0-cvt-4wd-12-2013-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ZSA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 CVT 4WD Элеганс Плюс",
+    "engineCode": "3ZR-FE",
+    "engine": {
+      "code": "3ZR-FE",
+      "displacementCc": 1987,
+      "powerHp": 146,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.0 CVT 4WD Элеганс Плюс",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 CVT 4WD Элеганс Плюс; кузов ZSA44; двигатель 3ZR-FE; КПП CVT; привод 4WD; период 12.2013–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2012-12-2013",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2013-12",
+    "bodyCode": "ALA49",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2TD AT 4WD Элеганс",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 150,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2TD AT 4WD Элеганс",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.2TD AT 4WD Элеганс; кузов ALA49; двигатель 2AD-FTV; КПП AT; привод 4WD; период 12.2012–12.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2012-02-2014",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2014,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2014-02",
+    "bodyCode": "ALA49",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2TD AT 4WD Престиж",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 150,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2TD AT 4WD Престиж",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.2TD AT 4WD Престиж; кузов ALA49; двигатель 2AD-FTV; КПП AT; привод 4WD; период 12.2012–02.2014.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2013-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ALA49",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2TD AT 4WD Комфорт Плюс",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 150,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2TD AT 4WD Комфорт Плюс",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.2TD AT 4WD Комфорт Плюс; кузов ALA49; двигатель 2AD-FTV; КПП AT; привод 4WD; период 12.2013–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-ala49-2ad-ftv-2-2td-at-4wd-12-2014-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ALA49",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2TD AT 4WD Стандарт",
+    "engineCode": "2AD-FTV",
+    "engine": {
+      "code": "2AD-FTV",
+      "displacementCc": 2231,
+      "powerHp": 150,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.2TD AT 4WD Стандарт",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.2TD AT 4WD Стандарт; кузов ALA49; двигатель 2AD-FTV; КПП AT; привод 4WD; период 12.2014–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-12-2012-07-2013",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2013-07",
+    "bodyCode": "ASA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5 AT 4WD Элеганс Плюс ранняя",
+    "engineCode": "2AR-FE",
+    "engine": {
+      "code": "2AR-FE",
+      "displacementCc": 2494,
+      "powerHp": 180,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.5 AT 4WD Элеганс Плюс ранняя",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5 AT 4WD Элеганс Плюс ранняя; кузов ASA44; двигатель 2AR-FE; КПП AT; привод 4WD; период 12.2012–07.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-12-2012-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2012-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ASA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5 AT 4WD Престиж Плюс",
+    "engineCode": "2AR-FE",
+    "engine": {
+      "code": "2AR-FE",
+      "displacementCc": 2494,
+      "powerHp": 180,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.5 AT 4WD Престиж Плюс",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5 AT 4WD Престиж Плюс; кузов ASA44; двигатель 2AR-FE; КПП AT; привод 4WD; период 12.2012–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-08-2013-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-08",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ASA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5 AT 4WD Элеганс Плюс поздняя",
+    "engineCode": "2AR-FE",
+    "engine": {
+      "code": "2AR-FE",
+      "displacementCc": 2494,
+      "powerHp": 180,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.5 AT 4WD Элеганс Плюс поздняя",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5 AT 4WD Элеганс Плюс поздняя; кузов ASA44; двигатель 2AR-FE; КПП AT; привод 4WD; период 08.2013–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-rav4-3-asa44-2ar-fe-2-5-at-4wd-12-2014-12-2015",
+    "modelId": "toyota-rav4-63",
+    "generationId": "drom-toyota-rav4-xa40",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-12",
+    "productionMonthTo": "2015-12",
+    "bodyCode": "ASA44",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5 AT 4WD Комфорт Плюс",
+    "engineCode": "2AR-FE",
+    "engine": {
+      "code": "2AR-FE",
+      "displacementCc": 2494,
+      "powerHp": 180,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-rav4-3 2.5 AT 4WD Комфорт Плюс",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/g_2012_1961/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5 AT 4WD Комфорт Плюс; кузов ASA44; двигатель 2AR-FE; КПП AT; привод 4WD; период 12.2014–12.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-camry-40-acv40-2az-fe-2-4-mt-comfort-05-2006-05-2009",
+    "modelId": "toyota-camry-40",
+    "generationId": "toyota-camry-xv40",
+    "market": "Россия",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2006-05",
+    "productionMonthTo": "2009-05",
+    "bodyCode": "ACV40",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 MT Comfort",
+    "engineCode": "2AZ-FE",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-camry-40 2.4 MT Comfort",
+        "url": "https://www.drom.ru/catalog/toyota/camry/g_2006_988/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 MT Comfort; кузов ACV40; двигатель 2AZ-FE; КПП MT; привод FWD; период 05.2006–05.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-camry-40-acv40-2az-fe-2-4-at-comfort-05-2006-05-2009",
+    "modelId": "toyota-camry-40",
+    "generationId": "toyota-camry-xv40",
+    "market": "Россия",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2006-05",
+    "productionMonthTo": "2009-05",
+    "bodyCode": "ACV40",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 AT Comfort+",
+    "engineCode": "2AZ-FE",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-camry-40 2.4 AT Comfort+",
+        "url": "https://www.drom.ru/catalog/toyota/camry/g_2006_988/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 AT Comfort+; кузов ACV40; двигатель 2AZ-FE; КПП AT; привод FWD; период 05.2006–05.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-camry-40-acv40-2az-fe-2-4-at-elegance-05-2006-05-2009",
+    "modelId": "toyota-camry-40",
+    "generationId": "toyota-camry-xv40",
+    "market": "Россия",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2006-05",
+    "productionMonthTo": "2009-05",
+    "bodyCode": "ACV40",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 AT Elegance",
+    "engineCode": "2AZ-FE",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-camry-40 2.4 AT Elegance",
+        "url": "https://www.drom.ru/catalog/toyota/camry/g_2006_988/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 AT Elegance; кузов ACV40; двигатель 2AZ-FE; КПП AT; привод FWD; период 05.2006–05.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-camry-40-acv40-2az-fe-2-4-at-prestige-05-2006-05-2009",
+    "modelId": "toyota-camry-40",
+    "generationId": "toyota-camry-xv40",
+    "market": "Россия",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2006-05",
+    "productionMonthTo": "2009-05",
+    "bodyCode": "ACV40",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 AT Prestige",
+    "engineCode": "2AZ-FE",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-camry-40 2.4 AT Prestige",
+        "url": "https://www.drom.ru/catalog/toyota/camry/g_2006_988/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 AT Prestige; кузов ACV40; двигатель 2AZ-FE; КПП AT; привод FWD; период 05.2006–05.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "toyota-camry-40-gsv40-2gr-fe-3-5-at-luxe-05-2006-05-2009",
+    "modelId": "toyota-camry-40",
+    "generationId": "toyota-camry-xv40",
+    "market": "Россия",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2006-05",
+    "productionMonthTo": "2009-05",
+    "bodyCode": "GSV40",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "3.5 AT Luxe",
+    "engineCode": "2GR-FE",
+    "engine": {
+      "code": "2GR-FE",
+      "displacementCc": 3456,
+      "powerHp": 277,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — toyota-camry-40 3.5 AT Luxe",
+        "url": "https://www.drom.ru/catalog/toyota/camry/g_2006_988/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 3.5 AT Luxe; кузов GSV40; двигатель 2GR-FE; КПП AT; привод FWD; период 05.2006–05.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "honda-cr-v-3-re5-r20a2-2-0-mt-comfort-03-2007-03-2010",
+    "modelId": "honda-cr-v-3",
+    "generationId": "honda-crv-re",
+    "market": "Россия",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-03",
+    "productionMonthTo": "2010-03",
+    "bodyCode": "RE5",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT Comfort",
+    "engineCode": "R20A2",
+    "engine": {
+      "code": "R20A2",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — honda-cr-v-3 2.0 MT Comfort",
+        "url": "https://www.drom.ru/catalog/honda/cr-v/g_2007_1004/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT Comfort; кузов RE5; двигатель R20A2; КПП MT; привод 4WD; период 03.2007–03.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "honda-cr-v-3-re5-r20a2-2-0-mt-elegance-03-2007-03-2010",
+    "modelId": "honda-cr-v-3",
+    "generationId": "honda-crv-re",
+    "market": "Россия",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-03",
+    "productionMonthTo": "2010-03",
+    "bodyCode": "RE5",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT Elegance",
+    "engineCode": "R20A2",
+    "engine": {
+      "code": "R20A2",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — honda-cr-v-3 2.0 MT Elegance",
+        "url": "https://www.drom.ru/catalog/honda/cr-v/g_2007_1004/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT Elegance; кузов RE5; двигатель R20A2; КПП MT; привод 4WD; период 03.2007–03.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "honda-cr-v-3-re5-r20a2-2-0-at-elegance-03-2007-03-2010",
+    "modelId": "honda-cr-v-3",
+    "generationId": "honda-crv-re",
+    "market": "Россия",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-03",
+    "productionMonthTo": "2010-03",
+    "bodyCode": "RE5",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Elegance",
+    "engineCode": "R20A2",
+    "engine": {
+      "code": "R20A2",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — honda-cr-v-3 2.0 AT Elegance",
+        "url": "https://www.drom.ru/catalog/honda/cr-v/g_2007_1004/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Elegance; кузов RE5; двигатель R20A2; КПП AT; привод 4WD; период 03.2007–03.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "honda-cr-v-3-re5-r20a2-2-0-at-executive-03-2007-02-2008",
+    "modelId": "honda-cr-v-3",
+    "generationId": "honda-crv-re",
+    "market": "Россия",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-03",
+    "productionMonthTo": "2008-02",
+    "bodyCode": "RE5",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Executive",
+    "engineCode": "R20A2",
+    "engine": {
+      "code": "R20A2",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — honda-cr-v-3 2.0 AT Executive",
+        "url": "https://www.drom.ru/catalog/honda/cr-v/g_2007_1004/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Executive; кузов RE5; двигатель R20A2; КПП AT; привод 4WD; период 03.2007–02.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-pe-vps-2-0-mt-drive-09-2011-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2011,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2011-09",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT Drive",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.0 MT Drive",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT Drive; кузов KE; двигатель PE-VPS; КПП MT; привод FWD; период 09.2011–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-pe-vps-2-0-at-active-fwd-09-2011-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2011,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2011-09",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Active FWD",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.0 AT Active FWD",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Active FWD; кузов KE; двигатель PE-VPS; КПП AT; привод FWD; период 09.2011–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-pe-vps-2-0-at-drive-fwd-01-2014-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-01",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Drive FWD",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.0 AT Drive FWD",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Drive FWD; кузов KE; двигатель PE-VPS; КПП AT; привод FWD; период 01.2014–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-pe-vps-2-0-at-active-4wd-09-2011-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2011,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2011-09",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Active 4WD",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.0 AT Active 4WD",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Active 4WD; кузов KE; двигатель PE-VPS; КПП AT; привод 4WD; период 09.2011–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-pe-vps-2-0-at-supreme-4wd-09-2011-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2011,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2011-09",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Supreme 4WD",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.0 AT Supreme 4WD",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Supreme 4WD; кузов KE; двигатель PE-VPS; КПП AT; привод 4WD; период 09.2011–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-pe-vps-2-0-at-drive-4wd-01-2014-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2014-01",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Drive 4WD",
+    "engineCode": "PE-VPS",
+    "engine": {
+      "code": "PE-VPS",
+      "displacementCc": 1997,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.0 AT Drive 4WD",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Drive 4WD; кузов KE; двигатель PE-VPS; КПП AT; привод 4WD; период 01.2014–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-shy1-2-2d-at-active-06-2013-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-06",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2D AT Active",
+    "engineCode": "SHY1",
+    "engine": {
+      "code": "SHY1",
+      "displacementCc": 2191,
+      "powerHp": 175,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.2D AT Active",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.2D AT Active; кузов KE; двигатель SHY1; КПП AT; привод 4WD; период 06.2013–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-shy1-2-2d-at-supreme-06-2013-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-06",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.2D AT Supreme",
+    "engineCode": "SHY1",
+    "engine": {
+      "code": "SHY1",
+      "displacementCc": 2191,
+      "powerHp": 175,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.2D AT Supreme",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.2D AT Supreme; кузов KE; двигатель SHY1; КПП AT; привод 4WD; период 06.2013–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-py-vps-2-5-at-active-04-2013-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-04",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5 AT Active+",
+    "engineCode": "PY-VPS",
+    "engine": {
+      "code": "PY-VPS",
+      "displacementCc": 2488,
+      "powerHp": 192,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.5 AT Active+",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5 AT Active+; кузов KE; двигатель PY-VPS; КПП AT; привод 4WD; период 04.2013–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "mazda-cx5-ke-kf-ke-py-vps-2-5-at-supreme-04-2013-01-2015",
+    "modelId": "mazda-cx5-ke-kf",
+    "generationId": "mazda-cx5-ke",
+    "market": "Россия",
+    "modelYearFrom": 2013,
+    "modelYearTo": 2015,
+    "productionMonthFrom": "2013-04",
+    "productionMonthTo": "2015-01",
+    "bodyCode": "KE",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5 AT Supreme",
+    "engineCode": "PY-VPS",
+    "engine": {
+      "code": "PY-VPS",
+      "displacementCc": 2488,
+      "powerHp": 192,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — mazda-cx5-ke-kf 2.5 AT Supreme",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/g_2011_1498/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5 AT Supreme; кузов KE; двигатель PY-VPS; КПП AT; привод 4WD; период 04.2013–01.2015.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j20a-2-0-mt-jlx-a-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 MT JLX-A",
+    "engineCode": "J20A",
+    "engine": {
+      "code": "J20A",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.0 MT JLX-A",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 MT JLX-A; кузов JT; двигатель J20A; КПП MT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j20a-2-0-at-jlx-a-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT JLX-A",
+    "engineCode": "J20A",
+    "engine": {
+      "code": "J20A",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.0 AT JLX-A",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT JLX-A; кузов JT; двигатель J20A; КПП AT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j20a-2-0-at-jlx-e-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT JLX-E",
+    "engineCode": "J20A",
+    "engine": {
+      "code": "J20A",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.0 AT JLX-E",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT JLX-E; кузов JT; двигатель J20A; КПП AT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j20a-2-0-at-jlx-el-nav-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT JLX-EL Nav",
+    "engineCode": "J20A",
+    "engine": {
+      "code": "J20A",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.0 AT JLX-EL Nav",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT JLX-EL Nav; кузов JT; двигатель J20A; КПП AT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j20a-2-0-at-exclusive-10-2014-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2014-10",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 AT Exclusive",
+    "engineCode": "J20A",
+    "engine": {
+      "code": "J20A",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.0 AT Exclusive",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0 AT Exclusive; кузов JT; двигатель J20A; КПП AT; привод 4WD; период 10.2014–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j24b-2-4-mt-jlx-e-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 MT JLX-E",
+    "engineCode": "J24B",
+    "engine": {
+      "code": "J24B",
+      "displacementCc": 2393,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.4 MT JLX-E",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 MT JLX-E; кузов JT; двигатель J24B; КПП MT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j24b-2-4-at-jlx-e-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT JLX-E",
+    "engineCode": "J24B",
+    "engine": {
+      "code": "J24B",
+      "displacementCc": 2393,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.4 AT JLX-E",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 AT JLX-E; кузов JT; двигатель J24B; КПП AT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j24b-2-4-at-jlx-el-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT JLX-EL",
+    "engineCode": "J24B",
+    "engine": {
+      "code": "J24B",
+      "displacementCc": 2393,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.4 AT JLX-EL",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 AT JLX-EL; кузов JT; двигатель J24B; КПП AT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j24b-2-4-at-jlx-el-nav-08-2012-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2012-08",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT JLX-EL Nav",
+    "engineCode": "J24B",
+    "engine": {
+      "code": "J24B",
+      "displacementCc": 2393,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.4 AT JLX-EL Nav",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 AT JLX-EL Nav; кузов JT; двигатель J24B; КПП AT; привод 4WD; период 08.2012–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-grand-vitara-2-jt-j24b-2-4-at-exclusive-10-2014-07-2016",
+    "modelId": "suzuki-grand-vitara-2",
+    "generationId": "suzuki-grand-vitara-jt",
+    "market": "Россия",
+    "modelYearFrom": 2014,
+    "modelYearTo": 2016,
+    "productionMonthFrom": "2014-10",
+    "productionMonthTo": "2016-07",
+    "bodyCode": "JT",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT Exclusive",
+    "engineCode": "J24B",
+    "engine": {
+      "code": "J24B",
+      "displacementCc": 2393,
+      "powerHp": 169,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-grand-vitara-2 2.4 AT Exclusive",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/g_2012_949/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.4 AT Exclusive; кузов JT; двигатель J24B; КПП AT; привод 4WD; период 10.2014–07.2016.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0xs-mt-sr-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0XS MT SR",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0XS MT SR",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0XS MT SR; кузов SH; двигатель EJ204; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0xs-mt-4r-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0XS MT 4R",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0XS MT 4R",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0XS MT 4R; кузов SH; двигатель EJ204; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0xs-mt-4q-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0XS MT 4Q",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0XS MT 4Q",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0XS MT 4Q; кузов SH; двигатель EJ204; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0xs-mt-in-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0XS MT IN",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0XS MT IN",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0XS MT IN; кузов SH; двигатель EJ204; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0x-at-rr-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0X AT RR",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0X AT RR",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0X AT RR; кузов SH; двигатель EJ204; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0xs-at-4r-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0XS AT 4R",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0XS AT 4R",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0XS AT 4R; кузов SH; двигатель EJ204; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0xs-at-4q-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0XS AT 4Q",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0XS AT 4Q",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0XS AT 4Q; кузов SH; двигатель EJ204; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej204-2-0xs-at-in-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0XS AT IN",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 150,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0XS AT IN",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.0XS AT IN; кузов SH; двигатель EJ204; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej253-2-5xs-mt-61-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XS MT 61",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 172,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XS MT 61",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XS MT 61; кузов SH; двигатель EJ253; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej253-2-5xs-mt-63-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XS MT 63",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 172,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XS MT 63",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XS MT 63; кузов SH; двигатель EJ253; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej253-2-5xs-mt-62-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XS MT 62",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 172,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XS MT 62",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XS MT 62; кузов SH; двигатель EJ253; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej253-2-5xs-at-61-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XS AT 61",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 172,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XS AT 61",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XS AT 61; кузов SH; двигатель EJ253; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej253-2-5xs-at-63-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XS AT 63",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 172,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XS AT 63",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XS AT 63; кузов SH; двигатель EJ253; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej253-2-5xs-at-62-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XS AT 62",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 172,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XS AT 62",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XS AT 62; кузов SH; двигатель EJ253; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej255-2-5xt-mt-vr-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XT MT VR",
+    "engineCode": "EJ255",
+    "engine": {
+      "code": "EJ255",
+      "displacementCc": 2457,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XT MT VR",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XT MT VR; кузов SH; двигатель EJ255; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej255-2-5xt-mt-2s-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XT MT 2S",
+    "engineCode": "EJ255",
+    "engine": {
+      "code": "EJ255",
+      "displacementCc": 2457,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XT MT 2S",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XT MT 2S; кузов SH; двигатель EJ255; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej255-2-5xt-mt-vq-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XT MT VQ",
+    "engineCode": "EJ255",
+    "engine": {
+      "code": "EJ255",
+      "displacementCc": 2457,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XT MT VQ",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XT MT VQ; кузов SH; двигатель EJ255; КПП MT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej255-2-5xt-at-vr-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XT AT VR",
+    "engineCode": "EJ255",
+    "engine": {
+      "code": "EJ255",
+      "displacementCc": 2457,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XT AT VR",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XT AT VR; кузов SH; двигатель EJ255; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej255-2-5xt-at-2s-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XT AT 2S",
+    "engineCode": "EJ255",
+    "engine": {
+      "code": "EJ255",
+      "displacementCc": 2457,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XT AT 2S",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XT AT 2S; кузов SH; двигатель EJ255; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh-ej255-2-5xt-at-vq-05-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5XT AT VQ",
+    "engineCode": "EJ255",
+    "engine": {
+      "code": "EJ255",
+      "displacementCc": 2457,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5XT AT VQ",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Строка комплектации 2.5XT AT VQ; кузов SH; двигатель EJ255; КПП AT; привод 4WD; период 05.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-dba-sh5-ej204-2-0-x-4wd-mt-12-2007-12-2008",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-12",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "DBA-SH5",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 X 4WD MT",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 148,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0 X 4WD MT",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "Строка комплектации 2.0 X 4WD MT; кузов DBA-SH5; двигатель EJ204; КПП MT; привод 4WD; период 12.2007–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-dba-sh5-ej204-2-0-x-4wd-at-12-2007-12-2008",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-12",
+    "productionMonthTo": "2008-12",
+    "bodyCode": "DBA-SH5",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.0 X 4WD AT",
+    "engineCode": "EJ204",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 148,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.0 X 4WD AT",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "Строка комплектации 2.0 X 4WD AT; кузов DBA-SH5; двигатель EJ204; КПП AT; привод 4WD; период 12.2007–12.2008.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh9-ej253-2-5x-mt-07-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "США",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-07",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH9",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5X MT",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5X MT",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Строка комплектации 2.5X MT; кузов SH9; двигатель EJ253; КПП MT; привод 4WD; период 07.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh9-ej253-2-5x-mt-premium-07-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "США",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-07",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH9",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5X MT Premium",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5X MT Premium",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Строка комплектации 2.5X MT Premium; кузов SH9; двигатель EJ253; КПП MT; привод 4WD; период 07.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh9-ej253-2-5x-at-07-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "США",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-07",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH9",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5X AT",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5X AT",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Строка комплектации 2.5X AT; кузов SH9; двигатель EJ253; КПП AT; привод 4WD; период 07.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh9-ej253-2-5x-at-premium-07-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "США",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-07",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH9",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5X AT Premium",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5X AT Premium",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Строка комплектации 2.5X AT Premium; кузов SH9; двигатель EJ253; КПП AT; привод 4WD; период 07.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "subaru-forester-sg-sh-sh9-ej253-2-5x-at-limited-07-2008-09-2010",
+    "modelId": "subaru-forester-sg-sh",
+    "generationId": "subaru-forester-sh",
+    "market": "США",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2008-07",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "SH9",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.5X AT Limited",
+    "engineCode": "EJ253",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — subaru-forester-sg-sh 2.5X AT Limited",
+        "url": "https://www.drom.ru/catalog/subaru/forester/2008/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Строка комплектации 2.5X AT Limited; кузов SH9; двигатель EJ253; КПП AT; привод 4WD; период 07.2008–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "outlander-1-cu4w-4g64-2-4-at-ls-fwd-12-2002-03-2006-drom",
+    "modelId": "outlander-1",
+    "generationId": "mitsubishi-outlander-cu",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2002-12",
+    "productionMonthTo": "2006-03",
+    "bodyCode": "CU4W",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT LS FWD",
+    "engineCode": "4G64",
+    "engine": {
+      "code": "4G64",
+      "displacementCc": 2351,
+      "powerHp": 142,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — outlander-1 2.4 AT LS FWD",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/g_2002_5233/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Строка комплектации 2.4 AT LS FWD; кузов CU4W; двигатель 4G64; КПП AT; привод FWD; период 12.2002–03.2006.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "outlander-1-cu4w-4g64-2-4-at-xls-fwd-12-2002-03-2006-drom",
+    "modelId": "outlander-1",
+    "generationId": "mitsubishi-outlander-cu",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2002-12",
+    "productionMonthTo": "2006-03",
+    "bodyCode": "CU4W",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT XLS FWD",
+    "engineCode": "4G64",
+    "engine": {
+      "code": "4G64",
+      "displacementCc": 2351,
+      "powerHp": 142,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — outlander-1 2.4 AT XLS FWD",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/g_2002_5233/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Строка комплектации 2.4 AT XLS FWD; кузов CU4W; двигатель 4G64; КПП AT; привод FWD; период 12.2002–03.2006.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "outlander-1-cu4w-4g64-2-4-at-4wd-ls-12-2002-03-2006-drom",
+    "modelId": "outlander-1",
+    "generationId": "mitsubishi-outlander-cu",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2002-12",
+    "productionMonthTo": "2006-03",
+    "bodyCode": "CU4W",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT 4WD LS",
+    "engineCode": "4G64",
+    "engine": {
+      "code": "4G64",
+      "displacementCc": 2351,
+      "powerHp": 142,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — outlander-1 2.4 AT 4WD LS",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/g_2002_5233/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Строка комплектации 2.4 AT 4WD LS; кузов CU4W; двигатель 4G64; КПП AT; привод 4WD; период 12.2002–03.2006.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "outlander-1-cu4w-4g64-2-4-at-4wd-xls-12-2002-03-2006-drom",
+    "modelId": "outlander-1",
+    "generationId": "mitsubishi-outlander-cu",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2002-12",
+    "productionMonthTo": "2006-03",
+    "bodyCode": "CU4W",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "2.4 AT 4WD XLS",
+    "engineCode": "4G64",
+    "engine": {
+      "code": "4G64",
+      "displacementCc": 2351,
+      "powerHp": 142,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — outlander-1 2.4 AT 4WD XLS",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/g_2002_5233/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Строка комплектации 2.4 AT 4WD XLS; кузов CU4W; двигатель 4G64; КПП AT; привод 4WD; период 12.2002–03.2006.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-swift-323-zc72s-k12b-1-2-mt-club-03-2010-10-2013",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2013-10",
+    "bodyCode": "ZC72S",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "1.2 MT Club",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 94,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-swift-323 1.2 MT Club",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/g_2010_8742/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "Строка комплектации 1.2 MT Club; кузов ZC72S; двигатель K12B; КПП MT; привод FWD; период 03.2010–10.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-swift-323-zc72s-k12b-1-2-mt-comfort-03-2010-10-2013",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2013-10",
+    "bodyCode": "ZC72S",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "1.2 MT Comfort",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 94,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-swift-323 1.2 MT Comfort",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/g_2010_8742/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "Строка комплектации 1.2 MT Comfort; кузов ZC72S; двигатель K12B; КПП MT; привод FWD; период 03.2010–10.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-swift-323-zd72s-k12b-1-2-mt-4x4-club-03-2010-10-2013",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2013-10",
+    "bodyCode": "ZD72S",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "1.2 MT 4X4 Club",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 94,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-swift-323 1.2 MT 4X4 Club",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/g_2010_8742/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "Строка комплектации 1.2 MT 4X4 Club; кузов ZD72S; двигатель K12B; КПП MT; привод 4WD; период 03.2010–10.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-swift-323-zc72s-k12b-1-2-at-club-03-2010-10-2013",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2013-10",
+    "bodyCode": "ZC72S",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "1.2 AT Club",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 94,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-swift-323 1.2 AT Club",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/g_2010_8742/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "Строка комплектации 1.2 AT Club; кузов ZC72S; двигатель K12B; КПП AT; привод FWD; период 03.2010–10.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-swift-323-zc72s-k12b-1-2-at-comfort-03-2010-10-2013",
+    "modelId": "suzuki-swift-323",
+    "generationId": "drom-suzuki-swift-fznz",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2013-10",
+    "bodyCode": "ZC72S",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "1.2 AT Comfort",
+    "engineCode": "K12B",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 94,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — suzuki-swift-323 1.2 AT Comfort",
+        "url": "https://www.drom.ru/catalog/suzuki/swift/g_2010_8742/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "Строка комплектации 1.2 AT Comfort; кузов ZC72S; двигатель K12B; КПП AT; привод FWD; период 03.2010–10.2013.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и геометрия не указаны в строке комплектации; требуют отдельной проверки по точной версии."
+      },
+      {
+        "field": "interiorDimensions",
+        "reason": "Размеры салона не указаны в использованной строке."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA, ширина/диаметр диска и ET не подтверждены для этой модификации."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости требуют подтверждения для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Длины щёток не указаны в источнике."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент не указан в выбранной строке комплектации."
+      }
+    ],
+    "notes": "Отдельная запись комплектации Drom. Не переносить характеристики других кузовных кодов, рынков и трансмиссий."
+  },
+  {
+    "id": "suzuki-jimny-jb64-k15b-102-mt-ru-2018-2022",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb74",
+    "market": "Россия",
+    "modelYearFrom": 2018,
+    "modelYearTo": 2022,
+    "bodyCode": "JB64",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.5 102 л.с. 5MT 4WD",
+    "engineCode": "K15B",
+    "engine": {
+      "code": "K15B",
+      "displacementCc": 1462,
+      "powerHp": 102,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB64, Россия, 06.2018–12.2022; K15B 1462 см³, 102 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb64-k15b-102-at-ru-2018-2022",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb74",
+    "market": "Россия",
+    "modelYearFrom": 2018,
+    "modelYearTo": 2022,
+    "bodyCode": "JB64",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.5 102 л.с. 4AT 4WD",
+    "engineCode": "K15B",
+    "engine": {
+      "code": "K15B",
+      "displacementCc": 1462,
+      "powerHp": 102,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB64, Россия, 06.2018–12.2022; K15B 1462 см³, 102 л.с.; АКПП 4, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-85-mt-ru-2012-2019",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2019,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 85 л.с. 5MT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 85,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB43, Россия, 07.2012–05.2019; M13A 1328 см³, 85 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-85-at-ru-2012-2019",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Россия",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2019,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 85 л.с. 4AT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 85,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB43, Россия, 07.2012–05.2019; M13A 1328 см³, 85 л.с.; АКПП 4, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-85-mt-ru-2005-2012",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Россия",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2012,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 85 л.с. 5MT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 85,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB43, Россия, 08.2005–06.2012; M13A 1328 см³, 85 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-85-at-ru-2005-2012",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Россия",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2012,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 85 л.с. 4AT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 85,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB43, Россия, 08.2005–06.2012; M13A 1328 см³, 85 л.с.; АКПП 4, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-g13bb-80-mt-ru-1998-2005",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Россия",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2005,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 80 л.с. 5MT 4WD",
+    "engineCode": "G13BB",
+    "engine": {
+      "code": "G13BB",
+      "displacementCc": 1298,
+      "powerHp": 80,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB43, Россия, 10.1998–07.2005; G13BB 1298 см³, 80 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-82-mt-ru-1998-2005",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Россия",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2005,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 82 л.с. 5MT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 82,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB43, Россия, 10.1998–07.2005; M13A 1328 см³, 82 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-82-at-ru-1998-2005",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Россия",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2005,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 82 л.с. 4AT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 82,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "Jimny JB43, Россия, 10.1998–07.2005; M13A 1328 см³, 82 л.с.; АКПП 4, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Рынок указан в разделе Drom; точная комплектация не раскрыта."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-86-mt-eu-2012-2018",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Европа",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2018,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 86 л.с. 5MT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 86,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Jimny JB43, Европа, 07.2012–07.2018; M13A 1328 см³, 86 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-86-at-eu-2012-2018",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Европа",
+    "modelYearFrom": 2012,
+    "modelYearTo": 2018,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 86 л.с. 4AT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 86,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Jimny JB43, Европа, 07.2012–07.2018; M13A 1328 см³, 86 л.с.; АКПП 4, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-86-mt-eu-2005-2012",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Европа",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2012,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 86 л.с. 5MT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 86,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Jimny JB43, Европа, 08.2005–06.2012; M13A 1328 см³, 86 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-m13a-86-at-eu-2005-2012",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Европа",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2012,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 86 л.с. 4AT 4WD",
+    "engineCode": "M13A",
+    "engine": {
+      "code": "M13A",
+      "displacementCc": 1328,
+      "powerHp": 86,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Jimny JB43, Европа, 08.2005–06.2012; M13A 1328 см³, 86 л.с.; АКПП 4, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-k9k-266-86-mt-eu-2005-2012",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Европа",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2012,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.5 DDiS 86 л.с. 5MT 4WD",
+    "engineCode": "K9K 266",
+    "engine": {
+      "code": "K9K 266",
+      "displacementCc": 1461,
+      "powerHp": 86,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Jimny JB43, Европа, 08.2005–06.2012; K9K 266 1461 см³, 86 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "suzuki-jimny-jb43-g13bb-80-mt-eu-1999-2005",
+    "modelId": "suzuki-jimny-3",
+    "generationId": "suzuki-jimny-jb43",
+    "market": "Европа",
+    "modelYearFrom": 1999,
+    "modelYearTo": 2005,
+    "bodyCode": "JB43",
+    "bodyStyle": "SUV 3 дв.",
+    "trimOrGrade": "1.3 80 л.с. 5MT 4WD",
+    "engineCode": "G13BB",
+    "engine": {
+      "code": "G13BB",
+      "displacementCc": 1298,
+      "powerHp": 80,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Suzuki Jimny, таблицы двигателя/трансмиссии",
+        "url": "https://www.drom.ru/catalog/suzuki/jimny/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Jimny JB43, Европа, 12.1999–07.2005; G13BB 1298 см³, 80 л.с.; МКПП 5, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код конкретной коробки передач в сводной таблице Drom не указан."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты конкретной модификации не переносились из сводной таблицы агрегатов."
+      },
+      {
+        "field": "market",
+        "reason": "Европейская спецификация отделена от российской; страна поставки не уточнена."
+      }
+    ],
+    "notes": "Состав агрегатов и тип трансмиссии подтверждены сводными таблицами Drom. Не переносить характеристики на другие рынки и годы."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-5d-tb42s-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.2 MT",
+    "engineCode": "TB42S",
+    "engine": {
+      "code": "TB42S",
+      "displacementCc": 4169,
+      "powerHp": 200,
+      "torqueNm": 320,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/503139/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2001–2004, 5 дв. SUV, 4.2 MT; TB42S, 4169 см³, 200 л.с., 320 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-5d-td42-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.2 TD MT",
+    "engineCode": "TD42",
+    "engine": {
+      "code": "TD42",
+      "displacementCc": 4169,
+      "powerHp": 145,
+      "torqueNm": 331,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/503133/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2001–2004, 5 дв. SUV, 4.2 TD MT; TD42, 4169 см³, 145 л.с., 331 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-5d-tb45e-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.5 MT",
+    "engineCode": "TB45E",
+    "engine": {
+      "code": "TB45E",
+      "displacementCc": 4478,
+      "powerHp": 200,
+      "torqueNm": 350,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2001–2004, 5 дв. SUV, 4.5 MT; TB45E, 4478 см³, 200 л.с., 350 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-5d-tb45e-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.5 AT",
+    "engineCode": "TB45E",
+    "engine": {
+      "code": "TB45E",
+      "displacementCc": 4478,
+      "powerHp": 200,
+      "torqueNm": 350,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/503136/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2001–2004, 5 дв. SUV, 4.5 AT; TB45E, 4478 см³, 200 л.с., 350 Н·м, АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-5d-tb48de-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.8 MT",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "torqueNm": 400,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2001–2004, 5 дв. SUV, 4.8 MT; TB48DE, 4758 см³, 245 л.с., 400 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-5d-tb48de-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.8 AT",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "torqueNm": 400,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/503138/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2001–2004, 5 дв. SUV, 4.8 AT; TB48DE, 4758 см³, 245 л.с., 400 Н·м, АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-zd30ddti-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "3.0 TD MT",
+    "engineCode": "ZD30DDTi",
+    "engine": {
+      "code": "ZD30DDTi",
+      "displacementCc": 2953,
+      "powerHp": 160,
+      "torqueNm": 380,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2004–2017, 5 дв. SUV, 3.0 TD MT; ZD30DDTi, 2953 см³, 160 л.с., 380 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-zd30ddti-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "3.0 TD AT",
+    "engineCode": "ZD30DDTi",
+    "engine": {
+      "code": "ZD30DDTi",
+      "displacementCc": 2953,
+      "powerHp": 160,
+      "torqueNm": 380,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2004–2017, 5 дв. SUV, 3.0 TD AT; ZD30DDTi, 2953 см³, 160 л.с., 380 Н·м, АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-td42-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.2 D MT",
+    "engineCode": "TD42",
+    "engine": {
+      "code": "TD42",
+      "displacementCc": 4169,
+      "powerHp": 135,
+      "torqueNm": 285,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2004–2017, 5 дв. SUV, 4.2 D MT; TD42, 4169 см³, 135 л.с., 285 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-tb45e-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.5 MT",
+    "engineCode": "TB45E",
+    "engine": {
+      "code": "TB45E",
+      "displacementCc": 4478,
+      "powerHp": 230,
+      "torqueNm": 385,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2004–2017, 5 дв. SUV, 4.5 MT; TB45E, 4478 см³, 230 л.с., 385 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-tb48de-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.8 MT",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2004–2017, 5 дв. SUV, 4.8 MT; TB48DE, 4758 см³, 245 л.с., 451 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-tb48de-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.8 AT",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, характеристики модификации",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2007/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61 2004–2017, 5 дв. SUV, 4.8 AT; TB48DE, 4758 см³, 245 л.с., 451 Н·м, АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки передач не подтверждён в источнике; указан только тип и число ступеней."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры не перенесены из общей страницы поколения, чтобы не смешивать кузова и исполнения."
+      },
+      {
+        "field": "market",
+        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+      }
+    ],
+    "notes": "Данные двигателя, мощности, момента, кузова, типа КПП и привода взяты из таблиц/карточек Drom. Проверять применимость по VIN."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-3d-tb45e-230-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "3 дв. SUV",
+    "trimOrGrade": "4.5 MT",
+    "engineCode": "TB45E",
+    "engine": {
+      "code": "TB45E",
+      "displacementCc": 4478,
+      "powerHp": 230,
+      "torqueNm": 385,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, модификации 2004 года и позднее",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61, 3 дв. SUV, 2004–2017, 4.5 MT; TB45E 4478 см³, 230 л.с., 385 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и ступени КПП, но не точный заводской код агрегата."
+      },
+      {
+        "field": "market",
+        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты не перенесены без проверки точной карточки кузова и рынка."
+      }
+    ],
+    "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-3d-tb48de-245-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "3 дв. SUV",
+    "trimOrGrade": "4.8 MT 245 л.с.",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, модификации 2004 года и позднее",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 MT 245 л.с.; TB48DE 4758 см³, 245 л.с., 451 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и ступени КПП, но не точный заводской код агрегата."
+      },
+      {
+        "field": "market",
+        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты не перенесены без проверки точной карточки кузова и рынка."
+      }
+    ],
+    "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-3d-tb48de-280-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "3 дв. SUV",
+    "trimOrGrade": "4.8 MT 280 л.с.",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 280,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, модификации 2004 года и позднее",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 MT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и ступени КПП, но не точный заводской код агрегата."
+      },
+      {
+        "field": "market",
+        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты не перенесены без проверки точной карточки кузова и рынка."
+      }
+    ],
+    "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-3d-tb48de-245-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "3 дв. SUV",
+    "trimOrGrade": "4.8 AT 245 л.с.",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, модификации 2004 года и позднее",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 AT 245 л.с.; TB48DE 4758 см³, 245 л.с., 451 Н·м, АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и ступени КПП, но не точный заводской код агрегата."
+      },
+      {
+        "field": "market",
+        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты не перенесены без проверки точной карточки кузова и рынка."
+      }
+    ],
+    "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-3d-tb48de-280-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "3 дв. SUV",
+    "trimOrGrade": "4.8 AT 280 л.с.",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 280,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, модификации 2004 года и позднее",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 AT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и ступени КПП, но не точный заводской код агрегата."
+      },
+      {
+        "field": "market",
+        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты не перенесены без проверки точной карточки кузова и рынка."
+      }
+    ],
+    "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-tb48de-280-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.8 MT 280 л.с.",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 280,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, модификации 2004 года и позднее",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61, 5 дв. SUV, 2004–2017, 4.8 MT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и ступени КПП, но не точный заводской код агрегата."
+      },
+      {
+        "field": "market",
+        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты не перенесены без проверки точной карточки кузова и рынка."
+      }
+    ],
+    "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
+  },
+  {
+    "id": "nissan-patrol-y61-2004-5d-tb48de-280-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "не указан в карточке Drom",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2017,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.8 AT 280 л.с.",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 280,
+      "torqueNm": 451,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, модификации 2004 года и позднее",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/specs/transmission/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в карточке Drom",
+        "scope": "Y61, 5 дв. SUV, 2004–2017, 4.8 AT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и ступени КПП, но не точный заводской код агрегата."
+      },
+      {
+        "field": "market",
+        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты не перенесены без проверки точной карточки кузова и рынка."
+      }
+    ],
+    "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-3d-tb48de-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "3 дв. SUV",
+    "trimOrGrade": "4.8 AT",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 2001–2004, 3 дв. SUV, 4.8 AT; TB48DE 4758 см³, 245 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-1999-pickup-td42-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 1999,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "Пикап",
+    "trimOrGrade": "4.2 TD MT",
+    "engineCode": "TD42",
+    "engine": {
+      "code": "TD42",
+      "displacementCc": 4169,
+      "powerHp": 145,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 1999–2004, Пикап, 4.2 TD MT; TD42 4169 см³, 145 л.с., МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-1999-pickup-tb45e-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 1999,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "Пикап",
+    "trimOrGrade": "4.5 MT",
+    "engineCode": "TB45E",
+    "engine": {
+      "code": "TB45E",
+      "displacementCc": 4478,
+      "powerHp": 200,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 1999–2004, Пикап, 4.5 MT; TB45E 4478 см³, 200 л.с., МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-pickup-tb48de-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "Пикап",
+    "trimOrGrade": "4.8 MT",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 2001–2004, Пикап, 4.8 MT; TB48DE 4758 см³, 245 л.с., МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-2001-pickup-tb48de-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2004,
+    "bodyCode": "Y61",
+    "bodyStyle": "Пикап",
+    "trimOrGrade": "4.8 AT",
+    "engineCode": "TB48DE",
+    "engine": {
+      "code": "TB48DE",
+      "displacementCc": 4758,
+      "powerHp": 245,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 2001–2004, Пикап, 4.8 AT; TB48DE 4758 см³, 245 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-1997-5d-tb42s-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2001,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.2 MT",
+    "engineCode": "TB42S",
+    "engine": {
+      "code": "TB42S",
+      "displacementCc": 4169,
+      "powerHp": 200,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 1997–2001, 5 дв. SUV, 4.2 MT; TB42S 4169 см³, 200 л.с., МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-1997-5d-td42-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2001,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.2 TD MT",
+    "engineCode": "TD42",
+    "engine": {
+      "code": "TD42",
+      "displacementCc": 4169,
+      "powerHp": 145,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 1997–2001, 5 дв. SUV, 4.2 TD MT; TD42 4169 см³, 145 л.с., МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-1997-5d-tb45e-mt",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2001,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.5 MT",
+    "engineCode": "TB45E",
+    "engine": {
+      "code": "TB45E",
+      "displacementCc": 4478,
+      "powerHp": 200,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 1997–2001, 5 дв. SUV, 4.5 MT; TB45E 4478 см³, 200 л.с., МКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "nissan-patrol-y61-1997-5d-tb45e-at",
+    "modelId": "nissan-patrol-y61",
+    "generationId": "nissan-patrol-y61",
+    "market": "ОАЭ",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2001,
+    "bodyCode": "Y61",
+    "bodyStyle": "5 дв. SUV",
+    "trimOrGrade": "4.5 AT",
+    "engineCode": "TB45E",
+    "engine": {
+      "code": "TB45E",
+      "displacementCc": 4478,
+      "powerHp": 200,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Patrol Y61, комплектации по кузовам",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/2001/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Nissan Patrol Y61 1997–2001, 5 дв. SUV, 4.5 AT; TB45E 4478 см³, 200 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "В таблице комплектаций указан тип коробки, заводской код КПП не приведён."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Размеры конкретного исполнения не переносились из сводной страницы поколения."
+      }
+    ],
+    "notes": "Модификация и кузов выделены по таблице Drom. Для подбора деталей требуется сверка VIN и рынка."
+  },
+  {
+    "id": "lc100-ru-2002-1hz-std-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-03",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 D MT STD",
+    "engineCode": "1HZ",
+    "engine": {
+      "code": "1HZ",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HZJ105, 4.2 D MT STD, 2002–2005; двигатель 1HZ, 4163 см³, 131 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2002-1hz-gx-r1-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-03",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 D MT GX R1",
+    "engineCode": "1HZ",
+    "engine": {
+      "code": "1HZ",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HZJ105, 4.2 D MT GX R1, 2002–2005; двигатель 1HZ, 4163 см³, 131 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2002-1hz-gx-r2-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-03",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 D MT GX R2",
+    "engineCode": "1HZ",
+    "engine": {
+      "code": "1HZ",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HZJ105, 4.2 D MT GX R2, 2002–2005; двигатель 1HZ, 4163 см³, 131 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2002-1hd-fte-vx-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-03",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "HDJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 TD MT VX",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 204,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HDJ100, 4.2 TD MT VX, 2002–2005; двигатель 1HD-FTE, 4163 см³, 204 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2002-1hd-fte-vx-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-03",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "HDJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 TD AT VX",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 204,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HDJ100, 4.2 TD AT VX, 2002–2005; двигатель 1HD-FTE, 4163 см³, 204 л.с.; 4AT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2002-2uz-fe-vx-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-03",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT VX",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "UZJ100, 4.7 AT VX, 2002–2005; двигатель 2UZ-FE, 4663 см³, 238 л.с.; 5AT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-1hz-std-r1-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT STD R1",
+    "engineCode": "1HZ-Z",
+    "engine": {
+      "code": "1HZ-Z",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HZJ105, 4.2 MT STD R1, 2001–2002; двигатель 1HZ-Z, 4163 см³, 131 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-1hz-gx-r1-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT GX R1",
+    "engineCode": "1HZ-Z",
+    "engine": {
+      "code": "1HZ-Z",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HZJ105, 4.2 MT GX R1, 2001–2002; двигатель 1HZ-Z, 4163 см³, 131 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-1hz-gx-r2-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT GX R2",
+    "engineCode": "1HZ-Z",
+    "engine": {
+      "code": "1HZ-Z",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HZJ105, 4.2 MT GX R2, 2001–2002; двигатель 1HZ-Z, 4163 см³, 131 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-1hd-fte-vx-r2-mt",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HDJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT VX R2",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 204,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HDJ100, 4.2 MT VX R2, 2001–2002; двигатель 1HD-FTE, 4163 см³, 204 л.с.; 5MT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-1hd-fte-vx-r2-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HDJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 AT VX R2",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 204,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HDJ100, 4.2 AT VX R2, 2001–2002; двигатель 1HD-FTE, 4163 см³, 204 л.с.; 4AT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-1hd-fte-vx-50-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HDJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 AT VX 50",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 204,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "HDJ100, 4.2 AT VX 50, 2001–2002; двигатель 1HD-FTE, 4163 см³, 204 л.с.; 4AT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-2uz-fe-vx-r2-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT VX R2",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "UZJ100, 4.7 AT VX R2, 2001–2002; двигатель 2UZ-FE, 4663 см³, 235 л.с.; 4AT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100-ru-2001-2uz-fe-vx-50-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Россия",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-11",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT VX 50",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для России",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "UZJ100, 4.7 AT VX 50, 2001–2002; двигатель 2UZ-FE, 4663 см³, 235 л.с.; 4AT, полный привод 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип и число передач, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Размеры шин и индексы нагрузки/скорости для каждой комплектации в этой карточке не приведены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация и рынок взяты из таблицы Drom. Для подбора деталей и обслуживания требуется сверка VIN; тип КПП подтверждён, заводской код не указан."
+  },
+  {
+    "id": "lc100--2002-08-kr-hdj101k-4-2-vx-limited-g-selection-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "KR-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 196,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KR-HDJ101K, 4.2 VX limited G selection diesel turbo 4WD, 2002-08–2003-07; 1HD-FTE 4163 см³, 196 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-kr-hdj101k-4-2-vx-limited-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "KR-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 196,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KR-HDJ101K, 4.2 VX limited diesel turbo 4WD, 2002-08–2003-07; 1HD-FTE 4163 см³, 196 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-gh-uzj100w-4-7-100-vx-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "GH-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GH-UZJ100W, 4.7 100 VX 4WD, 2002-08–2003-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-gh-uzj100w-4-7-100-vx-limited-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "GH-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GH-UZJ100W, 4.7 100 VX limited 4WD, 2002-08–2003-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-gh-uzj100w-4-7-100-vx-limited-g-selection-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2003,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2003-07",
+    "bodyCode": "GH-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited G selection 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GH-UZJ100W, 4.7 100 VX limited G selection 4WD, 2002-08–2003-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-active-vacation-type-a-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type A diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-active-vacation-type-b-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type B diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-kg-hdj101k-4-2-vx-limited-50th-anniversary-edition-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited 50th anniversary edition diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited 50th anniversary edition diesel turbo 4WD, 2001-01–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-g-selection-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-kg-hdj101k-4-2-vx-limited-g-selection-50th-anniversary-edition-diesel-t-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection 50th anniversary edition diesel T 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection 50th anniversary edition diesel T 4WD, 2001-01–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-active-vacation-type-a-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited active vacation type A diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-active-vacation-type-b-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited active vacation type B diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-g-selection-active-vacation-type-a-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection active vacation type A diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-kg-hdj101k-4-2-vx-limited-g-selection-active-vacation-type-b-diesel-turbo-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX limited G selection active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX limited G selection active vacation type B diesel turbo 4WD, 2000-05–2002-07; 1HD-FTE 4163 см³, 205 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-100-vx-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 100 VX 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-100-vx-limited-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 100 VX limited 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-100-vx-limited-g-selection-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 100 VX limited G selection 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 100 VX limited G selection 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-gf-uzj100w-4-7-vx-limited-50th-anniversary-edition-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited 50th anniversary edition 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited 50th anniversary edition 4WD, 2001-01–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2001-01-gf-uzj100w-4-7-vx-limited-g-selection-50th-anniversary-edition-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2001-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited G selection 50th anniversary edition 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited G selection 50th anniversary edition 4WD, 2001-01–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-active-vacation-type-a-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX active vacation type A 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX active vacation type A 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-active-vacation-type-b-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX active vacation type B 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX active vacation type B 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-g-selection-active-vacation-type-a-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited G selection active vacation type A 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited G selection active vacation type A 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-g-selection-active-vacation-type-b-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited G selection active vacation type B 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited G selection active vacation type B 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-active-vacation-type-a-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited active vacation type A 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited active vacation type A 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2000-05-gf-uzj100w-4-7-vx-limited-active-vacation-type-b-4wd",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "GF-UZJ100W",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 VX limited active vacation type B 4WD",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "GF-UZJ100W, 4.7 VX limited active vacation type B 4WD, 2000-05–2002-07; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-09-uzj100-4-7-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "США",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-09",
+    "productionMonthTo": "2005-01",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 235,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "UZJ100, 4.7 AT, 2002-09–2005-01; 2UZ-FE 4663 см³, 235 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-uzj100-4-7-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "США",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-08",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 230,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "UZJ100, 4.7 AT, 1998-01–2002-08; 2UZ-FE 4663 см³, 230 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-hzj105-4-2-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT GX-R",
+    "engineCode": "1HZ",
+    "engine": {
+      "code": "1HZ",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "HZJ105, 4.2 MT GX-R, 2002-08–2005-03; 1HZ 4163 см³, 131 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-fzj100-4-5-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT GX-R, 2002-08–2005-03; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-fzj100-4-5-mt-g",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT G",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT G, 2002-08–2005-03; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-fzj100-4-5-at-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 AT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 AT GX-R, 2002-08–2005-03; 1FZ-FE 4477 см³, 211 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-uzj100-4-7-mt-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 MT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 MT VX-R, 2002-08–2005-03; 2UZ-FE 4663 см³, 238 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--2002-08-uzj100-4-7-at-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-08",
+    "productionMonthTo": "2005-03",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 AT VX-R, 2002-08–2005-03; 2UZ-FE 4663 см³, 238 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-hzj105-4-2-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "HZJ105",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 MT GX-R",
+    "engineCode": "1HZ",
+    "engine": {
+      "code": "1HZ",
+      "displacementCc": 4163,
+      "powerHp": 131,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "HZJ105, 4.2 MT GX-R, 1998-01–2002-07; 1HZ 4163 см³, 131 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-fzj100-4-5-mt-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT GX-R, 1998-01–2002-07; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-fzj100-4-5-mt-g",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 MT G",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 MT G, 1998-01–2002-07; 1FZ-FE 4477 см³, 211 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-fzj100-4-5-at-gx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "FZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.5 AT GX-R",
+    "engineCode": "1FZ-FE",
+    "engine": {
+      "code": "1FZ-FE",
+      "displacementCc": 4477,
+      "powerHp": 211,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FZJ100, 4.5 AT GX-R, 1998-01–2002-07; 1FZ-FE 4477 см³, 211 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-uzj100-4-7-mt-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 MT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 MT VX-R, 1998-01–2002-07; 2UZ-FE 4663 см³, 238 л.с., MT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100--1998-01-uzj100-4-7-at-vx-r",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "ОАЭ",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "1998-01",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "UZJ100",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.7 AT VX-R",
+    "engineCode": "2UZ-FE",
+    "engine": {
+      "code": "2UZ-FE",
+      "displacementCc": 4663,
+      "powerHp": 238,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации по рынкам",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "UZJ100, 4.7 AT VX-R, 1998-01–2002-07; 2UZ-FE 4663 см³, 238 л.с., AT, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для каждой комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Рынок, кузов, период и исполнение указаны в таблице Drom. Перед подбором запчастей требуется сверка VIN и фактической комплектации."
+  },
+  {
+    "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-diesel-turbo-4wd-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+  },
+  {
+    "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-active-vacation-type-a-diesel-turbo-4wd-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type A diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type A diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+  },
+  {
+    "id": "lc100-japan-2000-kg-hdj101k-4-2-vx-active-vacation-type-b-diesel-turbo-4wd-at",
+    "modelId": "toyota-land-cruiser-100",
+    "generationId": "toyota-land-cruiser-100",
+    "market": "Япония",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "productionMonthFrom": "2000-05",
+    "productionMonthTo": "2002-07",
+    "bodyCode": "KG-HDJ101K",
+    "bodyStyle": "SUV, 5 дверей",
+    "trimOrGrade": "4.2 VX active vacation type B diesel turbo 4WD",
+    "engineCode": "1HD-FTE",
+    "engine": {
+      "code": "1HD-FTE",
+      "displacementCc": 4163,
+      "powerHp": 205,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Land Cruiser 100, комплектации для Японии",
+        "url": "https://www.drom.ru/catalog/toyota/land_cruiser/2002/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "KG-HDJ101K, 4.2 VX active vacation type B diesel turbo 4WD, 05.2000–07.2002; 1HD-FTE 4163 см³, 205 л.с., АКПП, 4WD",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Размеры и масса конкретной комплектации не переносились из общего описания поколения."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "В карточке Drom указан тип КПП, но не заводской код коробки."
+      },
+      {
+        "field": "tires",
+        "reason": "Индивидуальные шины и индексы нагрузки/скорости для комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
+  },
+  {
+    "id": "accord-cl-eu-cl7-2-0-mt-comfort",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL7",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 MT Comfort",
+    "engineCode": "K20Z2",
+    "engine": {
+      "code": "K20Z2",
+      "displacementCc": 1998,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL7, 2.0 MT Comfort; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl7-2-0-mt-sport",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL7",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 MT Sport",
+    "engineCode": "K20Z2",
+    "engine": {
+      "code": "K20Z2",
+      "displacementCc": 1998,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL7, 2.0 MT Sport; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl7-2-0-mt-executive",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL7",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 MT Executive",
+    "engineCode": "K20Z2",
+    "engine": {
+      "code": "K20Z2",
+      "displacementCc": 1998,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL7, 2.0 MT Executive; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl7-2-0-at-comfort",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL7",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 AT Comfort",
+    "engineCode": "K20Z2",
+    "engine": {
+      "code": "K20Z2",
+      "displacementCc": 1998,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL7, 2.0 AT Comfort; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl7-2-0-at-sport",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL7",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 AT Sport",
+    "engineCode": "K20Z2",
+    "engine": {
+      "code": "K20Z2",
+      "displacementCc": 1998,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL7, 2.0 AT Sport; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl7-2-0-at-executive",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL7",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 AT Executive",
+    "engineCode": "K20Z2",
+    "engine": {
+      "code": "K20Z2",
+      "displacementCc": 1998,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL7, 2.0 AT Executive; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cn1-2-2-i-ctdi-mt-sport",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CN1",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.2 i-CTDi MT Sport",
+    "engineCode": "N22A1",
+    "engine": {
+      "code": "N22A1",
+      "displacementCc": 2204,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CN1, 2.2 i-CTDi MT Sport; N22A1 2204 см³, 140 л.с., MT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cn1-2-2-i-ctdi-mt-executive",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CN1",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.2 i-CTDi MT Executive",
+    "engineCode": "N22A1",
+    "engine": {
+      "code": "N22A1",
+      "displacementCc": 2204,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CN1, 2.2 i-CTDi MT Executive; N22A1 2204 см³, 140 л.с., MT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl9-2-4-mt-type-s",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL9",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 MT Type-S",
+    "engineCode": "K24A3",
+    "engine": {
+      "code": "K24A3",
+      "displacementCc": 2354,
+      "powerHp": 190,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL9, 2.4 MT Type-S; K24A3 2354 см³, 190 л.с., MT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl9-2-4-mt-executive",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL9",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 MT Executive",
+    "engineCode": "K24A3",
+    "engine": {
+      "code": "K24A3",
+      "displacementCc": 2354,
+      "powerHp": 190,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL9, 2.4 MT Executive; K24A3 2354 см³, 190 л.с., MT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl9-2-4-at-type-s",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL9",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 AT Type-S",
+    "engineCode": "K24A3",
+    "engine": {
+      "code": "K24A3",
+      "displacementCc": 2354,
+      "powerHp": 190,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL9, 2.4 AT Type-S; K24A3 2354 см³, 190 л.с., AT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "accord-cl-eu-cl9-2-4-at-executive",
+    "modelId": "honda-accord",
+    "generationId": "honda-accord-cl",
+    "market": "Европа",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2002-10",
+    "productionMonthTo": "2005-12",
+    "bodyCode": "CL9",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.4 AT Executive",
+    "engineCode": "K24A3",
+    "engine": {
+      "code": "K24A3",
+      "displacementCc": 2354,
+      "powerHp": 190,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Accord CL, европейский рынок, 2002–2005",
+        "url": "https://www.drom.ru/catalog/honda/accord/g_2002_22307/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CL9, 2.4 AT Executive; K24A3 2354 см³, 190 л.с., AT, FWD, 10.2002–12.2005",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации в таблице комплектаций не приведены."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Drom указывает тип КПП, но не заводской код и число передач в данной таблице."
+      },
+      {
+        "field": "tires",
+        "reason": "Шины и индексы нагрузки/скорости для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-comfort-2007-2010-1",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "1.8 MT Comfort",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-exclusive-2007-2010-2",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "1.8 MT Exclusive",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-comfort-2007-2010-3",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0CD MT Comfort",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Comfort; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-exclusive-2007-2010-4",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0CD MT Exclusive",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Exclusive; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-dynamic-2007-2010-5",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0CD MT Dynamic",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Dynamic; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-top-2007-2010-6",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0CD MT Top",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Top; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-exclusive-2007-2010-7",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 MT Exclusive",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 MT Exclusive; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-dynamic-2007-2010-8",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 MT Dynamic",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 MT Dynamic; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-exclusive-2007-2010-9",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 AT Exclusive",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 AT Exclusive; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-dynamic-2007-2010-10",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.0 AT Dynamic",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 AT Dynamic; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-mt-dynamic-2007-2010-11",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 MT Dynamic",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.5 MT Dynamic; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-mt-top-2007-2010-12",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 MT Top",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.5 MT Top; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-comfort-2007-2010-13",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "1.8 MT Comfort",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-exclusive-2007-2010-14",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "1.8 MT Exclusive",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-dynamic-2007-2010-15",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "1.8 MT Dynamic",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Dynamic; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-comfort-2007-2010-16",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0CD MT Comfort",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Comfort; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-exclusive-2007-2010-17",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0CD MT Exclusive",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Exclusive; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-dynamic-2007-2010-18",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0CD MT Dynamic",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Dynamic; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-top-2007-2010-19",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0CD MT Top",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Top; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-exclusive-2007-2010-20",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0 MT Exclusive",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 MT Exclusive; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-dynamic-2007-2010-21",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0 MT Dynamic",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 MT Dynamic; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-exclusive-2007-2010-22",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0 AT Exclusive",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 AT Exclusive; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-dynamic-2007-2010-23",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.0 AT Dynamic",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 AT Dynamic; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-125-2-2cd-mt-comfort-2007-2010-24",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.2CD MT Comfort",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 125,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Comfort; R2BF, 2184 см³, 125 л.с., MT, FWD; 2009-11–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-125-2-2cd-mt-exclusive-2007-2010-25",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.2CD MT Exclusive",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 125,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Exclusive; R2BF, 2184 см³, 125 л.с., MT, FWD; 2009-11–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-125-2-2cd-mt-dynamic-2007-2010-26",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.2CD MT Dynamic",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 125,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Dynamic; R2BF, 2184 см³, 125 л.с., MT, FWD; 2009-11–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-exclusive-2007-2010-27",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.2CD MT Exclusive",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Exclusive; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-dynamic-2007-2010-28",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.2CD MT Dynamic",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Dynamic; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-top-2007-2010-29",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.2CD MT Top",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Top; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-185-2-2cd-mt-dynamic-2007-2010-30",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-01",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.2CD MT Dynamic",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 185,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Dynamic; R2AA, 2184 см³, 185 л.с., MT, FWD; 2009-01–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-mt-dynamic-2007-2010-31",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "2.5 MT Dynamic",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.5 MT Dynamic; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-comfort-2007-2010-32",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.8 MT Comfort",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-exclusive-2007-2010-33",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.8 MT Exclusive",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-dynamic-2007-2010-34",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.8 MT Dynamic",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Dynamic; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-comfort-2007-2010-35",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0CD MT Comfort",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Comfort; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-exclusive-2007-2010-36",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0CD MT Exclusive",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Exclusive; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-dynamic-2007-2010-37",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0CD MT Dynamic",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Dynamic; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--rf7j-140-2-0cd-mt-top-2007-2010-38",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2008-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0CD MT Top",
+    "engineCode": "RF7J",
+    "engine": {
+      "code": "RF7J",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0CD MT Top; RF7J, 1998 см³, 140 л.с., MT, FWD; 2007-08–2008-11",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-exclusive-2007-2010-39",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0 MT Exclusive",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 MT Exclusive; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-dynamic-2007-2010-40",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0 MT Dynamic",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 MT Dynamic; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-exclusive-2007-2010-41",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0 AT Exclusive",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 AT Exclusive; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-dynamic-2007-2010-42",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.0 AT Dynamic",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 AT Dynamic; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-125-2-2cd-mt-comfort-2007-2010-43",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Comfort",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 125,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Comfort; R2BF, 2184 см³, 125 л.с., MT, FWD; 2009-11–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-125-2-2cd-mt-exclusive-2007-2010-44",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Exclusive",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 125,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Exclusive; R2BF, 2184 см³, 125 л.с., MT, FWD; 2009-11–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-125-2-2cd-mt-dynamic-2007-2010-45",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Dynamic",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 125,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Dynamic; R2BF, 2184 см³, 125 л.с., MT, FWD; 2009-11–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-exclusive-2007-2010-46",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Exclusive",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Exclusive; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-dynamic-2007-2010-47",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Dynamic",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Dynamic; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-top-2007-2010-48",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Top",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Top; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-185-2-2cd-mt-dynamic-2007-2010-49",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-01",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Dynamic",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 185,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Dynamic; R2AA, 2184 см³, 185 л.с., MT, FWD; 2009-01–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-185-2-2cd-mt-top-2007-2010-50",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-01",
+    "productionMonthTo": "2010-04",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.2CD MT Top",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 185,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Top; R2AA, 2184 см³, 185 л.с., MT, FWD; 2009-01–2010-04",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-mt-dynamic-2007-2010-51",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.5 MT Dynamic",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.5 MT Dynamic; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-mt-top-2007-2010-52",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2007-08",
+    "productionMonthTo": "2010-11",
+    "bodyCode": "GH",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "2.5 MT Top",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Лифтбек",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.5 MT Top; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-direct-2009-2012-53",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "1.8 MT Direct",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "1.8 MT Direct; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-touring-2009-2012-54",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "1.8 MT Touring",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "1.8 MT Touring; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-touring-plus-2009-2012-55",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "1.8 MT Touring Plus",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "1.8 MT Touring Plus; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-touring-plus-2009-2012-56",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "2.0 MT Touring Plus",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.0 MT Touring Plus; LF17, 1999 см³, 147 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-mt-sport-2009-2012-57",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "2.0 MT Sport",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.0 MT Sport; LF17, 1999 см³, 147 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-touring-plus-2009-2012-58",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "2.0 AT Touring Plus",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.0 AT Touring Plus; LF17, 1999 см³, 147 л.с., AT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-impulse-line-2009-2012-59",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "2.0 AT Impulse Line",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.0 AT Impulse Line; LF17, 1999 см³, 147 л.с., AT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf17-147-2-0-at-sport-2009-2012-60",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "2.0 AT Sport",
+    "engineCode": "LF17",
+    "engine": {
+      "code": "LF17",
+      "displacementCc": 1999,
+      "powerHp": 147,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.0 AT Sport; LF17, 1999 см³, 147 л.с., AT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-mt-sport-2009-2012-61",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "2.5 MT Sport",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 MT Sport; L5-VE, 2488 см³, 170 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-at-sport-2009-2012-62",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Седан рестайлинг",
+    "trimOrGrade": "2.5 AT Sport",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Седан рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4076/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 AT Sport; L5-VE, 2488 см³, 170 л.с., AT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-prime-line-2009-2012-63",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "1.8 MT Prime-Line",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Prime-Line; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-center-line-2009-2012-64",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "1.8 MT Center-Line",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Center-Line; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-exclusive-line-2009-2012-65",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "1.8 MT Exclusive-Line",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Exclusive-Line; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-sondermodell-active-2009-2012-66",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "1.8 MT Sondermodell Active",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Sondermodell Active; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l813-120-1-8-mt-sports-line-2009-2012-67",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "1.8 MT Sports-Line",
+    "engineCode": "L813",
+    "engine": {
+      "code": "L813",
+      "displacementCc": 1798,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "1.8 MT Sports-Line; L813, 1798 см³, 120 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-mt-prime-line-2009-2012-68",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI MT Prime-Line",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI MT Prime-Line; LF-DE, 1999 см³, 155 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-mt-center-line-2009-2012-69",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI MT Center-Line",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI MT Center-Line; LF-DE, 1999 см³, 155 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-mt-exclusive-line-2009-2012-70",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI MT Exclusive-Line",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI MT Exclusive-Line; LF-DE, 1999 см³, 155 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-mt-sondermodell-active-2009-2012-71",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI MT Sondermodell Active",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI MT Sondermodell Active; LF-DE, 1999 см³, 155 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-mt-sports-line-2009-2012-72",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI MT Sports-Line",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI MT Sports-Line; LF-DE, 1999 см³, 155 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-at-exclusive-line-2009-2012-73",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI AT Exclusive-Line",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI AT Exclusive-Line; LF-DE, 1999 см³, 155 л.с., AT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-at-sondermodell-active-2009-2012-74",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI AT Sondermodell Active",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI AT Sondermodell Active; LF-DE, 1999 см³, 155 л.с., AT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--lf-de-155-2-0-disi-at-sports-line-2009-2012-75",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.0 DISI AT Sports-Line",
+    "engineCode": "LF-DE",
+    "engine": {
+      "code": "LF-DE",
+      "displacementCc": 1999,
+      "powerHp": 155,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.0 DISI AT Sports-Line; LF-DE, 1999 см³, 155 л.с., AT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-129-2-2cd-mt-center-line-2009-2012-76",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.2CD MT Center-Line",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 129,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Center-Line; R2BF, 2184 см³, 129 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-129-2-2cd-mt-exclusive-line-2009-2012-77",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.2CD MT Exclusive-Line",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 129,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Exclusive-Line; R2BF, 2184 см³, 129 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2bf-129-2-2cd-mt-sondermodell-active-2009-2012-78",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.2CD MT Sondermodell Active",
+    "engineCode": "R2BF",
+    "engine": {
+      "code": "R2BF",
+      "displacementCc": 2184,
+      "powerHp": 129,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Sondermodell Active; R2BF, 2184 см³, 129 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-center-line-2009-2012-79",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.2CD MT Center-Line",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Center-Line; R2AA, 2184 см³, 163 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-exclusive-line-2009-2012-80",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.2CD MT Exclusive-Line",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Exclusive-Line; R2AA, 2184 см³, 163 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-163-2-2cd-mt-sondermodell-active-2009-2012-81",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.2CD MT Sondermodell Active",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 163,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Sondermodell Active; R2AA, 2184 см³, 163 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--r2aa-180-2-2cd-mt-sports-line-2009-2012-83",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.2CD MT Sports-Line",
+    "engineCode": "R2AA",
+    "engine": {
+      "code": "R2AA",
+      "displacementCc": 2184,
+      "powerHp": 180,
+      "fuelType": "Дизель"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.2CD MT Sports-Line; R2AA, 2184 см³, 180 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "mazda6-gh--l5-ve-170-2-5-mt-sports-line-2009-2012-84",
+    "modelId": "mazda-6-atenza-194",
+    "generationId": "drom-mazda-6atenza-gh",
+    "market": "Европа",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2010-03",
+    "productionMonthTo": "2012-07",
+    "bodyCode": "GH",
+    "bodyStyle": "Универсал рестайлинг",
+    "trimOrGrade": "2.5 MT Sports-Line",
+    "engineCode": "L5-VE",
+    "engine": {
+      "code": "L5-VE",
+      "displacementCc": 2488,
+      "powerHp": 170,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "unknown",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Mazda6 GH Универсал рестайлинг",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2009_4080/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "2.5 MT Sports-Line; L5-VE, 2488 см³, 170 л.с., MT, FWD; 2010-03–2012-07",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса конкретной комплектации не указаны в таблице комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не указан в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП не подтверждён таблицей комплектаций."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин с индексами нагрузки и скорости для точной комплектации не подтверждён."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
+  },
+  {
+    "id": "nissan-teana-j32-qr25de-167-2-5-cvt-elegance-plus-four-2010-07-2011-08-85",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2010-07",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Elegance + Four",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Elegance + Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-qr25de-167-2-5-cvt-luxury-four-2010-07-2011-08-86",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2010-07",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Luxury Four",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Luxury Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-qr25de-167-2-5-cvt-luxury-plus-four-2010-07-2011-08-87",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2010-07",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Luxury + Four",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Luxury + Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-qr25de-167-2-5-cvt-premium-four-2010-07-2011-08-88",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2010-07",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Premium Four",
+    "engineCode": "QR25DE",
+    "engine": {
+      "code": "QR25DE",
+      "displacementCc": 2488,
+      "powerHp": 167,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "4WD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Premium Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq25de-182-2-5-cvt-elegance-2008-02-2011-08-89",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Elegance",
+    "engineCode": "VQ25DE",
+    "engine": {
+      "code": "VQ25DE",
+      "displacementCc": 2496,
+      "powerHp": 182,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Elegance; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq25de-182-2-5-cvt-elegance-plus-2008-02-2011-08-90",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Elegance +",
+    "engineCode": "VQ25DE",
+    "engine": {
+      "code": "VQ25DE",
+      "displacementCc": 2496,
+      "powerHp": 182,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Elegance +; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq25de-182-2-5-cvt-luxury-2008-02-2011-08-91",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Luxury",
+    "engineCode": "VQ25DE",
+    "engine": {
+      "code": "VQ25DE",
+      "displacementCc": 2496,
+      "powerHp": 182,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Luxury; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq25de-182-2-5-cvt-luxury-plus-2008-02-2011-08-92",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Luxury +",
+    "engineCode": "VQ25DE",
+    "engine": {
+      "code": "VQ25DE",
+      "displacementCc": 2496,
+      "powerHp": 182,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Luxury +; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq25de-182-2-5-cvt-premium-2008-02-2011-08-93",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "2.5 CVT Premium",
+    "engineCode": "VQ25DE",
+    "engine": {
+      "code": "VQ25DE",
+      "displacementCc": 2496,
+      "powerHp": 182,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2.5 CVT Premium; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq35de-249-3-5-cvt-luxury-2008-02-2011-08-94",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "3.5 CVT Luxury",
+    "engineCode": "VQ35DE",
+    "engine": {
+      "code": "VQ35DE",
+      "displacementCc": 3498,
+      "powerHp": 249,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "3.5 CVT Luxury; VQ35DE, 3498 см³, 249 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq35de-249-3-5-cvt-luxury-plus-2008-02-2011-08-95",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "3.5 CVT Luxury +",
+    "engineCode": "VQ35DE",
+    "engine": {
+      "code": "VQ35DE",
+      "displacementCc": 3498,
+      "powerHp": 249,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "3.5 CVT Luxury +; VQ35DE, 3498 см³, 249 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "nissan-teana-j32-vq35de-249-3-5-cvt-premium-2008-02-2011-08-96",
+    "modelId": "nissan-teana-132",
+    "generationId": "drom-nissan-teana-j32",
+    "market": "Россия",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2008-02",
+    "productionMonthTo": "2011-08",
+    "bodyCode": "J32",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "3.5 CVT Premium",
+    "engineCode": "VQ35DE",
+    "engine": {
+      "code": "VQ35DE",
+      "displacementCc": 3498,
+      "powerHp": 249,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Nissan Teana J32, российский рынок",
+        "url": "https://www.drom.ru/catalog/nissan/teana/g_2008_5258/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "3.5 CVT Premium; VQ35DE, 3498 см³, 249 л.с., CVT, FWD, 2008-02–2011-08",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской индекс вариатора не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
+  },
+  {
+    "id": "honda-civic-fk-fn-r18a2-140-mt-sport-2009-2012-97",
+    "modelId": "honda-civic-147",
+    "generationId": "drom-honda-civic-fd",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2012-03",
+    "bodyCode": "FK2/FN1",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.8 MT Sport",
+    "engineCode": "R18A2",
+    "engine": {
+      "code": "R18A2",
+      "displacementCc": 1799,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Civic FK/FN, российский рынок",
+        "url": "https://www.drom.ru/catalog/honda/civic/g_2009_1412/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "FK2/FN1, 1.8 MT Sport; R18A2, 1799 см³, 140 л.с., MT, FWD, 05.2009–03.2012",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП и число передач не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
+  },
+  {
+    "id": "honda-civic-fk-fn-r18a2-140-at-sport-2009-2012-98",
+    "modelId": "honda-civic-147",
+    "generationId": "drom-honda-civic-fd",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2012-03",
+    "bodyCode": "FK2/FN1",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.8 AT Sport",
+    "engineCode": "R18A2",
+    "engine": {
+      "code": "R18A2",
+      "displacementCc": 1799,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Civic FK/FN, российский рынок",
+        "url": "https://www.drom.ru/catalog/honda/civic/g_2009_1412/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "FK2/FN1, 1.8 AT Sport; R18A2, 1799 см³, 140 л.с., AT, FWD, 05.2009–03.2012",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП и число передач не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
+  },
+  {
+    "id": "honda-civic-fk-fn-r18a2-140-at-executive-2009-2012-99",
+    "modelId": "honda-civic-147",
+    "generationId": "drom-honda-civic-fd",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2012-03",
+    "bodyCode": "FK2/FN1",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.8 AT Executive",
+    "engineCode": "R18A2",
+    "engine": {
+      "code": "R18A2",
+      "displacementCc": 1799,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Civic FK/FN, российский рынок",
+        "url": "https://www.drom.ru/catalog/honda/civic/g_2009_1412/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "FK2/FN1, 1.8 AT Executive; R18A2, 1799 см³, 140 л.с., AT, FWD, 05.2009–03.2012",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП и число передач не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
+  },
+  {
+    "id": "honda-civic-fk-fn-r18a2-140-at-glass-roof-2009-2012-100",
+    "modelId": "honda-civic-147",
+    "generationId": "drom-honda-civic-fd",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2012,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2012-03",
+    "bodyCode": "FK2/FN1",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.8 AT Glass Roof",
+    "engineCode": "R18A2",
+    "engine": {
+      "code": "R18A2",
+      "displacementCc": 1799,
+      "powerHp": 140,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Civic FK/FN, российский рынок",
+        "url": "https://www.drom.ru/catalog/honda/civic/g_2009_1412/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "FK2/FN1, 1.8 AT Glass Roof; R18A2, 1799 см³, 140 л.с., AT, FWD, 05.2009–03.2012",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код КПП и число передач не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
+  },
+  {
+    "id": "honda-civic-fb-r18a1-139-at-lxi-uae-2011-2013",
+    "modelId": "honda-civic-147",
+    "generationId": "drom-honda-civic-fbfk",
+    "market": "ОАЭ",
+    "modelYearFrom": 2011,
+    "modelYearTo": 2013,
+    "productionMonthFrom": "2011-07",
+    "productionMonthTo": "2013-04",
+    "bodyCode": "FB",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "1.8 AT LXi",
+    "engineCode": "R18A1",
+    "engine": {
+      "code": "R18A1",
+      "displacementCc": 1799,
+      "powerHp": 139,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Civic FB, рынок ОАЭ",
+        "url": "https://www.drom.ru/catalog/honda/civic/g_2011_25045/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "FB sedan 1.8 AT LXi; R18A1, 1799 см³, 139 л.с., AT, FWD, 07.2011–04.2013",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "dimensions",
+        "reason": "Габариты, масса и объём бака точной комплектации не внесены из таблицы комплектаций."
+      },
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент не приведён в использованной таблице комплектаций."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код АКПП не подтверждён."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      }
+    ],
+    "notes": "Отдельная версия FB для рынка ОАЭ; не переносить характеристики на FK/FN или другие рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2008-09-2009-04-1",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2008-09-2009-04-2",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-slide-passenger-seat-a-type-2008-09-2009-04-3",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab slide passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab slide passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-slide-passenger-seat-b-type-2008-09-2009-04-4",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab slide passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab slide passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2008-09-2009-04-5",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2008-09-2009-04-6",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2008-09-2009-04-7",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2008-09-2009-04-8",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-slide-passenger-seat-a-type-2008-09-2009-04-9",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab slide passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab slide passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-slide-passenger-seat-b-type-2008-09-2009-04-10",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab slide passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab slide passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2008-09-2009-04-11",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2008-09-2009-04-12",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2008-09-2009-04-13",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2008-09-2009-04-14",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S 10th anniversary edition",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2008-09-2009-04-15",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-09",
+    "productionMonthTo": "2009-04",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2007-09-2008-08-16",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2007-09-2008-08-17",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-lift-up-passenger-seat-a-type-2007-09-2008-08-18",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab lift-up passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab lift-up passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-lift-up-passenger-seat-b-type-2007-09-2008-08-19",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab lift-up passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab lift-up passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2007-09-2008-08-20",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2007-09-2008-08-21",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2007-09-2008-08-22",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2007-09-2008-08-23",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-lift-up-passenger-seat-a-type-2007-09-2008-08-24",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab lift-up passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab lift-up passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-lift-up-passenger-seat-b-type-2007-09-2008-08-25",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab lift-up passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab lift-up passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2007-09-2008-08-26",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2007-09-2008-08-27",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2007-09-2008-08-28",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2007-09-2008-08-29",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S 10th anniversary edition",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2007-09-2008-08-30",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2008,
+    "productionMonthFrom": "2007-09",
+    "productionMonthTo": "2008-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2007-01-2007-08-31",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2007-01-2007-08-32",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-rotating-and-sliding-passenger-seat-a-type-2007-01-2007-08-33",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab rotating and sliding passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab rotating and sliding passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-rotating-and-sliding-passenger-seat-b-type-2007-01-2007-08-34",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab rotating and sliding passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab rotating and sliding passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2007-01-2007-08-35",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2007-01-2007-08-36",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2007-01-2007-08-37",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2007-01-2007-08-38",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-rotating-and-sliding-passenger-seat-a-type-2007-01-2007-08-39",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab rotating and sliding passenger seat A type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab rotating and sliding passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-rotating-and-sliding-passenger-seat-b-type-2007-01-2007-08-40",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab rotating and sliding passenger seat B type",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab rotating and sliding passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2007-01-2007-08-41",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type I",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2007-01-2007-08-42",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G welcab friendmatic type II",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2007-01-2007-08-43",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2007-01-2007-08-44",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection Leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection Leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2007-01-2007-08-45",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2007,
+    "productionMonthFrom": "2007-01",
+    "productionMonthTo": "2007-08",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S 10th anniversary edition",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2005-11-2006-12-46",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S standard package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2005-11-2006-12-47",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2005-11-2006-12-48",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2005-11-2006-12-49",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2005-11-2006-12-50",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2005-11-2006-12-51",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2006,
+    "productionMonthFrom": "2005-11",
+    "productionMonthTo": "2006-12",
+    "bodyCode": "DAA-NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection leather package",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 76,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius DAA-NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2005_1218/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-s-2003-09-2005-10-52",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 S; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-g-2003-09-2005-10-53",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 G; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-s-touring-selection-2003-09-2005-10-54",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 S touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-g-touring-selection-2003-09-2005-10-55",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2003-09",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 G touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-s-touring-selection-premium-2004-08-2005-10-56",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2004-08",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 S touring selection premium",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 S touring selection premium; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 08.2004–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw20-nhw20-1nz-fxe-77-1-5-g-touring-selection-premium-2004-08-2005-10-57",
+    "modelId": "toyota-prius-xw20",
+    "generationId": "drom-toyota-prius-nhw20-xw20-app",
+    "market": "Япония",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2005,
+    "productionMonthFrom": "2004-08",
+    "productionMonthTo": "2005-10",
+    "bodyCode": "NHW20",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.5 G touring selection premium",
+    "engineCode": "1NZ-FXE",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 77,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius NHW20",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2003_4915/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 G touring selection premium; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 08.2004–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-2009-11-2010-09-58",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G; L13A 1339 см³, 100 л.с., MT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-selection-2009-11-2010-09-59",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection; L13A 1339 см³, 100 л.с., MT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-4wd-2009-11-2010-09-60",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-rotating-passenger-seat-4wd-2009-11-2010-09-61",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G rotating passenger seat 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G rotating passenger seat 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-smart-selection-rotating-passenger-seat-4wd-2009-11-2010-09-62",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection rotating passenger seat 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection rotating passenger seat 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-smart-selection-4wd-2009-11-2010-09-63",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-rotating-passenger-seat-4wd-2009-11-2010-09-64",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L rotating passenger seat 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L rotating passenger seat 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-4wd-2009-11-2010-09-65",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-4wd-2007-10-2009-10-66",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-4wd-2007-10-2009-10-67",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-highway-edition-4wd-2008-06-2009-10-68",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G highway edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G highway edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-highway-edition-4wd-2008-06-2009-10-69",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L highway edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L highway edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-smart-style-edition-4wd-2009-05-2009-10-70",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart style edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart style edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-l-smart-style-edition-4wd-2009-05-2009-10-71",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L smart style edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L smart style edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-she-s-4wd-2010-05-2010-09-72",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G She's 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G She's 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge7-l13a-100-1-3-g-sporty-edition-4wd-2010-05-2010-09-73",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE7",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G sporty edition 4WD",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE7",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G sporty edition 4WD; L13A 1339 см³, 100 л.с., AT, 4WD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-2009-11-2010-09-74",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-rotating-passenger-seat-2009-11-2010-09-75",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G rotating passenger seat",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G rotating passenger seat; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-selection-rotating-passenger-seat-2009-11-2010-09-76",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection rotating passenger seat",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection rotating passenger seat; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-selection-2009-11-2010-09-77",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart selection",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart selection; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-rotating-passenger-seat-2009-11-2010-09-78",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L rotating passenger seat",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L rotating passenger seat; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-2009-11-2010-09-79",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L; L13A 1339 см³, 100 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-2007-10-2009-10-80",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G; L13A 1339 см³, 100 л.с., CVT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-2007-10-2009-10-81",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L; L13A 1339 см³, 100 л.с., CVT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-highway-edition-2008-06-2009-10-82",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G highway edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G highway edition; L13A 1339 см³, 100 л.с., CVT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-highway-edition-2008-06-2009-10-83",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L highway edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L highway edition; L13A 1339 см³, 100 л.с., CVT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-smart-style-edition-2009-05-2009-10-84",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G smart style edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G smart style edition; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-l-smart-style-edition-2009-05-2009-10-85",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2009-05",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 L smart style edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 L smart style edition; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2009–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-she-s-2010-05-2010-09-86",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G She's",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G She's; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge6-l13a-100-1-3-g-sporty-edition-2010-05-2010-09-87",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2010-05",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE6",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.3 G sporty edition",
+    "engineCode": "L13A",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 100,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE6",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.3 G sporty edition; L13A 1339 см³, 100 л.с., CVT, FWD, 05.2010–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2009-11-2010-09-88",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., MT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2007-10-2009-10-89",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., MT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-highway-edition-2008-06-2009-10-90",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS highway edition",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "MT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS highway edition; L15A 1496 см³, 120 л.с., MT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-x-4wd-2009-11-2010-09-91",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 X 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 X 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-rs-4wd-2009-11-2010-09-92",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-rs-4wd-2007-10-2009-10-93",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge9-l15a-120-1-5-rs-highway-edition-4wd-2008-06-2009-10-94",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE9",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS highway edition 4WD",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE9",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS highway edition 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-x-2009-11-2010-09-95",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 X",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 X; L15A 1496 см³, 120 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2009-11-2010-09-96",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2010,
+    "productionMonthFrom": "2009-11",
+    "productionMonthTo": "2010-09",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., CVT, FWD, 11.2009–09.2010.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-2007-10-2009-10-97",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2007-10",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS; L15A 1496 см³, 120 л.с., CVT, FWD, 10.2007–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "honda-fit-ge-dba-ge8-l15a-120-1-5-rs-highway-edition-2008-06-2009-10-98",
+    "modelId": "honda-fit-ge",
+    "generationId": "drom-honda-fit-ge-app",
+    "market": "Япония",
+    "modelYearFrom": 2008,
+    "modelYearTo": 2009,
+    "productionMonthFrom": "2008-06",
+    "productionMonthTo": "2009-10",
+    "bodyCode": "DBA-GE8",
+    "bodyStyle": "Хэтчбек 5 дв.",
+    "trimOrGrade": "1.5 RS highway edition",
+    "engineCode": "L15A",
+    "engine": {
+      "code": "L15A",
+      "displacementCc": 1496,
+      "powerHp": 120,
+      "fuelType": "Бензин"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Honda Fit DBA-GE8",
+        "url": "https://www.drom.ru/catalog/honda/fit/g_2007_1029/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1.5 RS highway edition; L15A 1496 см³, 120 л.с., CVT, FWD, 06.2008–10.2009.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw30-liftback-zvw30l-2zr-fxe-99-1-8-cvt-elegance-2009-10-2011-12-99",
+    "modelId": "toyota-prius-xw30-liftback",
+    "generationId": "drom-toyota-prius-xw30-app",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2009-10",
+    "productionMonthTo": "2011-12",
+    "bodyCode": "ZVW30L",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.8 CVT Elegance",
+    "engineCode": "2ZR-FXE",
+    "engine": {
+      "code": "2ZR-FXE",
+      "displacementCc": 1798,
+      "powerHp": 99,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius ZVW30L",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2009_1284/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "1.8 CVT Elegance; 2ZR-FXE 1798 см³, 99 л.с., гибрид, CVT, FWD, 10.2009–12.2011.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "toyota-prius-xw30-liftback-zvw30l-2zr-fxe-99-1-8-cvt-prestige-2009-10-2011-12-100",
+    "modelId": "toyota-prius-xw30-liftback",
+    "generationId": "drom-toyota-prius-xw30-app",
+    "market": "Россия",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2011,
+    "productionMonthFrom": "2009-10",
+    "productionMonthTo": "2011-12",
+    "bodyCode": "ZVW30L",
+    "bodyStyle": "Лифтбек",
+    "trimOrGrade": "1.8 CVT Prestige",
+    "engineCode": "2ZR-FXE",
+    "engine": {
+      "code": "2ZR-FXE",
+      "displacementCc": 1798,
+      "powerHp": 99,
+      "fuelType": "Бензин/гибрид"
+    },
+    "transmissionType": "CVT",
+    "drivetrain": "FWD",
+    "steeringPosition": "LHD",
+    "tires": [],
+    "wheelFitments": [],
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Drom — Toyota Prius ZVW30L",
+        "url": "https://www.drom.ru/catalog/toyota/prius/g_2009_1284/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "1.8 CVT Prestige; 2ZR-FXE 1798 см³, 99 л.с., гибрид, CVT, FWD, 10.2009–12.2011.",
+        "accessedAt": "2026-11-06"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "engineTorque",
+        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
+      },
+      {
+        "field": "dimensions",
+        "reason": "Габариты и масса точной комплектации не перенесены без подтверждения по кузову и рынку."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости точной комплектации не подтверждены."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      }
+    ],
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  }
+];

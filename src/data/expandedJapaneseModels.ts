@@ -375,11 +375,11 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 155, trunkVolumeLiters: 'Зависит от рынка и положения сидений', fuelTankLiters: 60,
     curbWeightKg: 'Ориентировочно 1250–1450 кг',
     engines: [
-      { code: 'EL154', name: '1.5 л атмосферный boxer, GH3', displacement: '1498 см³', powerHp: '110 PS при 6400 об/мин', torqueNm: '144 Н·м при 3200 об/мин', valves: 'SOHC/DOHC в зависимости от версии', fuelSystem: 'Электронный впрыск', timingDrive: 'Для многих EJ — ремень; проверить код двигателя', strengths: ['Низкий центр тяжести'], weaknesses: ['Нельзя выбирать регламент только по названию Impreza'] }
+      { code: 'EL154', name: '1.5 л атмосферный boxer, GH3', displacement: '1498 см³', powerHp: '107 PS при 6000 об/мин', torqueNm: '142 Н·м при 3200 об/мин', valves: 'SOHC/DOHC в зависимости от версии', fuelSystem: 'Электронный впрыск', timingDrive: 'Для многих EJ — ремень; проверить код двигателя', strengths: ['Низкий центр тяжести'], weaknesses: ['Нельзя выбирать регламент только по названию Impreza'] }
     ],
     transmissions: ['МКПП', 'АКПП — в зависимости от рынка и комплектации'],
     drivetrain: 'Symmetrical AWD на многих версиях; привод зависит от рынка.',
-    sourceNotes: 'Для хэтчбека GH3 1.5: EL154 1498 см³, 110 PS/144 Н·м. 2.0-литровые GH6/GH7 и WRX/STI не объединены с этой записью; для них нужна отдельная модификация.',
+    sourceNotes: 'Для хэтчбека GH3 1.5: EL154 1498 см³, 107 PS/142 Н·м. 2.0-литровые GH6/GH7 и WRX/STI не объединены с этой записью; для них нужна отдельная модификация.',
     sourceReferences: [
       {
         "label": "Subaru Impreza GH 1.5 — OEM applied-model specifications",

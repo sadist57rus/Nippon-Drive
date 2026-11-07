@@ -1158,7 +1158,7 @@ const supplementalModels: JapaneseCarModel[] = [
     ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
-  const hondaFitGdModel = makeSupplementalModel({
+  makeSupplementalModel({
     id: 'honda-fit-gd', brandId: 'honda', name: 'Fit / Jazz (GD)', generation: 'I поколение', years: '2001–2008', bodyType: 'Хэтчбек',
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 3830, widthMm: 1675, heightMm: 1525, wheelbaseMm: 2450, groundClearanceMm: 150,
@@ -1172,8 +1172,6 @@ const supplementalModels: JapaneseCarModel[] = [
     ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
-const hondaBrandForFitGd = JAPANESE_BRANDS.find((brand) => brand.id === 'honda');
-if (hondaBrandForFitGd && !hondaBrandForFitGd.models.some((model) => model.id === hondaFitGdModel.id)) hondaBrandForFitGd.models.push(hondaFitGdModel);
 
   makeSupplementalModel({
     id: 'honda-fit-ge', brandId: 'honda', name: 'Fit / Jazz (GE)', generation: 'II поколение', years: '2007–2014', bodyType: 'Хэтчбек',
@@ -1217,7 +1215,7 @@ if (hondaBrandForFitGd && !hondaBrandForFitGd.models.some((model) => model.id ==
     ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
-  const subaruLegacyBpModel = makeSupplementalModel({
+  makeSupplementalModel({
     id: 'subaru-legacy-bp', brandId: 'subaru', name: 'Legacy (BP/BL)', generation: 'IV поколение', years: '2003–2009', bodyType: 'Универсал',
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 4680, widthMm: 1730, heightMm: 1475, wheelbaseMm: 2670, groundClearanceMm: 150,
@@ -1232,8 +1230,6 @@ if (hondaBrandForFitGd && !hondaBrandForFitGd.models.some((model) => model.id ==
     ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
-const subaruBrandForLegacyBp = JAPANESE_BRANDS.find((brand) => brand.id === 'subaru');
-if (subaruBrandForLegacyBp && !subaruBrandForLegacyBp.models.some((model) => model.id === subaruLegacyBpModel.id)) subaruBrandForLegacyBp.models.push(subaruLegacyBpModel);
 
   makeSupplementalModel({
     id: 'subaru-legacy-bmbr', brandId: 'subaru', name: 'Legacy (BM/BR)', generation: 'V поколение', years: '2009–2014', bodyType: 'Универсал',

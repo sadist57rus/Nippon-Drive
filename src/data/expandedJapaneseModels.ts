@@ -952,8 +952,14 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 4675, widthMm: 1750, heightMm: 1470, wheelbaseMm: 2850, groundClearanceMm: 140,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 80, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'VQ25DD', name: '2.5 л V6 NEO Di', displacement: '2495 см³', powerHp: '215 PS при 6400 об/мин', torqueNm: '270 Н·м при 4400 об/мин', valves: 'V6 DOHC, 24 клапана', fuelSystem: 'Nissan Di, непосредственный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'VQ30DD', name: '3.0 л V6 NEO Di', displacement: '2987 см³', powerHp: '260 PS при 6400 об/мин', torqueNm: '324 Н·м при 4800 об/мин', valves: 'V6 DOHC, 24 клапана', fuelSystem: 'Nissan Di, непосредственный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'VQ35DE', name: '3.5 л V6 NEO', displacement: '3498 см³', powerHp: '272 PS при 6000 об/мин', torqueNm: '353 Н·м при 4800 об/мин', valves: 'V6 DOHC, 24 клапана', fuelSystem: 'Nissan EGI/ECCS', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Nissan — Skyline V35 factory specifications (2002)', url: 'https://history.nissan.co.jp/SKYLINE/V35/0201/DATA/SPEC/ensyogen.html', scope: 'Заводская таблица VQ25DD 2495 см³ 215 PS/270 Н·м; VQ30DD 2987 см³ 260 PS/324 Н·м; VQ35DE 3498 см³ 272 PS/353 Н·м.' },
+      { label: 'Nissan Heritage — Skyline 300GT V35', url: 'https://www.nissan.co.jp/HERITAGE/DETAIL/208.html', scope: 'Nissan подтверждает семейство V35 и двигатель VQ30DD для 300GT.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -961,8 +967,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 4755, widthMm: 1770, heightMm: 1450, wheelbaseMm: 2850, groundClearanceMm: 130,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 80, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'VQ25HR', name: '2.5 л V6', displacement: '2495 см³', powerHp: '225 PS при 6400 об/мин', torqueNm: '258 Н·м при 4800 об/мин', valves: 'V6 DOHC, 24 клапана', fuelSystem: 'Nissan EGI/ECCS', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'VQ37VHR', name: '3.7 л V6 VVEL', displacement: '3696 см³', powerHp: '330 PS при 7000 об/мин', torqueNm: '361 Н·м при 5200 об/мин', valves: 'V6 DOHC, 24 клапана, VVEL', fuelSystem: 'Nissan EGI/ECCS', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Nissan — Skyline V36 2010 factory specifications PDF', url: 'https://history.nissan.co.jp/SKYLINE/V36/1001/PDF/skyline_specification.pdf', scope: 'Заводские данные VQ25HR 2495 см³ 225 PS/258 Н·м; VQ37VHR 3696 см³ 330 PS/361 Н·м.' },
+      { label: 'Nissan — Skyline V36 engine technology', url: 'https://history.nissan.co.jp/SKYLINE/V36/1001/performance.html', scope: 'Nissan описывает VQ37VHR/VVEL и VQ25HR.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -970,8 +981,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 3725, widthMm: 1660, heightMm: 1525, wheelbaseMm: 2430, groundClearanceMm: 135,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 41, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'CR12DE', name: '1.2 л DOHC', displacement: '1240 см³', powerHp: '90 PS при 5600 об/мин', torqueNm: '121 Н·м при 4000 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan EGI/ECCS', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'CR14DE', name: '1.4 л DOHC', displacement: '1386 см³', powerHp: '97 PS при 5600 об/мин', torqueNm: '136 Н·м при 3200 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan EGI/ECCS', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'HR15DE', name: '1.5 л DOHC', displacement: '1498 см³', powerHp: '109 PS при 6000 об/мин', torqueNm: '148 Н·м при 4400 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan EGI/ECCS', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Nissan — March K12 factory specifications (2005)', url: 'https://history.nissan.co.jp/MARCH/K12/0508/GRADE/main3.html', scope: 'Заводская таблица: HR15DE 1498 см³ 109 PS/148 Н·м; CR14DE 1386 см³ 97 PS/136 Н·м; CR12DE 1240 см³ 90 PS/121 Н·м.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -979,8 +995,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 3830, widthMm: 1675, heightMm: 1525, wheelbaseMm: 2450, groundClearanceMm: 150,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 42, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'L13A', name: '1.3 л i-DSI', displacement: '1339 см³', powerHp: '86 PS при 5700 об/мин', torqueNm: '119 Н·м при 2800 об/мин', valves: 'Рядный 4-цилиндровый SOHC, 8 клапанов, i-DSI', fuelSystem: 'Honda PGM-FI, двойное зажигание', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'L15A', name: '1.5 л VTEC — отдельные версии GD', displacement: '1496 см³', powerHp: 'Нет подтверждённой единой мощности для всех рынков GD', torqueNm: 'Нет подтверждённого единого момента для всех рынков GD', valves: 'Рядный 4-цилиндровый SOHC, 16 клапанов', fuelSystem: 'Honda PGM-FI', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: ['Для L15A уточнять рынок и конкретную модификацию'] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Honda — Fit 2001 official specifications', url: 'https://www.honda.co.jp/factbook/auto/fit/200106/17.html', scope: 'Заводская спецификация японского GD1/GD2: L13A 1339 см³, 86 PS и 119 Н·м.' },
+      { label: 'Honda — Fit 2001 fact book', url: 'https://www.honda.co.jp/factbook/auto/fit/200106/', scope: 'Описание первого поколения Fit и i-DSI.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -988,8 +1009,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 3900, widthMm: 1695, heightMm: 1525, wheelbaseMm: 2500, groundClearanceMm: 150,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 42, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'L13A', name: '1.3 л SOHC i-VTEC', displacement: '1339 см³', powerHp: '100 PS при 6000 об/мин', torqueNm: '127 Н·м при 4800 об/мин', valves: 'Рядный 4-цилиндровый SOHC, 16 клапанов', fuelSystem: 'Honda PGM-FI', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'L15A', name: '1.5 л SOHC i-VTEC', displacement: '1496 см³', powerHp: '120 PS при 6600 об/мин', torqueNm: '145 Н·м при 4800 об/мин', valves: 'Рядный 4-цилиндровый SOHC, 16 клапанов', fuelSystem: 'Honda PGM-FI', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Honda — Fit 2007 official specifications', url: 'https://www.honda.co.jp/factbook/auto/fit/200710/20.html', scope: 'Заводская таблица GE: L13A 1339 см³ 100 PS/127 Н·м; L15A 1496 см³ 120 PS/145 Н·м.' },
+      { label: 'Honda — Fit 2007 environmental specifications', url: 'https://www.honda.co.jp/factbook/auto/fit/200710/21.html', scope: 'Коды кузовов GE6–GE9 и соответствие двигателей L13A/L15A.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -997,8 +1023,12 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 3925, widthMm: 1680, heightMm: 1530, wheelbaseMm: 2490, groundClearanceMm: 150,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 45, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'ZJ-VE', name: '1.3 л MZR DOHC', displacement: '1348 см³', powerHp: '91 PS при 6000 об/мин', torqueNm: '124 Н·м при 3500 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'ZY-VE', name: '1.5 л MZR DOHC', displacement: '1498 см³', powerHp: '113 PS при 6000 об/мин', torqueNm: '140 Н·м при 4000 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Mazda — all-new Demio launch 2002', url: 'https://newsroom.mazda.com/en/publicity/release/2002/200208/0807e.html', scope: 'Заводской релиз для поколения DY: MZR 1.3 1348 см³ 91 PS/124 Н·м; MZR 1.5 1498 см³ 113 PS/140 Н·м.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -1006,8 +1036,14 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 3885, widthMm: 1695, heightMm: 1475, wheelbaseMm: 2490, groundClearanceMm: 155,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 41, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'ZJ-VE', name: '1.3 л MZR DOHC', displacement: '1348 см³', powerHp: '91 PS при 6000 об/мин', torqueNm: '124 Н·м при 3500 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'ZJ-VEM', name: '1.3 л MZR Miller-cycle', displacement: '1348 см³', powerHp: '90 PS при 6000 об/мин', torqueNm: '120 Н·м при 4000 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'ZY-VE', name: '1.5 л MZR DOHC', displacement: '1498 см³', powerHp: '113 PS при 6000 об/мин', torqueNm: '140 Н·м при 4000 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Mazda — third-generation Demio launch 2007', url: 'https://newsroom.mazda.com/en/publicity/release/2007/200707/070705.html', scope: 'Заводской релиз: ZJ-VE 1.3 91 PS/124 Н·м; ZJ-VEM Miller 90 PS/120 Н·м; ZY-VE 1.5 113 PS/140 Н·м.' },
+      { label: 'Mazda — 2008 Demio refinement', url: 'https://newsroom.mazda.com/en/publicity/release/2008/200807/080714a.html', scope: 'Подтверждает сохранение двигателей и комплектаций 1.3/1.5 для японского DE.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -1015,8 +1051,14 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 4680, widthMm: 1730, heightMm: 1475, wheelbaseMm: 2670, groundClearanceMm: 150,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 64, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'EJ204', name: '2.0 л атмосферный DOHC', displacement: '1994 см³', powerHp: '190 PS при 7100 об/мин для японского BP5 2.0R', torqueNm: '196 Н·м при 4400 об/мин', valves: 'Оппозитный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный многоточечный впрыск', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: [] },
+      { code: 'EJ20Y', name: '2.0 л турбо DOHC', displacement: '1994 см³', powerHp: '280 PS при 6400 об/мин для японского BP5 GT', torqueNm: '343 Н·м при 2400 об/мин', valves: 'Оппозитный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный многоточечный впрыск, турбонаддув', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Subaru — all-new Legacy launch 2003', url: 'https://www.subaru.co.jp/en/news/archives/press/2003/03_05_23.htm', scope: 'Заводской релиз подтверждает запуск четвертого поколения Legacy в 2003 году и линейку оппозитных двигателей.' },
+      { label: 'GAZOO — Legacy Touring Wagon BP5 2.0R', url: 'https://gazoo.com/catalog/maker/SUBARU/LEGACY_TOURING_WAGON/200305/10020950/', scope: 'Каталог конкретной японской BP5 2.0R: EJ20 1994 см³, 190 PS/196 Н·м.' },
+      { label: 'LegacyPic — BP5 2.0 GT specification', url: 'https://www.legacypic.uk/car/specs.php?id=290', scope: 'Спецификация BP5 GT: EJ20Y 1994 см³, 280 PS/343 Н·м.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -1024,8 +1066,14 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 4790, widthMm: 1780, heightMm: 1535, wheelbaseMm: 2750, groundClearanceMm: 150,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 65, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'EJ253', name: '2.5 л атмосферный SOHC', displacement: '2457 см³', powerHp: '170 PS при 5600 об/мин для японского BM9/BR9 2.5i', torqueNm: '229 Н·м при 4000 об/мин', valves: 'Оппозитный 4-цилиндровый SOHC, 16 клапанов', fuelSystem: 'Электронный многоточечный впрыск', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: [] },
+      { code: 'EJ25', name: '2.5 л турбо DOHC', displacement: '2457 см³', powerHp: '285 PS при 6000 об/мин для японского BM9 2.5GT', torqueNm: '350 Н·м при 2000–5600 об/мин', valves: 'Оппозитный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Электронный многоточечный впрыск, турбонаддув', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Subaru — fifth-generation Legacy launch 2009', url: 'https://www.subaru.co.jp/en/news/archives/press/2009/09_05_20e.html', scope: 'Заводской релиз подтверждает японские версии пятого поколения: 2.5 атмосферный SOHC, 2.5 турбо DOHC и 3.6 DOHC.' },
+      { label: 'GAZOO — Legacy B4 BM9 2.5i L Package', url: 'https://gazoo.com/catalog/maker/SUBARU/LEGACY_B4/200905/10055382/', scope: 'Японский BM9 2.5i: EJ25 2457 см³, 170 PS/229 Н·м.' },
+      { label: 'GAZOO — Legacy B4 BM9 2.5GT', url: 'https://gazoo.com/catalog/maker/SUBARU/LEGACY_B4/200905/10055387/', scope: 'Японский BM9 2.5GT: EJ25 2457 см³, 285 PS/350 Н·м.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({
@@ -1033,8 +1081,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство японских автомобилей. Двигатели, коробки, оснащение и спецификации различаются по поколению, рынку и комплектации.',
     lengthMm: 3850, widthMm: 1695, heightMm: 1510, wheelbaseMm: 2430, groundClearanceMm: 145,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 42, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
+    engines: [{ code: 'K12B', name: '1.2 л DOHC VVT', displacement: '1242 см³', powerHp: '91 PS при 6000 об/мин', torqueNm: '118 Н·м при 4800 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов, VVT', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }], transmissions: ['Зависит от года, рынка и комплектации; уточнять по коду агрегата'],
     drivetrain: 'Зависит от модификации и рынка.',
+    sourceReferences: [
+      { label: 'Suzuki Digital Library — Swift 2010', url: 'https://www.suzuki.co.jp/suzuki_digital_library/1_auto/swift.html', scope: 'Заводская библиотека: ZC72S, двигатель K12B 1242 см³, DOHC 16V VVT, 91 PS.' },
+      { label: 'Suzuki — 2011 environmental data', url: 'https://www.suzuki.co.jp/about/csr/report/pdf/2012_envj_all.pdf', scope: 'Заводские экологические данные ZC72S/ZD72S: K12B 1242 см³, 91 PS/118 Н·м.' },
+      { label: 'MLIT — Swift ZC72S assessment', url: 'https://www.mlit.go.jp/jidosha/anzen/02assessment/car_h22/suzuki/swift.html', scope: 'Японское министерство подтверждает модель ZC72S и объём 1242 см³.' }
+    ],
     sourceNotes: 'Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.'
   }),
   makeSupplementalModel({

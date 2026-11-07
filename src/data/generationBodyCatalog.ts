@@ -1281,7 +1281,1378 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
 
  {id:"drom-honda-fit-ge-app",sourceModelId:"honda-fit-ge",modelFamilyId:"honda-fit-jazz-158",make:"Honda",model:"Fit / Jazz",generation:"GE, II поколение",chassisCodes:["GE6","GE7","GE8","GE9"],years:"2007–2010",bodyStyles:["Хэтчбек 5 дв."],engineFamilies:["L13A 1.3 бензин","L15A 1.5 бензин"],transmissionFamilies:["МКПП","АКПП","CVT"],drivetrainNotes:"Японский рынок, правый руль; привод и тип КПП разделены по точным комплектациям Drom.",verification:"seeded-needs-verification",source:"Drom",nextDataTasks:["Сверить коды трансмиссий по VIN и кузову","Подтвердить сервисные жидкости по руководству","Добавить OEM-размеры шин, дисков и щёток"]},
 
- {id:"drom-toyota-prius-xw30-app",sourceModelId:"toyota-prius-xw30-liftback",modelFamilyId:"toyota-prius-58",make:"Toyota",model:"Prius",generation:"XW30 / ZVW30, III поколение",chassisCodes:["ZVW30L"],years:"2009–2011",bodyStyles:["Лифтбек"],engineFamilies:["2ZR-FXE 1.8 бензин/гибрид"],transmissionFamilies:["Электронная планетарная передача (e-CVT)"],drivetrainNotes:"Российская спецификация Drom: передний привод, левый руль; Drom отображает тип трансмиссии как CVT.",verification:"seeded-needs-verification",source:"Drom",nextDataTasks:["Сверить точное обозначение трансмиссии по OEM-документации","Подтвердить параметры гибридной батареи","Добавить OEM-размеры шин и дисков"]},
+ {id:"drom-toyota-prius-xw30-app",sourceModelId:"toyota-prius-xw30-liftback",modelFamilyId:"toyota-prius-58",make:"Toyota",model:"Prius",generation:"XW30 / ZVW30, III поколение",chassisCodes:["ZVW30L"],years:"2009–2011",bodyStyles:["Лифтбек"],engineFamilies:["2ZR-FXE 1.8 бензин/гибрид"],transmissionFamilies:["Электронная планетарная передача (e-CVT)"],drivetrainNotes:"Российская спецификация Drom: передний привод, левый руль; Drom отображает тип трансмиссии как CVT.",verification:"seeded-needs-verification",source:"Drom",nextDataTasks:["Сверить точное обозначение трансмиссии по OEM-документации","Подтвердить параметры гибридной батареи","Добавить OEM-размеры шин и дисков"]},,
+
+  {
+    "id": "batch50-toyota-mr2-sw20-gt-s-1997",
+    "sourceModelId": "toyota-mr2-sw20-gt-s-1997",
+    "make": "Toyota",
+    "model": "MR2 GT-S (SW20)",
+    "generation": "II поколение, японская спецификация",
+    "chassisCodes": [
+      "SW20"
+    ],
+    "years": "1997–1999",
+    "bodyStyles": [
+      "Купе/Спорт"
+    ],
+    "engineFamilies": [
+      "3S-GTE"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая МКПП для GT-S"
+    ],
+    "drivetrainNotes": "Среднемоторная компоновка, задний привод; LSD зависит от исполнения.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-starlet-ep91-glanza-v",
+    "sourceModelId": "toyota-starlet-ep91-glanza-v",
+    "make": "Toyota",
+    "model": "Starlet Glanza V (EP91)",
+    "generation": "V поколение, японская спецификация",
+    "chassisCodes": [
+      "EP91"
+    ],
+    "years": "1997–1999",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "4E-FTE"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая МКПП — Glanza V",
+      "4-ступенчатая АКПП — отдельные исполнения"
+    ],
+    "drivetrainNotes": "Передний привод (FF); передаточные числа и дифференциал уточнять по коробке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-caldina-st215w-gt-t",
+    "sourceModelId": "toyota-caldina-st215w-gt-t",
+    "make": "Toyota",
+    "model": "Caldina GT-T (ST215W)",
+    "generation": "II поколение, японская спецификация",
+    "chassisCodes": [
+      "ST215W"
+    ],
+    "years": "1997–2002",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "3S-GTE"
+    ],
+    "transmissionFamilies": [
+      "4-ступенчатая АКПП для E-ST215W GT-T"
+    ],
+    "drivetrainNotes": "Постоянный полный привод (full-time 4WD); передаточные числа и коды дифференциалов сверять по шильдику агрегатов.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-crown-jzs171-athlete-v",
+    "sourceModelId": "toyota-crown-jzs171-athlete-v",
+    "make": "Toyota",
+    "model": "Crown Athlete V (JZS171)",
+    "generation": "XI поколение Crown, японская спецификация",
+    "chassisCodes": [
+      "JZS171"
+    ],
+    "years": "2001–2003",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "1JZ-GTE"
+    ],
+    "transmissionFamilies": [
+      "4-ступенчатая АКПП — конкретную модель коробки проверить по коду комплектации"
+    ],
+    "drivetrainNotes": "Задний привод (FR); передаточное число главной пары и тип LSD требуют проверки по комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-crown-estate-jzs171w-athlete-v",
+    "sourceModelId": "toyota-crown-estate-jzs171w-athlete-v",
+    "make": "Toyota",
+    "model": "Crown Estate Athlete V (JZS171W)",
+    "generation": "XI поколение Crown Estate, японская спецификация",
+    "chassisCodes": [
+      "JZS171W"
+    ],
+    "years": "2001–2003",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "1JZ-GTE"
+    ],
+    "transmissionFamilies": [
+      "4-ступенчатая АКПП — по японской версии Athlete V"
+    ],
+    "drivetrainNotes": "Задний привод (FR); точная главная пара и дифференциал зависят от комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-altezza-sxe10-rs200",
+    "sourceModelId": "toyota-altezza-sxe10-rs200",
+    "make": "Toyota",
+    "model": "Altezza RS200 (SXE10)",
+    "generation": "I поколение, японская спецификация",
+    "chassisCodes": [
+      "SXE10"
+    ],
+    "years": "1998–2005",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "3S-GE"
+    ],
+    "transmissionFamilies": [
+      "6-ступенчатая МКПП — RS200",
+      "5-ступенчатая АКПП Super ECT — RS200"
+    ],
+    "drivetrainNotes": "Задний привод (FR); передаточное число главной пары зависит от коробки и версии.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-aristo-jzs161-v300",
+    "sourceModelId": "toyota-aristo-jzs161-v300",
+    "make": "Toyota",
+    "model": "Aristo V300 (JZS161)",
+    "generation": "II поколение, японская спецификация",
+    "chassisCodes": [
+      "JZS161"
+    ],
+    "years": "1997–2005",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "2JZ-GTE"
+    ],
+    "transmissionFamilies": [
+      "4-ступенчатая АКПП для японской V300"
+    ],
+    "drivetrainNotes": "Задний привод (FR); главная пара и дифференциал уточняются по коду комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-corolla-levin-ae101-gt-apex",
+    "sourceModelId": "toyota-corolla-levin-ae101-gt-apex",
+    "make": "Toyota",
+    "model": "Corolla Levin GT APEX (AE101)",
+    "generation": "VII поколение, японская спецификация",
+    "chassisCodes": [
+      "AE101"
+    ],
+    "years": "1991–1995",
+    "bodyStyles": [
+      "Купе/Спорт"
+    ],
+    "engineFamilies": [
+      "4A-GE"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая МКПП — по версии",
+      "4-ступенчатая АКПП — по версии"
+    ],
+    "drivetrainNotes": "Передний привод (FF); данные редуктора и передаточных чисел требуют выбора точной коробки.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-gt-r-bnr34-v-spec-ii",
+    "sourceModelId": "nissan-skyline-gt-r-bnr34-v-spec-ii",
+    "make": "Nissan",
+    "model": "Skyline GT-R V·spec II (BNR34)",
+    "generation": "X поколение Skyline, японская спецификация",
+    "chassisCodes": [
+      "BNR34"
+    ],
+    "years": "2000–2002",
+    "bodyStyles": [
+      "Купе/Спорт"
+    ],
+    "engineFamilies": [
+      "RB26DETT"
+    ],
+    "transmissionFamilies": [
+      "6-ступенчатая МКПП Getrag — дорожная версия"
+    ],
+    "drivetrainNotes": "Полный привод ATTESA E-TS; задний активный дифференциал и передаточные числа уточнять по комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-gt-r-bnr34-m-spec-nur",
+    "sourceModelId": "nissan-skyline-gt-r-bnr34-m-spec-nur",
+    "make": "Nissan",
+    "model": "Skyline GT-R M·spec Nür (BNR34)",
+    "generation": "X поколение Skyline, ограниченная серия",
+    "chassisCodes": [
+      "BNR34"
+    ],
+    "years": "2002",
+    "bodyStyles": [
+      "Купе/Спорт"
+    ],
+    "engineFamilies": [
+      "RB26DETT"
+    ],
+    "transmissionFamilies": [
+      "6-ступенчатая МКПП — дорожный BNR34"
+    ],
+    "drivetrainNotes": "Полный привод ATTESA E-TS; дифференциалы и передаточные числа сверять по заводской документации конкретного кузова.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-corolla-fielder-e140-wagon",
+    "sourceModelId": "toyota-corolla-fielder-e140-wagon",
+    "make": "Toyota",
+    "model": "Corolla Fielder (E140)",
+    "generation": "X поколение, японская версия",
+    "chassisCodes": [
+      "E140"
+    ],
+    "years": "2006–2012",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "1NZ-FE"
+    ],
+    "transmissionFamilies": [
+      "МКПП / автоматическая трансмиссия / вариатор — в зависимости от версии"
+    ],
+    "drivetrainNotes": "Передний привод; на японском рынке доступны отдельные версии 4WD.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-civic-fd-sedan",
+    "sourceModelId": "honda-civic-fd-sedan",
+    "make": "Honda",
+    "model": "Civic VIII (FD)",
+    "generation": "VIII поколение",
+    "chassisCodes": [
+      "FD"
+    ],
+    "years": "2005–2011",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "R18A"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая автоматическая трансмиссия — отдельные версии",
+      "5-ступенчатая МКПП — отдельные версии"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-note-e11-hatchback",
+    "sourceModelId": "nissan-note-e11-hatchback",
+    "make": "Nissan",
+    "model": "Note (E11)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "E11"
+    ],
+    "years": "2005–2013",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "CR14DE"
+    ],
+    "transmissionFamilies": [
+      "Не указана в выбранной архивной спецификации; уточнить по табличке автомобиля"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-mitsubishi-lancer-cs-wagon",
+    "sourceModelId": "mitsubishi-lancer-cs-wagon",
+    "make": "Mitsubishi",
+    "model": "Lancer IX Wagon (CS)",
+    "generation": "IX поколение, универсал",
+    "chassisCodes": [
+      "CS"
+    ],
+    "years": "2003–2008",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "4G18"
+    ],
+    "transmissionFamilies": [
+      "МКПП / АКПП по комплектации"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-mitsubishi-pajero-io-h76-suv",
+    "sourceModelId": "mitsubishi-pajero-io-h76-suv",
+    "make": "Mitsubishi",
+    "model": "Pajero iO / Pinin (H6/H7)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "H6",
+      "H7"
+    ],
+    "years": "1998–2007",
+    "bodyStyles": [
+      "Внедорожник"
+    ],
+    "engineFamilies": [
+      "4G93"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП"
+    ],
+    "drivetrainNotes": "Easy Select / Full-time 4WD — зависит от версии; проверить рычаг/код трансмиссии.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-camry-xv40-sedan",
+    "sourceModelId": "toyota-camry-xv40-sedan",
+    "make": "Toyota",
+    "model": "Camry (XV40)",
+    "generation": "VI поколение",
+    "chassisCodes": [
+      "XV40"
+    ],
+    "years": "2006–2011",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "2AZ-FE"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая АКПП",
+      "6-ступенчатая АКПП — по версии"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-prado-j120-suv",
+    "sourceModelId": "toyota-prado-j120-suv",
+    "make": "Toyota",
+    "model": "Land Cruiser Prado (J120)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "J120"
+    ],
+    "years": "2002–2009",
+    "bodyStyles": [
+      "Внедорожник"
+    ],
+    "engineFamilies": [
+      "1GR-FE"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП"
+    ],
+    "drivetrainNotes": "4WD; схема блокировок и межосевого дифференциала зависит от комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-yaris-xp90-hatchback",
+    "sourceModelId": "toyota-yaris-xp90-hatchback",
+    "make": "Toyota",
+    "model": "Yaris / Vitz (XP90)",
+    "generation": "II поколение",
+    "chassisCodes": [
+      "XP90"
+    ],
+    "years": "2005–2011",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "1KR-FE"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП/вариатор — по рынку"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-rav4-xa30-crossover",
+    "sourceModelId": "toyota-rav4-xa30-crossover",
+    "make": "Toyota",
+    "model": "RAV4 (XA30)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "XA30"
+    ],
+    "years": "2005–2012",
+    "bodyStyles": [
+      "Кроссовер"
+    ],
+    "engineFamilies": [
+      "2AZ-FE"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП",
+      "CVT — по рынку"
+    ],
+    "drivetrainNotes": "Передний привод или AWD; схема зависит от рынка и комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-hilux-an120-pickup",
+    "sourceModelId": "toyota-hilux-an120-pickup",
+    "make": "Toyota",
+    "model": "Hilux (AN120/AN130)",
+    "generation": "VIII поколение",
+    "chassisCodes": [
+      "AN120",
+      "AN130"
+    ],
+    "years": "2015–2025",
+    "bodyStyles": [
+      "Пикап"
+    ],
+    "engineFamilies": [
+      "2GD-FTV"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП"
+    ],
+    "drivetrainNotes": "RWD или подключаемый 4WD; проверить конкретную комплектацию.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-yaris-xp10",
+    "sourceModelId": "toyota-yaris-xp10",
+    "make": "Toyota",
+    "model": "Yaris / Vitz (XP10)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "XP10"
+    ],
+    "years": "1999–2005",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "1SZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-yaris-xp90",
+    "sourceModelId": "toyota-yaris-xp90",
+    "make": "Toyota",
+    "model": "Yaris / Vitz (XP90)",
+    "generation": "II поколение",
+    "chassisCodes": [
+      "XP90"
+    ],
+    "years": "2005–2011",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "1KR-FE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-yaris-xp130",
+    "sourceModelId": "toyota-yaris-xp130",
+    "make": "Toyota",
+    "model": "Yaris / Vitz (XP130)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "XP130"
+    ],
+    "years": "2010–2020",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "1KR-FE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-prius-xw10",
+    "sourceModelId": "toyota-prius-xw10",
+    "make": "Toyota",
+    "model": "Prius (XW10)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "XW10"
+    ],
+    "years": "1997–2003",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "1NZ-FXE"
+    ],
+    "transmissionFamilies": [
+      "Гибридная трансмиссия с планетарным механизмом распределения мощности; уточнять по версии"
+    ],
+    "drivetrainNotes": "Передний привод для указанной японской версии.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-prius-xw50",
+    "sourceModelId": "toyota-prius-xw50",
+    "make": "Toyota",
+    "model": "Prius (XW50)",
+    "generation": "IV поколение",
+    "chassisCodes": [
+      "XW50"
+    ],
+    "years": "2015–2022",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "2ZR-FXE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-estima-xr50",
+    "sourceModelId": "toyota-estima-xr50",
+    "make": "Toyota",
+    "model": "Estima (XR50)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "XR50"
+    ],
+    "years": "2006–2019",
+    "bodyStyles": [
+      "Минивэн"
+    ],
+    "engineFamilies": [
+      "2AZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-v35",
+    "sourceModelId": "nissan-skyline-v35",
+    "make": "Nissan",
+    "model": "Skyline (V35)",
+    "generation": "XI поколение",
+    "chassisCodes": [
+      "V35"
+    ],
+    "years": "2001–2007",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "VQ25DD"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-v36",
+    "sourceModelId": "nissan-skyline-v36",
+    "make": "Nissan",
+    "model": "Skyline (V36)",
+    "generation": "XII поколение",
+    "chassisCodes": [
+      "V36"
+    ],
+    "years": "2006–2014",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "VQ25HR"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-march-k12",
+    "sourceModelId": "nissan-march-k12",
+    "make": "Nissan",
+    "model": "March / Micra (K12)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "K12"
+    ],
+    "years": "2002–2010",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "CR12DE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-fit-gd",
+    "sourceModelId": "honda-fit-gd",
+    "make": "Honda",
+    "model": "Fit / Jazz (GD)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "GD"
+    ],
+    "years": "2001–2008",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "L13A"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-mazda-demio-dy",
+    "sourceModelId": "mazda-demio-dy",
+    "make": "Mazda",
+    "model": "Demio / Mazda2 (DY)",
+    "generation": "II поколение",
+    "chassisCodes": [
+      "DY"
+    ],
+    "years": "2002–2007",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "ZJ-VE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-mazda-demio-de",
+    "sourceModelId": "mazda-demio-de",
+    "make": "Mazda",
+    "model": "Demio / Mazda2 (DE)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "DE"
+    ],
+    "years": "2007–2014",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "ZJ-VE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-subaru-legacy-bp",
+    "sourceModelId": "subaru-legacy-bp",
+    "make": "Subaru",
+    "model": "Legacy (BP/BL)",
+    "generation": "IV поколение",
+    "chassisCodes": [
+      "BP",
+      "BL"
+    ],
+    "years": "2003–2009",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "EJ204"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-subaru-legacy-bmbr",
+    "sourceModelId": "subaru-legacy-bmbr",
+    "make": "Subaru",
+    "model": "Legacy (BM/BR)",
+    "generation": "V поколение",
+    "chassisCodes": [
+      "BM",
+      "BR"
+    ],
+    "years": "2009–2014",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "EJ253"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-suzuki-swift-zc72",
+    "sourceModelId": "suzuki-swift-zc72",
+    "make": "Suzuki",
+    "model": "Swift (ZC72/ZD72)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "ZC72",
+      "ZD72"
+    ],
+    "years": "2010–2017",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "K12B"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-suzuki-alto-ha25",
+    "sourceModelId": "suzuki-alto-ha25",
+    "make": "Suzuki",
+    "model": "Alto (HA25)",
+    "generation": "VII поколение",
+    "chassisCodes": [
+      "HA25"
+    ],
+    "years": "2009–2014",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "K6A"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-daihatsu-mira-l275",
+    "sourceModelId": "daihatsu-mira-l275",
+    "make": "Daihatsu",
+    "model": "Mira (L275)",
+    "generation": "VII поколение",
+    "chassisCodes": [
+      "L275"
+    ],
+    "years": "2006–2018",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "KF-VE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-lexus-ls-xf30",
+    "sourceModelId": "lexus-ls-xf30",
+    "make": "Lexus",
+    "model": "LS (XF30)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "XF30"
+    ],
+    "years": "2000–2006",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "3UZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-corolla-e100",
+    "sourceModelId": "toyota-corolla-e100",
+    "make": "Toyota",
+    "model": "Corolla (E100)",
+    "generation": "VII поколение",
+    "chassisCodes": [
+      "E100"
+    ],
+    "years": "1991–1998",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "4A-FE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-corolla-e120",
+    "sourceModelId": "toyota-corolla-e120",
+    "make": "Toyota",
+    "model": "Corolla (E120/E130)",
+    "generation": "IX поколение",
+    "chassisCodes": [
+      "E120",
+      "E130"
+    ],
+    "years": "2000–2007",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "1NZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-camry-xv30",
+    "sourceModelId": "toyota-camry-xv30",
+    "make": "Toyota",
+    "model": "Camry (XV30)",
+    "generation": "V поколение",
+    "chassisCodes": [
+      "XV30"
+    ],
+    "years": "2001–2006",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "2AZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-camry-xv40",
+    "sourceModelId": "toyota-camry-xv40",
+    "make": "Toyota",
+    "model": "Camry (XV40)",
+    "generation": "VI поколение",
+    "chassisCodes": [
+      "XV40"
+    ],
+    "years": "2006–2011",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "2AZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-hilux-n50",
+    "sourceModelId": "toyota-hilux-n50",
+    "make": "Toyota",
+    "model": "Hilux (N50/N60/N70)",
+    "generation": "VII поколение",
+    "chassisCodes": [
+      "N50",
+      "N60",
+      "N70"
+    ],
+    "years": "2004–2015",
+    "bodyStyles": [
+      "Пикап"
+    ],
+    "engineFamilies": [
+      "2KD-FTV"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-hiace-h200",
+    "sourceModelId": "toyota-hiace-h200",
+    "make": "Toyota",
+    "model": "HiAce (H200)",
+    "generation": "V поколение",
+    "chassisCodes": [
+      "H200"
+    ],
+    "years": "2004–н.в.",
+    "bodyStyles": [
+      "Минивэн"
+    ],
+    "engineFamilies": [
+      "2KD-FTV"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-x-trail-t30",
+    "sourceModelId": "nissan-x-trail-t30",
+    "make": "Nissan",
+    "model": "X-Trail (T30)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "T30"
+    ],
+    "years": "2000–2007",
+    "bodyStyles": [
+      "Кроссовер"
+    ],
+    "engineFamilies": [
+      "QR20DE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-x-trail-t31",
+    "sourceModelId": "nissan-x-trail-t31",
+    "make": "Nissan",
+    "model": "X-Trail (T31)",
+    "generation": "II поколение",
+    "chassisCodes": [
+      "T31"
+    ],
+    "years": "2007–2014",
+    "bodyStyles": [
+      "Кроссовер"
+    ],
+    "engineFamilies": [
+      "MR20DE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-serena-c25",
+    "sourceModelId": "nissan-serena-c25",
+    "make": "Nissan",
+    "model": "Serena (C25)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "C25"
+    ],
+    "years": "2005–2010",
+    "bodyStyles": [
+      "Минивэн"
+    ],
+    "engineFamilies": [
+      "MR20DE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-accord-cf",
+    "sourceModelId": "honda-accord-cf",
+    "make": "Honda",
+    "model": "Accord (CF)",
+    "generation": "VI поколение",
+    "chassisCodes": [
+      "CF"
+    ],
+    "years": "1997–2002",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "F18B"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-odyssey-ra",
+    "sourceModelId": "honda-odyssey-ra",
+    "make": "Honda",
+    "model": "Odyssey (RA)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "RA"
+    ],
+    "years": "1994–1999",
+    "bodyStyles": [
+      "Минивэн"
+    ],
+    "engineFamilies": [
+      "F23A"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-cr-v-rd",
+    "sourceModelId": "honda-cr-v-rd",
+    "make": "Honda",
+    "model": "CR-V (RD)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "RD"
+    ],
+    "years": "1995–2001",
+    "bodyStyles": [
+      "Кроссовер"
+    ],
+    "engineFamilies": [
+      "B20B"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  }
+
 
 ];
 export const CATALOG_RECORDS_BY_SOURCE_MODEL = GENERATION_BODY_CATALOG.reduce<Record<string, GenerationBodyRecord[]>>((acc, record) => {

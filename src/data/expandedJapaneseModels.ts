@@ -375,7 +375,7 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 155, trunkVolumeLiters: 'Зависит от рынка и положения сидений', fuelTankLiters: 60,
     curbWeightKg: 'Ориентировочно 1250–1450 кг',
     engines: [
-      { code: 'EL154', name: '1.5 л атмосферный boxer, GH3', displacement: '1498 см³', powerHp: '107 PS при 6000 об/мин', torqueNm: '142 Н·м при 3200 об/мин', valves: 'SOHC/DOHC в зависимости от версии', fuelSystem: 'Электронный впрыск', timingDrive: 'Для многих EJ — ремень; проверить код двигателя', strengths: ['Низкий центр тяжести'], weaknesses: ['Нельзя выбирать регламент только по названию Impreza'] }
+      { code: 'EL154', name: '1.5 л атмосферный boxer, GH3', displacement: '1498 см³', powerHp: '107 PS при 6000 об/мин', torqueNm: '142 Н·м при 3200 об/мин', valves: 'SOHC/DOHC в зависимости от версии', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Низкий центр тяжести'], weaknesses: ['Нельзя выбирать регламент только по названию Impreza'] }
     ],
     transmissions: ['МКПП', 'АКПП — в зависимости от рынка и комплектации'],
     drivetrain: 'Symmetrical AWD на многих версиях; привод зависит от рынка.',
@@ -795,8 +795,8 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Среднеразмерный седан; моторы MZR и дизели различаются по рынку и году.',
     lengthMm: 4670, widthMm: 1780, heightMm: 1435, wheelbaseMm: 2675, groundClearanceMm: 150, trunkVolumeLiters: '500 л (зависит от рынка)', fuelTankLiters: 64, curbWeightKg: '1300–1600 кг',
     engines: [
-      { code: 'LF-DE', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: '141 л.с.', torqueNm: '181 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая доступность запчастей'], weaknesses: ['Проверять коррозию кузова и состояние охлаждения'] },
-      { code: 'L3-VE', name: '2.3 л бензин', displacement: '2261 см³', powerHp: '166 л.с.', torqueNm: '207 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая тяга'], weaknesses: ['Проверять расход масла и герметичность'] }
+      { code: 'LF17/LF18', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: '141 л.с.', torqueNm: '181 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая доступность запчастей'], weaknesses: ['Проверять коррозию кузова и состояние охлаждения'] },
+      { code: 'L3C1', name: '2.3 л бензин', displacement: '2261 см³', powerHp: '166 л.с.', torqueNm: '207 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая тяга'], weaknesses: ['Проверять расход масла и герметичность'] }
     ],
     transmissions: ['МКПП', 'АКПП'], sourceNotes: 'Mazda6 GG sedan: LF17/LF18 2.0 — 141 л.с./181 Н·м для дорестайлинга; L3C1 2.3 — 166 л.с./207 Н·м. Рестайлинг 2.0 имеет отдельную калибровку 147 л.с./184 Н·м.',
     sourceReferences: [
@@ -817,8 +817,8 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Универсал Mazda6 первого поколения; задняя часть кузова и светотехника отличаются от седана.',
     lengthMm: 4700, widthMm: 1780, heightMm: 1480, wheelbaseMm: 2675, groundClearanceMm: 150, trunkVolumeLiters: 'Зависит от методики измерения', fuelTankLiters: 64, curbWeightKg: '1400–1650 кг',
     engines: [
-      { code: 'LF-DE', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: '141 л.с.', torqueNm: '181 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Практичный кузов'], weaknesses: ['Проверять коррозию порогов/арок и днища'] },
-      { code: 'L3-VE', name: '2.3 л бензин', displacement: '2261 см³', powerHp: '166 л.с.', torqueNm: '207 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая динамика'], weaknesses: ['Проверять состояние двигателя и коробки'] }
+      { code: 'LF17/LF18', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: '141 л.с.', torqueNm: '181 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Практичный кузов'], weaknesses: ['Проверять коррозию порогов/арок и днища'] },
+      { code: 'L3C1', name: '2.3 л бензин', displacement: '2261 см³', powerHp: '166 л.с.', torqueNm: '207 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая динамика'], weaknesses: ['Проверять состояние двигателя и коробки'] }
     ],
     transmissions: ['МКПП', 'АКПП'], sourceNotes: 'Mazda6 GG wagon: LF17/LF18 2.0 — 141 л.с./181 Н·м для дорестайлинга; L3C1 2.3 — 166 л.с./207 Н·м для переднеприводной версии. AWD 2.3 имеет отдельную калибровку.',
     sourceReferences: [

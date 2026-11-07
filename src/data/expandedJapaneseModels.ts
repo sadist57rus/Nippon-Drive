@@ -1120,9 +1120,14 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 5260, widthMm: 1835, heightMm: 1860, wheelbaseMm: 3085, groundClearanceMm: 212,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 80, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: '2KD-FTV', name: '2.5 л турбодизель D-4D', displacement: '2494 см³', powerHp: '102 DIN hp (75 кВт) при 3600 об/мин', torqueNm: '260 Н·м для 4x4; 200 Н·м для 4x2', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Common Rail, непосредственный впрыск, турбонаддув', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Параметры ограничены европейской спецификацией запуска 2005 года'] },
+      { code: '1KD-FTV', name: '3.0 л турбодизель D-4D', displacement: '2982 см³', powerHp: 'Не подтверждено для всех исполнений N50/N70', torqueNm: 'Не подтверждено для всех исполнений N50/N70', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Common Rail, турбонаддув', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Мощность зависит от рынка и кода модели'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Toyota Europe — 2005 Hilux launch', url: 'https://newsroom.toyota.eu/2005-toyota-hilux/', scope: '2KD-FTV 2494 см³, 75 кВт/102 DIN hp; 260 Н·м для 4x4 и 200 Н·м для 4x2.' },
+      { label: 'Toyota Sweden — Hilux 2006 owner manual', url: 'https://broschyrarkiv.toyotasverige.se/D_Hilux_OM_Jul-2006_OM71031SE.pdf', scope: 'Руководство перечисляет двигатели 1KD-FTV 2982 см³ и 2KD-FTV 2494 см³.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1145,9 +1150,15 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4510, widthMm: 1765, heightMm: 1675, wheelbaseMm: 2625, groundClearanceMm: 200,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 60, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: 'QR20DE', name: '2.0 л бензиновый DOHC', displacement: '1998 см³', powerHp: '140 PS для европейских исполнений', torqueNm: 'Нет подтверждённого единого значения для всех рынков T30', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan ECCS, электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'QR25DE', name: '2.5 л бензиновый DOHC', displacement: '2488 см³', powerHp: '165 PS для отдельных исполнений рестайлинга', torqueNm: 'Нет подтверждённого единого значения для всех рынков T30', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan ECCS, электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'YD22DDTi', name: '2.2 л турбодизель Common Rail', displacement: '2184 см³', powerHp: '136 PS для рестайлинговых исполнений', torqueNm: 'Нет подтверждённого единого значения для всех рынков T30', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Common Rail, турбонаддув', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: ['Не путать с ранним YD22ETi'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Drom — Nissan X-Trail T30 engine catalogue', url: 'https://www.drom.ru/catalog/nissan/x-trail/specs/engine_capacity/', scope: 'T30: QR20DE 1998 см³/140 л.с.; QR25DE 2488 см³/165 л.с.; YD22Eti/YD22DDTi 2184 см³/136 л.с. для отдельных лет.' },
+      { label: 'Motorservice — Nissan X-Trail engine applications', url: 'https://www.ms-motorservice.com/MediaAssets/2486694_pg_50003569_web.pdf', scope: 'Каталог применяемости подтверждает двигатели T30 и их периоды.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1155,9 +1166,16 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4630, widthMm: 1785, heightMm: 1685, wheelbaseMm: 2630, groundClearanceMm: 200,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 65, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: 'MR20DE', name: '2.0 л бензиновый DOHC', displacement: '1997 см³', powerHp: '141 PS для европейских исполнений', torqueNm: 'Нет подтверждённого единого значения для всех рынков T31', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan ECCS, электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'QR25DE', name: '2.5 л бензиновый DOHC', displacement: '2488 см³', powerHp: '169 PS для европейских исполнений', torqueNm: 'Нет подтверждённого единого значения для всех рынков T31', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan ECCS, электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] },
+      { code: 'M9R', name: '2.0 л турбодизель dCi', displacement: '1995 см³', powerHp: '150 PS ранняя версия; 173 PS отдельные 4WD версии', torqueNm: '320 Н·м для версии 150 PS', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Common Rail, турбонаддув и интеркулер', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: ['Мощность различается между версиями M9R'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Nissan Global — second-generation X-Trail launch 2007', url: 'https://global.nissannews.com/en/releases/070822-01-e?origin=channel-6cc809ed3d53e589ae8e7619960035fc', scope: 'Nissan подтверждает бензиновые семейства MR20DE и QR25DE для T31.' },
+      { label: 'Nissan X-Trail T31 owner guide', url: 'https://vnx.su/content/avto/nissan/expluatacia/x-trail-t31-2007.html', scope: 'Руководство: MR20DE 1997 см³/141 л.с.; QR25DE 2488 см³/169–171 л.с.; M9R 1995 см³/150 л.с./320 Н·м.' },
+      { label: 'Motorservice — X-Trail T31 engine applications', url: 'https://www.ms-motorservice.com/MediaAssets/2486694_pg_50003569_web.pdf', scope: 'Каталог применяемости T31: MR20DE, QR25DE и M9R.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1165,9 +1183,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4680, widthMm: 1695, heightMm: 1840, wheelbaseMm: 2860, groundClearanceMm: 160,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 60, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: 'MR20DE', name: '2.0 л бензиновый DOHC', displacement: '1997 см³', powerHp: '137 PS (101 кВт) при 5200 об/мин', torqueNm: '200 Н·м при 4400 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Nissan ECCS, электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: [] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Nissan Heritage Collection — Serena 20RS C25 (2006)', url: 'https://www.nissan-global.com/EN/HERITAGE_COLLECTION/480_serena_20rs.html', scope: 'Заводская карточка C25: MR20DE 1997 см³, 137 PS/5200 об/мин, 200 Н·м/4400 об/мин.' },
+      { label: 'Nissan Japan FAQ — Serena C25 fuel and tank', url: 'https://faq2.nissan.co.jp/faq/show/10162', scope: 'Nissan подтверждает MR20DE для C25 (2005–2010) и бак около 60 л.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1175,9 +1197,12 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 5220, widthMm: 1850, heightMm: 1795, wheelbaseMm: 3200, groundClearanceMm: 228,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 80, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: 'YD25DDTi', name: '2.5 л турбодизель Common Rail', displacement: '2488 см³', powerHp: '126 кВт (171 PS) для австралийских D40 2005–2009', torqueNm: '403 Н·м для указанной ранней версии', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Denso Common Rail, турбонаддув и интеркулер', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: ['С 2010 модельного года в Австралии параметры обновлены; не переносить на все рынки'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Nissan Australia — YD25DDTi CRD service manual', url: 'https://krutilvertel.com/pdf/demo/motorist/service-manual-nissan-yd25ddti-demo.pdf', scope: 'Руководство описывает D40 с 2005 года; ранняя версия 126 кВт/403 Н·м, обновление 2010 года — 140 кВт/450 Н·м.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1185,9 +1210,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4635, widthMm: 1695, heightMm: 1420, wheelbaseMm: 2665, groundClearanceMm: 150,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 60, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: 'F18B', name: '1.8 л бензиновый SOHC', displacement: '1849 см³', powerHp: '140 PS для японского CF3', torqueNm: 'Нет подтверждённого значения в выбранном каталоге', valves: 'Рядный 4-цилиндровый SOHC, 16 клапанов', fuelSystem: 'Honda PGM-FI', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Не переносить характеристики на CF4/CF5'] },
+      { code: 'F20B', name: '2.0 л бензиновый DOHC/SOHC — по исполнению', displacement: '1997 см³', powerHp: '145 PS для отдельных японских CF4', torqueNm: 'Нет подтверждённого значения в выбранном каталоге', valves: 'Рядный 4-цилиндровый, 16 клапанов', fuelSystem: 'Honda PGM-FI', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Точную головку и калибровку сверять по индексу двигателя'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Drom — Honda Accord CF engine catalogue', url: 'https://www.drom.ru/catalog/honda/accord/specs/engine_capacity/', scope: 'Каталог японских Accord CF: F18B 1849 см³/140 л.с.; F20B 1997 см³/145 л.с.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1195,9 +1224,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4750, widthMm: 1770, heightMm: 1685, wheelbaseMm: 2830, groundClearanceMm: 155,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 65, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: 'F23A', name: '2.3 л бензиновый SOHC VTEC', displacement: '2253 см³', powerHp: '150 PS при 5600 об/мин', torqueNm: '204 Н·м при 4700 об/мин', valves: 'Рядный 4-цилиндровый SOHC, 16 клапанов, VTEC', fuelSystem: 'Honda PGM-FI', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Не переносить характеристики на ранние F22B'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'Honda Global — Odyssey minor model change 1997', url: 'https://global.honda/en/newsroom/worldnews/1997/4970822a.html', scope: 'Honda: 2.3-литровый 4-цилиндровый VTEC, 150 PS при 5600 об/мин и 20.8 кгс·м при 4700 об/мин.' },
+      { label: 'Drom — Honda Odyssey RA F23A', url: 'https://www.drom.ru/catalog/honda/odyssey/141828/', scope: 'Каталог RA: F23A 2253 см³, 150 л.с./5600 об/мин, 204 Н·м/4700 об/мин.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1205,9 +1238,13 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Семейство легковых автомобилей; точные параметры определяются рынком, кодом кузова, датой выпуска и комплектацией.',
     lengthMm: 4510, widthMm: 1750, heightMm: 1675, wheelbaseMm: 2620, groundClearanceMm: 205,
     trunkVolumeLiters: 'Зависит от кузова и методики измерения', fuelTankLiters: 58, curbWeightKg: 'Зависит от версии',
-    engines: [{ code: 'УТОЧНИТЬ ПО ТАБЛИЧКЕ', name: 'Состав двигателей зависит от рынка и года', displacement: 'Не задано без кода двигателя', powerHp: 'Не задано без точной модификации', torqueNm: 'Не задано без точной модификации', valves: 'Уточнить по коду двигателя', fuelSystem: 'Уточнить по коду двигателя', timingDrive: 'Уточнить по коду двигателя', strengths: [], weaknesses: [] }],
+    engines: [{ code: 'B20B', name: '2.0 л бензиновый DOHC', displacement: '1972 см³', powerHp: '130 PS при 5500 об/мин для японского RD1 1998', torqueNm: '184.4 Н·м при 4200 об/мин', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'Honda PGM-FI', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Поздний B20Z отличается от B20B'] }],
     transmissions: ['Уточнить по коду коробки и рынку'],
     drivetrain: 'Зависит от версии; сверять по VIN/табличке.',
+    sourceReferences: [
+      { label: 'GAZOO — Honda CR-V RD1 Dressy 1998', url: 'https://gazoo.com/catalog/maker/HONDA/CRV/199510/2002843/', scope: 'Японский RD1: B20B 1972 см³, 130 PS/5500 об/мин, 184.4 Н·м/4200 об/мин.' },
+      { label: 'Honda CR-V 2000 workshop manual', url: 'https://www.carmanualsonline.info/honda-cr-v-2000-rd1-rd3-1-g-workshop-manual/?srch=RD1', scope: 'Руководство показывает различные коды двигателя по модельному году: B20B4 и B20Z2.' }
+    ],
     sourceNotes: 'Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.'
   }),
   makeSupplementalModel({
@@ -1326,12 +1363,9 @@ const supplementalModels: JapaneseCarModel[] = [
     lengthMm: 4675, widthMm: 1820, heightMm: 1880, wheelbaseMm: 2675,
     groundClearanceMm: 220, trunkVolumeLiters: 'Зависит от 3/5-дверного кузова', fuelTankLiters: 90,
     curbWeightKg: 'Примерно 1740–1960 кг для отдельных заводских исполнений; проверить табличку',
-    engines: [
-      { code: '3RZ-FE', name: '2.7 л бензин, рядный 4-цилиндровый', displacement: '2693 см³', powerHp: '150 PS для отдельных японских исполнений', torqueNm: 'Зависит от года и рынка', valves: '16V DOHC', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Атмосферная конструкция'], weaknesses: ['Мощность и калибровки различаются по рынкам'] },
-      { code: '5VZ-FE', name: '3.4 л бензин V6', displacement: '3378 см³', powerHp: '185 PS для отдельных японских исполнений', torqueNm: '294 Н·м для отдельных японских исполнений', valves: '24V DOHC V6', fuelSystem: 'EFI', timingDrive: 'Ремень ГРМ; регламент по руководству конкретной версии', strengths: ['Плавная работа V6'], weaknesses: ['Требует соблюдения регламента ременного привода'] },
-      { code: '1KZ-TE', name: '3.0 л турбодизель', displacement: '2982 см³', powerHp: '140 PS для отдельных исполнений с интеркулером', torqueNm: 'Зависит от года и рынка', valves: '8V SOHC турбодизель', fuelSystem: 'Электронно управляемый дизельный впрыск', timingDrive: 'Уточнять по руководству для конкретного рынка', strengths: ['Высокий крутящий момент'], weaknesses: ['Особенно важны исправность охлаждения и корректное обслуживание'] },
-      { code: '1KD-FTV', name: '3.0 л турбодизель D-4D — поздние версии', displacement: '2982 см³', powerHp: 'Зависит от рынка и калибровки', torqueNm: 'Зависит от рынка и калибровки', valves: '16V DOHC турбодизель', fuelSystem: 'Common Rail', timingDrive: 'Уточнять по заводскому руководству', strengths: ['Более современная система впрыска'], weaknesses: ['Не смешивать с характеристиками 1KZ-TE'] }
-    ],
+    engines: [{ code: '5VZ-FE', name: '3.4 л бензиновый V6 DOHC', displacement: '3378 см³', powerHp: '185 PS при 4800 об/мин', torqueNm: '294 Н·м при 3600 об/мин', valves: 'V6 DOHC, 24 клапана', fuelSystem: 'EFI', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Параметры относятся к японской спецификации Prado 90'] },
+      { code: '1KZ-TE', name: '3.0 л турбодизель', displacement: '2982 см³', powerHp: '140 PS при 3600 об/мин', torqueNm: '333 Н·м при 2000 об/мин', valves: 'Рядный 4-цилиндровый SOHC, 8 клапанов', fuelSystem: 'Электронно управляемый дизельный впрыск, турбонаддув и интеркулер', timingDrive: 'Ремень ГРМ', strengths: [], weaknesses: ['Не смешивать с более поздним 1KD-FTV Common Rail'] },
+      { code: '3RZ-FE', name: '2.7 л бензиновый DOHC', displacement: '2693 см³', powerHp: '150 PS для японского Prado 90 с апреля 1997 года', torqueNm: 'Нет подтверждённого значения в использованной заводской сводке', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: ['Не переносить характеристики на другие рынки'] }],
     transmissions: ['МКПП или АКПП — по двигателю и рынку; точный код определить по табличке/VIN'],
     drivetrain: 'Для серии характерен полный привод; схема и блокировки зависят от исполнения.',
     sourceNotes: 'Заводская история Toyota подтверждает поколения, представительные размеры и часть моторной гаммы J90. Короткая и длинная базы имеют разные габариты; карточка показывает ориентир для 5-дверного кузова, а параметры конкретной машины нужно проверять по коду кузова.',
@@ -1378,12 +1412,8 @@ const supplementalModels: JapaneseCarModel[] = [
     lengthMm: 4760, widthMm: 1885, heightMm: 1850, wheelbaseMm: 2790,
     groundClearanceMm: 215, trunkVolumeLiters: 'Зависит от 5/7-местной компоновки и рынка', fuelTankLiters: 87,
     curbWeightKg: 'Примерно 2090–2180 кг для отдельных японских бензиновых исполнений',
-    engines: [
-      { code: '2TR-FE', name: '2.7 л бензин', displacement: '2693 см³', powerHp: 'Зависит от года и рынка; 163 PS для ряда японских исполнений', torqueNm: '246 Н·м для указанного исполнения', valves: '16V DOHC Dual VVT-i на поздних версиях', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Простая атмосферная конфигурация'], weaknesses: ['Динамика зависит от массы и комплектации'] },
-      { code: '1GR-FE', name: '4.0 л бензин V6', displacement: '3955 см³', powerHp: '276 PS для указанной японской версии 2009 года; другие рынки/годы отличаются', torqueNm: 'Зависит от калибровки и года', valves: '24V DOHC V6 Dual VVT-i', fuelSystem: 'EFI', timingDrive: 'Цепь ГРМ', strengths: ['Высокий запас мощности'], weaknesses: ['Расход топлива существенно зависит от условий и версии'] },
-      { code: '1KD-FTV', name: '3.0 л турбодизель D-4D — ранние версии', displacement: '2982 см³', powerHp: 'Зависит от рынка и калибровки', torqueNm: 'Зависит от рынка и калибровки', valves: '16V DOHC турбодизель', fuelSystem: 'Common Rail', timingDrive: 'Ремень ГРМ; интервал по руководству конкретной версии', strengths: ['Высокая тяга на низких оборотах'], weaknesses: ['Необходимо проверять состояние топливной системы и наддува'] },
-      { code: '1GD-FTV', name: '2.8 л турбодизель — поздние версии', displacement: '2755 см³', powerHp: 'Зависит от года и рынка', torqueNm: 'Зависит от калибровки и экологического исполнения', valves: '16V DOHC турбодизель', fuelSystem: 'Common Rail', timingDrive: 'Цепь ГРМ', strengths: ['Более современное дизельное семейство'], weaknesses: ['Системы очистки выхлопа зависят от рынка и года'] }
-    ],
+    engines: [{ code: '2TR-FE', name: '2.7 л бензиновый VVT-i', displacement: '2693 см³', powerHp: '163 PS для японского Prado 150 при запуске в 2009 году', torqueNm: '246 Н·м для японской спецификации запуска', valves: 'Рядный 4-цилиндровый DOHC, 16 клапанов', fuelSystem: 'EFI, VVT-i', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: ['Значения относятся к японской спецификации 2009 года'] },
+      { code: '1GR-FE', name: '4.0 л бензиновый V6 Dual VVT-i', displacement: '3955 см³', powerHp: '276 PS для японской спецификации запуска в 2009 году', torqueNm: '380 Н·м для японской спецификации запуска', valves: 'V6 DOHC, 24 клапана', fuelSystem: 'EFI, Dual VVT-i', timingDrive: 'Цепь ГРМ', strengths: [], weaknesses: ['Значения относятся к японской спецификации 2009 года'] }],
     transmissions: ['МКПП или АКПП; число передач и код агрегата зависят от двигателя, года и рынка. Проверять по VIN/табличке'],
     drivetrain: 'Полный привод; раздаточная коробка, межосевой дифференциал и блокировки зависят от комплектации.',
     sourceNotes: 'Заводские источники подтверждают габариты, базу и представительные двигатели J150, но рынок СНГ объединяет разные поставки. Значения дорожного просвета, массы, баков и моторных характеристик могут отличаться; перед ремонтом сверять точный кузовной код и руководство.',

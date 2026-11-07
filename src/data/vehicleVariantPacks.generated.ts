@@ -26714,5 +26714,3334 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+  },
+  {
+    "id": "batch50-toyota-mr2-sw20-gt-s-1997",
+    "modelId": "toyota-mr2-sw20-gt-s-1997",
+    "generationId": "batch50-toyota-mr2-sw20-gt-s-1997",
+    "market": "Japan",
+    "modelYearFrom": 1997,
+    "modelYearTo": 1999,
+    "bodyCode": "SW20",
+    "bodyStyle": "Купе",
+    "trimOrGrade": "MR2 GT-S (SW20)",
+    "engine": {
+      "code": "3S-GTE",
+      "displacementCc": 1998,
+      "powerHp": 245,
+      "torqueNm": 304,
+      "induction": "turbo"
+    },
+    "engineCode": "3S-GTE",
+    "transmissionType": "MT",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4170,
+      "widthMm": 1695,
+      "heightMm": 1235,
+      "wheelbaseMm": 2400,
+      "groundClearanceMm": 130,
+      "fuelTankLiters": 54
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "MR2 GT-S (SW20) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-MR2/199712/1002263/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota GT-S E-SW20 (1997.12): 4170×1695×1235 мм, база 2400 мм, колея 1470/1450 мм, масса 1270 кг, 3S-GTE 1998 см³, 245 PS/304 Н·м, бак 54 л, 5MT. Заводская карточка также указывает компрессию 8.5 и турбонаддув с интеркулером. Точные размеры шин/дисков, передаточные числа и дворники требуют отдельной проверки по комплектации; не подставлять универсальные значения.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Toyota GT-S E-SW20 (1997.12): 4170×1695×1235 мм, база 2400 мм, колея 1470/1450 мм, масса 1270 кг, 3S-GTE 1998 см³, 245 PS/304 Н·м, бак 54 л, 5MT. Заводская карточка также указывает компрессию 8.5 и турбонаддув с интеркулером. Точные размеры шин/дисков, передаточные числа и дворники требуют отдельной проверки по комплектации; не подставлять универсальные значения."
+  },
+  {
+    "id": "batch50-toyota-starlet-ep91-glanza-v",
+    "modelId": "toyota-starlet-ep91-glanza-v",
+    "generationId": "batch50-toyota-starlet-ep91-glanza-v",
+    "market": "Japan",
+    "modelYearFrom": 1997,
+    "modelYearTo": 1999,
+    "bodyCode": "EP91",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Starlet Glanza V (EP91)",
+    "engine": {
+      "code": "4E-FTE",
+      "displacementCc": 1331,
+      "powerHp": 135,
+      "torqueNm": 156.9,
+      "induction": "turbo"
+    },
+    "engineCode": "4E-FTE",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 3790,
+      "widthMm": 1625,
+      "heightMm": 1400,
+      "wheelbaseMm": 2300,
+      "groundClearanceMm": 145,
+      "fuelTankLiters": 45
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Starlet Glanza V (EP91) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-STARLET/199704/1007056/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota E-EP91 Glanza V (1997.04): 3790×1625×1400 мм, база 2300 мм, колея 1400/1395 мм, масса 920 кг, 4E-FTE 1331 см³, 135 PS/156.9 Н·м. Источник перечисляет 5MT и FF для Glanza V. Бак требует проверки карточки конкретной комплектации; штатные шины/диски, финальная пара и дворники в этой записи не утверждаются.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Toyota E-EP91 Glanza V (1997.04): 3790×1625×1400 мм, база 2300 мм, колея 1400/1395 мм, масса 920 кг, 4E-FTE 1331 см³, 135 PS/156.9 Н·м. Источник перечисляет 5MT и FF для Glanza V. Бак требует проверки карточки конкретной комплектации; штатные шины/диски, финальная пара и дворники в этой записи не утверждаются."
+  },
+  {
+    "id": "batch50-toyota-caldina-st215w-gt-t",
+    "modelId": "toyota-caldina-st215w-gt-t",
+    "generationId": "batch50-toyota-caldina-st215w-gt-t",
+    "market": "Japan",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2002,
+    "bodyCode": "ST215W",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "Caldina GT-T (ST215W)",
+    "engine": {
+      "code": "3S-GTE",
+      "displacementCc": 1998,
+      "powerHp": 260,
+      "torqueNm": 323.6,
+      "induction": "turbo"
+    },
+    "engineCode": "3S-GTE",
+    "transmissionType": "AT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4580,
+      "widthMm": 1720,
+      "heightMm": 1495,
+      "wheelbaseMm": 2580,
+      "groundClearanceMm": 155,
+      "fuelTankLiters": 60
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Caldina GT-T (ST215W) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-CALDINA/199709/1000351/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota E-ST215W GT-T (1997.09): 4580×1720×1495 мм, база 2580 мм, колея 1480/1450 мм, масса 1480 кг, 3S-GTE 1998 см³, 260 PS/323.6 Н·м, бак 60 л, full-time 4WD, 4AT. Не переносить эти значения на GT-T S-version 2000.01 (другая масса/период). Размеры шин/дисков, финальные пары и дворники требуют проверки для точной комплектации.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Toyota E-ST215W GT-T (1997.09): 4580×1720×1495 мм, база 2580 мм, колея 1480/1450 мм, масса 1480 кг, 3S-GTE 1998 см³, 260 PS/323.6 Н·м, бак 60 л, full-time 4WD, 4AT. Не переносить эти значения на GT-T S-version 2000.01 (другая масса/период). Размеры шин/дисков, финальные пары и дворники требуют проверки для точной комплектации."
+  },
+  {
+    "id": "batch50-toyota-crown-jzs171-athlete-v",
+    "modelId": "toyota-crown-jzs171-athlete-v",
+    "generationId": "batch50-toyota-crown-jzs171-athlete-v",
+    "market": "Japan",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2003,
+    "bodyCode": "JZS171",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Crown Athlete V (JZS171)",
+    "engine": {
+      "code": "1JZ-GTE",
+      "displacementCc": 2491,
+      "powerHp": 280,
+      "torqueNm": 378,
+      "induction": "turbo"
+    },
+    "engineCode": "1JZ-GTE",
+    "transmissionType": "AT",
+    "drivetrain": "RWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4820,
+      "widthMm": 1765,
+      "heightMm": 1455,
+      "wheelbaseMm": 2780,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 70
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Crown Athlete V (JZS171) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-CROWN/200108/1010188/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota GH-JZS171 Athlete V (2001.08): 4820×1765×1455 мм, база 2780 мм, колея 1495/1470 мм, масса 1600 кг, 1JZ-GTE 2491 см³, 280 PS/378 Н·м, бак 70 л. Это данные Athlete V, не обычного Athlete 1JZ-GE. Шины/диски, точная коробка, передаточные числа и дворники требуют отдельной сверки по заводскому коду.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Toyota GH-JZS171 Athlete V (2001.08): 4820×1765×1455 мм, база 2780 мм, колея 1495/1470 мм, масса 1600 кг, 1JZ-GTE 2491 см³, 280 PS/378 Н·м, бак 70 л. Это данные Athlete V, не обычного Athlete 1JZ-GE. Шины/диски, точная коробка, передаточные числа и дворники требуют отдельной сверки по заводскому коду."
+  },
+  {
+    "id": "batch50-toyota-crown-estate-jzs171w-athlete-v",
+    "modelId": "toyota-crown-estate-jzs171w-athlete-v",
+    "generationId": "batch50-toyota-crown-estate-jzs171w-athlete-v",
+    "market": "Japan",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2003,
+    "bodyCode": "JZS171W",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "Crown Estate Athlete V (JZS171W)",
+    "engine": {
+      "code": "1JZ-GTE",
+      "displacementCc": 2491,
+      "powerHp": 280,
+      "torqueNm": 378,
+      "induction": "turbo"
+    },
+    "engineCode": "1JZ-GTE",
+    "transmissionType": "AT",
+    "drivetrain": "RWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4835,
+      "widthMm": 1765,
+      "heightMm": 1510,
+      "wheelbaseMm": 2780,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 70
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Crown Estate Athlete V (JZS171W) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-CROWN_ESTATE/200108/1010173/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota GH-JZS171W Crown Estate Athlete V (2001.08): 4835×1765×1510 мм, база 2780 мм, колея 1495/1470 мм, масса 1680 кг, 1JZ-GTE 2491 см³, 280 PS/378 Н·м, бак 70 л. Это отдельная запись универсала, не седана. Штатные шины/диски, финальная пара и длины дворников не подтверждены в используемой карточке.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Toyota GH-JZS171W Crown Estate Athlete V (2001.08): 4835×1765×1510 мм, база 2780 мм, колея 1495/1470 мм, масса 1680 кг, 1JZ-GTE 2491 см³, 280 PS/378 Н·м, бак 70 л. Это отдельная запись универсала, не седана. Штатные шины/диски, финальная пара и длины дворников не подтверждены в используемой карточке."
+  },
+  {
+    "id": "batch50-toyota-altezza-sxe10-rs200",
+    "modelId": "toyota-altezza-sxe10-rs200",
+    "generationId": "batch50-toyota-altezza-sxe10-rs200",
+    "market": "Japan",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2005,
+    "bodyCode": "SXE10",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Altezza RS200 (SXE10)",
+    "engine": {
+      "code": "3S-GE",
+      "displacementCc": 1998,
+      "powerHp": 200,
+      "torqueNm": 216
+    },
+    "engineCode": "3S-GE",
+    "drivetrain": "RWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4400,
+      "widthMm": 1720,
+      "heightMm": 1410,
+      "wheelbaseMm": 2670,
+      "groundClearanceMm": 130,
+      "fuelTankLiters": 60
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Altezza RS200 (SXE10) — источник 1",
+        "url": "https://gazoo.com/catalog/maker/TOYOTA/ALTEZZA/199810/1003926/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Заводской Toyota GAZOO RS200 GF-SXE10 (1998.10): 4400×1720×1410 мм, база 2670 мм, колея 1495/1485 мм, масса 1330 кг для 5AT, 3S-GE 200 PS/216 Н·м, бак 60 л, FR, 5AT; главная пара 4.100. У 6MT и Z Edition другие мощность/масса. Шины, диски и длины дворников не включены без отдельного подтверждения для конкретной комплектации.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Altezza RS200 (SXE10) — источник 2",
+        "url": "https://www.toyota.co.jp/jpn/company/history/75years/vehicle_lineage/car/id60000174/index.html",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Заводской Toyota GAZOO RS200 GF-SXE10 (1998.10): 4400×1720×1410 мм, база 2670 мм, колея 1495/1485 мм, масса 1330 кг для 5AT, 3S-GE 200 PS/216 Н·м, бак 60 л, FR, 5AT; главная пара 4.100. У 6MT и Z Edition другие мощность/масса. Шины, диски и длины дворников не включены без отдельного подтверждения для конкретной комплектации.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Заводской Toyota GAZOO RS200 GF-SXE10 (1998.10): 4400×1720×1410 мм, база 2670 мм, колея 1495/1485 мм, масса 1330 кг для 5AT, 3S-GE 200 PS/216 Н·м, бак 60 л, FR, 5AT; главная пара 4.100. У 6MT и Z Edition другие мощность/масса. Шины, диски и длины дворников не включены без отдельного подтверждения для конкретной комплектации."
+  },
+  {
+    "id": "batch50-toyota-aristo-jzs161-v300",
+    "modelId": "toyota-aristo-jzs161-v300",
+    "generationId": "batch50-toyota-aristo-jzs161-v300",
+    "market": "Japan",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2005,
+    "bodyCode": "JZS161",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Aristo V300 (JZS161)",
+    "engine": {
+      "code": "2JZ-GTE",
+      "displacementCc": 2997,
+      "powerHp": 280,
+      "torqueNm": 451,
+      "induction": "turbo"
+    },
+    "engineCode": "2JZ-GTE",
+    "transmissionType": "AT",
+    "drivetrain": "RWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4805,
+      "widthMm": 1800,
+      "heightMm": 1435,
+      "wheelbaseMm": 2800,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 75
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Aristo V300 (JZS161) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-ARISTO/199808/1000838/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota V300 E-JZS161 (1998.08): 4805×1800×1435 мм, база 2800 мм, колея 1535/1515 мм, масса 1680 кг, 2JZ-GTE 2997 см³, 280 PS/451 Н·м, бак 75 л, 4AT, FR. Размеры шин/дисков и дворников не установлены этой карточкой; не подбирать по одному лишь названию кузова.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Aristo V300 (JZS161) — источник 2",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-ARISTO/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota V300 E-JZS161 (1998.08): 4805×1800×1435 мм, база 2800 мм, колея 1535/1515 мм, масса 1680 кг, 2JZ-GTE 2997 см³, 280 PS/451 Н·м, бак 75 л, 4AT, FR. Размеры шин/дисков и дворников не установлены этой карточкой; не подбирать по одному лишь названию кузова.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Toyota V300 E-JZS161 (1998.08): 4805×1800×1435 мм, база 2800 мм, колея 1535/1515 мм, масса 1680 кг, 2JZ-GTE 2997 см³, 280 PS/451 Н·м, бак 75 л, 4AT, FR. Размеры шин/дисков и дворников не установлены этой карточкой; не подбирать по одному лишь названию кузова."
+  },
+  {
+    "id": "batch50-toyota-corolla-levin-ae101-gt-apex",
+    "modelId": "toyota-corolla-levin-ae101-gt-apex",
+    "generationId": "batch50-toyota-corolla-levin-ae101-gt-apex",
+    "market": "Japan",
+    "modelYearFrom": 1991,
+    "modelYearTo": 1995,
+    "bodyCode": "AE101",
+    "bodyStyle": "Купе",
+    "trimOrGrade": "Corolla Levin GT APEX (AE101)",
+    "engine": {
+      "code": "4A-GE",
+      "displacementCc": 1587,
+      "powerHp": 160,
+      "torqueNm": 161.8
+    },
+    "engineCode": "4A-GE",
+    "drivetrain": "FWD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4275,
+      "widthMm": 1695,
+      "heightMm": 1305,
+      "wheelbaseMm": 2465,
+      "groundClearanceMm": 140,
+      "fuelTankLiters": 50
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Corolla Levin GT APEX (AE101) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-COROLLA_LEVIN/199205/10047148/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели."
+  },
+  {
+    "id": "batch50-nissan-skyline-gt-r-bnr34-v-spec-ii",
+    "modelId": "nissan-skyline-gt-r-bnr34-v-spec-ii",
+    "generationId": "batch50-nissan-skyline-gt-r-bnr34-v-spec-ii",
+    "market": "Japan",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2002,
+    "bodyCode": "BNR34",
+    "bodyStyle": "Купе",
+    "trimOrGrade": "Skyline GT-R V·spec II (BNR34)",
+    "engine": {
+      "code": "RB26DETT",
+      "displacementCc": 2568,
+      "powerHp": 280,
+      "torqueNm": 392,
+      "induction": "turbo"
+    },
+    "engineCode": "RB26DETT",
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4600,
+      "widthMm": 1780,
+      "heightMm": 1360,
+      "wheelbaseMm": 2665,
+      "groundClearanceMm": 140,
+      "fuelTankLiters": 65,
+      "curbWeightKg": 1560
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Skyline GT-R V·spec II (BNR34) — источник 1",
+        "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/280_skyline_gt-r_v-spec_ii.html",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Заводская дорожная V·spec II BNR34: 4600×1780×1360 мм, база 2665 мм, масса 1560 кг, RB26DETT 2568 см³, 280 PS/392 Н·м, шины 245/40ZR18. Источник Nissan указывает активный LSD для V·spec; конкретные диски и длины дворников не подтверждены в этой записи.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Заводская дорожная V·spec II BNR34: 4600×1780×1360 мм, база 2665 мм, масса 1560 кг, RB26DETT 2568 см³, 280 PS/392 Н·м, шины 245/40ZR18. Источник Nissan указывает активный LSD для V·spec; конкретные диски и длины дворников не подтверждены в этой записи."
+  },
+  {
+    "id": "batch50-nissan-skyline-gt-r-bnr34-m-spec-nur",
+    "modelId": "nissan-skyline-gt-r-bnr34-m-spec-nur",
+    "generationId": "batch50-nissan-skyline-gt-r-bnr34-m-spec-nur",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2002,
+    "bodyCode": "BNR34",
+    "bodyStyle": "Купе",
+    "trimOrGrade": "Skyline GT-R M·spec Nür (BNR34)",
+    "engine": {
+      "code": "RB26DETT",
+      "displacementCc": 2568,
+      "powerHp": 280,
+      "torqueNm": 392,
+      "induction": "turbo"
+    },
+    "engineCode": "RB26DETT",
+    "transmissionType": "MT",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4600,
+      "widthMm": 1780,
+      "heightMm": 1360,
+      "wheelbaseMm": 2665,
+      "groundClearanceMm": 140,
+      "fuelTankLiters": 65,
+      "curbWeightKg": 1580
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Skyline GT-R M·spec Nür (BNR34) — источник 1",
+        "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/306_skyline_gt-r_m-spec_nur.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Nissan указывает для M·spec Nür: 4600×1780×1360 мм, база 2665 мм, масса 1580 кг, RB26DETT 2568 см³, 280 PS/392 Н·м, шины 245/40ZR18. Точные диски, передаточные числа и дворники не подтверждены этой карточкой.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Nissan указывает для M·spec Nür: 4600×1780×1360 мм, база 2665 мм, масса 1580 кг, RB26DETT 2568 см³, 280 PS/392 Н·м, шины 245/40ZR18. Точные диски, передаточные числа и дворники не подтверждены этой карточкой."
+  },
+  {
+    "id": "batch50-toyota-corolla-fielder-e140-wagon",
+    "modelId": "toyota-corolla-fielder-e140-wagon",
+    "generationId": "batch50-toyota-corolla-fielder-e140-wagon",
+    "market": "Japan",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2012,
+    "bodyCode": "E140",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "Corolla Fielder (E140)",
+    "engine": {
+      "code": "1NZ-FE",
+      "displacementCc": 1496,
+      "powerHp": 110,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1NZ-FE",
+    "drivetrain": "4WD",
+    "steeringPosition": "RHD",
+    "dimensions": {
+      "lengthMm": 4420,
+      "widthMm": 1695,
+      "heightMm": 1480,
+      "wheelbaseMm": 2600,
+      "groundClearanceMm": 155,
+      "fuelTankLiters": 50
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Corolla Fielder (E140) — источник 1",
+        "url": "https://global.toyota/en/detail/271959",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Кузов универсал выделен отдельно от седана. Уточнить габариты и агрегаты по номеру кузова перед ремонтом.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Corolla Fielder (E140) — источник 2",
+        "url": "https://www.drom.ru/catalog/toyota/corolla_fielder/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Кузов универсал выделен отдельно от седана. Уточнить габариты и агрегаты по номеру кузова перед ремонтом.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Corolla Fielder (E140) — источник 3",
+        "url": "https://cars-japan.net/engine/yea00100162009.html",
+        "sourceType": "secondary-reference",
+        "market": "Japan",
+        "scope": "Кузов универсал выделен отдельно от седана. Уточнить габариты и агрегаты по номеру кузова перед ремонтом.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Кузов универсал выделен отдельно от седана. Уточнить габариты и агрегаты по номеру кузова перед ремонтом."
+  },
+  {
+    "id": "batch50-honda-civic-fd-sedan",
+    "modelId": "honda-civic-fd-sedan",
+    "generationId": "batch50-honda-civic-fd-sedan",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2011,
+    "bodyCode": "FD",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Civic VIII (FD)",
+    "engine": {
+      "code": "R18A",
+      "displacementCc": 1799,
+      "powerHp": 140,
+      "torqueNm": 174
+    },
+    "engineCode": "R18A",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4540,
+      "widthMm": 1750,
+      "heightMm": 1435,
+      "wheelbaseMm": 2700,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 50
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Civic VIII (FD) — источник 1",
+        "url": "https://www.honda.co.jp/factbook/auto/CIVIC/200509/26.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Данные ограничены японским Civic FD1 1.8 2005 года по заводскому FACT BOOK Honda: длина 4540 мм, ширина 1750 мм, высота 1435/1440 мм в зависимости от версии, база 2700 мм, клиренс 150 мм, бак 50 л, двигатель R18A 1799 см³. Перед ремонтом сверять точный код модели и комплектацию.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Civic VIII (FD) — источник 2",
+        "url": "https://www.honda.co.jp/auto-archive/civic/4door/2007/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Данные ограничены японским Civic FD1 1.8 2005 года по заводскому FACT BOOK Honda: длина 4540 мм, ширина 1750 мм, высота 1435/1440 мм в зависимости от версии, база 2700 мм, клиренс 150 мм, бак 50 л, двигатель R18A 1799 см³. Перед ремонтом сверять точный код модели и комплектацию.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Данные ограничены японским Civic FD1 1.8 2005 года по заводскому FACT BOOK Honda: длина 4540 мм, ширина 1750 мм, высота 1435/1440 мм в зависимости от версии, база 2700 мм, клиренс 150 мм, бак 50 л, двигатель R18A 1799 см³. Перед ремонтом сверять точный код модели и комплектацию."
+  },
+  {
+    "id": "batch50-nissan-note-e11-hatchback",
+    "modelId": "nissan-note-e11-hatchback",
+    "generationId": "batch50-nissan-note-e11-hatchback",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2013,
+    "bodyCode": "E11",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Note (E11)",
+    "engine": {
+      "code": "CR14DE",
+      "displacementCc": 1386,
+      "powerHp": 98,
+      "torqueNm": 137,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "CR14DE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3730,
+      "widthMm": 1670,
+      "heightMm": 1640,
+      "wheelbaseMm": 2430
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Note (E11) — источник 1",
+        "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/479_note_2wd_15s.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Заменены ранее смешанные ориентировочные параметры на характеристики одной заводской версии Nissan Note 2WD 15S 2005 года: 3730×1670×1640 мм, база 2430 мм, масса 1070 кг, CR14DE 1386 см³, 98 PS/137 Н·м. Ёмкость бака, клиренс, трансмиссия и сервисные параметры оставлены неподтверждёнными.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Заменены ранее смешанные ориентировочные параметры на характеристики одной заводской версии Nissan Note 2WD 15S 2005 года: 3730×1670×1640 мм, база 2430 мм, масса 1070 кг, CR14DE 1386 см³, 98 PS/137 Н·м. Ёмкость бака, клиренс, трансмиссия и сервисные параметры оставлены неподтверждёнными."
+  },
+  {
+    "id": "batch50-mitsubishi-lancer-cs-wagon",
+    "modelId": "mitsubishi-lancer-cs-wagon",
+    "generationId": "batch50-mitsubishi-lancer-cs-wagon",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2008,
+    "bodyCode": "CS",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "Lancer IX Wagon (CS)",
+    "engine": {
+      "code": "4G18",
+      "displacementCc": 1584,
+      "powerHp": 98,
+      "torqueNm": 3,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "4G18",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4485,
+      "widthMm": 1695,
+      "heightMm": 1465,
+      "wheelbaseMm": 2600,
+      "groundClearanceMm": 155,
+      "fuelTankLiters": 50
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Lancer IX Wagon (CS) — источник 1",
+        "url": "https://zinref.ru/avtomobili/Mitsubishi/201_010_00_Mitsubishi_Lancer_2006_year_manual_english/001.htm",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Lancer IX Wagon (CS) — источник 2",
+        "url": "https://www.drom.ru/catalog/mitsubishi/lancer/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Lancer IX Wagon (CS) — источник 3",
+        "url": "https://www.gspglobal.com/SITEDATA/DATA/article/20250213/GSP%20ENGINE%20MOUNTING%20CATALOGUE%202025.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки."
+  },
+  {
+    "id": "batch50-mitsubishi-pajero-io-h76-suv",
+    "modelId": "mitsubishi-pajero-io-h76-suv",
+    "generationId": "batch50-mitsubishi-pajero-io-h76-suv",
+    "market": "не указан в источнике",
+    "modelYearFrom": 1998,
+    "modelYearTo": 2007,
+    "bodyCode": "H6",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "Pajero iO / Pinin (H6/H7)",
+    "engine": {
+      "code": "4G93",
+      "displacementCc": 1834,
+      "powerHp": 116,
+      "torqueNm": 160,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "4G93",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3975,
+      "widthMm": 1680,
+      "heightMm": 1700,
+      "wheelbaseMm": 2450,
+      "groundClearanceMm": 200,
+      "fuelTankLiters": 53
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Pajero iO / Pinin (H6/H7) — источник 1",
+        "url": "https://cars-japan.net/engine/mdl0040035.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Pajero iO/Pinin имеет отличия по рынкам и типу 4WD. Сервисные спецификации уточнять по номеру кузова.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Pajero iO/Pinin имеет отличия по рынкам и типу 4WD. Сервисные спецификации уточнять по номеру кузова."
+  },
+  {
+    "id": "batch50-toyota-camry-xv40-sedan",
+    "modelId": "toyota-camry-xv40-sedan",
+    "generationId": "batch50-toyota-camry-xv40-sedan",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2011,
+    "bodyCode": "XV40",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Camry (XV40)",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 167,
+      "torqueNm": 224,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "2AZ-FE",
+    "transmissionType": "AT",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4815,
+      "widthMm": 1820,
+      "heightMm": 1480,
+      "wheelbaseMm": 2775,
+      "groundClearanceMm": 155,
+      "fuelTankLiters": 70
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Camry (XV40) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-CAMRY/200601/10032258/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "XV40 для разных рынков имеет разные двигатели и системы. Точные заправочные объёмы брать из руководства соответствующего рынка.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Camry (XV40) — источник 2",
+        "url": "https://global.toyota/en/newsroom/corporate/25616832.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "XV40 для разных рынков имеет разные двигатели и системы. Точные заправочные объёмы брать из руководства соответствующего рынка.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "XV40 для разных рынков имеет разные двигатели и системы. Точные заправочные объёмы брать из руководства соответствующего рынка."
+  },
+  {
+    "id": "batch50-toyota-prado-j120-suv",
+    "modelId": "toyota-prado-j120-suv",
+    "generationId": "batch50-toyota-prado-j120-suv",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2009,
+    "bodyCode": "J120",
+    "bodyStyle": "SUV",
+    "trimOrGrade": "Land Cruiser Prado (J120)",
+    "engine": {
+      "code": "1GR-FE",
+      "displacementCc": 3956,
+      "powerHp": 249,
+      "torqueNm": 380,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1GR-FE",
+    "drivetrain": "4WD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4715,
+      "widthMm": 1875,
+      "heightMm": 1870,
+      "wheelbaseMm": 2790,
+      "groundClearanceMm": 220,
+      "fuelTankLiters": 87
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Land Cruiser Prado (J120) — источник 1",
+        "url": "https://www.jdmbuysell.com/learn/toyota/land-cruiser-prado/j120/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "J120 включает несколько двигателей и рынков. Не переносить параметры J150 или Hilux; сверять код кузова и агрегатов.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Land Cruiser Prado (J120) — источник 2",
+        "url": "https://toyota.dreamhosters.com/pages/land_cruiser_prado/spec.php/86/spec.php",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "J120 включает несколько двигателей и рынков. Не переносить параметры J150 или Hilux; сверять код кузова и агрегатов.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "J120 включает несколько двигателей и рынков. Не переносить параметры J150 или Hilux; сверять код кузова и агрегатов."
+  },
+  {
+    "id": "batch50-toyota-yaris-xp90-hatchback",
+    "modelId": "toyota-yaris-xp90-hatchback",
+    "generationId": "batch50-toyota-yaris-xp90-hatchback",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2011,
+    "bodyCode": "XP90",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Yaris / Vitz (XP90)",
+    "engine": {
+      "code": "1KR-FE",
+      "displacementCc": 996,
+      "powerHp": 71,
+      "torqueNm": 94,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1KR-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3750,
+      "widthMm": 1695,
+      "heightMm": 1530,
+      "wheelbaseMm": 2460,
+      "groundClearanceMm": 145,
+      "fuelTankLiters": 42
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Yaris / Vitz (XP90) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-VITZ/200502/10026141/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "XP90 включает несколько кузовов и рынков; точные размеры, лампы и жидкости требуют конкретного кода кузова.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Yaris / Vitz (XP90) — источник 2",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-VITZ/200512/10031302/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "XP90 включает несколько кузовов и рынков; точные размеры, лампы и жидкости требуют конкретного кода кузова.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Yaris / Vitz (XP90) — источник 3",
+        "url": "https://jikiu.jp/catalogue/application?body%5B%5D=XP90+-+NCP91L&brand_id=88&eng_no%5B%5D=1NZ-FE&engine%5B%5D=1500&model_id%5B%5D=2623&product_id=328603",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "XP90 включает несколько кузовов и рынков; точные размеры, лампы и жидкости требуют конкретного кода кузова.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "XP90 включает несколько кузовов и рынков; точные размеры, лампы и жидкости требуют конкретного кода кузова."
+  },
+  {
+    "id": "batch50-toyota-rav4-xa30-crossover",
+    "modelId": "toyota-rav4-xa30-crossover",
+    "generationId": "batch50-toyota-rav4-xa30-crossover",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2012,
+    "bodyCode": "XA30",
+    "bodyStyle": "Кроссовер",
+    "trimOrGrade": "RAV4 (XA30)",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 170,
+      "torqueNm": 224,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "2AZ-FE",
+    "drivetrain": "AWD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4600,
+      "widthMm": 1855,
+      "heightMm": 1685,
+      "wheelbaseMm": 2660,
+      "groundClearanceMm": 190,
+      "fuelTankLiters": 60
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "RAV4 (XA30) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-RAV4/200608/10035421/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "XA30 включает разные силовые агрегаты. Жидкость АКПП/CVT и редукторов не подбирать по одному названию модели.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "RAV4 (XA30) — источник 2",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-RAV4/200809/10050289/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "XA30 включает разные силовые агрегаты. Жидкость АКПП/CVT и редукторов не подбирать по одному названию модели.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "XA30 включает разные силовые агрегаты. Жидкость АКПП/CVT и редукторов не подбирать по одному названию модели."
+  },
+  {
+    "id": "batch50-toyota-hilux-an120-pickup",
+    "modelId": "toyota-hilux-an120-pickup",
+    "generationId": "batch50-toyota-hilux-an120-pickup",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2015,
+    "modelYearTo": 2025,
+    "bodyCode": "AN120",
+    "bodyStyle": "Пикап",
+    "trimOrGrade": "Hilux (AN120/AN130)",
+    "engine": {
+      "code": "2GD-FTV",
+      "displacementCc": 2393,
+      "powerHp": 150,
+      "torqueNm": 400,
+      "fuelType": "diesel",
+      "induction": "turbo"
+    },
+    "engineCode": "2GD-FTV",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 5330,
+      "widthMm": 1855,
+      "heightMm": 1815,
+      "wheelbaseMm": 3085,
+      "groundClearanceMm": 279,
+      "fuelTankLiters": 80
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Hilux (AN120/AN130) — источник 1",
+        "url": "https://global.toyota/en/detail/8348091",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Hilux сильно отличается по региону, двигателю и кабине. Масла мостов/раздатки выбирать по коду агрегата.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Hilux (AN120/AN130) — источник 2",
+        "url": "https://www.toyota.co.uk/content/dam/toyota/nmsc/united-kingdom/brochure-downloads/hilux-march.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Hilux сильно отличается по региону, двигателю и кабине. Масла мостов/раздатки выбирать по коду агрегата.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Hilux сильно отличается по региону, двигателю и кабине. Масла мостов/раздатки выбирать по коду агрегата."
+  },
+  {
+    "id": "batch50-toyota-yaris-xp10",
+    "modelId": "toyota-yaris-xp10",
+    "generationId": "batch50-toyota-yaris-xp10",
+    "market": "не указан в источнике",
+    "modelYearFrom": 1999,
+    "modelYearTo": 2005,
+    "bodyCode": "XP10",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Yaris / Vitz (XP10)",
+    "engine": {
+      "code": "1SZ-FE",
+      "displacementCc": 997,
+      "powerHp": 70,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1SZ-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3610,
+      "widthMm": 1660,
+      "heightMm": 1500,
+      "wheelbaseMm": 2370,
+      "groundClearanceMm": 145,
+      "fuelTankLiters": 45
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Yaris / Vitz (XP10) — источник 1",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60007881/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-toyota-yaris-xp90",
+    "modelId": "toyota-yaris-xp90",
+    "generationId": "batch50-toyota-yaris-xp90",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2011,
+    "bodyCode": "XP90",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Yaris / Vitz (XP90)",
+    "engine": {
+      "code": "1KR-FE",
+      "displacementCc": 996,
+      "powerHp": 71,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1KR-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3785,
+      "widthMm": 1695,
+      "heightMm": 1530,
+      "wheelbaseMm": 2460,
+      "groundClearanceMm": 145,
+      "fuelTankLiters": 42
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Yaris / Vitz (XP90) — источник 1",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60007906/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-toyota-yaris-xp130",
+    "modelId": "toyota-yaris-xp130",
+    "generationId": "batch50-toyota-yaris-xp130",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2020,
+    "bodyCode": "XP130",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Yaris / Vitz (XP130)",
+    "engine": {
+      "code": "1KR-FE",
+      "displacementCc": 996,
+      "powerHp": 69,
+      "torqueNm": 92,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1KR-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3885,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2510,
+      "groundClearanceMm": 135,
+      "fuelTankLiters": 42
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Yaris / Vitz (XP130) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-VITZ/201701/10108204/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Yaris / Vitz (XP130) — источник 2",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-VITZ/201701/10108197/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-toyota-prius-xw10",
+    "modelId": "toyota-prius-xw10",
+    "generationId": "batch50-toyota-prius-xw10",
+    "market": "не указан в источнике",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2003,
+    "bodyCode": "XW10",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Prius (XW10)",
+    "engine": {
+      "code": "1NZ-FXE",
+      "displacementCc": 1496,
+      "powerHp": 58,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1NZ-FXE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4275,
+      "widthMm": 1695,
+      "heightMm": 1490,
+      "wheelbaseMm": 2550
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Prius (XW10) — источник 1",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60012360/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Размеры, масса и двигатель взяты из Toyota Global Vehicle Lineage для представительной японской NHW10. Мощность указана для ДВС, а не системы в целом. Бак, клиренс, сервисные жидкости и момент не заполнены без подтверждения для точной комплектации.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Размеры, масса и двигатель взяты из Toyota Global Vehicle Lineage для представительной японской NHW10. Мощность указана для ДВС, а не системы в целом. Бак, клиренс, сервисные жидкости и момент не заполнены без подтверждения для точной комплектации."
+  },
+  {
+    "id": "batch50-toyota-prius-xw50",
+    "modelId": "toyota-prius-xw50",
+    "generationId": "batch50-toyota-prius-xw50",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2015,
+    "modelYearTo": 2022,
+    "bodyCode": "XW50",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Prius (XW50)",
+    "engine": {
+      "code": "2ZR-FXE",
+      "displacementCc": 1797,
+      "powerHp": 98,
+      "torqueNm": 142,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "2ZR-FXE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4540,
+      "widthMm": 1760,
+      "heightMm": 1470,
+      "wheelbaseMm": 2700,
+      "groundClearanceMm": 135,
+      "fuelTankLiters": 43
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Prius (XW50) — источник 1",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-PRIUS/201512/10101053/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Prius (XW50) — источник 2",
+        "url": "https://global.toyota/en/newsroom/toyota/22676198.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-toyota-estima-xr50",
+    "modelId": "toyota-estima-xr50",
+    "generationId": "batch50-toyota-estima-xr50",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2019,
+    "bodyCode": "XR50",
+    "bodyStyle": "Минивэн",
+    "trimOrGrade": "Estima (XR50)",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 170,
+      "torqueNm": 224,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "2AZ-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4795,
+      "widthMm": 1800,
+      "heightMm": 1730,
+      "wheelbaseMm": 2950,
+      "groundClearanceMm": 160,
+      "fuelTankLiters": 65
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Estima (XR50) — источник 1",
+        "url": "https://global.toyota/en/detail/268764",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Estima (XR50) — источник 2",
+        "url": "https://www.toyota.co.jp/jpn/company/history/75years/vehicle_lineage/car/id60000619/index.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-nissan-skyline-v35",
+    "modelId": "nissan-skyline-v35",
+    "generationId": "batch50-nissan-skyline-v35",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2007,
+    "bodyCode": "V35",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Skyline (V35)",
+    "engine": {
+      "code": "VQ25DD",
+      "displacementCc": 2495,
+      "powerHp": 215,
+      "torqueNm": 270
+    },
+    "engineCode": "VQ25DD",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4675,
+      "widthMm": 1750,
+      "heightMm": 1470,
+      "wheelbaseMm": 2850,
+      "groundClearanceMm": 140,
+      "fuelTankLiters": 80
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Skyline (V35) — источник 1",
+        "url": "https://history.nissan.co.jp/SKYLINE/V35/0201/DATA/SPEC/ensyogen.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Skyline (V35) — источник 2",
+        "url": "https://www.nissan.co.jp/HERITAGE/DETAIL/208.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-nissan-skyline-v36",
+    "modelId": "nissan-skyline-v36",
+    "generationId": "batch50-nissan-skyline-v36",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2014,
+    "bodyCode": "V36",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Skyline (V36)",
+    "engine": {
+      "code": "VQ25HR",
+      "displacementCc": 2495,
+      "powerHp": 225,
+      "torqueNm": 258
+    },
+    "engineCode": "VQ25HR",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4755,
+      "widthMm": 1770,
+      "heightMm": 1450,
+      "wheelbaseMm": 2850,
+      "groundClearanceMm": 130,
+      "fuelTankLiters": 80
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Skyline (V36) — источник 1",
+        "url": "https://history.nissan.co.jp/SKYLINE/V36/1001/PDF/skyline_specification.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Skyline (V36) — источник 2",
+        "url": "https://history.nissan.co.jp/SKYLINE/V36/1001/performance.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-nissan-march-k12",
+    "modelId": "nissan-march-k12",
+    "generationId": "batch50-nissan-march-k12",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2010,
+    "bodyCode": "K12",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "March / Micra (K12)",
+    "engine": {
+      "code": "CR12DE",
+      "displacementCc": 1240,
+      "powerHp": 90,
+      "torqueNm": 121
+    },
+    "engineCode": "CR12DE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3725,
+      "widthMm": 1660,
+      "heightMm": 1525,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 135,
+      "fuelTankLiters": 41
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "March / Micra (K12) — источник 1",
+        "url": "https://history.nissan.co.jp/MARCH/K12/0508/GRADE/main3.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-honda-fit-gd",
+    "modelId": "honda-fit-gd",
+    "generationId": "batch50-honda-fit-gd",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2008,
+    "bodyCode": "GD",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Fit / Jazz (GD)",
+    "engine": {
+      "code": "L13A",
+      "displacementCc": 1339,
+      "powerHp": 86,
+      "torqueNm": 119
+    },
+    "engineCode": "L13A",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3830,
+      "widthMm": 1675,
+      "heightMm": 1525,
+      "wheelbaseMm": 2450,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 42
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Fit / Jazz (GD) — источник 1",
+        "url": "https://www.honda.co.jp/factbook/auto/fit/200106/17.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Fit / Jazz (GD) — источник 2",
+        "url": "https://www.honda.co.jp/factbook/auto/fit/200106/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-mazda-demio-dy",
+    "modelId": "mazda-demio-dy",
+    "generationId": "batch50-mazda-demio-dy",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2002,
+    "modelYearTo": 2007,
+    "bodyCode": "DY",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Demio / Mazda2 (DY)",
+    "engine": {
+      "code": "ZJ-VE",
+      "displacementCc": 1348,
+      "powerHp": 91,
+      "torqueNm": 124
+    },
+    "engineCode": "ZJ-VE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3925,
+      "widthMm": 1680,
+      "heightMm": 1530,
+      "wheelbaseMm": 2490,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 45
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Demio / Mazda2 (DY) — источник 1",
+        "url": "https://newsroom.mazda.com/en/publicity/release/2002/200208/0807e.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-mazda-demio-de",
+    "modelId": "mazda-demio-de",
+    "generationId": "batch50-mazda-demio-de",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2014,
+    "bodyCode": "DE",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Demio / Mazda2 (DE)",
+    "engine": {
+      "code": "ZJ-VE",
+      "displacementCc": 1348,
+      "powerHp": 91,
+      "torqueNm": 124
+    },
+    "engineCode": "ZJ-VE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3885,
+      "widthMm": 1695,
+      "heightMm": 1475,
+      "wheelbaseMm": 2490,
+      "groundClearanceMm": 155,
+      "fuelTankLiters": 41
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Demio / Mazda2 (DE) — источник 1",
+        "url": "https://newsroom.mazda.com/en/publicity/release/2007/200707/070705.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Demio / Mazda2 (DE) — источник 2",
+        "url": "https://newsroom.mazda.com/en/publicity/release/2008/200807/080714a.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-subaru-legacy-bp",
+    "modelId": "subaru-legacy-bp",
+    "generationId": "batch50-subaru-legacy-bp",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2003,
+    "modelYearTo": 2009,
+    "bodyCode": "BP",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "Legacy (BP/BL)",
+    "engine": {
+      "code": "EJ204",
+      "displacementCc": 1994,
+      "powerHp": 190,
+      "torqueNm": 196
+    },
+    "engineCode": "EJ204",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4680,
+      "widthMm": 1730,
+      "heightMm": 1475,
+      "wheelbaseMm": 2670,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 64
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Legacy (BP/BL) — источник 1",
+        "url": "https://www.subaru.co.jp/en/news/archives/press/2003/03_05_23.htm",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Legacy (BP/BL) — источник 2",
+        "url": "https://gazoo.com/catalog/maker/SUBARU/LEGACY_TOURING_WAGON/200305/10020950/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Legacy (BP/BL) — источник 3",
+        "url": "https://www.legacypic.uk/car/specs.php?id=290",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-subaru-legacy-bmbr",
+    "modelId": "subaru-legacy-bmbr",
+    "generationId": "batch50-subaru-legacy-bmbr",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2014,
+    "bodyCode": "BM",
+    "bodyStyle": "Универсал",
+    "trimOrGrade": "Legacy (BM/BR)",
+    "engine": {
+      "code": "EJ253",
+      "displacementCc": 2457,
+      "powerHp": 170,
+      "torqueNm": 229
+    },
+    "engineCode": "EJ253",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4790,
+      "widthMm": 1780,
+      "heightMm": 1535,
+      "wheelbaseMm": 2750,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 65
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Legacy (BM/BR) — источник 1",
+        "url": "https://www.subaru.co.jp/en/news/archives/press/2009/09_05_20e.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Legacy (BM/BR) — источник 2",
+        "url": "https://gazoo.com/catalog/maker/SUBARU/LEGACY_B4/200905/10055382/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Legacy (BM/BR) — источник 3",
+        "url": "https://gazoo.com/catalog/maker/SUBARU/LEGACY_B4/200905/10055387/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-suzuki-swift-zc72",
+    "modelId": "suzuki-swift-zc72",
+    "generationId": "batch50-suzuki-swift-zc72",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2010,
+    "modelYearTo": 2017,
+    "bodyCode": "ZC72",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Swift (ZC72/ZD72)",
+    "engine": {
+      "code": "K12B",
+      "displacementCc": 1242,
+      "powerHp": 91,
+      "torqueNm": 118
+    },
+    "engineCode": "K12B",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3850,
+      "widthMm": 1695,
+      "heightMm": 1510,
+      "wheelbaseMm": 2430,
+      "groundClearanceMm": 145,
+      "fuelTankLiters": 42
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Swift (ZC72/ZD72) — источник 1",
+        "url": "https://www.suzuki.co.jp/suzuki_digital_library/1_auto/swift.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Swift (ZC72/ZD72) — источник 2",
+        "url": "https://www.suzuki.co.jp/about/csr/report/pdf/2012_envj_all.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Swift (ZC72/ZD72) — источник 3",
+        "url": "https://www.mlit.go.jp/jidosha/anzen/02assessment/car_h22/suzuki/swift.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+  },
+  {
+    "id": "batch50-suzuki-alto-ha25",
+    "modelId": "suzuki-alto-ha25",
+    "generationId": "batch50-suzuki-alto-ha25",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2009,
+    "modelYearTo": 2014,
+    "bodyCode": "HA25",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Alto (HA25)",
+    "engine": {
+      "code": "K6A",
+      "displacementCc": 658,
+      "powerHp": 54,
+      "torqueNm": 63,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "K6A",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3395,
+      "widthMm": 1475,
+      "heightMm": 1535,
+      "wheelbaseMm": 2400,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 30
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Alto (HA25) — источник 1",
+        "url": "https://www.suzuki.co.jp/suzuki_digital_library/1_auto/alto.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Подтверждён японский Alto HA25S с K6A: 658 см³, 54 PS и 63 Н·м. В поздних версиях семейства встречается R06A; его параметры здесь не объединяются с K6A. Коробка и привод зависят от комплектации.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Alto (HA25) — источник 2",
+        "url": "https://gazoo.com/catalog/maker/SUZUKI/ALTO/200912/10088616/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Подтверждён японский Alto HA25S с K6A: 658 см³, 54 PS и 63 Н·м. В поздних версиях семейства встречается R06A; его параметры здесь не объединяются с K6A. Коробка и привод зависят от комплектации.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Подтверждён японский Alto HA25S с K6A: 658 см³, 54 PS и 63 Н·м. В поздних версиях семейства встречается R06A; его параметры здесь не объединяются с K6A. Коробка и привод зависят от комплектации."
+  },
+  {
+    "id": "batch50-daihatsu-mira-l275",
+    "modelId": "daihatsu-mira-l275",
+    "generationId": "batch50-daihatsu-mira-l275",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2018,
+    "bodyCode": "L275",
+    "bodyStyle": "Хэтчбек",
+    "trimOrGrade": "Mira (L275)",
+    "engine": {
+      "code": "KF-VE",
+      "displacementCc": 658,
+      "powerHp": 58,
+      "torqueNm": 65,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "KF-VE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 3395,
+      "widthMm": 1475,
+      "heightMm": 1530,
+      "wheelbaseMm": 2490,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 36
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Mira (L275) — источник 1",
+        "url": "https://www.drom.ru/catalog/daihatsu/mira/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Для японской Mira L275 подтверждены KF-VE 658 см³ (58 PS/65 Н·м) и KF-DET (64 PS/103 Н·м) в отдельных комплектациях. Не переносить KF-DET на обычные L275S; привод и коробка различаются.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Mira (L275) — источник 2",
+        "url": "https://www.drom.ru/catalog/daihatsu/mira/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Для японской Mira L275 подтверждены KF-VE 658 см³ (58 PS/65 Н·м) и KF-DET (64 PS/103 Н·м) в отдельных комплектациях. Не переносить KF-DET на обычные L275S; привод и коробка различаются.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Mira (L275) — источник 3",
+        "url": "https://u-catch.daihatsu.co.jp/catalog/MIRA/GRADE__10052655/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Для японской Mira L275 подтверждены KF-VE 658 см³ (58 PS/65 Н·м) и KF-DET (64 PS/103 Н·м) в отдельных комплектациях. Не переносить KF-DET на обычные L275S; привод и коробка различаются.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Для японской Mira L275 подтверждены KF-VE 658 см³ (58 PS/65 Н·м) и KF-DET (64 PS/103 Н·м) в отдельных комплектациях. Не переносить KF-DET на обычные L275S; привод и коробка различаются."
+  },
+  {
+    "id": "batch50-lexus-ls-xf30",
+    "modelId": "lexus-ls-xf30",
+    "generationId": "batch50-lexus-ls-xf30",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2006,
+    "bodyCode": "XF30",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "LS (XF30)",
+    "engine": {
+      "code": "3UZ-FE",
+      "displacementCc": 4293,
+      "powerHp": 278,
+      "torqueNm": 417,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "3UZ-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4995,
+      "widthMm": 1830,
+      "heightMm": 1490,
+      "wheelbaseMm": 2925,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 84
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "LS (XF30) — источник 1",
+        "url": "https://media.lexus.co.uk/the-new-lexus-ls430-the-advance-to-automotive-perfection/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Для Lexus LS 430 (UCF30/XF30) подтверждён 3UZ-FE 4293 см³ V8. Lexus UK указывает 281 DIN hp и 417 Н·м; американская спецификация 2006 года использует SAE hp. Не смешивать показатели рынков.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "LS (XF30) — источник 2",
+        "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/Gen3-LS-launch-pack-2000.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Для Lexus LS 430 (UCF30/XF30) подтверждён 3UZ-FE 4293 см³ V8. Lexus UK указывает 281 DIN hp и 417 Н·м; американская спецификация 2006 года использует SAE hp. Не смешивать показатели рынков.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Для Lexus LS 430 (UCF30/XF30) подтверждён 3UZ-FE 4293 см³ V8. Lexus UK указывает 281 DIN hp и 417 Н·м; американская спецификация 2006 года использует SAE hp. Не смешивать показатели рынков."
+  },
+  {
+    "id": "batch50-toyota-corolla-e100",
+    "modelId": "toyota-corolla-e100",
+    "generationId": "batch50-toyota-corolla-e100",
+    "market": "не указан в источнике",
+    "modelYearFrom": 1991,
+    "modelYearTo": 1998,
+    "bodyCode": "E100",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Corolla (E100)",
+    "engine": {
+      "code": "4A-FE",
+      "displacementCc": 1587,
+      "powerHp": 115,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "4A-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4270,
+      "widthMm": 1685,
+      "heightMm": 1380,
+      "wheelbaseMm": 2465,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 50
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Corolla (E100) — источник 1",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60003908/index.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-toyota-corolla-e120",
+    "modelId": "toyota-corolla-e120",
+    "generationId": "batch50-toyota-corolla-e120",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2007,
+    "bodyCode": "E120",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Corolla (E120/E130)",
+    "engine": {
+      "code": "1NZ-FE",
+      "displacementCc": 1496,
+      "powerHp": 110,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "1NZ-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4390,
+      "widthMm": 1695,
+      "heightMm": 1470,
+      "wheelbaseMm": 2600,
+      "groundClearanceMm": 160,
+      "fuelTankLiters": 50
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Corolla (E120/E130) — источник 1",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60004185A/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-toyota-camry-xv30",
+    "modelId": "toyota-camry-xv30",
+    "generationId": "batch50-toyota-camry-xv30",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2001,
+    "modelYearTo": 2006,
+    "bodyCode": "XV30",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Camry (XV30)",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 159,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "2AZ-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4815,
+      "widthMm": 1795,
+      "heightMm": 1490,
+      "wheelbaseMm": 2720,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 70
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Camry (XV30) — источник 1",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60002178/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-toyota-camry-xv40",
+    "modelId": "toyota-camry-xv40",
+    "generationId": "batch50-toyota-camry-xv40",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2006,
+    "modelYearTo": 2011,
+    "bodyCode": "XV40",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Camry (XV40)",
+    "engine": {
+      "code": "2AZ-FE",
+      "displacementCc": 2362,
+      "powerHp": 167,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "2AZ-FE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4815,
+      "widthMm": 1820,
+      "heightMm": 1480,
+      "wheelbaseMm": 2775,
+      "groundClearanceMm": 160,
+      "fuelTankLiters": 70
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Camry (XV40) — источник 1",
+        "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60002185/index.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Для XV40 подтверждены 2AZ-FE 2.4, 2GR-FE 3.5 и гибридный 2AZ-FXE 2.4. 167 PS относится к японской ACV40; 277 л.с. — к российским версиям 3.5; 148 л.с. у гибрида — мощность ДВС, не системы в целом. Не объединять рынки.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Camry (XV40) — источник 2",
+        "url": "https://www.drom.ru/catalog/toyota/camry/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Для XV40 подтверждены 2AZ-FE 2.4, 2GR-FE 3.5 и гибридный 2AZ-FXE 2.4. 167 PS относится к японской ACV40; 277 л.с. — к российским версиям 3.5; 148 л.с. у гибрида — мощность ДВС, не системы в целом. Не объединять рынки.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Для XV40 подтверждены 2AZ-FE 2.4, 2GR-FE 3.5 и гибридный 2AZ-FXE 2.4. 167 PS относится к японской ACV40; 277 л.с. — к российским версиям 3.5; 148 л.с. у гибрида — мощность ДВС, не системы в целом. Не объединять рынки."
+  },
+  {
+    "id": "batch50-toyota-hilux-n50",
+    "modelId": "toyota-hilux-n50",
+    "generationId": "batch50-toyota-hilux-n50",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2004,
+    "modelYearTo": 2015,
+    "bodyCode": "N50",
+    "bodyStyle": "Пикап",
+    "trimOrGrade": "Hilux (N50/N60/N70)",
+    "engine": {
+      "code": "2KD-FTV",
+      "displacementCc": 2494,
+      "powerHp": 102,
+      "torqueNm": 260,
+      "fuelType": "diesel",
+      "induction": "turbo"
+    },
+    "engineCode": "2KD-FTV",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 5260,
+      "widthMm": 1835,
+      "heightMm": 1860,
+      "wheelbaseMm": 3085,
+      "groundClearanceMm": 212,
+      "fuelTankLiters": 80
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Hilux (N50/N60/N70) — источник 1",
+        "url": "https://newsroom.toyota.eu/2005-toyota-hilux/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Hilux (N50/N60/N70) — источник 2",
+        "url": "https://broschyrarkiv.toyotasverige.se/D_Hilux_OM_Jul-2006_OM71031SE.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-toyota-hiace-h200",
+    "modelId": "toyota-hiace-h200",
+    "generationId": "batch50-toyota-hiace-h200",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2004,
+    "bodyCode": "H200",
+    "bodyStyle": "Минивэн",
+    "trimOrGrade": "HiAce (H200)",
+    "engine": {
+      "code": "2KD-FTV",
+      "displacementCc": 2494,
+      "powerHp": 109,
+      "torqueNm": 260,
+      "fuelType": "diesel",
+      "induction": "turbo"
+    },
+    "engineCode": "2KD-FTV",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4695,
+      "widthMm": 1695,
+      "heightMm": 1980,
+      "wheelbaseMm": 2570,
+      "groundClearanceMm": 185,
+      "fuelTankLiters": 70
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "HiAce (H200) — источник 1",
+        "url": "https://global.toyota/en/detail/1592447",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-nissan-x-trail-t30",
+    "modelId": "nissan-x-trail-t30",
+    "generationId": "batch50-nissan-x-trail-t30",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2000,
+    "modelYearTo": 2007,
+    "bodyCode": "T30",
+    "bodyStyle": "Кроссовер",
+    "trimOrGrade": "X-Trail (T30)",
+    "engine": {
+      "code": "QR20DE",
+      "displacementCc": 1998,
+      "powerHp": 140,
+      "torqueNm": 30,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "QR20DE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4510,
+      "widthMm": 1765,
+      "heightMm": 1675,
+      "wheelbaseMm": 2625,
+      "groundClearanceMm": 200,
+      "fuelTankLiters": 60
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "X-Trail (T30) — источник 1",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "X-Trail (T30) — источник 2",
+        "url": "https://www.ms-motorservice.com/MediaAssets/2486694_pg_50003569_web.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-nissan-x-trail-t31",
+    "modelId": "nissan-x-trail-t31",
+    "generationId": "batch50-nissan-x-trail-t31",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2007,
+    "modelYearTo": 2014,
+    "bodyCode": "T31",
+    "bodyStyle": "Кроссовер",
+    "trimOrGrade": "X-Trail (T31)",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 141,
+      "torqueNm": 31,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "MR20DE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4630,
+      "widthMm": 1785,
+      "heightMm": 1685,
+      "wheelbaseMm": 2630,
+      "groundClearanceMm": 200,
+      "fuelTankLiters": 65
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "X-Trail (T31) — источник 1",
+        "url": "https://global.nissannews.com/en/releases/070822-01-e?origin=channel-6cc809ed3d53e589ae8e7619960035fc",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "X-Trail (T31) — источник 2",
+        "url": "https://vnx.su/content/avto/nissan/expluatacia/x-trail-t31-2007.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "X-Trail (T31) — источник 3",
+        "url": "https://www.ms-motorservice.com/MediaAssets/2486694_pg_50003569_web.pdf",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-nissan-serena-c25",
+    "modelId": "nissan-serena-c25",
+    "generationId": "batch50-nissan-serena-c25",
+    "market": "не указан в источнике",
+    "modelYearFrom": 2005,
+    "modelYearTo": 2010,
+    "bodyCode": "C25",
+    "bodyStyle": "Минивэн",
+    "trimOrGrade": "Serena (C25)",
+    "engine": {
+      "code": "MR20DE",
+      "displacementCc": 1997,
+      "powerHp": 137,
+      "torqueNm": 200,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "MR20DE",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4680,
+      "widthMm": 1695,
+      "heightMm": 1840,
+      "wheelbaseMm": 2860,
+      "groundClearanceMm": 160,
+      "fuelTankLiters": 60
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Serena (C25) — источник 1",
+        "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/480_serena_20rs.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Serena (C25) — источник 2",
+        "url": "https://faq2.nissan.co.jp/faq/show/10162",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-honda-accord-cf",
+    "modelId": "honda-accord-cf",
+    "generationId": "batch50-honda-accord-cf",
+    "market": "не указан в источнике",
+    "modelYearFrom": 1997,
+    "modelYearTo": 2002,
+    "bodyCode": "CF",
+    "bodyStyle": "Седан",
+    "trimOrGrade": "Accord (CF)",
+    "engine": {
+      "code": "F18B",
+      "displacementCc": 1849,
+      "powerHp": 140,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "F18B",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4635,
+      "widthMm": 1695,
+      "heightMm": 1420,
+      "wheelbaseMm": 2665,
+      "groundClearanceMm": 150,
+      "fuelTankLiters": 60
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Accord (CF) — источник 1",
+        "url": "https://www.drom.ru/catalog/honda/accord/specs/engine_capacity/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-honda-odyssey-ra",
+    "modelId": "honda-odyssey-ra",
+    "generationId": "batch50-honda-odyssey-ra",
+    "market": "не указан в источнике",
+    "modelYearFrom": 1994,
+    "modelYearTo": 1999,
+    "bodyCode": "RA",
+    "bodyStyle": "Минивэн",
+    "trimOrGrade": "Odyssey (RA)",
+    "engine": {
+      "code": "F23A",
+      "displacementCc": 2253,
+      "powerHp": 150,
+      "torqueNm": 204,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "F23A",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4750,
+      "widthMm": 1770,
+      "heightMm": 1685,
+      "wheelbaseMm": 2830,
+      "groundClearanceMm": 155,
+      "fuelTankLiters": 65
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "Odyssey (RA) — источник 1",
+        "url": "https://global.honda/en/newsroom/worldnews/1997/4970822a.html",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Odyssey (RA) — источник 2",
+        "url": "https://www.drom.ru/catalog/honda/odyssey/141828/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+  },
+  {
+    "id": "batch50-honda-cr-v-rd",
+    "modelId": "honda-cr-v-rd",
+    "generationId": "batch50-honda-cr-v-rd",
+    "market": "не указан в источнике",
+    "modelYearFrom": 1995,
+    "modelYearTo": 2001,
+    "bodyCode": "RD",
+    "bodyStyle": "Кроссовер",
+    "trimOrGrade": "CR-V (RD)",
+    "engine": {
+      "code": "B20B",
+      "displacementCc": 1972,
+      "powerHp": 130,
+      "torqueNm": 184.4,
+      "fuelType": "gasoline"
+    },
+    "engineCode": "B20B",
+    "steeringPosition": "unknown",
+    "dimensions": {
+      "lengthMm": 4510,
+      "widthMm": 1750,
+      "heightMm": 1675,
+      "wheelbaseMm": 2620,
+      "groundClearanceMm": 205,
+      "fuelTankLiters": 58
+    },
+    "verificationStatus": "partially-verified",
+    "sources": [
+      {
+        "label": "CR-V (RD) — источник 1",
+        "url": "https://gazoo.com/catalog/maker/HONDA/CRV/199510/2002843/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "CR-V (RD) — источник 2",
+        "url": "https://www.carmanualsonline.info/honda-cr-v-2000-rd1-rd3-1-g-workshop-manual/?srch=RD1",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника.",
+        "accessedAt": "2026-11-07"
+      }
+    ],
+    "limitations": [
+      {
+        "field": "market",
+        "reason": "Рынок поставки не установлен источником для этой записи."
+      },
+      {
+        "field": "transmissionCode",
+        "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+      },
+      {
+        "field": "drivetrain",
+        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+      },
+      {
+        "field": "wheelFitments",
+        "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      }
+    ],
+    "lastReviewed": "2026-11-07",
+    "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
   }
 ];

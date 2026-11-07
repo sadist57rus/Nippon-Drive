@@ -26829,8 +26829,8 @@
     },
     {
       "id": "batch50-toyota-caldina-st215w-gt-t",
-      "modelId": "toyota-caldina-st215w-gt-t",
-      "generationId": "batch50-toyota-caldina-st215w-gt-t",
+      "modelId": "toyota-caldina-11",
+      "generationId": "drom-toyota-caldina-t210",
       "market": "Japan",
       "modelYearFrom": 1997,
       "modelYearTo": 2002,
@@ -27112,8 +27112,8 @@
     },
     {
       "id": "batch50-toyota-corolla-levin-ae101-gt-apex",
-      "modelId": "toyota-corolla-levin-ae101-gt-apex",
-      "generationId": "batch50-toyota-corolla-levin-ae101-gt-apex",
+      "modelId": "toyota-corolla-levin-23",
+      "generationId": "drom-toyota-corollalevin-e100",
       "market": "Japan",
       "modelYearFrom": 1991,
       "modelYearTo": 1995,
@@ -27278,8 +27278,8 @@
     },
     {
       "id": "batch50-toyota-corolla-fielder-e140-wagon",
-      "modelId": "toyota-corolla-fielder-e140-wagon",
-      "generationId": "batch50-toyota-corolla-fielder-e140-wagon",
+      "modelId": "toyota-corolla-fielder-22",
+      "generationId": "drom-toyota-corollafielder-e140",
       "market": "Japan",
       "modelYearFrom": 2006,
       "modelYearTo": 2012,
@@ -27419,8 +27419,8 @@
     },
     {
       "id": "batch50-nissan-note-e11-hatchback",
-      "modelId": "nissan-note-e11-hatchback",
-      "generationId": "batch50-nissan-note-e11-hatchback",
+      "modelId": "nissan-note-117",
+      "generationId": "drom-nissan-note-e11",
       "market": "не указан в источнике",
       "modelYearFrom": 2005,
       "modelYearTo": 2013,
@@ -27619,8 +27619,8 @@
     },
     {
       "id": "batch50-toyota-camry-xv40-sedan",
-      "modelId": "toyota-camry-xv40-sedan",
-      "generationId": "batch50-toyota-camry-xv40-sedan",
+      "modelId": "toyota-camry-40",
+      "generationId": "toyota-camry-xv40",
       "market": "не указан в источнике",
       "modelYearFrom": 2006,
       "modelYearTo": 2011,
@@ -27687,8 +27687,8 @@
     },
     {
       "id": "batch50-toyota-prado-j120-suv",
-      "modelId": "toyota-prado-j120-suv",
-      "generationId": "batch50-toyota-prado-j120-suv",
+      "modelId": "toyota-land-cruiser-prado-44",
+      "generationId": "drom-toyota-landcruiserprado-j120",
       "market": "не указан в источнике",
       "modelYearFrom": 2002,
       "modelYearTo": 2009,
@@ -27834,8 +27834,8 @@
     },
     {
       "id": "batch50-toyota-rav4-xa30-crossover",
-      "modelId": "toyota-rav4-xa30-crossover",
-      "generationId": "batch50-toyota-rav4-xa30-crossover",
+      "modelId": "toyota-rav4-3",
+      "generationId": "toyota-rav4-xa30",
       "market": "не указан в источнике",
       "modelYearFrom": 2005,
       "modelYearTo": 2012,
@@ -27974,8 +27974,8 @@
     },
     {
       "id": "batch50-toyota-yaris-xp10",
-      "modelId": "toyota-yaris-xp10",
-      "generationId": "batch50-toyota-yaris-xp10",
+      "modelId": "toyota-vitz-yaris-79",
+      "generationId": "drom-toyota-vitzyaris-xp10",
       "market": "не указан в источнике",
       "modelYearFrom": 1999,
       "modelYearTo": 2005,
@@ -28035,71 +28035,9 @@
       "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
     },
     {
-      "id": "batch50-toyota-yaris-xp90",
-      "modelId": "toyota-yaris-xp90",
-      "generationId": "batch50-toyota-yaris-xp90",
-      "market": "не указан в источнике",
-      "modelYearFrom": 2005,
-      "modelYearTo": 2011,
-      "bodyCode": "XP90",
-      "bodyStyle": "Хэтчбек",
-      "trimOrGrade": "Yaris / Vitz (XP90)",
-      "engine": {
-        "code": "1KR-FE",
-        "displacementCc": 996,
-        "powerHp": 71,
-        "fuelType": "gasoline"
-      },
-      "engineCode": "1KR-FE",
-      "steeringPosition": "unknown",
-      "dimensions": {
-        "lengthMm": 3785,
-        "widthMm": 1695,
-        "heightMm": 1530,
-        "wheelbaseMm": 2460,
-        "groundClearanceMm": 145,
-        "fuelTankLiters": 42
-      },
-      "verificationStatus": "partially-verified",
-      "sources": [
-        {
-          "label": "Yaris / Vitz (XP90) — источник 1",
-          "url": "https://www.toyota-global.com/company/history_of_toyota/75years/vehicle_lineage/car/id60007906/",
-          "sourceType": "secondary-reference",
-          "market": "не указан в источнике",
-          "scope": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику.",
-          "accessedAt": "2026-11-07"
-        }
-      ],
-      "limitations": [
-        {
-          "field": "market",
-          "reason": "Рынок поставки не установлен источником для этой записи."
-        },
-        {
-          "field": "transmissionCode",
-          "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
-        },
-        {
-          "field": "transmissionType",
-          "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
-        },
-        {
-          "field": "drivetrain",
-          "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
-        },
-        {
-          "field": "wheelFitments",
-          "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
-        }
-      ],
-      "lastReviewed": "2026-11-07",
-      "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
-    },
-    {
       "id": "batch50-toyota-yaris-xp130",
-      "modelId": "toyota-yaris-xp130",
-      "generationId": "batch50-toyota-yaris-xp130",
+      "modelId": "toyota-vitz-yaris-79",
+      "generationId": "drom-toyota-vitzyaris-xp130",
       "market": "не указан в источнике",
       "modelYearFrom": 2010,
       "modelYearTo": 2020,
@@ -28169,8 +28107,8 @@
     },
     {
       "id": "batch50-toyota-prius-xw10",
-      "modelId": "toyota-prius-xw10",
-      "generationId": "batch50-toyota-prius-xw10",
+      "modelId": "toyota-prius-58",
+      "generationId": "drom-toyota-prius-nhw10",
       "market": "не указан в источнике",
       "modelYearFrom": 1997,
       "modelYearTo": 2003,
@@ -28511,8 +28449,8 @@
     },
     {
       "id": "batch50-nissan-march-k12",
-      "modelId": "nissan-march-k12",
-      "generationId": "batch50-nissan-march-k12",
+      "modelId": "nissan-march-micra-112",
+      "generationId": "drom-nissan-march-k12",
       "market": "не указан в источнике",
       "modelYearFrom": 2002,
       "modelYearTo": 2010,
@@ -28643,8 +28581,8 @@
     },
     {
       "id": "batch50-mazda-demio-dy",
-      "modelId": "mazda-demio-dy",
-      "generationId": "batch50-mazda-demio-dy",
+      "modelId": "mazda-2-demio-192",
+      "generationId": "drom-mazda-2demio-dy",
       "market": "не указан в источнике",
       "modelYearFrom": 2002,
       "modelYearTo": 2007,
@@ -28705,8 +28643,8 @@
     },
     {
       "id": "batch50-mazda-demio-de",
-      "modelId": "mazda-demio-de",
-      "generationId": "batch50-mazda-demio-de",
+      "modelId": "mazda-2-demio-192",
+      "generationId": "drom-mazda-demio-de",
       "market": "не указан в источнике",
       "modelYearFrom": 2007,
       "modelYearTo": 2014,
@@ -28775,8 +28713,8 @@
     },
     {
       "id": "batch50-subaru-legacy-bp",
-      "modelId": "subaru-legacy-bp",
-      "generationId": "batch50-subaru-legacy-bp",
+      "modelId": "subaru-legacy-282",
+      "generationId": "drom-subaru-legacy-blbp",
       "market": "не указан в источнике",
       "modelYearFrom": 2003,
       "modelYearTo": 2009,
@@ -28853,8 +28791,8 @@
     },
     {
       "id": "batch50-subaru-legacy-bmbr",
-      "modelId": "subaru-legacy-bmbr",
-      "generationId": "batch50-subaru-legacy-bmbr",
+      "modelId": "subaru-legacy-282",
+      "generationId": "drom-subaru-legacyb4-bm",
       "market": "не указан в источнике",
       "modelYearFrom": 2009,
       "modelYearTo": 2014,
@@ -29080,8 +29018,8 @@
     },
     {
       "id": "batch50-daihatsu-mira-l275",
-      "modelId": "daihatsu-mira-l275",
-      "generationId": "batch50-daihatsu-mira-l275",
+      "modelId": "daihatsu-mira-342",
+      "generationId": "drom-daihatsu-mira-l275",
       "market": "не указан в источнике",
       "modelYearFrom": 2006,
       "modelYearTo": 2018,
@@ -29159,8 +29097,8 @@
     },
     {
       "id": "batch50-lexus-ls-xf30",
-      "modelId": "lexus-ls-xf30",
-      "generationId": "batch50-lexus-ls-xf30",
+      "modelId": "lexus-ls-366",
+      "generationId": "drom-lexus-ls-xf30",
       "market": "не указан в источнике",
       "modelYearFrom": 2000,
       "modelYearTo": 2006,
@@ -29354,8 +29292,8 @@
     },
     {
       "id": "batch50-toyota-camry-xv30",
-      "modelId": "toyota-camry-xv30",
-      "generationId": "batch50-toyota-camry-xv30",
+      "modelId": "toyota-camry-12",
+      "generationId": "drom-toyota-camry-xv30",
       "market": "не указан в источнике",
       "modelYearFrom": 2001,
       "modelYearTo": 2006,
@@ -29416,8 +29354,8 @@
     },
     {
       "id": "batch50-toyota-camry-xv40",
-      "modelId": "toyota-camry-xv40",
-      "generationId": "batch50-toyota-camry-xv40",
+      "modelId": "toyota-camry-40",
+      "generationId": "toyota-camry-xv40",
       "market": "не указан в источнике",
       "modelYearFrom": 2006,
       "modelYearTo": 2011,
@@ -29486,8 +29424,8 @@
     },
     {
       "id": "batch50-toyota-hilux-n50",
-      "modelId": "toyota-hilux-n50",
-      "generationId": "batch50-toyota-hilux-n50",
+      "modelId": "toyota-hilux-39",
+      "generationId": "drom-toyota-hilux-an10an20",
       "market": "не указан в источнике",
       "modelYearFrom": 2004,
       "modelYearTo": 2015,
@@ -29621,8 +29559,8 @@
     },
     {
       "id": "batch50-nissan-x-trail-t30",
-      "modelId": "nissan-x-trail-t30",
-      "generationId": "batch50-nissan-x-trail-t30",
+      "modelId": "nissan-x-trail-139",
+      "generationId": "drom-nissan-xtrail-t30",
       "market": "не указан в источнике",
       "modelYearFrom": 2000,
       "modelYearTo": 2007,
@@ -29692,8 +29630,8 @@
     },
     {
       "id": "batch50-nissan-x-trail-t31",
-      "modelId": "nissan-x-trail-t31",
-      "generationId": "batch50-nissan-x-trail-t31",
+      "modelId": "nissan-xtrail-t31",
+      "generationId": "nissan-xtrail-t31",
       "market": "не указан в источнике",
       "modelYearFrom": 2007,
       "modelYearTo": 2014,
@@ -29771,8 +29709,8 @@
     },
     {
       "id": "batch50-nissan-serena-c25",
-      "modelId": "nissan-serena-c25",
-      "generationId": "batch50-nissan-serena-c25",
+      "modelId": "nissan-serena-127",
+      "generationId": "drom-nissan-serena-c25",
       "market": "не указан в источнике",
       "modelYearFrom": 2005,
       "modelYearTo": 2010,
@@ -29904,8 +29842,8 @@
     },
     {
       "id": "batch50-honda-odyssey-ra",
-      "modelId": "honda-odyssey-ra",
-      "generationId": "batch50-honda-odyssey-ra",
+      "modelId": "honda-odyssey-176",
+      "generationId": "drom-honda-odyssey-ra1ra5",
       "market": "не указан в источнике",
       "modelYearFrom": 1994,
       "modelYearTo": 1999,
@@ -29975,8 +29913,8 @@
     },
     {
       "id": "batch50-honda-cr-v-rd",
-      "modelId": "honda-cr-v-rd",
-      "generationId": "batch50-honda-cr-v-rd",
+      "modelId": "honda-cr-v-150",
+      "generationId": "drom-honda-crv-rd1rd2",
       "market": "не указан в источнике",
       "modelYearFrom": 1995,
       "modelYearTo": 2001,
@@ -30043,6 +29981,78 @@
       ],
       "lastReviewed": "2026-11-07",
       "notes": "Индекс семейства добавлен для покрытия каталога. Не использовать как руководство для ремонта: характеристики агрегатов, жидкости, лампы и предохранители требуют точной идентификации и OEM-источника."
+    },
+    {
+      "id": "batch50-mazda-bt50-up",
+      "modelId": "mazda-bt50-up",
+      "generationId": "batch50-mazda-bt50-up",
+      "market": "не указан в источнике",
+      "modelYearFrom": 2011,
+      "modelYearTo": 2020,
+      "bodyCode": "UP",
+      "bodyStyle": "Пикап",
+      "trimOrGrade": "BT-50 (UP/UR)",
+      "engine": {
+        "code": "P4-AT",
+        "displacementCc": 2198,
+        "powerHp": 150,
+        "torqueNm": 375,
+        "fuelType": "diesel",
+        "induction": "turbo"
+      },
+      "engineCode": "P4-AT",
+      "steeringPosition": "unknown",
+      "dimensions": {
+        "lengthMm": 5365,
+        "widthMm": 1850,
+        "heightMm": 1821,
+        "wheelbaseMm": 3220,
+        "groundClearanceMm": 237,
+        "fuelTankLiters": 80
+      },
+      "verificationStatus": "partially-verified",
+      "sources": [
+        {
+          "label": "BT-50 (UP/UR) — источник 1",
+          "url": "https://owners-manual.mazda.com/gen/en/bt-50/bt-50_8fx5ei17dt.pdf",
+          "sourceType": "secondary-reference",
+          "market": "не указан в источнике",
+          "scope": "Для Mazda BT-50 UP подтверждены дизели 2.2 P4-AT (2198 см³, 150 PS/375 Н·м) и 3.2 P5-AT (3198 см³, 200 PS/470 Н·м) в спецификации GCC. В других рынках 2.2 имеет иные калибровки. Код и мощность сверять по табличке/VIN.",
+          "accessedAt": "2026-11-07"
+        },
+        {
+          "label": "BT-50 (UP/UR) — источник 2",
+          "url": "https://nd-mediagallery2-public-production.s3.amazonaws.com/0c589b01e593bd741dcd533a54549432/mazda_bt_50_brochure.pdf",
+          "sourceType": "secondary-reference",
+          "market": "не указан в источнике",
+          "scope": "Для Mazda BT-50 UP подтверждены дизели 2.2 P4-AT (2198 см³, 150 PS/375 Н·м) и 3.2 P5-AT (3198 см³, 200 PS/470 Н·м) в спецификации GCC. В других рынках 2.2 имеет иные калибровки. Код и мощность сверять по табличке/VIN.",
+          "accessedAt": "2026-11-07"
+        }
+      ],
+      "limitations": [
+        {
+          "field": "market",
+          "reason": "Рынок поставки не установлен источником для этой записи."
+        },
+        {
+          "field": "transmissionCode",
+          "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
+        },
+        {
+          "field": "transmissionType",
+          "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
+        },
+        {
+          "field": "drivetrain",
+          "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
+        },
+        {
+          "field": "wheelFitments",
+          "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+        }
+      ],
+      "lastReviewed": "2026-11-07",
+      "notes": "Для Mazda BT-50 UP подтверждены дизели 2.2 P4-AT (2198 см³, 150 PS/375 Н·м) и 3.2 P5-AT (3198 см³, 200 PS/470 Н·м) в спецификации GCC. В других рынках 2.2 имеет иные калибровки. Код и мощность сверять по табличке/VIN."
     }
   ]
 }

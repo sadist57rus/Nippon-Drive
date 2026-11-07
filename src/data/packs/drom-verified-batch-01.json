@@ -26829,7 +26829,7 @@
     },
     {
       "id": "batch50-toyota-caldina-st215w-gt-t",
-      "modelId": "toyota-caldina-11",
+      "modelId": "toyota-caldina-st215w-gt-t",
       "generationId": "drom-toyota-caldina-t210",
       "market": "Japan",
       "modelYearFrom": 1997,
@@ -27112,7 +27112,7 @@
     },
     {
       "id": "batch50-toyota-corolla-levin-ae101-gt-apex",
-      "modelId": "toyota-corolla-levin-23",
+      "modelId": "toyota-corolla-levin-ae101-gt-apex",
       "generationId": "drom-toyota-corollalevin-e100",
       "market": "Japan",
       "modelYearFrom": 1991,
@@ -27278,7 +27278,7 @@
     },
     {
       "id": "batch50-toyota-corolla-fielder-e140-wagon",
-      "modelId": "toyota-corolla-fielder-22",
+      "modelId": "toyota-corolla-fielder-e140-wagon",
       "generationId": "drom-toyota-corollafielder-e140",
       "market": "Japan",
       "modelYearFrom": 2006,
@@ -27419,7 +27419,7 @@
     },
     {
       "id": "batch50-nissan-note-e11-hatchback",
-      "modelId": "nissan-note-117",
+      "modelId": "nissan-note-e11-hatchback",
       "generationId": "drom-nissan-note-e11",
       "market": "не указан в источнике",
       "modelYearFrom": 2005,
@@ -27687,7 +27687,7 @@
     },
     {
       "id": "batch50-toyota-prado-j120-suv",
-      "modelId": "toyota-land-cruiser-prado-44",
+      "modelId": "toyota-prado-j120-suv",
       "generationId": "drom-toyota-landcruiserprado-j120",
       "market": "не указан в источнике",
       "modelYearFrom": 2002,
@@ -27974,7 +27974,7 @@
     },
     {
       "id": "batch50-toyota-yaris-xp10",
-      "modelId": "toyota-vitz-yaris-79",
+      "modelId": "toyota-yaris-xp10",
       "generationId": "drom-toyota-vitzyaris-xp10",
       "market": "не указан в источнике",
       "modelYearFrom": 1999,
@@ -28036,7 +28036,7 @@
     },
     {
       "id": "batch50-toyota-yaris-xp130",
-      "modelId": "toyota-vitz-yaris-79",
+      "modelId": "toyota-yaris-xp130",
       "generationId": "drom-toyota-vitzyaris-xp130",
       "market": "не указан в источнике",
       "modelYearFrom": 2010,
@@ -28107,7 +28107,7 @@
     },
     {
       "id": "batch50-toyota-prius-xw10",
-      "modelId": "toyota-prius-58",
+      "modelId": "toyota-prius-xw10",
       "generationId": "drom-toyota-prius-nhw10",
       "market": "не указан в источнике",
       "modelYearFrom": 1997,
@@ -28449,7 +28449,7 @@
     },
     {
       "id": "batch50-nissan-march-k12",
-      "modelId": "nissan-march-micra-112",
+      "modelId": "nissan-march-k12",
       "generationId": "drom-nissan-march-k12",
       "market": "не указан в источнике",
       "modelYearFrom": 2002,
@@ -28581,7 +28581,7 @@
     },
     {
       "id": "batch50-mazda-demio-dy",
-      "modelId": "mazda-2-demio-192",
+      "modelId": "mazda-demio-dy",
       "generationId": "drom-mazda-2demio-dy",
       "market": "не указан в источнике",
       "modelYearFrom": 2002,
@@ -28643,7 +28643,7 @@
     },
     {
       "id": "batch50-mazda-demio-de",
-      "modelId": "mazda-2-demio-192",
+      "modelId": "mazda-demio-de",
       "generationId": "drom-mazda-demio-de",
       "market": "не указан в источнике",
       "modelYearFrom": 2007,
@@ -28713,7 +28713,7 @@
     },
     {
       "id": "batch50-subaru-legacy-bp",
-      "modelId": "subaru-legacy-282",
+      "modelId": "subaru-legacy-bp",
       "generationId": "drom-subaru-legacy-blbp",
       "market": "не указан в источнике",
       "modelYearFrom": 2003,
@@ -28791,7 +28791,7 @@
     },
     {
       "id": "batch50-subaru-legacy-bmbr",
-      "modelId": "subaru-legacy-282",
+      "modelId": "subaru-legacy-bmbr",
       "generationId": "drom-subaru-legacyb4-bm",
       "market": "не указан в источнике",
       "modelYearFrom": 2009,
@@ -29018,7 +29018,7 @@
     },
     {
       "id": "batch50-daihatsu-mira-l275",
-      "modelId": "daihatsu-mira-342",
+      "modelId": "daihatsu-mira-l275",
       "generationId": "drom-daihatsu-mira-l275",
       "market": "не указан в источнике",
       "modelYearFrom": 2006,
@@ -29097,7 +29097,7 @@
     },
     {
       "id": "batch50-lexus-ls-xf30",
-      "modelId": "lexus-ls-366",
+      "modelId": "lexus-ls-xf30",
       "generationId": "drom-lexus-ls-xf30",
       "market": "не указан в источнике",
       "modelYearFrom": 2000,
@@ -29292,7 +29292,7 @@
     },
     {
       "id": "batch50-toyota-camry-xv30",
-      "modelId": "toyota-camry-12",
+      "modelId": "toyota-camry-xv30",
       "generationId": "drom-toyota-camry-xv30",
       "market": "не указан в источнике",
       "modelYearFrom": 2001,
@@ -29424,7 +29424,7 @@
     },
     {
       "id": "batch50-toyota-hilux-n50",
-      "modelId": "toyota-hilux-39",
+      "modelId": "toyota-hilux-n50",
       "generationId": "drom-toyota-hilux-an10an20",
       "market": "не указан в источнике",
       "modelYearFrom": 2004,
@@ -29559,7 +29559,7 @@
     },
     {
       "id": "batch50-nissan-x-trail-t30",
-      "modelId": "nissan-x-trail-139",
+      "modelId": "nissan-x-trail-t30",
       "generationId": "drom-nissan-xtrail-t30",
       "market": "не указан в источнике",
       "modelYearFrom": 2000,
@@ -29709,7 +29709,7 @@
     },
     {
       "id": "batch50-nissan-serena-c25",
-      "modelId": "nissan-serena-127",
+      "modelId": "nissan-serena-c25",
       "generationId": "drom-nissan-serena-c25",
       "market": "не указан в источнике",
       "modelYearFrom": 2005,
@@ -29842,7 +29842,7 @@
     },
     {
       "id": "batch50-honda-odyssey-ra",
-      "modelId": "honda-odyssey-176",
+      "modelId": "honda-odyssey-ra",
       "generationId": "drom-honda-odyssey-ra1ra5",
       "market": "не указан в источнике",
       "modelYearFrom": 1994,
@@ -29913,7 +29913,7 @@
     },
     {
       "id": "batch50-honda-cr-v-rd",
-      "modelId": "honda-cr-v-150",
+      "modelId": "honda-cr-v-rd",
       "generationId": "drom-honda-crv-rd1rd2",
       "market": "не указан в источнике",
       "modelYearFrom": 1995,

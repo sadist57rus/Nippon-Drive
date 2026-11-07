@@ -1703,7 +1703,6 @@ const supplementalModels: JapaneseCarModel[] = [
         "scope": "VQ40DE 385 Н·м; YD25 403 Н·м для соответствующих ранних модификаций."
       }
     ],
-    sourceReferences: [{ label: 'Nissan — официальный исторический/модельный источник', url: 'https://www.nissan-global.com/EN/HERITAGE_COLLECTION/prairie_terrano.html', scope: 'Исторический портал Nissan; параметры для ремонта требуют документации конкретной версии.' }]
   }),
   makeSupplementalModel({
     id: 'nissan-pathfinder-r52-suv', brandId: 'nissan',

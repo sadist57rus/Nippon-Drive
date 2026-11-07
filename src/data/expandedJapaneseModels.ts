@@ -320,11 +320,23 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 140, trunkVolumeLiters: 'Около 485 л, методика зависит от рынка', fuelTankLiters: 50,
     curbWeightKg: 'Ориентировочно 1200–1400 кг',
     engines: [
-      { code: 'R18A2', name: '1.8 л i-VTEC', displacement: '1799 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '16V SOHC i-VTEC', fuelSystem: 'PGM-FI', timingDrive: 'Цепь ГРМ', strengths: ['Широко распространённая бензиновая версия'], weaknesses: ['Требует проверки истории обслуживания'] },
-      { code: 'N22A2', name: '2.2 л i-CTDi дизель — отдельные версии', displacement: '2204 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Цепь ГРМ', strengths: ['Высокий крутящий момент'], weaknesses: ['Состояние турбонаддува и топливной аппаратуры требует диагностики'] }
+      { code: 'R18A2', name: '1.8 л i-VTEC', displacement: '1799 см³', powerHp: '140 л.с. при 6300 об/мин', torqueNm: '174 Н·м при 4300 об/мин', valves: '16V SOHC i-VTEC', fuelSystem: 'PGM-FI', timingDrive: 'Цепь ГРМ', strengths: ['Широко распространённая бензиновая версия'], weaknesses: ['Требует проверки истории обслуживания'] },
+      { code: 'N22A2', name: '2.2 л i-CTDi дизель — отдельные версии', displacement: '2204 см³', powerHp: '140 PS при 4000 об/мин', torqueNm: '340 Н·м при 2000 об/мин', valves: '16V DOHC Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Цепь ГРМ', strengths: ['Высокий крутящий момент'], weaknesses: ['Состояние турбонаддува и топливной аппаратуры требует диагностики'] }
     ],
     transmissions: ['6-ступенчатая МКПП — отдельные версии', 'Автоматическая трансмиссия — зависит от двигателя и рынка'],
-    sourceNotes: 'Отдельная запись для хэтчбека: спецификации седана FD не следует автоматически переносить на европейский FN/FK.'
+    sourceNotes: 'Европейский Civic FN/FK: R18A2 1.8 — 140 PS/174 Н·м; N22A2 2.2 i-CTDi — 140 PS/340 Н·м. Не переносить эти значения на седан FD или другие рынки.',
+    sourceReferences: [
+      {
+        "label": "Honda Global — All New Civic for Europe (2005)",
+        "url": "https://global.honda/en/newsroom/worldnews/2005/4050801.html",
+        "scope": "Заводские характеристики европейских двигателей 1.8 i-VTEC и 2.2 i-CTDi, мощность, момент и трансмиссии."
+      },
+      {
+        "label": "Drom — Honda Civic FN1 1.8 MT (2006–2009)",
+        "url": "https://www.drom.ru/catalog/honda/civic/124027/",
+        "scope": "R18A2: 140 л.с. при 6300 об/мин и 174 Н·м при 4300 об/мин."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'subaru-impreza-ge-sedan',
@@ -338,11 +350,18 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 155, trunkVolumeLiters: 'Зависит от рынка', fuelTankLiters: 60,
     curbWeightKg: 'Ориентировочно 1250–1450 кг',
     engines: [
-      { code: 'EJ20', name: '2.0 л оппозитный бензиновый', displacement: '1994 см³', powerHp: 'Зависит от атмосферной/турбированной версии', torqueNm: 'Зависит от версии', valves: '16V Boxer', fuelSystem: 'Электронный впрыск', timingDrive: 'Ремень ГРМ', strengths: ['Низкий центр тяжести'], weaknesses: ['Важны история обслуживания и контроль утечек масла'] }
+      { code: 'EJ204', name: '2.0 л оппозитный бензиновый, 2.0R', displacement: '1994 см³', powerHp: '150 л.с. при 6400 об/мин', torqueNm: '196 Н·м при 3200 об/мин', valves: '16V Boxer', fuelSystem: 'Электронный впрыск', timingDrive: 'Ремень ГРМ', strengths: ['Низкий центр тяжести'], weaknesses: ['Важны история обслуживания и контроль утечек масла'] }
     ],
     transmissions: ['МКПП', '4-ступенчатая АКПП на отдельных версиях', 'Трансмиссия зависит от рынка'],
     drivetrain: 'Symmetrical AWD на многих версиях; существуют рыночные исключения.',
-    sourceNotes: 'Седан GE отделён от хэтчбека GH. Код EJ20 объединяет несколько модификаций; мощность и регламент нельзя назначать без полного кода двигателя.'
+    sourceNotes: 'Для седана GE7 2.0R (Россия, 09.2007–06.2012): EJ204 1994 см³, 150 л.с./196 Н·м. Данные не относятся к GE3 1.5 и турбоверсиям.',
+    sourceReferences: [
+      {
+        "label": "Drom — Subaru Impreza GE7 2.0R (2007–2012)",
+        "url": "https://www.drom.ru/catalog/subaru/impreza/164901/",
+        "scope": "EJ204, 1994 см³, 150 л.с. при 6400 об/мин и 196 Н·м при 3200 об/мин."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'subaru-impreza-gh-hatchback',
@@ -374,11 +393,18 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 160, trunkVolumeLiters: 'Около 413 л, зависит от рынка', fuelTankLiters: 55,
     curbWeightKg: 'Ориентировочно 1200–1400 кг',
     engines: [
-      { code: 'Z6', name: '1.6 л бензин', displacement: '1598 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от рынка', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Простая атмосферная конфигурация'], weaknesses: ['Проверять состояние системы охлаждения и опор двигателя'] },
-      { code: 'LF', name: '2.0 л бензин', displacement: '1999 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Хороший баланс мощности и повседневной эксплуатации'], weaknesses: ['Параметры различаются по рынку'] }
+      { code: 'Z6', name: '1.6 л бензин', displacement: '1598 см³', powerHp: '105 л.с.', torqueNm: '145 Н·м', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Простая атмосферная конфигурация'], weaknesses: ['Проверять состояние системы охлаждения и опор двигателя'] },
+      { code: 'LF17', name: '2.0 л бензин', displacement: '1999 см³', powerHp: '150 л.с.', torqueNm: '187 Н·м', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Хороший баланс мощности и повседневной эксплуатации'], weaknesses: ['Параметры различаются по рынку'] }
     ],
     transmissions: ['5-ступенчатая МКПП', '4-ступенчатая АКПП — отдельные версии'],
-    sourceNotes: 'Габариты приведены как ориентир для распространённого седана BK. Проверять конкретную комплектацию и рынок.'
+    sourceNotes: 'Для Mazda3 BK sedan: Z6 1.6 — 105 л.с./145 Н·м; LF17 2.0 — 150 л.с./187 Н·м. Модификации дизелей и иных рынков здесь не описаны.',
+    sourceReferences: [
+      {
+        "label": "Drom — Mazda3 BK engine capacity and torque tables",
+        "url": "https://www.drom.ru/catalog/mazda/mazda3/specs/engine_torque/",
+        "scope": "Z6 1.6 105 л.с./145 Н·м и LF17 2.0 150 л.с./187 Н·м для указанных модификаций BK."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'mazda3-bk-hatchback',
@@ -410,12 +436,24 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 145, trunkVolumeLiters: 'Около 213 л, зависит от версии', fuelTankLiters: 43,
     curbWeightKg: 'Ориентировочно 1000–1150 кг',
     engines: [
-      { code: 'M13A', name: '1.3 л бензин', displacement: '1328 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от рынка', valves: '16V DOHC VVT на отдельных версиях', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Компактность и экономичность'], weaknesses: ['Проверять цепной привод и состояние системы охлаждения'] },
-      { code: 'M15A', name: '1.5 л бензин', displacement: '1490 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от рынка', valves: '16V DOHC VVT', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая тяга'], weaknesses: ['Комплектации отличаются по рынкам'] }
+      { code: 'M13A', name: '1.3 л бензин', displacement: '1328 см³', powerHp: '91 PS при 6000 об/мин', torqueNm: '118 Н·м при 4000 об/мин', valves: '16V DOHC VVT на отдельных версиях', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Компактность и экономичность'], weaknesses: ['Проверять цепной привод и состояние системы охлаждения'] },
+      { code: 'M15A', name: '1.5 л бензин', displacement: '1490 см³', powerHp: '110 PS при 6000 об/мин', torqueNm: '143 Н·м при 4000 об/мин', valves: '16V DOHC VVT', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая тяга'], weaknesses: ['Комплектации отличаются по рынкам'] }
     ],
     transmissions: ['5-ступенчатая МКПП', '4-ступенчатая АКПП — отдельные версии'],
     drivetrain: 'Передний привод; отдельные версии для некоторых рынков имеют 4WD.',
-    sourceNotes: 'Данные ориентировочные для поколения ZC. Проверять код кузова, двигатель и привод.'
+    sourceNotes: 'Японские комплектации Swift 2004–2005: ZC11S с M13A 1328 см³ — 91 PS/118 Н·м; ZC21S с M15A 1490 см³ — 110 PS/143 Н·м. Не переносить на другие рынки и рестайлинги.',
+    sourceReferences: [
+      {
+        "label": "GAZOO — Suzuki Swift 1.3 XG (DBA-ZC11S, 2004)",
+        "url": "https://gazoo.com/catalog/maker/SUZUKI/SWIFT/200411/10024568/",
+        "scope": "M13A 1328 см³, 91 PS/118 Н·м; японская комплектация ZC11S."
+      },
+      {
+        "label": "GAZOO — Suzuki Swift 1.5 XS (DBA-ZC21S, 2004)",
+        "url": "https://gazoo.com/catalog/maker/SUZUKI/SWIFT/200411/10024572/",
+        "scope": "M15A 1490 см³, 110 PS/143 Н·м; японская комплектация ZC21S."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'mitsubishi-lancer-x-cy-sedan',
@@ -469,11 +507,18 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 160, trunkVolumeLiters: 'Зависит от положения сидений и рынка', fuelTankLiters: 52,
     curbWeightKg: 'Ориентировочно 1150–1300 кг',
     engines: [
-      { code: 'HR16DE', name: '1.6 л бензин', displacement: '1598 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от рынка', valves: '16V DOHC', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Широко распространённый атмосферный двигатель'], weaknesses: ['Проверять состояние цепного привода и расход масла'] },
-      { code: 'MR18DE', name: '1.8 л бензин — отдельные версии', displacement: '1798 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от рынка', valves: '16V DOHC', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Более высокий запас мощности'], weaknesses: ['Не доступен во всех регионах'] }
+      { code: 'HR16DE', name: '1.6 л бензин', displacement: '1598 см³', powerHp: '110 л.с.', torqueNm: '153 Н·м', valves: '16V DOHC', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Широко распространённый атмосферный двигатель'], weaknesses: ['Проверять состояние цепного привода и расход масла'] },
+      { code: 'MR18DE', name: '1.8 л бензин — отдельные версии', displacement: '1798 см³', powerHp: '126 л.с.', torqueNm: '173 Н·м', valves: '16V DOHC', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Более высокий запас мощности'], weaknesses: ['Не доступен во всех регионах'] }
     ],
     transmissions: ['МКПП', 'АКПП или вариатор — в зависимости от рынка'],
-    sourceNotes: 'Данные для хэтчбека C11. Седан имеет отдельный кузовной код/параметры в зависимости от рынка.'
+    sourceNotes: 'Для российского Tiida C11 hatchback 2007–2010: HR16DE 1.6 — 110 л.с./153 Н·м; MR18DE 1.8 — 126 л.с./173 Н·м. Рестайлинг и иные рынки могут отличаться.',
+    sourceReferences: [
+      {
+        "label": "Drom — Nissan Tiida engine torque table",
+        "url": "https://www.drom.ru/catalog/nissan/tiida/specs/engine_torque/",
+        "scope": "C11 hatchback: HR16DE 110 л.с./153 Н·м и MR18DE 126 л.с./173 Н·м для указанных периодов."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'lexus-is-xe20-sedan',
@@ -487,12 +532,19 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 145, trunkVolumeLiters: 'Около 378 л, зависит от версии', fuelTankLiters: 65,
     curbWeightKg: 'Ориентировочно 1500–1700 кг',
     engines: [
-      { code: '4GR-FSE', name: '2.5 л V6 бензин D-4', displacement: '2499 см³', powerHp: 'Зависит от рынка и года', torqueNm: 'Зависит от версии', valves: '24V DOHC Dual VVT-i', fuelSystem: 'Комбинированные системы впрыска D-4 — уточнить версию', timingDrive: 'Цепь ГРМ', strengths: ['Плавная работа V6'], weaknesses: ['Система непосредственного впрыска требует квалифицированной диагностики'] },
+      { code: '4GR-FSE', name: '2.5 л V6 бензин D-4', displacement: '2499 см³', powerHp: '204 л.с.', torqueNm: '251 Н·м', valves: '24V DOHC Dual VVT-i', fuelSystem: 'Комбинированные системы впрыска D-4 — уточнить версию', timingDrive: 'Цепь ГРМ', strengths: ['Плавная работа V6'], weaknesses: ['Система непосредственного впрыска требует квалифицированной диагностики'] },
       { code: '2GR-FSE', name: '3.5 л V6 бензин — IS 350', displacement: '3456 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '24V DOHC Dual VVT-i', fuelSystem: 'D-4S комбинированный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Высокая мощность'], weaknesses: ['Обслуживание дороже четырёхцилиндровых версий'] }
     ],
     transmissions: ['Автоматическая трансмиссия — по двигателю и рынку', 'МКПП на отдельных версиях'],
     drivetrain: 'Задний привод; AWD предлагался на отдельных модификациях.',
-    sourceNotes: 'XE20 включает разные двигатели и обновления. Объёмы жидкостей и лампы нельзя считать универсальными.'
+    sourceNotes: 'Для Lexus IS250 XE20: 4GR-FSE 2499 см³, 204 л.с./251 Н·м по карточке Drom. Европейские документы могут указывать 208 PS/252 Н·м; не смешивать единицы и рынок.',
+    sourceReferences: [
+      {
+        "label": "Drom — Lexus IS250 XE20 (2005–2008)",
+        "url": "https://www.drom.ru/catalog/lexus/is250/g_2005_3639/",
+        "scope": "4GR-FSE 2.5 V6: 204 л.с. и 251 Н·м для каталожной версии."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'infiniti-g-v36-sedan',
@@ -506,12 +558,19 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 125, trunkVolumeLiters: 'Около 340 л, зависит от рынка', fuelTankLiters: 76,
     curbWeightKg: 'Ориентировочно 1550–1750 кг',
     engines: [
-      { code: 'VQ35HR', name: '3.5 л V6 бензин', displacement: '3498 см³', powerHp: 'Зависит от года и рынка', torqueNm: 'Зависит от версии', valves: '24V DOHC CVTCS', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Высокая отдача атмосферного V6'], weaknesses: ['Требует контроля уровня масла и состояния системы охлаждения'] },
+      { code: 'VQ35HR', name: '3.5 л V6 бензин', displacement: '3498 см³', powerHp: '310 л.с.', torqueNm: '363 Н·м', valves: '24V DOHC CVTCS', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Высокая отдача атмосферного V6'], weaknesses: ['Требует контроля уровня масла и состояния системы охлаждения'] },
       { code: 'VQ37VHR', name: '3.7 л V6 бензин — поздние версии', displacement: '3696 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '24V DOHC VVEL', fuelSystem: 'Электронный впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Высокая мощность и широкий диапазон тяги'], weaknesses: ['Ремонт и обслуживание дороже массовых моделей'] }
     ],
     transmissions: ['Автоматическая трансмиссия 5/7 ступеней — по году и версии', 'МКПП на отдельных версиях'],
     drivetrain: 'Задний привод; ATTESA E-TS AWD доступен на отдельных версиях.',
-    sourceNotes: 'V36 включает обновления и разные рынки. Купе G37 — отдельная запись должна использовать параметры своего кузова.'
+    sourceNotes: 'Значения VQ35HR 3.5 приведены для седана Infiniti G35 V36 рынка США, 09.2006–08.2008: 310 л.с./363 Н·м. Российская AWD-версия имеет отдельную калибровку; значения не универсальны.',
+    sourceReferences: [
+      {
+        "label": "Drom — Infiniti G35 V36, US market (2006–2008)",
+        "url": "https://www.drom.ru/catalog/infiniti/g35/g_2006_8122/",
+        "scope": "VQ35HR, 3.5 л, 310 л.с. и 363 Н·м для американских комплектаций; не относится к российским настройкам."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'isuzu-mux-uc-suv',
@@ -525,11 +584,18 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 230, trunkVolumeLiters: 'Зависит от числа поднятых рядов', fuelTankLiters: 65,
     curbWeightKg: 'Ориентировочно 1900–2150 кг',
     engines: [
-      { code: '4JJ1-TC', name: '3.0 л турбодизель Common Rail', displacement: '2999 см³', powerHp: 'Зависит от рынка и года', torqueNm: 'Зависит от версии', valves: '16V DOHC Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Уточнить по модификации двигателя', strengths: ['Высокий крутящий момент'], weaknesses: ['Состояние EGR/DPF зависит от экологической версии и условий эксплуатации'] }
+      { code: '4JJ1-TC', name: '3.0 л турбодизель Common Rail', displacement: '2999 см³', powerHp: '177 PS (130 кВт) при 3600 об/мин', torqueNm: '380 Н·м при 1800–2800 об/мин', valves: '16V DOHC Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Цепной привод DOHC', strengths: ['Высокий крутящий момент'], weaknesses: ['Состояние EGR/DPF зависит от экологической версии и условий эксплуатации'] }
     ],
     transmissions: ['МКПП — отдельные версии', 'Автоматическая трансмиссия — по рынку'],
     drivetrain: 'Задний привод или подключаемый Part-Time 4WD — по комплектации.',
-    sourceNotes: 'MU-X UC добавлен как отдельная модель, не смешивать с D-Max. Точные агрегаты зависят от страны продажи.'
+    sourceNotes: 'Для австралийской спецификации Isuzu MU-X 2013 с 4JJ1-TC Hi-Power: 2999 см³, 130 кВт (177 PS), 380 Н·м. Другие рынки и уровни мощности не объединять.',
+    sourceReferences: [
+      {
+        "label": "Isuzu MU-X 2013 — Technical Specifications (Australia)",
+        "url": "https://www.australiancar.reviews/_pdfs/Isuzu_MU-X_2013_Specifications_201404.pdf",
+        "scope": "4JJ1-TC Hi-Power: 2999 см³, 130 кВт, 380 Н·м; австралийская спецификация."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'nissan-note-e11-hatchback',
@@ -652,22 +718,41 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Компактный кроссовер, доступный с передним или полным приводом; силовые агрегаты зависят от рынка.',
     lengthMm: 4315, widthMm: 1780, heightMm: 1615, wheelbaseMm: 2630, groundClearanceMm: 200, trunkVolumeLiters: '410 л (зависит от рынка)', fuelTankLiters: 65, curbWeightKg: '1300–1600 кг',
     engines: [
-      { code: 'HR16DE', name: '1.6 л бензин', displacement: '1598 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Простая атмосферная версия'], weaknesses: ['Проверять шум цепи и расход масла'] },
-      { code: 'MR20DE', name: '2.0 л бензин', displacement: '1997 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Распространённый мотор'], weaknesses: ['CVT требует истории обслуживания'] }
+      { code: 'HR16DE', name: '1.6 л бензин', displacement: '1598 см³', powerHp: '114 л.с.', torqueNm: '156 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Простая атмосферная версия'], weaknesses: ['Проверять шум цепи и расход масла'] },
+      { code: 'MR20DE', name: '2.0 л бензин', displacement: '1997 см³', powerHp: '141 л.с.', torqueNm: '196 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Распространённый мотор'], weaknesses: ['CVT требует истории обслуживания'] }
     ],
     transmissions: ['МКПП', 'CVT', 'АКПП — по рынку'], drivetrain: 'Передний привод или ALL MODE 4x4.',
-    sourceNotes: 'J10 включает несколько силовых агрегатов и коробок. Уточнить тип CVT/AT по VIN до выбора жидкости.'
+    sourceNotes: 'Для Nissan Qashqai J10 российского рынка 2006–2010: HR16DE 1.6 — 114 л.с./156 Н·м; MR20DE 2.0 — 141 л.с./196 Н·м. Дизельные K9K/M9R и европейские исполнения не включены.',
+    sourceReferences: [
+      {
+        "label": "Drom — Nissan Qashqai J10 engine capacity and torque tables",
+        "url": "https://www.drom.ru/catalog/nissan/qashqai/specs/engine_capacity/",
+        "scope": "Российские J10: HR16DE 1.6 114 л.с.; MR20DE 2.0 141 л.с.; torque table confirms 156/196 Н·м."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'honda-crv-rd7-suv', brandId: 'honda', name: 'CR-V (RD7/RD8)', generation: 'II поколение', years: '2001–2006', bodyType: 'Кроссовер',
     overview: 'Компактный кроссовер; мотор K24A и система Real Time 4WD встречаются на отдельных версиях.',
     lengthMm: 4630, widthMm: 1785, heightMm: 1710, wheelbaseMm: 2620, groundClearanceMm: 205, trunkVolumeLiters: 'Зависит от рынка', fuelTankLiters: 58, curbWeightKg: '1450–1600 кг',
     engines: [
-      { code: 'K24A1', name: '2.4 л i-VTEC', displacement: '2354 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC i-VTEC', fuelSystem: 'PGM-FI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Проверять зазоры клапанов, течи и состояние охлаждения'] },
+      { code: 'K24A1', name: '2.4 л i-VTEC', displacement: '2354 см³', powerHp: '160 л.с. при 6000 об/мин', torqueNm: '220 Н·м при 3600 об/мин', valves: '16V DOHC i-VTEC', fuelSystem: 'PGM-FI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Проверять зазоры клапанов, течи и состояние охлаждения'] },
       { code: 'K20A', name: '2.0 л i-VTEC — отдельные рынки', displacement: '1998 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC i-VTEC', fuelSystem: 'PGM-FI', timingDrive: 'Цепь ГРМ', strengths: ['Распространённое семейство'], weaknesses: ['Код K20A охватывает разные версии'] }
     ],
     transmissions: ['МКПП', 'АКПП'], drivetrain: 'Передний привод или Real Time 4WD.',
-    sourceNotes: 'RD7/RD8 — не единственные кузовные коды CR-V II. Жидкость заднего редуктора и коробки уточнять по рынку.'
+    sourceNotes: 'Для Honda CR-V II 2.4 K24A1 (RD6/RD7, модельный 2002): 2354 см³, 160 hp/220 Н·м. Источник Honda USA подтверждает мощность и момент; для RD8 2.0 K20A4 значения в этой записи оставлены неподтверждёнными.',
+    sourceReferences: [
+      {
+        "label": "Honda News — 2002 CR-V Specifications",
+        "url": "https://hondanews.com/en-US/releases/release-64ea815d6e8d0126225ce8004c34c80a-2002-honda-cr-v-specifications",
+        "scope": "Заводские параметры 2.4: 160 hp при 6000 об/мин, 162 lb-ft (около 220 Н·м) при 3600 об/мин."
+      },
+      {
+        "label": "Drom — Honda CR-V II (2001–2005)",
+        "url": "https://www.drom.ru/catalog/honda/cr-v/g_2001_5176/",
+        "scope": "Кузов RD7 и двигатель K24A1 для европейских/американских комплектаций соответствующего периода."
+      }
+    ],
   }),
   makeSupplementalModel({
     id: 'honda-fit-gd-hatchback', brandId: 'honda', name: 'Fit / Jazz (GD)', generation: 'I поколение', years: '2001–2008', bodyType: 'Хэтчбек',

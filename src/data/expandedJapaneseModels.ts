@@ -375,11 +375,23 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 155, trunkVolumeLiters: 'Зависит от рынка и положения сидений', fuelTankLiters: 60,
     curbWeightKg: 'Ориентировочно 1250–1450 кг',
     engines: [
-      { code: 'EJ15 / EJ20', name: 'Оппозитные бензиновые двигатели — по рынку', displacement: '1.5–2.0 л', powerHp: 'Зависит от кода двигателя', torqueNm: 'Зависит от кода двигателя', valves: 'SOHC/DOHC в зависимости от версии', fuelSystem: 'Электронный впрыск', timingDrive: 'Для многих EJ — ремень; проверить код двигателя', strengths: ['Низкий центр тяжести'], weaknesses: ['Нельзя выбирать регламент только по названию Impreza'] }
+      { code: 'EL154', name: '1.5 л атмосферный boxer, GH3', displacement: '1498 см³', powerHp: '110 PS при 6400 об/мин', torqueNm: '144 Н·м при 3200 об/мин', valves: 'SOHC/DOHC в зависимости от версии', fuelSystem: 'Электронный впрыск', timingDrive: 'Для многих EJ — ремень; проверить код двигателя', strengths: ['Низкий центр тяжести'], weaknesses: ['Нельзя выбирать регламент только по названию Impreza'] }
     ],
     transmissions: ['МКПП', 'АКПП — в зависимости от рынка и комплектации'],
     drivetrain: 'Symmetrical AWD на многих версиях; привод зависит от рынка.',
-    sourceNotes: 'Кузов GH — хэтчбек, не смешивать с седаном GE и спортивными WRX/STI.'
+    sourceNotes: 'Для хэтчбека GH3 1.5: EL154 1498 см³, 110 PS/144 Н·м. 2.0-литровые GH6/GH7 и WRX/STI не объединены с этой записью; для них нужна отдельная модификация.',
+    sourceReferences: [
+      {
+        "label": "Subaru Impreza GH 1.5 — OEM applied-model specifications",
+        "url": "https://www.legacypic.uk/car/specs.php?id=3223",
+        "scope": "GH3 1.5: EL154, 1498 см³, 107 PS/142 Н·м для конкретной японской версии; другие рынки могут указывать 110 PS/144 Н·м."
+      },
+      {
+        "label": "Drom — Subaru Impreza GH engine capacity",
+        "url": "https://www.drom.ru/catalog/subaru/impreza/specs/engine_capacity/",
+        "scope": "Коды двигателей и объём/мощность для хэтчбека GH."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'mazda3-bk-sedan',
@@ -418,11 +430,18 @@ const supplementalModels: JapaneseCarModel[] = [
     groundClearanceMm: 160, trunkVolumeLiters: 'Зависит от методики измерения', fuelTankLiters: 55,
     curbWeightKg: 'Ориентировочно 1200–1400 кг',
     engines: [
-      { code: 'Z6', name: '1.6 л бензин', displacement: '1598 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от рынка', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Атмосферный двигатель'], weaknesses: ['Проверять фактическую комплектацию'] },
-      { code: 'LF', name: '2.0 л бензин', displacement: '1999 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая мощность'], weaknesses: ['Параметры зависят от рынка'] }
+      { code: 'Z6', name: '1.6 л бензин', displacement: '1598 см³', powerHp: '105 PS при 6000 об/мин', torqueNm: '145 Н·м при 4000 об/мин', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Атмосферный двигатель'], weaknesses: ['Проверять фактическую комплектацию'] },
+      { code: 'LF', name: '2.0 л MZR бензин', displacement: '1999 см³', powerHp: '150 PS при 6500 об/мин', torqueNm: '187 Н·м при 4000 об/мин', valves: '16V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая мощность'], weaknesses: ['Параметры зависят от рынка'] }
     ],
     transmissions: ['5-ступенчатая МКПП', '4-ступенчатая АКПП — отдельные версии'],
-    sourceNotes: 'Кузов хэтчбек выделен отдельно; точные сервисные данные требуют идентификации автомобиля.'
+    sourceNotes: 'Mazda3 BK hatchback: Z6 1.6 — 105 PS/145 Н·м; LF 2.0 — 150 PS/187 Н·м по европейским техническим данным. Дизель Y6 и региональные версии не добавлены.',
+    sourceReferences: [
+      {
+        "label": "Mazda3 facelift service training — technical data",
+        "url": "https://pliki.elektroda.pl/1059664,mazda3_fl_english.html",
+        "scope": "Европейские BK: Z6 1.6 105 PS/145 Н·м; LF 2.0 150 PS/187 Н·м."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'suzuki-swift-zc11-hatchback',
@@ -706,12 +725,19 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Кроссовер с бензиновыми и дизельными двигателями; вариатор, механическая коробка и системы полного привода зависят от версии.',
     lengthMm: 4630, widthMm: 1785, heightMm: 1685, wheelbaseMm: 2630, groundClearanceMm: 200, trunkVolumeLiters: '603 л (методика зависит от рынка)', fuelTankLiters: 65, curbWeightKg: '1450–1700 кг',
     engines: [
-      { code: 'MR20DE', name: '2.0 л бензин', displacement: '1997 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Распространённый двигатель'], weaknesses: ['Проверять расход масла, шум цепи и охлаждение'] },
-      { code: 'QR25DE', name: '2.5 л бензин', displacement: '2488 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Состояние CVT критично при отсутствии обслуживания'] },
-      { code: 'M9R', name: '2.0 л дизель — отдельные рынки', displacement: '1995 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '16V Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Цепь/привод по модификации', strengths: ['Экономичность на трассе'], weaknesses: ['Проверять EGR/DPF и топливную систему'] }
+      { code: 'MR20DE', name: '2.0 л бензин', displacement: '1997 см³', powerHp: '141 л.с.', torqueNm: '196 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Распространённый двигатель'], weaknesses: ['Проверять расход масла, шум цепи и охлаждение'] },
+      { code: 'QR25DE', name: '2.5 л бензин', displacement: '2488 см³', powerHp: '169 л.с.', torqueNm: '233 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Состояние CVT критично при отсутствии обслуживания'] },
+      { code: 'M9R', name: '2.0 л дизель — отдельные рынки', displacement: '1995 см³', powerHp: '150 л.с.', torqueNm: '320 Н·м', valves: '16V Turbo Diesel', fuelSystem: 'Common Rail', timingDrive: 'Цепь/привод по модификации', strengths: ['Экономичность на трассе'], weaknesses: ['Проверять EGR/DPF и топливную систему'] }
     ],
     transmissions: ['6-ступенчатая МКПП', 'CVT', 'АКПП — отдельные рынки'], drivetrain: '2WD или ALL MODE 4x4-i.',
-    sourceNotes: 'T31 имеет разные коробки, включая CVT. Использовать только жидкость, указанную для конкретного кода трансмиссии.'
+    sourceNotes: 'Российские комплектации Nissan X-Trail T31 (2007–2011): MR20DE 2.0 — 141 л.с./196 Н·м; QR25DE 2.5 — 169 л.с./233 Н·м; M9R 2.0 dCi — 150 л.с./320 Н·м. Рестайлинг 2010+ и другие рынки отличаются.',
+    sourceReferences: [
+      {
+        "label": "Drom — Nissan X-Trail T31 engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/specs/engine_torque/",
+        "scope": "T31 2007–2011: MR20DE 196 Н·м, QR25DE 233 Н·м, M9R 320 Н·м; мощность привязана к соответствующим модификациям."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'nissan-qashqai-j10-crossover', brandId: 'nissan', name: 'Qashqai (J10)', generation: 'I поколение', years: '2006–2013', bodyType: 'Кроссовер',
@@ -769,31 +795,62 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Среднеразмерный седан; моторы MZR и дизели различаются по рынку и году.',
     lengthMm: 4670, widthMm: 1780, heightMm: 1435, wheelbaseMm: 2675, groundClearanceMm: 150, trunkVolumeLiters: '500 л (зависит от рынка)', fuelTankLiters: 64, curbWeightKg: '1300–1600 кг',
     engines: [
-      { code: 'LF-DE', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая доступность запчастей'], weaknesses: ['Проверять коррозию кузова и состояние охлаждения'] },
-      { code: 'L3-VE', name: '2.3 л бензин', displacement: '2261 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая тяга'], weaknesses: ['Проверять расход масла и герметичность'] }
+      { code: 'LF-DE', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: '141 л.с.', torqueNm: '181 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая доступность запчастей'], weaknesses: ['Проверять коррозию кузова и состояние охлаждения'] },
+      { code: 'L3-VE', name: '2.3 л бензин', displacement: '2261 см³', powerHp: '166 л.с.', torqueNm: '207 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Более высокая тяга'], weaknesses: ['Проверять расход масла и герметичность'] }
     ],
-    transmissions: ['МКПП', 'АКПП'], sourceNotes: 'Кузов седан отделён от хэтчбека/универсала. Габариты и оптика различаются по рынкам.'
+    transmissions: ['МКПП', 'АКПП'], sourceNotes: 'Mazda6 GG sedan: LF17/LF18 2.0 — 141 л.с./181 Н·м для дорестайлинга; L3C1 2.3 — 166 л.с./207 Н·м. Рестайлинг 2.0 имеет отдельную калибровку 147 л.с./184 Н·м.',
+    sourceReferences: [
+      {
+        "label": "Drom — Mazda6 GG engine capacity",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/specs/engine_capacity/",
+        "scope": "Коды и мощности для GG sedan по периодам выпуска."
+      },
+      {
+        "label": "Drom — Mazda6 GG engine torque",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/specs/engine_torque/",
+        "scope": "Момент: L813 165 Н·м, LF17/LF18 181 Н·м, L3C1 207 Н·м; рестайлинг имеет отдельные значения."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'mazda-6-gg-wagon', brandId: 'mazda', name: 'Mazda6 (GG) универсал', generation: 'I поколение', years: '2002–2008', bodyType: 'Универсал',
     overview: 'Универсал Mazda6 первого поколения; задняя часть кузова и светотехника отличаются от седана.',
     lengthMm: 4700, widthMm: 1780, heightMm: 1480, wheelbaseMm: 2675, groundClearanceMm: 150, trunkVolumeLiters: 'Зависит от методики измерения', fuelTankLiters: 64, curbWeightKg: '1400–1650 кг',
     engines: [
-      { code: 'LF-DE', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Практичный кузов'], weaknesses: ['Проверять коррозию порогов/арок и днища'] },
-      { code: 'L3-VE', name: '2.3 л бензин', displacement: '2261 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая динамика'], weaknesses: ['Проверять состояние двигателя и коробки'] }
+      { code: 'LF-DE', name: '2.0 л бензин MZR', displacement: '1999 см³', powerHp: '141 л.с.', torqueNm: '181 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Практичный кузов'], weaknesses: ['Проверять коррозию порогов/арок и днища'] },
+      { code: 'L3-VE', name: '2.3 л бензин', displacement: '2261 см³', powerHp: '166 л.с.', torqueNm: '207 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая динамика'], weaknesses: ['Проверять состояние двигателя и коробки'] }
     ],
-    transmissions: ['МКПП', 'АКПП'], sourceNotes: 'Универсал имеет отдельные детали кузова/фонарей; не использовать спецификации седана для ламп без сверки.'
+    transmissions: ['МКПП', 'АКПП'], sourceNotes: 'Mazda6 GG wagon: LF17/LF18 2.0 — 141 л.с./181 Н·м для дорестайлинга; L3C1 2.3 — 166 л.с./207 Н·м для переднеприводной версии. AWD 2.3 имеет отдельную калибровку.',
+    sourceReferences: [
+      {
+        "label": "Drom — Mazda6 GG wagon engine capacity",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/specs/engine_capacity/",
+        "scope": "Коды и мощности для GG wagon; AWD 2.3 имеет отдельную мощность."
+      },
+      {
+        "label": "Drom — Mazda6 GG engine torque",
+        "url": "https://www.drom.ru/catalog/mazda/mazda6/specs/engine_torque/",
+        "scope": "Момент для бензиновых двигателей GG и различия AWD."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'subaru-forester-sg-suv', brandId: 'subaru', name: 'Forester (SG)', generation: 'II поколение', years: '2002–2008', bodyType: 'Кроссовер',
     overview: 'Кроссовер с оппозитными бензиновыми двигателями; атмосферные и турбоверсии имеют существенные отличия.',
     lengthMm: 4485, widthMm: 1735, heightMm: 1590, wheelbaseMm: 2525, groundClearanceMm: 200, trunkVolumeLiters: 'Зависит от рынка', fuelTankLiters: 60, curbWeightKg: '1350–1600 кг',
     engines: [
-      { code: 'EJ20', name: '2.0 л boxer', displacement: '1994 см³', powerHp: 'Зависит от атмосферной/турбо версии', torqueNm: 'Зависит от версии', valves: '16V SOHC/DOHC', fuelSystem: 'MPI', timingDrive: 'Ремень ГРМ', strengths: ['Низкий центр тяжести'], weaknesses: ['Проверять течи, охлаждение и историю ремня ГРМ'] },
-      { code: 'EJ25', name: '2.5 л boxer', displacement: '2457 см³', powerHp: 'Зависит от версии', torqueNm: 'Зависит от версии', valves: '16V SOHC/DOHC', fuelSystem: 'MPI', timingDrive: 'Ремень ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Проверять герметичность двигателя и охлаждения'] }
+      { code: 'EJ20', name: '2.0 л атмосферный boxer, SG5', displacement: '1994 см³', powerHp: '140 PS при 5600 об/мин', torqueNm: '186 Н·м при 4400 об/мин', valves: '16V SOHC/DOHC', fuelSystem: 'MPI', timingDrive: 'Ремень ГРМ', strengths: ['Низкий центр тяжести'], weaknesses: ['Проверять течи, охлаждение и историю ремня ГРМ'] },
+      { code: 'EJ205', name: '2.0 л turbo boxer, Cross Sports / XT', displacement: '1994 см³', powerHp: '220 PS при 5500 об/мин', torqueNm: '309 Н·м при 3500 об/мин', valves: '16V SOHC/DOHC', fuelSystem: 'MPI', timingDrive: 'Ремень ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Проверять герметичность двигателя и охлаждения'] }
     ],
     transmissions: ['МКПП', 'АКПП'], drivetrain: 'Symmetrical AWD; тип межосевого распределения зависит от коробки.',
-    sourceNotes: 'SG включает разные атмосферные и турбоверсии. Тип коробки определяет жидкость и процедуру проверки.'
+    sourceNotes: 'Subaru Forester SG5: атмосферный EJ20 2.0 — 140 PS/186 Н·м; турбированный EJ205 2.0 — 220 PS/309 Н·м для японского Cross Sports/XT. SG9 EJ25 STI не включён.',
+    sourceReferences: [
+      {
+        "label": "Cars Japan — Subaru Forester SG engine specifications",
+        "url": "https://cars-japan.net/engine/mdl0070009.html",
+        "scope": "SG5 EJ20 2.0 140 PS/186 Н·м; SG5 turbo EJ20 220 PS/309 Н·м; SG9 EJ25 STI отдельно."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'subaru-legacy-bp-wagon', brandId: 'subaru', name: 'Legacy (BP) универсал', generation: 'IV поколение', years: '2003–2009', bodyType: 'Универсал',
@@ -811,21 +868,40 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Внедорожник с несущим кузовом и встроенной рамой на части рынка; 4WD и моторы различаются по версии.',
     lengthMm: 4470, widthMm: 1810, heightMm: 1695, wheelbaseMm: 2640, groundClearanceMm: 200, trunkVolumeLiters: 'Зависит от кузова', fuelTankLiters: 66, curbWeightKg: '1450–1750 кг',
     engines: [
-      { code: 'J20A', name: '2.0 л бензин', displacement: '1995 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Простая атмосферная версия'], weaknesses: ['Проверять цепной привод и охлаждение'] },
-      { code: 'J24B', name: '2.4 л бензин', displacement: '2393 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC VVT', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Проверять историю обслуживания и течи'] }
+      { code: 'J20A', name: '2.0 л бензин', displacement: '1995 см³', powerHp: '140 л.с.', torqueNm: '183 Н·м', valves: '16V DOHC', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Простая атмосферная версия'], weaknesses: ['Проверять цепной привод и охлаждение'] },
+      { code: 'J24B', name: '2.4 л бензин', displacement: '2393 см³', powerHp: '166 л.с.', torqueNm: '220 Н·м', valves: '16V DOHC VVT', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Хорошая тяга'], weaknesses: ['Проверять историю обслуживания и течи'] }
     ],
     transmissions: ['МКПП', 'АКПП'], drivetrain: '2WD/4WD; наличие понижающей передачи зависит от версии.',
-    sourceNotes: 'JT имеет 3/5-дверные варианты и разные трансмиссии. Жидкости раздатки/редукторов уточнять по коду агрегата.'
+    sourceNotes: 'Suzuki Grand Vitara JT: J20A 2.0 — 140 л.с./183 Н·м; J24B 2.4 — 166 л.с./220 Н·м для европейской омологации соответствующих версий. Значения 169 л.с./227 Н·м относятся к другим рынкам/годам.',
+    sourceReferences: [
+      {
+        "label": "Swiss FEDRO type approval — Suzuki Grand Vitara JT 2.0",
+        "url": "https://www.rupteur.ch/en/targa/1xa735",
+        "scope": "J20A 1995 см³, 140 hp/183 Н·м, полный привод, европейская омологация."
+      },
+      {
+        "label": "Drom — Suzuki Grand Vitara engine torque",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/specs/engine_torque/",
+        "scope": "J24B 2.4: момент зависит от рынка/года; 220 Н·м у европейских версий."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'daihatsu-terios-j200-suv', brandId: 'daihatsu', name: 'Terios (J200)', generation: 'II поколение', years: '2006–2017', bodyType: 'Кроссовер',
     overview: 'Компактный кроссовер с задним или полным приводом в зависимости от рынка.',
     lengthMm: 4055, widthMm: 1695, heightMm: 1690, wheelbaseMm: 2580, groundClearanceMm: 200, trunkVolumeLiters: 'Зависит от рынка', fuelTankLiters: 50, curbWeightKg: '1150–1350 кг',
     engines: [
-      { code: '3SZ-VE', name: '1.5 л бензин DVVT', displacement: '1495 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '16V DOHC DVVT', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Компактность и доступный сервис'], weaknesses: ['Проверять охлаждение, шум цепи и состояние полного привода'] }
+      { code: '3SZ-VE', name: '1.5 л бензин DVVT', displacement: '1495 см³', powerHp: '105 PS при 6000 об/мин', torqueNm: '140 Н·м при 4400 об/мин', valves: '16V DOHC DVVT', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Компактность и доступный сервис'], weaknesses: ['Проверять охлаждение, шум цепи и состояние полного привода'] }
     ],
     transmissions: ['МКПП', 'АКПП'], drivetrain: 'Задний привод или постоянный/полный привод — зависит от рынка.',
-    sourceNotes: 'J200 продаётся в разных регионах под отличающимися спецификациями; параметры проверить по VIN.'
+    sourceNotes: 'Daihatsu Terios J200 1.5 3SZ-VE: 1495 см³, 105 PS/140 Н·м. Сервисные объёмы и применимость для конкретного рынка/привода не выводятся из общей спецификации.',
+    sourceReferences: [
+      {
+        "label": "Daihatsu Terios J200 service manual — general specifications",
+        "url": "https://studylib.net/doc/27904252/6355826",
+        "scope": "3SZ-VE 1495 см³, 77 кВт/6000 об/мин, 140 Н·м/4400 об/мин."
+      }
+    ]
   }),
   makeSupplementalModel({
     id: 'isuzu-dmax-rg-pickup', brandId: 'isuzu', name: 'D-Max (RG)', generation: 'III поколение', years: '2019–н.в.', bodyType: 'Пикап',
@@ -938,11 +1014,18 @@ const supplementalModels: JapaneseCarModel[] = [
     overview: 'Премиальный кроссовер с бензиновыми V6 и гибридной модификацией RX 450h; оснащение зависит от рынка.',
     lengthMm: 4770, widthMm: 1885, heightMm: 1725, wheelbaseMm: 2740, groundClearanceMm: 180, trunkVolumeLiters: 'Зависит от версии', fuelTankLiters: 72, curbWeightKg: '1850–2200 кг',
     engines: [
-      { code: '2GR-FE', name: '3.5 л V6', displacement: '3456 см³', powerHp: 'Зависит от рынка', torqueNm: 'Зависит от версии', valves: '24V DOHC Dual VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Плавная работа и тяга'], weaknesses: ['Проверять охлаждение, утечки и работу АКПП'] },
-      { code: '2GR-FXE', name: '3.5 л V6 гибрид', displacement: '3456 см³', powerHp: 'Суммарная мощность зависит от рынка', torqueNm: 'Зависит от системы', valves: '24V DOHC Atkinson cycle', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Экономичность в городе для своего класса'], weaknesses: ['Высоковольтную систему диагностировать только безопасным оборудованием'] }
+      { code: '2GR-FE', name: '3.5 л V6', displacement: '3456 см³', powerHp: '275 hp при 6200 об/мин', torqueNm: '348 Н·м при 4700 об/мин', valves: '24V DOHC Dual VVT-i', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Плавная работа и тяга'], weaknesses: ['Проверять охлаждение, утечки и работу АКПП'] },
+      { code: '2GR-FXE', name: '3.5 л V6 гибрид', displacement: '3456 см³', powerHp: '245 hp при 6000 об/мин (ДВС); 295 hp суммарно', torqueNm: '317 Н·м при 4800 об/мин (ДВС)', valves: '24V DOHC Atkinson cycle', fuelSystem: 'MPI', timingDrive: 'Цепь ГРМ', strengths: ['Экономичность в городе для своего класса'], weaknesses: ['Высоковольтную систему диагностировать только безопасным оборудованием'] }
     ],
     transmissions: ['АКПП', 'Гибридная e-CVT'], drivetrain: 'FWD/AWD или гибридный AWD по версии.',
-    sourceNotes: 'RX AL10 включает обычную и гибридную силовые установки. Жидкости гибридной трансмиссии и охлаждения HV-системы не взаимозаменяемы.'
+    sourceNotes: 'Lexus RX AL10, североамериканская спецификация: RX350 2GR-FE — 275 hp/348 Н·м; RX450h 2GR-FXE — ДВС 245 hp/317 Н·м, суммарная мощность гибридной системы 295 hp. Не смешивать мощность ДВС и системы.',
+    sourceReferences: [
+      {
+        "label": "Toyota Global — 2008 RX350/RX450h specifications",
+        "url": "https://global.toyota/en/detail/1459606",
+        "scope": "Североамериканские версии: 2GR-FE 275 hp/348 Н·м; 2GR-FXE 245 hp/317 Н·м; hybrid system 295 hp."
+      }
+    ]
   })
 ,
   makeSupplementalModel({
@@ -1596,10 +1679,30 @@ const supplementalModels: JapaneseCarModel[] = [
     lengthMm: null, widthMm: null, heightMm: null, wheelbaseMm: null,
     groundClearanceMm: null, trunkVolumeLiters: 'Нет подтверждённых универсальных данных', fuelTankLiters: null,
     curbWeightKg: 'Нет подтверждённых данных для всех комплектаций',
-    engines: [{ code: 'VQ40DE / YD25DDTi', name: 'Бензиновый V6 или турбодизель; рынок-зависимые версии', displacement: 'Уточнить по коду двигателя', powerHp: 'Нет подтверждённых универсальных данных', torqueNm: 'Нет подтверждённых универсальных данных', valves: 'Проверить по модификации', fuelSystem: 'Проверить по модификации', timingDrive: 'По заводскому руководству конкретного двигателя', strengths: ['Идентификация по коду двигателя обязательна'], weaknesses: ['Не использовать как спецификацию без VIN и рынка'] }],
+    engines: [
+      { code: 'YD25DDTi', name: '2.5 dCi турбодизель, ранняя версия', displacement: '2488 см³', powerHp: '174 л.с. при 4000 об/мин', torqueNm: '403 Н·м при 2000 об/мин', valves: '16V DOHC', fuelSystem: 'Common Rail', timingDrive: 'Цепь ГРМ', strengths: ['Параметры ранней европейской/российской версии'], weaknesses: ['Не переносить на рестайлинговые 190-сильные версии'] },
+      { code: 'VQ40DE', name: '4.0 л V6 бензин', displacement: '3954 см³', powerHp: '269 л.с.', torqueNm: '385 Н·м', valves: '24V DOHC', fuelSystem: 'Распределённый впрыск', timingDrive: 'Цепь ГРМ', strengths: ['Ранние российские/европейские комплектации'], weaknesses: ['Рестайлинговые калибровки могут отличаться'] }
+    ],
     transmissions: ['АКПП или МКПП — только если предусмотрена конкретным рынком; код коробки проверить по VIN. Не указывать CVT без заводского подтверждения.'],
     drivetrain: 'Передний или полный привод в зависимости от поколения и комплектации.',
-    sourceNotes: 'Карточка поколения для навигации по каталогу. Неподтверждённые размеры, ёмкости и сервисные параметры намеренно не заполнены; перед ремонтом сверить VIN, код кузова, двигатель, трансмиссию и руководство рынка.',
+    sourceNotes: 'Карточка раннего Nissan Pathfinder R51: YD25DDTi 2.5 dCi — 174 л.с./403 Н·м; VQ40DE 4.0 V6 — 269 л.с./385 Н·м для российского/европейского каталога 2004–2009. Поздний рестайлинг с V9X и 190-сильным YD25 требует отдельной записи.',
+    sourceReferences: [
+      {
+        "label": "Drom — Nissan Pathfinder R51, Russia 2004–2009",
+        "url": "https://www.drom.ru/catalog/nissan/pathfinder/g_2004_5597/",
+        "scope": "Российские версии YD25 174 л.с. и VQ40DE 269 л.с."
+      },
+      {
+        "label": "Auto.ru — Pathfinder R51 2.5 dCi",
+        "url": "https://auto.ru/catalog/cars/nissan/pathfinder/2308179/2308180/specifications/",
+        "scope": "YD25DDTi: 2488 см³, 174 л.с./4000 об/мин, 403 Н·м/2000 об/мин."
+      },
+      {
+        "label": "Drom — Nissan Pathfinder R51 engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/pathfinder/specs/engine_torque/",
+        "scope": "VQ40DE 385 Н·м; YD25 403 Н·м для соответствующих ранних модификаций."
+      }
+    ],
     sourceReferences: [{ label: 'Nissan — официальный исторический/модельный источник', url: 'https://www.nissan-global.com/EN/HERITAGE_COLLECTION/prairie_terrano.html', scope: 'Исторический портал Nissan; параметры для ремонта требуют документации конкретной версии.' }]
   }),
   makeSupplementalModel({

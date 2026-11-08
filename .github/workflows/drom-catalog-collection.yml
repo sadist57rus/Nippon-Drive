@@ -36,7 +36,7 @@ jobs:
       - name: Discover public Drom catalogue URLs
         if: github.event_name == 'push' || inputs.source == 'sitemap-inventory'
         env:
-          DROM_MAX_SITEMAPS: 20
+          DROM_MAX_SITEMAPS: 50
         run: npx --yes tsx scripts/collectDromCatalog.ts
       - name: Capture bounded public HTML samples
         if: github.event_name == 'push' || inputs.source == 'html-samples'

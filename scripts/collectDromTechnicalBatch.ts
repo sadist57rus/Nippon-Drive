@@ -36,7 +36,10 @@ async function main() {
   // This prevents alphabetically early models from consuming the whole batch.
   const byMake = new Map<string, Map<string, InventoryRecord[]>>();
   for (const item of uniqueCandidates) {
-    const modelSlug = new URL(item.url).pathname.split('/').filter(Boolean)[2];
+    const pathParts = new URL(item.url).pathname.split('/').filter(Boolean);
+    const catalogIndex = pathParts.indexOf('catalog');
+    const isLcvPath = catalogIndex >= 0 && pathParts[catalogIndex + 1] === 'lcv';
+    const modelSlug = pathParts[catalogIndex + (isLcvPath ? 3 : 2)];
     if (!modelSlug) continue;
     const makeModels = byMake.get(item.makeSlug!) ?? new Map<string, InventoryRecord[]>();
     const modelPages = makeModels.get(modelSlug) ?? [];

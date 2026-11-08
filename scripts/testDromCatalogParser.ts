@@ -49,7 +49,7 @@ const individualHtml = `
 <table class="b-table b-table_mobile-size-s">
 <tr><td>Основные параметры</td></tr>
 <tr><td>Название комплектации</td><td>2.0</td></tr>
-<tr><td>Период выпуска</td><td>1992 - 1994</td></tr>
+<tr><td>Период выпуска</td><td>октябрь 1992 - март 1994</td></tr>
 <tr><td>Тип привода</td><td>Передний</td></tr>
 <tr><td>Тип кузова</td><td>Седан</td></tr>
 <tr><td>Тип трансмиссии</td><td>АКПП 4</td></tr>

@@ -285,7 +285,7 @@ export function parseIndividualModificationHtml(html: string, sourceUrl: string)
   const generationNumberMatch = generationLabel?.match(/(\d+)\s*поколени/i);
   const generationCodeMatch = generationLabel?.match(/,\s*([A-Z0-9-]+)\s+\d{2}\.\d{4}/);
   const yearPeriod = values.get('Период выпуска') ?? '';
-  const years = yearPeriod.match(/((?:19|20)\d{2})\s*[-–]\s*((?:19|20)\d{2})/);
+  const years = yearPeriod.match(/(?:19|20)\d{2}/g) ?? [];
   const titlePeriod = modificationLabel.match(/(\d{2}\.\d{4}\s*[-–]\s*\d{2}\.\d{4})/)?.[1] ?? null;
   const displacementValue = values.get('Объем двигателя, куб.см') ?? '';
   const powerValue = values.get('Максимальная мощность, л.с. (кВт) при об./мин.') ?? '';
@@ -325,8 +325,8 @@ export function parseIndividualModificationHtml(html: string, sourceUrl: string)
     assemblyCountry: values.get('Страна сборки') || null,
     generationPath,
     generationCode: generationCodeMatch?.[1] ?? null,
-    modelYearFrom: years ? Number(years[1]) : null,
-    modelYearTo: years ? Number(years[2]) : null,
+    modelYearFrom: years.length ? Number(years[0]) : null,
+    modelYearTo: years.length > 1 ? Number(years[1]) : null,
     torqueNm: torqueValue.match(/\d+/) ? Number(torqueValue.match(/\d+/)![0]) : null,
     sourceUrl,
     sourceType: 'secondary-reference',

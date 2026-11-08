@@ -82,7 +82,7 @@ function cellText(markup: string): string {
 
 function cellsFromRow(row: string): string[] {
   return [...row.matchAll(/<(?:td|th)\b[^>]*>([\s\S]*?)<\/(?:td|th)>/gi)]
-    .map((match) => cellText(match[1].replace(/<a\\b[^>]*>[\\s\\S]*?<\\/a>/gi, ' ')));
+    .map((match) => cellText(match[1].replace(/<a\b[^>]*>[\s\S]*?<\/a>/gi, ' ')));
 }
 
 function monthFromPeriod(period: string | null, side: 'from' | 'to'): string | null {

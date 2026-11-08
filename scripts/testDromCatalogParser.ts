@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { parseComplectationHtml } from './parseDromHtmlSamples.ts';
+import { parseComplectationHtml } from './parseDromHtmlSamples.js';
 
 const html = `
 <h2>Для Японии</h2>

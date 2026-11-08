@@ -23,15 +23,30 @@ type InventoryRecord = {
 
 async function main() {
   const inventory = JSON.parse(await readFile(INVENTORY_PATH, 'utf8')) as { records: InventoryRecord[] };
-  const candidates = [...new Map(inventory.records
+  const uniqueCandidates = [...new Map(inventory.records
     .filter((item) => item.japaneseMake && item.makeSlug && JAPANESE_MAKES.has(item.makeSlug))
-    .filter((item) => item.kind.toLowerCase().includes('complectation') || /\/catalog\/[^/]+\/[^/]+\/\d{4}\/?$/.test(new URL(item.url).pathname))
+    .filter((item) => item.kind.toLowerCase().includes('complectation'))
     .filter((item) => {
       const url = new URL(item.url);
-      return (url.hostname === 'www.drom.ru' || url.hostname === 'drom.ru') && /^\/catalog\//.test(url.pathname);
+      return (url.hostname === 'www.drom.ru' || url.hostname === 'drom.ru') && /^\\/catalog\\//.test(url.pathname);
     })
     .sort((a, b) => a.url.localeCompare(b.url))
-    .map((item) => [item.url, item])).values()].slice(0, MAX_PAGES);
+    .map((item) => [item.url, item])).values()];
+  const byMake = new Map<string, InventoryRecord[]>();
+  for (const item of uniqueCandidates) {
+    const group = byMake.get(item.makeSlug!) ?? [];
+    group.push(item);
+    byMake.set(item.makeSlug!, group);
+  }
+  const makeQueues = [...byMake.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([, items]) => items);
+  const candidates: InventoryRecord[] = [];
+  while (candidates.length < MAX_PAGES && makeQueues.some((items) => items.length)) {
+    for (const items of makeQueues) {
+      const next = items.shift();
+      if (next) candidates.push(next);
+      if (candidates.length >= MAX_PAGES) break;
+    }
+  }
 
   await mkdir(OUTPUT_DIR, { recursive: true });
   const variants: unknown[] = [];

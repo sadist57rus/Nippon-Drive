@@ -91,12 +91,12 @@ async function main() {
     pagesFetched: results.filter((item) => item.status === 200).length,
     failedPages: results.filter((item) => 'error' in item).length,
     modificationRows: variants.length,
-    specificationRows: specifications.length,
+    specificationRowCount: specifications.length,
     importedIntoApplication: false,
     note: 'No canonical modelId/generationId matching or primary-source verification is inferred. Drom records remain secondary references.',
     pages: results,
     records: variants,
-    specificationRows: specifications,
+    specifications,
   };
   await writeFile(resolve(OUTPUT_DIR, 'technical-batch.json'), JSON.stringify(output, null, 2) + '\n');
   console.log(JSON.stringify({

@@ -45,6 +45,15 @@ const INPUT_DIR = resolve('artifacts/drom-catalog/html-samples');
 const OUTPUT_DIR = resolve('artifacts/drom-catalog');
 const MANIFEST_PATH = resolve(INPUT_DIR, 'manifest.json');
 
+function modelIdentityFromUrl(sourceUrl: string) {
+  const parts = new URL(sourceUrl).pathname.split('/').filter(Boolean);
+  const catalogIndex = parts.indexOf('catalog');
+  return {
+    makeSlug: catalogIndex >= 0 ? parts[catalogIndex + 1] ?? 'unknown' : 'unknown',
+    modelSlug: catalogIndex >= 0 ? parts[catalogIndex + 2] ?? 'unknown' : 'unknown',
+  };
+}
+
 function decodeEntities(value: string): string {
   return value
     .replace(/&nbsp;|&#160;/gi, ' ')
@@ -181,8 +190,7 @@ export function parseComplectationHtml(html: string, sourceUrl: string): DromPar
       if (!group.drivetrain) limitations.push('drivetrain: not present in the grouped specification heading');
 
       records.push({
-        makeSlug: 'toyota',
-        modelSlug: 'corolla',
+        ...modelIdentityFromUrl(sourceUrl),
         market,
         generationLabel: generation?.label ?? null,
         generationNumber: generation?.number ?? null,
@@ -227,8 +235,7 @@ export function parseSpecificationHtml(html: string, sourceUrl: string): DromSpe
     for (const row of rows) {
       if (row.length !== 2 || /модификац/i.test(row[0])) continue;
       records.push({
-        makeSlug: 'toyota',
-        modelSlug: 'corolla',
+        ...modelIdentityFromUrl(sourceUrl),
         market,
         generationHeading,
         modificationLabel: row[0],

@@ -25,7 +25,7 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -36,7 +36,7 @@ jobs:
       - name: Discover public Drom catalogue URLs
         if: (github.event_name == 'push' && !contains(github.event.head_commit.message, 'test:')) || inputs.source == 'sitemap-inventory'
         env:
-          DROM_MAX_SITEMAPS: 50
+          DROM_MAX_SITEMAPS: 200
         run: npx --yes tsx scripts/collectDromCatalog.ts
       - name: Capture bounded public HTML samples
         if: github.event_name == 'push' || inputs.source == 'html-samples'

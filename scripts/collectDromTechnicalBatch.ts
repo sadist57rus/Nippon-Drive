@@ -28,7 +28,7 @@ async function main() {
     .filter((item) => item.kind.toLowerCase().includes('complectation'))
     .filter((item) => {
       const url = new URL(item.url);
-      return (url.hostname === 'www.drom.ru' || url.hostname === 'drom.ru') && /^\/catalog\//.test(url.pathname);
+      return (url.hostname === 'www.drom.ru' || url.hostname === 'drom.ru') && url.pathname.startsWith('/catalog/');
     })
     .sort((a, b) => a.url.localeCompare(b.url))
     .map((item) => [item.url, item])).values()];

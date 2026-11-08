@@ -1,4 +1,4 @@
-import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
@@ -26,6 +26,19 @@ export type DromParsedVariant = {
   sourceType: 'secondary-reference';
   verificationStatus: 'partially-verified';
   limitations: string[];
+};
+
+export type DromSpecificationRow = {
+  makeSlug: string;
+  modelSlug: string;
+  market: string | null;
+  generationHeading: string | null;
+  modificationLabel: string;
+  specificationName: string;
+  value: string;
+  sourceUrl: string;
+  sourceType: 'secondary-reference';
+  verificationStatus: 'partially-verified';
 };
 
 const INPUT_DIR = resolve('artifacts/drom-catalog/html-samples');
@@ -70,13 +83,12 @@ function parseGenerationHeading(value: string) {
   const generation = value.match(/(\d+)\s*поколени/i);
   const period = value.match(/\d{2}\.\d{4}\s*[-–]\s*(?:(?:\d{2}\.\d{4})|н\.в\.|нв|по настоящее время)/i)?.[0] ?? null;
   const parts = value.split(',').map((part) => part.trim()).filter(Boolean);
-  const bodyStyle = parts.length ? parts[parts.length - 1] : null;
   return {
     label: value || null,
     number: generation ? Number(generation[1]) : null,
     from: monthFromPeriod(period, 'from'),
     to: monthFromPeriod(period, 'to'),
-    bodyStyle,
+    bodyStyle: parts.length ? parts[parts.length - 1] : null,
   };
 }
 
@@ -115,8 +127,19 @@ function parseGroup(value: string) {
 }
 
 function normalizeMarketHeading(value: string): string | null {
-  const match = value.match(/^Для\s+(.+)$/i);
-  return match ? match[1].trim() : null;
+  const cleaned = value.trim().replace(/^Для\s+/i, '');
+  const normalized: Record<string, string> = {
+    'Японии': 'Япония',
+    'Япония': 'Япония',
+    'Китая': 'Китай',
+    'Китай': 'Китай',
+    'Европы': 'Европа',
+    'Европа': 'Европа',
+    'США': 'США',
+    'России': 'Россия',
+    'Россия': 'Россия',
+  };
+  return normalized[cleaned] ?? null;
 }
 
 export function parseComplectationHtml(html: string, sourceUrl: string): DromParsedVariant[] {
@@ -128,8 +151,7 @@ export function parseComplectationHtml(html: string, sourceUrl: string): DromPar
 
   for (const token of html.matchAll(tokens)) {
     if (token[1] !== undefined) {
-      const heading = cellText(token[1]);
-      market = normalizeMarketHeading(heading) ?? market;
+      market = normalizeMarketHeading(cellText(token[1])) ?? market;
       continue;
     }
     if (token[2] !== undefined) {
@@ -183,12 +205,52 @@ export function parseComplectationHtml(html: string, sourceUrl: string): DromPar
   return records;
 }
 
+export function parseSpecificationHtml(html: string, sourceUrl: string): DromSpecificationRow[] {
+  const tokens = /<h2\b[^>]*>([\s\S]*?)<\/h2>|<h3\b[^>]*>([\s\S]*?)<\/h3>|(<table\b[^>]*class=["'][^"']*b-table-cmp[^"']*["'][^>]*>[\s\S]*?<\/table>)/gi;
+  let market: string | null = null;
+  let generationHeading: string | null = null;
+  const records: DromSpecificationRow[] = [];
+
+  for (const token of html.matchAll(tokens)) {
+    if (token[1] !== undefined) {
+      market = normalizeMarketHeading(cellText(token[1])) ?? market;
+      continue;
+    }
+    if (token[2] !== undefined) {
+      generationHeading = cellText(token[2]);
+      continue;
+    }
+    const table = token[3] ?? '';
+    const rows = [...table.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)].map((match) => cellsFromRow(match[1]));
+    const header = rows.find((row) => row.length === 2);
+    if (!header || !/модификац/i.test(header[0])) continue;
+    for (const row of rows) {
+      if (row.length !== 2 || /модификац/i.test(row[0])) continue;
+      records.push({
+        makeSlug: 'toyota',
+        modelSlug: 'corolla',
+        market,
+        generationHeading,
+        modificationLabel: row[0],
+        specificationName: header[1],
+        value: row[1],
+        sourceUrl,
+        sourceType: 'secondary-reference',
+        verificationStatus: 'partially-verified',
+      });
+    }
+  }
+  return records;
+}
+
 async function main() {
   const manifest = JSON.parse(await readFile(MANIFEST_PATH, 'utf8')) as {
     results: Array<{ name: string; requestedUrl: string; finalUrl?: string; contentType?: string; status?: number; file?: string; error?: string }>;
   };
-  const records: DromParsedVariant[] = [];
+  const variants: DromParsedVariant[] = [];
+  const specifications: DromSpecificationRow[] = [];
   const errors: string[] = [];
+  const skippedSamples: string[] = [];
 
   for (const item of manifest.results) {
     if (item.error || item.status !== 200 || !item.file) {
@@ -204,31 +266,51 @@ async function main() {
       errors.push(item.name + ': unsupported charset ' + charset);
       continue;
     }
-    const parsed = parseComplectationHtml(html, item.finalUrl ?? item.requestedUrl);
-    records.push(...parsed);
-    if (!parsed.length) errors.push(item.name + ': no complectation rows matched the known Drom table structure');
+    const sourceUrl = item.finalUrl ?? item.requestedUrl;
+    const parsedVariants = parseComplectationHtml(html, sourceUrl);
+    const parsedSpecifications = parseSpecificationHtml(html, sourceUrl);
+    variants.push(...parsedVariants);
+    specifications.push(...parsedSpecifications);
+    if (!parsedVariants.length && !parsedSpecifications.length) skippedSamples.push(item.name);
   }
 
-  const unique = new Map<string, DromParsedVariant>();
-  for (const record of records) {
+  const uniqueVariants = new Map<string, DromParsedVariant>();
+  for (const record of variants) {
     const key = [record.market, record.generationLabel, record.trimOrGrade, record.productionMonthFrom, record.engineCode, record.bodyCode].join('|');
-    unique.set(key, record);
+    uniqueVariants.set(key, record);
+  }
+  const uniqueSpecifications = new Map<string, DromSpecificationRow>();
+  for (const record of specifications) {
+    const key = [record.market, record.generationHeading, record.modificationLabel, record.specificationName, record.value].join('|');
+    uniqueSpecifications.set(key, record);
   }
   const output = {
     generatedAt: new Date().toISOString(),
     source: 'Drom public catalog HTML; secondary reference only',
     inputSamples: manifest.results.length,
-    parsedRows: records.length,
-    uniqueRows: unique.size,
+    parsedModificationRows: variants.length,
+    uniqueModificationRows: uniqueVariants.size,
+    parsedSpecificationRows: specifications.length,
+    uniqueSpecificationRows: uniqueSpecifications.size,
     importedIntoApplication: false,
     note: 'Raw extraction only. Canonical modelId/generationId matching and primary-source verification are intentionally not inferred.',
     errors,
-    records: [...unique.values()],
+    skippedSamples,
+    records: [...uniqueVariants.values()],
+    specificationRows: [...uniqueSpecifications.values()],
   };
   await mkdir(OUTPUT_DIR, { recursive: true });
   await writeFile(resolve(OUTPUT_DIR, 'parsed-variants.json'), JSON.stringify(output, null, 2) + '\n');
-  console.log(JSON.stringify({ inputSamples: output.inputSamples, parsedRows: output.parsedRows, uniqueRows: output.uniqueRows, errors }, null, 2));
-  if (!unique.size) process.exitCode = 1;
+  console.log(JSON.stringify({
+    inputSamples: output.inputSamples,
+    parsedModificationRows: output.parsedModificationRows,
+    uniqueModificationRows: output.uniqueModificationRows,
+    parsedSpecificationRows: output.parsedSpecificationRows,
+    uniqueSpecificationRows: output.uniqueSpecificationRows,
+    errors,
+    skippedSamples,
+  }, null, 2));
+  if (!uniqueVariants.size && !uniqueSpecifications.size) process.exitCode = 1;
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {

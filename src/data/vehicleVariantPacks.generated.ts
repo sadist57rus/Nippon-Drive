@@ -537,7 +537,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "mazda-cx5-ke-shy1-22d-mt-sports-line-4wd-2015-2017",
     "modelId": "mazda-cx5-ke-kf",
     "generationId": "mazda-cx5-ke",
-    "market": "Япония (страна сборки по Drom)",
+    "market": "не установлен по источнику",
     "modelYearFrom": 2015,
     "modelYearTo": 2017,
     "productionMonthFrom": "2015-01",
@@ -577,12 +577,16 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "label": "Drom — Mazda CX-5 2.2D Sports-Line",
         "url": "https://www.drom.ru/catalog/mazda/cx-5/450096/",
         "sourceType": "secondary-reference",
-        "market": "Япония",
+        "market": "не установлен по источнику",
         "scope": "KE 2.2D Sports-Line 4WD, 01.2015–03.2017; SHY1/SHY4, 175 л.с., 420 Н·м, 6MT, размеры, масса, бак, багажник и шины",
         "accessedAt": "2026-11-06"
       }
     ],
     "limitations": [
+      {
+        "field": "market",
+        "reason": "Drom указывает страну сборки Япония, но не подтверждает рынок продаж конкретной модификации."
+      },
       {
         "field": "tires",
         "reason": "225/55 R19 указан без индексов нагрузки и скорости."
@@ -598,7 +602,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2010-2011",
     "modelId": "toyota-rav4-3",
     "generationId": "toyota-rav4-xa30",
-    "market": "Япония (страна сборки по Drom)",
+    "market": "не установлен по источнику",
     "modelYearFrom": 2010,
     "modelYearTo": 2011,
     "productionMonthFrom": "2010-06",
@@ -646,12 +650,16 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "label": "Drom — Toyota RAV4 2.0 CVT Стандарт",
         "url": "https://www.drom.ru/catalog/toyota/rav4/60899/",
         "sourceType": "secondary-reference",
-        "market": "Япония",
+        "market": "не установлен по источнику",
         "scope": "ZSA30 2.0 CVT Стандарт 4WD, 06.2010–08.2011; 3ZR-FAE 158 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
         "accessedAt": "2026-11-06"
       }
     ],
     "limitations": [
+      {
+        "field": "market",
+        "reason": "Drom указывает страну сборки Япония, но не подтверждает рынок продаж конкретной модификации."
+      },
       {
         "field": "tires",
         "reason": "Размер 225/65R17 без индексов нагрузки и скорости."
@@ -667,7 +675,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2011-2013",
     "modelId": "toyota-rav4-3",
     "generationId": "toyota-rav4-xa30",
-    "market": "Япония (страна сборки по Drom)",
+    "market": "не установлен по источнику",
     "modelYearFrom": 2011,
     "modelYearTo": 2013,
     "productionMonthFrom": "2011-09",
@@ -715,12 +723,16 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "label": "Drom — Toyota RAV4 2.0 CVT Стандарт",
         "url": "https://www.drom.ru/catalog/toyota/rav4/183254/",
         "sourceType": "secondary-reference",
-        "market": "Япония",
+        "market": "не установлен по источнику",
         "scope": "ZSA30 2.0 CVT Стандарт 4WD, 09.2011–01.2013; 3ZR-FAE 148 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
         "accessedAt": "2026-11-06"
       }
     ],
     "limitations": [
+      {
+        "field": "market",
+        "reason": "Drom указывает страну сборки Япония, но не подтверждает рынок продаж конкретной модификации."
+      },
       {
         "field": "tires",
         "reason": "Размер 225/65R17 без индексов нагрузки и скорости."

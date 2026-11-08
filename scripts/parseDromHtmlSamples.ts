@@ -261,9 +261,9 @@ export function parseIndividualModificationHtml(html: string, sourceUrl: string)
   variant: DromParsedVariant;
   specificationRows: DromSpecificationRow[];
 } | null {
-  const tableMatch = html.match(/<table\\b[^>]*class=["'][^"']*\\bb-table\\b[^"']*["'][^>]*>([\\s\\S]*?)<\\/table>/i);
+  const tableMatch = html.match(/<table\b[^>]*class=["'][^"']*\bb-table\b[^"']*["'][^>]*>([\s\S]*?)<\/table>/i);
   if (!tableMatch) return null;
-  const rows = [...tableMatch[1].matchAll(/<tr\\b[^>]*>([\\s\\S]*?)<\\/tr>/gi)]
+  const rows = [...tableMatch[1].matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)]
     .map((match) => cellsFromRow(match[1]));
   const values = new Map<string, string>();
   for (const row of rows) {
@@ -271,16 +271,16 @@ export function parseIndividualModificationHtml(html: string, sourceUrl: string)
   }
   if (!values.has('Название комплектации')) return null;
 
-  const titleMarkup = html.match(/<h1\\b[^>]*>([\\s\\S]*?)<\\/h1>/i)?.[1] ?? '';
+  const titleMarkup = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '';
   const modificationLabel = cellText(titleMarkup);
-  const generationAnchor = html.match(/<a\\b[^>]*href=["']([^"']*\\/g_\\d+_\\d+\\/)["'][^>]*>([\\s\\S]*?)<\\/a>/i);
+  const generationAnchor = html.match(/<a\b[^>]*href=["']([^"']*\/g_\d+_\d+\/)["'][^>]*>([\s\S]*?)<\/a>/i);
   const generationPath = generationAnchor ? decodeEntities(generationAnchor[1]) : null;
   const generationLabel = generationAnchor ? cellText(generationAnchor[2]) : null;
-  const generationNumberMatch = generationLabel?.match(/(\\d+)\\s*поколени/i);
-  const generationCodeMatch = generationLabel?.match(/,\\s*([A-Z0-9-]+)\\s+\\d{2}\\.\\d{4}/);
+  const generationNumberMatch = generationLabel?.match(/(\d+)\s*поколени/i);
+  const generationCodeMatch = generationLabel?.match(/,\s*([A-Z0-9-]+)\s+\d{2}\.\d{4}/);
   const yearPeriod = values.get('Период выпуска') ?? '';
-  const years = yearPeriod.match(/((?:19|20)\\d{2})\\s*[-–]\\s*((?:19|20)\\d{2})/);
-  const titlePeriod = modificationLabel.match(/(\\d{2}\\.\\d{4}\\s*[-–]\\s*\\d{2}\\.\\d{4})/)?.[1] ?? null;
+  const years = yearPeriod.match(/((?:19|20)\d{2})\s*[-–]\s*((?:19|20)\d{2})/);
+  const titlePeriod = modificationLabel.match(/(\d{2}\.\d{4}\s*[-–]\s*\d{2}\.\d{4})/)?.[1] ?? null;
   const displacementValue = values.get('Объем двигателя, куб.см') ?? '';
   const powerValue = values.get('Максимальная мощность, л.с. (кВт) при об./мин.') ?? '';
   const torqueValue = values.get('Максимальный крутящий момент, Н*м (кг*м) при об./мин.') ?? '';
@@ -310,8 +310,8 @@ export function parseIndividualModificationHtml(html: string, sourceUrl: string)
     productionMonthTo: monthFromPeriod(titlePeriod, 'to'),
     engineCode: values.get('Марка двигателя') || null,
     bodyCode: values.get('Марка кузова') || null,
-    displacementCc: /^\\d+(?:[.,]\\d+)?$/.test(displacementValue) ? Number(displacementValue.replace(',', '.')) : null,
-    powerHp: powerValue.match(/\\d+/) ? Number(powerValue.match(/\\d+/)![0]) : null,
+    displacementCc: /^\d+(?:[.,]\d+)?$/.test(displacementValue) ? Number(displacementValue.replace(',', '.')) : null,
+    powerHp: powerValue.match(/\d+/) ? Number(powerValue.match(/\d+/)![0]) : null,
     fuelType: group.fuelType,
     transmissionType: group.transmissionType,
     drivetrain: group.drivetrain,
@@ -321,7 +321,7 @@ export function parseIndividualModificationHtml(html: string, sourceUrl: string)
     generationCode: generationCodeMatch?.[1] ?? null,
     modelYearFrom: years ? Number(years[1]) : null,
     modelYearTo: years ? Number(years[2]) : null,
-    torqueNm: torqueValue.match(/\\d+/) ? Number(torqueValue.match(/\\d+/)![0]) : null,
+    torqueNm: torqueValue.match(/\d+/) ? Number(torqueValue.match(/\d+/)![0]) : null,
     sourceUrl,
     sourceType: 'secondary-reference',
     verificationStatus: 'partially-verified',

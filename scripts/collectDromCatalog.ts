@@ -3,7 +3,7 @@ import { resolve } from 'node:path';
 
 const USER_AGENT = 'Nippon-Drive-CatalogResearch/1.0 (+https://github.com/sadist57rus/Nippon-Drive)';
 const OUTPUT_DIR = resolve('artifacts/drom-catalog');
-const MAX_SITEMAPS = Number(process.env.DROM_MAX_SITEMAPS ?? 50);
+const MAX_SITEMAPS = Number(process.env.DROM_MAX_SITEMAPS ?? 200);
 
 const SEEDS = [
   'https://www.drom.ru/sitemaps/catalog/generated/catalog_firms_index.xml',

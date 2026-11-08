@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 24
       - name: Discover public Drom catalogue URLs
-        if: github.event_name == 'push' || inputs.source == 'sitemap-inventory'
+        if: (github.event_name == 'push' && !contains(github.event.head_commit.message, 'test:')) || inputs.source == 'sitemap-inventory'
         env:
           DROM_MAX_SITEMAPS: 50
         run: npx --yes tsx scripts/collectDromCatalog.ts
@@ -48,7 +48,7 @@ jobs:
         if: github.event_name == 'push' || inputs.source == 'html-samples'
         run: npx --yes tsx scripts/parseDromHtmlSamples.ts
       - name: Collect bounded Japanese modification pages
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' && !contains(github.event.head_commit.message, 'test:')
         run: npx --yes tsx scripts/collectDromTechnicalBatch.ts
       - name: Upload source inventory and samples
         if: always()

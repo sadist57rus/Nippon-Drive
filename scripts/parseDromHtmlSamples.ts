@@ -82,7 +82,7 @@ function parseGenerationHeading(value: string) {
 
 function parseGroup(value: string) {
   const lower = value.toLowerCase();
-  const displacement = value.match(/(\d+(?:[.,]\d+)?)\s*л(?=\s|$)/i);
+  const displacement = value.match(/(\d+(?:[.,]\d+)?)\s*л(?=[,\s]|$)/i);
   const power = value.match(/(\d+)\s*л\.?\s*с\.?/i);
   let transmissionType: DromParsedVariant['transmissionType'] = null;
   if (/мкпп|механическ/i.test(lower)) transmissionType = 'MT';

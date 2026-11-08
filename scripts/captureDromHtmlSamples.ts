@@ -31,11 +31,12 @@ async function main() {
       if (!contentType.toLowerCase().includes('text/html')) {
         throw new Error(`Unexpected content type: ${contentType || 'missing'}`);
       }
-      const html = await response.text();
-      const bytes = Buffer.byteLength(html, 'utf8');
+      const body = Buffer.from(await response.arrayBuffer());
+      const bytes = body.byteLength;
       if (bytes > MAX_BYTES) throw new Error(`Response exceeds ${MAX_BYTES} byte limit`);
       const filename = `${page.name}.html`;
-      await writeFile(resolve(OUTPUT_DIR, filename), html, 'utf8');
+      // Preserve source bytes: Drom currently labels these pages windows-1251.
+      await writeFile(resolve(OUTPUT_DIR, filename), body);
       results.push({
         name: page.name,
         requestedUrl: page.url,
@@ -44,7 +45,7 @@ async function main() {
         status: response.status,
         contentType,
         bytes,
-        sha256: createHash('sha256').update(html).digest('hex'),
+        sha256: createHash('sha256').update(body).digest('hex'),
         file: filename,
       });
     } catch (error) {

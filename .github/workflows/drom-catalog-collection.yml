@@ -47,6 +47,9 @@ jobs:
       - name: Parse Drom modification rows
         if: github.event_name == 'push' || inputs.source == 'html-samples'
         run: npx --yes tsx scripts/parseDromHtmlSamples.ts
+      - name: Collect bounded Japanese modification pages
+        if: github.event_name == 'push'
+        run: npx --yes tsx scripts/collectDromTechnicalBatch.ts
       - name: Upload source inventory and samples
         if: always()
         uses: actions/upload-artifact@v7

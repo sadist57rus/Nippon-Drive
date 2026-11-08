@@ -9,6 +9,7 @@ const PAGES = [
   { name: 'toyota-corolla-model', url: 'https://www.drom.ru/catalog/toyota/corolla/' },
   { name: 'toyota-corolla-2026', url: 'https://www.drom.ru/catalog/toyota/corolla/2026/' },
   { name: 'toyota-corolla-transmission', url: 'https://www.drom.ru/catalog/toyota/corolla/specs/transmission/' },
+  { name: 'mazda-autozam-clef-modification', url: 'https://www.drom.ru/catalog/mazda/autozam_clef/6338/' },
 ] as const;
 
 async function main() {

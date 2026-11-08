@@ -59,6 +59,24 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
   }
   if (variant.productionMonthTo && variant.productionMonthFrom && variant.productionMonthTo < variant.productionMonthFrom) errors.push('productionMonthTo precedes productionMonthFrom');
   const hasLimitation = (field: string) => (variant.limitations ?? []).some(item => item.field === field && item.reason.trim());
+  const isValidCalendarDate = (value: string) => {
+    const match = /^(\\d{4})-(\\d{2})-(\\d{2})$/.exec(value);
+    if (!match) return false;
+    const [, year, month, day] = match;
+    const date = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
+    return date.getUTCFullYear() === Number(year) && date.getUTCMonth() === Number(month) - 1 && date.getUTCDate() === Number(day);
+  };
+  const unresolvedMarketPattern = /не\\s*(?:указан|установлен|уточнён|уточнен)|unknown|страна\\s+сборки|сборк\\w*|страна\\s+производства|assembly|made\\s+in/i;
+  const marketEvidence = [variant.market, ...(variant.sources ?? []).map(source => source.market)].join(' ');
+  if (unresolvedMarketPattern.test(marketEvidence) && !hasLimitation('market')) {
+    errors.push('market requires a limitation when the source does not establish the sales market or only identifies assembly country');
+  }
+  if ((variant.sources ?? []).some(source => source.market.trim().toLocaleLowerCase('ru-RU') !== variant.market.trim().toLocaleLowerCase('ru-RU')) && !hasLimitation('market')) {
+    errors.push('source market differs from variant market and requires an explicit market limitation');
+  }
+  const allowedSourceTypes = new Set<VehicleVariantSource['sourceType']>([
+    'oem-owner-manual', 'oem-service-manual', 'oem-parts-catalog', 'oem-bulletin', 'regulator', 'secondary-reference',
+  ]);
   if (!(variant.engine?.code || variant.engineCode) && !hasLimitation('engine.code')) errors.push('engine.code is required or must have a limitation');
   if (!variant.transmissionType && !hasLimitation('transmissionType')) errors.push('transmissionType is required or must have a limitation');
   if (!variant.drivetrain && !hasLimitation('drivetrain')) errors.push('drivetrain is required or must have a limitation');
@@ -72,6 +90,7 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
   }
   for (const source of variant.sources ?? []) {
     if (!source.label?.trim() || !source.scope?.trim() || !source.market?.trim()) errors.push('source is missing label, scope or market');
+    if (!allowedSourceTypes.has(source.sourceType)) errors.push('sourceType is invalid');
     if (!/^https?:\/\//i.test(source.url ?? '')) errors.push('source URL must be HTTP(S)');
     if (!source.accessedAt || !/^\d{4}-\d{2}-\d{2}$/.test(source.accessedAt)) errors.push('source accessedAt must use YYYY-MM-DD');
   }

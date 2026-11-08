@@ -6,7 +6,7 @@ import { parseComplectationHtml, parseSpecificationHtml, parseIndividualModifica
 const USER_AGENT = 'Nippon-Drive-CatalogResearch/1.0 (+https://github.com/sadist57rus/Nippon-Drive)';
 const INVENTORY_PATH = resolve('artifacts/drom-catalog/inventory.json');
 const OUTPUT_DIR = resolve('artifacts/drom-catalog/technical-batch');
-const MAX_PAGES = 50;
+const MAX_PAGES = 200;
 const MAX_BYTES = 8 * 1024 * 1024;
 const JAPANESE_MAKES = new Set([
   'acura', 'daihatsu', 'honda', 'infiniti', 'isuzu', 'lexus', 'mazda',
@@ -30,22 +30,37 @@ async function main() {
       const url = new URL(item.url);
       return (url.hostname === 'www.drom.ru' || url.hostname === 'drom.ru') && url.pathname.startsWith('/catalog/');
     })
-    .sort((a, b) => a.url.localeCompare(b.url))
     .map((item) => [item.url, item])).values()];
-  const byMake = new Map<string, InventoryRecord[]>();
+
+  // First distribute across makes, then across distinct models within each make.
+  // This prevents alphabetically early models from consuming the whole batch.
+  const byMake = new Map<string, Map<string, InventoryRecord[]>>();
   for (const item of uniqueCandidates) {
-    const group = byMake.get(item.makeSlug!) ?? [];
-    group.push(item);
-    byMake.set(item.makeSlug!, group);
+    const modelSlug = new URL(item.url).pathname.split('/').filter(Boolean)[2];
+    if (!modelSlug) continue;
+    const makeModels = byMake.get(item.makeSlug!) ?? new Map<string, InventoryRecord[]>();
+    const modelPages = makeModels.get(modelSlug) ?? [];
+    modelPages.push(item);
+    makeModels.set(modelSlug, modelPages);
+    byMake.set(item.makeSlug!, makeModels);
   }
-  const makeQueues = [...byMake.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([, items]) => items);
+  const makeQueues = [...byMake.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([make, models]) => ({
+    make,
+    models: [...models.entries()].sort(([a], [b]) => a.localeCompare(b))
+      .map(([, pages]) => pages.sort((a, b) => a.url.localeCompare(b.url))),
+  }));
   const candidates: InventoryRecord[] = [];
-  while (candidates.length < MAX_PAGES && makeQueues.some((items) => items.length)) {
-    for (const items of makeQueues) {
-      const next = items.shift();
+  let modelRound = 0;
+  while (candidates.length < MAX_PAGES && makeQueues.some((queue) => queue.models.some((pages) => pages.length))) {
+    for (const queue of makeQueues) {
+      const availableModels = queue.models.filter((pages) => pages.length);
+      if (!availableModels.length) continue;
+      const modelIndex = modelRound % availableModels.length;
+      const next = availableModels[modelIndex].shift();
       if (next) candidates.push(next);
       if (candidates.length >= MAX_PAGES) break;
     }
+    modelRound += 1;
   }
 
   await mkdir(OUTPUT_DIR, { recursive: true });

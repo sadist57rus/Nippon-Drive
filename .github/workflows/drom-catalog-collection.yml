@@ -39,6 +39,12 @@ jobs:
       - name: Capture bounded public HTML samples
         if: github.event_name == 'push' || inputs.source == 'html-samples'
         run: npx --yes tsx scripts/captureDromHtmlSamples.ts
+      - name: Test Drom HTML parser
+        if: github.event_name == 'push' || inputs.source == 'html-samples'
+        run: npx --yes tsx scripts/testDromCatalogParser.ts
+      - name: Parse Drom modification rows
+        if: github.event_name == 'push' || inputs.source == 'html-samples'
+        run: npx --yes tsx scripts/parseDromHtmlSamples.ts
       - name: Upload source inventory and samples
         if: always()
         uses: actions/upload-artifact@v7

@@ -22,6 +22,12 @@ export type DromParsedVariant = {
   transmissionType: 'MT' | 'AT' | 'CVT' | 'DCT' | 'AMT' | null;
   drivetrain: 'FWD' | 'RWD' | 'AWD' | '4WD' | null;
   hybrid: boolean | null;
+  assemblyCountry: string | null;
+  generationPath: string | null;
+  generationCode: string | null;
+  modelYearFrom: number | null;
+  modelYearTo: number | null;
+  torqueNm: number | null;
   sourceUrl: string;
   sourceType: 'secondary-reference';
   verificationStatus: 'partially-verified';
@@ -76,7 +82,7 @@ function cellText(markup: string): string {
 
 function cellsFromRow(row: string): string[] {
   return [...row.matchAll(/<(?:td|th)\b[^>]*>([\s\S]*?)<\/(?:td|th)>/gi)]
-    .map((match) => cellText(match[1]));
+    .map((match) => cellText(match[1].replace(/<a\\b[^>]*>[\\s\\S]*?<\\/a>/gi, ' ')));
 }
 
 function monthFromPeriod(period: string | null, side: 'from' | 'to'): string | null {
@@ -250,6 +256,94 @@ export function parseSpecificationHtml(html: string, sourceUrl: string): DromSpe
   return records;
 }
 
+
+export function parseIndividualModificationHtml(html: string, sourceUrl: string): {
+  variant: DromParsedVariant;
+  specificationRows: DromSpecificationRow[];
+} | null {
+  const tableMatch = html.match(/<table\\b[^>]*class=["'][^"']*\\bb-table\\b[^"']*["'][^>]*>([\\s\\S]*?)<\\/table>/i);
+  if (!tableMatch) return null;
+  const rows = [...tableMatch[1].matchAll(/<tr\\b[^>]*>([\\s\\S]*?)<\\/tr>/gi)]
+    .map((match) => cellsFromRow(match[1]));
+  const values = new Map<string, string>();
+  for (const row of rows) {
+    if (row.length === 2) values.set(row[0].trim(), row[1].trim());
+  }
+  if (!values.has('Название комплектации')) return null;
+
+  const titleMarkup = html.match(/<h1\\b[^>]*>([\\s\\S]*?)<\\/h1>/i)?.[1] ?? '';
+  const modificationLabel = cellText(titleMarkup);
+  const generationAnchor = html.match(/<a\\b[^>]*href=["']([^"']*\\/g_\\d+_\\d+\\/)["'][^>]*>([\\s\\S]*?)<\\/a>/i);
+  const generationPath = generationAnchor ? decodeEntities(generationAnchor[1]) : null;
+  const generationLabel = generationAnchor ? cellText(generationAnchor[2]) : null;
+  const generationNumberMatch = generationLabel?.match(/(\\d+)\\s*поколени/i);
+  const generationCodeMatch = generationLabel?.match(/,\\s*([A-Z0-9-]+)\\s+\\d{2}\\.\\d{4}/);
+  const yearPeriod = values.get('Период выпуска') ?? '';
+  const years = yearPeriod.match(/((?:19|20)\\d{2})\\s*[-–]\\s*((?:19|20)\\d{2})/);
+  const titlePeriod = modificationLabel.match(/(\\d{2}\\.\\d{4}\\s*[-–]\\s*\\d{2}\\.\\d{4})/)?.[1] ?? null;
+  const displacementValue = values.get('Объем двигателя, куб.см') ?? '';
+  const powerValue = values.get('Максимальная мощность, л.с. (кВт) при об./мин.') ?? '';
+  const torqueValue = values.get('Максимальный крутящий момент, Н*м (кг*м) при об./мин.') ?? '';
+  const fuelValue = values.get('Используемое топливо') ?? '';
+  const transmissionValue = values.get('Тип трансмиссии') ?? '';
+  const driveValue = values.get('Тип привода') ?? '';
+  const generation = parseGenerationHeading(generationLabel ?? '');
+  const group = parseGroup(transmissionValue + ' ' + driveValue + ' ' + fuelValue);
+  const limitations: string[] = [
+    'market: Drom modification page provides assembly country, not a confirmed sales market',
+    'generationId: canonical generation ID mapping is not inferred by the scraper',
+  ];
+  if (!values.get('Марка кузова')) limitations.push('bodyCode: missing in Drom modification table');
+  if (!values.get('Марка двигателя')) limitations.push('engine.code: missing in Drom modification table');
+
+  const identity = modelIdentityFromUrl(sourceUrl);
+  const variant: DromParsedVariant = {
+    ...identity,
+    market: null,
+    generationLabel,
+    generationNumber: generationNumberMatch ? Number(generationNumberMatch[1]) : null,
+    generationProductionFrom: generation.from,
+    generationProductionTo: generation.to,
+    bodyStyle: values.get('Тип кузова') || null,
+    trimOrGrade: values.get('Название комплектации') ?? modificationLabel,
+    productionMonthFrom: monthFromPeriod(titlePeriod, 'from'),
+    productionMonthTo: monthFromPeriod(titlePeriod, 'to'),
+    engineCode: values.get('Марка двигателя') || null,
+    bodyCode: values.get('Марка кузова') || null,
+    displacementCc: /^\\d+(?:[.,]\\d+)?$/.test(displacementValue) ? Number(displacementValue.replace(',', '.')) : null,
+    powerHp: powerValue.match(/\\d+/) ? Number(powerValue.match(/\\d+/)![0]) : null,
+    fuelType: group.fuelType,
+    transmissionType: group.transmissionType,
+    drivetrain: group.drivetrain,
+    hybrid: /гибрид|hybrid/i.test(fuelValue) ? true : null,
+    assemblyCountry: values.get('Страна сборки') || null,
+    generationPath,
+    generationCode: generationCodeMatch?.[1] ?? null,
+    modelYearFrom: years ? Number(years[1]) : null,
+    modelYearTo: years ? Number(years[2]) : null,
+    torqueNm: torqueValue.match(/\\d+/) ? Number(torqueValue.match(/\\d+/)![0]) : null,
+    sourceUrl,
+    sourceType: 'secondary-reference',
+    verificationStatus: 'partially-verified',
+    limitations,
+  };
+
+  const specificationRows: DromSpecificationRow[] = rows
+    .filter((row) => row.length === 2 && row[0].trim() && row[1].trim())
+    .map((row) => ({
+      ...identity,
+      market: null,
+      generationHeading: generationLabel,
+      modificationLabel,
+      specificationName: row[0],
+      value: row[1],
+      sourceUrl,
+      sourceType: 'secondary-reference',
+      verificationStatus: 'partially-verified',
+    }));
+  return { variant, specificationRows };
+}
+
 async function main() {
   const manifest = JSON.parse(await readFile(MANIFEST_PATH, 'utf8')) as {
     results: Array<{ name: string; requestedUrl: string; finalUrl?: string; contentType?: string; status?: number; file?: string; error?: string }>;
@@ -274,11 +368,16 @@ async function main() {
       continue;
     }
     const sourceUrl = item.finalUrl ?? item.requestedUrl;
+    const individual = parseIndividualModificationHtml(html, sourceUrl);
     const parsedVariants = parseComplectationHtml(html, sourceUrl);
     const parsedSpecifications = parseSpecificationHtml(html, sourceUrl);
+    if (individual) {
+      variants.push(individual.variant);
+      specifications.push(...individual.specificationRows);
+    }
     variants.push(...parsedVariants);
     specifications.push(...parsedSpecifications);
-    if (!parsedVariants.length && !parsedSpecifications.length) skippedSamples.push(item.name);
+    if (!individual && !parsedVariants.length && !parsedSpecifications.length) skippedSamples.push(item.name);
   }
 
   const uniqueVariants = new Map<string, DromParsedVariant>();

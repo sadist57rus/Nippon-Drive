@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { parseComplectationHtml, parseSpecificationHtml } from './parseDromHtmlSamples.js';
+import { parseComplectationHtml, parseSpecificationHtml, parseIndividualModificationHtml } from './parseDromHtmlSamples.js';
 
 const USER_AGENT = 'Nippon-Drive-CatalogResearch/1.0 (+https://github.com/sadist57rus/Nippon-Drive)';
 const INVENTORY_PATH = resolve('artifacts/drom-catalog/inventory.json');
@@ -71,8 +71,13 @@ async function main() {
       if (bytes.byteLength > MAX_BYTES) throw new Error('Response exceeds ' + MAX_BYTES + ' byte limit');
       const charset = contentType.match(/charset=([^;]+)/i)?.[1]?.trim() || 'utf-8';
       const html = new TextDecoder(charset).decode(bytes);
+      const individual = parseIndividualModificationHtml(html, response.url);
       const pageVariants = parseComplectationHtml(html, response.url);
       const pageSpecifications = parseSpecificationHtml(html, response.url);
+      if (individual) {
+        variants.push(individual.variant);
+        specifications.push(...individual.specificationRows);
+      }
       variants.push(...pageVariants);
       specifications.push(...pageSpecifications);
       results.push({
@@ -83,8 +88,8 @@ async function main() {
         contentType,
         bytes: bytes.byteLength,
         sha256: createHash('sha256').update(bytes).digest('hex'),
-        modificationRows: pageVariants.length,
-        specificationRows: pageSpecifications.length,
+        modificationRows: pageVariants.length + (individual ? 1 : 0),
+        specificationRows: pageSpecifications.length + (individual?.specificationRows.length ?? 0),
         startedAt,
       });
     } catch (error) {

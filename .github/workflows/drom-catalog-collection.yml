@@ -4,11 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       source:
-        description: Public Drom XML sitemap inventory
+        description: Collection mode
         required: true
         type: choice
         options:
           - sitemap-inventory
+          - html-samples
         default: sitemap-inventory
 
 permissions:
@@ -30,12 +31,16 @@ jobs:
         with:
           node-version: 24
       - name: Discover public Drom catalogue URLs
+        if: inputs.source == 'sitemap-inventory'
         run: npx --yes tsx scripts/collectDromCatalog.ts
-      - name: Upload source inventory
+      - name: Capture bounded public HTML samples
+        if: inputs.source == 'html-samples'
+        run: npx --yes tsx scripts/captureDromHtmlSamples.ts
+      - name: Upload source inventory and samples
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: drom-catalog-sitemap-inventory
+          name: drom-catalog-${{ inputs.source }}
           path: artifacts/drom-catalog/
           if-no-files-found: warn
           retention-days: 14

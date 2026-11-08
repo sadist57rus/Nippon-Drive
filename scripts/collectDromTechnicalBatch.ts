@@ -119,7 +119,7 @@ async function main() {
     pagesFetched: output.pagesFetched,
     failedPages: output.failedPages,
     modificationRows: output.modificationRows,
-    specificationRows: output.specificationRows,
+    specificationRows: output.specificationRowCount,
   }, null, 2));
   if (!candidates.length || !output.pagesFetched) process.exitCode = 1;
 }

@@ -1,6 +1,11 @@
 name: Drom catalogue source collection
 
 on:
+  push:
+    branches:
+      - feature/drom-technical-scraper
+    paths:
+      - .github/workflows/drom-catalog-collection.yml
   workflow_dispatch:
     inputs:
       source:

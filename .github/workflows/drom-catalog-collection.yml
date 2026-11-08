@@ -19,7 +19,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: drom-catalog-source-collection-v2
+  group: drom-catalog-source-collection-v3
   cancel-in-progress: false
 
 jobs:

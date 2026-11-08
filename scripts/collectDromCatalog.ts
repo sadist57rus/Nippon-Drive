@@ -3,7 +3,7 @@ import { resolve } from 'node:path';
 
 const USER_AGENT = 'Nippon-Drive-CatalogResearch/1.0 (+https://github.com/sadist57rus/Nippon-Drive)';
 const OUTPUT_DIR = resolve('artifacts/drom-catalog');
-const MAX_SITEMAPS = Number(process.env.DROM_MAX_SITEMAPS ?? 50);
+const MAX_SITEMAPS = Number(process.env.DROM_MAX_SITEMAPS ?? 20);
 
 const SEEDS = [
   'https://www.drom.ru/sitemaps/catalog/generated/catalog_firms_index.xml',
@@ -61,7 +61,7 @@ function makeFromUrl(url: string): string | null {
 async function fetchXml(url: string): Promise<string> {
   const response = await fetch(url, {
     headers: { 'user-agent': USER_AGENT, accept: 'application/xml,text/xml,*/*' },
-    signal: AbortSignal.timeout(30_000),
+    signal: AbortSignal.timeout(12_000),
   });
   if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`);
   if (new URL(url).pathname.endsWith('.gz')) {

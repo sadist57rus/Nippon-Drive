@@ -54,9 +54,11 @@ const MANIFEST_PATH = resolve(INPUT_DIR, 'manifest.json');
 function modelIdentityFromUrl(sourceUrl: string) {
   const parts = new URL(sourceUrl).pathname.split('/').filter(Boolean);
   const catalogIndex = parts.indexOf('catalog');
+  const isLcvPath = catalogIndex >= 0 && parts[catalogIndex + 1] === 'lcv';
+  const makeIndex = catalogIndex + (isLcvPath ? 2 : 1);
   return {
-    makeSlug: catalogIndex >= 0 ? parts[catalogIndex + 1] ?? 'unknown' : 'unknown',
-    modelSlug: catalogIndex >= 0 ? parts[catalogIndex + 2] ?? 'unknown' : 'unknown',
+    makeSlug: catalogIndex >= 0 ? parts[makeIndex] ?? 'unknown' : 'unknown',
+    modelSlug: catalogIndex >= 0 ? parts[makeIndex + 1] ?? 'unknown' : 'unknown',
   };
 }
 

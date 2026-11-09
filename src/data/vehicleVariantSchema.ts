@@ -60,13 +60,13 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
   if (variant.productionMonthTo && variant.productionMonthFrom && variant.productionMonthTo < variant.productionMonthFrom) errors.push('productionMonthTo precedes productionMonthFrom');
   const hasLimitation = (field: string) => (variant.limitations ?? []).some(item => item.field === field && item.reason.trim());
   const isValidCalendarDate = (value: string) => {
-    const match = /^(\\d{4})-(\\d{2})-(\\d{2})$/.exec(value);
+    const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
     if (!match) return false;
     const [, year, month, day] = match;
     const date = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
     return date.getUTCFullYear() === Number(year) && date.getUTCMonth() === Number(month) - 1 && date.getUTCDate() === Number(day);
   };
-  const unresolvedMarketPattern = /не\\s*(?:указан|установлен|уточнён|уточнен)|unknown|страна\\s+сборки|сборк\\w*|страна\\s+производства|assembly|made\\s+in/i;
+  const unresolvedMarketPattern = /не\s*(?:указан|установлен|уточнён|уточнен)|unknown|страна\s+сборки|сборк\w*|страна\s+производства|assembly|made\s+in/i;
   const marketEvidence = [variant.market, ...(variant.sources ?? []).map(source => source.market)].join(' ');
   if (unresolvedMarketPattern.test(marketEvidence) && !hasLimitation('market')) {
     errors.push('market requires a limitation when the source does not establish the sales market or only identifies assembly country');
@@ -92,7 +92,7 @@ export function validateVehicleVariant(variant: VehicleVariant): string[] {
     if (!source.label?.trim() || !source.scope?.trim() || !source.market?.trim()) errors.push('source is missing label, scope or market');
     if (!allowedSourceTypes.has(source.sourceType)) errors.push('sourceType is invalid');
     if (!/^https?:\/\//i.test(source.url ?? '')) errors.push('source URL must be HTTP(S)');
-    if (!source.accessedAt || !/^\d{4}-\d{2}-\d{2}$/.test(source.accessedAt)) errors.push('source accessedAt must use YYYY-MM-DD');
+    if (!isValidCalendarDate(source.accessedAt ?? '')) errors.push('source accessedAt must be a valid calendar date in YYYY-MM-DD format');
   }
   if (variant.verificationStatus === 'verified') {
     if (!variant.sources?.length) errors.push('verified variants require source references');

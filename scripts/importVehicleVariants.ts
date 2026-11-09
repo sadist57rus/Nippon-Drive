@@ -57,7 +57,7 @@ for (const file of files) {
       variant.modelId, variant.generationId, variant.market, variant.modelYearFrom, variant.modelYearTo ?? '',
       variant.productionMonthFrom ?? '', variant.productionMonthTo ?? '', variant.bodyCode, variant.bodyStyle ?? '',
       variant.trimOrGrade ?? '', variant.engine?.code ?? variant.engineCode ?? '', variant.transmissionCode ?? '',
-      variant.transmissionType ?? '', variant.drivetrain ?? '',
+      variant.transmissionType ?? '', variant.drivetrain ?? '', variant.steeringPosition ?? '',
     ].join('|').toLocaleLowerCase('en');
     if (identities.has(identity)) errors.push(label + ': duplicate exact vehicle identity');
     identities.add(identity);

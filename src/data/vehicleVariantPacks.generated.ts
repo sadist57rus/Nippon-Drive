@@ -28116,7 +28116,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28132,6 +28133,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28182,10 +28192,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28211,7 +28217,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28227,6 +28234,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28277,10 +28293,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28306,7 +28318,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28322,6 +28335,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab slide passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28372,10 +28394,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28401,7 +28419,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28417,6 +28436,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab slide passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28467,10 +28495,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28496,7 +28520,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28512,6 +28537,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28562,10 +28596,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28591,7 +28621,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28607,6 +28638,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28657,10 +28697,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28686,7 +28722,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28702,6 +28739,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28752,10 +28798,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28781,7 +28823,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28797,6 +28840,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28847,10 +28899,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28876,7 +28924,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28892,6 +28941,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab slide passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -28942,10 +29000,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -28971,7 +29025,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -28987,6 +29042,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab slide passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29037,10 +29101,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29066,7 +29126,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29082,6 +29143,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29132,10 +29202,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29161,7 +29227,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29177,6 +29244,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29227,10 +29303,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29256,7 +29328,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29272,6 +29345,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29322,10 +29404,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29351,7 +29429,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29367,6 +29446,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29417,10 +29505,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29446,7 +29530,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29462,6 +29547,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2008–04.2009; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2008-09–2009-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29512,10 +29606,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29541,7 +29631,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29557,6 +29648,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29607,10 +29707,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29636,7 +29732,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29652,6 +29749,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29702,10 +29808,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29731,7 +29833,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29747,6 +29850,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab lift-up passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29797,10 +29909,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29826,7 +29934,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29842,6 +29951,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab lift-up passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29892,10 +30010,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -29921,7 +30035,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -29937,6 +30052,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -29987,10 +30111,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30016,7 +30136,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30032,6 +30153,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30082,10 +30212,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30111,7 +30237,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30127,6 +30254,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30177,10 +30313,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30206,7 +30338,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30222,6 +30355,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30272,10 +30414,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30301,7 +30439,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30317,6 +30456,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab lift-up passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30367,10 +30515,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30396,7 +30540,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30412,6 +30557,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab lift-up passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30462,10 +30616,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30491,7 +30641,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30507,6 +30658,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30557,10 +30717,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30586,7 +30742,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30602,6 +30759,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30652,10 +30818,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30681,7 +30843,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30697,6 +30860,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30747,10 +30919,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30776,7 +30944,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30792,6 +30961,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30842,10 +31020,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30871,7 +31045,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30887,6 +31062,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 09.2007–08.2008; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-09–2008-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -30937,10 +31121,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -30966,7 +31146,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -30982,6 +31163,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31032,10 +31222,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -31061,7 +31247,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31077,6 +31264,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31127,10 +31323,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -31156,7 +31348,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31172,6 +31365,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab rotating and sliding passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31222,10 +31424,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -31251,7 +31449,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31267,6 +31466,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab rotating and sliding passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31317,10 +31525,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -31346,7 +31550,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31362,6 +31567,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31412,10 +31626,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -31441,7 +31651,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31457,6 +31668,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31507,10 +31727,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "specification.differentialFluid",
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
       },
       {
         "field": "hybridSystemPower",
@@ -31536,7 +31752,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31552,6 +31769,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31604,10 +31830,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       },
       {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
-      },
-      {
         "field": "hybridSystemPower",
         "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
@@ -31631,7 +31853,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31647,6 +31870,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31677,10 +31909,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -31726,7 +31954,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31742,6 +31971,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab rotating and sliding passenger seat A type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31772,10 +32010,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -31821,7 +32055,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31837,6 +32072,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab rotating and sliding passenger seat B type; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31867,10 +32111,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -31916,7 +32156,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -31932,6 +32173,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab friendmatic type I; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -31962,10 +32212,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32011,7 +32257,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32027,6 +32274,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G welcab friendmatic type II; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32057,10 +32313,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32106,7 +32358,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32122,6 +32375,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32152,10 +32414,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32201,7 +32459,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32217,6 +32476,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection Leather package; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32247,10 +32515,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32296,7 +32560,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 76,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 110
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32312,6 +32577,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S 10th anniversary edition; 1NZ-FXE 1496 см³, 76 л.с., CVT, FWD, 01.2007–08.2007; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 76 л.с., 110 Н·м; NHW20; CVT, FWD; 2007-01–2007-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32342,10 +32616,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32391,7 +32661,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32407,6 +32678,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S standard package; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2005-11–2006-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32437,10 +32717,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32486,7 +32762,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32502,6 +32779,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2005-11–2006-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32532,10 +32818,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32581,7 +32863,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32597,6 +32880,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift S touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2005-11–2006-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32627,10 +32919,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32676,7 +32964,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32692,6 +32981,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2005-11–2006-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32722,10 +33020,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32771,7 +33065,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32787,6 +33082,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2005-11–2006-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32817,10 +33121,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32866,7 +33166,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32882,6 +33183,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "NHW20 facelift G touring selection leather package; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 11.2005–12.2006; электрический мотор Drom указывает отдельно.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2005-11–2006-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -32912,10 +33222,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -32961,7 +33267,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -32977,6 +33284,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 S; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2003-09–2005-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -33007,10 +33323,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -33060,7 +33372,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -33076,6 +33389,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 G; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2003-09–2005-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -33106,10 +33428,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -33159,7 +33477,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -33175,6 +33494,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 S touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2003-09–2005-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -33205,10 +33533,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -33258,7 +33582,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -33274,6 +33599,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 G touring selection; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 09.2003–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2003-09–2005-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -33304,10 +33638,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -33357,7 +33687,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -33373,6 +33704,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 S touring selection premium; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 08.2004–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2004-08–2005-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -33403,10 +33743,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -33456,7 +33792,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 77,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 115
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -33472,6 +33809,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 G touring selection premium; 1NZ-FXE 1496 см³, 77 л.с., CVT, FWD, 08.2004–10.2005. Drom lists ZA-NHW20 and DAA-NHW20 body codes for the generation; exact code by trim is not separated.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "1NZ-FXE 1496 см³, 77 л.с., 115 Н·м; NHW20; CVT, FWD; 2004-08–2005-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -33502,10 +33848,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "engine.induction",
         "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент ДВС для конкретной гибридной комплектации не подтверждён; не подменять момент ДВС моментом электромотора."
       },
       {
         "field": "specification.engineOil",
@@ -36465,7 +36807,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "MT",
     "drivetrain": "FWD",
@@ -36481,13 +36824,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS; L15A 1496 см³, 120 л.с., MT, FWD, 11.2009–09.2010.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE8; MT, FWD; 2009-11–2010-09",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36503,6 +36851,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36524,7 +36900,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "MT",
     "drivetrain": "FWD",
@@ -36540,13 +36917,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS; L15A 1496 см³, 120 л.с., MT, FWD, 10.2007–10.2009.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE8; MT, FWD; 2007-10–2009-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36562,6 +36944,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36583,7 +36993,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "MT",
     "drivetrain": "FWD",
@@ -36599,13 +37010,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS highway edition; L15A 1496 см³, 120 л.с., MT, FWD, 06.2008–10.2009.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE8; MT, FWD; 2008-06–2009-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36621,6 +37037,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36642,7 +37086,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "AT",
     "drivetrain": "4WD",
@@ -36658,13 +37103,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 X 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 11.2009–09.2010.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE9; AT, 4WD; 2009-11–2010-09",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36680,6 +37130,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36701,7 +37179,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "AT",
     "drivetrain": "4WD",
@@ -36717,13 +37196,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 11.2009–09.2010.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE9; AT, 4WD; 2009-11–2010-09",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36739,6 +37223,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36760,7 +37272,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "AT",
     "drivetrain": "4WD",
@@ -36776,13 +37289,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 10.2007–10.2009.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE9; AT, 4WD; 2007-10–2009-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36798,6 +37316,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36819,7 +37365,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "AT",
     "drivetrain": "4WD",
@@ -36835,13 +37382,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS highway edition 4WD; L15A 1496 см³, 120 л.с., AT, 4WD, 06.2008–10.2009.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE9; AT, 4WD; 2008-06–2009-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36857,6 +37409,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36878,7 +37458,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -36894,13 +37475,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 X; L15A 1496 см³, 120 л.с., CVT, FWD, 11.2009–09.2010.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE8; CVT, FWD; 2009-11–2010-09",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36916,6 +37502,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36937,7 +37551,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -36953,13 +37568,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS; L15A 1496 см³, 120 л.с., CVT, FWD, 11.2009–09.2010.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE8; CVT, FWD; 2009-11–2010-09",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -36975,6 +37595,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -36996,7 +37644,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -37012,13 +37661,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS; L15A 1496 см³, 120 л.с., CVT, FWD, 10.2007–10.2009.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE8; CVT, FWD; 2007-10–2009-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -37034,6 +37688,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -37055,7 +37737,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "L15A",
       "displacementCc": 1496,
       "powerHp": 120,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 145
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -37071,13 +37754,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Япония",
         "scope": "1.5 RS highway edition; L15A 1496 см³, 120 л.с., CVT, FWD, 06.2008–10.2009.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Fit — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/fit/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Япония",
+        "scope": "L15A 1496 см³, 120 л.с., 145 Н·м; DBA-GE8; CVT, FWD; 2008-06–2009-10",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -37093,6 +37781,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
@@ -37114,7 +37830,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "2ZR-FXE",
       "displacementCc": 1798,
       "powerHp": 99,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 142
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -37130,13 +37847,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "1.8 CVT Elegance; 2ZR-FXE 1798 см³, 99 л.с., гибрид, CVT, FWD, 10.2009–12.2011.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2ZR-FXE 1798 см³, 99 л.с., 142 Н·м; ZVW30; CVT, FWD; 2009-10–2011-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -37152,9 +37874,41 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Toyota lists 99 PS for the gasoline engine, 82 PS for the electric motor and 136 PS for the complete hybrid system. engine.powerHp stores only engine output; total system power is not a separate field in the current schema."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only."
   },
   {
     "id": "toyota-prius-xw30-liftback-zvw30l-2zr-fxe-99-1-8-cvt-prestige-2009-10-2011-12-100",
@@ -37173,7 +37927,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "2ZR-FXE",
       "displacementCc": 1798,
       "powerHp": 99,
-      "fuelType": "Бензин/гибрид"
+      "fuelType": "Бензин/гибрид",
+      "torqueNm": 142
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -37189,13 +37944,18 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "1.8 CVT Prestige; 2ZR-FXE 1798 см³, 99 л.с., гибрид, CVT, FWD, 10.2009–12.2011.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "2ZR-FXE 1798 см³, 99 л.с., 142 Н·м; ZVW30; CVT, FWD; 2009-10–2011-12",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
-      {
-        "field": "engineTorque",
-        "reason": "Крутящий момент точной комплектации не указан в использованной таблице Drom."
-      },
       {
         "field": "transmissionCode",
         "reason": "Заводской код агрегата не подтверждён таблицей комплектаций; требуется сверка по VIN."
@@ -37211,9 +37971,41 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Toyota lists 99 PS for the gasoline engine, 82 PS for the electric motor and 136 PS for the complete hybrid system. engine.powerHp stores only engine output; total system power is not a separate field in the current schema."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only."
   },
   {
     "id": "batch50-toyota-mr2-sw20-gt-s-1997",
@@ -37266,6 +38058,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37322,6 +38146,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37375,6 +38231,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37428,6 +38316,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37481,6 +38401,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37516,11 +38468,11 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "verificationStatus": "partially-verified",
     "sources": [
       {
-        "label": "Altezza RS200 (SXE10) — источник 1",
-        "url": "https://gazoo.com/catalog/maker/TOYOTA/ALTEZZA/199810/1003926/",
+        "label": "Toyota official U-Car catalog — Altezza RS200 1998.10, 5AT",
+        "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-ALTEZZA/199810/1003926/",
         "sourceType": "secondary-reference",
         "market": "Japan",
-        "scope": "Заводской Toyota GAZOO RS200 GF-SXE10 (1998.10): 4400×1720×1410 мм, база 2670 мм, колея 1495/1485 мм, масса 1330 кг для 5AT, 3S-GE 200 PS/216 Н·м, бак 60 л, FR, 5AT; главная пара 4.100. У 6MT и Z Edition другие мощность/масса. Шины, диски и длины дворников не включены без отдельного подтверждения для конкретной комплектации.",
+        "scope": "GF-SXE10 RS200, 3S-GE 1998 см³, 200 PS, 215.7 Н·м, FR, 5-speed automatic; 1998.10–2000.05",
         "accessedAt": "2026-11-07"
       },
       {
@@ -37538,16 +38490,49 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
       },
       {
-        "field": "transmissionType",
-        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
-      },
-      {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "modelYearTo",
+        "reason": "Current Toyota U-Car citations cover 1998.10–2001.05 only; the record's 2001–2005 tail needs a separate year-specific source."
       }
     ],
     "lastReviewed": "2026-11-07",
-    "notes": "Заводской Toyota GAZOO RS200 GF-SXE10 (1998.10): 4400×1720×1410 мм, база 2670 мм, колея 1495/1485 мм, масса 1330 кг для 5AT, 3S-GE 200 PS/216 Н·м, бак 60 л, FR, 5AT; главная пара 4.100. У 6MT и Z Edition другие мощность/масса. Шины, диски и длины дворников не включены без отдельного подтверждения для конкретной комплектации."
+    "notes": "Заводской Toyota GAZOO RS200 GF-SXE10 (1998.10): 4400×1720×1410 мм, база 2670 мм, колея 1495/1485 мм, масса 1330 кг для 5AT, 3S-GE 200 PS/216 Н·м, бак 60 л, FR, 5AT; главная пара 4.100. У 6MT и Z Edition другие мощность/масса. Шины, диски и длины дворников не включены без отдельного подтверждения для конкретной комплектации.",
+    "transmissionType": "AT"
   },
   {
     "id": "batch50-toyota-aristo-jzs161-v300",
@@ -37605,6 +38590,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37644,7 +38661,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-COROLLA_LEVIN/199205/10047148/",
         "sourceType": "secondary-reference",
         "market": "Japan",
-        "scope": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели.",
+        "scope": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели.; Toyota official U-Car specification confirms 5-speed manual transmission.; Toyota official U-Car specification confirms 5-speed manual transmission.",
         "accessedAt": "2026-11-07"
       }
     ],
@@ -37654,16 +38671,53 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "reason": "Код коробки не подтверждён; тип трансмиссии не заменяет код агрегата."
       },
       {
-        "field": "transmissionType",
-        "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
-      },
-      {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+      },
+      {
+        "field": "modelYearFrom",
+        "reason": "Current cited Toyota U-Car page identifies the 1992.05 GT APEX specification; the complete 1991–1995 model-year span needs year-specific confirmation."
+      },
+      {
+        "field": "modelYearTo",
+        "reason": "Current cited Toyota U-Car page identifies the 1992.05 GT APEX specification; the complete 1991–1995 model-year span needs year-specific confirmation."
       }
     ],
     "lastReviewed": "2026-11-07",
-    "notes": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели."
+    "notes": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели.",
+    "transmissionType": "MT"
   },
   {
     "id": "batch50-nissan-skyline-gt-r-bnr34-v-spec-ii",
@@ -37714,6 +38768,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37771,6 +38857,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37842,6 +38964,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён используемым источником."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37912,6 +39070,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -37967,16 +39161,49 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
       },
       {
-        "field": "drivetrain",
-        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
-      },
-      {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
-    "notes": "Заменены ранее смешанные ориентировочные параметры на характеристики одной заводской версии Nissan Note 2WD 15S 2005 года: 3730×1670×1640 мм, база 2430 мм, масса 1070 кг, CR14DE 1386 см³, 98 PS/137 Н·м. Ёмкость бака, клиренс, трансмиссия и сервисные параметры оставлены неподтверждёнными."
+    "notes": "Заменены ранее смешанные ориентировочные параметры на характеристики одной заводской версии Nissan Note 2WD 15S 2005 года: 3730×1670×1640 мм, база 2430 мм, масса 1070 кг, CR14DE 1386 см³, 98 PS/137 Н·м. Ёмкость бака, клиренс, трансмиссия и сервисные параметры оставлены неподтверждёнными. Nissan Heritage source identifies this exact Note 2WD 15S version; drivetrain normalized to FWD. Nissan Heritage source identifies this exact Note 2WD 15S version; drivetrain normalized to FWD.",
+    "drivetrain": "FWD"
   },
   {
     "id": "batch50-mitsubishi-lancer-cs-wagon",
@@ -37992,7 +39219,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "4G18",
       "displacementCc": 1584,
       "powerHp": 98,
-      "torqueNm": 3,
+      "torqueNm": 150,
       "fuelType": "gasoline"
     },
     "engineCode": "4G18",
@@ -38030,6 +39257,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в источнике",
         "scope": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки.",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Drom Mitsubishi Lancer — engine torque",
+        "url": "https://www.drom.ru/catalog/mitsubishi/lancer/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "CS3W wagon, 4G18 1584 см³, 98 л.с., 150 Н·м, FWD; 1.6 MT/AT variants.",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -38046,16 +39282,49 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "reason": "В исходной записи несколько вариантов трансмиссии или тип не уточнён; нужна проверка конкретной комплектации."
       },
       {
-        "field": "drivetrain",
-        "reason": "Привод зависит от рынка/комплектации или не установлен однозначно."
-      },
-      {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для переднеприводной версии отдельная раздаточная коробка не предусмотрена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
-    "notes": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки."
+    "notes": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки. Corrected erroneous 3 Nm to 150 Nm from Drom's CS wagon 4G18 torque table. Mitsubishi service manual lists CS3W as 2WD with both 5MT and 4AT; exact gearbox remains unresolved. Corrected erroneous 3 Nm to 150 Nm from Drom's CS wagon 4G18 torque table. Mitsubishi service manual lists CS3W as 2WD with both 5MT and 4AT; exact gearbox remains unresolved.",
+    "drivetrain": "FWD"
   },
   {
     "id": "batch50-mitsubishi-pajero-io-h76-suv",
@@ -38112,6 +39381,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38180,6 +39485,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38248,6 +39589,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38327,6 +39704,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38395,6 +39808,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии 4WD/AWD тип и объём жидкости передаточного узла/раздатки не подтверждены."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38467,6 +39916,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38529,6 +40014,46 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён используемым источником."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38600,6 +40125,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38619,7 +40180,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "1NZ-FXE",
       "displacementCc": 1496,
       "powerHp": 58,
-      "fuelType": "gasoline"
+      "fuelType": "gasoline",
+      "torqueNm": 102
     },
     "engineCode": "1NZ-FXE",
     "steeringPosition": "unknown",
@@ -38638,6 +40200,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в источнике",
         "scope": "Размеры, масса и двигатель взяты из Toyota Global Vehicle Lineage для представительной японской NHW10. Мощность указана для ДВС, а не системы в целом. Бак, клиренс, сервисные жидкости и момент не заполнены без подтверждения для точной комплектации.",
         "accessedAt": "2026-11-07"
+      },
+      {
+        "label": "Drom Toyota Prius — engine torque",
+        "url": "https://www.drom.ru/catalog/toyota/prius/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "не указан в источнике",
+        "scope": "1NZ-FXE 1496 см³, 58 л.с., 102 Н·м; NHW10; gasoline engine only.",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -38660,6 +40231,46 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "The source record contains gasoline-engine output only. Combined hybrid-system output and electric-motor output are not established in this variant record."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38731,10 +40342,50 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "engine.powerHp is the gasoline-engine output only. Total hybrid-system power and electric-motor output are not represented by this field."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
-    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику."
+    "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику. Hybrid engine power is recorded separately from system output; do not treat 98 PS as the complete hybrid-system rating. Hybrid engine power is recorded separately from system output; do not treat 98 PS as the complete hybrid-system rating."
   },
   {
     "id": "batch50-toyota-estima-xr50",
@@ -38802,6 +40453,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38872,6 +40559,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -38942,6 +40665,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39004,6 +40763,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39074,6 +40869,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39136,6 +40967,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39206,6 +41073,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39284,6 +41187,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39362,6 +41301,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39440,6 +41415,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39511,6 +41522,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39590,6 +41637,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",
@@ -39661,6 +41744,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "Размеры шин/дисков и применимость к точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя для этой комплектации не подтверждены; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён первичным документом."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода КПП/CVT и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Привод этой версии не установлен; применимость раздаточной коробки и её жидкости не подтверждена."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масла дифференциала/моста для точной версии не подтверждены."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "tires",
+        "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
       }
     ],
     "lastReviewed": "2026-11-07",

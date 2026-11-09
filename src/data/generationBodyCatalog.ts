@@ -66,7 +66,23 @@ const commonTasks = [
 
 ];
 export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
- {id:'mitsubishi-outlander-cu',sourceModelId:'outlander-1',make:'Mitsubishi',model:'Outlander / Airtrek',generation:'I',chassisCodes:['CU2W','CU4W','CU5W','CU0W'],years:'2001–2008 (рынок-зависимо)',bodyStyles:['5-дверный SUV'],engineFamilies:['4G63 2.0 бензин','4G64 2.4 бензин','4G69 2.4 MIVEC','4G63T турбо — отдельные рынки/версии'],transmissionFamilies:['5MT — отдельные версии','4AT/INVECS-II — по версии'],drivetrainNotes:'FWD и 4WD; тип раздатки/центрального узла подтверждать по коду кузова.',verification:'separated-needs-verification',modelFamilyId:'mitsubishi-outlander-258',source:'Drom',nextDataTasks:commonTasks},
+ {
+  id:'mitsubishi-outlander-cu',sourceModelId:'outlander-1',make:'Mitsubishi',model:'Outlander / Airtrek',generation:'I',chassisCodes:['CU2W','CU4W','CU5W','CU0W'],years:'2001–2008 (рынок-зависимо)',bodyStyles:['5-дверный SUV'],
+  engineFamilies:['4G63 2.0 бензин','4G64 2.4 бензин','4G69 2.4 MIVEC — 2 378 см³, 160 л.с., 216 Н·м (CU5W, Drom-комплектации 2002–2004)','4G63T турбо — отдельные рынки/версии'],
+  transmissionFamilies:['5MT — отдельные версии','4AT — подтверждена для указанных 2.4 CU5W комплектаций'],
+  drivetrainNotes:'FWD и 4WD; тип раздатки/центрального узла подтверждать по коду кузова. Размеры ниже относятся к конкретным комплектациям CU5W.',
+  verification:'separated-needs-verification',modelFamilyId:'mitsubishi-outlander-258',source:'Drom',
+  dimensionVariants:[
+   {label:'CU5W 2.4 AT XLS, FWD, 12.2002–03.2006',bodyStyle:'SUV',lengthMm:4550,widthMm:1750,heightMm:1680,wheelbaseMm:2625,groundClearanceMm:210,trackFrontMm:1540,trackRearMm:1540,curbWeightKg:'1470'},
+   {label:'CU5W 2.4 MIVEC AT Sport S03, 4WD, 02.2003–11.2004',bodyStyle:'SUV',lengthMm:4535,widthMm:1750,heightMm:1620,wheelbaseMm:2625,groundClearanceMm:195,trackFrontMm:1499,trackRearMm:1499,curbWeightKg:'1560'}
+  ],
+  dimensions:{wheelbaseMm:2625,fuelTankLiters:60},
+  wheelFitments:[
+   {tireSize:'215/60 R16',rimSizes:[],notes:'Drom: CU5W 2.4 AT XLS, обе оси; ширина обода, ET, PCD и DIA не указаны.'},
+   {tireSize:'215/55 R17',rimSizes:['17x7.0J'],notes:'Drom: CU5W 2.4 MIVEC AT Sport S03, обе оси; не переносить на другие исполнения без проверки.'}
+  ],
+  nextDataTasks:commonTasks
+ },
  {id:'mitsubishi-outlander-cw',sourceModelId:'outlander-xl',make:'Mitsubishi',model:'Outlander',generation:'II / XL',chassisCodes:['CW4W','CW5W','CW6W','CW7W','CW8W'],years:'2006–2012',bodyStyles:['5-дверный SUV'],engineFamilies:['4B11 2.0 бензин','4B12 2.4 бензин','6B31 3.0 V6','4N14 2.2 дизель — отдельные рынки'],transmissionFamilies:['5MT/6MT — по рынку','CVT — по двигателю','6AT — отдельные версии'],drivetrainNotes:'FWD/4WD; CVT, автомат и дизельные исполнения требуют раздельных спецификаций.',verification:'separated-needs-verification',modelFamilyId:'mitsubishi-outlander-258',nextDataTasks:commonTasks},
  {id:'mitsubishi-outlander-gf',sourceModelId:'outlander-3',make:'Mitsubishi',model:'Outlander',generation:'III ICE',chassisCodes:['GF2W','GF3W','GF6W','GF7W','GF8W'],years:'2012–2021 (рынок-зависимо)',bodyStyles:['5-дверный SUV'],engineFamilies:['4B11 2.0','4B12 2.4','6B31 3.0 V6','4N14 дизель — отдельные рынки'],transmissionFamilies:['CVT — многие версии','6AT — отдельные версии'],drivetrainNotes:'FWD/4WD; ICE-записи не смешивать с PHEV.',verification:'separated-needs-verification',modelFamilyId:'mitsubishi-outlander-258',nextDataTasks:commonTasks},
  {id:'mitsubishi-outlander-phev',sourceModelId:'outlander-3',make:'Mitsubishi',model:'Outlander PHEV',generation:'III PHEV',chassisCodes:['GG2W','GG3W'],years:'2013–2021+ по рынку',bodyStyles:['5-дверный SUV'],engineFamilies:['4B11 2.0 + электромоторы — ранние рынки','4B12 2.4 + электромоторы — поздние версии'],transmissionFamilies:['Гибридный редуктор/трансмиссия PHEV — по году'],drivetrainNotes:'Отдельная высоковольтная платформа: батарея, инвертор и контуры охлаждения требуют отдельной сервисной документации.',verification:'separated-needs-verification',modelFamilyId:'mitsubishi-outlander-258',nextDataTasks:['Разделить батареи и силовую электронику по модельному году','Добавить процедуры HV-безопасности из заводского руководства',...commonTasks]},
@@ -74,16 +90,74 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {id:'mitsubishi-lancer-cs',sourceModelId:'lancer-9',make:'Mitsubishi',model:'Lancer / Lancer Classic',generation:'IX',chassisCodes:['CS1A','CS2A','CS3A','CS3W','CS5A','CS9A','CS9W'],years:'2000–2010 (регионально)',bodyStyles:['Седан','Универсал — отдельные рынки'],engineFamilies:['4G13 1.3','4G18 1.6','4G63 2.0','4G69 2.4 — отдельные рынки','4G63T Evolution — отдельная модельная ветка'],transmissionFamilies:['5MT','4AT — по двигателю/рынку'],drivetrainNotes:'Не смешивать обычный Lancer с Evolution; коды кузова и тормоза различаются.',verification:'separated-needs-verification',modelFamilyId:'mitsubishi-lancer-253',nextDataTasks:commonTasks},
  {id:'mitsubishi-pajero-sport-ks',sourceModelId:'pajero-sport-3',make:'Mitsubishi',model:'Pajero Sport / Montero Sport',generation:'III',chassisCodes:['KS1W','KS2W','KS3W','KS0W'],years:'2015–н.в. (рынок-зависимо)',bodyStyles:['5-дверный SUV'],engineFamilies:['4N15 2.4 дизель','6B31 3.0 бензин — отдельные рынки','4D56 — отдельные рынки/годы'],transmissionFamilies:['6MT — отдельные версии','8AT — многие версии','5AT — отдельные версии'],drivetrainNotes:'2WD/4WD; Super Select II и Easy Select зависят от комплектации.',verification:'separated-needs-verification',modelFamilyId:'mitsubishi-challenger-pajero-sport-237',nextDataTasks:commonTasks},
  {id:'toyota-land-cruiser-100',sourceModelId:'toyota-land-cruiser-100',make:'Toyota',model:'Land Cruiser 100 / Cygnus',generation:'100 Series',chassisCodes:['UZJ100','HDJ100','HZJ105','FZJ100'],years:'1998–2007',bodyStyles:['5-дверный SUV'],engineFamilies:['2UZ-FE 4.7 V8','1FZ-FE 4.5','1HD-FTE 4.2 turbodiesel','1HZ 4.2 diesel','1HD-T — ранние/региональные варианты'],transmissionFamilies:['A442F 4AT','A750F 5AT — отдельные поздние версии','MT — отдельные рынки'],drivetrainNotes:'Full-time 4WD и axle/transfer combinations зависят от серии и рынка.',verification:'seeded-needs-verification',source:'Drom',modelFamilyId:'toyota-land-cruiser-43',nextDataTasks:commonTasks},
- {id:'toyota-rav4-xa30',sourceModelId:'toyota-rav4-3',make:'Toyota',model:'RAV4',generation:'III / XA30',chassisCodes:['ACA30','ACA31','ACA33','ACA36','GSA33','ALA30'],years:'2005–2012',bodyStyles:['5-дверный SUV'],engineFamilies:['1AZ-FE 2.0','2AZ-FE 2.4','3ZR-FAE 2.0','2GR-FE 3.5 — США','2AD-FTV/FHV diesel — Европа'],transmissionFamilies:['5MT/6MT','4AT/5AT — по версии','CVT — отдельные рынки'],drivetrainNotes:'FWD/AWD; раздаточный узел и задняя муфта зависят от исполнения.',verification:'seeded-needs-verification',modelFamilyId:'toyota-rav4-63',nextDataTasks:commonTasks},
- {id:'toyota-camry-xv40',sourceModelId:'toyota-camry-40',make:'Toyota',model:'Camry',generation:'XV40',chassisCodes:['ACV40','GSV40','AHV40'],years:'2006–2011',bodyStyles:['Седан'],engineFamilies:['2AZ-FE 2.4','2GR-FE 3.5 V6','1AZ-FE 2.0 — отдельные рынки','2AZ-FXE hybrid — отдельные рынки'],transmissionFamilies:['U250E 5AT','U660E 6AT','Hybrid e-CVT — отдельная версия','MT — отдельные рынки'],drivetrainNotes:'Трансмиссионная жидкость и процедура уровня строго по коду коробки.',verification:'seeded-needs-verification',modelFamilyId:'toyota-camry-12',nextDataTasks:commonTasks},
- {id:'nissan-xtrail-t31',sourceModelId:'nissan-xtrail-t31',make:'Nissan',model:'X-Trail',generation:'II / T31',chassisCodes:['T31','NT31','TNT31','DNT31'],years:'2007–2014',bodyStyles:['5-дверный SUV'],engineFamilies:['MR20DE 2.0','QR25DE 2.5','M9R 2.0 diesel'],transmissionFamilies:['6MT','4AT — отдельные версии','CVT JF011E family — многие версии'],drivetrainNotes:'2WD/4WD; точный CVT-код и спецификацию жидкости подтверждать по табличке/мануалу.',verification:'seeded-needs-verification',modelFamilyId:'nissan-x-trail-139',nextDataTasks:commonTasks},
+ {
+  id:'toyota-rav4-xa30',sourceModelId:'toyota-rav4-3',make:'Toyota',model:'RAV4',generation:'III / XA30',chassisCodes:['ACA30','ACA31','ACA33','ACA36','GSA33','ALA30'],years:'2005–2012',bodyStyles:['5-дверный SUV'],
+  engineFamilies:['1AZ-FE 2.0','2AZ-FE 2.4 — подтверждённая комплектация ACA31: 2 362 см³, 170 л.с., 224 Н·м','3ZR-FAE 2.0','2GR-FE 3.5 — США','2AD-FTV/FHV diesel — Европа'],
+  transmissionFamilies:['5MT/6MT','4AT — подтверждена для ACA31 2.4 AT Sol','5AT — по версии','CVT — отдельные рынки'],
+  drivetrainNotes:'FWD/AWD; приведённые ниже параметры — для Toyota RAV4 2.4 AT Sol ACA31, 4WD, 01.2006–12.2008.',
+  verification:'seeded-needs-verification',modelFamilyId:'toyota-rav4-63',source:'Drom',
+  dimensionVariants:[{label:'ACA31 2.4 AT Sol, 4WD, 01.2006–12.2008',bodyStyle:'SUV, 5 мест',lengthMm:4395,widthMm:1815,heightMm:1685,wheelbaseMm:2560,groundClearanceMm:190,trackFrontMm:1560,trackRearMm:1560,curbWeightKg:'1590'}],
+  dimensions:{wheelbaseMm:2560,fuelTankLiters:60},
+  wheelFitments:[{tireSize:'225/65 R17',rimSizes:[],notes:'Drom: ACA31 2.4 AT Sol, передняя и задняя ось; ширина обода, ET, PCD и DIA не указаны в карточке комплектации.'}],
+  nextDataTasks:commonTasks
+ },
+ {
+  id:'toyota-camry-xv40',sourceModelId:'toyota-camry-40',make:'Toyota',model:'Camry',generation:'XV40',chassisCodes:['ACV40','GSV40','AHV40'],years:'2006–2011',bodyStyles:['Седан'],
+  engineFamilies:['2AZ-FE 2.4 — подтверждённая ACV40: 2 362 см³, 158 л.с., 218 Н·м','2GR-FE 3.5 V6','1AZ-FE 2.0 — отдельные рынки','2AZ-FXE hybrid — отдельные рынки'],
+  transmissionFamilies:['5AT — подтверждена для ACV40 2.4 AT SE','U660E 6AT — другие исполнения','Hybrid e-CVT — отдельная версия','MT — отдельные рынки'],
+  drivetrainNotes:'Параметры ниже относятся к Camry ACV40 2.4 AT SE, FWD, 03.2006–12.2008; не переносить на V6/Hybrid.',
+  verification:'seeded-needs-verification',modelFamilyId:'toyota-camry-12',source:'Drom',
+  dimensionVariants:[{label:'ACV40 2.4 AT SE, FWD, 03.2006–12.2008',bodyStyle:'Седан',lengthMm:4806,widthMm:1821,heightMm:1466,wheelbaseMm:2776,groundClearanceMm:134,trackFrontMm:1575,trackRearMm:1565,curbWeightKg:'1520'}],
+  dimensions:{wheelbaseMm:2776,fuelTankLiters:70},
+  wheelFitments:[{tireSize:'215/55 R17',rimSizes:['17 inch'],notes:'Drom: ACV40 2.4 AT SE, обе оси; ширина обода, ET, PCD и DIA не указаны.'}],
+  nextDataTasks:commonTasks
+ },
+ {
+  id:'nissan-xtrail-t31',sourceModelId:'nissan-xtrail-t31',make:'Nissan',model:'X-Trail',generation:'II / T31',chassisCodes:['T31','NT31','TNT31','DNT31'],years:'2007–2014',bodyStyles:['5-дверный SUV'],
+  engineFamilies:['MR20DE 2.0 — 1 997 см³; 141 л.с./196 Н·м (T31 2.0 CVT SE, 2007–2011, 4WD)','MR20DE 2.0 — 1 997 см³; 137 л.с./200 Н·м (DBA-T31 20Xtt, 2012–2013, FWD)','QR25DE 2.5','M9R 2.0 diesel'],
+  transmissionFamilies:['6MT','4AT — отдельные версии','CVT — подтверждён для двух указанных MR20DE-комплектаций; точный код коробки требует проверки по табличке/VIN'],
+  drivetrainNotes:'2WD/4WD; приведённые параметры относятся к двум конкретным комплектациям T31. Не переносить размеры и мощность между рынками и модификациями.',
+  verification:'seeded-needs-verification',modelFamilyId:'nissan-x-trail-139',source:'Drom',
+  dimensionVariants:[
+   {label:'T31 2.0 CVT SE, 4WD, 08.2007–02.2011',bodyStyle:'SUV',lengthMm:4630,widthMm:1785,heightMm:1685,wheelbaseMm:2630,groundClearanceMm:200,trackFrontMm:1530,trackRearMm:1535,curbWeightKg:'1514'},
+   {label:'DBA-T31 2.0 20Xtt, CVT, FWD, 07.2012–11.2013, RHD',bodyStyle:'SUV',lengthMm:4635,widthMm:1790,heightMm:1700,wheelbaseMm:2630,groundClearanceMm:215,trackFrontMm:1540,trackRearMm:1545,curbWeightKg:'1440'}
+  ],
+  interiorDimensions:{lengthMm:2000,widthMm:1450,heightMm:1265},
+  dimensions:{wheelbaseMm:2630,fuelTankLiters:65},
+  wheelFitments:[
+   {tireSize:'215/60 R17',rimSizes:[],notes:'Drom: T31 2.0 CVT SE 4WD (2007–2011), обе оси; ширина обода/ET/PCD/DIA не указаны в карточке комплектации.'},
+   {tireSize:'225/55 R18',rimSizes:[],notes:'Drom: T31 2.0 20Xtt FWD (2012–2013), обе оси; ширина обода/ET/PCD/DIA не указаны в карточке комплектации.'}
+  ],
+  nextDataTasks:commonTasks
+ },
  {id:'nissan-patrol-y61',sourceModelId:'nissan-patrol-y61',make:'Nissan',model:'Patrol / Safari',generation:'Y61',chassisCodes:['Y61','GU'],years:'1997–2010+ по рынку',bodyStyles:['3-дверный SUV','5-дверный SUV','Пикап — отдельные рынки'],engineFamilies:['TB45E 4.5','TB48DE 4.8','TD42/TD42T 4.2 diesel','ZD30DDTi 3.0 diesel','RD28ETi 2.8 diesel'],transmissionFamilies:['5MT','4AT — по двигателю/рынку'],drivetrainNotes:'Solid axles; axle ratios, hubs and transfer case depend on trim and market.',verification:'seeded-needs-verification',modelFamilyId:'nissan-patrol-120',nextDataTasks:commonTasks},
  {id:'suzuki-grand-vitara-jt',sourceModelId:'suzuki-grand-vitara-2',make:'Suzuki',model:'Grand Vitara / Escudo',generation:'II / JT',chassisCodes:['JT','JB'],years:'2005–2015',bodyStyles:['3-дверный SUV','5-дверный SUV'],engineFamilies:['M16A 1.6','J20A 2.0','J24B 2.4','N32A 3.2 V6','F9Q 1.9 diesel — отдельные рынки'],transmissionFamilies:['5MT','4AT','5AT — по версии'],drivetrainNotes:'FWD/4WD; transfer and differential fluids vary by drivetrain.',verification:'seeded-needs-verification',modelFamilyId:'suzuki-grand-vitara-310',nextDataTasks:commonTasks},
  {id:'suzuki-jimny-jb43',sourceModelId:'suzuki-jimny-3',make:'Suzuki',model:'Jimny',generation:'III / JB43',chassisCodes:['JB43','JB33'],years:'1998–2018 (рынок-зависимо)',bodyStyles:['3-дверный внедорожник'],engineFamilies:['M13A 1.3 бензин','M18A 1.8 — отдельные рынки'],transmissionFamilies:['5MT','4AT'],drivetrainNotes:'Part-time 4WD, раздатка с понижающим рядом; мосты и редукторы по рынку.',verification:'separated-needs-verification',modelFamilyId:'suzuki-jimny-313',nextDataTasks:commonTasks},
  {id:'suzuki-jimny-jb74',sourceModelId:'suzuki-jimny-3',make:'Suzuki',model:'Jimny',generation:'IV / JB74',chassisCodes:['JB74','JB64'],years:'2018–н.в.',bodyStyles:['3-дверный внедорожник','5-дверный SUV — отдельные рынки'],engineFamilies:['K15B 1.5 (JB74) — 101/102 л.с., 130 Н·м; Nomade 2026: 101 л.с.','R06A 0.66 turbo (JB64 kei)'],transmissionFamilies:['5MT','4AT'],drivetrainNotes:'Part-time 4WD; JB64 kei и JB74 экспортные версии имеют разные агрегаты. Для 5-дверного Nomade 2026 Drom указывает понижающую передачу 2.643 и главную передачу 4.3.',verification:'separated-needs-verification',modelFamilyId:'suzuki-jimny-313',source:'Drom',interiorDimensions:{lengthMm:1910,widthMm:1275,heightMm:1200},dimensionVariants:[{label:'Nomade 1.5 FC 4WD (2026)',bodyStyle:'SUV 5 дв.',lengthMm:3890,widthMm:1645,heightMm:1725,wheelbaseMm:2590,groundClearanceMm:210,trackFrontMm:1395,trackRearMm:1405,curbWeightKg:'1210'}],wheelFitments:[{tireSize:'195/80 R15',rimSizes:[],notes:'Drom: передняя и задняя оси; размер диска/PCD в данной спецификации не указан.'}],nextDataTasks:commonTasks},
  {id:'subaru-forester-sg',sourceModelId:'subaru-forester-sg-sh',make:'Subaru',model:'Forester',generation:'II / SG',chassisCodes:['SG5','SG9'],years:'2002–2008',bodyStyles:['5-дверный универсал/SUV'],engineFamilies:['EJ201/EJ202/EJ203/EJ204 2.0','EJ205 turbo 2.0','EJ255 turbo 2.5 — отдельные рынки'],transmissionFamilies:['5MT','4EAT'],drivetrainNotes:'Symmetrical AWD; transmission and center differential vary by trim.',verification:'separated-needs-verification',modelFamilyId:'subaru-forester-278',nextDataTasks:commonTasks},
- {id:'subaru-forester-sh',sourceModelId:'subaru-forester-sg-sh',make:'Subaru',model:'Forester',generation:'III / SH',chassisCodes:['SH5','SH9','SHJ'],years:'2008–2013',bodyStyles:['5-дверный SUV'],engineFamilies:['EJ204/EJ253','EJ255 turbo','FB20 late/market-specific','EE20 diesel — Europe'],transmissionFamilies:['5MT/6MT','4EAT/5EAT','CVT — late/market-specific'],drivetrainNotes:'AWD system and fluids vary by transmission family and market.',verification:'separated-needs-verification',modelFamilyId:'subaru-forester-278',nextDataTasks:commonTasks},
- {id:'honda-crv-re',sourceModelId:'honda-cr-v-3',make:'Honda',model:'CR-V',generation:'III / RE',chassisCodes:['RE1','RE2','RE3','RE4','RE5','RE6'],years:'2006–2012',bodyStyles:['5-дверный SUV'],engineFamilies:['R20A 2.0','K24Z 2.4','N22A/N22B diesel — Europe'],transmissionFamilies:['5AT','6MT — market-specific'],drivetrainNotes:'FWD/Real Time AWD; rear differential fluid procedure and specification are model-specific.',verification:'seeded-needs-verification',modelFamilyId:'honda-cr-v-150',nextDataTasks:commonTasks},
+ {
+  id:'subaru-forester-sh',sourceModelId:'subaru-forester-sg-sh',make:'Subaru',model:'Forester',generation:'III / SH',chassisCodes:['SH5','SH9','SHJ'],years:'2008–2013',bodyStyles:['5-дверный SUV'],
+  engineFamilies:['EJ204/EJ253','EJ205 turbo 2.0 — подтверждённый SH5 XT: 1 994 см³, 230 л.с., 319 Н·м','EJ255 turbo','FB20 late/market-specific','EE20 diesel — Europe'],
+  transmissionFamilies:['5MT — подтверждена для SH5 2.0 XT','6MT — отдельные версии','4EAT/5EAT','CVT — late/market-specific'],
+  drivetrainNotes:'AWD system and fluids vary by transmission family and market. Значения ниже — для японского RHD SH5 2.0 XT 4WD, 10.2010–10.2012.',
+  verification:'separated-needs-verification',modelFamilyId:'subaru-forester-278',source:'Drom',
+  dimensionVariants:[{label:'DBA-SH5 2.0 XT 4WD, 5MT, RHD, 10.2010–10.2012',bodyStyle:'SUV',lengthMm:4560,widthMm:1780,heightMm:1675,wheelbaseMm:2615,groundClearanceMm:225,trackFrontMm:1530,trackRearMm:1530,curbWeightKg:'1490'}],
+  interiorDimensions:{lengthMm:2000,widthMm:1520,heightMm:1290},
+  dimensions:{wheelbaseMm:2615,fuelTankLiters:60},
+  wheelFitments:[{tireSize:'225/55 R17',rimSizes:[],notes:'Drom: SH5 2.0 XT 4WD, передняя и задняя ось; ширина обода, ET, PCD и DIA не указаны в карточке комплектации.'}],
+  nextDataTasks:commonTasks
+ },
+ {
+  id:'honda-crv-re',sourceModelId:'honda-cr-v-3',make:'Honda',model:'CR-V',generation:'III / RE',chassisCodes:['RE1','RE2','RE3','RE4','RE5','RE6'],years:'2006–2012',bodyStyles:['5-дверный SUV'],
+  engineFamilies:['R20A 2.0','K24Z1 2.4 — RE 2.4 AT 4WD (2007–2009): 2 354 см³, 170 л.с., 220 Н·м','K24Z 2.4 — другие рынки/версии','N22A/N22B diesel — Europe'],
+  transmissionFamilies:['5AT — подтверждена для RE 2.4 AT 4WD','6MT — market-specific'],
+  drivetrainNotes:'FWD/Real Time AWD; параметры ниже относятся к указанной комплектации RE 2.4 AT 4WD и не распространяются на все RE/RE5/RE7.',
+  verification:'seeded-needs-verification',modelFamilyId:'honda-cr-v-150',source:'Drom',
+  dimensionVariants:[{label:'RE 2.4 AT, 4WD, 03.2007–08.2009',bodyStyle:'SUV',lengthMm:4520,widthMm:1820,heightMm:1680,wheelbaseMm:2620,groundClearanceMm:185,trackFrontMm:1565,trackRearMm:1565,curbWeightKg:'1550'}],
+  dimensions:{wheelbaseMm:2620,fuelTankLiters:58},
+  wheelFitments:[{tireSize:'225/60 R18',rimSizes:['18x7J'],notes:'Drom: RE 2.4 AT 4WD, передняя и задняя ось; применимость к иным комплектациям требует отдельной проверки.'}],
+  nextDataTasks:commonTasks
+ },
  {id:'mazda-cx5-ke',sourceModelId:'mazda-cx5-ke-kf',make:'Mazda',model:'CX-5',generation:'I / KE',chassisCodes:['KE'],years:'2012–2017',bodyStyles:['5-дверный SUV'],engineFamilies:['PE-VPS 2.0 petrol','PY-VPS 2.5 petrol','SH-VPTS 2.2 diesel'],transmissionFamilies:['6MT — market-specific','SKYACTIV-Drive 6AT'],drivetrainNotes:'FWD/AWD; ATF, transfer and rear differential specs must follow exact engine/market manual.',verification:'separated-needs-verification',modelFamilyId:'mazda-cx-5-208',nextDataTasks:commonTasks},
  {id:'mazda-cx5-kf',sourceModelId:'mazda-cx5-ke-kf',make:'Mazda',model:'CX-5',generation:'II / KF',chassisCodes:['KF'],years:'2017–н.в.',bodyStyles:['5-дверный SUV'],engineFamilies:['PE-VPS 2.0 petrol','PY-VPS 2.5 petrol / turbo by market','SH-VPTS 2.2 diesel'],transmissionFamilies:['6MT — market-specific','SKYACTIV-Drive 6AT'],drivetrainNotes:'Do not transfer KE capacities to KF without exact manual confirmation.',verification:'separated-needs-verification',modelFamilyId:'mazda-cx-5-208',nextDataTasks:commonTasks},
  {id:'lexus-rx-xu30',sourceModelId:'lexus-rx-350',make:'Lexus',model:'RX',generation:'II / XU30',chassisCodes:['MCU30','MCU35','GSU30','GSU35'],years:'2003–2009',bodyStyles:['5-дверный SUV'],engineFamilies:['1MZ-FE 3.0 V6','3MZ-FE 3.3 V6 hybrid — RX 400h','2GR-FE 3.5 — late/market-specific'],transmissionFamilies:['5AT/6AT — by engine/market','Hybrid power-split device — RX 400h'],drivetrainNotes:'RX 300/330/350/400h are distinct powertrain records despite shared model family.',verification:'separated-needs-verification',modelFamilyId:'lexus-rx-370',nextDataTasks:commonTasks},
@@ -104,7 +178,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-nissan-skylinegtr-r32","sourceModelId":"nissan-drom-skylinegtr","make":"Nissan","model":"Skyline GT-R","generation":"R32","chassisCodes":["R32"],"years":"1989–1994","bodyStyles":["Купе"],"engineFamilies":["RB26DETT 2.6 twin-turbo — 280 л.с., 353–392 Н·м"],"transmissionFamilies":["5MT"],"drivetrainNotes":"Полный привод ATTESA E-TS (4WD).","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-skylinegtr-r33","sourceModelId":"nissan-drom-skylinegtr","make":"Nissan","model":"Skyline GT-R","generation":"R33","chassisCodes":["R33"],"years":"1995–1998","bodyStyles":["Купе","Седан — отдельные версии"],"engineFamilies":["RB26DETT 2.6 twin-turbo — 280 л.с.","RB-X GT2 2.8 twin-turbo — 400 л.с. (Nismo 400R, ограниченная серия)"],"transmissionFamilies":["5MT"],"drivetrainNotes":"Полный привод ATTESA E-TS (4WD). RB-X GT2 относится только к редкой версии Nismo 400R.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-skylinegtr-r34","sourceModelId":"nissan-drom-skylinegtr","make":"Nissan","model":"Skyline GT-R","generation":"R34","chassisCodes":["R34"],"years":"1999–2002","bodyStyles":["Купе"],"engineFamilies":["RB26DETT 2.6 twin-turbo — 280 л.с., 353–392 Н·м"],"transmissionFamilies":["6MT"],"drivetrainNotes":"Полный привод ATTESA E-TS (4WD).","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-nissan-xtrail-t30","sourceModelId":"nissan-x-trail-139","make":"Nissan","model":"X-Trail","generation":"T30","chassisCodes":["T30"],"years":"2000–2007","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"nissan-x-trail-139"},
+ {"id":"drom-nissan-xtrail-t30","sourceModelId":"nissan-x-trail-t30","make":"Nissan","model":"X-Trail","generation":"T30","chassisCodes":["T30"],"years":"2000–2007","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"nissan-x-trail-139"},
  {"id":"drom-nissan-xtrail-t31","sourceModelId":"nissan-x-trail-139","make":"Nissan","model":"X-Trail","generation":"T31","chassisCodes":["T31"],"years":"2007–2015","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"nissan-x-trail-139"},
  {"id":"drom-nissan-xtrail-t32","sourceModelId":"nissan-x-trail-139","make":"Nissan","model":"X-Trail","generation":"T32","chassisCodes":["T32"],"years":"2013–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"nissan-x-trail-139"},
  {"id":"drom-nissan-xtrail-t33","sourceModelId":"nissan-x-trail-139","make":"Nissan","model":"X-Trail","generation":"T33","chassisCodes":["T33"],"years":"2021–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"nissan-x-trail-139"},
@@ -136,7 +210,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-toyota-landcruiser-j200","sourceModelId":"toyota-land-cruiser-43","make":"Toyota","model":"Land Cruiser","generation":"J200","chassisCodes":["J200"],"years":"2007–2021","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-landcruiser-j300","sourceModelId":"toyota-land-cruiser-43","make":"Toyota","model":"Land Cruiser","generation":"J300","chassisCodes":["J300"],"years":"2021–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-landcruiserprado-j90","sourceModelId":"toyota-land-cruiser-prado-44","make":"Toyota","model":"Land Cruiser Prado","generation":"J90/J95","chassisCodes":["J90","J90/J95"],"years":"1996–2002","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-landcruiserprado-j120","sourceModelId":"toyota-land-cruiser-prado-44","make":"Toyota","model":"Land Cruiser Prado","generation":"J120","chassisCodes":["J120"],"years":"2002–2009","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-landcruiserprado-j120","sourceModelId":"toyota-prado-j120-suv", "modelFamilyId": "toyota-land-cruiser-prado-44","make":"Toyota","model":"Land Cruiser Prado","generation":"J120","chassisCodes":["J120"],"years":"2002–2009","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-landcruiserprado-j150","sourceModelId":"toyota-land-cruiser-prado-44","make":"Toyota","model":"Land Cruiser Prado","generation":"J150","chassisCodes":["J150"],"years":"2009–2024","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-landcruiserprado-j250","sourceModelId":"toyota-land-cruiser-prado-44","make":"Toyota","model":"Land Cruiser Prado","generation":"J250","chassisCodes":["J250"],"years":"2023–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-markii-x90","sourceModelId":"toyota-mark-ii-46","make":"Toyota","model":"Mark II","generation":"X90","chassisCodes":["X90"],"years":"1992–1996","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -167,7 +241,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-honda-civic-fbfk","sourceModelId":"honda-civic-147","make":"Honda","model":"Civic","generation":"FB/FK","chassisCodes":["FB","FK","FK/FB"],"years":"2011–2017","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-honda-civic-fcfk","sourceModelId":"honda-civic-147","make":"Honda","model":"Civic","generation":"FC/FK","chassisCodes":["FC","FK","FK/FC"],"years":"2015–2022","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-honda-civic-fefl","sourceModelId":"honda-civic-147","make":"Honda","model":"Civic","generation":"FE/FL","chassisCodes":["FE","FL"],"years":"2020–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-honda-crv-rd1rd2","sourceModelId":"honda-cr-v-150","make":"Honda","model":"CR-V","generation":"RD1/RD2","chassisCodes":["RD1","RD2"],"years":"1995–2001","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"honda-cr-v-150"},
+ {"id":"drom-honda-crv-rd1rd2","sourceModelId":"honda-cr-v-rd","make":"Honda","model":"CR-V","generation":"RD1/RD2","chassisCodes":["RD1","RD2"],"years":"1995–2001","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"honda-cr-v-150"},
  {"id":"drom-honda-crv-rd4rd5","sourceModelId":"honda-cr-v-150","make":"Honda","model":"CR-V","generation":"RD4/RD5","chassisCodes":["RD4","RD5"],"years":"2001–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"honda-cr-v-150"},
 
  {"id":"drom-honda-crv-rm","sourceModelId":"honda-cr-v-150","make":"Honda","model":"CR-V","generation":"RM","chassisCodes":["RM"],"years":"2011–2018","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Коды поколений и диапазон лет перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"honda-cr-v-150"},
@@ -355,14 +429,14 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-toyota-belta-20212023","sourceModelId":"toyota-belta-8","make":"Toyota","model":"Belta","generation":"2021–2023","chassisCodes":[],"years":"2021–2023","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-blade-e150","sourceModelId":"toyota-blade-9","make":"Toyota","model":"Blade","generation":"E150","chassisCodes":["E150"],"years":"2006–2012","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-caldina-t190","sourceModelId":"toyota-caldina-11","make":"Toyota","model":"Caldina","generation":"T190","chassisCodes":["T190"],"years":"1992–1997","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-caldina-t210","sourceModelId":"toyota-caldina-11","make":"Toyota","model":"Caldina","generation":"T210","chassisCodes":["T210"],"years":"1997–2002","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-caldina-t210","sourceModelId":"toyota-caldina-st215w-gt-t", "modelFamilyId": "toyota-caldina-11","make":"Toyota","model":"Caldina","generation":"T210","chassisCodes":["T210"],"years":"1997–2002","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-caldina-t240","sourceModelId":"toyota-caldina-11","make":"Toyota","model":"Caldina","generation":"T240","chassisCodes":["T240"],"years":"2002–2007","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-cami-j100","sourceModelId":"toyota-drom-cami","make":"Toyota","model":"Cami","generation":"J100","chassisCodes":["J100"],"years":"1999–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-camry-v10a40a50","sourceModelId":"toyota-camry-12","make":"Toyota","model":"Camry","generation":"V10/A40/A50","chassisCodes":["V10/A40","A50"],"years":"1979–1986","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"toyota-camry-12"},
  {"id":"drom-toyota-camry-v20","sourceModelId":"toyota-camry-12","make":"Toyota","model":"Camry","generation":"V20","chassisCodes":["V20"],"years":"1986–1991","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"toyota-camry-12"},
  {"id":"drom-toyota-camry-v40xv10","sourceModelId":"toyota-camry-12","make":"Toyota","model":"Camry","generation":"V40/XV10","chassisCodes":["V40/XV10"],"years":"1991–1998","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"toyota-camry-12"},
  {"id":"drom-toyota-camry-xv20","sourceModelId":"toyota-camry-12","make":"Toyota","model":"Camry","generation":"XV20","chassisCodes":["XV20"],"years":"1996–2002","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"toyota-camry-12"},
- {"id":"drom-toyota-camry-xv30","sourceModelId":"toyota-camry-12","make":"Toyota","model":"Camry","generation":"XV30","chassisCodes":["XV30"],"years":"2001–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"toyota-camry-12"},
+ {"id":"drom-toyota-camry-xv30","sourceModelId":"toyota-camry-xv30","make":"Toyota","model":"Camry","generation":"XV30","chassisCodes":["XV30"],"years":"2001–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom","modelFamilyId":"toyota-camry-12"},
  {"id":"drom-toyota-carina-a40","sourceModelId":"toyota-carina-13","make":"Toyota","model":"Carina","generation":"A40","chassisCodes":["A40"],"years":"1977–1981","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-carina-a60","sourceModelId":"toyota-carina-13","make":"Toyota","model":"Carina","generation":"A60","chassisCodes":["A60"],"years":"1981–1988","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-carina-t190","sourceModelId":"toyota-carina-13","make":"Toyota","model":"Carina","generation":"T190","chassisCodes":["T190"],"years":"1992–1997","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -397,10 +471,10 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-toyota-corollaaxio-e160","sourceModelId":"toyota-corolla-axio-21","make":"Toyota","model":"Corolla Axio","generation":"E160","chassisCodes":["E160"],"years":"2012–2025","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-corollalevin-e80","sourceModelId":"toyota-corolla-levin-23","make":"Toyota","model":"Corolla Levin","generation":"E80","chassisCodes":["E80"],"years":"1983–1987","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-corollalevin-e90","sourceModelId":"toyota-corolla-levin-23","make":"Toyota","model":"Corolla Levin","generation":"E90","chassisCodes":["E90"],"years":"1987–1991","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-corollalevin-e100","sourceModelId":"toyota-corolla-levin-23","make":"Toyota","model":"Corolla Levin","generation":"E100","chassisCodes":["E100"],"years":"1991–1995","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-corollalevin-e100","sourceModelId":"toyota-corolla-levin-ae101-gt-apex", "modelFamilyId": "toyota-corolla-levin-23","make":"Toyota","model":"Corolla Levin","generation":"E100","chassisCodes":["E100"],"years":"1991–1995","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-corollalevin-e110","sourceModelId":"toyota-corolla-levin-23","make":"Toyota","model":"Corolla Levin","generation":"E110","chassisCodes":["E110"],"years":"1995–2000","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-corollafielder-e120","sourceModelId":"toyota-corolla-fielder-22","make":"Toyota","model":"Corolla Fielder","generation":"E120","chassisCodes":["E120"],"years":"2000–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-corollafielder-e140","sourceModelId":"toyota-corolla-fielder-22","make":"Toyota","model":"Corolla Fielder","generation":"E140","chassisCodes":["E140"],"years":"2006–2012","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-corollafielder-e140","sourceModelId":"toyota-corolla-fielder-e140-wagon", "modelFamilyId": "toyota-corolla-fielder-22","make":"Toyota","model":"Corolla Fielder","generation":"E140","chassisCodes":["E140"],"years":"2006–2012","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-corollafielder-e160","sourceModelId":"toyota-corolla-fielder-22","make":"Toyota","model":"Corolla Fielder","generation":"E160","chassisCodes":["E160"],"years":"2012–2025","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-corona-t10","sourceModelId":"toyota-drom-corona","make":"Toyota","model":"Corona","generation":"T10","chassisCodes":["T10"],"years":"1957–1960","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-corona-t40t50","sourceModelId":"toyota-drom-corona","make":"Toyota","model":"Corona","generation":"T40/T50","chassisCodes":["T40/T50"],"years":"1964–1970","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -424,7 +498,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-toyota-hilux-n50n60","sourceModelId":"toyota-hilux-39","make":"Toyota","model":"Hilux","generation":"N50/N60","chassisCodes":["N50/N60"],"years":"1983–1988","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-hilux-n80n90n100n110","sourceModelId":"toyota-hilux-39","make":"Toyota","model":"Hilux","generation":"N80/N90/N100/N110","chassisCodes":["N80/N90","N100/N110"],"years":"1988–1997","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-hilux-n140n150n160n170n190","sourceModelId":"toyota-hilux-39","make":"Toyota","model":"Hilux","generation":"N140/N150/N160/N170/N190","chassisCodes":["N140/N150","N160/N170","N190"],"years":"1997–2005","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-hilux-an10an20","sourceModelId":"toyota-hilux-39","make":"Toyota","model":"Hilux","generation":"AN10/AN20","chassisCodes":["AN10/AN20"],"years":"2004–2015","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-hilux-an10an20","sourceModelId":"toyota-hilux-n50", "modelFamilyId": "toyota-hilux-39","make":"Toyota","model":"Hilux","generation":"AN10/AN20","chassisCodes":["AN10/AN20"],"years":"2004–2015","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-hilux-an120","sourceModelId":"toyota-hilux-39","make":"Toyota","model":"Hilux","generation":"AN120","chassisCodes":["AN120"],"years":"2015–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-ipsum-sxm10","sourceModelId":"toyota-ipsum-40","make":"Toyota","model":"Ipsum","generation":"SXM10","chassisCodes":["SXM10"],"years":"1996–2001","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-ipsum-acm20","sourceModelId":"toyota-ipsum-40","make":"Toyota","model":"Ipsum","generation":"ACM20","chassisCodes":["ACM20"],"years":"2001–2009","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -444,7 +518,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-toyota-noah-r70","sourceModelId":"toyota-noah-51","make":"Toyota","model":"Noah","generation":"R70","chassisCodes":["R70"],"years":"2007–2013","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-noah-r80","sourceModelId":"toyota-noah-51","make":"Toyota","model":"Noah","generation":"R80","chassisCodes":["R80"],"years":"2014–2021","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-noah-r90","sourceModelId":"toyota-noah-51","make":"Toyota","model":"Noah","generation":"R90","chassisCodes":["R90"],"years":"2022–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-prius-nhw10","sourceModelId":"toyota-prius-58","make":"Toyota","model":"Prius","generation":"NHW10","chassisCodes":["NHW10"],"years":"1997–2003","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-prius-nhw10","sourceModelId":"toyota-prius-xw10", "modelFamilyId": "toyota-prius-58","make":"Toyota","model":"Prius","generation":"NHW10","chassisCodes":["NHW10"],"years":"1997–2003","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-prius-nhw20xw20","sourceModelId":"toyota-prius-58","make":"Toyota","model":"Prius","generation":"NHW20/XW20","chassisCodes":["NHW20/XW20"],"years":"2003–2011","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
 
 
@@ -516,12 +590,12 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
 
  {"id":"drom-nissan-micra-k13","sourceModelId":"nissan-march-micra-112","make":"Nissan","model":"Micra","generation":"K13","chassisCodes":["K13"],"years":"2010–2017","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-micra-k14","sourceModelId":"nissan-march-micra-112","make":"Nissan","model":"Micra","generation":"K14","chassisCodes":["K14"],"years":"2016–2023","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-nissan-note-e11","sourceModelId":"nissan-note-117","make":"Nissan","model":"Note","generation":"E11","chassisCodes":["E11"],"years":"2005–2013","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-nissan-note-e11","sourceModelId":"nissan-note-e11-hatchback", "modelFamilyId": "nissan-note-117","make":"Nissan","model":"Note","generation":"E11","chassisCodes":["E11"],"years":"2005–2013","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-note-e12","sourceModelId":"nissan-note-117","make":"Nissan","model":"Note","generation":"E12","chassisCodes":["E12"],"years":"2012–2020","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-note-e13","sourceModelId":"nissan-note-117","make":"Nissan","model":"Note","generation":"E13","chassisCodes":["E13"],"years":"2020–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-serena-c23","sourceModelId":"nissan-serena-127","make":"Nissan","model":"Serena","generation":"C23","chassisCodes":["C23"],"years":"1991–1999","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-serena-c24","sourceModelId":"nissan-serena-127","make":"Nissan","model":"Serena","generation":"C24","chassisCodes":["C24"],"years":"1999–2005","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-nissan-serena-c25","sourceModelId":"nissan-serena-127","make":"Nissan","model":"Serena","generation":"C25","chassisCodes":["C25"],"years":"2005–2010","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-nissan-serena-c25","sourceModelId":"nissan-serena-c25", "modelFamilyId": "nissan-serena-127","make":"Nissan","model":"Serena","generation":"C25","chassisCodes":["C25"],"years":"2005–2010","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-serena-c26","sourceModelId":"nissan-serena-127","make":"Nissan","model":"Serena","generation":"C26","chassisCodes":["C26"],"years":"2010–2016","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-serena-c27","sourceModelId":"nissan-serena-127","make":"Nissan","model":"Serena","generation":"C27","chassisCodes":["C27"],"years":"2016–2022","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-serena-c28","sourceModelId":"nissan-serena-127","make":"Nissan","model":"Serena","generation":"C28","chassisCodes":["C28"],"years":"2022–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -545,10 +619,10 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-nissan-qashqai-j11","sourceModelId":"nissan-dualis-qashqai-100","make":"Nissan","model":"Qashqai","generation":"J11","chassisCodes":["J11"],"years":"2013–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-qashqai-j12","sourceModelId":"nissan-dualis-qashqai-100","make":"Nissan","model":"Qashqai","generation":"J12","chassisCodes":["J12"],"years":"2021–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-march-k11","sourceModelId":"nissan-march-micra-112","make":"Nissan","model":"March","generation":"K11","chassisCodes":["K11"],"years":"1992–2002","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-nissan-march-k12","sourceModelId":"nissan-march-micra-112","make":"Nissan","model":"March / Micra","generation":"K12","chassisCodes":["K12"],"years":"2002–2010","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-nissan-march-k12","sourceModelId":"nissan-march-k12", "modelFamilyId": "nissan-march-micra-112","make":"Nissan","model":"March / Micra","generation":"K12","chassisCodes":["K12"],"years":"2002–2010","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-nissan-march-k13","sourceModelId":"nissan-march-micra-112","make":"Nissan","model":"March","generation":"K13","chassisCodes":["K13"],"years":"2010–2022","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-mazda-2demio-dw","sourceModelId":"mazda-2-demio-192","make":"Mazda","model":"Mazda2 / Demio","generation":"DW","chassisCodes":["DW"],"years":"1996–2002","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-mazda-2demio-dy","sourceModelId":"mazda-2-demio-192","make":"Mazda","model":"Mazda2 / Demio","generation":"DY","chassisCodes":["DY"],"years":"2002–2007","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-mazda-2demio-dy","sourceModelId":"mazda-demio-dy", "modelFamilyId": "mazda-2-demio-192","make":"Mazda","model":"Mazda2 / Demio","generation":"DY","chassisCodes":["DY"],"years":"2002–2007","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-mazda-2demio-de","sourceModelId":"mazda-2-demio-192","make":"Mazda","model":"2 / Demio","generation":"DE","chassisCodes":["DE"],"years":"2007–2015","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-mazda-2demio-dj","sourceModelId":"mazda-2-demio-192","make":"Mazda","model":"2 / Demio","generation":"DJ","chassisCodes":["DJ"],"years":"2014–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-mazda-6atenza-gg","sourceModelId":"mazda-6-atenza-194","make":"Mazda","model":"Mazda6 / Atenza","generation":"GG","chassisCodes":["GG"],"years":"2002–2008 (Atenza: 2002–2007)","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -576,7 +650,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-subaru-legacy-bc","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BC/BC/B10/BJ/BF","chassisCodes":["BC","BC/B10","BJ","BF"],"years":"1989–1994","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-legacy-bdbg","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BD/BG/BD/B11/BG/BK","chassisCodes":["BD/BG","BD/B11","BG","BK"],"years":"1993–1998","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-legacy-bebh","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BE/BH/BE/B12/BH/BE","chassisCodes":["BE/BH","BE/B12","BH","BE"],"years":"1998–2003","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-subaru-legacy-blbp","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BL/BP/BL/B13/BP/BL","chassisCodes":["BL/BP","BL/B13","BP","BL"],"years":"2003–2009","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-subaru-legacy-blbp","sourceModelId":"subaru-legacy-bp-wagon", "modelFamilyId": "subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BL/BP/BL/B13/BP/BL","chassisCodes":["BL/BP","BL/B13","BP","BL"],"years":"2003–2009","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-legacy-bmbr","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BM/BR/BM/B14/BR","chassisCodes":["BM/BR","BM/B14","BR"],"years":"2009–2015","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-legacy-bnbs","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BN/BS/BN/B15/BS","chassisCodes":["BN/BS","BN/B15","BS"],"years":"2014–2021","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-legacy-bw","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy","generation":"BW","chassisCodes":["BW"],"years":"2019–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -634,7 +708,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-daihatsu-mira-l500","sourceModelId":"daihatsu-mira-342","make":"Daihatsu","model":"Mira","generation":"L500","chassisCodes":["L500"],"years":"1994–1998","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-daihatsu-mira-l700","sourceModelId":"daihatsu-mira-342","make":"Daihatsu","model":"Mira","generation":"L700","chassisCodes":["L700"],"years":"1998–2002","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-daihatsu-mira-l250","sourceModelId":"daihatsu-mira-342","make":"Daihatsu","model":"Mira","generation":"L250","chassisCodes":["L250"],"years":"2002–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-daihatsu-mira-l275","sourceModelId":"daihatsu-mira-342","make":"Daihatsu","model":"Mira","generation":"L275","chassisCodes":["L275"],"years":"2006–2018","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-daihatsu-mira-l275","sourceModelId":"daihatsu-mira-l275", "modelFamilyId": "daihatsu-mira-342","make":"Daihatsu","model":"Mira","generation":"L275","chassisCodes":["L275"],"years":"2006–2018","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-daihatsu-miraes-20112017","sourceModelId":"daihatsu-drom-miraes","make":"Daihatsu","model":"Mira e:S","generation":"2011–2017","chassisCodes":[],"years":"2011–2017","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-daihatsu-miraes-2017","sourceModelId":"daihatsu-drom-miraes","make":"Daihatsu","model":"Mira e:S","generation":"2017–н.в.","chassisCodes":[],"years":"2017–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-daihatsu-move-19951999","sourceModelId":"daihatsu-move-343","make":"Daihatsu","model":"Move","generation":"1995–1999","chassisCodes":[],"years":"1995–1999","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -750,7 +824,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-honda-legend-19952004","sourceModelId":"honda-legend-166","make":"Honda","model":"Legend","generation":"1995–2004","chassisCodes":[],"years":"1995–2004","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-honda-legend-20042012","sourceModelId":"honda-legend-166","make":"Honda","model":"Legend","generation":"2004–2012","chassisCodes":[],"years":"2004–2012","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-honda-legend-20152021","sourceModelId":"honda-legend-166","make":"Honda","model":"Legend","generation":"2015–2021","chassisCodes":[],"years":"2015–2021","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-honda-odyssey-ra1ra5","sourceModelId":"honda-odyssey-176","make":"Honda","model":"Odyssey","generation":"RA1/RA5","chassisCodes":["RA1/RA5"],"years":"1994–1999","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-honda-odyssey-ra1ra5","sourceModelId":"honda-odyssey-ra", "modelFamilyId": "honda-odyssey-176","make":"Honda","model":"Odyssey","generation":"RA1/RA5","chassisCodes":["RA1/RA5"],"years":"1994–1999","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-honda-odyssey-rl1","sourceModelId":"honda-odyssey-176","make":"Honda","model":"Odyssey","generation":"RL1","chassisCodes":["RL1"],"years":"1998–2004","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-honda-odyssey-rl3rl4","sourceModelId":"honda-odyssey-176","make":"Honda","model":"Odyssey","generation":"RL3/RL4","chassisCodes":["RL3/RL4"],"years":"2003–2010","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-honda-odyssey-rl5","sourceModelId":"honda-odyssey-176","make":"Honda","model":"Odyssey","generation":"RL5","chassisCodes":["RL5"],"years":"2008–2014","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -787,7 +861,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-lexus-lc-c10","sourceModelId":"lexus-lc-363","make":"Lexus","model":"LC","generation":"C10","chassisCodes":["C10"],"years":"2016–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-lexus-ls-xf10","sourceModelId":"lexus-ls-366","make":"Lexus","model":"LS","generation":"XF10","chassisCodes":["XF10"],"years":"1989–1994","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-lexus-ls-xf20","sourceModelId":"lexus-ls-366","make":"Lexus","model":"LS","generation":"XF20","chassisCodes":["XF20"],"years":"1994–2000","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-lexus-ls-xf30","sourceModelId":"lexus-ls-366","make":"Lexus","model":"LS","generation":"XF30","chassisCodes":["XF30"],"years":"2000–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-lexus-ls-xf30","sourceModelId":"lexus-ls-xf30", "modelFamilyId": "lexus-ls-366","make":"Lexus","model":"LS","generation":"XF30","chassisCodes":["XF30"],"years":"2000–2006","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-lexus-ls-xf40","sourceModelId":"lexus-ls-366","make":"Lexus","model":"LS","generation":"XF40","chassisCodes":["XF40"],"years":"2006–2017","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-lexus-ls-xf50","sourceModelId":"lexus-ls-366","make":"Lexus","model":"LS","generation":"XF50","chassisCodes":["XF50"],"years":"2017–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-lexus-lx-j80","sourceModelId":"lexus-lx-367","make":"Lexus","model":"LX","generation":"J80","chassisCodes":["J80"],"years":"1995–1997","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -879,9 +953,9 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-toyota-vista-v30","sourceModelId":"toyota-drom-vista","make":"Toyota","model":"Vista","generation":"V30","chassisCodes":["V30"],"years":"1990–1994","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-vista-v40","sourceModelId":"toyota-drom-vista","make":"Toyota","model":"Vista","generation":"V40","chassisCodes":["V40"],"years":"1994–1998","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-vista-v50","sourceModelId":"toyota-drom-vista","make":"Toyota","model":"Vista","generation":"V50","chassisCodes":["V50"],"years":"1998–2003","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-vitzyaris-xp10","sourceModelId":"toyota-vitz-yaris-79","make":"Toyota","model":"Vitz / Yaris","generation":"XP10","chassisCodes":["XP10"],"years":"1999–2005","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-vitzyaris-xp10","sourceModelId":"toyota-yaris-xp10", "modelFamilyId": "toyota-vitz-yaris-79","make":"Toyota","model":"Vitz / Yaris","generation":"XP10","chassisCodes":["XP10"],"years":"1999–2005","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-vitzyaris-xp90","sourceModelId":"toyota-vitz-yaris-79","make":"Toyota","model":"Vitz / Yaris","generation":"XP90","chassisCodes":["XP90"],"years":"2005–2010","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-toyota-vitzyaris-xp130","sourceModelId":"toyota-vitz-yaris-79","make":"Toyota","model":"Vitz / Yaris","generation":"XP130","chassisCodes":["XP130"],"years":"2010–2020","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-toyota-vitzyaris-xp130","sourceModelId":"toyota-yaris-xp130", "modelFamilyId": "toyota-vitz-yaris-79","make":"Toyota","model":"Vitz / Yaris","generation":"XP130","chassisCodes":["XP130"],"years":"2010–2020","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-voxy-r60","sourceModelId":"toyota-voxy-80","make":"Toyota","model":"Voxy","generation":"R60","chassisCodes":["R60"],"years":"2001–2007","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-voxy-r70","sourceModelId":"toyota-voxy-80","make":"Toyota","model":"Voxy","generation":"R70","chassisCodes":["R70"],"years":"2007–2013","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-toyota-voxy-r80","sourceModelId":"toyota-voxy-80","make":"Toyota","model":"Voxy","generation":"R80","chassisCodes":["R80"],"years":"2014–2021","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -977,7 +1051,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-mazda-cronos-ge","sourceModelId":"mazda-drom-cronos","make":"Mazda","model":"Cronos","generation":"GE","chassisCodes":["GE"],"years":"1991–1995","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
 
 
- {"id":"drom-mazda-demio-de","sourceModelId":"mazda-2-demio-192","make":"Mazda","model":"Demio","generation":"DE","chassisCodes":["DE"],"years":"2007–2014","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-mazda-demio-de","sourceModelId":"mazda-demio-de", "modelFamilyId": "mazda-2-demio-192","make":"Mazda","model":"Demio","generation":"DE","chassisCodes":["DE"],"years":"2007–2014","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-mazda-demio-dj","sourceModelId":"mazda-2-demio-192","make":"Mazda","model":"Demio","generation":"DJ","chassisCodes":["DJ"],"years":"2014–2019","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-mazda-efinimpv-lv","sourceModelId":"mazda-mpv-223","make":"Mazda","model":"Efini MPV","generation":"LV","chassisCodes":["LV"],"years":"1991–1997","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-mazda-efinims6-ge","sourceModelId":"mazda-drom-efinims6","make":"Mazda","model":"Efini MS-6","generation":"GE","chassisCodes":["GE"],"years":"1991–1994","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -1107,7 +1181,7 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-subaru-imprezaxv-gh","sourceModelId":"subaru-crosstrek-xv-274","make":"Subaru","model":"Impreza XV","generation":"GH","chassisCodes":["GH"],"years":"2010–2011","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-justy-2016","sourceModelId":"subaru-justy-281","make":"Subaru","model":"Justy","generation":"2016–н.в.","chassisCodes":[],"years":"2016–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-layback-2023","sourceModelId":"subaru-drom-layback","make":"Subaru","model":"Layback","generation":"2023–н.в.","chassisCodes":[],"years":"2023–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
- {"id":"drom-subaru-legacyb4-bm","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy B4","generation":"BM","chassisCodes":["BM"],"years":"2009–2014","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+ {"id":"drom-subaru-legacyb4-bm","sourceModelId":"subaru-legacy-bmbr", "modelFamilyId": "subaru-legacy-282","make":"Subaru","model":"Legacy B4","generation":"BM","chassisCodes":["BM"],"years":"2009–2014","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-legacyb4-bn","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy B4","generation":"BN","chassisCodes":["BN"],"years":"2014–2020","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-legacylancaster-bg","sourceModelId":"subaru-legacy-282","make":"Subaru","model":"Legacy Lancaster","generation":"BG","chassisCodes":["BG"],"years":"1995–1998","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-subaru-leone-19791984","sourceModelId":"subaru-leone-283","make":"Subaru","model":"Leone","generation":"1979–1984","chassisCodes":[],"years":"1979–1984","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
@@ -1199,6 +1273,730 @@ export const GENERATION_BODY_CATALOG: GenerationBodyRecord[] = [
  {"id":"drom-suzuki-xl7-20062009","sourceModelId":"suzuki-xl7-328","make":"Suzuki","model":"XL7","generation":"2006–2009","chassisCodes":[],"years":"2006–2009","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-suzuki-xbee-mn71s","sourceModelId":"suzuki-drom-xbee","make":"Suzuki","model":"Xbee","generation":"MN71S","chassisCodes":["MN71","S"],"years":"2017–2025","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
  {"id":"drom-suzuki-xbee-mnd1s","sourceModelId":"suzuki-drom-xbee","make":"Suzuki","model":"Xbee","generation":"MND1S","chassisCodes":["MND1","S"],"years":"2025–н.в.","bodyStyles":[],"engineFamilies":[],"transmissionFamilies":[],"drivetrainNotes":"Поколение, код и годы перенесены из индекса поколений Drom. Тип кузова, агрегаты и применимость уточняются по точной модификации и рынку.","verification":"seeded-needs-verification","nextDataTasks":["Подтвердить тип кузова и региональные периоды выпуска","Разнести двигатели и коды КПП по точной модификации","Сверить габариты, шины и диски по руководству производителя"],"source":"Drom"},
+{
+  id:'honda-accord-cl',sourceModelId:'honda-accord',make:'Honda',model:'Accord',generation:'VII / CL',chassisCodes:['CL7','CL9','CN1'],years:'2002–2005',bodyStyles:['Седан'],engineFamilies:['K20Z2 2.0 бензин — 155 л.с.','K24A3 2.4 бензин — 190 л.с.','N22A1 2.2 i-CTDi дизель — 140 л.с.'],transmissionFamilies:['МКПП — точный код/число передач уточнить по VIN','АКПП — точный код/число передач уточнить по VIN'],drivetrainNotes:'Для приведённых европейских CL7/CL9/CN1 в карточке Drom указан передний привод. Не переносить на японские/американские версии.',verification:'seeded-needs-verification',modelFamilyId:'honda-accord-140',source:'Drom',nextDataTasks:commonTasks
+ },
+
+ {id:"drom-toyota-prius-nhw20-xw20-app",sourceModelId:"toyota-prius-xw20",modelFamilyId:"toyota-prius-58",make:"Toyota",model:"Prius",generation:"NHW20 / XW20",chassisCodes:["NHW20"],years:"2003–2009",bodyStyles:["Лифтбек"],engineFamilies:["1NZ-FXE 1.5 бензин/гибрид"],transmissionFamilies:["CVT"],drivetrainNotes:"Для японских карточек Drom указаны передний привод и CVT; правый руль. Даты комплектаций заносятся отдельно.",verification:"seeded-needs-verification",source:"Drom",nextDataTasks:["Сверить окончание производства по рынку и кузову","Подтвердить коды трансмиссии и параметры гибридной батареи","Добавить OEM-размеры шин и дисков по кузову"]},
+
+ {id:"drom-honda-fit-ge-app",sourceModelId:"honda-fit-ge",modelFamilyId:"honda-fit-jazz-158",make:"Honda",model:"Fit / Jazz",generation:"GE, II поколение",chassisCodes:["GE6","GE7","GE8","GE9"],years:"2007–2010",bodyStyles:["Хэтчбек 5 дв."],engineFamilies:["L13A 1.3 бензин","L15A 1.5 бензин"],transmissionFamilies:["МКПП","АКПП","CVT"],drivetrainNotes:"Японский рынок, правый руль; привод и тип КПП разделены по точным комплектациям Drom.",verification:"seeded-needs-verification",source:"Drom",nextDataTasks:["Сверить коды трансмиссий по VIN и кузову","Подтвердить сервисные жидкости по руководству","Добавить OEM-размеры шин, дисков и щёток"]},
+
+ {id:"drom-toyota-prius-xw30-app",sourceModelId:"toyota-prius-xw30-liftback",modelFamilyId:"toyota-prius-58",make:"Toyota",model:"Prius",generation:"XW30 / ZVW30, III поколение",chassisCodes:["ZVW30L"],years:"2009–2011",bodyStyles:["Лифтбек"],engineFamilies:["2ZR-FXE 1.8 бензин/гибрид"],transmissionFamilies:["Электронная планетарная передача (e-CVT)"],drivetrainNotes:"Российская спецификация Drom: передний привод, левый руль; Drom отображает тип трансмиссии как CVT.",verification:"seeded-needs-verification",source:"Drom",nextDataTasks:["Сверить точное обозначение трансмиссии по OEM-документации","Подтвердить параметры гибридной батареи","Добавить OEM-размеры шин и дисков" ]},
+
+  {
+    "id": "batch50-toyota-mr2-sw20-gt-s-1997",
+    "sourceModelId": "toyota-mr2-sw20-gt-s-1997",
+    "modelFamilyId": "toyota-mr2-50",
+    "make": "Toyota",
+    "model": "MR2 GT-S (SW20)",
+    "generation": "II поколение, японская спецификация",
+    "chassisCodes": [
+      "SW20"
+    ],
+    "years": "1997–1999",
+    "bodyStyles": [
+      "Купе/Спорт"
+    ],
+    "engineFamilies": [
+      "3S-GTE"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая МКПП для GT-S"
+    ],
+    "drivetrainNotes": "Среднемоторная компоновка, задний привод; LSD зависит от исполнения.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-starlet-ep91-glanza-v",
+    "sourceModelId": "toyota-starlet-ep91-glanza-v",
+    "modelFamilyId": "toyota-starlet-71",
+    "make": "Toyota",
+    "model": "Starlet Glanza V (EP91)",
+    "generation": "V поколение, японская спецификация",
+    "chassisCodes": [
+      "EP91"
+    ],
+    "years": "1997–1999",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "4E-FTE"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая МКПП — Glanza V",
+      "4-ступенчатая АКПП — отдельные исполнения"
+    ],
+    "drivetrainNotes": "Передний привод (FF); передаточные числа и дифференциал уточнять по коробке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-crown-jzs171-athlete-v",
+    "sourceModelId": "toyota-crown-jzs171-athlete-v",
+    "modelFamilyId": "toyota-crown-athlete-18",
+    "make": "Toyota",
+    "model": "Crown Athlete V (JZS171)",
+    "generation": "XI поколение Crown, японская спецификация",
+    "chassisCodes": [
+      "JZS171"
+    ],
+    "years": "2001–2003",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "1JZ-GTE"
+    ],
+    "transmissionFamilies": [
+      "4-ступенчатая АКПП — конкретную модель коробки проверить по коду комплектации"
+    ],
+    "drivetrainNotes": "Задний привод (FR); передаточное число главной пары и тип LSD требуют проверки по комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-crown-estate-jzs171w-athlete-v",
+    "sourceModelId": "toyota-crown-estate-jzs171w-athlete-v",
+    "modelFamilyId": "toyota-crown-17",
+    "make": "Toyota",
+    "model": "Crown Estate Athlete V (JZS171W)",
+    "generation": "XI поколение Crown Estate, японская спецификация",
+    "chassisCodes": [
+      "JZS171W"
+    ],
+    "years": "2001–2003",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "1JZ-GTE"
+    ],
+    "transmissionFamilies": [
+      "4-ступенчатая АКПП — по японской версии Athlete V"
+    ],
+    "drivetrainNotes": "Задний привод (FR); точная главная пара и дифференциал зависят от комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-altezza-sxe10-rs200",
+    "sourceModelId": "toyota-altezza-sxe10-rs200",
+    "modelFamilyId": "toyota-altezza-3",
+    "make": "Toyota",
+    "model": "Altezza RS200 (SXE10)",
+    "generation": "I поколение, японская спецификация",
+    "chassisCodes": [
+      "SXE10"
+    ],
+    "years": "1998–2005",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "3S-GE"
+    ],
+    "transmissionFamilies": [
+      "6-ступенчатая МКПП — RS200",
+      "5-ступенчатая АКПП Super ECT — RS200"
+    ],
+    "drivetrainNotes": "Задний привод (FR); передаточное число главной пары зависит от коробки и версии.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-aristo-jzs161-v300",
+    "sourceModelId": "toyota-aristo-jzs161-v300",
+    "modelFamilyId": "toyota-aristo-4",
+    "make": "Toyota",
+    "model": "Aristo V300 (JZS161)",
+    "generation": "II поколение, японская спецификация",
+    "chassisCodes": [
+      "JZS161"
+    ],
+    "years": "1997–2005",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "2JZ-GTE"
+    ],
+    "transmissionFamilies": [
+      "4-ступенчатая АКПП для японской V300"
+    ],
+    "drivetrainNotes": "Задний привод (FR); главная пара и дифференциал уточняются по коду комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-gt-r-bnr34-v-spec-ii",
+    "sourceModelId": "nissan-skyline-gt-r-bnr34-v-spec-ii",
+    "modelFamilyId": "nissan-drom-skylinegtr",
+    "make": "Nissan",
+    "model": "Skyline GT-R V·spec II (BNR34)",
+    "generation": "X поколение Skyline, японская спецификация",
+    "chassisCodes": [
+      "BNR34"
+    ],
+    "years": "2000–2002",
+    "bodyStyles": [
+      "Купе/Спорт"
+    ],
+    "engineFamilies": [
+      "RB26DETT"
+    ],
+    "transmissionFamilies": [
+      "6-ступенчатая МКПП Getrag — дорожная версия"
+    ],
+    "drivetrainNotes": "Полный привод ATTESA E-TS; задний активный дифференциал и передаточные числа уточнять по комплектации.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-gt-r-bnr34-m-spec-nur",
+    "sourceModelId": "nissan-skyline-gt-r-bnr34-m-spec-nur",
+    "modelFamilyId": "nissan-drom-skylinegtr",
+    "make": "Nissan",
+    "model": "Skyline GT-R M·spec Nür (BNR34)",
+    "generation": "X поколение Skyline, ограниченная серия",
+    "chassisCodes": [
+      "BNR34"
+    ],
+    "years": "2002",
+    "bodyStyles": [
+      "Купе/Спорт"
+    ],
+    "engineFamilies": [
+      "RB26DETT"
+    ],
+    "transmissionFamilies": [
+      "6-ступенчатая МКПП — дорожный BNR34"
+    ],
+    "drivetrainNotes": "Полный привод ATTESA E-TS; дифференциалы и передаточные числа сверять по заводской документации конкретного кузова.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-civic-fd-sedan",
+    "sourceModelId": "honda-civic-fd-sedan",
+    "modelFamilyId": "honda-civic-147",
+    "make": "Honda",
+    "model": "Civic VIII (FD)",
+    "generation": "VIII поколение",
+    "chassisCodes": [
+      "FD"
+    ],
+    "years": "2005–2011",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "R18A"
+    ],
+    "transmissionFamilies": [
+      "5-ступенчатая автоматическая трансмиссия — отдельные версии",
+      "5-ступенчатая МКПП — отдельные версии"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-mitsubishi-lancer-cs-wagon",
+    "sourceModelId": "mitsubishi-lancer-cs-wagon",
+    "modelFamilyId": "mitsubishi-lancer-253",
+    "make": "Mitsubishi",
+    "model": "Lancer IX Wagon (CS)",
+    "generation": "IX поколение, универсал",
+    "chassisCodes": [
+      "CS"
+    ],
+    "years": "2003–2008",
+    "bodyStyles": [
+      "Универсал"
+    ],
+    "engineFamilies": [
+      "4G18"
+    ],
+    "transmissionFamilies": [
+      "МКПП / АКПП по комплектации"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-mitsubishi-pajero-io-h76-suv",
+    "sourceModelId": "mitsubishi-pajero-io-h76-suv",
+    "modelFamilyId": "mitsubishi-pajero-io-pinin-260",
+    "make": "Mitsubishi",
+    "model": "Pajero iO / Pinin (H6/H7)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "H6",
+      "H7"
+    ],
+    "years": "1998–2007",
+    "bodyStyles": [
+      "Внедорожник"
+    ],
+    "engineFamilies": [
+      "4G93"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП"
+    ],
+    "drivetrainNotes": "Easy Select / Full-time 4WD — зависит от версии; проверить рычаг/код трансмиссии.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-yaris-xp90-hatchback",
+    "sourceModelId": "toyota-yaris-xp90-hatchback",
+    "modelFamilyId": "toyota-vitz-yaris-79",
+    "make": "Toyota",
+    "model": "Yaris / Vitz (XP90)",
+    "generation": "II поколение",
+    "chassisCodes": [
+      "XP90"
+    ],
+    "years": "2005–2011",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "1KR-FE"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП/вариатор — по рынку"
+    ],
+    "drivetrainNotes": "Привод не установлен для всех комплектаций; уточнять по VIN.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-hilux-an120-pickup",
+    "sourceModelId": "toyota-hilux-an120-pickup",
+    "modelFamilyId": "toyota-hilux-39",
+    "make": "Toyota",
+    "model": "Hilux (AN120/AN130)",
+    "generation": "VIII поколение",
+    "chassisCodes": [
+      "AN120",
+      "AN130"
+    ],
+    "years": "2015–2025",
+    "bodyStyles": [
+      "Пикап"
+    ],
+    "engineFamilies": [
+      "2GD-FTV"
+    ],
+    "transmissionFamilies": [
+      "МКПП",
+      "АКПП"
+    ],
+    "drivetrainNotes": "RWD или подключаемый 4WD; проверить конкретную комплектацию.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-prius-xw50",
+    "sourceModelId": "toyota-prius-xw50",
+    "modelFamilyId": "toyota-prius-58",
+    "make": "Toyota",
+    "model": "Prius (XW50)",
+    "generation": "IV поколение",
+    "chassisCodes": [
+      "XW50"
+    ],
+    "years": "2015–2022",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "2ZR-FXE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-estima-xr50",
+    "sourceModelId": "toyota-estima-xr50",
+    "modelFamilyId": "toyota-estima-31",
+    "make": "Toyota",
+    "model": "Estima (XR50)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "XR50"
+    ],
+    "years": "2006–2019",
+    "bodyStyles": [
+      "Минивэн"
+    ],
+    "engineFamilies": [
+      "2AZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-v35",
+    "sourceModelId": "nissan-skyline-v35",
+    "modelFamilyId": "nissan-skyline-129",
+    "make": "Nissan",
+    "model": "Skyline (V35)",
+    "generation": "XI поколение",
+    "chassisCodes": [
+      "V35"
+    ],
+    "years": "2001–2007",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "VQ25DD"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-nissan-skyline-v36",
+    "sourceModelId": "nissan-skyline-v36",
+    "modelFamilyId": "nissan-skyline-129",
+    "make": "Nissan",
+    "model": "Skyline (V36)",
+    "generation": "XII поколение",
+    "chassisCodes": [
+      "V36"
+    ],
+    "years": "2006–2014",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "VQ25HR"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-fit-gd",
+    "sourceModelId": "honda-fit-gd-hatchback",
+    "modelFamilyId": "honda-fit-jazz-158",
+    "make": "Honda",
+    "model": "Fit / Jazz (GD)",
+    "generation": "I поколение",
+    "chassisCodes": [
+      "GD"
+    ],
+    "years": "2001–2008",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "L13A"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-suzuki-swift-zc72",
+    "sourceModelId": "suzuki-swift-zc72",
+    "modelFamilyId": "suzuki-swift-323",
+    "make": "Suzuki",
+    "model": "Swift (ZC72/ZD72)",
+    "generation": "III поколение",
+    "chassisCodes": [
+      "ZC72",
+      "ZD72"
+    ],
+    "years": "2010–2017",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "K12B"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-suzuki-alto-ha25",
+    "sourceModelId": "suzuki-alto-ha25",
+    "modelFamilyId": "suzuki-alto-300",
+    "make": "Suzuki",
+    "model": "Alto (HA25)",
+    "generation": "VII поколение",
+    "chassisCodes": [
+      "HA25"
+    ],
+    "years": "2009–2014",
+    "bodyStyles": [
+      "Хэтчбек"
+    ],
+    "engineFamilies": [
+      "K6A"
+    ],
+    "transmissionFamilies": [
+      "Зависит от года, рынка и комплектации; уточнять по коду агрегата"
+    ],
+    "drivetrainNotes": "Зависит от модификации и рынка.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-corolla-e100",
+    "sourceModelId": "toyota-corolla-e100",
+    "modelFamilyId": "toyota-corolla-20",
+    "make": "Toyota",
+    "model": "Corolla (E100)",
+    "generation": "VII поколение",
+    "chassisCodes": [
+      "E100"
+    ],
+    "years": "1991–1998",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "4A-FE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-corolla-e120",
+    "sourceModelId": "toyota-corolla-e120",
+    "modelFamilyId": "toyota-corolla-20",
+    "make": "Toyota",
+    "model": "Corolla (E120/E130)",
+    "generation": "IX поколение",
+    "chassisCodes": [
+      "E120",
+      "E130"
+    ],
+    "years": "2000–2007",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "1NZ-FE"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-toyota-hiace-h200",
+    "sourceModelId": "toyota-hiace-h200",
+    "modelFamilyId": "toyota-hiace-38",
+    "make": "Toyota",
+    "model": "HiAce (H200)",
+    "generation": "V поколение",
+    "chassisCodes": [
+      "H200"
+    ],
+    "years": "2004–н.в.",
+    "bodyStyles": [
+      "Минивэн"
+    ],
+    "engineFamilies": [
+      "2KD-FTV"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-honda-accord-cf",
+    "sourceModelId": "honda-accord-cf",
+    "modelFamilyId": "honda-accord-140",
+    "make": "Honda",
+    "model": "Accord (CF)",
+    "generation": "VI поколение",
+    "chassisCodes": [
+      "CF"
+    ],
+    "years": "1997–2002",
+    "bodyStyles": [
+      "Седан"
+    ],
+    "engineFamilies": [
+      "F18B"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  },
+  {
+    "id": "batch50-mazda-bt50-up",
+    "sourceModelId": "mazda-bt50-up",
+    "modelFamilyId": "mazda-bt-50-202",
+    "make": "Mazda",
+    "model": "BT-50 (UP/UR)",
+    "generation": "II поколение",
+    "chassisCodes": [
+      "UP",
+      "UR"
+    ],
+    "years": "2011–2020",
+    "bodyStyles": [
+      "Пикап"
+    ],
+    "engineFamilies": [
+      "P4-AT"
+    ],
+    "transmissionFamilies": [
+      "Уточнить по коду коробки и рынку"
+    ],
+    "drivetrainNotes": "Зависит от версии; сверять по VIN/табличке.",
+    "verification": "separated-needs-verification",
+    "nextDataTasks": [
+      "Разделить модификации по рынку, году и точному коду кузова",
+      "Подтвердить код КПП и привод по OEM-документации",
+      "Подтвердить шины, диски, жидкости и интервалы ТО для точной версии"
+    ]
+  }
+
+
+
 ];
 export const CATALOG_RECORDS_BY_SOURCE_MODEL = GENERATION_BODY_CATALOG.reduce<Record<string, GenerationBodyRecord[]>>((acc, record) => {
   (acc[record.sourceModelId] ??= []).push(record);

@@ -26467,7 +26467,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "QR25DE",
       "displacementCc": 2488,
       "powerHp": 167,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 240
     },
     "transmissionType": "CVT",
     "drivetrain": "4WD",
@@ -26483,6 +26484,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Elegance + Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "QR25DE, 2488 см³, 167 л.с.; 240 Н·м; J32; 4WD; 2010-07–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -26509,10 +26519,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wiperBladeSize",
         "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
       },
       {
         "field": "engine.induction",
@@ -26558,7 +26564,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "QR25DE",
       "displacementCc": 2488,
       "powerHp": 167,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 240
     },
     "transmissionType": "CVT",
     "drivetrain": "4WD",
@@ -26574,6 +26581,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Luxury Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "QR25DE, 2488 см³, 167 л.с.; 240 Н·м; J32; 4WD; 2010-07–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -26600,10 +26616,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wiperBladeSize",
         "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
       },
       {
         "field": "engine.induction",
@@ -26649,7 +26661,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "QR25DE",
       "displacementCc": 2488,
       "powerHp": 167,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 240
     },
     "transmissionType": "CVT",
     "drivetrain": "4WD",
@@ -26665,6 +26678,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Luxury + Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "QR25DE, 2488 см³, 167 л.с.; 240 Н·м; J32; 4WD; 2010-07–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -26691,10 +26713,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wiperBladeSize",
         "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
       },
       {
         "field": "engine.induction",
@@ -26740,7 +26758,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "QR25DE",
       "displacementCc": 2488,
       "powerHp": 167,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 240
     },
     "transmissionType": "CVT",
     "drivetrain": "4WD",
@@ -26756,6 +26775,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Premium Four; QR25DE, 2488 см³, 167 л.с., CVT, 4WD, 2010-07–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "QR25DE, 2488 см³, 167 л.с.; 240 Н·м; J32; 4WD; 2010-07–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -26782,10 +26810,6 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wiperBladeSize",
         "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
-      },
-      {
-        "field": "engine.torqueNm",
-        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
       },
       {
         "field": "engine.induction",
@@ -26831,7 +26855,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ25DE",
       "displacementCc": 2496,
       "powerHp": 182,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 228
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -26847,6 +26872,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Elegance; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ25DE, 2496 см³, 182 л.с.; 228 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -26869,6 +26903,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -26890,7 +26952,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ25DE",
       "displacementCc": 2496,
       "powerHp": 182,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 228
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -26906,6 +26969,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Elegance +; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ25DE, 2496 см³, 182 л.с.; 228 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -26928,6 +27000,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -26949,7 +27049,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ25DE",
       "displacementCc": 2496,
       "powerHp": 182,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 228
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -26965,6 +27066,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Luxury; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ25DE, 2496 см³, 182 л.с.; 228 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -26987,6 +27097,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -27008,7 +27146,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ25DE",
       "displacementCc": 2496,
       "powerHp": 182,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 228
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -27024,6 +27163,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Luxury +; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ25DE, 2496 см³, 182 л.с.; 228 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27046,6 +27194,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -27067,7 +27243,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ25DE",
       "displacementCc": 2496,
       "powerHp": 182,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 228
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -27083,6 +27260,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "2.5 CVT Premium; VQ25DE, 2496 см³, 182 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ25DE, 2496 см³, 182 л.с.; 228 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27105,6 +27291,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -27126,7 +27340,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ35DE",
       "displacementCc": 3498,
       "powerHp": 249,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 326
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -27142,6 +27357,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "3.5 CVT Luxury; VQ35DE, 3498 см³, 249 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ35DE, 3498 см³, 249 л.с.; 326 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27164,6 +27388,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -27185,7 +27437,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ35DE",
       "displacementCc": 3498,
       "powerHp": 249,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 326
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -27201,6 +27454,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "3.5 CVT Luxury +; VQ35DE, 3498 см³, 249 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ35DE, 3498 см³, 249 л.с.; 326 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27223,6 +27485,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -27244,7 +27534,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "VQ35DE",
       "displacementCc": 3498,
       "powerHp": 249,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 326
     },
     "transmissionType": "CVT",
     "drivetrain": "FWD",
@@ -27260,6 +27551,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "3.5 CVT Premium; VQ35DE, 3498 см³, 249 л.с., CVT, FWD, 2008-02–2011-08",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Nissan Teana — engine torque",
+        "url": "https://www.drom.ru/catalog/nissan/teana/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "VQ35DE, 3498 см³, 249 л.с.; 326 Н·м; J32; FWD; 2008-02–2011-08",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27282,6 +27582,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Только российская дорестайлинговая линейка J32; не смешивать с японскими праворульными версиями и рестайлингом."
@@ -27303,7 +27631,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "R18A2",
       "displacementCc": 1799,
       "powerHp": 140,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 174
     },
     "transmissionType": "MT",
     "drivetrain": "FWD",
@@ -27319,6 +27648,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "FK2/FN1, 1.8 MT Sport; R18A2, 1799 см³, 140 л.с., MT, FWD, 05.2009–03.2012",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Civic — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/civic/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "R18A2, 1799 см³, 140 л.с.; 174 Н·м; Civic FK2/FN1; 2009-05–2012-03",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27341,6 +27679,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
@@ -27362,7 +27728,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "R18A2",
       "displacementCc": 1799,
       "powerHp": 140,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 174
     },
     "transmissionType": "AT",
     "drivetrain": "FWD",
@@ -27378,6 +27745,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "FK2/FN1, 1.8 AT Sport; R18A2, 1799 см³, 140 л.с., AT, FWD, 05.2009–03.2012",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Civic — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/civic/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "R18A2, 1799 см³, 140 л.с.; 174 Н·м; Civic FK2/FN1; 2009-05–2012-03",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27400,6 +27776,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
@@ -27421,7 +27825,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "R18A2",
       "displacementCc": 1799,
       "powerHp": 140,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 174
     },
     "transmissionType": "AT",
     "drivetrain": "FWD",
@@ -27437,6 +27842,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "FK2/FN1, 1.8 AT Executive; R18A2, 1799 см³, 140 л.с., AT, FWD, 05.2009–03.2012",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Civic — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/civic/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "R18A2, 1799 см³, 140 л.с.; 174 Н·м; Civic FK2/FN1; 2009-05–2012-03",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27459,6 +27873,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
@@ -27480,7 +27922,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "R18A2",
       "displacementCc": 1799,
       "powerHp": 140,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 174
     },
     "transmissionType": "AT",
     "drivetrain": "FWD",
@@ -27496,6 +27939,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Россия",
         "scope": "FK2/FN1, 1.8 AT Glass Roof; R18A2, 1799 см³, 140 л.с., AT, FWD, 05.2009–03.2012",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Civic — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/civic/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "R18A2, 1799 см³, 140 л.с.; 174 Н·м; Civic FK2/FN1; 2009-05–2012-03",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27518,6 +27970,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Хэтчбек FK2/FN1 для российского рынка; не смешивать с седаном FB."
@@ -27539,7 +28019,8 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       "code": "R18A1",
       "displacementCc": 1799,
       "powerHp": 139,
-      "fuelType": "Бензин"
+      "fuelType": "Бензин",
+      "torqueNm": 174
     },
     "transmissionType": "AT",
     "drivetrain": "FWD",
@@ -27555,6 +28036,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "ОАЭ",
         "scope": "FB sedan 1.8 AT LXi; R18A1, 1799 см³, 139 л.с., AT, FWD, 07.2011–04.2013",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom Honda Civic — engine torque",
+        "url": "https://www.drom.ru/catalog/honda/civic/specs/engine_torque/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "R18A1, 1799 см³, 139 л.с.; 174 Н·м; Civic FB; 2011-07–2013-04",
+        "pageOrSection": "Engine torque table",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -27577,6 +28067,34 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET не подтверждены для точной комплектации."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
       }
     ],
     "notes": "Отдельная версия FB для рынка ОАЭ; не переносить характеристики на FK/FN или другие рынки."
@@ -27636,9 +28154,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2008-09-2009-04-2",
@@ -27695,9 +28249,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-slide-passenger-seat-a-type-2008-09-2009-04-3",
@@ -27754,9 +28344,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-slide-passenger-seat-b-type-2008-09-2009-04-4",
@@ -27813,9 +28439,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2008-09-2009-04-5",
@@ -27872,9 +28534,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2008-09-2009-04-6",
@@ -27931,9 +28629,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2008-09-2009-04-7",
@@ -27990,9 +28724,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2008-09-2009-04-8",
@@ -28049,9 +28819,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-slide-passenger-seat-a-type-2008-09-2009-04-9",
@@ -28108,9 +28914,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-slide-passenger-seat-b-type-2008-09-2009-04-10",
@@ -28167,9 +29009,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2008-09-2009-04-11",
@@ -28226,9 +29104,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2008-09-2009-04-12",
@@ -28285,9 +29199,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2008-09-2009-04-13",
@@ -28344,9 +29294,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2008-09-2009-04-14",
@@ -28403,9 +29389,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2008-09-2009-04-15",
@@ -28462,9 +29484,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2007-09-2008-08-16",
@@ -28521,9 +29579,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2007-09-2008-08-17",
@@ -28580,9 +29674,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-lift-up-passenger-seat-a-type-2007-09-2008-08-18",
@@ -28639,9 +29769,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-lift-up-passenger-seat-b-type-2007-09-2008-08-19",
@@ -28698,9 +29864,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2007-09-2008-08-20",
@@ -28757,9 +29959,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2007-09-2008-08-21",
@@ -28816,9 +30054,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2007-09-2008-08-22",
@@ -28875,9 +30149,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2007-09-2008-08-23",
@@ -28934,9 +30244,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-lift-up-passenger-seat-a-type-2007-09-2008-08-24",
@@ -28993,9 +30339,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-lift-up-passenger-seat-b-type-2007-09-2008-08-25",
@@ -29052,9 +30434,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-i-2007-09-2008-08-26",
@@ -29111,9 +30529,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-welcab-friendmatic-type-ii-2007-09-2008-08-27",
@@ -29170,9 +30624,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-2007-09-2008-08-28",
@@ -29229,9 +30719,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-10th-anniversary-edition-2007-09-2008-08-29",
@@ -29288,9 +30814,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-touring-selection-leather-package-2007-09-2008-08-30",
@@ -29347,9 +30909,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-standard-package-2007-01-2007-08-31",
@@ -29406,9 +31004,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-2007-01-2007-08-32",
@@ -29465,9 +31099,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-rotating-and-sliding-passenger-seat-a-type-2007-01-2007-08-33",
@@ -29524,9 +31194,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-rotating-and-sliding-passenger-seat-b-type-2007-01-2007-08-34",
@@ -29583,9 +31289,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-i-2007-01-2007-08-35",
@@ -29642,9 +31384,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-welcab-friendmatic-type-ii-2007-01-2007-08-36",
@@ -29701,9 +31479,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-s-touring-selection-2007-01-2007-08-37",
@@ -29760,9 +31574,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Для этой версии с передним приводом отдельная раздаточная коробка не предусмотрена; не отображать сервисную жидкость раздатки."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Отдельная спецификация масла дифференциала для этой версии не подтверждена; не выводить отдельный объём без руководства."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент конкретной гибридной модификации не подтверждён в используемом источнике."
+      },
+      {
+        "field": "hybridSystemPower",
+        "reason": "Drom указывает 76 л.с. для бензинового двигателя и 68 л.с. для электромотора отдельно. Суммарную мощность гибридной системы нельзя получать сложением; отдельное значение в схеме каталога не подтверждено."
       }
     ],
-    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки."
+    "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. 76 л.с. — мощность ДВС; Drom отдельно указывает электромотор 68 л.с. Не складывать значения и не трактовать 76 л.с. как суммарную мощность гибридной системы."
   },
   {
     "id": "toyota-prius-xw20-daa-nhw20-1nz-fxe-76-1-5-g-2007-01-2007-08-38",

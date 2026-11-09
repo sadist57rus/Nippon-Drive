@@ -17299,6 +17299,38 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
       }
     ],
     "notes": "Отдельная автоматическая версия той же товарной комплектации; ручная и автоматическая трансмиссии не объединены."
@@ -17315,9 +17347,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "bodyCode": "CL7",
     "bodyStyle": "Седан",
     "trimOrGrade": "2.0 MT Comfort",
-    "engineCode": "K20Z2",
+    "engineCode": "K20A6",
     "engine": {
-      "code": "K20Z2",
+      "code": "K20A6",
       "displacementCc": 1998,
       "powerHp": 155,
       "fuelType": "Бензин"
@@ -17336,6 +17368,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL7, 2.0 MT Comfort; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL7, VIN line/body/engine type = ACCORD/K20A6; engine number K20A6; 2.0-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17354,9 +17395,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
-    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ. Honda ESM 2003 identifies CL7 as K20A6; Drom's 2002–2005 catalog row says K20Z2. Engine code follows the OEM service manual; verify individual vehicle by VIN."
   },
   {
     "id": "accord-cl-eu-cl7-2-0-mt-sport",
@@ -17370,9 +17447,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "bodyCode": "CL7",
     "bodyStyle": "Седан",
     "trimOrGrade": "2.0 MT Sport",
-    "engineCode": "K20Z2",
+    "engineCode": "K20A6",
     "engine": {
-      "code": "K20Z2",
+      "code": "K20A6",
       "displacementCc": 1998,
       "powerHp": 155,
       "fuelType": "Бензин"
@@ -17391,6 +17468,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL7, 2.0 MT Sport; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL7, VIN line/body/engine type = ACCORD/K20A6; engine number K20A6; 2.0-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17409,9 +17495,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
-    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ. Honda ESM 2003 identifies CL7 as K20A6; Drom's 2002–2005 catalog row says K20Z2. Engine code follows the OEM service manual; verify individual vehicle by VIN."
   },
   {
     "id": "accord-cl-eu-cl7-2-0-mt-executive",
@@ -17425,9 +17547,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "bodyCode": "CL7",
     "bodyStyle": "Седан",
     "trimOrGrade": "2.0 MT Executive",
-    "engineCode": "K20Z2",
+    "engineCode": "K20A6",
     "engine": {
-      "code": "K20Z2",
+      "code": "K20A6",
       "displacementCc": 1998,
       "powerHp": 155,
       "fuelType": "Бензин"
@@ -17446,6 +17568,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL7, 2.0 MT Executive; K20Z2 1998 см³, 155 л.с., MT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL7, VIN line/body/engine type = ACCORD/K20A6; engine number K20A6; 2.0-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17464,9 +17595,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
-    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ. Honda ESM 2003 identifies CL7 as K20A6; Drom's 2002–2005 catalog row says K20Z2. Engine code follows the OEM service manual; verify individual vehicle by VIN."
   },
   {
     "id": "accord-cl-eu-cl7-2-0-at-comfort",
@@ -17480,9 +17647,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "bodyCode": "CL7",
     "bodyStyle": "Седан",
     "trimOrGrade": "2.0 AT Comfort",
-    "engineCode": "K20Z2",
+    "engineCode": "K20A6",
     "engine": {
-      "code": "K20Z2",
+      "code": "K20A6",
       "displacementCc": 1998,
       "powerHp": 155,
       "fuelType": "Бензин"
@@ -17501,6 +17668,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL7, 2.0 AT Comfort; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL7, VIN line/body/engine type = ACCORD/K20A6; engine number K20A6; 2.0-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17519,9 +17695,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
-    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ. Honda ESM 2003 identifies CL7 as K20A6; Drom's 2002–2005 catalog row says K20Z2. Engine code follows the OEM service manual; verify individual vehicle by VIN."
   },
   {
     "id": "accord-cl-eu-cl7-2-0-at-sport",
@@ -17535,9 +17747,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "bodyCode": "CL7",
     "bodyStyle": "Седан",
     "trimOrGrade": "2.0 AT Sport",
-    "engineCode": "K20Z2",
+    "engineCode": "K20A6",
     "engine": {
-      "code": "K20Z2",
+      "code": "K20A6",
       "displacementCc": 1998,
       "powerHp": 155,
       "fuelType": "Бензин"
@@ -17556,6 +17768,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL7, 2.0 AT Sport; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL7, VIN line/body/engine type = ACCORD/K20A6; engine number K20A6; 2.0-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17574,9 +17795,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
-    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ. Honda ESM 2003 identifies CL7 as K20A6; Drom's 2002–2005 catalog row says K20Z2. Engine code follows the OEM service manual; verify individual vehicle by VIN."
   },
   {
     "id": "accord-cl-eu-cl7-2-0-at-executive",
@@ -17590,9 +17847,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "bodyCode": "CL7",
     "bodyStyle": "Седан",
     "trimOrGrade": "2.0 AT Executive",
-    "engineCode": "K20Z2",
+    "engineCode": "K20A6",
     "engine": {
-      "code": "K20Z2",
+      "code": "K20A6",
       "displacementCc": 1998,
       "powerHp": 155,
       "fuelType": "Бензин"
@@ -17611,6 +17868,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL7, 2.0 AT Executive; K20Z2 1998 см³, 155 л.с., AT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL7, VIN line/body/engine type = ACCORD/K20A6; engine number K20A6; 2.0-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17629,9 +17895,45 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
-    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
+    "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ. Honda ESM 2003 identifies CL7 as K20A6; Drom's 2002–2005 catalog row says K20Z2. Engine code follows the OEM service manual; verify individual vehicle by VIN."
   },
   {
     "id": "accord-cl-eu-cn1-2-2-i-ctdi-mt-sport",
@@ -17684,6 +17986,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
@@ -17739,6 +18077,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
@@ -17776,6 +18150,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL9, 2.4 MT Type-S; K24A3 2354 см³, 190 л.с., MT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL9, VIN line/body/engine type = ACCORD/K24A3; engine number K24A3; 2.4-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17794,6 +18177,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
@@ -17831,6 +18250,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL9, 2.4 MT Executive; K24A3 2354 см³, 190 л.с., MT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL9, VIN line/body/engine type = ACCORD/K24A3; engine number K24A3; 2.4-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17849,6 +18277,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
@@ -17886,6 +18350,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL9, 2.4 AT Type-S; K24A3 2354 см³, 190 л.с., AT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL9, VIN line/body/engine type = ACCORD/K24A3; engine number K24A3; 2.4-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17904,6 +18377,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
@@ -17941,6 +18450,15 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "Европа",
         "scope": "CL9, 2.4 AT Executive; K24A3 2354 см³, 190 л.с., AT, FWD, 10.2002–12.2005",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Honda Accord 2003 ESM — VIN, Engine and Transmission Numbers (4D)",
+        "url": "https://jdmfsm.info/Auto/Japan/Honda/Accord/Honda%20Accord%20ESM%202003/site/a-2003/sea3ep00000000k0011baat00.html",
+        "sourceType": "oem-service-manual",
+        "market": "Европа",
+        "scope": "CL9, VIN line/body/engine type = ACCORD/K24A3; engine number K24A3; 2.4-litre engine; 2003 model-year service manual",
+        "pageOrSection": "VIN, Engine and Transmission Numbers (4D)",
+        "accessedAt": "2026-11-09"
       }
     ],
     "limitations": [
@@ -17959,6 +18477,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для конкретной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Европейский седан CL; не смешивать CL7, CL9 и CN1. Для заказа деталей, жидкостей и обслуживания требуется VIN и первичный документ."
@@ -17994,7 +18548,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18018,6 +18572,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18053,7 +18643,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18077,6 +18667,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18136,6 +18762,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18195,6 +18857,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18254,6 +18952,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18313,6 +19047,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18348,7 +19118,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 MT Exclusive; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.0 MT Exclusive; LF17, 1999 см³, 147 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18372,6 +19142,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18407,7 +19213,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 MT Dynamic; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.0 MT Dynamic; LF17, 1999 см³, 147 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18431,6 +19237,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18466,7 +19308,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 AT Exclusive; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "scope": "2.0 AT Exclusive; LF17, 1999 см³, 147 л.с., AT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18490,6 +19332,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18525,7 +19403,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 AT Dynamic; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "scope": "2.0 AT Dynamic; LF17, 1999 см³, 147 л.с., AT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18549,6 +19427,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18584,7 +19498,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.5 MT Dynamic; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.5 MT Dynamic; L5-VE, 2488 см³, 170 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18608,6 +19522,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18643,7 +19593,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7364/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.5 MT Top; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.5 MT Top; L5-VE, 2488 см³, 170 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18667,6 +19617,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18702,7 +19688,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18726,6 +19712,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18761,7 +19783,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18785,6 +19807,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18820,7 +19878,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Dynamic; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Dynamic; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -18844,6 +19902,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18903,6 +19997,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -18962,6 +20092,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19021,6 +20187,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19080,6 +20282,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19115,7 +20353,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 MT Exclusive; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.0 MT Exclusive; LF17, 1999 см³, 147 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19139,6 +20377,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19174,7 +20448,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 MT Dynamic; LF17, 1999 см³, 147 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.0 MT Dynamic; LF17, 1999 см³, 147 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19198,6 +20472,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19233,7 +20543,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 AT Exclusive; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "scope": "2.0 AT Exclusive; LF17, 1999 см³, 147 л.с., AT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19257,6 +20567,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19292,7 +20638,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.0 AT Dynamic; LF17, 1999 см³, 147 л.с., AT, FWD; период поколения–период поколения",
+        "scope": "2.0 AT Dynamic; LF17, 1999 см³, 147 л.с., AT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19316,6 +20662,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19375,6 +20757,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19434,6 +20852,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19493,6 +20947,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19528,7 +21018,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.2CD MT Exclusive; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.2CD MT Exclusive; R2AA, 2184 см³, 163 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19552,6 +21042,50 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
+      },
+      {
+        "field": "productionMonthFrom",
+        "reason": "Drom's trim row lists 08.2007–11.2010, but the same page narrative says the 2.2 MZR-CD appeared in 2009. Exact start month is unresolved; confirm from Mazda primary documentation."
+      },
+      {
+        "field": "productionMonthTo",
+        "reason": "Drom's trim row lists 08.2007–11.2010, but the same page narrative says the 2.2 MZR-CD appeared in 2009. Exact end month is not independently confirmed for this trim."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19587,7 +21121,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.2CD MT Dynamic; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.2CD MT Dynamic; R2AA, 2184 см³, 163 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19611,6 +21145,50 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
+      },
+      {
+        "field": "productionMonthFrom",
+        "reason": "Drom's trim row lists 08.2007–11.2010, but the same page narrative says the 2.2 MZR-CD appeared in 2009. Exact start month is unresolved; confirm from Mazda primary documentation."
+      },
+      {
+        "field": "productionMonthTo",
+        "reason": "Drom's trim row lists 08.2007–11.2010, but the same page narrative says the 2.2 MZR-CD appeared in 2009. Exact end month is not independently confirmed for this trim."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19646,7 +21224,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.2CD MT Top; R2AA, 2184 см³, 163 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.2CD MT Top; R2AA, 2184 см³, 163 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19670,6 +21248,50 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
+      },
+      {
+        "field": "productionMonthFrom",
+        "reason": "Drom's trim row lists 08.2007–11.2010, but the same page narrative says the 2.2 MZR-CD appeared in 2009. Exact start month is unresolved; confirm from Mazda primary documentation."
+      },
+      {
+        "field": "productionMonthTo",
+        "reason": "Drom's trim row lists 08.2007–11.2010, but the same page narrative says the 2.2 MZR-CD appeared in 2009. Exact end month is not independently confirmed for this trim."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19729,6 +21351,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19764,7 +21422,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7363/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "2.5 MT Dynamic; L5-VE, 2488 см³, 170 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "2.5 MT Dynamic; L5-VE, 2488 см³, 170 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19788,6 +21446,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19823,7 +21517,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Comfort; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19847,6 +21541,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19882,7 +21612,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Exclusive; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19906,6 +21636,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -19941,7 +21707,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "url": "https://www.drom.ru/catalog/mazda/mazda6/g_2007_7362/",
         "sourceType": "secondary-reference",
         "market": "Европа",
-        "scope": "1.8 MT Dynamic; L813, 1798 см³, 120 л.с., MT, FWD; период поколения–период поколения",
+        "scope": "1.8 MT Dynamic; L813, 1798 см³, 120 л.с., MT, FWD; 2007-08–2010-11",
         "accessedAt": "2026-11-06"
       }
     ],
@@ -19965,6 +21731,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -20024,6 +21826,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -20083,6 +21921,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."
@@ -20142,6 +22016,42 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "wheelFitments",
         "reason": "PCD, DIA и ET для точной комплектации не подтверждены."
+      },
+      {
+        "field": "wiperBladeSize",
+        "reason": "Размеры щёток стеклоочистителя не подтверждены для этой комплектации; требуется OEM-каталог или VIN."
+      },
+      {
+        "field": "engine.torqueNm",
+        "reason": "Крутящий момент точной модификации не подтверждён первичным документом для указанного рынка."
+      },
+      {
+        "field": "engine.induction",
+        "reason": "Тип наддува/впуска для конкретной модификации не подтверждён приложенным первичным источником."
+      },
+      {
+        "field": "specification.engineOil",
+        "reason": "Спецификация и объём моторного масла не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "specification.transmissionFluid",
+        "reason": "Тип и объём жидкости трансмиссии не подтверждены для точного кода коробки передач и рынка."
+      },
+      {
+        "field": "specification.transferCaseFluid",
+        "reason": "Спецификация и объём масла раздаточной коробки не подтверждены для точной версии 4WD."
+      },
+      {
+        "field": "specification.differentialFluid",
+        "reason": "Спецификация и объём масел дифференциалов не подтверждены для точной версии мостов и редукторов."
+      },
+      {
+        "field": "specification.coolant",
+        "reason": "Тип и объём охлаждающей жидкости не подтверждены руководством или сервисной документацией для точного двигателя и рынка."
+      },
+      {
+        "field": "steeringPosition",
+        "reason": "Положение руля для конкретной европейской/экспортной комплектации не установлено по использованной карточке; проверить по VIN."
       }
     ],
     "notes": "Только указанная комплектация, кузов и рынок; не переносить характеристики на другие исполнения."

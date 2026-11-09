@@ -37908,7 +37908,7 @@
           "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
         }
       ],
-      "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only."
+      "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only."
     },
     {
       "id": "toyota-prius-xw30-liftback-zvw30l-2zr-fxe-99-1-8-cvt-prestige-2009-10-2011-12-100",
@@ -38005,7 +38005,7 @@
           "reason": "Отдельная спецификация масла дифференциала для переднеприводной версии не подтверждена; не выводить отдельный объём без руководства."
         }
       ],
-      "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only."
+      "notes": "Комплектация, двигатель, трансмиссия, привод, рынок и период привязаны к строке Drom. Не переносить характеристики на другие кузова и рынки. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only. Toyota Global 2009 launch data: 99 PS engine, 82 PS motor, 136 PS combined system output. engine.powerHp is engine-only."
     },
     {
       "id": "batch50-toyota-mr2-sw20-gt-s-1997",
@@ -38524,6 +38524,10 @@
         {
           "field": "tires",
           "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+        },
+        {
+          "field": "modelYearTo",
+          "reason": "Current Toyota U-Car citations cover 1998.10–2001.05 only; the record's 2001–2005 tail needs a separate year-specific source."
         }
       ],
       "lastReviewed": "2026-11-07",
@@ -38657,7 +38661,7 @@
           "url": "https://toyota.jp/ucar/catalog/brand-TOYOTA/car-COROLLA_LEVIN/199205/10047148/",
           "sourceType": "secondary-reference",
           "market": "Japan",
-          "scope": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели.; Toyota official U-Car specification confirms 5-speed manual transmission.",
+          "scope": "Toyota GT APEX E-AE101 (1992.05): 4275×1695×1305 мм, база 2465 мм, масса 1090 кг, 4A-GE 1587 см³, 160 PS/161.8 Н·м, бак 50 л. Не выдавать эти данные за характеристики AE86. Точные штатные шины/диски, передаточные числа и дворники требуют отдельной сверки по коду модели.; Toyota official U-Car specification confirms 5-speed manual transmission.; Toyota official U-Car specification confirms 5-speed manual transmission.",
           "accessedAt": "2026-11-07"
         }
       ],
@@ -38701,6 +38705,14 @@
         {
           "field": "tires",
           "reason": "Размер шин и индексы нагрузки/скорости не подтверждены для точной комплектации."
+        },
+        {
+          "field": "modelYearFrom",
+          "reason": "Current cited Toyota U-Car page identifies the 1992.05 GT APEX specification; the complete 1991–1995 model-year span needs year-specific confirmation."
+        },
+        {
+          "field": "modelYearTo",
+          "reason": "Current cited Toyota U-Car page identifies the 1992.05 GT APEX specification; the complete 1991–1995 model-year span needs year-specific confirmation."
         }
       ],
       "lastReviewed": "2026-11-07",
@@ -39190,7 +39202,7 @@
         }
       ],
       "lastReviewed": "2026-11-07",
-      "notes": "Заменены ранее смешанные ориентировочные параметры на характеристики одной заводской версии Nissan Note 2WD 15S 2005 года: 3730×1670×1640 мм, база 2430 мм, масса 1070 кг, CR14DE 1386 см³, 98 PS/137 Н·м. Ёмкость бака, клиренс, трансмиссия и сервисные параметры оставлены неподтверждёнными. Nissan Heritage source identifies this exact Note 2WD 15S version; drivetrain normalized to FWD.",
+      "notes": "Заменены ранее смешанные ориентировочные параметры на характеристики одной заводской версии Nissan Note 2WD 15S 2005 года: 3730×1670×1640 мм, база 2430 мм, масса 1070 кг, CR14DE 1386 см³, 98 PS/137 Н·м. Ёмкость бака, клиренс, трансмиссия и сервисные параметры оставлены неподтверждёнными. Nissan Heritage source identifies this exact Note 2WD 15S version; drivetrain normalized to FWD. Nissan Heritage source identifies this exact Note 2WD 15S version; drivetrain normalized to FWD.",
       "drivetrain": "FWD"
     },
     {
@@ -39311,7 +39323,7 @@
         }
       ],
       "lastReviewed": "2026-11-07",
-      "notes": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки. Corrected erroneous 3 Nm to 150 Nm from Drom's CS wagon 4G18 torque table. Mitsubishi service manual lists CS3W as 2WD with both 5MT and 4AT; exact gearbox remains unresolved.",
+      "notes": "Универсал выделен отдельной записью; не переносить параметры кузова, ламп и деталей седана без проверки. Corrected erroneous 3 Nm to 150 Nm from Drom's CS wagon 4G18 torque table. Mitsubishi service manual lists CS3W as 2WD with both 5MT and 4AT; exact gearbox remains unresolved. Corrected erroneous 3 Nm to 150 Nm from Drom's CS wagon 4G18 torque table. Mitsubishi service manual lists CS3W as 2WD with both 5MT and 4AT; exact gearbox remains unresolved.",
       "drivetrain": "FWD"
     },
     {
@@ -40373,7 +40385,7 @@
         }
       ],
       "lastReviewed": "2026-11-07",
-      "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику. Hybrid engine power is recorded separately from system output; do not treat 98 PS as the complete hybrid-system rating."
+      "notes": "Запись семейства для расширения охвата. Размеры ориентировочные; двигатели, коробки, жидкости, лампы и заводские коды требуют проверки по VIN/коду кузова и первичному источнику. Hybrid engine power is recorded separately from system output; do not treat 98 PS as the complete hybrid-system rating. Hybrid engine power is recorded separately from system output; do not treat 98 PS as the complete hybrid-system rating."
     },
     {
       "id": "batch50-toyota-estima-xr50",

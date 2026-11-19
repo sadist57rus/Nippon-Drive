@@ -96,8 +96,22 @@ At the reviewed data snapshot `920be2cc47f1839502dba4f2ace3a432b69345e1`:
 - [Build and typecheck](https://github.com/sadist57rus/Nippon-Drive/actions/runs/42665937452) — success.
 - [Nippon-Drive Android APK](https://github.com/sadist57rus/Nippon-Drive/actions/runs/42665937674) — success; typecheck, catalog audit, web build, Android sync, debug APK build and artifact upload completed.
 
-These runs are associated with the reviewed data snapshot and predate this report correction. They must not be represented as CI for the subsequent audit-document commit. A new CI result is required after the report update.
+These original runs are associated with the reviewed data snapshot. The audit-document correction was later checked again on commit `98c55d71deaf5754fb07165979abbac0750ebb2d`:
+- [Build and typecheck](https://github.com/sadist57rus/Nippon-Drive/actions/runs/44496674074) — success.
+- [Nippon-Drive Android APK](https://github.com/sadist57rus/Nippon-Drive/actions/runs/44496674058) — success; typecheck, catalog audit, web build, Android sync, debug APK build and artifact upload completed.
+The separate market-evidence audit added after `98c55d7` still requires CI on its resulting HEAD.
 
 ## 8. Merge decision
 
 PR #205 remains Draft and must not be merged solely on the basis of this structural audit. The 75 unresolved market cases and the remaining factual-source questions are explicit outstanding work. Merge only after those questions are either resolved with reliable evidence or explicitly accepted as non-blocking, with the limitations retained in the data and UI.
+
+
+## 9. Market evidence follow-up (2026-11-19)
+
+A separate case-by-case market-source check is recorded in [the market evidence audit](pr-205-market-evidence-audit-2026-11-19.md).
+
+- The JSON still contains **75 unresolved `variant.market` fields**.
+- **34** of those records now have an exact market-separated Drom catalog match (USA, Russia, South Korea, Europe or UAE). These are secondary-source matches only; no market fields were changed and no record was promoted to OEM-confirmed status.
+- **41** remain unresolved at the required confidence level: record 4 (Camry SE, strong USA candidate but year-span reconciliation pending), 27 broad/mixed-market records from 473 and 475–500, and 13 family index records 501–513.
+- Nissan Middle East OEM material supports the UAE-market Patrol Super Safari 4.8L/280hp relaunch in 2017. However, rows 180, 182, 183 and 184 currently start in 2004 while the market-specific catalog lists 280hp variants from February 2017. Correct their applicability dates or justify them with exact OEM documentation before merge. Row 180's manual-transmission applicability also needs reconciliation against Nissan Middle East's 2017 3-door launch announcement, which specifies a 5-speed automatic.
+- Do not treat country of assembly as sales market. Do not alter the pack's market fields until the market-specific scope is supported and the evidence is recorded.

@@ -1,100 +1,103 @@
-# PR #205 — full structural audit of the 513-variant pack
+# PR #205 — structural re-audit of the 513-variant pack
 
-Date: 2026-11-09  
-Reviewed HEAD: `18a49a4cc27b69ecc7bfd5a4a41e13cae98f6d3e`  
-Pack: `src/data/packs/drom-verified-batch-01.json`  
-Generated output: `src/data/vehicleVariantPacks.generated.ts`
+Audit date: 2026-11-19  
+Data snapshot reviewed: `920be2cc47f1839502dba4f2ace3a432b69345e1`  
+Pack blob: `4f8a5e403d5e5d5dc846bae5ed7c8170f5dad7b4`  
+Generated output blob: `8697607974243652353a8e9156aec3e169756c52`
 
-This report supersedes the preliminary machine audit dated 2026-11-08. It re-evaluates the full pack after factual reviews of batches 01–11 and the later source/limitation updates.
+This report replaces the stale 2026-11-09 structural audit. The complete JSON blob was retrieved and parsed directly; the generated TypeScript blob was retrieved separately and compared with the importer output reconstructed from the JSON.
 
 ## 1. Package and source status
 
 | Metric | Result |
 |---|---:|
 | Variants | 513 |
-| Verification status: `partially-verified` | 513 |
-| Verification status: `verified` | 0 |
-| Verification status: `unverified` | 0 |
+| `partially-verified` | 513 |
+| `verified` | 0 |
+| `unverified` | 0 |
 | Source references | 683 |
 | `secondary-reference` sources | 673 |
 | `oem-service-manual` sources | 10 |
 
-The presence of an OEM manual for a subset of a variant's data does not automatically verify every field of that variant. No record was promoted to `verified`.
+OEM manuals cover only the fields and variants explicitly supported by those documents. Their presence does not verify every field of a record. No record was promoted to `verified`.
 
-## 2. Structural checks
+## 2. Structural checks on the reviewed snapshot
 
 | Check | Result |
 |---|---:|
 | Duplicate variant IDs | **0** |
-| Duplicate exact identities using importer key | **0** |
-| Production-month ranges outside model-year bounds or invalid month order | **0** |
-| Missing model IDs in vehicle catalog | **0** |
-| Unknown generation IDs | **0** |
-| Generation linked to a different model ID | **0** |
-| JSON/generated TypeScript exact match | **Yes** |
+| Duplicate exact identities using the importer key | **0** |
+| Schema validation errors | **0** |
+| Non-positive or non-finite supplied dimension values | **0** |
+| Missing market limitation for unresolved market evidence | **0** |
+| JSON-to-generated TypeScript output exact match | **Yes** |
 
-The importer checks that each `modelId` exists, each `generationId` exists and belongs to that model, IDs are unique, and the exact identity key is unique. These are structural link checks; they do not by themselves prove that a generation assignment is historically correct for every market and body.
+The exact identity key used was copied from `scripts/importVehicleVariants.ts`: model ID, generation ID, market, model-year and production-month bounds, body code/style, trim/grade, engine code, transmission code/type, drivetrain, and steering position. This avoids the false duplicate matches produced by a simplified key that omits identity dimensions.
 
-## 3. Missing fields and limitation coverage
+Schema validation was checked against `validateVehicleVariant` in `src/data/vehicleVariantSchema.ts`, including required identity fields, year/month ranges, unresolved-market limitations, engine/transmission/drivetrain limitations, source metadata, positive numeric values, wheel/tire/wiper entries, and verification-source requirements.
 
-A missing value is acceptable only when its absence is explicitly explained in the record's `limitations` array. All checked missing fields now have a matching field-level limitation.
+The generated output comparison reconstructed the importer’s exact header and `JSON.stringify(variants, null, 2)` output and compared it with the generated TypeScript blob; the contents matched exactly.
 
-| Field | Missing | Missing without matching limitation |
-|---|---:|---:|
-| Dimensions | 439 | 0 |
-| Transmission type | 40 | 0 |
-| Drivetrain | 35 | 0 |
-| Wheel fitments | 506 | 0 |
-| Tyres | 513 | 0 |
-| Wiper blade sizes | 513 | 0 |
-| Engine torque | 290 | 0 |
-| Engine induction / aspiration | 498 | 0 |
-| Engine oil | 513 | 0 |
-| Transmission fluid | 513 | 0 |
-| Coolant | 513 | 0 |
-| Transfer-case fluid | 513 | 0 |
-| Differential fluid | 513 | 0 |
+These are structural/data-contract checks. They do not establish that every vehicle specification is OEM-confirmed or that every model/generation assignment is historically correct for every market.
 
-The transfer-case and differential limitations must be interpreted with the exact drivetrain: a FWD record may not have a separate transfer case, while AWD/4WD applicability and fluid requirements need exact vehicle documentation. Limitations do not imply that every listed component exists on every variant.
+## 3. Sales-market status — corrected count
 
-## 4. Market metadata
+The previous 2026-11-09 report stated 73 unresolved markets. Recounting the current 513-record snapshot directly gives **75 records whose `variant.market` remains unresolved**. All 75 have a matching `market` limitation. The count must therefore be corrected from 73 to 75; no market has been inferred from an assembly country.
 
-- **73 records** have an explicitly unresolved or unspecified sales-market value.
-- **5 records** have a text-level mismatch between `variant.market` and one of their `source.market` labels.
+The 75 unresolved records break down as follows:
 
-The five mismatches are:
-1. Mazda CX-5 KE, record 7: sales market is unspecified; source label also mentions Japan/Malaysia as assembly locations.
-2. Mazda CX-5 KE, record 8: sales market is unspecified; source label also mentions Japan/Russia/Malaysia as assembly locations.
-3. Suzuki Grand Vitara JT, record 13: sales market is unspecified; source label says assembly in Japan.
-4. Suzuki Grand Vitara JT, record 14: same distinction as record 13.
-5. Mitsubishi Lancer CS Wagon, record 477: variant market is unspecified, while one attached source reference is labelled Russia.
+| Market label | Records |
+|---|---:|
+| `не указан в карточке Drom` | 26 |
+| `не указан в источнике` | 40 |
+| `не установлен по источнику` | 3 |
+| `не уточнён; Drom указывает сборку Япония/США` | 1 |
+| `не указан; страна сборки Япония` | 1 |
+| `рынок сбыта не указан; Drom указывает сборку Япония/Малайзия` | 1 |
+| `рынок не уточнён; Drom указывает сборку Япония/Россия/Малайзия` | 1 |
+| `рынок сбыта не указан; страна сборки Япония` | 2 |
+| **Total** | **75** |
 
-These are not automatically treated as data errors: the first four distinguish sales market from assembly country, while the Lancer reference requires source-by-source review. Do not infer a sales market from the country of assembly.
+Records 501–513 are broad family/generation index entries, not exact repair-ready variants. They are included in the 75 because their market is explicitly unspecified. Their notes and limitations prohibit using them as exact service/fitment records.
+
+This audit does **not** resolve the 75 markets. A Drom page that identifies an assembly location is not proof of the sales market. Each case still requires market-specific OEM documentation or another reliable source that identifies the destination market.
+
+## 4. Source-market text differences
+
+There are **5 records** where at least one `source.market` string differs textually from `variant.market`:
+
+1. Record 7 — Mazda CX-5 KE, 2.0 MT Sport: variant says sales market unspecified and assembly Japan/Malaysia; source label uses a slightly different wording for the same assembly information.
+2. Record 8 — Mazda CX-5 KE, 2.0 AT Drive: variant says sales market unspecified and assembly Japan/Russia/Malaysia; source label uses a slightly different wording.
+3. Record 13 — Suzuki Grand Vitara JT, 2.4 AT, 3-door: both distinguish unspecified sales market from Japan assembly, but wording differs.
+4. Record 14 — Suzuki Grand Vitara JT, 2.4 AT, 5-door: same distinction as record 13.
+5. Record 477 — Mitsubishi Lancer CS Wagon: variant market is unspecified while one attached torque reference is labelled Russia. This needs source-scope review; a Russia-specific torque reference does not by itself establish the market of the complete vehicle variant.
+
+All five records have an explicit `market` limitation, so the schema validator accepts the discrepancy without silently normalizing it.
 
 ## 5. Family-level index entries
 
-Records 501–513 are broad family/generation index entries, not exact repair-ready vehicle variants. Their notes and limitations state that exact market, trim, full frame/type code, model-year applicability, transmission, drivetrain, steering position, fitment and service-fluid data require VIN/frame and primary documentation. Keep them visibly distinct from exact trim-level variants in any future user-facing selection or maintenance workflow.
+Records 501–513 are broad family/generation index entries, not exact repair-ready vehicle variants. Their notes and limitations require exact market, trim, frame/type code, model-year applicability, transmission, drivetrain, steering position, fitment and service-fluid data to be established from VIN/frame and primary documentation. Keep them visibly distinct from exact trim-level variants in user-facing selection and maintenance workflows.
 
-## 6. Factual review coverage
+## 6. Factual verification status and remaining work
 
-The package has factual review documents for all 513 records, in eleven contiguous batches:
-- 1–50, 51–100, 101–150;
-- 151–200, 201–250, 251–300, 301–350;
-- 351–400, 401–450, 451–500;
-- 501–513.
+The package remains partially verified. The structural audit confirms uniqueness, schema compliance, explicit market limitations, and generated-file synchronization. It does **not** replace a case-by-case source review.
 
-These reviews use Drom as a secondary catalog reference and attach OEM/service-manual evidence only where it was actually checked. Known unresolved conflicts—such as Jimny JB64/K15B, Prius body/type-code ambiguity, market labels and incomplete trim-year applicability—remain explicitly limited rather than silently normalized.
+Still unresolved:
+- determine whether any of the 75 market labels can be resolved from market-specific OEM documentation;
+- review the five source-market text differences, especially the scope of the Russia-specific Lancer torque source;
+- obtain OEM-level confirmation for variant-specific technical data where currently supported only by secondary catalogs;
+- verify exact transmission codes and service/fitment specifications against the precise market and vehicle/frame.
 
-## 7. Current CI
+Do not promote a record to `verified`, infer a sales market from country of assembly, or fill missing technical values without supporting documentation.
 
-At the reviewed HEAD `18a49a4cc27b69ecc7bfd5a4a41e13cae98f6d3e`:
-- [Build and typecheck](https://github.com/sadist57rus/Nippon-Drive/actions/runs/42665352580) — success.
-- [Nippon-Drive Android APK](https://github.com/sadist57rus/Nippon-Drive/actions/runs/42665353834) — success; debug APK built and uploaded as an artifact.
+## 7. CI status
 
-The successful workflows confirm the automated checks and build at this exact commit. They do not convert secondary-source vehicle data into OEM-verified specifications.
+At the reviewed data snapshot `920be2cc47f1839502dba4f2ace3a432b69345e1`:
+- [Build and typecheck](https://github.com/sadist57rus/Nippon-Drive/actions/runs/42665937452) — success.
+- [Nippon-Drive Android APK](https://github.com/sadist57rus/Nippon-Drive/actions/runs/42665937674) — success; typecheck, catalog audit, web build, Android sync, debug APK build and artifact upload completed.
 
-## 8. Remaining work / decision
+These runs are associated with the reviewed data snapshot and predate this report correction. They must not be represented as CI for the subsequent audit-document commit. A new CI result is required after the report update.
 
-The structural pack audit is clean: no duplicate IDs, no duplicate exact identities, no invalid production windows, all missing fields have matching limitations, and generated output is synchronized. The remaining factual risks are market resolution for 73 records, five source-market label differences, OEM-level confirmation of most variant data, exact transmission codes and maintenance/fitment specifications.
+## 8. Merge decision
 
-PR #205 remains Draft. This audit does not authorize merging.
+PR #205 remains Draft and must not be merged solely on the basis of this structural audit. The 75 unresolved market cases and the remaining factual-source questions are explicit outstanding work. Merge only after those questions are either resolved with reliable evidence or explicitly accepted as non-blocking, with the limitations retained in the data and UI.

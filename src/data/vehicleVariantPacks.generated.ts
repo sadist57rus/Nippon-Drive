@@ -2,7 +2,7 @@
 import type { VehicleVariant } from './vehicleVariantSchema';
 export const VEHICLE_VARIANTS: VehicleVariant[] = [
   {
-    "market": "не указан в карточке Drom",
+    "market": "США",
     "bodyStyle": "SUV",
     "steeringPosition": "unknown",
     "tires": [],
@@ -16,12 +16,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "CU5W 2.4 AT XLS FWD, 12.2002–03.2006; двигатель, коробка, привод, размеры, масса и бак",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (США)",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/2004/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Outlander 2004, раздел «Для США»: CU5W, 4G69, 2.4 AT XLS, FWD, 160 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Рынок сбыта не установлен по карточке Drom."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (США) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "wheelFitments",
@@ -102,7 +110,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "notes": "Только CU5W 2.4 AT XLS FWD; не переносить на другие исполнения."
   },
   {
-    "market": "не указан в карточке Drom",
+    "market": "Россия",
     "bodyStyle": "SUV",
     "steeringPosition": "unknown",
     "tires": [],
@@ -116,12 +124,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "T31 2.0 CVT SE 4WD, 08.2007–02.2011; двигатель, трансмиссия, привод, размеры, масса и бак",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Россия)",
+        "url": "https://www.drom.ru/catalog/nissan/x-trail/2007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "X-Trail 2007, раздел «Для России»: T31, MR20DE, 2.0 CVT SE, 4WD.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Рынок сбыта не установлен по карточке Drom."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Россия) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "wheelFitments",
@@ -202,7 +218,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "notes": "Только T31 2.0 CVT SE 4WD указанного периода."
   },
   {
-    "market": "не указан в карточке Drom",
+    "market": "Россия",
     "bodyStyle": "SUV",
     "steeringPosition": "unknown",
     "tires": [],
@@ -225,12 +241,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "ACA31 2.4 AT Sol 4WD, 01.2006–12.2008; двигатель, трансмиссия, привод, размеры, масса и бак",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Россия)",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/2007/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "RAV4 2007, раздел «Для России»: ACA31, 2AZ-FE, 2.4 AT Sol, 4WD.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Рынок сбыта не установлен по карточке Drom."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Россия) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "wheelFitments",
@@ -504,7 +528,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "honda-crv-re-24-at-4wd-2007-2009",
     "modelId": "honda-cr-v-3",
     "generationId": "honda-crv-re",
-    "market": "не указан; страна сборки Япония",
+    "market": "Южная Корея",
     "modelYearFrom": 2007,
     "modelYearTo": 2009,
     "productionMonthFrom": "2007-03",
@@ -555,12 +579,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан; страна сборки Япония",
         "scope": "RE 2.4 AT 4WD, 03.2007–08.2009; двигатель, АКПП, привод, рулевое положение, габариты, масса, бак, багажник, шины и размер диска",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Южная Корея)",
+        "url": "https://www.drom.ru/catalog/honda/cr-v/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Южная Корея",
+        "scope": "CR-V 2008, раздел «Для Южной Кореи»: RE, K24Z1, 2.4 AT 4WD, 170 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Drom указывает страну сборки Япония, но не называет рынок продаж."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Южная Корея) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "wheelFitments",
@@ -609,7 +641,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "mazda-cx5-ke-pevps-20-mt-sport-fwd-2012-2015",
     "modelId": "mazda-cx5-ke-kf",
     "generationId": "mazda-cx5-ke",
-    "market": "рынок сбыта не указан; Drom указывает сборку Япония/Малайзия",
+    "market": "США",
     "modelYearFrom": 2012,
     "modelYearTo": 2015,
     "productionMonthFrom": "2012-01",
@@ -651,12 +683,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "рынок сбыта не указан; сборка Япония/Малайзия",
         "scope": "KE 2.0 MT Sport FWD, 01.2012–01.2015; двигатель PE-VPS, 155 л.с., 210 Н·м, 6MT, размеры, масса, бак, багажник и шины",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (США)",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/2014/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "CX-5 2014, раздел «Для США»: KE, PE-VPS, 2.0 MT Sport, FWD, 155 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Drom сообщает страны сборки, но не фиксирует рынок продаж конкретного экземпляра."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (США) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -709,7 +749,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "mazda-cx5-ke-pevps-20-at-drive-fwd-2014-2015",
     "modelId": "mazda-cx5-ke-kf",
     "generationId": "mazda-cx5-ke",
-    "market": "рынок не уточнён; Drom указывает сборку Япония/Россия/Малайзия",
+    "market": "Россия",
     "modelYearFrom": 2014,
     "modelYearTo": 2015,
     "productionMonthFrom": "2014-01",
@@ -751,12 +791,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "рынок не уточнён; сборка Япония/Россия/Малайзия",
         "scope": "KE 2.0 AT Drive FWD, 01.2014–01.2015; PE-VPS 150 л.с., 210 Н·м, 6AT, габариты, масса, бак, багажник и шины",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Россия)",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/2014/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "CX-5 2014, раздел «Для России»: KE, PE-VPS, 2.0 AT Drive, FWD, 150 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Страны сборки не позволяют однозначно определить рынок продаж."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Россия) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -809,7 +857,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "mazda-cx5-ke-shy1-22d-mt-sports-line-4wd-2015-2017",
     "modelId": "mazda-cx5-ke-kf",
     "generationId": "mazda-cx5-ke",
-    "market": "не установлен по источнику",
+    "market": "Европа",
     "modelYearFrom": 2015,
     "modelYearTo": 2017,
     "productionMonthFrom": "2015-01",
@@ -852,12 +900,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не установлен по источнику",
         "scope": "KE 2.2D Sports-Line 4WD, 01.2015–03.2017; SHY1/SHY4, 175 л.с., 420 Н·м, 6MT, размеры, масса, бак, багажник и шины",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Европа)",
+        "url": "https://www.drom.ru/catalog/mazda/cx-5/2016/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "CX-5 2016, раздел «Для Европы»: KE, SHY1/SHY4, 2.2D 175 hp Sports-Line, 4WD, MT.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Drom указывает страну сборки Япония, но не подтверждает рынок продаж конкретной модификации."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Европа) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -906,7 +962,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2010-2011",
     "modelId": "toyota-rav4-3",
     "generationId": "toyota-rav4-xa30",
-    "market": "не установлен по источнику",
+    "market": "Россия",
     "modelYearFrom": 2010,
     "modelYearTo": 2011,
     "productionMonthFrom": "2010-06",
@@ -957,12 +1013,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не установлен по источнику",
         "scope": "ZSA30 2.0 CVT Стандарт 4WD, 06.2010–08.2011; 3ZR-FAE 158 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Россия)",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/2010/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "RAV4 2010, раздел «Для России»: ZSA30, 3ZR-FAE, 2.0 CVT Standard, 4WD, 158 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Drom указывает страну сборки Япония, но не подтверждает рынок продаж конкретной модификации."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Россия) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -1015,7 +1079,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "toyota-rav4-xa30-zsa30-3zrfae-20-cvt-4wd-2011-2013",
     "modelId": "toyota-rav4-3",
     "generationId": "toyota-rav4-xa30",
-    "market": "не установлен по источнику",
+    "market": "Россия",
     "modelYearFrom": 2011,
     "modelYearTo": 2013,
     "productionMonthFrom": "2011-09",
@@ -1066,12 +1130,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не установлен по источнику",
         "scope": "ZSA30 2.0 CVT Стандарт 4WD, 09.2011–01.2013; 3ZR-FAE 148 л.с./198 Н·м, CVT, габариты, масса, бак, багажник, шины и диск",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Россия)",
+        "url": "https://www.drom.ru/catalog/toyota/rav4/2011/",
+        "sourceType": "secondary-reference",
+        "market": "Россия",
+        "scope": "RAV4 2011, раздел «Для России»: ZSA30, 3ZR-FAE, 2.0 CVT Standard, 4WD, 148 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Drom указывает страну сборки Япония, но не подтверждает рынок продаж конкретной модификации."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Россия) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -1225,7 +1297,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "suzuki-grand-vitara-jt-j24b-24-at-3door-4wd-2008-2012",
     "modelId": "suzuki-grand-vitara-2",
     "generationId": "suzuki-grand-vitara-jt",
-    "market": "рынок сбыта не указан; страна сборки Япония",
+    "market": "Европа",
     "modelYearFrom": 2008,
     "modelYearTo": 2012,
     "productionMonthFrom": "2008-08",
@@ -1276,12 +1348,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "рынок не указан; сборка Япония",
         "scope": "TAA4V, 3-дверный кузов, 2.4 AT Comfort 4WD, 08.2008–07.2012; J24B, размеры, масса, бак, багажник и колёса",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Европа)",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Grand Vitara 2008, раздел «Для Европы»: TAA4V, J24B, 2.4 AT Comfort, 3-door, 4WD, 166 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Страна сборки Япония не устанавливает однозначно рынок продаж."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Европа) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -1334,7 +1414,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "suzuki-grand-vitara-jt-j24b-24-at-5door-4wd-2008-2012",
     "modelId": "suzuki-grand-vitara-2",
     "generationId": "suzuki-grand-vitara-jt",
-    "market": "рынок сбыта не указан; страна сборки Япония",
+    "market": "Европа",
     "modelYearFrom": 2008,
     "modelYearTo": 2012,
     "productionMonthFrom": "2008-08",
@@ -1385,12 +1465,20 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "рынок не указан; сборка Япония",
         "scope": "TD_4, 5-дверный кузов, 2.4 AT Comfort 4WD, 08.2008–07.2012; J24B, размеры, масса, бак, багажник и колёса",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (Европа)",
+        "url": "https://www.drom.ru/catalog/suzuki/grand_vitara/2008/",
+        "sourceType": "secondary-reference",
+        "market": "Европа",
+        "scope": "Grand Vitara 2008, раздел «Для Европы»: TD_4, J24B, 2.4 AT Comfort, 5-door, 4WD, 169 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
       {
         "field": "market",
-        "reason": "Страна сборки Япония не устанавливает однозначно рынок продаж."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (Европа) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -13160,7 +13248,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "outlander-1-cu4w-4g64-2-4-at-ls-fwd-12-2002-03-2006-drom",
     "modelId": "outlander-1",
     "generationId": "mitsubishi-outlander-cu",
-    "market": "не указан в карточке Drom",
+    "market": "США",
     "modelYearFrom": 2002,
     "modelYearTo": 2006,
     "productionMonthFrom": "2002-12",
@@ -13187,6 +13275,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Строка комплектации 2.4 AT LS FWD; кузов CU4W; двигатель 4G64; КПП AT; привод FWD; период 12.2002–03.2006.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (США)",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/2004/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Outlander 2004, раздел «Для США»: CU4W, 4G64, 2.4 AT LS/XLS, FWD/4WD, 142 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -13216,7 +13312,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (США) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "engine.induction",
@@ -13257,7 +13353,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "outlander-1-cu4w-4g64-2-4-at-xls-fwd-12-2002-03-2006-drom",
     "modelId": "outlander-1",
     "generationId": "mitsubishi-outlander-cu",
-    "market": "не указан в карточке Drom",
+    "market": "США",
     "modelYearFrom": 2002,
     "modelYearTo": 2006,
     "productionMonthFrom": "2002-12",
@@ -13284,6 +13380,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Строка комплектации 2.4 AT XLS FWD; кузов CU4W; двигатель 4G64; КПП AT; привод FWD; период 12.2002–03.2006.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (США)",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/2004/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Outlander 2004, раздел «Для США»: CU4W, 4G64, 2.4 AT LS/XLS, FWD/4WD, 142 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -13313,7 +13417,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (США) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "engine.induction",
@@ -13354,7 +13458,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "outlander-1-cu4w-4g64-2-4-at-4wd-ls-12-2002-03-2006-drom",
     "modelId": "outlander-1",
     "generationId": "mitsubishi-outlander-cu",
-    "market": "не указан в карточке Drom",
+    "market": "США",
     "modelYearFrom": 2002,
     "modelYearTo": 2006,
     "productionMonthFrom": "2002-12",
@@ -13381,6 +13485,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Строка комплектации 2.4 AT 4WD LS; кузов CU4W; двигатель 4G64; КПП AT; привод 4WD; период 12.2002–03.2006.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (США)",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/2004/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Outlander 2004, раздел «Для США»: CU4W, 4G64, 2.4 AT LS/XLS, FWD/4WD, 142 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -13410,7 +13522,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (США) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "engine.induction",
@@ -13451,7 +13563,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "outlander-1-cu4w-4g64-2-4-at-4wd-xls-12-2002-03-2006-drom",
     "modelId": "outlander-1",
     "generationId": "mitsubishi-outlander-cu",
-    "market": "не указан в карточке Drom",
+    "market": "США",
     "modelYearFrom": 2002,
     "modelYearTo": 2006,
     "productionMonthFrom": "2002-12",
@@ -13478,6 +13590,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Строка комплектации 2.4 AT 4WD XLS; кузов CU4W; двигатель 4G64; КПП AT; привод 4WD; период 12.2002–03.2006.",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (США)",
+        "url": "https://www.drom.ru/catalog/mitsubishi/outlander/2004/",
+        "sourceType": "secondary-reference",
+        "market": "США",
+        "scope": "Outlander 2004, раздел «Для США»: CU4W, 4G64, 2.4 AT LS/XLS, FWD/4WD, 142 hp.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -13507,7 +13627,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Рынок сбыта не установлен в использованной карточке Drom."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (США) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "engine.induction",
@@ -15342,7 +15462,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2001-5d-tb42s-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2001,
     "modelYearTo": 2004,
     "bodyCode": "Y61",
@@ -15368,6 +15488,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2001–2004, 5 дв. SUV, 4.2 MT; TB42S, 4169 см³, 200 л.с., 320 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2001_20689/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2001, 5-door, explicit UAE sales-market page; matching TB42S/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15381,7 +15509,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -15430,7 +15558,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2001-5d-td42-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2001,
     "modelYearTo": 2004,
     "bodyCode": "Y61",
@@ -15456,6 +15584,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2001–2004, 5 дв. SUV, 4.2 TD MT; TD42, 4169 см³, 145 л.с., 331 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2001_20689/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2001, 5-door, explicit UAE sales-market page; matching TB42S/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15469,7 +15605,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -15518,7 +15654,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2001-5d-tb45e-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2001,
     "modelYearTo": 2004,
     "bodyCode": "Y61",
@@ -15544,6 +15680,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2001–2004, 5 дв. SUV, 4.5 MT; TB45E, 4478 см³, 200 л.с., 350 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2001_20689/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2001, 5-door, explicit UAE sales-market page; matching TB42S/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15557,7 +15701,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -15606,7 +15750,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2001-5d-tb45e-at",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2001,
     "modelYearTo": 2004,
     "bodyCode": "Y61",
@@ -15632,6 +15776,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2001–2004, 5 дв. SUV, 4.5 AT; TB45E, 4478 см³, 200 л.с., 350 Н·м, АКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2001_20689/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2001, 5-door, explicit UAE sales-market page; matching TB42S/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15645,7 +15797,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -15694,7 +15846,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2001-5d-tb48de-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2001,
     "modelYearTo": 2004,
     "bodyCode": "Y61",
@@ -15720,6 +15872,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2001–2004, 5 дв. SUV, 4.8 MT; TB48DE, 4758 см³, 245 л.с., 400 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2001_20689/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2001, 5-door, explicit UAE sales-market page; matching TB42S/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15733,7 +15893,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -15782,7 +15942,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2001-5d-tb48de-at",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2001,
     "modelYearTo": 2004,
     "bodyCode": "Y61",
@@ -15808,6 +15968,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2001–2004, 5 дв. SUV, 4.8 AT; TB48DE, 4758 см³, 245 л.с., 400 Н·м, АКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2001_20689/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2001, 5-door, explicit UAE sales-market page; matching TB42S/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15821,7 +15989,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -15870,7 +16038,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-zd30ddti-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -15896,6 +16064,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2004–2017, 5 дв. SUV, 3.0 TD MT; ZD30DDTi, 2953 см³, 160 л.с., 380 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; matching ZD30DDTi/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15909,7 +16085,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -15958,7 +16134,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-zd30ddti-at",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -15984,6 +16160,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2004–2017, 5 дв. SUV, 3.0 TD AT; ZD30DDTi, 2953 см³, 160 л.с., 380 Н·м, АКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; matching ZD30DDTi/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -15997,7 +16181,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -16046,7 +16230,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-td42-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -16072,6 +16256,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2004–2017, 5 дв. SUV, 4.2 D MT; TD42, 4169 см³, 135 л.с., 285 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; matching ZD30DDTi/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16085,7 +16277,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -16134,7 +16326,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-tb45e-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -16160,6 +16352,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2004–2017, 5 дв. SUV, 4.5 MT; TB45E, 4478 см³, 230 л.с., 385 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; matching ZD30DDTi/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16173,7 +16373,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -16222,7 +16422,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-tb48de-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -16248,6 +16448,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2004–2017, 5 дв. SUV, 4.8 MT; TB48DE, 4758 см³, 245 л.с., 451 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; matching ZD30DDTi/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16261,7 +16469,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -16310,7 +16518,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-tb48de-at",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -16336,6 +16544,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61 2004–2017, 5 дв. SUV, 4.8 AT; TB48DE, 4758 см³, 245 л.с., 451 Н·м, АКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; matching ZD30DDTi/TD42/TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16349,7 +16565,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "Страница Drom не позволяет однозначно закрепить рынок поставки за данной комплектацией."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "tires",
@@ -16398,7 +16614,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-3d-tb45e-230-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -16424,6 +16640,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61, 3 дв. SUV, 2004–2017, 4.5 MT; TB45E 4478 см³, 230 л.с., 385 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12960/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 3-door, explicit UAE sales-market page; matching TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16433,7 +16657,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "dimensions",
@@ -16486,7 +16710,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-3d-tb48de-245-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -16512,6 +16736,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 MT 245 л.с.; TB48DE 4758 см³, 245 л.с., 451 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12960/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 3-door, explicit UAE sales-market page; matching TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16521,7 +16753,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "dimensions",
@@ -16574,9 +16806,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-3d-tb48de-280-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
-    "modelYearFrom": 2004,
-    "modelYearTo": 2017,
+    "market": "ОАЭ",
+    "modelYearFrom": 2017,
+    "modelYearTo": 2024,
     "bodyCode": "Y61",
     "bodyStyle": "3 дв. SUV",
     "trimOrGrade": "4.8 MT 280 л.с.",
@@ -16600,6 +16832,30 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 MT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12960/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 3-door, explicit UAE sales-market page; matching TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2017 Super Safari relaunch",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/Nissan_Patrol_Y61-3_Door.html",
+        "sourceType": "oem-bulletin",
+        "market": "ОАЭ / Ближний Восток",
+        "scope": "Official 2017 announcement: 3-door Super Safari relaunch; 4.8L, 280 hp, 451 Nm, 5-speed automatic.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2022 Patrol Super Safari",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/nissan-patrol-safari-2022.html",
+        "sourceType": "oem-bulletin",
+        "market": "Ближний Восток",
+        "scope": "Official Nissan Middle East announcement: Super Safari 4.8L inline-six, 280 hp, 451 Nm; 5-speed automatic or manual transmissions; regional distributor availability.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16609,7 +16865,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "dimensions",
@@ -16654,6 +16910,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "steeringPosition",
         "reason": "Положение руля для точной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "productionRange",
+        "reason": "Годовой диапазон 2017–2024 основан на UAE-странице Drom, где версия TB48DE 280 hp начинается в 02.2017 и заканчивается 04.2024; Nissan Middle East подтверждает возвращение Super Safari в 2017 году и двигатель 4.8L 280 hp. Точная применимость по кузову/КПП требует дополнительного OEM-каталога."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "Drom UAE catalog lists a 280 hp 3-door manual variant from 2017, but Nissan Middle East's 2017 3-door relaunch announcement specifies a 5-speed automatic. A 2022 Nissan Middle East source mentions manual/automatic availability for Super Safari generally. Exact first year and 3-door manual applicability remain unconfirmed."
       }
     ],
     "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
@@ -16662,7 +16926,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-3d-tb48de-245-at",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
+    "market": "ОАЭ",
     "modelYearFrom": 2004,
     "modelYearTo": 2017,
     "bodyCode": "Y61",
@@ -16688,6 +16952,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 AT 245 л.с.; TB48DE 4758 см³, 245 л.с., 451 Н·м, АКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12960/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 3-door, explicit UAE sales-market page; matching TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16697,7 +16969,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "dimensions",
@@ -16750,9 +17022,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-3d-tb48de-280-at",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
-    "modelYearFrom": 2004,
-    "modelYearTo": 2017,
+    "market": "ОАЭ",
+    "modelYearFrom": 2017,
+    "modelYearTo": 2024,
     "bodyCode": "Y61",
     "bodyStyle": "3 дв. SUV",
     "trimOrGrade": "4.8 AT 280 л.с.",
@@ -16776,6 +17048,30 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61, 3 дв. SUV, 2004–2017, 4.8 AT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, АКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12960/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 3-door, explicit UAE sales-market page; matching TB45E/TB48DE variants.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2017 Super Safari relaunch",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/Nissan_Patrol_Y61-3_Door.html",
+        "sourceType": "oem-bulletin",
+        "market": "ОАЭ / Ближний Восток",
+        "scope": "Official 2017 announcement: 3-door Super Safari relaunch; 4.8L, 280 hp, 451 Nm, 5-speed automatic.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2022 Patrol Super Safari",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/nissan-patrol-safari-2022.html",
+        "sourceType": "oem-bulletin",
+        "market": "Ближний Восток",
+        "scope": "Official Nissan Middle East announcement: Super Safari 4.8L inline-six, 280 hp, 451 Nm; 5-speed automatic or manual transmissions; regional distributor availability.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16785,7 +17081,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "dimensions",
@@ -16830,6 +17126,10 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "steeringPosition",
         "reason": "Положение руля для точной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "productionRange",
+        "reason": "Годовой диапазон 2017–2024 основан на UAE-странице Drom, где версия TB48DE 280 hp начинается в 02.2017 и заканчивается 04.2024; Nissan Middle East подтверждает возвращение Super Safari в 2017 году и двигатель 4.8L 280 hp. Точная применимость по кузову/КПП требует дополнительного OEM-каталога."
       }
     ],
     "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
@@ -16838,9 +17138,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-tb48de-280-mt",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
-    "modelYearFrom": 2004,
-    "modelYearTo": 2017,
+    "market": "ОАЭ",
+    "modelYearFrom": 2017,
+    "modelYearTo": 2024,
     "bodyCode": "Y61",
     "bodyStyle": "5 дв. SUV",
     "trimOrGrade": "4.8 MT 280 л.с.",
@@ -16864,6 +17164,30 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61, 5 дв. SUV, 2004–2017, 4.8 MT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, МКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; TB48DE 280 hp variants.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2017 Super Safari relaunch",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/Nissan_Patrol_Y61-3_Door.html",
+        "sourceType": "oem-bulletin",
+        "market": "ОАЭ / Ближний Восток",
+        "scope": "Official announcement states the 5-door Super Safari had been relaunched earlier in 2017; this article's detailed specification is for the 3-door model.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2022 Patrol Super Safari",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/nissan-patrol-safari-2022.html",
+        "sourceType": "oem-bulletin",
+        "market": "Ближний Восток",
+        "scope": "Official Nissan Middle East announcement: Super Safari 4.8L inline-six, 280 hp, 451 Nm; 5-speed automatic or manual transmissions; regional distributor availability.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16873,7 +17197,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "dimensions",
@@ -16918,6 +17242,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "steeringPosition",
         "reason": "Положение руля для точной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "productionRange",
+        "reason": "Годовой диапазон 2017–2024 основан на UAE-странице Drom, где версия TB48DE 280 hp начинается в 02.2017 и заканчивается 04.2024; Nissan Middle East подтверждает возвращение Super Safari в 2017 году и двигатель 4.8L 280 hp. Точная применимость по кузову/КПП требует дополнительного OEM-каталога."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "Drom UAE catalog lists this 5-door 280 hp transmission from 2017; Nissan Middle East confirms the 5-door relaunch in 2017 and later confirms Super Safari manual/automatic availability generally, but an exact 5-door 280 hp OEM grade/gearbox document is still needed."
       }
     ],
     "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."
@@ -16926,9 +17258,9 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
     "id": "nissan-patrol-y61-2004-5d-tb48de-280-at",
     "modelId": "nissan-patrol-y61",
     "generationId": "nissan-patrol-y61",
-    "market": "не указан в карточке Drom",
-    "modelYearFrom": 2004,
-    "modelYearTo": 2017,
+    "market": "ОАЭ",
+    "modelYearFrom": 2017,
+    "modelYearTo": 2024,
     "bodyCode": "Y61",
     "bodyStyle": "5 дв. SUV",
     "trimOrGrade": "4.8 AT 280 л.с.",
@@ -16952,6 +17284,30 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
         "market": "не указан в карточке Drom",
         "scope": "Y61, 5 дв. SUV, 2004–2017, 4.8 AT 280 л.с.; TB48DE 4758 см³, 280 л.с., 451 Н·м, АКПП, 4WD",
         "accessedAt": "2026-11-06"
+      },
+      {
+        "label": "Drom — market-specific catalog (ОАЭ)",
+        "url": "https://www.drom.ru/catalog/nissan/patrol/g_2004_12613/",
+        "sourceType": "secondary-reference",
+        "market": "ОАЭ",
+        "scope": "Patrol Y61 facelift 2004, 5-door, explicit UAE sales-market page; TB48DE 280 hp variants.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2017 Super Safari relaunch",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/Nissan_Patrol_Y61-3_Door.html",
+        "sourceType": "oem-bulletin",
+        "market": "ОАЭ / Ближний Восток",
+        "scope": "Official announcement states the 5-door Super Safari had been relaunched earlier in 2017; this article's detailed specification is for the 3-door model.",
+        "accessedAt": "2026-11-19"
+      },
+      {
+        "label": "Nissan Middle East — 2022 Patrol Super Safari",
+        "url": "https://www.nissan-me.com/experience-nissan/news-and-events/latestnews/nissan-patrol-safari-2022.html",
+        "sourceType": "oem-bulletin",
+        "market": "Ближний Восток",
+        "scope": "Official Nissan Middle East announcement: Super Safari 4.8L inline-six, 280 hp, 451 Nm; 5-speed automatic or manual transmissions; regional distributor availability.",
+        "accessedAt": "2026-11-19"
       }
     ],
     "limitations": [
@@ -16961,7 +17317,7 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       },
       {
         "field": "market",
-        "reason": "В сводной таблице агрегатов рынок поставки не определён."
+        "reason": "Рынок сбыта сопоставлен с отдельной рыночной страницей Drom (ОАЭ) по коду кузова, двигателю, комплектации и приводу. Это вторичный источник; OEM-подтверждение остаётся незавершённым. Исходная общая карточка не указывала рынок и/или отдельно перечисляла страны сборки."
       },
       {
         "field": "dimensions",
@@ -17006,6 +17362,14 @@ export const VEHICLE_VARIANTS: VehicleVariant[] = [
       {
         "field": "steeringPosition",
         "reason": "Положение руля для точной комплектации не установлено используемым источником; проверить по VIN."
+      },
+      {
+        "field": "productionRange",
+        "reason": "Годовой диапазон 2017–2024 основан на UAE-странице Drom, где версия TB48DE 280 hp начинается в 02.2017 и заканчивается 04.2024; Nissan Middle East подтверждает возвращение Super Safari в 2017 году и двигатель 4.8L 280 hp. Точная применимость по кузову/КПП требует дополнительного OEM-каталога."
+      },
+      {
+        "field": "transmissionType",
+        "reason": "Drom UAE catalog lists this 5-door 280 hp transmission from 2017; Nissan Middle East confirms the 5-door relaunch in 2017 and later confirms Super Safari manual/automatic availability generally, but an exact 5-door 280 hp OEM grade/gearbox document is still needed."
       }
     ],
     "notes": "Вариант отделён по кузову, двигателю, мощности и КПП; данные не распространять на другие рынки."

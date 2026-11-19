@@ -1,7 +1,7 @@
 # PR #205 — structural re-audit of the 513-variant pack
 
 Audit date: 2026-11-19  
-Data snapshot reviewed: `920be2cc47f1839502dba4f2ace3a432b69345e1`  
+Data snapshot reviewed: `955e3ddee89b800ae08d305be6745dfabe87f72c`  
 Pack blob: `4f8a5e403d5e5d5dc846bae5ed7c8170f5dad7b4`  
 Generated output blob: `8697607974243652353a8e9156aec3e169756c52`
 
@@ -15,9 +15,10 @@ This report replaces the stale 2026-11-09 structural audit. The complete JSON bl
 | `partially-verified` | 513 |
 | `verified` | 0 |
 | `unverified` | 0 |
-| Source references | 683 |
-| `secondary-reference` sources | 673 |
+| Source references | 725 |
+| `secondary-reference` sources | 707 |
 | `oem-service-manual` sources | 10 |
+| `oem-bulletin` sources | 8 |
 
 OEM manuals cover only the fields and variants explicitly supported by those documents. Their presence does not verify every field of a record. No record was promoted to `verified`.
 
@@ -42,7 +43,7 @@ These are structural/data-contract checks. They do not establish that every vehi
 
 ## 3. Sales-market status — corrected count
 
-The previous 2026-11-09 report stated 73 unresolved markets. Recounting the current 513-record snapshot directly gives **75 records whose `variant.market` remains unresolved**. All 75 have a matching `market` limitation. The count must therefore be corrected from 73 to 75; no market has been inferred from an assembly country.
+The previous 2026-11-09 report stated 73 unresolved markets. A direct recount found 75. After matching 34 records to explicit market-separated secondary catalog pages, those 34 `variant.market` fields were assigned with attached sources and explicit limitations. **41 records remain unresolved**. No market has been inferred from an assembly country.
 
 The 75 unresolved records break down as follows:
 
@@ -64,15 +65,10 @@ This audit does **not** resolve the 75 markets. A Drom page that identifies an a
 
 ## 4. Source-market text differences
 
-There are **5 records** where at least one `source.market` string differs textually from `variant.market`:
+There are **35 records** where at least one `source.market` string differs textually from `variant.market`. This is expected for records whose original source explicitly omitted the sales market or described assembly countries, while a separate market-specific catalog source now supports a market assignment. Every such record has an explicit `market` limitation preserving the provenance and the distinction between sales market and assembly.
 
-1. Record 7 — Mazda CX-5 KE, 2.0 MT Sport: variant says sales market unspecified and assembly Japan/Malaysia; source label uses a slightly different wording for the same assembly information.
-2. Record 8 — Mazda CX-5 KE, 2.0 AT Drive: variant says sales market unspecified and assembly Japan/Russia/Malaysia; source label uses a slightly different wording.
-3. Record 13 — Suzuki Grand Vitara JT, 2.4 AT, 3-door: both distinguish unspecified sales market from Japan assembly, but wording differs.
-4. Record 14 — Suzuki Grand Vitara JT, 2.4 AT, 5-door: same distinction as record 13.
-5. Record 477 — Mitsubishi Lancer CS Wagon: variant market is unspecified while one attached torque reference is labelled Russia. This needs source-scope review; a Russia-specific torque reference does not by itself establish the market of the complete vehicle variant.
+The separate [market evidence audit](pr-205-market-evidence-audit-2026-11-19.md) lists all 34 market assignments and the 41 unresolved records. The original source labels were retained rather than rewritten to imply that a generic source had identified a market.
 
-All five records have an explicit `market` limitation, so the schema validator accepts the discrepancy without silently normalizing it.
 
 ## 5. Family-level index entries
 
@@ -115,3 +111,13 @@ A separate case-by-case market-source check is recorded in [the market evidence 
 - **41** remain unresolved at the required confidence level: record 4 (Camry SE, strong USA candidate but year-span reconciliation pending), 27 broad/mixed-market records from 473 and 475–500, and 13 family index records 501–513.
 - Nissan Middle East OEM material supports the UAE-market Patrol Super Safari 4.8L/280hp relaunch in 2017. However, rows 180, 182, 183 and 184 currently start in 2004 while the market-specific catalog lists 280hp variants from February 2017. Correct their applicability dates or justify them with exact OEM documentation before merge. Row 180's manual-transmission applicability also needs reconciliation against Nissan Middle East's 2017 3-door launch announcement, which specifies a 5-speed automatic.
 - Do not treat country of assembly as sales market. Do not alter the pack's market fields until the market-specific scope is supported and the evidence is recorded.
+## 9. Market evidence follow-up (2026-11-19)
+
+A separate case-by-case market-source check is recorded in [the market evidence audit](pr-205-market-evidence-audit-2026-11-19.md).
+
+- **34** market fields are now assigned from exact market-separated Drom catalog pages (USA, Russia, South Korea, Europe or UAE). Matching sources are attached to each record. These are secondary-source assignments; all 513 records remain `partially-verified`.
+- **41** market fields remain unresolved: record 4 (Camry SE, strong USA candidate but year-span reconciliation pending), 27 broad/mixed-market records from 473 and 475–500, and 13 family index records 501–513.
+- Four Patrol Y61 TB48DE 280 hp rows (180, 182, 183, 184) have had their model-year ranges corrected from 2004–2017 to 2017–2024, based on the UAE-specific catalog and Nissan Middle East relaunch evidence. Exact gearbox applicability remains limited for rows 180, 183 and 184.
+- Total source references are now **725**: 707 secondary references, 10 OEM service manuals and 8 OEM bulletins.
+- 35 records have source-market text differences; all have explicit limitations preserving source scope.
+- Do not treat country of assembly as sales market. Do not promote any record to `verified` without field-specific primary-source confirmation.

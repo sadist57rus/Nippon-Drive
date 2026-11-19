@@ -24,6 +24,14 @@
           "market": "США",
           "scope": "Outlander 2004, раздел «Для США»: CU5W, 4G69, 2.4 AT XLS, FWD, 160 hp.",
           "accessedAt": "2026-11-19"
+        },
+        {
+          "label": "Mitsubishi Motors USA — 2004 Outlander XLS 2.4L official parts catalog",
+          "url": "https://parts.mitsubishicars.com/v-2004-mitsubishi-outlander--xls--2-4l-l4-gas/transmission--bearings",
+          "sourceType": "oem-parts-catalog",
+          "market": "США",
+          "scope": "Official Mitsubishi Motors USA parts catalog identifies the 2004 Outlander XLS 2.4L L4; supports US market and trim identity, not every variant-specific powertrain field.",
+          "accessedAt": "2026-11-19"
         }
       ],
       "limitations": [
@@ -690,6 +698,14 @@
           "sourceType": "secondary-reference",
           "market": "США",
           "scope": "CX-5 2014, раздел «Для США»: KE, PE-VPS, 2.0 MT Sport, FWD, 155 hp.",
+          "accessedAt": "2026-11-19"
+        },
+        {
+          "label": "Mazda North American Operations — 2014 CX-5 specifications",
+          "url": "https://news.mazdausa.com/download/2014-CX-5-Specifications.pdf",
+          "sourceType": "oem-bulletin",
+          "market": "США",
+          "scope": "Official 2014 US-market CX-5 specifications: Sport 2.0L 155 hp, SKYACTIV-MT 6-speed, FWD; matches this row's market and configuration.",
           "accessedAt": "2026-11-19"
         }
       ],

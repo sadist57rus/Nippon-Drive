@@ -214,3 +214,21 @@
 | `nissan-march-k12` | [nissan-march-k12.jpg](https://commons.wikimedia.org/wiki/File:NISSAN_MARCH_K12.jpg) | Nissan March K12, хэтчбек | TTTNIS | Public domain (author release) | локальный файл подключён к карточке |
 
 Десять изображений точных поколений Corolla Fielder E140, Civic FD/FN, Impreza GE/GH, Swift ZC11, Lexus IS XE20, Infiniti G V36, Mazda MPV LW и Nissan March K12 скачаны, проверены и оптимизированы для офлайн-каталога. ID моделей и технические данные не менялись.
+
+
+## Локальные фотографии Mazda3 BP, MPV LY3P, Corolla Levin, Cube и Toyota bB — пакет 10
+
+| Целевой ID каталога | Файл приложения | Модель / кузов | Автор | Лицензия | Статус |
+|---|---|---|---|---|---|
+| `mazda3-bp-fastback` | `mazda3-bp-fastback.jpg` | Mazda3 BP Fastback, 2019 | オーバードライブ83 | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `mazda3-bp-sedan` | `mazda3-bp-sedan.jpg` | Mazda3 BP Sedan, 2019 | Bindydad123 | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `mazda-mpv-ly3p-23c-2wd` | `mazda-mpv-ly3p.jpg` | Mazda MPV LY3P 2.3, 2007 | Vauxford | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-corolla-levin-ae86` | `toyota-corolla-levin-ae86.jpg` | Toyota Corolla Levin AE86 | crash71100 | CC0 1.0 | локальный файл подключён к карточке |
+| `toyota-corolla-levin-ae111` | `toyota-corolla-levin-ae111.jpg` | Toyota Corolla Levin AE111 BZ-R | OSX | Public domain (author release) | локальный файл подключён к карточке |
+| `nissan-cube-z10` | `nissan-cube-z10.jpg` | Nissan Cube Z10 Premium | Tokumeigakarinoaoshima | CC0 1.0 | локальный файл подключён к карточке |
+| `nissan-cube-z11` | `nissan-cube-z11.jpg` | Nissan Cube Z11, 2003 | Andrew Bone | CC BY 2.0 | локальный файл подключён к карточке |
+| `nissan-cube-z12` | `nissan-cube-z12.jpg` | Nissan Cube Z12 | M 93 | Attribution only (Commons permission statement) | локальный файл подключён к карточке |
+| `toyota-bb-ncp30` | `toyota-bb-ncp30.jpg` | Toyota bB NCP30, 2000–2003 | Mr.choppers | CC BY-SA 4.0 | локальный файл подключён к карточке |
+| `toyota-bb-qnc20` | `toyota-bb-qnc20.jpg` | Toyota bB QNC20 | Tokumeigakarinoaoshima | CC0 1.0 | локальный файл подключён к карточке |
+
+Десять локальных фотографий проверены как изображения, уменьшены до 1280 px по ширине и оптимизированы для офлайн-приложения. Каждая фотография привязана к существующему ID модели. Для моделей с одним подтверждённым снимком переключатель цвета не добавлялся; технические характеристики каталога не изменялись.

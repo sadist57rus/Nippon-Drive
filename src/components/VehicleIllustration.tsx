@@ -263,6 +263,67 @@ const VERIFIED_MODEL_IMAGES: Record<string, { src: string; alt: string; credit: 
     credit: 'Фото: TTTNIS, Wikimedia Commons, Public domain (author release); файл оптимизирован для приложения',
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:NISSAN_MARCH_K12.jpg',
   },
+
+  'mazda3-bp-fastback': {
+    src: '/assets/vehicles/mazda3-bp-fastback.jpg',
+    alt: 'Mazda3 BP, хэтчбек Fastback 2019 года',
+    credit: 'Фото: オーバードライブ83, Wikimedia Commons, CC BY-SA 4.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2019_Mazda3_Hatchback_2.0_BP_(20191219)_01.jpg',
+  },
+  'mazda3-bp-sedan': {
+    src: '/assets/vehicles/mazda3-bp-sedan.jpg',
+    alt: 'Mazda3 BP, седан 2019 года',
+    credit: 'Фото: Bindydad123, Wikimedia Commons, CC BY-SA 4.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2019_Mazda_3_Sedan_2.0_SkyActiv-G_High_Plus_(1).jpg',
+  },
+  'mazda-mpv-ly3p-23c-2wd': {
+    src: '/assets/vehicles/mazda-mpv-ly3p.jpg',
+    alt: 'Mazda MPV LY3P 2.3, минивэн 2007 года',
+    credit: 'Фото: Vauxford, Wikimedia Commons, CC BY-SA 4.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2007_Mazda_MPV_2.3_Front.jpg',
+  },
+  'toyota-corolla-levin-ae86': {
+    src: '/assets/vehicles/toyota-corolla-levin-ae86.jpg',
+    alt: 'Toyota Corolla Levin AE86, купе',
+    credit: 'Фото: crash71100, Wikimedia Commons, CC0 1.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Coupe_Levin_AE86.jpg',
+  },
+  'toyota-corolla-levin-ae111': {
+    src: '/assets/vehicles/toyota-corolla-levin-ae111.jpg',
+    alt: 'Toyota Corolla Levin AE111 BZ-R, купе',
+    credit: 'Фото: OSX, Wikimedia Commons, общественное достояние (разрешение автора)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:1997-2000_Toyota_Corolla_Levin_(AE111)_BZ-R_coupe_02.jpg',
+  },
+  'nissan-cube-z10': {
+    src: '/assets/vehicles/nissan-cube-z10.jpg',
+    alt: 'Nissan Cube Z10 Premium',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC0 1.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_CUBE_PREMIUM_(Z10)_front.JPG',
+  },
+  'nissan-cube-z11': {
+    src: '/assets/vehicles/nissan-cube-z11.jpg',
+    alt: 'Nissan Cube Z11, 2003 год',
+    credit: 'Фото: Andrew Bone, Wikimedia Commons, CC BY 2.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_Cube_Z11_(2003).jpg',
+  },
+  'nissan-cube-z12': {
+    src: '/assets/vehicles/nissan-cube-z12.jpg',
+    alt: 'Nissan Cube Z12, вид спереди',
+    credit: 'Фото: M 93, Wikimedia Commons, разрешение на использование с указанием авторства',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Nissan_Cube_(Z12)_%E2%80%93_Frontansicht,_12._M%C3%A4rz_2011,_D%C3%BCsseldorf.jpg',
+  },
+  'toyota-bb-ncp30': {
+    src: '/assets/vehicles/toyota-bb-ncp30.jpg',
+    alt: 'Toyota bB NCP30, чёрный компактвэн',
+    credit: 'Фото: Mr.choppers, Wikimedia Commons, CC BY-SA 4.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:2000-2003_Toyota_bB_in_Black,_front_left.jpg',
+  },
+  'toyota-bb-qnc20': {
+    src: '/assets/vehicles/toyota-bb-qnc20.jpg',
+    alt: 'Toyota bB QNC20, заниженный компактвэн',
+    credit: 'Фото: Tokumeigakarinoaoshima, Wikimedia Commons, CC0 1.0',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:The_frontview_of_Toyota_bB_(QNC20)_with_body_lowered.JPG',
+  },
 };
 
 export default function VehicleIllustration({

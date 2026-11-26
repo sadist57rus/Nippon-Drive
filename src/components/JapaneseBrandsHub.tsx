@@ -570,6 +570,42 @@ export default function JapaneseBrandsHub({
             </div>
           </div>
 
+          {currentModel.variants?.length ? (
+            <section className="mt-4 rounded-xl border border-slate-200 dark:border-slate-700 p-4 space-y-3">
+              <div className="flex items-center justify-between gap-3">
+                <h3 className="text-sm font-bold text-slate-900 dark:text-white">Параметры точных комплектаций</h3>
+                <span className="text-[10px] text-slate-500 dark:text-slate-400">Значения не распространяются на другие версии</span>
+              </div>
+              {currentModel.variants.map((variant) => (
+                <div key={variant.id || variant.bodyCode || variant.trimOrGrade} className="rounded-lg bg-slate-50 dark:bg-slate-900/70 p-3 space-y-2">
+                  <div className="text-xs font-bold text-slate-900 dark:text-white">
+                    {[variant.trimOrGrade, variant.bodyCode, variant.market, variant.modelYearFrom && variant.modelYearTo ? `${variant.modelYearFrom}–${variant.modelYearTo}` : undefined].filter(Boolean).join(' · ')}
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-2 text-xs">
+                    {variant.engineCode && <div><span className="block text-slate-500 dark:text-slate-400">Двигатель</span><b>{variant.engineCode}</b></div>}
+                    {variant.transmissionType && <div><span className="block text-slate-500 dark:text-slate-400">Коробка</span><b>{{ MT: 'МКПП', AT: 'АКПП', CVT: 'Вариатор', DCT: 'Робот DCT', AMT: 'Робот AMT', 'EV-reduction': 'Редуктор', other: 'Другая' }[variant.transmissionType]}</b></div>}
+                    {variant.drivetrain && <div><span className="block text-slate-500 dark:text-slate-400">Привод</span><b>{variant.drivetrain}</b></div>}
+                    {variant.dimensions && <div><span className="block text-slate-500 dark:text-slate-400">Кузов Д×Ш×В</span><b>{[variant.dimensions.length, variant.dimensions.width, variant.dimensions.height].map(v => formatKnownDimension(v)).join(' × ')} мм</b></div>}
+                    {variant.interiorDimensions && <div><span className="block text-slate-500 dark:text-slate-400">Салон Д×Ш×В</span><b>{[variant.interiorDimensions.lengthMm, variant.interiorDimensions.widthMm, variant.interiorDimensions.heightMm].map(v => formatKnownDimension(v)).join(' × ')} мм</b></div>}
+                    {variant.dimensions?.wheelbase && <div><span className="block text-slate-500 dark:text-slate-400">Колёсная база</span><b>{formatKnownDimension(variant.dimensions.wheelbase, ' мм')}</b></div>}
+                    {variant.dimensions?.groundClearance && <div><span className="block text-slate-500 dark:text-slate-400">Клиренс</span><b>{formatKnownDimension(variant.dimensions.groundClearance, ' мм')}</b></div>}
+                    {variant.trackFrontMm && <div><span className="block text-slate-500 dark:text-slate-400">Колея передняя / задняя</span><b>{variant.trackFrontMm} / {formatKnownDimension(variant.trackRearMm, ' мм')}</b></div>}
+                    {variant.turningRadiusM && <div><span className="block text-slate-500 dark:text-slate-400">Радиус разворота</span><b>{variant.turningRadiusM.toLocaleString('ru-RU')} м</b></div>}
+                    {variant.curbWeightKg && <div><span className="block text-slate-500 dark:text-slate-400">Снаряжённая масса</span><b>{formatKnownDimension(variant.curbWeightKg, ' кг')}</b></div>}
+                    {variant.fuelTankLiters && <div><span className="block text-slate-500 dark:text-slate-400">Топливный бак</span><b>{formatKnownDimension(variant.fuelTankLiters, ' л')}</b></div>}
+                    {variant.luggageVolumeLiters && <div><span className="block text-slate-500 dark:text-slate-400">Багажник</span><b>{formatKnownDimension(variant.luggageVolumeLiters, ' л')}</b></div>}
+                    {variant.tireSizes?.length ? <div><span className="block text-slate-500 dark:text-slate-400">Шины</span><b>{variant.tireSizes.join(' / ')}</b></div> : null}
+                    {variant.rimSize && <div><span className="block text-slate-500 dark:text-slate-400">Диски</span><b>{variant.rimSize}</b></div>}
+                    {variant.fuelEconomy?.combined && <div><span className="block text-slate-500 dark:text-slate-400">Расход смешанный</span><b>{variant.fuelEconomy.combined}</b></div>}
+                    {variant.acceleration0To100Sec && <div><span className="block text-slate-500 dark:text-slate-400">0–100 км/ч</span><b>{variant.acceleration0To100Sec.toLocaleString('ru-RU')} с</b></div>}
+                    {variant.maxSpeedKmh && <div><span className="block text-slate-500 dark:text-slate-400">Максимальная скорость</span><b>{variant.maxSpeedKmh} км/ч</b></div>}
+                  </div>
+                  {variant.notes && <p className="text-[11px] leading-relaxed text-slate-600 dark:text-slate-400">{variant.notes}</p>}
+                </div>
+              ))}
+            </section>
+          ) : null}
+
           {/* Sub Navigation Tabs for the selected Model */}
           <div className="flex items-center gap-1 p-2 bg-slate-50 dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 overflow-x-auto text-xs">
             {[
